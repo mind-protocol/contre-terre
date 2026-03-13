@@ -38,21 +38,45 @@ Tension entre deux approches de la perception sismique :
 - **L'Écouteur** écoute le présent — entraîné à percevoir les séismes avant les instruments
 - **Le Prédicteur** sent le futur — son corps prédit par le tremens, mais la science refuse cette connaissance
 
-### Question : Le Leadership
-Le leadership est-il fixe (Senzo du début à sa mort) ou change-t-il avec la profondeur géologique ? Chaque couche pourrait demander un leader différent selon les compétences requises.
-
-### Assignations (à compléter)
-
-| Personnage | Métiers |
-|-----------|---------|
-| Senzo | Leader d'équipe, + ? |
-| Nandi | Prédictrice des séismes, + ? |
-| Thabo | Spéléologue (?), + ? |
-| Sihle | ? |
-| Enama | ? |
-| Jabu | Spécialiste des océans (?), + ? |
-| Inyoni | ? |
+### Le Leadership
+Le leadership est fixe : Senzo mène du départ à sa mort (Ch. IV). Après, personne ne le remplace — le volcan mène, pas un humain. Le groupe subit la route au lieu de la choisir.
 
 ---
 
-*Dernière mise à jour : 14 février 2026*
+## Assignations
+
+Source de vérité : `SQUELETTE.md`
+
+| Personnage | Métiers | Mort | Compétences perdues |
+|-----------|---------|------|---------------------|
+| **Senzo** | Chef d'expédition (#12), Cartographe (#7) | Ch. IV — Glissement | Plus de décisions de route, plus de cartes |
+| **Sihle** | Séismo-auditeur (#8), Météorologue (#1), Mineur (#4) | Ch. V — Chute | Plus de lecture instrumentale, plus de prévisions atmo, plus d'excavation |
+| **Jabu** | Spécialiste océanique (#2), Spéléologue (#14) | Ch. V — Noyade | Plus de navigation hydro, plus de spéléologie |
+| **Enama** | Biologiste (#3), Cuisinière (#13), Survivaliste (#10) | Ch. VI — Lave | Plus de lecture des écosystèmes, plus de préparation alimentaire, plus de techniques de survie |
+| **Thabo** | Aéromaître (#15), Géologue (#6) | Ch. VII — Enseveli | Plus de lecture de l'air (O2 critique), plus de géologie |
+| **Inyoni** | Grimpeuse (#11), Explosiviste (#5) | Ch. VII — Ensevelie | Plus d'escalade, plus d'explosiviste principal → Nandi backup |
+| **Nandi** | Prédictrice (#9), Explosiviste backup (#5) | Ch. VIII — Détonation | Dernière survivante. Active la charge en backup. |
+
+### Cascade de compétences
+
+```
+Ch. IV : Senzo meurt    → 13/15 métiers couverts (perte: chef, cartographe)
+Ch. V  : Sihle + Jabu   → 8/15 métiers couverts (perte: séismo-auditeur, météo, mineur, océan, spéléo)
+Ch. VI : Enama meurt     → 5/15 métiers couverts (perte: biologiste, cuisinière, survie)
+Ch. VII: Thabo + Inyoni  → 2/15 métiers couverts (perte: aéromaître, géologue, grimpeuse, explosiviste)
+Ch. VIII: Nandi seule    → 2/15 métiers (prédictrice + explosiviste backup)
+```
+
+### Métiers non encore montrés en prose (Ch. I–IV)
+
+Les métiers suivants doivent apparaître avant la mort de leur porteur :
+
+- **Météorologue** (Sihle) — doit être montré Ch. V avant sa mort
+- **Mineur** (Sihle) — doit être montré Ch. V avant sa mort
+- **Explosiviste** (Inyoni) — doit être montré avant Ch. VII
+- **Survivaliste** (Enama) — partiellement montré (racines Ch. I), renforcer Ch. V-VI
+- **Cuisinier** (Enama) — partiellement montré (bouillie Ch. I), renforcer Ch. V-VI
+
+---
+
+*Dernière mise à jour : 11 mars 2026 — aligné sur SQUELETTE.md*

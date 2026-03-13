@@ -1,3 +1,6 @@
 # Mind runtime
 .mind/runtime/
 .env
+
+# Export data
+data/

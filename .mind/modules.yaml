@@ -61,4 +61,75 @@ modules:
 #   notes: |
 #     Core type definitions. Changes affect entire codebase.
 
-# Add more modules as they emerge...
+  contact:
+    code: "CONTACT.md"
+    docs: "docs/worldbuilding/contact/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - seismique
+      - personnages
+    notes: |
+      Systeme du langage tactile. 5 modes, idiolectes, mort linguistique.
+
+  seismique:
+    code: "MONDE.md"
+    docs: "docs/worldbuilding/seismique/"
+    maturity: DESIGNING
+    owner: agent
+    notes: |
+      Tremens permanent, magnitudes, cataclysmes. Cause du Contact.
+
+  geographie:
+    code: "MONDE.md"
+    docs: "docs/worldbuilding/geographie/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - seismique
+    notes: |
+      8 couches geologiques, element-tueur par couche, verticalite.
+
+  personnages:
+    code: "PERSONNAGES.md"
+    docs: "docs/narration/personnages/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - contact
+      - metiers
+    notes: |
+      7 personnages, arcs, dynamiques, idiolectes de paire, ordre de mort.
+
+  structure:
+    code: "STRUCTURE.md"
+    docs: "docs/narration/structure/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - geographie
+      - personnages
+    notes: |
+      8 chapitres, scenes cles, influences, courbes paralleles.
+
+  metiers:
+    code: "METIERS.md"
+    docs: "docs/narration/metiers/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - personnages
+    notes: |
+      15 metiers, cascade de competences, assignations, doublon explosifs.
+
+  visual_style:
+    docs: "docs/publication/visual_style/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - structure
+      - contact
+      - geographie
+    notes: |
+      Identite visuelle : palette textuelle (8 chapitres), couverture,
+      infographie, separateurs. Deux directions en attente de validation.
