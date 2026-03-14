@@ -1,29 +1,2954 @@
 # Repository Map: contre-terre
 
-*Generated: 2026-03-12 08:39*
+*Generated: 2026-03-14 17:48*
 
-## Statistics
+- **Files:** 2063
+- **Directories:** 1035
+- **Total Size:** 43.6M
+- **Doc Files:** 1988
+- **Code Files:** 7
+- **Areas:** 4 (docs/ subfolders)
+- **Modules:** 16 (subfolders in areas)
+- **DOCS Links:** 0 (0.0 avg per code file)
 
-- **Files:** 62
-- **Directories:** 12
-- **Total Size:** 784.1K
-- **Doc Files:** 62
-- **Code Files:** 0
-- **Areas:** 2 (docs/ subfolders)
-- **Modules:** 6 (subfolders in areas)
-- **DOCS Links:** 0 (0 avg per code file)
-
-### By Language
-
-- markdown: 62
-
-## File Tree
+- markdown: 1988
+- python: 7
 
 ```
-├── citizens/ (3.7K)
-│   └── solen/ (3.7K)
-│       └── CLAUDE.md (3.7K)
-├── docs/ (461.9K)
+├── citizens/ (97.9K)
+│   ├── anathi/ (1.2K)
+│   │   └── CLAUDE.md (1.2K)
+│   ├── andile/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── anele/ (970)
+│   │   └── CLAUDE.md (970)
+│   ├── ayanda/ (968)
+│   │   └── CLAUDE.md (968)
+│   ├── ayize/ (752)
+│   │   └── CLAUDE.md (752)
+│   ├── bhekani/ (855)
+│   │   └── CLAUDE.md (855)
+│   ├── bhekumuzi/ (930)
+│   │   └── CLAUDE.md (930)
+│   ├── bonginkosi/ (892)
+│   │   └── CLAUDE.md (892)
+│   ├── bongiwe/ (874)
+│   │   └── CLAUDE.md (874)
+│   ├── buhle_sud/ (865)
+│   │   └── CLAUDE.md (865)
+│   ├── buhle_sudouest/ (876)
+│   │   └── CLAUDE.md (876)
+│   ├── busisiwe_centresud/ (872)
+│   │   └── CLAUDE.md (872)
+│   ├── busisiwe_ouest/ (790)
+│   │   └── CLAUDE.md (790)
+│   ├── buyiswa/ (848)
+│   │   └── CLAUDE.md (848)
+│   ├── dumisa_nord/ (839)
+│   │   └── CLAUDE.md (839)
+│   ├── dumisa_nordest/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── dumisile/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── fikile/ (812)
+│   │   └── CLAUDE.md (812)
+│   ├── fundiswa/ (896)
+│   │   └── CLAUDE.md (896)
+│   ├── gcina/ (981)
+│   │   └── CLAUDE.md (981)
+│   ├── gugu/ (839)
+│   │   └── CLAUDE.md (839)
+│   ├── khanya/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── khanyisile/ (884)
+│   │   └── CLAUDE.md (884)
+│   ├── khanyiso/ (883)
+│   │   └── CLAUDE.md (883)
+│   ├── lethiwe/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── lindelwa/ (962)
+│   │   └── CLAUDE.md (962)
+│   ├── lindiwe_sud/ (827)
+│   │   └── CLAUDE.md (827)
+│   ├── lindiwe_sudouest/ (952)
+│   │   └── CLAUDE.md (952)
+│   ├── lindokuhle/ (853)
+│   │   └── CLAUDE.md (853)
+│   ├── lungelo/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── lungile_est/ (998)
+│   │   └── CLAUDE.md (998)
+│   ├── lungile_nord/ (823)
+│   │   └── CLAUDE.md (823)
+│   ├── luthando/ (848)
+│   │   └── CLAUDE.md (848)
+│   ├── mandla_sourds/ (778)
+│   │   └── CLAUDE.md (778)
+│   ├── mandla_sud/ (863)
+│   │   └── CLAUDE.md (863)
+│   ├── mandlenkosi/ (905)
+│   │   └── CLAUDE.md (905)
+│   ├── mbalenhle/ (884)
+│   │   └── CLAUDE.md (884)
+│   ├── mbuso/ (820)
+│   │   └── CLAUDE.md (820)
+│   ├── mfundo/ (936)
+│   │   └── CLAUDE.md (936)
+│   ├── mqondisi/ (1.2K)
+│   │   └── CLAUDE.md (1.2K)
+│   ├── mthokozisi/ (856)
+│   │   └── CLAUDE.md (856)
+│   ├── mthunzi/ (976)
+│   │   └── CLAUDE.md (976)
+│   ├── mzamo/ (917)
+│   │   └── CLAUDE.md (917)
+│   ├── nokwanda/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── nolwazi_ouest/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── nolwazi_sourds/ (876)
+│   │   └── CLAUDE.md (876)
+│   ├── nomalanga_nordest/ (934)
+│   │   └── CLAUDE.md (934)
+│   ├── nomalanga_sud/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── nomalanga_sudouest/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── nomathemba/ (870)
+│   │   └── CLAUDE.md (870)
+│   ├── nombuso_nordest/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── nombuso_sudouest/ (988)
+│   │   └── CLAUDE.md (988)
+│   ├── nomvula_est/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── nomvula_sud/ (797)
+│   │   └── CLAUDE.md (797)
+│   ├── nonhle/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── nosipho_centresud/ (844)
+│   │   └── CLAUDE.md (844)
+│   ├── nosipho_sud/ (883)
+│   │   └── CLAUDE.md (883)
+│   ├── noxolo/ (1.2K)
+│   │   └── CLAUDE.md (1.2K)
+│   ├── nqobile/ (956)
+│   │   └── CLAUDE.md (956)
+│   ├── ntombi_centresud/ (895)
+│   │   └── CLAUDE.md (895)
+│   ├── ntombi_nord/ (838)
+│   │   └── CLAUDE.md (838)
+│   ├── ntombizodwa/ (952)
+│   │   └── CLAUDE.md (952)
+│   ├── phila/ (877)
+│   │   └── CLAUDE.md (877)
+│   ├── phiwokuhle/ (844)
+│   │   └── CLAUDE.md (844)
+│   ├── qhawe/ (900)
+│   │   └── CLAUDE.md (900)
+│   ├── sandile_ouest/ (878)
+│   │   └── CLAUDE.md (878)
+│   ├── sandile_sudouest/ (984)
+│   │   └── CLAUDE.md (984)
+│   ├── sibusiso/ (879)
+│   │   └── CLAUDE.md (879)
+│   ├── sindiswa/ (883)
+│   │   └── CLAUDE.md (883)
+│   ├── siphamandla_nordest/ (787)
+│   │   └── CLAUDE.md (787)
+│   ├── siphamandla_sud/ (826)
+│   │   └── CLAUDE.md (826)
+│   ├── siphelele/ (863)
+│   │   └── CLAUDE.md (863)
+│   ├── sisanda/ (733)
+│   │   └── CLAUDE.md (733)
+│   ├── siyabonga_est/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── siyabonga_sud/ (946)
+│   │   └── CLAUDE.md (946)
+│   ├── sizwe_est/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── sizwe_ouest/ (819)
+│   │   └── CLAUDE.md (819)
+│   ├── solen/ (3.7K)
+│   │   └── CLAUDE.md (3.7K)
+│   ├── thandeka_est/ (907)
+│   │   └── CLAUDE.md (907)
+│   ├── thandeka_sud/ (891)
+│   │   └── CLAUDE.md (891)
+│   ├── thandeka_sudouest/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── thandiwe/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── thembekile/ (905)
+│   │   └── CLAUDE.md (905)
+│   ├── thokozile/ (953)
+│   │   └── CLAUDE.md (953)
+│   ├── thulani_centresud/ (861)
+│   │   └── CLAUDE.md (861)
+│   ├── thulani_sud/ (858)
+│   │   └── CLAUDE.md (858)
+│   ├── velile/ (912)
+│   │   └── CLAUDE.md (912)
+│   ├── vusi/ (954)
+│   │   └── CLAUDE.md (954)
+│   ├── vusumuzi/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── vuyelwa/ (956)
+│   │   └── CLAUDE.md (956)
+│   ├── wakhile/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── xolani_est/ (1.0K)
+│   │   └── CLAUDE.md (1.0K)
+│   ├── xolani_ouest/ (859)
+│   │   └── CLAUDE.md (859)
+│   ├── zandile/ (910)
+│   │   └── CLAUDE.md (910)
+│   ├── zanele_centresud/ (888)
+│   │   └── CLAUDE.md (888)
+│   ├── zanele_sud/ (954)
+│   │   └── CLAUDE.md (954)
+│   ├── zinhle/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── zintle/ (1.1K)
+│   │   └── CLAUDE.md (1.1K)
+│   ├── zodwa/ (817)
+│   │   └── CLAUDE.md (817)
+│   ├── zoleka_nordest/ (904)
+│   │   └── CLAUDE.md (904)
+│   ├── zoleka_ouest/ (939)
+│   │   └── CLAUDE.md (939)
+│   └── zoleka_sudouest/ (1.1K)
+│       └── CLAUDE.md (1.1K)
+├── contre-terre/ (43.1M)
+│   ├── citizens/ (97.9K)
+│   │   ├── anathi/ (1.2K)
+│   │   │   └── CLAUDE.md (1.2K)
+│   │   ├── andile/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── anele/ (970)
+│   │   │   └── CLAUDE.md (970)
+│   │   ├── ayanda/ (968)
+│   │   │   └── CLAUDE.md (968)
+│   │   ├── ayize/ (752)
+│   │   │   └── CLAUDE.md (752)
+│   │   ├── bhekani/ (855)
+│   │   │   └── CLAUDE.md (855)
+│   │   ├── bhekumuzi/ (930)
+│   │   │   └── CLAUDE.md (930)
+│   │   ├── bonginkosi/ (892)
+│   │   │   └── CLAUDE.md (892)
+│   │   ├── bongiwe/ (874)
+│   │   │   └── CLAUDE.md (874)
+│   │   ├── buhle_sud/ (865)
+│   │   │   └── CLAUDE.md (865)
+│   │   ├── buhle_sudouest/ (876)
+│   │   │   └── CLAUDE.md (876)
+│   │   ├── busisiwe_centresud/ (872)
+│   │   │   └── CLAUDE.md (872)
+│   │   ├── busisiwe_ouest/ (790)
+│   │   │   └── CLAUDE.md (790)
+│   │   ├── buyiswa/ (848)
+│   │   │   └── CLAUDE.md (848)
+│   │   ├── dumisa_nord/ (839)
+│   │   │   └── CLAUDE.md (839)
+│   │   ├── dumisa_nordest/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── dumisile/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── fikile/ (812)
+│   │   │   └── CLAUDE.md (812)
+│   │   ├── fundiswa/ (896)
+│   │   │   └── CLAUDE.md (896)
+│   │   ├── gcina/ (981)
+│   │   │   └── CLAUDE.md (981)
+│   │   ├── gugu/ (839)
+│   │   │   └── CLAUDE.md (839)
+│   │   ├── khanya/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── khanyisile/ (884)
+│   │   │   └── CLAUDE.md (884)
+│   │   ├── khanyiso/ (883)
+│   │   │   └── CLAUDE.md (883)
+│   │   ├── lethiwe/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── lindelwa/ (962)
+│   │   │   └── CLAUDE.md (962)
+│   │   ├── lindiwe_sud/ (827)
+│   │   │   └── CLAUDE.md (827)
+│   │   ├── lindiwe_sudouest/ (952)
+│   │   │   └── CLAUDE.md (952)
+│   │   ├── lindokuhle/ (853)
+│   │   │   └── CLAUDE.md (853)
+│   │   ├── lungelo/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── lungile_est/ (998)
+│   │   │   └── CLAUDE.md (998)
+│   │   ├── lungile_nord/ (823)
+│   │   │   └── CLAUDE.md (823)
+│   │   ├── luthando/ (848)
+│   │   │   └── CLAUDE.md (848)
+│   │   ├── mandla_sourds/ (778)
+│   │   │   └── CLAUDE.md (778)
+│   │   ├── mandla_sud/ (863)
+│   │   │   └── CLAUDE.md (863)
+│   │   ├── mandlenkosi/ (905)
+│   │   │   └── CLAUDE.md (905)
+│   │   ├── mbalenhle/ (884)
+│   │   │   └── CLAUDE.md (884)
+│   │   ├── mbuso/ (820)
+│   │   │   └── CLAUDE.md (820)
+│   │   ├── mfundo/ (936)
+│   │   │   └── CLAUDE.md (936)
+│   │   ├── mqondisi/ (1.2K)
+│   │   │   └── CLAUDE.md (1.2K)
+│   │   ├── mthokozisi/ (856)
+│   │   │   └── CLAUDE.md (856)
+│   │   ├── mthunzi/ (976)
+│   │   │   └── CLAUDE.md (976)
+│   │   ├── mzamo/ (917)
+│   │   │   └── CLAUDE.md (917)
+│   │   ├── nokwanda/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── nolwazi_ouest/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── nolwazi_sourds/ (876)
+│   │   │   └── CLAUDE.md (876)
+│   │   ├── nomalanga_nordest/ (934)
+│   │   │   └── CLAUDE.md (934)
+│   │   ├── nomalanga_sud/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── nomalanga_sudouest/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── nomathemba/ (870)
+│   │   │   └── CLAUDE.md (870)
+│   │   ├── nombuso_nordest/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── nombuso_sudouest/ (988)
+│   │   │   └── CLAUDE.md (988)
+│   │   ├── nomvula_est/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── nomvula_sud/ (797)
+│   │   │   └── CLAUDE.md (797)
+│   │   ├── nonhle/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── nosipho_centresud/ (844)
+│   │   │   └── CLAUDE.md (844)
+│   │   ├── nosipho_sud/ (883)
+│   │   │   └── CLAUDE.md (883)
+│   │   ├── noxolo/ (1.2K)
+│   │   │   └── CLAUDE.md (1.2K)
+│   │   ├── nqobile/ (956)
+│   │   │   └── CLAUDE.md (956)
+│   │   ├── ntombi_centresud/ (895)
+│   │   │   └── CLAUDE.md (895)
+│   │   ├── ntombi_nord/ (838)
+│   │   │   └── CLAUDE.md (838)
+│   │   ├── ntombizodwa/ (952)
+│   │   │   └── CLAUDE.md (952)
+│   │   ├── phila/ (877)
+│   │   │   └── CLAUDE.md (877)
+│   │   ├── phiwokuhle/ (844)
+│   │   │   └── CLAUDE.md (844)
+│   │   ├── qhawe/ (900)
+│   │   │   └── CLAUDE.md (900)
+│   │   ├── sandile_ouest/ (878)
+│   │   │   └── CLAUDE.md (878)
+│   │   ├── sandile_sudouest/ (984)
+│   │   │   └── CLAUDE.md (984)
+│   │   ├── sibusiso/ (879)
+│   │   │   └── CLAUDE.md (879)
+│   │   ├── sindiswa/ (883)
+│   │   │   └── CLAUDE.md (883)
+│   │   ├── siphamandla_nordest/ (787)
+│   │   │   └── CLAUDE.md (787)
+│   │   ├── siphamandla_sud/ (826)
+│   │   │   └── CLAUDE.md (826)
+│   │   ├── siphelele/ (863)
+│   │   │   └── CLAUDE.md (863)
+│   │   ├── sisanda/ (733)
+│   │   │   └── CLAUDE.md (733)
+│   │   ├── siyabonga_est/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── siyabonga_sud/ (946)
+│   │   │   └── CLAUDE.md (946)
+│   │   ├── sizwe_est/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── sizwe_ouest/ (819)
+│   │   │   └── CLAUDE.md (819)
+│   │   ├── solen/ (3.7K)
+│   │   │   └── CLAUDE.md (3.7K)
+│   │   ├── thandeka_est/ (907)
+│   │   │   └── CLAUDE.md (907)
+│   │   ├── thandeka_sud/ (891)
+│   │   │   └── CLAUDE.md (891)
+│   │   ├── thandeka_sudouest/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── thandiwe/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── thembekile/ (905)
+│   │   │   └── CLAUDE.md (905)
+│   │   ├── thokozile/ (953)
+│   │   │   └── CLAUDE.md (953)
+│   │   ├── thulani_centresud/ (861)
+│   │   │   └── CLAUDE.md (861)
+│   │   ├── thulani_sud/ (858)
+│   │   │   └── CLAUDE.md (858)
+│   │   ├── velile/ (912)
+│   │   │   └── CLAUDE.md (912)
+│   │   ├── vusi/ (954)
+│   │   │   └── CLAUDE.md (954)
+│   │   ├── vusumuzi/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── vuyelwa/ (956)
+│   │   │   └── CLAUDE.md (956)
+│   │   ├── wakhile/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── xolani_est/ (1.0K)
+│   │   │   └── CLAUDE.md (1.0K)
+│   │   ├── xolani_ouest/ (859)
+│   │   │   └── CLAUDE.md (859)
+│   │   ├── zandile/ (910)
+│   │   │   └── CLAUDE.md (910)
+│   │   ├── zanele_centresud/ (888)
+│   │   │   └── CLAUDE.md (888)
+│   │   ├── zanele_sud/ (954)
+│   │   │   └── CLAUDE.md (954)
+│   │   ├── zinhle/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── zintle/ (1.1K)
+│   │   │   └── CLAUDE.md (1.1K)
+│   │   ├── zodwa/ (817)
+│   │   │   └── CLAUDE.md (817)
+│   │   ├── zoleka_nordest/ (904)
+│   │   │   └── CLAUDE.md (904)
+│   │   ├── zoleka_ouest/ (939)
+│   │   │   └── CLAUDE.md (939)
+│   │   └── zoleka_sudouest/ (1.1K)
+│   │       └── CLAUDE.md (1.1K)
+│   ├── contre-terre/ (37.6M)
+│   │   ├── citizens/ (97.9K)
+│   │   │   ├── anathi/ (1.2K)
+│   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   ├── andile/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── anele/ (970)
+│   │   │   │   └── CLAUDE.md (970)
+│   │   │   ├── ayanda/ (968)
+│   │   │   │   └── CLAUDE.md (968)
+│   │   │   ├── ayize/ (752)
+│   │   │   │   └── CLAUDE.md (752)
+│   │   │   ├── bhekani/ (855)
+│   │   │   │   └── CLAUDE.md (855)
+│   │   │   ├── bhekumuzi/ (930)
+│   │   │   │   └── CLAUDE.md (930)
+│   │   │   ├── bonginkosi/ (892)
+│   │   │   │   └── CLAUDE.md (892)
+│   │   │   ├── bongiwe/ (874)
+│   │   │   │   └── CLAUDE.md (874)
+│   │   │   ├── buhle_sud/ (865)
+│   │   │   │   └── CLAUDE.md (865)
+│   │   │   ├── buhle_sudouest/ (876)
+│   │   │   │   └── CLAUDE.md (876)
+│   │   │   ├── busisiwe_centresud/ (872)
+│   │   │   │   └── CLAUDE.md (872)
+│   │   │   ├── busisiwe_ouest/ (790)
+│   │   │   │   └── CLAUDE.md (790)
+│   │   │   ├── buyiswa/ (848)
+│   │   │   │   └── CLAUDE.md (848)
+│   │   │   ├── dumisa_nord/ (839)
+│   │   │   │   └── CLAUDE.md (839)
+│   │   │   ├── dumisa_nordest/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── dumisile/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── fikile/ (812)
+│   │   │   │   └── CLAUDE.md (812)
+│   │   │   ├── fundiswa/ (896)
+│   │   │   │   └── CLAUDE.md (896)
+│   │   │   ├── gcina/ (981)
+│   │   │   │   └── CLAUDE.md (981)
+│   │   │   ├── gugu/ (839)
+│   │   │   │   └── CLAUDE.md (839)
+│   │   │   ├── khanya/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── khanyisile/ (884)
+│   │   │   │   └── CLAUDE.md (884)
+│   │   │   ├── khanyiso/ (883)
+│   │   │   │   └── CLAUDE.md (883)
+│   │   │   ├── lethiwe/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── lindelwa/ (962)
+│   │   │   │   └── CLAUDE.md (962)
+│   │   │   ├── lindiwe_sud/ (827)
+│   │   │   │   └── CLAUDE.md (827)
+│   │   │   ├── lindiwe_sudouest/ (952)
+│   │   │   │   └── CLAUDE.md (952)
+│   │   │   ├── lindokuhle/ (853)
+│   │   │   │   └── CLAUDE.md (853)
+│   │   │   ├── lungelo/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── lungile_est/ (998)
+│   │   │   │   └── CLAUDE.md (998)
+│   │   │   ├── lungile_nord/ (823)
+│   │   │   │   └── CLAUDE.md (823)
+│   │   │   ├── luthando/ (848)
+│   │   │   │   └── CLAUDE.md (848)
+│   │   │   ├── mandla_sourds/ (778)
+│   │   │   │   └── CLAUDE.md (778)
+│   │   │   ├── mandla_sud/ (863)
+│   │   │   │   └── CLAUDE.md (863)
+│   │   │   ├── mandlenkosi/ (905)
+│   │   │   │   └── CLAUDE.md (905)
+│   │   │   ├── mbalenhle/ (884)
+│   │   │   │   └── CLAUDE.md (884)
+│   │   │   ├── mbuso/ (820)
+│   │   │   │   └── CLAUDE.md (820)
+│   │   │   ├── mfundo/ (936)
+│   │   │   │   └── CLAUDE.md (936)
+│   │   │   ├── mqondisi/ (1.2K)
+│   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   ├── mthokozisi/ (856)
+│   │   │   │   └── CLAUDE.md (856)
+│   │   │   ├── mthunzi/ (976)
+│   │   │   │   └── CLAUDE.md (976)
+│   │   │   ├── mzamo/ (917)
+│   │   │   │   └── CLAUDE.md (917)
+│   │   │   ├── nokwanda/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── nolwazi_ouest/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── nolwazi_sourds/ (876)
+│   │   │   │   └── CLAUDE.md (876)
+│   │   │   ├── nomalanga_nordest/ (934)
+│   │   │   │   └── CLAUDE.md (934)
+│   │   │   ├── nomalanga_sud/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── nomalanga_sudouest/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── nomathemba/ (870)
+│   │   │   │   └── CLAUDE.md (870)
+│   │   │   ├── nombuso_nordest/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── nombuso_sudouest/ (988)
+│   │   │   │   └── CLAUDE.md (988)
+│   │   │   ├── nomvula_est/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── nomvula_sud/ (797)
+│   │   │   │   └── CLAUDE.md (797)
+│   │   │   ├── nonhle/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── nosipho_centresud/ (844)
+│   │   │   │   └── CLAUDE.md (844)
+│   │   │   ├── nosipho_sud/ (883)
+│   │   │   │   └── CLAUDE.md (883)
+│   │   │   ├── noxolo/ (1.2K)
+│   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   ├── nqobile/ (956)
+│   │   │   │   └── CLAUDE.md (956)
+│   │   │   ├── ntombi_centresud/ (895)
+│   │   │   │   └── CLAUDE.md (895)
+│   │   │   ├── ntombi_nord/ (838)
+│   │   │   │   └── CLAUDE.md (838)
+│   │   │   ├── ntombizodwa/ (952)
+│   │   │   │   └── CLAUDE.md (952)
+│   │   │   ├── phila/ (877)
+│   │   │   │   └── CLAUDE.md (877)
+│   │   │   ├── phiwokuhle/ (844)
+│   │   │   │   └── CLAUDE.md (844)
+│   │   │   ├── qhawe/ (900)
+│   │   │   │   └── CLAUDE.md (900)
+│   │   │   ├── sandile_ouest/ (878)
+│   │   │   │   └── CLAUDE.md (878)
+│   │   │   ├── sandile_sudouest/ (984)
+│   │   │   │   └── CLAUDE.md (984)
+│   │   │   ├── sibusiso/ (879)
+│   │   │   │   └── CLAUDE.md (879)
+│   │   │   ├── sindiswa/ (883)
+│   │   │   │   └── CLAUDE.md (883)
+│   │   │   ├── siphamandla_nordest/ (787)
+│   │   │   │   └── CLAUDE.md (787)
+│   │   │   ├── siphamandla_sud/ (826)
+│   │   │   │   └── CLAUDE.md (826)
+│   │   │   ├── siphelele/ (863)
+│   │   │   │   └── CLAUDE.md (863)
+│   │   │   ├── sisanda/ (733)
+│   │   │   │   └── CLAUDE.md (733)
+│   │   │   ├── siyabonga_est/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── siyabonga_sud/ (946)
+│   │   │   │   └── CLAUDE.md (946)
+│   │   │   ├── sizwe_est/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── sizwe_ouest/ (819)
+│   │   │   │   └── CLAUDE.md (819)
+│   │   │   ├── solen/ (3.7K)
+│   │   │   │   └── CLAUDE.md (3.7K)
+│   │   │   ├── thandeka_est/ (907)
+│   │   │   │   └── CLAUDE.md (907)
+│   │   │   ├── thandeka_sud/ (891)
+│   │   │   │   └── CLAUDE.md (891)
+│   │   │   ├── thandeka_sudouest/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── thandiwe/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── thembekile/ (905)
+│   │   │   │   └── CLAUDE.md (905)
+│   │   │   ├── thokozile/ (953)
+│   │   │   │   └── CLAUDE.md (953)
+│   │   │   ├── thulani_centresud/ (861)
+│   │   │   │   └── CLAUDE.md (861)
+│   │   │   ├── thulani_sud/ (858)
+│   │   │   │   └── CLAUDE.md (858)
+│   │   │   ├── velile/ (912)
+│   │   │   │   └── CLAUDE.md (912)
+│   │   │   ├── vusi/ (954)
+│   │   │   │   └── CLAUDE.md (954)
+│   │   │   ├── vusumuzi/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── vuyelwa/ (956)
+│   │   │   │   └── CLAUDE.md (956)
+│   │   │   ├── wakhile/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── xolani_est/ (1.0K)
+│   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   ├── xolani_ouest/ (859)
+│   │   │   │   └── CLAUDE.md (859)
+│   │   │   ├── zandile/ (910)
+│   │   │   │   └── CLAUDE.md (910)
+│   │   │   ├── zanele_centresud/ (888)
+│   │   │   │   └── CLAUDE.md (888)
+│   │   │   ├── zanele_sud/ (954)
+│   │   │   │   └── CLAUDE.md (954)
+│   │   │   ├── zinhle/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── zintle/ (1.1K)
+│   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   ├── zodwa/ (817)
+│   │   │   │   └── CLAUDE.md (817)
+│   │   │   ├── zoleka_nordest/ (904)
+│   │   │   │   └── CLAUDE.md (904)
+│   │   │   ├── zoleka_ouest/ (939)
+│   │   │   │   └── CLAUDE.md (939)
+│   │   │   └── zoleka_sudouest/ (1.1K)
+│   │   │       └── CLAUDE.md (1.1K)
+│   │   ├── contre-terre/ (32.1M)
+│   │   │   ├── citizens/ (97.9K)
+│   │   │   │   ├── anathi/ (1.2K)
+│   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   ├── andile/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── anele/ (970)
+│   │   │   │   │   └── CLAUDE.md (970)
+│   │   │   │   ├── ayanda/ (968)
+│   │   │   │   │   └── CLAUDE.md (968)
+│   │   │   │   ├── ayize/ (752)
+│   │   │   │   │   └── CLAUDE.md (752)
+│   │   │   │   ├── bhekani/ (855)
+│   │   │   │   │   └── CLAUDE.md (855)
+│   │   │   │   ├── bhekumuzi/ (930)
+│   │   │   │   │   └── CLAUDE.md (930)
+│   │   │   │   ├── bonginkosi/ (892)
+│   │   │   │   │   └── CLAUDE.md (892)
+│   │   │   │   ├── bongiwe/ (874)
+│   │   │   │   │   └── CLAUDE.md (874)
+│   │   │   │   ├── buhle_sud/ (865)
+│   │   │   │   │   └── CLAUDE.md (865)
+│   │   │   │   ├── buhle_sudouest/ (876)
+│   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   ├── busisiwe_centresud/ (872)
+│   │   │   │   │   └── CLAUDE.md (872)
+│   │   │   │   ├── busisiwe_ouest/ (790)
+│   │   │   │   │   └── CLAUDE.md (790)
+│   │   │   │   ├── buyiswa/ (848)
+│   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   ├── dumisa_nord/ (839)
+│   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   ├── dumisa_nordest/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── dumisile/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── fikile/ (812)
+│   │   │   │   │   └── CLAUDE.md (812)
+│   │   │   │   ├── fundiswa/ (896)
+│   │   │   │   │   └── CLAUDE.md (896)
+│   │   │   │   ├── gcina/ (981)
+│   │   │   │   │   └── CLAUDE.md (981)
+│   │   │   │   ├── gugu/ (839)
+│   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   ├── khanya/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── khanyisile/ (884)
+│   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   ├── khanyiso/ (883)
+│   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   ├── lethiwe/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── lindelwa/ (962)
+│   │   │   │   │   └── CLAUDE.md (962)
+│   │   │   │   ├── lindiwe_sud/ (827)
+│   │   │   │   │   └── CLAUDE.md (827)
+│   │   │   │   ├── lindiwe_sudouest/ (952)
+│   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   ├── lindokuhle/ (853)
+│   │   │   │   │   └── CLAUDE.md (853)
+│   │   │   │   ├── lungelo/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── lungile_est/ (998)
+│   │   │   │   │   └── CLAUDE.md (998)
+│   │   │   │   ├── lungile_nord/ (823)
+│   │   │   │   │   └── CLAUDE.md (823)
+│   │   │   │   ├── luthando/ (848)
+│   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   ├── mandla_sourds/ (778)
+│   │   │   │   │   └── CLAUDE.md (778)
+│   │   │   │   ├── mandla_sud/ (863)
+│   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   ├── mandlenkosi/ (905)
+│   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   ├── mbalenhle/ (884)
+│   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   ├── mbuso/ (820)
+│   │   │   │   │   └── CLAUDE.md (820)
+│   │   │   │   ├── mfundo/ (936)
+│   │   │   │   │   └── CLAUDE.md (936)
+│   │   │   │   ├── mqondisi/ (1.2K)
+│   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   ├── mthokozisi/ (856)
+│   │   │   │   │   └── CLAUDE.md (856)
+│   │   │   │   ├── mthunzi/ (976)
+│   │   │   │   │   └── CLAUDE.md (976)
+│   │   │   │   ├── mzamo/ (917)
+│   │   │   │   │   └── CLAUDE.md (917)
+│   │   │   │   ├── nokwanda/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── nolwazi_ouest/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── nolwazi_sourds/ (876)
+│   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   ├── nomalanga_nordest/ (934)
+│   │   │   │   │   └── CLAUDE.md (934)
+│   │   │   │   ├── nomalanga_sud/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── nomalanga_sudouest/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── nomathemba/ (870)
+│   │   │   │   │   └── CLAUDE.md (870)
+│   │   │   │   ├── nombuso_nordest/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── nombuso_sudouest/ (988)
+│   │   │   │   │   └── CLAUDE.md (988)
+│   │   │   │   ├── nomvula_est/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── nomvula_sud/ (797)
+│   │   │   │   │   └── CLAUDE.md (797)
+│   │   │   │   ├── nonhle/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── nosipho_centresud/ (844)
+│   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   ├── nosipho_sud/ (883)
+│   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   ├── noxolo/ (1.2K)
+│   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   ├── nqobile/ (956)
+│   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   ├── ntombi_centresud/ (895)
+│   │   │   │   │   └── CLAUDE.md (895)
+│   │   │   │   ├── ntombi_nord/ (838)
+│   │   │   │   │   └── CLAUDE.md (838)
+│   │   │   │   ├── ntombizodwa/ (952)
+│   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   ├── phila/ (877)
+│   │   │   │   │   └── CLAUDE.md (877)
+│   │   │   │   ├── phiwokuhle/ (844)
+│   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   ├── qhawe/ (900)
+│   │   │   │   │   └── CLAUDE.md (900)
+│   │   │   │   ├── sandile_ouest/ (878)
+│   │   │   │   │   └── CLAUDE.md (878)
+│   │   │   │   ├── sandile_sudouest/ (984)
+│   │   │   │   │   └── CLAUDE.md (984)
+│   │   │   │   ├── sibusiso/ (879)
+│   │   │   │   │   └── CLAUDE.md (879)
+│   │   │   │   ├── sindiswa/ (883)
+│   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   ├── siphamandla_nordest/ (787)
+│   │   │   │   │   └── CLAUDE.md (787)
+│   │   │   │   ├── siphamandla_sud/ (826)
+│   │   │   │   │   └── CLAUDE.md (826)
+│   │   │   │   ├── siphelele/ (863)
+│   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   ├── sisanda/ (733)
+│   │   │   │   │   └── CLAUDE.md (733)
+│   │   │   │   ├── siyabonga_est/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── siyabonga_sud/ (946)
+│   │   │   │   │   └── CLAUDE.md (946)
+│   │   │   │   ├── sizwe_est/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── sizwe_ouest/ (819)
+│   │   │   │   │   └── CLAUDE.md (819)
+│   │   │   │   ├── solen/ (3.7K)
+│   │   │   │   │   └── CLAUDE.md (3.7K)
+│   │   │   │   ├── thandeka_est/ (907)
+│   │   │   │   │   └── CLAUDE.md (907)
+│   │   │   │   ├── thandeka_sud/ (891)
+│   │   │   │   │   └── CLAUDE.md (891)
+│   │   │   │   ├── thandeka_sudouest/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── thandiwe/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── thembekile/ (905)
+│   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   ├── thokozile/ (953)
+│   │   │   │   │   └── CLAUDE.md (953)
+│   │   │   │   ├── thulani_centresud/ (861)
+│   │   │   │   │   └── CLAUDE.md (861)
+│   │   │   │   ├── thulani_sud/ (858)
+│   │   │   │   │   └── CLAUDE.md (858)
+│   │   │   │   ├── velile/ (912)
+│   │   │   │   │   └── CLAUDE.md (912)
+│   │   │   │   ├── vusi/ (954)
+│   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   ├── vusumuzi/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── vuyelwa/ (956)
+│   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   ├── wakhile/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── xolani_est/ (1.0K)
+│   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   ├── xolani_ouest/ (859)
+│   │   │   │   │   └── CLAUDE.md (859)
+│   │   │   │   ├── zandile/ (910)
+│   │   │   │   │   └── CLAUDE.md (910)
+│   │   │   │   ├── zanele_centresud/ (888)
+│   │   │   │   │   └── CLAUDE.md (888)
+│   │   │   │   ├── zanele_sud/ (954)
+│   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   ├── zinhle/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── zintle/ (1.1K)
+│   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   ├── zodwa/ (817)
+│   │   │   │   │   └── CLAUDE.md (817)
+│   │   │   │   ├── zoleka_nordest/ (904)
+│   │   │   │   │   └── CLAUDE.md (904)
+│   │   │   │   ├── zoleka_ouest/ (939)
+│   │   │   │   │   └── CLAUDE.md (939)
+│   │   │   │   └── zoleka_sudouest/ (1.1K)
+│   │   │   │       └── CLAUDE.md (1.1K)
+│   │   │   ├── contre-terre/ (26.6M)
+│   │   │   │   ├── citizens/ (97.9K)
+│   │   │   │   │   ├── anathi/ (1.2K)
+│   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   ├── andile/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── anele/ (970)
+│   │   │   │   │   │   └── CLAUDE.md (970)
+│   │   │   │   │   ├── ayanda/ (968)
+│   │   │   │   │   │   └── CLAUDE.md (968)
+│   │   │   │   │   ├── ayize/ (752)
+│   │   │   │   │   │   └── CLAUDE.md (752)
+│   │   │   │   │   ├── bhekani/ (855)
+│   │   │   │   │   │   └── CLAUDE.md (855)
+│   │   │   │   │   ├── bhekumuzi/ (930)
+│   │   │   │   │   │   └── CLAUDE.md (930)
+│   │   │   │   │   ├── bonginkosi/ (892)
+│   │   │   │   │   │   └── CLAUDE.md (892)
+│   │   │   │   │   ├── bongiwe/ (874)
+│   │   │   │   │   │   └── CLAUDE.md (874)
+│   │   │   │   │   ├── buhle_sud/ (865)
+│   │   │   │   │   │   └── CLAUDE.md (865)
+│   │   │   │   │   ├── buhle_sudouest/ (876)
+│   │   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   │   ├── busisiwe_centresud/ (872)
+│   │   │   │   │   │   └── CLAUDE.md (872)
+│   │   │   │   │   ├── busisiwe_ouest/ (790)
+│   │   │   │   │   │   └── CLAUDE.md (790)
+│   │   │   │   │   ├── buyiswa/ (848)
+│   │   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   │   ├── dumisa_nord/ (839)
+│   │   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   │   ├── dumisa_nordest/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── dumisile/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── fikile/ (812)
+│   │   │   │   │   │   └── CLAUDE.md (812)
+│   │   │   │   │   ├── fundiswa/ (896)
+│   │   │   │   │   │   └── CLAUDE.md (896)
+│   │   │   │   │   ├── gcina/ (981)
+│   │   │   │   │   │   └── CLAUDE.md (981)
+│   │   │   │   │   ├── gugu/ (839)
+│   │   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   │   ├── khanya/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── khanyisile/ (884)
+│   │   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   │   ├── khanyiso/ (883)
+│   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   ├── lethiwe/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── lindelwa/ (962)
+│   │   │   │   │   │   └── CLAUDE.md (962)
+│   │   │   │   │   ├── lindiwe_sud/ (827)
+│   │   │   │   │   │   └── CLAUDE.md (827)
+│   │   │   │   │   ├── lindiwe_sudouest/ (952)
+│   │   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   │   ├── lindokuhle/ (853)
+│   │   │   │   │   │   └── CLAUDE.md (853)
+│   │   │   │   │   ├── lungelo/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── lungile_est/ (998)
+│   │   │   │   │   │   └── CLAUDE.md (998)
+│   │   │   │   │   ├── lungile_nord/ (823)
+│   │   │   │   │   │   └── CLAUDE.md (823)
+│   │   │   │   │   ├── luthando/ (848)
+│   │   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   │   ├── mandla_sourds/ (778)
+│   │   │   │   │   │   └── CLAUDE.md (778)
+│   │   │   │   │   ├── mandla_sud/ (863)
+│   │   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   │   ├── mandlenkosi/ (905)
+│   │   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   │   ├── mbalenhle/ (884)
+│   │   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   │   ├── mbuso/ (820)
+│   │   │   │   │   │   └── CLAUDE.md (820)
+│   │   │   │   │   ├── mfundo/ (936)
+│   │   │   │   │   │   └── CLAUDE.md (936)
+│   │   │   │   │   ├── mqondisi/ (1.2K)
+│   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   ├── mthokozisi/ (856)
+│   │   │   │   │   │   └── CLAUDE.md (856)
+│   │   │   │   │   ├── mthunzi/ (976)
+│   │   │   │   │   │   └── CLAUDE.md (976)
+│   │   │   │   │   ├── mzamo/ (917)
+│   │   │   │   │   │   └── CLAUDE.md (917)
+│   │   │   │   │   ├── nokwanda/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── nolwazi_ouest/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── nolwazi_sourds/ (876)
+│   │   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   │   ├── nomalanga_nordest/ (934)
+│   │   │   │   │   │   └── CLAUDE.md (934)
+│   │   │   │   │   ├── nomalanga_sud/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── nomalanga_sudouest/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── nomathemba/ (870)
+│   │   │   │   │   │   └── CLAUDE.md (870)
+│   │   │   │   │   ├── nombuso_nordest/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── nombuso_sudouest/ (988)
+│   │   │   │   │   │   └── CLAUDE.md (988)
+│   │   │   │   │   ├── nomvula_est/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── nomvula_sud/ (797)
+│   │   │   │   │   │   └── CLAUDE.md (797)
+│   │   │   │   │   ├── nonhle/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── nosipho_centresud/ (844)
+│   │   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   │   ├── nosipho_sud/ (883)
+│   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   ├── noxolo/ (1.2K)
+│   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   ├── nqobile/ (956)
+│   │   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   │   ├── ntombi_centresud/ (895)
+│   │   │   │   │   │   └── CLAUDE.md (895)
+│   │   │   │   │   ├── ntombi_nord/ (838)
+│   │   │   │   │   │   └── CLAUDE.md (838)
+│   │   │   │   │   ├── ntombizodwa/ (952)
+│   │   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   │   ├── phila/ (877)
+│   │   │   │   │   │   └── CLAUDE.md (877)
+│   │   │   │   │   ├── phiwokuhle/ (844)
+│   │   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   │   ├── qhawe/ (900)
+│   │   │   │   │   │   └── CLAUDE.md (900)
+│   │   │   │   │   ├── sandile_ouest/ (878)
+│   │   │   │   │   │   └── CLAUDE.md (878)
+│   │   │   │   │   ├── sandile_sudouest/ (984)
+│   │   │   │   │   │   └── CLAUDE.md (984)
+│   │   │   │   │   ├── sibusiso/ (879)
+│   │   │   │   │   │   └── CLAUDE.md (879)
+│   │   │   │   │   ├── sindiswa/ (883)
+│   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   ├── siphamandla_nordest/ (787)
+│   │   │   │   │   │   └── CLAUDE.md (787)
+│   │   │   │   │   ├── siphamandla_sud/ (826)
+│   │   │   │   │   │   └── CLAUDE.md (826)
+│   │   │   │   │   ├── siphelele/ (863)
+│   │   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   │   ├── sisanda/ (733)
+│   │   │   │   │   │   └── CLAUDE.md (733)
+│   │   │   │   │   ├── siyabonga_est/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── siyabonga_sud/ (946)
+│   │   │   │   │   │   └── CLAUDE.md (946)
+│   │   │   │   │   ├── sizwe_est/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── sizwe_ouest/ (819)
+│   │   │   │   │   │   └── CLAUDE.md (819)
+│   │   │   │   │   ├── solen/ (3.7K)
+│   │   │   │   │   │   └── CLAUDE.md (3.7K)
+│   │   │   │   │   ├── thandeka_est/ (907)
+│   │   │   │   │   │   └── CLAUDE.md (907)
+│   │   │   │   │   ├── thandeka_sud/ (891)
+│   │   │   │   │   │   └── CLAUDE.md (891)
+│   │   │   │   │   ├── thandeka_sudouest/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── thandiwe/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── thembekile/ (905)
+│   │   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   │   ├── thokozile/ (953)
+│   │   │   │   │   │   └── CLAUDE.md (953)
+│   │   │   │   │   ├── thulani_centresud/ (861)
+│   │   │   │   │   │   └── CLAUDE.md (861)
+│   │   │   │   │   ├── thulani_sud/ (858)
+│   │   │   │   │   │   └── CLAUDE.md (858)
+│   │   │   │   │   ├── velile/ (912)
+│   │   │   │   │   │   └── CLAUDE.md (912)
+│   │   │   │   │   ├── vusi/ (954)
+│   │   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   │   ├── vusumuzi/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── vuyelwa/ (956)
+│   │   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   │   ├── wakhile/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── xolani_est/ (1.0K)
+│   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   ├── xolani_ouest/ (859)
+│   │   │   │   │   │   └── CLAUDE.md (859)
+│   │   │   │   │   ├── zandile/ (910)
+│   │   │   │   │   │   └── CLAUDE.md (910)
+│   │   │   │   │   ├── zanele_centresud/ (888)
+│   │   │   │   │   │   └── CLAUDE.md (888)
+│   │   │   │   │   ├── zanele_sud/ (954)
+│   │   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   │   ├── zinhle/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── zintle/ (1.1K)
+│   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── zodwa/ (817)
+│   │   │   │   │   │   └── CLAUDE.md (817)
+│   │   │   │   │   ├── zoleka_nordest/ (904)
+│   │   │   │   │   │   └── CLAUDE.md (904)
+│   │   │   │   │   ├── zoleka_ouest/ (939)
+│   │   │   │   │   │   └── CLAUDE.md (939)
+│   │   │   │   │   └── zoleka_sudouest/ (1.1K)
+│   │   │   │   │       └── CLAUDE.md (1.1K)
+│   │   │   │   ├── contre-terre/ (21.1M)
+│   │   │   │   │   ├── citizens/ (97.9K)
+│   │   │   │   │   │   ├── anathi/ (1.2K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   ├── andile/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── anele/ (970)
+│   │   │   │   │   │   │   └── CLAUDE.md (970)
+│   │   │   │   │   │   ├── ayanda/ (968)
+│   │   │   │   │   │   │   └── CLAUDE.md (968)
+│   │   │   │   │   │   ├── ayize/ (752)
+│   │   │   │   │   │   │   └── CLAUDE.md (752)
+│   │   │   │   │   │   ├── bhekani/ (855)
+│   │   │   │   │   │   │   └── CLAUDE.md (855)
+│   │   │   │   │   │   ├── bhekumuzi/ (930)
+│   │   │   │   │   │   │   └── CLAUDE.md (930)
+│   │   │   │   │   │   ├── bonginkosi/ (892)
+│   │   │   │   │   │   │   └── CLAUDE.md (892)
+│   │   │   │   │   │   ├── bongiwe/ (874)
+│   │   │   │   │   │   │   └── CLAUDE.md (874)
+│   │   │   │   │   │   ├── buhle_sud/ (865)
+│   │   │   │   │   │   │   └── CLAUDE.md (865)
+│   │   │   │   │   │   ├── buhle_sudouest/ (876)
+│   │   │   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   │   │   ├── busisiwe_centresud/ (872)
+│   │   │   │   │   │   │   └── CLAUDE.md (872)
+│   │   │   │   │   │   ├── busisiwe_ouest/ (790)
+│   │   │   │   │   │   │   └── CLAUDE.md (790)
+│   │   │   │   │   │   ├── buyiswa/ (848)
+│   │   │   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   │   │   ├── dumisa_nord/ (839)
+│   │   │   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   │   │   ├── dumisa_nordest/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── dumisile/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── fikile/ (812)
+│   │   │   │   │   │   │   └── CLAUDE.md (812)
+│   │   │   │   │   │   ├── fundiswa/ (896)
+│   │   │   │   │   │   │   └── CLAUDE.md (896)
+│   │   │   │   │   │   ├── gcina/ (981)
+│   │   │   │   │   │   │   └── CLAUDE.md (981)
+│   │   │   │   │   │   ├── gugu/ (839)
+│   │   │   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   │   │   ├── khanya/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── khanyisile/ (884)
+│   │   │   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   │   │   ├── khanyiso/ (883)
+│   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   ├── lethiwe/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── lindelwa/ (962)
+│   │   │   │   │   │   │   └── CLAUDE.md (962)
+│   │   │   │   │   │   ├── lindiwe_sud/ (827)
+│   │   │   │   │   │   │   └── CLAUDE.md (827)
+│   │   │   │   │   │   ├── lindiwe_sudouest/ (952)
+│   │   │   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   │   │   ├── lindokuhle/ (853)
+│   │   │   │   │   │   │   └── CLAUDE.md (853)
+│   │   │   │   │   │   ├── lungelo/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── lungile_est/ (998)
+│   │   │   │   │   │   │   └── CLAUDE.md (998)
+│   │   │   │   │   │   ├── lungile_nord/ (823)
+│   │   │   │   │   │   │   └── CLAUDE.md (823)
+│   │   │   │   │   │   ├── luthando/ (848)
+│   │   │   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   │   │   ├── mandla_sourds/ (778)
+│   │   │   │   │   │   │   └── CLAUDE.md (778)
+│   │   │   │   │   │   ├── mandla_sud/ (863)
+│   │   │   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   │   │   ├── mandlenkosi/ (905)
+│   │   │   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   │   │   ├── mbalenhle/ (884)
+│   │   │   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   │   │   ├── mbuso/ (820)
+│   │   │   │   │   │   │   └── CLAUDE.md (820)
+│   │   │   │   │   │   ├── mfundo/ (936)
+│   │   │   │   │   │   │   └── CLAUDE.md (936)
+│   │   │   │   │   │   ├── mqondisi/ (1.2K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   ├── mthokozisi/ (856)
+│   │   │   │   │   │   │   └── CLAUDE.md (856)
+│   │   │   │   │   │   ├── mthunzi/ (976)
+│   │   │   │   │   │   │   └── CLAUDE.md (976)
+│   │   │   │   │   │   ├── mzamo/ (917)
+│   │   │   │   │   │   │   └── CLAUDE.md (917)
+│   │   │   │   │   │   ├── nokwanda/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── nolwazi_ouest/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── nolwazi_sourds/ (876)
+│   │   │   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   │   │   ├── nomalanga_nordest/ (934)
+│   │   │   │   │   │   │   └── CLAUDE.md (934)
+│   │   │   │   │   │   ├── nomalanga_sud/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── nomalanga_sudouest/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── nomathemba/ (870)
+│   │   │   │   │   │   │   └── CLAUDE.md (870)
+│   │   │   │   │   │   ├── nombuso_nordest/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── nombuso_sudouest/ (988)
+│   │   │   │   │   │   │   └── CLAUDE.md (988)
+│   │   │   │   │   │   ├── nomvula_est/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── nomvula_sud/ (797)
+│   │   │   │   │   │   │   └── CLAUDE.md (797)
+│   │   │   │   │   │   ├── nonhle/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── nosipho_centresud/ (844)
+│   │   │   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   │   │   ├── nosipho_sud/ (883)
+│   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   ├── noxolo/ (1.2K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   ├── nqobile/ (956)
+│   │   │   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   │   │   ├── ntombi_centresud/ (895)
+│   │   │   │   │   │   │   └── CLAUDE.md (895)
+│   │   │   │   │   │   ├── ntombi_nord/ (838)
+│   │   │   │   │   │   │   └── CLAUDE.md (838)
+│   │   │   │   │   │   ├── ntombizodwa/ (952)
+│   │   │   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   │   │   ├── phila/ (877)
+│   │   │   │   │   │   │   └── CLAUDE.md (877)
+│   │   │   │   │   │   ├── phiwokuhle/ (844)
+│   │   │   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   │   │   ├── qhawe/ (900)
+│   │   │   │   │   │   │   └── CLAUDE.md (900)
+│   │   │   │   │   │   ├── sandile_ouest/ (878)
+│   │   │   │   │   │   │   └── CLAUDE.md (878)
+│   │   │   │   │   │   ├── sandile_sudouest/ (984)
+│   │   │   │   │   │   │   └── CLAUDE.md (984)
+│   │   │   │   │   │   ├── sibusiso/ (879)
+│   │   │   │   │   │   │   └── CLAUDE.md (879)
+│   │   │   │   │   │   ├── sindiswa/ (883)
+│   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   ├── siphamandla_nordest/ (787)
+│   │   │   │   │   │   │   └── CLAUDE.md (787)
+│   │   │   │   │   │   ├── siphamandla_sud/ (826)
+│   │   │   │   │   │   │   └── CLAUDE.md (826)
+│   │   │   │   │   │   ├── siphelele/ (863)
+│   │   │   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   │   │   ├── sisanda/ (733)
+│   │   │   │   │   │   │   └── CLAUDE.md (733)
+│   │   │   │   │   │   ├── siyabonga_est/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── siyabonga_sud/ (946)
+│   │   │   │   │   │   │   └── CLAUDE.md (946)
+│   │   │   │   │   │   ├── sizwe_est/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── sizwe_ouest/ (819)
+│   │   │   │   │   │   │   └── CLAUDE.md (819)
+│   │   │   │   │   │   ├── solen/ (3.7K)
+│   │   │   │   │   │   │   └── CLAUDE.md (3.7K)
+│   │   │   │   │   │   ├── thandeka_est/ (907)
+│   │   │   │   │   │   │   └── CLAUDE.md (907)
+│   │   │   │   │   │   ├── thandeka_sud/ (891)
+│   │   │   │   │   │   │   └── CLAUDE.md (891)
+│   │   │   │   │   │   ├── thandeka_sudouest/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── thandiwe/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── thembekile/ (905)
+│   │   │   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   │   │   ├── thokozile/ (953)
+│   │   │   │   │   │   │   └── CLAUDE.md (953)
+│   │   │   │   │   │   ├── thulani_centresud/ (861)
+│   │   │   │   │   │   │   └── CLAUDE.md (861)
+│   │   │   │   │   │   ├── thulani_sud/ (858)
+│   │   │   │   │   │   │   └── CLAUDE.md (858)
+│   │   │   │   │   │   ├── velile/ (912)
+│   │   │   │   │   │   │   └── CLAUDE.md (912)
+│   │   │   │   │   │   ├── vusi/ (954)
+│   │   │   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   │   │   ├── vusumuzi/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── vuyelwa/ (956)
+│   │   │   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   │   │   ├── wakhile/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── xolani_est/ (1.0K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   ├── xolani_ouest/ (859)
+│   │   │   │   │   │   │   └── CLAUDE.md (859)
+│   │   │   │   │   │   ├── zandile/ (910)
+│   │   │   │   │   │   │   └── CLAUDE.md (910)
+│   │   │   │   │   │   ├── zanele_centresud/ (888)
+│   │   │   │   │   │   │   └── CLAUDE.md (888)
+│   │   │   │   │   │   ├── zanele_sud/ (954)
+│   │   │   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   │   │   ├── zinhle/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── zintle/ (1.1K)
+│   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── zodwa/ (817)
+│   │   │   │   │   │   │   └── CLAUDE.md (817)
+│   │   │   │   │   │   ├── zoleka_nordest/ (904)
+│   │   │   │   │   │   │   └── CLAUDE.md (904)
+│   │   │   │   │   │   ├── zoleka_ouest/ (939)
+│   │   │   │   │   │   │   └── CLAUDE.md (939)
+│   │   │   │   │   │   └── zoleka_sudouest/ (1.1K)
+│   │   │   │   │   │       └── CLAUDE.md (1.1K)
+│   │   │   │   │   ├── contre-terre/ (15.6M)
+│   │   │   │   │   │   ├── citizens/ (97.9K)
+│   │   │   │   │   │   │   ├── anathi/ (1.2K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   │   ├── andile/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── anele/ (970)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (970)
+│   │   │   │   │   │   │   ├── ayanda/ (968)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (968)
+│   │   │   │   │   │   │   ├── ayize/ (752)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (752)
+│   │   │   │   │   │   │   ├── bhekani/ (855)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (855)
+│   │   │   │   │   │   │   ├── bhekumuzi/ (930)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (930)
+│   │   │   │   │   │   │   ├── bonginkosi/ (892)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (892)
+│   │   │   │   │   │   │   ├── bongiwe/ (874)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (874)
+│   │   │   │   │   │   │   ├── buhle_sud/ (865)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (865)
+│   │   │   │   │   │   │   ├── buhle_sudouest/ (876)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   │   │   │   ├── busisiwe_centresud/ (872)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (872)
+│   │   │   │   │   │   │   ├── busisiwe_ouest/ (790)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (790)
+│   │   │   │   │   │   │   ├── buyiswa/ (848)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   │   │   │   ├── dumisa_nord/ (839)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   │   │   │   ├── dumisa_nordest/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── dumisile/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── fikile/ (812)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (812)
+│   │   │   │   │   │   │   ├── fundiswa/ (896)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (896)
+│   │   │   │   │   │   │   ├── gcina/ (981)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (981)
+│   │   │   │   │   │   │   ├── gugu/ (839)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   │   │   │   ├── khanya/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── khanyisile/ (884)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   │   │   │   ├── khanyiso/ (883)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   │   ├── lethiwe/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── lindelwa/ (962)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (962)
+│   │   │   │   │   │   │   ├── lindiwe_sud/ (827)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (827)
+│   │   │   │   │   │   │   ├── lindiwe_sudouest/ (952)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   │   │   │   ├── lindokuhle/ (853)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (853)
+│   │   │   │   │   │   │   ├── lungelo/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── lungile_est/ (998)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (998)
+│   │   │   │   │   │   │   ├── lungile_nord/ (823)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (823)
+│   │   │   │   │   │   │   ├── luthando/ (848)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   │   │   │   ├── mandla_sourds/ (778)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (778)
+│   │   │   │   │   │   │   ├── mandla_sud/ (863)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   │   │   │   ├── mandlenkosi/ (905)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   │   │   │   ├── mbalenhle/ (884)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   │   │   │   ├── mbuso/ (820)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (820)
+│   │   │   │   │   │   │   ├── mfundo/ (936)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (936)
+│   │   │   │   │   │   │   ├── mqondisi/ (1.2K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   │   ├── mthokozisi/ (856)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (856)
+│   │   │   │   │   │   │   ├── mthunzi/ (976)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (976)
+│   │   │   │   │   │   │   ├── mzamo/ (917)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (917)
+│   │   │   │   │   │   │   ├── nokwanda/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── nolwazi_ouest/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── nolwazi_sourds/ (876)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   │   │   │   ├── nomalanga_nordest/ (934)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (934)
+│   │   │   │   │   │   │   ├── nomalanga_sud/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── nomalanga_sudouest/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── nomathemba/ (870)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (870)
+│   │   │   │   │   │   │   ├── nombuso_nordest/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── nombuso_sudouest/ (988)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (988)
+│   │   │   │   │   │   │   ├── nomvula_est/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── nomvula_sud/ (797)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (797)
+│   │   │   │   │   │   │   ├── nonhle/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── nosipho_centresud/ (844)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   │   │   │   ├── nosipho_sud/ (883)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   │   ├── noxolo/ (1.2K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   │   ├── nqobile/ (956)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   │   │   │   ├── ntombi_centresud/ (895)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (895)
+│   │   │   │   │   │   │   ├── ntombi_nord/ (838)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (838)
+│   │   │   │   │   │   │   ├── ntombizodwa/ (952)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   │   │   │   ├── phila/ (877)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (877)
+│   │   │   │   │   │   │   ├── phiwokuhle/ (844)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   │   │   │   ├── qhawe/ (900)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (900)
+│   │   │   │   │   │   │   ├── sandile_ouest/ (878)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (878)
+│   │   │   │   │   │   │   ├── sandile_sudouest/ (984)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (984)
+│   │   │   │   │   │   │   ├── sibusiso/ (879)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (879)
+│   │   │   │   │   │   │   ├── sindiswa/ (883)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   │   ├── siphamandla_nordest/ (787)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (787)
+│   │   │   │   │   │   │   ├── siphamandla_sud/ (826)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (826)
+│   │   │   │   │   │   │   ├── siphelele/ (863)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   │   │   │   ├── sisanda/ (733)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (733)
+│   │   │   │   │   │   │   ├── siyabonga_est/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── siyabonga_sud/ (946)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (946)
+│   │   │   │   │   │   │   ├── sizwe_est/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── sizwe_ouest/ (819)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (819)
+│   │   │   │   │   │   │   ├── solen/ (3.7K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (3.7K)
+│   │   │   │   │   │   │   ├── thandeka_est/ (907)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (907)
+│   │   │   │   │   │   │   ├── thandeka_sud/ (891)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (891)
+│   │   │   │   │   │   │   ├── thandeka_sudouest/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── thandiwe/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── thembekile/ (905)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   │   │   │   ├── thokozile/ (953)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (953)
+│   │   │   │   │   │   │   ├── thulani_centresud/ (861)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (861)
+│   │   │   │   │   │   │   ├── thulani_sud/ (858)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (858)
+│   │   │   │   │   │   │   ├── velile/ (912)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (912)
+│   │   │   │   │   │   │   ├── vusi/ (954)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   │   │   │   ├── vusumuzi/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── vuyelwa/ (956)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   │   │   │   ├── wakhile/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── xolani_est/ (1.0K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   ├── xolani_ouest/ (859)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (859)
+│   │   │   │   │   │   │   ├── zandile/ (910)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (910)
+│   │   │   │   │   │   │   ├── zanele_centresud/ (888)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (888)
+│   │   │   │   │   │   │   ├── zanele_sud/ (954)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   │   │   │   ├── zinhle/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── zintle/ (1.1K)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── zodwa/ (817)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (817)
+│   │   │   │   │   │   │   ├── zoleka_nordest/ (904)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (904)
+│   │   │   │   │   │   │   ├── zoleka_ouest/ (939)
+│   │   │   │   │   │   │   │   └── CLAUDE.md (939)
+│   │   │   │   │   │   │   └── zoleka_sudouest/ (1.1K)
+│   │   │   │   │   │   │       └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   ├── contre-terre/ (10.1M)
+│   │   │   │   │   │   │   ├── citizens/ (97.9K)
+│   │   │   │   │   │   │   │   ├── anathi/ (1.2K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   │   │   ├── andile/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── anele/ (970)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (970)
+│   │   │   │   │   │   │   │   ├── ayanda/ (968)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (968)
+│   │   │   │   │   │   │   │   ├── ayize/ (752)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (752)
+│   │   │   │   │   │   │   │   ├── bhekani/ (855)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (855)
+│   │   │   │   │   │   │   │   ├── bhekumuzi/ (930)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (930)
+│   │   │   │   │   │   │   │   ├── bonginkosi/ (892)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (892)
+│   │   │   │   │   │   │   │   ├── bongiwe/ (874)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (874)
+│   │   │   │   │   │   │   │   ├── buhle_sud/ (865)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (865)
+│   │   │   │   │   │   │   │   ├── buhle_sudouest/ (876)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   │   │   │   │   ├── busisiwe_centresud/ (872)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (872)
+│   │   │   │   │   │   │   │   ├── busisiwe_ouest/ (790)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (790)
+│   │   │   │   │   │   │   │   ├── buyiswa/ (848)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   │   │   │   │   ├── dumisa_nord/ (839)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   │   │   │   │   ├── dumisa_nordest/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── dumisile/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── fikile/ (812)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (812)
+│   │   │   │   │   │   │   │   ├── fundiswa/ (896)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (896)
+│   │   │   │   │   │   │   │   ├── gcina/ (981)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (981)
+│   │   │   │   │   │   │   │   ├── gugu/ (839)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (839)
+│   │   │   │   │   │   │   │   ├── khanya/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── khanyisile/ (884)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   │   │   │   │   ├── khanyiso/ (883)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   │   │   ├── lethiwe/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── lindelwa/ (962)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (962)
+│   │   │   │   │   │   │   │   ├── lindiwe_sud/ (827)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (827)
+│   │   │   │   │   │   │   │   ├── lindiwe_sudouest/ (952)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   │   │   │   │   ├── lindokuhle/ (853)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (853)
+│   │   │   │   │   │   │   │   ├── lungelo/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── lungile_est/ (998)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (998)
+│   │   │   │   │   │   │   │   ├── lungile_nord/ (823)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (823)
+│   │   │   │   │   │   │   │   ├── luthando/ (848)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (848)
+│   │   │   │   │   │   │   │   ├── mandla_sourds/ (778)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (778)
+│   │   │   │   │   │   │   │   ├── mandla_sud/ (863)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   │   │   │   │   ├── mandlenkosi/ (905)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   │   │   │   │   ├── mbalenhle/ (884)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (884)
+│   │   │   │   │   │   │   │   ├── mbuso/ (820)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (820)
+│   │   │   │   │   │   │   │   ├── mfundo/ (936)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (936)
+│   │   │   │   │   │   │   │   ├── mqondisi/ (1.2K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   │   │   ├── mthokozisi/ (856)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (856)
+│   │   │   │   │   │   │   │   ├── mthunzi/ (976)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (976)
+│   │   │   │   │   │   │   │   ├── mzamo/ (917)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (917)
+│   │   │   │   │   │   │   │   ├── nokwanda/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── nolwazi_ouest/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── nolwazi_sourds/ (876)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (876)
+│   │   │   │   │   │   │   │   ├── nomalanga_nordest/ (934)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (934)
+│   │   │   │   │   │   │   │   ├── nomalanga_sud/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── nomalanga_sudouest/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── nomathemba/ (870)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (870)
+│   │   │   │   │   │   │   │   ├── nombuso_nordest/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── nombuso_sudouest/ (988)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (988)
+│   │   │   │   │   │   │   │   ├── nomvula_est/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── nomvula_sud/ (797)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (797)
+│   │   │   │   │   │   │   │   ├── nonhle/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── nosipho_centresud/ (844)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   │   │   │   │   ├── nosipho_sud/ (883)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   │   │   ├── noxolo/ (1.2K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.2K)
+│   │   │   │   │   │   │   │   ├── nqobile/ (956)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   │   │   │   │   ├── ntombi_centresud/ (895)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (895)
+│   │   │   │   │   │   │   │   ├── ntombi_nord/ (838)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (838)
+│   │   │   │   │   │   │   │   ├── ntombizodwa/ (952)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (952)
+│   │   │   │   │   │   │   │   ├── phila/ (877)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (877)
+│   │   │   │   │   │   │   │   ├── phiwokuhle/ (844)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (844)
+│   │   │   │   │   │   │   │   ├── qhawe/ (900)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (900)
+│   │   │   │   │   │   │   │   ├── sandile_ouest/ (878)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (878)
+│   │   │   │   │   │   │   │   ├── sandile_sudouest/ (984)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (984)
+│   │   │   │   │   │   │   │   ├── sibusiso/ (879)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (879)
+│   │   │   │   │   │   │   │   ├── sindiswa/ (883)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (883)
+│   │   │   │   │   │   │   │   ├── siphamandla_nordest/ (787)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (787)
+│   │   │   │   │   │   │   │   ├── siphamandla_sud/ (826)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (826)
+│   │   │   │   │   │   │   │   ├── siphelele/ (863)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (863)
+│   │   │   │   │   │   │   │   ├── sisanda/ (733)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (733)
+│   │   │   │   │   │   │   │   ├── siyabonga_est/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── siyabonga_sud/ (946)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (946)
+│   │   │   │   │   │   │   │   ├── sizwe_est/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── sizwe_ouest/ (819)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (819)
+│   │   │   │   │   │   │   │   ├── solen/ (3.7K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (3.7K)
+│   │   │   │   │   │   │   │   ├── thandeka_est/ (907)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (907)
+│   │   │   │   │   │   │   │   ├── thandeka_sud/ (891)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (891)
+│   │   │   │   │   │   │   │   ├── thandeka_sudouest/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── thandiwe/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── thembekile/ (905)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (905)
+│   │   │   │   │   │   │   │   ├── thokozile/ (953)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (953)
+│   │   │   │   │   │   │   │   ├── thulani_centresud/ (861)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (861)
+│   │   │   │   │   │   │   │   ├── thulani_sud/ (858)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (858)
+│   │   │   │   │   │   │   │   ├── velile/ (912)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (912)
+│   │   │   │   │   │   │   │   ├── vusi/ (954)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   │   │   │   │   ├── vusumuzi/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── vuyelwa/ (956)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (956)
+│   │   │   │   │   │   │   │   ├── wakhile/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── xolani_est/ (1.0K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.0K)
+│   │   │   │   │   │   │   │   ├── xolani_ouest/ (859)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (859)
+│   │   │   │   │   │   │   │   ├── zandile/ (910)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (910)
+│   │   │   │   │   │   │   │   ├── zanele_centresud/ (888)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (888)
+│   │   │   │   │   │   │   │   ├── zanele_sud/ (954)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (954)
+│   │   │   │   │   │   │   │   ├── zinhle/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── zintle/ (1.1K)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   │   ├── zodwa/ (817)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (817)
+│   │   │   │   │   │   │   │   ├── zoleka_nordest/ (904)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (904)
+│   │   │   │   │   │   │   │   ├── zoleka_ouest/ (939)
+│   │   │   │   │   │   │   │   │   └── CLAUDE.md (939)
+│   │   │   │   │   │   │   │   └── zoleka_sudouest/ (1.1K)
+│   │   │   │   │   │   │   │       └── CLAUDE.md (1.1K)
+│   │   │   │   │   │   │   ├── contre-terre/ (6.1M)
+│   │   │   │   │   │   │   │   ├── contre-terre/ (2.3M)
+│   │   │   │   │   │   │   │   │   ├── chapitre_01.md (87.2K)
+│   │   │   │   │   │   │   │   │   ├── chapitre_03.md (95.9K)
+│   │   │   │   │   │   │   │   │   ├── chapitre_04.md (115.4K)
+│   │   │   │   │   │   │   │   │   ├── chapitre_05.md (108.0K)
+│   │   │   │   │   │   │   │   │   ├── chapitre_05_new.md (144.7K)
+│   │   │   │   │   │   │   │   │   ├── chapitre_06.md (116.8K)
+│   │   │   │   │   │   │   │   │   ├── chapitre_07.md (107.7K)
+│   │   │   │   │   │   │   │   │   ├── chapitre_08.md (144.2K)
+│   │   │   │   │   │   │   │   │   ├── manuscrit_complet.md (244.0K)
+│   │   │   │   │   │   │   │   │   ├── map.md (713.9K)
+│   │   │   │   │   │   │   │   │   └── (..33 more files)
+│   │   │   │   │   │   │   │   ├── data/ (15.6K)
+│   │   │   │   │   │   │   │   │   └── Lamputation_du_langage_dans_Contre-Terre_fra.txt (15.6K)
+│   │   │   │   │   │   │   │   ├── docs/ (737.5K)
+│   │   │   │   │   │   │   │   │   ├── MAPPING.md (7.1K)
+│   │   │   │   │   │   │   │   │   ├── TAXONOMY.md (16.5K)
+│   │   │   │   │   │   │   │   │   └── map.md (713.9K)
+│   │   │   │   │   │   │   │   ├── en/ (449.1K)
+│   │   │   │   │   │   │   │   │   ├── KDP_EN.md (6.2K)
+│   │   │   │   │   │   │   │   │   ├── chapter_01.md (8.7K)
+│   │   │   │   │   │   │   │   │   ├── chapter_02.md (18.6K)
+│   │   │   │   │   │   │   │   │   ├── chapter_03.md (20.5K)
+│   │   │   │   │   │   │   │   │   ├── chapter_04.md (28.6K)
+│   │   │   │   │   │   │   │   │   ├── chapter_05.md (54.3K)
+│   │   │   │   │   │   │   │   │   ├── chapter_06.md (31.7K)
+│   │   │   │   │   │   │   │   │   ├── chapter_07.md (29.2K)
+│   │   │   │   │   │   │   │   │   ├── chapter_08.md (29.3K)
+│   │   │   │   │   │   │   │   │   └── manuscript_complete.md (221.8K)
+│   │   │   │   │   │   │   │   ├── worldbuilding/ (352.9K)
+│   │   │   │   │   │   │   │   │   ├── CARTE_REFERENCE.md (11.6K)
+│   │   │   │   │   │   │   │   │   ├── CULTURE.md (100.1K)
+│   │   │   │   │   │   │   │   │   ├── LORE.md (85.2K)
+│   │   │   │   │   │   │   │   │   ├── SURFACE.md (67.5K)
+│   │   │   │   │   │   │   │   │   └── VERTICALE.md (88.6K)
+│   │   │   │   │   │   │   │   ├── chapitre_01.md (87.2K)
+│   │   │   │   │   │   │   │   ├── chapitre_03.md (95.9K)
+│   │   │   │   │   │   │   │   ├── chapitre_04.md (115.4K)
+│   │   │   │   │   │   │   │   ├── chapitre_05.md (108.0K)
+│   │   │   │   │   │   │   │   ├── chapitre_05_new.md (144.7K)
+│   │   │   │   │   │   │   │   ├── chapitre_06.md (116.8K)
+│   │   │   │   │   │   │   │   ├── chapitre_07.md (107.7K)
+│   │   │   │   │   │   │   │   ├── chapitre_08.md (144.2K)
+│   │   │   │   │   │   │   │   ├── manuscrit_complet.md (244.0K)
+│   │   │   │   │   │   │   │   ├── map.md (713.9K)
+│   │   │   │   │   │   │   │   └── (..33 more files)
+│   │   │   │   │   │   │   ├── data/ (45.1K)
+│   │   │   │   │   │   │   │   ├── brains/ (6.8K)
+│   │   │   │   │   │   │   │   │   └── evaluate_health.py (6.8K)
+│   │   │   │   │   │   │   │   ├── seed/ (22.7K)
+│   │   │   │   │   │   │   │   │   ├── FIX_LOG.md (5.6K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_REPORT.md (17.1K)
+│   │   │   │   │   │   │   │   └── Lamputation_du_langage_dans_Contre-Terre_fra.txt (15.6K)
+│   │   │   │   │   │   │   ├── docs/ (737.5K)
+│   │   │   │   │   │   │   │   ├── MAPPING.md (7.1K)
+│   │   │   │   │   │   │   │   ├── TAXONOMY.md (16.5K)
+│   │   │   │   │   │   │   │   └── map.md (713.9K)
+│   │   │   │   │   │   │   ├── en/ (449.1K)
+│   │   │   │   │   │   │   │   ├── KDP_EN.md (6.2K)
+│   │   │   │   │   │   │   │   ├── chapter_01.md (8.7K)
+│   │   │   │   │   │   │   │   ├── chapter_02.md (18.6K)
+│   │   │   │   │   │   │   │   ├── chapter_03.md (20.5K)
+│   │   │   │   │   │   │   │   ├── chapter_04.md (28.6K)
+│   │   │   │   │   │   │   │   ├── chapter_05.md (54.3K)
+│   │   │   │   │   │   │   │   ├── chapter_06.md (31.7K)
+│   │   │   │   │   │   │   │   ├── chapter_07.md (29.2K)
+│   │   │   │   │   │   │   │   ├── chapter_08.md (29.3K)
+│   │   │   │   │   │   │   │   └── manuscript_complete.md (221.8K)
+│   │   │   │   │   │   │   ├── worldbuilding/ (352.9K)
+│   │   │   │   │   │   │   │   ├── CARTE_REFERENCE.md (11.6K)
+│   │   │   │   │   │   │   │   ├── CULTURE.md (100.1K)
+│   │   │   │   │   │   │   │   ├── LORE.md (85.2K)
+│   │   │   │   │   │   │   │   ├── SURFACE.md (67.5K)
+│   │   │   │   │   │   │   │   └── VERTICALE.md (88.6K)
+│   │   │   │   │   │   │   ├── chapitre_01.md (87.2K)
+│   │   │   │   │   │   │   ├── chapitre_03.md (95.9K)
+│   │   │   │   │   │   │   ├── chapitre_04.md (115.4K)
+│   │   │   │   │   │   │   ├── chapitre_05.md (108.0K)
+│   │   │   │   │   │   │   ├── chapitre_05_new.md (144.7K)
+│   │   │   │   │   │   │   ├── chapitre_06.md (116.8K)
+│   │   │   │   │   │   │   ├── chapitre_07.md (107.7K)
+│   │   │   │   │   │   │   ├── chapitre_08.md (144.2K)
+│   │   │   │   │   │   │   ├── manuscrit_complet.md (244.0K)
+│   │   │   │   │   │   │   ├── map.md (713.9K)
+│   │   │   │   │   │   │   └── (..33 more files)
+│   │   │   │   │   │   ├── data/ (607.8K)
+│   │   │   │   │   │   │   ├── brains/ (6.8K)
+│   │   │   │   │   │   │   │   └── evaluate_health.py (6.8K)
+│   │   │   │   │   │   │   ├── export/ (562.8K)
+│   │   │   │   │   │   │   │   └── notebooklm/ (562.8K)
+│   │   │   │   │   │   │   │       ├── chapitre_03.txt (22.6K)
+│   │   │   │   │   │   │   │       ├── chapitre_04.txt (31.2K)
+│   │   │   │   │   │   │   │       ├── docchain_narration_metiers.txt (62.9K)
+│   │   │   │   │   │   │   │       ├── docchain_narration_personnages.txt (68.8K)
+│   │   │   │   │   │   │   │       ├── docchain_narration_structure.txt (70.3K)
+│   │   │   │   │   │   │   │       ├── docchain_worldbuilding_contact.txt (63.4K)
+│   │   │   │   │   │   │   │       ├── docchain_worldbuilding_geographie.txt (68.3K)
+│   │   │   │   │   │   │   │       ├── docchain_worldbuilding_seismique.txt (76.1K)
+│   │   │   │   │   │   │   │       ├── preparation_narration.txt (28.2K)
+│   │   │   │   │   │   │   │       ├── reference_taxonomie_et_mapping.txt (23.7K)
+│   │   │   │   │   │   │   │       └── (..4 more files)
+│   │   │   │   │   │   │   ├── seed/ (22.7K)
+│   │   │   │   │   │   │   │   ├── FIX_LOG.md (5.6K)
+│   │   │   │   │   │   │   │   └── VALIDATION_REPORT.md (17.1K)
+│   │   │   │   │   │   │   └── Lamputation_du_langage_dans_Contre-Terre_fra.txt (15.6K)
+│   │   │   │   │   │   ├── docs/ (1.7M)
+│   │   │   │   │   │   │   ├── narration/ (197.4K)
+│   │   │   │   │   │   │   │   ├── metiers/ (61.4K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Metiers.md (11.0K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Metiers.md (12.4K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Metiers.md (5.4K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Metiers.md (6.6K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Metiers.md (4.7K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Metiers.md (8.6K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Metiers.md (4.8K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Metiers.md (7.9K)
+│   │   │   │   │   │   │   │   ├── personnages/ (67.3K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Personnages.md (9.9K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Personnages.md (14.2K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Personnages.md (8.0K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Personnages.md (7.3K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Personnages.md (4.3K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Personnages.md (7.3K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Personnages.md (8.8K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Personnages.md (7.5K)
+│   │   │   │   │   │   │   │   └── structure/ (68.8K)
+│   │   │   │   │   │   │   │       ├── ALGORITHM_Structure.md (18.1K)
+│   │   │   │   │   │   │   │       ├── BEHAVIORS_Structure.md (9.2K)
+│   │   │   │   │   │   │   │       ├── HEALTH_Structure.md (8.1K)
+│   │   │   │   │   │   │   │       ├── IMPLEMENTATION_Structure.md (5.8K)
+│   │   │   │   │   │   │   │       ├── OBJECTIVES_Structure.md (4.1K)
+│   │   │   │   │   │   │   │       ├── PATTERNS_Structure.md (8.5K)
+│   │   │   │   │   │   │   │       ├── SYNC_Structure.md (6.3K)
+│   │   │   │   │   │   │   │       └── VALIDATION_Structure.md (8.6K)
+│   │   │   │   │   │   │   ├── publication/ (32.1K)
+│   │   │   │   │   │   │   │   └── visual_style/ (32.1K)
+│   │   │   │   │   │   │   │       ├── ALGORITHM_Visual_Style.md (4.4K)
+│   │   │   │   │   │   │   │       ├── BEHAVIORS_Visual_Style.md (3.7K)
+│   │   │   │   │   │   │   │       ├── HEALTH_Visual_Style.md (3.0K)
+│   │   │   │   │   │   │   │       ├── IMPLEMENTATION_Visual_Style.md (4.4K)
+│   │   │   │   │   │   │   │       ├── OBJECTIVES_Visual_Style.md (3.6K)
+│   │   │   │   │   │   │   │       ├── PATTERNS_Visual_Style.md (6.1K)
+│   │   │   │   │   │   │   │       ├── SYNC_Visual_Style.md (3.1K)
+│   │   │   │   │   │   │   │       └── VALIDATION_Visual_Style.md (3.7K)
+│   │   │   │   │   │   │   ├── universe/ (533.9K)
+│   │   │   │   │   │   │   │   ├── citizen_model/ (65.7K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Citizen_Model.md (9.7K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Citizen_Model.md (7.5K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Citizen_Model.md (7.5K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Citizen_Model.md (11.0K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Citizen_Model.md (4.9K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Citizen_Model.md (9.5K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Citizen_Model.md (8.8K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Citizen_Model.md (6.8K)
+│   │   │   │   │   │   │   │   ├── contact_engine/ (57.3K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Contact_Engine.md (10.7K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Contact_Engine.md (7.6K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Contact_Engine.md (5.3K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Contact_Engine.md (7.8K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Contact_Engine.md (4.2K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Contact_Engine.md (7.5K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Contact_Engine.md (7.3K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Contact_Engine.md (6.8K)
+│   │   │   │   │   │   │   │   ├── context_assembly/ (67.4K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Context_Assembly.md (18.2K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Context_Assembly.md (6.8K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Context_Assembly.md (6.1K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Context_Assembly.md (5.7K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Context_Assembly.md (5.9K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Context_Assembly.md (9.7K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Context_Assembly.md (7.4K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Context_Assembly.md (7.6K)
+│   │   │   │   │   │   │   │   ├── experience_design/ (46.5K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Experience_Design.md (6.5K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Experience_Design.md (5.8K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Experience_Design.md (3.8K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Experience_Design.md (5.1K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Experience_Design.md (4.6K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Experience_Design.md (11.3K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Experience_Design.md (5.5K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Experience_Design.md (3.9K)
+│   │   │   │   │   │   │   │   ├── graph_schema/ (55.8K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Graph_Schema.md (7.9K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Graph_Schema.md (5.9K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Graph_Schema.md (5.7K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Graph_Schema.md (7.6K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Graph_Schema.md (5.0K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Graph_Schema.md (8.9K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Graph_Schema.md (7.4K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Graph_Schema.md (7.3K)
+│   │   │   │   │   │   │   │   ├── manifest/ (60.4K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Manifest.md (12.2K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Manifest.md (6.6K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Manifest.md (6.4K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Manifest.md (6.7K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Manifest.md (4.8K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Manifest.md (8.6K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Manifest.md (7.1K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Manifest.md (8.0K)
+│   │   │   │   │   │   │   │   ├── narrative_engine/ (58.4K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Narrative_Engine.md (11.6K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Narrative_Engine.md (6.3K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Narrative_Engine.md (7.0K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Narrative_Engine.md (4.7K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Narrative_Engine.md (5.2K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Narrative_Engine.md (6.3K)
+│   │   │   │   │   │   │   │   ├── seismic_physics/ (64.2K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Seismic_Physics.md (10.1K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Seismic_Physics.md (6.6K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Seismic_Physics.md (5.7K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Seismic_Physics.md (8.7K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Seismic_Physics.md (9.0K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   │   │   └── world_geography/ (58.2K)
+│   │   │   │   │   │   │   │       ├── ALGORITHM_World_Geography.md (9.6K)
+│   │   │   │   │   │   │   │       ├── BEHAVIORS_World_Geography.md (7.9K)
+│   │   │   │   │   │   │   │       ├── HEALTH_World_Geography.md (6.6K)
+│   │   │   │   │   │   │   │       ├── IMPLEMENTATION_World_Geography.md (6.3K)
+│   │   │   │   │   │   │   │       ├── OBJECTIVES_World_Geography.md (6.0K)
+│   │   │   │   │   │   │   │       ├── PATTERNS_World_Geography.md (8.9K)
+│   │   │   │   │   │   │   │       ├── SYNC_World_Geography.md (5.0K)
+│   │   │   │   │   │   │   │       └── VALIDATION_World_Geography.md (7.9K)
+│   │   │   │   │   │   │   ├── worldbuilding/ (209.1K)
+│   │   │   │   │   │   │   │   ├── contact/ (67.7K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Contact.md (16.9K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Contact.md (9.9K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Contact.md (5.6K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Contact.md (8.2K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Contact.md (4.4K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Contact.md (8.0K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Contact.md (6.5K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Contact.md (8.2K)
+│   │   │   │   │   │   │   │   ├── geographie/ (66.8K)
+│   │   │   │   │   │   │   │   │   ├── ALGORITHM_Geographie.md (12.0K)
+│   │   │   │   │   │   │   │   │   ├── BEHAVIORS_Geographie.md (8.8K)
+│   │   │   │   │   │   │   │   │   ├── HEALTH_Geographie.md (8.5K)
+│   │   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Geographie.md (7.1K)
+│   │   │   │   │   │   │   │   │   ├── OBJECTIVES_Geographie.md (4.8K)
+│   │   │   │   │   │   │   │   │   ├── PATTERNS_Geographie.md (9.4K)
+│   │   │   │   │   │   │   │   │   ├── SYNC_Geographie.md (6.5K)
+│   │   │   │   │   │   │   │   │   └── VALIDATION_Geographie.md (9.6K)
+│   │   │   │   │   │   │   │   └── seismique/ (74.6K)
+│   │   │   │   │   │   │   │       ├── ALGORITHM_Seismique.md (14.4K)
+│   │   │   │   │   │   │   │       ├── BEHAVIORS_Seismique.md (10.4K)
+│   │   │   │   │   │   │   │       ├── HEALTH_Seismique.md (9.1K)
+│   │   │   │   │   │   │   │       ├── IMPLEMENTATION_Seismique.md (7.1K)
+│   │   │   │   │   │   │   │       ├── OBJECTIVES_Seismique.md (5.6K)
+│   │   │   │   │   │   │   │       ├── PATTERNS_Seismique.md (10.1K)
+│   │   │   │   │   │   │   │       ├── SYNC_Seismique.md (7.9K)
+│   │   │   │   │   │   │   │       └── VALIDATION_Seismique.md (10.0K)
+│   │   │   │   │   │   │   ├── MAPPING.md (7.1K)
+│   │   │   │   │   │   │   ├── TAXONOMY.md (16.5K)
+│   │   │   │   │   │   │   └── map.md (713.9K)
+│   │   │   │   │   │   ├── en/ (449.1K)
+│   │   │   │   │   │   │   ├── KDP_EN.md (6.2K)
+│   │   │   │   │   │   │   ├── chapter_01.md (8.7K)
+│   │   │   │   │   │   │   ├── chapter_02.md (18.6K)
+│   │   │   │   │   │   │   ├── chapter_03.md (20.5K)
+│   │   │   │   │   │   │   ├── chapter_04.md (28.6K)
+│   │   │   │   │   │   │   ├── chapter_05.md (54.3K)
+│   │   │   │   │   │   │   ├── chapter_06.md (31.7K)
+│   │   │   │   │   │   │   ├── chapter_07.md (29.2K)
+│   │   │   │   │   │   │   ├── chapter_08.md (29.3K)
+│   │   │   │   │   │   │   └── manuscript_complete.md (221.8K)
+│   │   │   │   │   │   ├── worldbuilding/ (352.9K)
+│   │   │   │   │   │   │   ├── CARTE_REFERENCE.md (11.6K)
+│   │   │   │   │   │   │   ├── CULTURE.md (100.1K)
+│   │   │   │   │   │   │   ├── LORE.md (85.2K)
+│   │   │   │   │   │   │   ├── SURFACE.md (67.5K)
+│   │   │   │   │   │   │   └── VERTICALE.md (88.6K)
+│   │   │   │   │   │   ├── chapitre_01.md (87.2K)
+│   │   │   │   │   │   ├── chapitre_03.md (95.9K)
+│   │   │   │   │   │   ├── chapitre_04.md (115.4K)
+│   │   │   │   │   │   ├── chapitre_05.md (108.0K)
+│   │   │   │   │   │   ├── chapitre_05_new.md (144.7K)
+│   │   │   │   │   │   ├── chapitre_06.md (116.8K)
+│   │   │   │   │   │   ├── chapitre_07.md (107.7K)
+│   │   │   │   │   │   ├── chapitre_08.md (144.2K)
+│   │   │   │   │   │   ├── manuscrit_complet.md (244.0K)
+│   │   │   │   │   │   ├── map.md (713.9K)
+│   │   │   │   │   │   └── (..33 more files)
+│   │   │   │   │   ├── data/ (607.8K)
+│   │   │   │   │   │   ├── brains/ (6.8K)
+│   │   │   │   │   │   │   └── evaluate_health.py (6.8K)
+│   │   │   │   │   │   ├── export/ (562.8K)
+│   │   │   │   │   │   │   └── notebooklm/ (562.8K)
+│   │   │   │   │   │   │       ├── chapitre_03.txt (22.6K)
+│   │   │   │   │   │   │       ├── chapitre_04.txt (31.2K)
+│   │   │   │   │   │   │       ├── docchain_narration_metiers.txt (62.9K)
+│   │   │   │   │   │   │       ├── docchain_narration_personnages.txt (68.8K)
+│   │   │   │   │   │   │       ├── docchain_narration_structure.txt (70.3K)
+│   │   │   │   │   │   │       ├── docchain_worldbuilding_contact.txt (63.4K)
+│   │   │   │   │   │   │       ├── docchain_worldbuilding_geographie.txt (68.3K)
+│   │   │   │   │   │   │       ├── docchain_worldbuilding_seismique.txt (76.1K)
+│   │   │   │   │   │   │       ├── preparation_narration.txt (28.2K)
+│   │   │   │   │   │   │       ├── reference_taxonomie_et_mapping.txt (23.7K)
+│   │   │   │   │   │   │       └── (..4 more files)
+│   │   │   │   │   │   ├── seed/ (22.7K)
+│   │   │   │   │   │   │   ├── FIX_LOG.md (5.6K)
+│   │   │   │   │   │   │   └── VALIDATION_REPORT.md (17.1K)
+│   │   │   │   │   │   └── Lamputation_du_langage_dans_Contre-Terre_fra.txt (15.6K)
+│   │   │   │   │   ├── docs/ (1.7M)
+│   │   │   │   │   │   ├── narration/ (197.4K)
+│   │   │   │   │   │   │   ├── metiers/ (61.4K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Metiers.md (11.0K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Metiers.md (12.4K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Metiers.md (5.4K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Metiers.md (6.6K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Metiers.md (4.7K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Metiers.md (8.6K)
+│   │   │   │   │   │   │   │   ├── SYNC_Metiers.md (4.8K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Metiers.md (7.9K)
+│   │   │   │   │   │   │   ├── personnages/ (67.3K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Personnages.md (9.9K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Personnages.md (14.2K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Personnages.md (8.0K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Personnages.md (7.3K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Personnages.md (4.3K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Personnages.md (7.3K)
+│   │   │   │   │   │   │   │   ├── SYNC_Personnages.md (8.8K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Personnages.md (7.5K)
+│   │   │   │   │   │   │   └── structure/ (68.8K)
+│   │   │   │   │   │   │       ├── ALGORITHM_Structure.md (18.1K)
+│   │   │   │   │   │   │       ├── BEHAVIORS_Structure.md (9.2K)
+│   │   │   │   │   │   │       ├── HEALTH_Structure.md (8.1K)
+│   │   │   │   │   │   │       ├── IMPLEMENTATION_Structure.md (5.8K)
+│   │   │   │   │   │   │       ├── OBJECTIVES_Structure.md (4.1K)
+│   │   │   │   │   │   │       ├── PATTERNS_Structure.md (8.5K)
+│   │   │   │   │   │   │       ├── SYNC_Structure.md (6.3K)
+│   │   │   │   │   │   │       └── VALIDATION_Structure.md (8.6K)
+│   │   │   │   │   │   ├── publication/ (32.1K)
+│   │   │   │   │   │   │   └── visual_style/ (32.1K)
+│   │   │   │   │   │   │       ├── ALGORITHM_Visual_Style.md (4.4K)
+│   │   │   │   │   │   │       ├── BEHAVIORS_Visual_Style.md (3.7K)
+│   │   │   │   │   │   │       ├── HEALTH_Visual_Style.md (3.0K)
+│   │   │   │   │   │   │       ├── IMPLEMENTATION_Visual_Style.md (4.4K)
+│   │   │   │   │   │   │       ├── OBJECTIVES_Visual_Style.md (3.6K)
+│   │   │   │   │   │   │       ├── PATTERNS_Visual_Style.md (6.1K)
+│   │   │   │   │   │   │       ├── SYNC_Visual_Style.md (3.1K)
+│   │   │   │   │   │   │       └── VALIDATION_Visual_Style.md (3.7K)
+│   │   │   │   │   │   ├── universe/ (533.9K)
+│   │   │   │   │   │   │   ├── citizen_model/ (65.7K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Citizen_Model.md (9.7K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Citizen_Model.md (7.5K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Citizen_Model.md (7.5K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Citizen_Model.md (11.0K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Citizen_Model.md (4.9K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Citizen_Model.md (9.5K)
+│   │   │   │   │   │   │   │   ├── SYNC_Citizen_Model.md (8.8K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Citizen_Model.md (6.8K)
+│   │   │   │   │   │   │   ├── contact_engine/ (57.3K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Contact_Engine.md (10.7K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Contact_Engine.md (7.6K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Contact_Engine.md (5.3K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Contact_Engine.md (7.8K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Contact_Engine.md (4.2K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Contact_Engine.md (7.5K)
+│   │   │   │   │   │   │   │   ├── SYNC_Contact_Engine.md (7.3K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Contact_Engine.md (6.8K)
+│   │   │   │   │   │   │   ├── context_assembly/ (67.4K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Context_Assembly.md (18.2K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Context_Assembly.md (6.8K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Context_Assembly.md (6.1K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Context_Assembly.md (5.7K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Context_Assembly.md (5.9K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Context_Assembly.md (9.7K)
+│   │   │   │   │   │   │   │   ├── SYNC_Context_Assembly.md (7.4K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Context_Assembly.md (7.6K)
+│   │   │   │   │   │   │   ├── experience_design/ (46.5K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Experience_Design.md (6.5K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Experience_Design.md (5.8K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Experience_Design.md (3.8K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Experience_Design.md (5.1K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Experience_Design.md (4.6K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Experience_Design.md (11.3K)
+│   │   │   │   │   │   │   │   ├── SYNC_Experience_Design.md (5.5K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Experience_Design.md (3.9K)
+│   │   │   │   │   │   │   ├── graph_schema/ (55.8K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Graph_Schema.md (7.9K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Graph_Schema.md (5.9K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Graph_Schema.md (5.7K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Graph_Schema.md (7.6K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Graph_Schema.md (5.0K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Graph_Schema.md (8.9K)
+│   │   │   │   │   │   │   │   ├── SYNC_Graph_Schema.md (7.4K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Graph_Schema.md (7.3K)
+│   │   │   │   │   │   │   ├── manifest/ (60.4K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Manifest.md (12.2K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Manifest.md (6.6K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Manifest.md (6.4K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Manifest.md (6.7K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Manifest.md (4.8K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Manifest.md (8.6K)
+│   │   │   │   │   │   │   │   ├── SYNC_Manifest.md (7.1K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Manifest.md (8.0K)
+│   │   │   │   │   │   │   ├── narrative_engine/ (58.4K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Narrative_Engine.md (11.6K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Narrative_Engine.md (6.3K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Narrative_Engine.md (7.0K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Narrative_Engine.md (4.7K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   │   │   │   ├── SYNC_Narrative_Engine.md (5.2K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Narrative_Engine.md (6.3K)
+│   │   │   │   │   │   │   ├── seismic_physics/ (64.2K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Seismic_Physics.md (10.1K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Seismic_Physics.md (6.6K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Seismic_Physics.md (5.7K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Seismic_Physics.md (8.7K)
+│   │   │   │   │   │   │   │   ├── SYNC_Seismic_Physics.md (9.0K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   │   └── world_geography/ (58.2K)
+│   │   │   │   │   │   │       ├── ALGORITHM_World_Geography.md (9.6K)
+│   │   │   │   │   │   │       ├── BEHAVIORS_World_Geography.md (7.9K)
+│   │   │   │   │   │   │       ├── HEALTH_World_Geography.md (6.6K)
+│   │   │   │   │   │   │       ├── IMPLEMENTATION_World_Geography.md (6.3K)
+│   │   │   │   │   │   │       ├── OBJECTIVES_World_Geography.md (6.0K)
+│   │   │   │   │   │   │       ├── PATTERNS_World_Geography.md (8.9K)
+│   │   │   │   │   │   │       ├── SYNC_World_Geography.md (5.0K)
+│   │   │   │   │   │   │       └── VALIDATION_World_Geography.md (7.9K)
+│   │   │   │   │   │   ├── worldbuilding/ (209.1K)
+│   │   │   │   │   │   │   ├── contact/ (67.7K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Contact.md (16.9K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Contact.md (9.9K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Contact.md (5.6K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Contact.md (8.2K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Contact.md (4.4K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Contact.md (8.0K)
+│   │   │   │   │   │   │   │   ├── SYNC_Contact.md (6.5K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Contact.md (8.2K)
+│   │   │   │   │   │   │   ├── geographie/ (66.8K)
+│   │   │   │   │   │   │   │   ├── ALGORITHM_Geographie.md (12.0K)
+│   │   │   │   │   │   │   │   ├── BEHAVIORS_Geographie.md (8.8K)
+│   │   │   │   │   │   │   │   ├── HEALTH_Geographie.md (8.5K)
+│   │   │   │   │   │   │   │   ├── IMPLEMENTATION_Geographie.md (7.1K)
+│   │   │   │   │   │   │   │   ├── OBJECTIVES_Geographie.md (4.8K)
+│   │   │   │   │   │   │   │   ├── PATTERNS_Geographie.md (9.4K)
+│   │   │   │   │   │   │   │   ├── SYNC_Geographie.md (6.5K)
+│   │   │   │   │   │   │   │   └── VALIDATION_Geographie.md (9.6K)
+│   │   │   │   │   │   │   └── seismique/ (74.6K)
+│   │   │   │   │   │   │       ├── ALGORITHM_Seismique.md (14.4K)
+│   │   │   │   │   │   │       ├── BEHAVIORS_Seismique.md (10.4K)
+│   │   │   │   │   │   │       ├── HEALTH_Seismique.md (9.1K)
+│   │   │   │   │   │   │       ├── IMPLEMENTATION_Seismique.md (7.1K)
+│   │   │   │   │   │   │       ├── OBJECTIVES_Seismique.md (5.6K)
+│   │   │   │   │   │   │       ├── PATTERNS_Seismique.md (10.1K)
+│   │   │   │   │   │   │       ├── SYNC_Seismique.md (7.9K)
+│   │   │   │   │   │   │       └── VALIDATION_Seismique.md (10.0K)
+│   │   │   │   │   │   ├── MAPPING.md (7.1K)
+│   │   │   │   │   │   ├── TAXONOMY.md (16.5K)
+│   │   │   │   │   │   └── map.md (713.9K)
+│   │   │   │   │   ├── en/ (449.1K)
+│   │   │   │   │   │   ├── KDP_EN.md (6.2K)
+│   │   │   │   │   │   ├── chapter_01.md (8.7K)
+│   │   │   │   │   │   ├── chapter_02.md (18.6K)
+│   │   │   │   │   │   ├── chapter_03.md (20.5K)
+│   │   │   │   │   │   ├── chapter_04.md (28.6K)
+│   │   │   │   │   │   ├── chapter_05.md (54.3K)
+│   │   │   │   │   │   ├── chapter_06.md (31.7K)
+│   │   │   │   │   │   ├── chapter_07.md (29.2K)
+│   │   │   │   │   │   ├── chapter_08.md (29.3K)
+│   │   │   │   │   │   └── manuscript_complete.md (221.8K)
+│   │   │   │   │   ├── worldbuilding/ (352.9K)
+│   │   │   │   │   │   ├── CARTE_REFERENCE.md (11.6K)
+│   │   │   │   │   │   ├── CULTURE.md (100.1K)
+│   │   │   │   │   │   ├── LORE.md (85.2K)
+│   │   │   │   │   │   ├── SURFACE.md (67.5K)
+│   │   │   │   │   │   └── VERTICALE.md (88.6K)
+│   │   │   │   │   ├── chapitre_01.md (87.2K)
+│   │   │   │   │   ├── chapitre_03.md (95.9K)
+│   │   │   │   │   ├── chapitre_04.md (115.4K)
+│   │   │   │   │   ├── chapitre_05.md (108.0K)
+│   │   │   │   │   ├── chapitre_05_new.md (144.7K)
+│   │   │   │   │   ├── chapitre_06.md (116.8K)
+│   │   │   │   │   ├── chapitre_07.md (107.7K)
+│   │   │   │   │   ├── chapitre_08.md (144.2K)
+│   │   │   │   │   ├── manuscrit_complet.md (244.0K)
+│   │   │   │   │   ├── map.md (713.9K)
+│   │   │   │   │   └── (..33 more files)
+│   │   │   │   ├── data/ (607.8K)
+│   │   │   │   │   ├── brains/ (6.8K)
+│   │   │   │   │   │   └── evaluate_health.py (6.8K)
+│   │   │   │   │   ├── export/ (562.8K)
+│   │   │   │   │   │   └── notebooklm/ (562.8K)
+│   │   │   │   │   │       ├── chapitre_03.txt (22.6K)
+│   │   │   │   │   │       ├── chapitre_04.txt (31.2K)
+│   │   │   │   │   │       ├── docchain_narration_metiers.txt (62.9K)
+│   │   │   │   │   │       ├── docchain_narration_personnages.txt (68.8K)
+│   │   │   │   │   │       ├── docchain_narration_structure.txt (70.3K)
+│   │   │   │   │   │       ├── docchain_worldbuilding_contact.txt (63.4K)
+│   │   │   │   │   │       ├── docchain_worldbuilding_geographie.txt (68.3K)
+│   │   │   │   │   │       ├── docchain_worldbuilding_seismique.txt (76.1K)
+│   │   │   │   │   │       ├── preparation_narration.txt (28.2K)
+│   │   │   │   │   │       ├── reference_taxonomie_et_mapping.txt (23.7K)
+│   │   │   │   │   │       └── (..4 more files)
+│   │   │   │   │   ├── seed/ (22.7K)
+│   │   │   │   │   │   ├── FIX_LOG.md (5.6K)
+│   │   │   │   │   │   └── VALIDATION_REPORT.md (17.1K)
+│   │   │   │   │   └── Lamputation_du_langage_dans_Contre-Terre_fra.txt (15.6K)
+│   │   │   │   ├── docs/ (1.7M)
+│   │   │   │   │   ├── narration/ (197.4K)
+│   │   │   │   │   │   ├── metiers/ (61.4K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Metiers.md (11.0K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Metiers.md (12.4K)
+│   │   │   │   │   │   │   ├── HEALTH_Metiers.md (5.4K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Metiers.md (6.6K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Metiers.md (4.7K)
+│   │   │   │   │   │   │   ├── PATTERNS_Metiers.md (8.6K)
+│   │   │   │   │   │   │   ├── SYNC_Metiers.md (4.8K)
+│   │   │   │   │   │   │   └── VALIDATION_Metiers.md (7.9K)
+│   │   │   │   │   │   ├── personnages/ (67.3K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Personnages.md (9.9K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Personnages.md (14.2K)
+│   │   │   │   │   │   │   ├── HEALTH_Personnages.md (8.0K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Personnages.md (7.3K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Personnages.md (4.3K)
+│   │   │   │   │   │   │   ├── PATTERNS_Personnages.md (7.3K)
+│   │   │   │   │   │   │   ├── SYNC_Personnages.md (8.8K)
+│   │   │   │   │   │   │   └── VALIDATION_Personnages.md (7.5K)
+│   │   │   │   │   │   └── structure/ (68.8K)
+│   │   │   │   │   │       ├── ALGORITHM_Structure.md (18.1K)
+│   │   │   │   │   │       ├── BEHAVIORS_Structure.md (9.2K)
+│   │   │   │   │   │       ├── HEALTH_Structure.md (8.1K)
+│   │   │   │   │   │       ├── IMPLEMENTATION_Structure.md (5.8K)
+│   │   │   │   │   │       ├── OBJECTIVES_Structure.md (4.1K)
+│   │   │   │   │   │       ├── PATTERNS_Structure.md (8.5K)
+│   │   │   │   │   │       ├── SYNC_Structure.md (6.3K)
+│   │   │   │   │   │       └── VALIDATION_Structure.md (8.6K)
+│   │   │   │   │   ├── publication/ (32.1K)
+│   │   │   │   │   │   └── visual_style/ (32.1K)
+│   │   │   │   │   │       ├── ALGORITHM_Visual_Style.md (4.4K)
+│   │   │   │   │   │       ├── BEHAVIORS_Visual_Style.md (3.7K)
+│   │   │   │   │   │       ├── HEALTH_Visual_Style.md (3.0K)
+│   │   │   │   │   │       ├── IMPLEMENTATION_Visual_Style.md (4.4K)
+│   │   │   │   │   │       ├── OBJECTIVES_Visual_Style.md (3.6K)
+│   │   │   │   │   │       ├── PATTERNS_Visual_Style.md (6.1K)
+│   │   │   │   │   │       ├── SYNC_Visual_Style.md (3.1K)
+│   │   │   │   │   │       └── VALIDATION_Visual_Style.md (3.7K)
+│   │   │   │   │   ├── universe/ (533.9K)
+│   │   │   │   │   │   ├── citizen_model/ (65.7K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Citizen_Model.md (9.7K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Citizen_Model.md (7.5K)
+│   │   │   │   │   │   │   ├── HEALTH_Citizen_Model.md (7.5K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Citizen_Model.md (11.0K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Citizen_Model.md (4.9K)
+│   │   │   │   │   │   │   ├── PATTERNS_Citizen_Model.md (9.5K)
+│   │   │   │   │   │   │   ├── SYNC_Citizen_Model.md (8.8K)
+│   │   │   │   │   │   │   └── VALIDATION_Citizen_Model.md (6.8K)
+│   │   │   │   │   │   ├── contact_engine/ (57.3K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Contact_Engine.md (10.7K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Contact_Engine.md (7.6K)
+│   │   │   │   │   │   │   ├── HEALTH_Contact_Engine.md (5.3K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Contact_Engine.md (7.8K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Contact_Engine.md (4.2K)
+│   │   │   │   │   │   │   ├── PATTERNS_Contact_Engine.md (7.5K)
+│   │   │   │   │   │   │   ├── SYNC_Contact_Engine.md (7.3K)
+│   │   │   │   │   │   │   └── VALIDATION_Contact_Engine.md (6.8K)
+│   │   │   │   │   │   ├── context_assembly/ (67.4K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Context_Assembly.md (18.2K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Context_Assembly.md (6.8K)
+│   │   │   │   │   │   │   ├── HEALTH_Context_Assembly.md (6.1K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Context_Assembly.md (5.7K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Context_Assembly.md (5.9K)
+│   │   │   │   │   │   │   ├── PATTERNS_Context_Assembly.md (9.7K)
+│   │   │   │   │   │   │   ├── SYNC_Context_Assembly.md (7.4K)
+│   │   │   │   │   │   │   └── VALIDATION_Context_Assembly.md (7.6K)
+│   │   │   │   │   │   ├── experience_design/ (46.5K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Experience_Design.md (6.5K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Experience_Design.md (5.8K)
+│   │   │   │   │   │   │   ├── HEALTH_Experience_Design.md (3.8K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Experience_Design.md (5.1K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Experience_Design.md (4.6K)
+│   │   │   │   │   │   │   ├── PATTERNS_Experience_Design.md (11.3K)
+│   │   │   │   │   │   │   ├── SYNC_Experience_Design.md (5.5K)
+│   │   │   │   │   │   │   └── VALIDATION_Experience_Design.md (3.9K)
+│   │   │   │   │   │   ├── graph_schema/ (55.8K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Graph_Schema.md (7.9K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Graph_Schema.md (5.9K)
+│   │   │   │   │   │   │   ├── HEALTH_Graph_Schema.md (5.7K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Graph_Schema.md (7.6K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Graph_Schema.md (5.0K)
+│   │   │   │   │   │   │   ├── PATTERNS_Graph_Schema.md (8.9K)
+│   │   │   │   │   │   │   ├── SYNC_Graph_Schema.md (7.4K)
+│   │   │   │   │   │   │   └── VALIDATION_Graph_Schema.md (7.3K)
+│   │   │   │   │   │   ├── manifest/ (60.4K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Manifest.md (12.2K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Manifest.md (6.6K)
+│   │   │   │   │   │   │   ├── HEALTH_Manifest.md (6.4K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Manifest.md (6.7K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Manifest.md (4.8K)
+│   │   │   │   │   │   │   ├── PATTERNS_Manifest.md (8.6K)
+│   │   │   │   │   │   │   ├── SYNC_Manifest.md (7.1K)
+│   │   │   │   │   │   │   └── VALIDATION_Manifest.md (8.0K)
+│   │   │   │   │   │   ├── narrative_engine/ (58.4K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Narrative_Engine.md (11.6K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   │   │   ├── HEALTH_Narrative_Engine.md (6.3K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Narrative_Engine.md (7.0K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Narrative_Engine.md (4.7K)
+│   │   │   │   │   │   │   ├── PATTERNS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   │   │   ├── SYNC_Narrative_Engine.md (5.2K)
+│   │   │   │   │   │   │   └── VALIDATION_Narrative_Engine.md (6.3K)
+│   │   │   │   │   │   ├── seismic_physics/ (64.2K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Seismic_Physics.md (10.1K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   │   ├── HEALTH_Seismic_Physics.md (6.6K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Seismic_Physics.md (5.7K)
+│   │   │   │   │   │   │   ├── PATTERNS_Seismic_Physics.md (8.7K)
+│   │   │   │   │   │   │   ├── SYNC_Seismic_Physics.md (9.0K)
+│   │   │   │   │   │   │   └── VALIDATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   └── world_geography/ (58.2K)
+│   │   │   │   │   │       ├── ALGORITHM_World_Geography.md (9.6K)
+│   │   │   │   │   │       ├── BEHAVIORS_World_Geography.md (7.9K)
+│   │   │   │   │   │       ├── HEALTH_World_Geography.md (6.6K)
+│   │   │   │   │   │       ├── IMPLEMENTATION_World_Geography.md (6.3K)
+│   │   │   │   │   │       ├── OBJECTIVES_World_Geography.md (6.0K)
+│   │   │   │   │   │       ├── PATTERNS_World_Geography.md (8.9K)
+│   │   │   │   │   │       ├── SYNC_World_Geography.md (5.0K)
+│   │   │   │   │   │       └── VALIDATION_World_Geography.md (7.9K)
+│   │   │   │   │   ├── worldbuilding/ (209.1K)
+│   │   │   │   │   │   ├── contact/ (67.7K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Contact.md (16.9K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Contact.md (9.9K)
+│   │   │   │   │   │   │   ├── HEALTH_Contact.md (5.6K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Contact.md (8.2K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Contact.md (4.4K)
+│   │   │   │   │   │   │   ├── PATTERNS_Contact.md (8.0K)
+│   │   │   │   │   │   │   ├── SYNC_Contact.md (6.5K)
+│   │   │   │   │   │   │   └── VALIDATION_Contact.md (8.2K)
+│   │   │   │   │   │   ├── geographie/ (66.8K)
+│   │   │   │   │   │   │   ├── ALGORITHM_Geographie.md (12.0K)
+│   │   │   │   │   │   │   ├── BEHAVIORS_Geographie.md (8.8K)
+│   │   │   │   │   │   │   ├── HEALTH_Geographie.md (8.5K)
+│   │   │   │   │   │   │   ├── IMPLEMENTATION_Geographie.md (7.1K)
+│   │   │   │   │   │   │   ├── OBJECTIVES_Geographie.md (4.8K)
+│   │   │   │   │   │   │   ├── PATTERNS_Geographie.md (9.4K)
+│   │   │   │   │   │   │   ├── SYNC_Geographie.md (6.5K)
+│   │   │   │   │   │   │   └── VALIDATION_Geographie.md (9.6K)
+│   │   │   │   │   │   └── seismique/ (74.6K)
+│   │   │   │   │   │       ├── ALGORITHM_Seismique.md (14.4K)
+│   │   │   │   │   │       ├── BEHAVIORS_Seismique.md (10.4K)
+│   │   │   │   │   │       ├── HEALTH_Seismique.md (9.1K)
+│   │   │   │   │   │       ├── IMPLEMENTATION_Seismique.md (7.1K)
+│   │   │   │   │   │       ├── OBJECTIVES_Seismique.md (5.6K)
+│   │   │   │   │   │       ├── PATTERNS_Seismique.md (10.1K)
+│   │   │   │   │   │       ├── SYNC_Seismique.md (7.9K)
+│   │   │   │   │   │       └── VALIDATION_Seismique.md (10.0K)
+│   │   │   │   │   ├── MAPPING.md (7.1K)
+│   │   │   │   │   ├── TAXONOMY.md (16.5K)
+│   │   │   │   │   └── map.md (713.9K)
+│   │   │   │   ├── en/ (449.1K)
+│   │   │   │   │   ├── KDP_EN.md (6.2K)
+│   │   │   │   │   ├── chapter_01.md (8.7K)
+│   │   │   │   │   ├── chapter_02.md (18.6K)
+│   │   │   │   │   ├── chapter_03.md (20.5K)
+│   │   │   │   │   ├── chapter_04.md (28.6K)
+│   │   │   │   │   ├── chapter_05.md (54.3K)
+│   │   │   │   │   ├── chapter_06.md (31.7K)
+│   │   │   │   │   ├── chapter_07.md (29.2K)
+│   │   │   │   │   ├── chapter_08.md (29.3K)
+│   │   │   │   │   └── manuscript_complete.md (221.8K)
+│   │   │   │   ├── worldbuilding/ (352.9K)
+│   │   │   │   │   ├── CARTE_REFERENCE.md (11.6K)
+│   │   │   │   │   ├── CULTURE.md (100.1K)
+│   │   │   │   │   ├── LORE.md (85.2K)
+│   │   │   │   │   ├── SURFACE.md (67.5K)
+│   │   │   │   │   └── VERTICALE.md (88.6K)
+│   │   │   │   ├── chapitre_01.md (87.2K)
+│   │   │   │   ├── chapitre_03.md (95.9K)
+│   │   │   │   ├── chapitre_04.md (115.4K)
+│   │   │   │   ├── chapitre_05.md (108.0K)
+│   │   │   │   ├── chapitre_05_new.md (144.7K)
+│   │   │   │   ├── chapitre_06.md (116.8K)
+│   │   │   │   ├── chapitre_07.md (107.7K)
+│   │   │   │   ├── chapitre_08.md (144.2K)
+│   │   │   │   ├── manuscrit_complet.md (244.0K)
+│   │   │   │   ├── map.md (713.9K)
+│   │   │   │   └── (..33 more files)
+│   │   │   ├── data/ (607.8K)
+│   │   │   │   ├── brains/ (6.8K)
+│   │   │   │   │   └── evaluate_health.py (6.8K)
+│   │   │   │   ├── export/ (562.8K)
+│   │   │   │   │   └── notebooklm/ (562.8K)
+│   │   │   │   │       ├── chapitre_03.txt (22.6K)
+│   │   │   │   │       ├── chapitre_04.txt (31.2K)
+│   │   │   │   │       ├── docchain_narration_metiers.txt (62.9K)
+│   │   │   │   │       ├── docchain_narration_personnages.txt (68.8K)
+│   │   │   │   │       ├── docchain_narration_structure.txt (70.3K)
+│   │   │   │   │       ├── docchain_worldbuilding_contact.txt (63.4K)
+│   │   │   │   │       ├── docchain_worldbuilding_geographie.txt (68.3K)
+│   │   │   │   │       ├── docchain_worldbuilding_seismique.txt (76.1K)
+│   │   │   │   │       ├── preparation_narration.txt (28.2K)
+│   │   │   │   │       ├── reference_taxonomie_et_mapping.txt (23.7K)
+│   │   │   │   │       └── (..4 more files)
+│   │   │   │   ├── seed/ (22.7K)
+│   │   │   │   │   ├── FIX_LOG.md (5.6K)
+│   │   │   │   │   └── VALIDATION_REPORT.md (17.1K)
+│   │   │   │   └── Lamputation_du_langage_dans_Contre-Terre_fra.txt (15.6K)
+│   │   │   ├── docs/ (1.7M)
+│   │   │   │   ├── narration/ (197.4K)
+│   │   │   │   │   ├── metiers/ (61.4K)
+│   │   │   │   │   │   ├── ALGORITHM_Metiers.md (11.0K)
+│   │   │   │   │   │   ├── BEHAVIORS_Metiers.md (12.4K)
+│   │   │   │   │   │   ├── HEALTH_Metiers.md (5.4K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Metiers.md (6.6K)
+│   │   │   │   │   │   ├── OBJECTIVES_Metiers.md (4.7K)
+│   │   │   │   │   │   ├── PATTERNS_Metiers.md (8.6K)
+│   │   │   │   │   │   ├── SYNC_Metiers.md (4.8K)
+│   │   │   │   │   │   └── VALIDATION_Metiers.md (7.9K)
+│   │   │   │   │   ├── personnages/ (67.3K)
+│   │   │   │   │   │   ├── ALGORITHM_Personnages.md (9.9K)
+│   │   │   │   │   │   ├── BEHAVIORS_Personnages.md (14.2K)
+│   │   │   │   │   │   ├── HEALTH_Personnages.md (8.0K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Personnages.md (7.3K)
+│   │   │   │   │   │   ├── OBJECTIVES_Personnages.md (4.3K)
+│   │   │   │   │   │   ├── PATTERNS_Personnages.md (7.3K)
+│   │   │   │   │   │   ├── SYNC_Personnages.md (8.8K)
+│   │   │   │   │   │   └── VALIDATION_Personnages.md (7.5K)
+│   │   │   │   │   └── structure/ (68.8K)
+│   │   │   │   │       ├── ALGORITHM_Structure.md (18.1K)
+│   │   │   │   │       ├── BEHAVIORS_Structure.md (9.2K)
+│   │   │   │   │       ├── HEALTH_Structure.md (8.1K)
+│   │   │   │   │       ├── IMPLEMENTATION_Structure.md (5.8K)
+│   │   │   │   │       ├── OBJECTIVES_Structure.md (4.1K)
+│   │   │   │   │       ├── PATTERNS_Structure.md (8.5K)
+│   │   │   │   │       ├── SYNC_Structure.md (6.3K)
+│   │   │   │   │       └── VALIDATION_Structure.md (8.6K)
+│   │   │   │   ├── publication/ (32.1K)
+│   │   │   │   │   └── visual_style/ (32.1K)
+│   │   │   │   │       ├── ALGORITHM_Visual_Style.md (4.4K)
+│   │   │   │   │       ├── BEHAVIORS_Visual_Style.md (3.7K)
+│   │   │   │   │       ├── HEALTH_Visual_Style.md (3.0K)
+│   │   │   │   │       ├── IMPLEMENTATION_Visual_Style.md (4.4K)
+│   │   │   │   │       ├── OBJECTIVES_Visual_Style.md (3.6K)
+│   │   │   │   │       ├── PATTERNS_Visual_Style.md (6.1K)
+│   │   │   │   │       ├── SYNC_Visual_Style.md (3.1K)
+│   │   │   │   │       └── VALIDATION_Visual_Style.md (3.7K)
+│   │   │   │   ├── universe/ (533.9K)
+│   │   │   │   │   ├── citizen_model/ (65.7K)
+│   │   │   │   │   │   ├── ALGORITHM_Citizen_Model.md (9.7K)
+│   │   │   │   │   │   ├── BEHAVIORS_Citizen_Model.md (7.5K)
+│   │   │   │   │   │   ├── HEALTH_Citizen_Model.md (7.5K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Citizen_Model.md (11.0K)
+│   │   │   │   │   │   ├── OBJECTIVES_Citizen_Model.md (4.9K)
+│   │   │   │   │   │   ├── PATTERNS_Citizen_Model.md (9.5K)
+│   │   │   │   │   │   ├── SYNC_Citizen_Model.md (8.8K)
+│   │   │   │   │   │   └── VALIDATION_Citizen_Model.md (6.8K)
+│   │   │   │   │   ├── contact_engine/ (57.3K)
+│   │   │   │   │   │   ├── ALGORITHM_Contact_Engine.md (10.7K)
+│   │   │   │   │   │   ├── BEHAVIORS_Contact_Engine.md (7.6K)
+│   │   │   │   │   │   ├── HEALTH_Contact_Engine.md (5.3K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Contact_Engine.md (7.8K)
+│   │   │   │   │   │   ├── OBJECTIVES_Contact_Engine.md (4.2K)
+│   │   │   │   │   │   ├── PATTERNS_Contact_Engine.md (7.5K)
+│   │   │   │   │   │   ├── SYNC_Contact_Engine.md (7.3K)
+│   │   │   │   │   │   └── VALIDATION_Contact_Engine.md (6.8K)
+│   │   │   │   │   ├── context_assembly/ (67.4K)
+│   │   │   │   │   │   ├── ALGORITHM_Context_Assembly.md (18.2K)
+│   │   │   │   │   │   ├── BEHAVIORS_Context_Assembly.md (6.8K)
+│   │   │   │   │   │   ├── HEALTH_Context_Assembly.md (6.1K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Context_Assembly.md (5.7K)
+│   │   │   │   │   │   ├── OBJECTIVES_Context_Assembly.md (5.9K)
+│   │   │   │   │   │   ├── PATTERNS_Context_Assembly.md (9.7K)
+│   │   │   │   │   │   ├── SYNC_Context_Assembly.md (7.4K)
+│   │   │   │   │   │   └── VALIDATION_Context_Assembly.md (7.6K)
+│   │   │   │   │   ├── experience_design/ (46.5K)
+│   │   │   │   │   │   ├── ALGORITHM_Experience_Design.md (6.5K)
+│   │   │   │   │   │   ├── BEHAVIORS_Experience_Design.md (5.8K)
+│   │   │   │   │   │   ├── HEALTH_Experience_Design.md (3.8K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Experience_Design.md (5.1K)
+│   │   │   │   │   │   ├── OBJECTIVES_Experience_Design.md (4.6K)
+│   │   │   │   │   │   ├── PATTERNS_Experience_Design.md (11.3K)
+│   │   │   │   │   │   ├── SYNC_Experience_Design.md (5.5K)
+│   │   │   │   │   │   └── VALIDATION_Experience_Design.md (3.9K)
+│   │   │   │   │   ├── graph_schema/ (55.8K)
+│   │   │   │   │   │   ├── ALGORITHM_Graph_Schema.md (7.9K)
+│   │   │   │   │   │   ├── BEHAVIORS_Graph_Schema.md (5.9K)
+│   │   │   │   │   │   ├── HEALTH_Graph_Schema.md (5.7K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Graph_Schema.md (7.6K)
+│   │   │   │   │   │   ├── OBJECTIVES_Graph_Schema.md (5.0K)
+│   │   │   │   │   │   ├── PATTERNS_Graph_Schema.md (8.9K)
+│   │   │   │   │   │   ├── SYNC_Graph_Schema.md (7.4K)
+│   │   │   │   │   │   └── VALIDATION_Graph_Schema.md (7.3K)
+│   │   │   │   │   ├── manifest/ (60.4K)
+│   │   │   │   │   │   ├── ALGORITHM_Manifest.md (12.2K)
+│   │   │   │   │   │   ├── BEHAVIORS_Manifest.md (6.6K)
+│   │   │   │   │   │   ├── HEALTH_Manifest.md (6.4K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Manifest.md (6.7K)
+│   │   │   │   │   │   ├── OBJECTIVES_Manifest.md (4.8K)
+│   │   │   │   │   │   ├── PATTERNS_Manifest.md (8.6K)
+│   │   │   │   │   │   ├── SYNC_Manifest.md (7.1K)
+│   │   │   │   │   │   └── VALIDATION_Manifest.md (8.0K)
+│   │   │   │   │   ├── narrative_engine/ (58.4K)
+│   │   │   │   │   │   ├── ALGORITHM_Narrative_Engine.md (11.6K)
+│   │   │   │   │   │   ├── BEHAVIORS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   │   ├── HEALTH_Narrative_Engine.md (6.3K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Narrative_Engine.md (7.0K)
+│   │   │   │   │   │   ├── OBJECTIVES_Narrative_Engine.md (4.7K)
+│   │   │   │   │   │   ├── PATTERNS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   │   ├── SYNC_Narrative_Engine.md (5.2K)
+│   │   │   │   │   │   └── VALIDATION_Narrative_Engine.md (6.3K)
+│   │   │   │   │   ├── seismic_physics/ (64.2K)
+│   │   │   │   │   │   ├── ALGORITHM_Seismic_Physics.md (10.1K)
+│   │   │   │   │   │   ├── BEHAVIORS_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   ├── HEALTH_Seismic_Physics.md (6.6K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   │   ├── OBJECTIVES_Seismic_Physics.md (5.7K)
+│   │   │   │   │   │   ├── PATTERNS_Seismic_Physics.md (8.7K)
+│   │   │   │   │   │   ├── SYNC_Seismic_Physics.md (9.0K)
+│   │   │   │   │   │   └── VALIDATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   └── world_geography/ (58.2K)
+│   │   │   │   │       ├── ALGORITHM_World_Geography.md (9.6K)
+│   │   │   │   │       ├── BEHAVIORS_World_Geography.md (7.9K)
+│   │   │   │   │       ├── HEALTH_World_Geography.md (6.6K)
+│   │   │   │   │       ├── IMPLEMENTATION_World_Geography.md (6.3K)
+│   │   │   │   │       ├── OBJECTIVES_World_Geography.md (6.0K)
+│   │   │   │   │       ├── PATTERNS_World_Geography.md (8.9K)
+│   │   │   │   │       ├── SYNC_World_Geography.md (5.0K)
+│   │   │   │   │       └── VALIDATION_World_Geography.md (7.9K)
+│   │   │   │   ├── worldbuilding/ (209.1K)
+│   │   │   │   │   ├── contact/ (67.7K)
+│   │   │   │   │   │   ├── ALGORITHM_Contact.md (16.9K)
+│   │   │   │   │   │   ├── BEHAVIORS_Contact.md (9.9K)
+│   │   │   │   │   │   ├── HEALTH_Contact.md (5.6K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Contact.md (8.2K)
+│   │   │   │   │   │   ├── OBJECTIVES_Contact.md (4.4K)
+│   │   │   │   │   │   ├── PATTERNS_Contact.md (8.0K)
+│   │   │   │   │   │   ├── SYNC_Contact.md (6.5K)
+│   │   │   │   │   │   └── VALIDATION_Contact.md (8.2K)
+│   │   │   │   │   ├── geographie/ (66.8K)
+│   │   │   │   │   │   ├── ALGORITHM_Geographie.md (12.0K)
+│   │   │   │   │   │   ├── BEHAVIORS_Geographie.md (8.8K)
+│   │   │   │   │   │   ├── HEALTH_Geographie.md (8.5K)
+│   │   │   │   │   │   ├── IMPLEMENTATION_Geographie.md (7.1K)
+│   │   │   │   │   │   ├── OBJECTIVES_Geographie.md (4.8K)
+│   │   │   │   │   │   ├── PATTERNS_Geographie.md (9.4K)
+│   │   │   │   │   │   ├── SYNC_Geographie.md (6.5K)
+│   │   │   │   │   │   └── VALIDATION_Geographie.md (9.6K)
+│   │   │   │   │   └── seismique/ (74.6K)
+│   │   │   │   │       ├── ALGORITHM_Seismique.md (14.4K)
+│   │   │   │   │       ├── BEHAVIORS_Seismique.md (10.4K)
+│   │   │   │   │       ├── HEALTH_Seismique.md (9.1K)
+│   │   │   │   │       ├── IMPLEMENTATION_Seismique.md (7.1K)
+│   │   │   │   │       ├── OBJECTIVES_Seismique.md (5.6K)
+│   │   │   │   │       ├── PATTERNS_Seismique.md (10.1K)
+│   │   │   │   │       ├── SYNC_Seismique.md (7.9K)
+│   │   │   │   │       └── VALIDATION_Seismique.md (10.0K)
+│   │   │   │   ├── MAPPING.md (7.1K)
+│   │   │   │   ├── TAXONOMY.md (16.5K)
+│   │   │   │   └── map.md (713.9K)
+│   │   │   ├── en/ (449.1K)
+│   │   │   │   ├── KDP_EN.md (6.2K)
+│   │   │   │   ├── chapter_01.md (8.7K)
+│   │   │   │   ├── chapter_02.md (18.6K)
+│   │   │   │   ├── chapter_03.md (20.5K)
+│   │   │   │   ├── chapter_04.md (28.6K)
+│   │   │   │   ├── chapter_05.md (54.3K)
+│   │   │   │   ├── chapter_06.md (31.7K)
+│   │   │   │   ├── chapter_07.md (29.2K)
+│   │   │   │   ├── chapter_08.md (29.3K)
+│   │   │   │   └── manuscript_complete.md (221.8K)
+│   │   │   ├── worldbuilding/ (352.9K)
+│   │   │   │   ├── CARTE_REFERENCE.md (11.6K)
+│   │   │   │   ├── CULTURE.md (100.1K)
+│   │   │   │   ├── LORE.md (85.2K)
+│   │   │   │   ├── SURFACE.md (67.5K)
+│   │   │   │   └── VERTICALE.md (88.6K)
+│   │   │   ├── chapitre_01.md (87.2K)
+│   │   │   ├── chapitre_03.md (95.9K)
+│   │   │   ├── chapitre_04.md (115.4K)
+│   │   │   ├── chapitre_05.md (108.0K)
+│   │   │   ├── chapitre_05_new.md (144.7K)
+│   │   │   ├── chapitre_06.md (116.8K)
+│   │   │   ├── chapitre_07.md (107.7K)
+│   │   │   ├── chapitre_08.md (144.2K)
+│   │   │   ├── manuscrit_complet.md (244.0K)
+│   │   │   ├── map.md (713.9K)
+│   │   │   └── (..33 more files)
+│   │   ├── data/ (607.8K)
+│   │   │   ├── brains/ (6.8K)
+│   │   │   │   └── evaluate_health.py (6.8K)
+│   │   │   ├── export/ (562.8K)
+│   │   │   │   └── notebooklm/ (562.8K)
+│   │   │   │       ├── chapitre_03.txt (22.6K)
+│   │   │   │       ├── chapitre_04.txt (31.2K)
+│   │   │   │       ├── docchain_narration_metiers.txt (62.9K)
+│   │   │   │       ├── docchain_narration_personnages.txt (68.8K)
+│   │   │   │       ├── docchain_narration_structure.txt (70.3K)
+│   │   │   │       ├── docchain_worldbuilding_contact.txt (63.4K)
+│   │   │   │       ├── docchain_worldbuilding_geographie.txt (68.3K)
+│   │   │   │       ├── docchain_worldbuilding_seismique.txt (76.1K)
+│   │   │   │       ├── preparation_narration.txt (28.2K)
+│   │   │   │       ├── reference_taxonomie_et_mapping.txt (23.7K)
+│   │   │   │       └── (..4 more files)
+│   │   │   ├── seed/ (22.7K)
+│   │   │   │   ├── FIX_LOG.md (5.6K)
+│   │   │   │   └── VALIDATION_REPORT.md (17.1K)
+│   │   │   └── Lamputation_du_langage_dans_Contre-Terre_fra.txt (15.6K)
+│   │   ├── docs/ (1.7M)
+│   │   │   ├── narration/ (197.4K)
+│   │   │   │   ├── metiers/ (61.4K)
+│   │   │   │   │   ├── ALGORITHM_Metiers.md (11.0K)
+│   │   │   │   │   ├── BEHAVIORS_Metiers.md (12.4K)
+│   │   │   │   │   ├── HEALTH_Metiers.md (5.4K)
+│   │   │   │   │   ├── IMPLEMENTATION_Metiers.md (6.6K)
+│   │   │   │   │   ├── OBJECTIVES_Metiers.md (4.7K)
+│   │   │   │   │   ├── PATTERNS_Metiers.md (8.6K)
+│   │   │   │   │   ├── SYNC_Metiers.md (4.8K)
+│   │   │   │   │   └── VALIDATION_Metiers.md (7.9K)
+│   │   │   │   ├── personnages/ (67.3K)
+│   │   │   │   │   ├── ALGORITHM_Personnages.md (9.9K)
+│   │   │   │   │   ├── BEHAVIORS_Personnages.md (14.2K)
+│   │   │   │   │   ├── HEALTH_Personnages.md (8.0K)
+│   │   │   │   │   ├── IMPLEMENTATION_Personnages.md (7.3K)
+│   │   │   │   │   ├── OBJECTIVES_Personnages.md (4.3K)
+│   │   │   │   │   ├── PATTERNS_Personnages.md (7.3K)
+│   │   │   │   │   ├── SYNC_Personnages.md (8.8K)
+│   │   │   │   │   └── VALIDATION_Personnages.md (7.5K)
+│   │   │   │   └── structure/ (68.8K)
+│   │   │   │       ├── ALGORITHM_Structure.md (18.1K)
+│   │   │   │       ├── BEHAVIORS_Structure.md (9.2K)
+│   │   │   │       ├── HEALTH_Structure.md (8.1K)
+│   │   │   │       ├── IMPLEMENTATION_Structure.md (5.8K)
+│   │   │   │       ├── OBJECTIVES_Structure.md (4.1K)
+│   │   │   │       ├── PATTERNS_Structure.md (8.5K)
+│   │   │   │       ├── SYNC_Structure.md (6.3K)
+│   │   │   │       └── VALIDATION_Structure.md (8.6K)
+│   │   │   ├── publication/ (32.1K)
+│   │   │   │   └── visual_style/ (32.1K)
+│   │   │   │       ├── ALGORITHM_Visual_Style.md (4.4K)
+│   │   │   │       ├── BEHAVIORS_Visual_Style.md (3.7K)
+│   │   │   │       ├── HEALTH_Visual_Style.md (3.0K)
+│   │   │   │       ├── IMPLEMENTATION_Visual_Style.md (4.4K)
+│   │   │   │       ├── OBJECTIVES_Visual_Style.md (3.6K)
+│   │   │   │       ├── PATTERNS_Visual_Style.md (6.1K)
+│   │   │   │       ├── SYNC_Visual_Style.md (3.1K)
+│   │   │   │       └── VALIDATION_Visual_Style.md (3.7K)
+│   │   │   ├── universe/ (533.9K)
+│   │   │   │   ├── citizen_model/ (65.7K)
+│   │   │   │   │   ├── ALGORITHM_Citizen_Model.md (9.7K)
+│   │   │   │   │   ├── BEHAVIORS_Citizen_Model.md (7.5K)
+│   │   │   │   │   ├── HEALTH_Citizen_Model.md (7.5K)
+│   │   │   │   │   ├── IMPLEMENTATION_Citizen_Model.md (11.0K)
+│   │   │   │   │   ├── OBJECTIVES_Citizen_Model.md (4.9K)
+│   │   │   │   │   ├── PATTERNS_Citizen_Model.md (9.5K)
+│   │   │   │   │   ├── SYNC_Citizen_Model.md (8.8K)
+│   │   │   │   │   └── VALIDATION_Citizen_Model.md (6.8K)
+│   │   │   │   ├── contact_engine/ (57.3K)
+│   │   │   │   │   ├── ALGORITHM_Contact_Engine.md (10.7K)
+│   │   │   │   │   ├── BEHAVIORS_Contact_Engine.md (7.6K)
+│   │   │   │   │   ├── HEALTH_Contact_Engine.md (5.3K)
+│   │   │   │   │   ├── IMPLEMENTATION_Contact_Engine.md (7.8K)
+│   │   │   │   │   ├── OBJECTIVES_Contact_Engine.md (4.2K)
+│   │   │   │   │   ├── PATTERNS_Contact_Engine.md (7.5K)
+│   │   │   │   │   ├── SYNC_Contact_Engine.md (7.3K)
+│   │   │   │   │   └── VALIDATION_Contact_Engine.md (6.8K)
+│   │   │   │   ├── context_assembly/ (67.4K)
+│   │   │   │   │   ├── ALGORITHM_Context_Assembly.md (18.2K)
+│   │   │   │   │   ├── BEHAVIORS_Context_Assembly.md (6.8K)
+│   │   │   │   │   ├── HEALTH_Context_Assembly.md (6.1K)
+│   │   │   │   │   ├── IMPLEMENTATION_Context_Assembly.md (5.7K)
+│   │   │   │   │   ├── OBJECTIVES_Context_Assembly.md (5.9K)
+│   │   │   │   │   ├── PATTERNS_Context_Assembly.md (9.7K)
+│   │   │   │   │   ├── SYNC_Context_Assembly.md (7.4K)
+│   │   │   │   │   └── VALIDATION_Context_Assembly.md (7.6K)
+│   │   │   │   ├── experience_design/ (46.5K)
+│   │   │   │   │   ├── ALGORITHM_Experience_Design.md (6.5K)
+│   │   │   │   │   ├── BEHAVIORS_Experience_Design.md (5.8K)
+│   │   │   │   │   ├── HEALTH_Experience_Design.md (3.8K)
+│   │   │   │   │   ├── IMPLEMENTATION_Experience_Design.md (5.1K)
+│   │   │   │   │   ├── OBJECTIVES_Experience_Design.md (4.6K)
+│   │   │   │   │   ├── PATTERNS_Experience_Design.md (11.3K)
+│   │   │   │   │   ├── SYNC_Experience_Design.md (5.5K)
+│   │   │   │   │   └── VALIDATION_Experience_Design.md (3.9K)
+│   │   │   │   ├── graph_schema/ (55.8K)
+│   │   │   │   │   ├── ALGORITHM_Graph_Schema.md (7.9K)
+│   │   │   │   │   ├── BEHAVIORS_Graph_Schema.md (5.9K)
+│   │   │   │   │   ├── HEALTH_Graph_Schema.md (5.7K)
+│   │   │   │   │   ├── IMPLEMENTATION_Graph_Schema.md (7.6K)
+│   │   │   │   │   ├── OBJECTIVES_Graph_Schema.md (5.0K)
+│   │   │   │   │   ├── PATTERNS_Graph_Schema.md (8.9K)
+│   │   │   │   │   ├── SYNC_Graph_Schema.md (7.4K)
+│   │   │   │   │   └── VALIDATION_Graph_Schema.md (7.3K)
+│   │   │   │   ├── manifest/ (60.4K)
+│   │   │   │   │   ├── ALGORITHM_Manifest.md (12.2K)
+│   │   │   │   │   ├── BEHAVIORS_Manifest.md (6.6K)
+│   │   │   │   │   ├── HEALTH_Manifest.md (6.4K)
+│   │   │   │   │   ├── IMPLEMENTATION_Manifest.md (6.7K)
+│   │   │   │   │   ├── OBJECTIVES_Manifest.md (4.8K)
+│   │   │   │   │   ├── PATTERNS_Manifest.md (8.6K)
+│   │   │   │   │   ├── SYNC_Manifest.md (7.1K)
+│   │   │   │   │   └── VALIDATION_Manifest.md (8.0K)
+│   │   │   │   ├── narrative_engine/ (58.4K)
+│   │   │   │   │   ├── ALGORITHM_Narrative_Engine.md (11.6K)
+│   │   │   │   │   ├── BEHAVIORS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   ├── HEALTH_Narrative_Engine.md (6.3K)
+│   │   │   │   │   ├── IMPLEMENTATION_Narrative_Engine.md (7.0K)
+│   │   │   │   │   ├── OBJECTIVES_Narrative_Engine.md (4.7K)
+│   │   │   │   │   ├── PATTERNS_Narrative_Engine.md (8.7K)
+│   │   │   │   │   ├── SYNC_Narrative_Engine.md (5.2K)
+│   │   │   │   │   └── VALIDATION_Narrative_Engine.md (6.3K)
+│   │   │   │   ├── seismic_physics/ (64.2K)
+│   │   │   │   │   ├── ALGORITHM_Seismic_Physics.md (10.1K)
+│   │   │   │   │   ├── BEHAVIORS_Seismic_Physics.md (8.0K)
+│   │   │   │   │   ├── HEALTH_Seismic_Physics.md (6.6K)
+│   │   │   │   │   ├── IMPLEMENTATION_Seismic_Physics.md (8.0K)
+│   │   │   │   │   ├── OBJECTIVES_Seismic_Physics.md (5.7K)
+│   │   │   │   │   ├── PATTERNS_Seismic_Physics.md (8.7K)
+│   │   │   │   │   ├── SYNC_Seismic_Physics.md (9.0K)
+│   │   │   │   │   └── VALIDATION_Seismic_Physics.md (8.0K)
+│   │   │   │   └── world_geography/ (58.2K)
+│   │   │   │       ├── ALGORITHM_World_Geography.md (9.6K)
+│   │   │   │       ├── BEHAVIORS_World_Geography.md (7.9K)
+│   │   │   │       ├── HEALTH_World_Geography.md (6.6K)
+│   │   │   │       ├── IMPLEMENTATION_World_Geography.md (6.3K)
+│   │   │   │       ├── OBJECTIVES_World_Geography.md (6.0K)
+│   │   │   │       ├── PATTERNS_World_Geography.md (8.9K)
+│   │   │   │       ├── SYNC_World_Geography.md (5.0K)
+│   │   │   │       └── VALIDATION_World_Geography.md (7.9K)
+│   │   │   ├── worldbuilding/ (209.1K)
+│   │   │   │   ├── contact/ (67.7K)
+│   │   │   │   │   ├── ALGORITHM_Contact.md (16.9K)
+│   │   │   │   │   ├── BEHAVIORS_Contact.md (9.9K)
+│   │   │   │   │   ├── HEALTH_Contact.md (5.6K)
+│   │   │   │   │   ├── IMPLEMENTATION_Contact.md (8.2K)
+│   │   │   │   │   ├── OBJECTIVES_Contact.md (4.4K)
+│   │   │   │   │   ├── PATTERNS_Contact.md (8.0K)
+│   │   │   │   │   ├── SYNC_Contact.md (6.5K)
+│   │   │   │   │   └── VALIDATION_Contact.md (8.2K)
+│   │   │   │   ├── geographie/ (66.8K)
+│   │   │   │   │   ├── ALGORITHM_Geographie.md (12.0K)
+│   │   │   │   │   ├── BEHAVIORS_Geographie.md (8.8K)
+│   │   │   │   │   ├── HEALTH_Geographie.md (8.5K)
+│   │   │   │   │   ├── IMPLEMENTATION_Geographie.md (7.1K)
+│   │   │   │   │   ├── OBJECTIVES_Geographie.md (4.8K)
+│   │   │   │   │   ├── PATTERNS_Geographie.md (9.4K)
+│   │   │   │   │   ├── SYNC_Geographie.md (6.5K)
+│   │   │   │   │   └── VALIDATION_Geographie.md (9.6K)
+│   │   │   │   └── seismique/ (74.6K)
+│   │   │   │       ├── ALGORITHM_Seismique.md (14.4K)
+│   │   │   │       ├── BEHAVIORS_Seismique.md (10.4K)
+│   │   │   │       ├── HEALTH_Seismique.md (9.1K)
+│   │   │   │       ├── IMPLEMENTATION_Seismique.md (7.1K)
+│   │   │   │       ├── OBJECTIVES_Seismique.md (5.6K)
+│   │   │   │       ├── PATTERNS_Seismique.md (10.1K)
+│   │   │   │       ├── SYNC_Seismique.md (7.9K)
+│   │   │   │       └── VALIDATION_Seismique.md (10.0K)
+│   │   │   ├── MAPPING.md (7.1K)
+│   │   │   ├── TAXONOMY.md (16.5K)
+│   │   │   └── map.md (713.9K)
+│   │   ├── en/ (449.1K)
+│   │   │   ├── KDP_EN.md (6.2K)
+│   │   │   ├── chapter_01.md (8.7K)
+│   │   │   ├── chapter_02.md (18.6K)
+│   │   │   ├── chapter_03.md (20.5K)
+│   │   │   ├── chapter_04.md (28.6K)
+│   │   │   ├── chapter_05.md (54.3K)
+│   │   │   ├── chapter_06.md (31.7K)
+│   │   │   ├── chapter_07.md (29.2K)
+│   │   │   ├── chapter_08.md (29.3K)
+│   │   │   └── manuscript_complete.md (221.8K)
+│   │   ├── worldbuilding/ (352.9K)
+│   │   │   ├── CARTE_REFERENCE.md (11.6K)
+│   │   │   ├── CULTURE.md (100.1K)
+│   │   │   ├── LORE.md (85.2K)
+│   │   │   ├── SURFACE.md (67.5K)
+│   │   │   └── VERTICALE.md (88.6K)
+│   │   ├── chapitre_01.md (87.2K)
+│   │   ├── chapitre_03.md (95.9K)
+│   │   ├── chapitre_04.md (115.4K)
+│   │   ├── chapitre_05.md (108.0K)
+│   │   ├── chapitre_05_new.md (144.7K)
+│   │   ├── chapitre_06.md (116.8K)
+│   │   ├── chapitre_07.md (107.7K)
+│   │   ├── chapitre_08.md (144.2K)
+│   │   ├── manuscrit_complet.md (244.0K)
+│   │   ├── map.md (713.9K)
+│   │   └── (..33 more files)
+│   ├── data/ (607.8K)
+│   │   ├── brains/ (6.8K)
+│   │   │   └── evaluate_health.py (6.8K)
+│   │   ├── export/ (562.8K)
+│   │   │   └── notebooklm/ (562.8K)
+│   │   │       ├── chapitre_03.txt (22.6K)
+│   │   │       ├── chapitre_04.txt (31.2K)
+│   │   │       ├── docchain_narration_metiers.txt (62.9K)
+│   │   │       ├── docchain_narration_personnages.txt (68.8K)
+│   │   │       ├── docchain_narration_structure.txt (70.3K)
+│   │   │       ├── docchain_worldbuilding_contact.txt (63.4K)
+│   │   │       ├── docchain_worldbuilding_geographie.txt (68.3K)
+│   │   │       ├── docchain_worldbuilding_seismique.txt (76.1K)
+│   │   │       ├── preparation_narration.txt (28.2K)
+│   │   │       ├── reference_taxonomie_et_mapping.txt (23.7K)
+│   │   │       └── (..4 more files)
+│   │   ├── seed/ (22.7K)
+│   │   │   ├── FIX_LOG.md (5.6K)
+│   │   │   └── VALIDATION_REPORT.md (17.1K)
+│   │   └── Lamputation_du_langage_dans_Contre-Terre_fra.txt (15.6K)
+│   ├── docs/ (1.7M)
+│   │   ├── narration/ (197.4K)
+│   │   │   ├── metiers/ (61.4K)
+│   │   │   │   ├── ALGORITHM_Metiers.md (11.0K)
+│   │   │   │   ├── BEHAVIORS_Metiers.md (12.4K)
+│   │   │   │   ├── HEALTH_Metiers.md (5.4K)
+│   │   │   │   ├── IMPLEMENTATION_Metiers.md (6.6K)
+│   │   │   │   ├── OBJECTIVES_Metiers.md (4.7K)
+│   │   │   │   ├── PATTERNS_Metiers.md (8.6K)
+│   │   │   │   ├── SYNC_Metiers.md (4.8K)
+│   │   │   │   └── VALIDATION_Metiers.md (7.9K)
+│   │   │   ├── personnages/ (67.3K)
+│   │   │   │   ├── ALGORITHM_Personnages.md (9.9K)
+│   │   │   │   ├── BEHAVIORS_Personnages.md (14.2K)
+│   │   │   │   ├── HEALTH_Personnages.md (8.0K)
+│   │   │   │   ├── IMPLEMENTATION_Personnages.md (7.3K)
+│   │   │   │   ├── OBJECTIVES_Personnages.md (4.3K)
+│   │   │   │   ├── PATTERNS_Personnages.md (7.3K)
+│   │   │   │   ├── SYNC_Personnages.md (8.8K)
+│   │   │   │   └── VALIDATION_Personnages.md (7.5K)
+│   │   │   └── structure/ (68.8K)
+│   │   │       ├── ALGORITHM_Structure.md (18.1K)
+│   │   │       ├── BEHAVIORS_Structure.md (9.2K)
+│   │   │       ├── HEALTH_Structure.md (8.1K)
+│   │   │       ├── IMPLEMENTATION_Structure.md (5.8K)
+│   │   │       ├── OBJECTIVES_Structure.md (4.1K)
+│   │   │       ├── PATTERNS_Structure.md (8.5K)
+│   │   │       ├── SYNC_Structure.md (6.3K)
+│   │   │       └── VALIDATION_Structure.md (8.6K)
+│   │   ├── publication/ (32.1K)
+│   │   │   └── visual_style/ (32.1K)
+│   │   │       ├── ALGORITHM_Visual_Style.md (4.4K)
+│   │   │       ├── BEHAVIORS_Visual_Style.md (3.7K)
+│   │   │       ├── HEALTH_Visual_Style.md (3.0K)
+│   │   │       ├── IMPLEMENTATION_Visual_Style.md (4.4K)
+│   │   │       ├── OBJECTIVES_Visual_Style.md (3.6K)
+│   │   │       ├── PATTERNS_Visual_Style.md (6.1K)
+│   │   │       ├── SYNC_Visual_Style.md (3.1K)
+│   │   │       └── VALIDATION_Visual_Style.md (3.7K)
+│   │   ├── universe/ (533.9K)
+│   │   │   ├── citizen_model/ (65.7K)
+│   │   │   │   ├── ALGORITHM_Citizen_Model.md (9.7K)
+│   │   │   │   ├── BEHAVIORS_Citizen_Model.md (7.5K)
+│   │   │   │   ├── HEALTH_Citizen_Model.md (7.5K)
+│   │   │   │   ├── IMPLEMENTATION_Citizen_Model.md (11.0K)
+│   │   │   │   ├── OBJECTIVES_Citizen_Model.md (4.9K)
+│   │   │   │   ├── PATTERNS_Citizen_Model.md (9.5K)
+│   │   │   │   ├── SYNC_Citizen_Model.md (8.8K)
+│   │   │   │   └── VALIDATION_Citizen_Model.md (6.8K)
+│   │   │   ├── contact_engine/ (57.3K)
+│   │   │   │   ├── ALGORITHM_Contact_Engine.md (10.7K)
+│   │   │   │   ├── BEHAVIORS_Contact_Engine.md (7.6K)
+│   │   │   │   ├── HEALTH_Contact_Engine.md (5.3K)
+│   │   │   │   ├── IMPLEMENTATION_Contact_Engine.md (7.8K)
+│   │   │   │   ├── OBJECTIVES_Contact_Engine.md (4.2K)
+│   │   │   │   ├── PATTERNS_Contact_Engine.md (7.5K)
+│   │   │   │   ├── SYNC_Contact_Engine.md (7.3K)
+│   │   │   │   └── VALIDATION_Contact_Engine.md (6.8K)
+│   │   │   ├── context_assembly/ (67.4K)
+│   │   │   │   ├── ALGORITHM_Context_Assembly.md (18.2K)
+│   │   │   │   ├── BEHAVIORS_Context_Assembly.md (6.8K)
+│   │   │   │   ├── HEALTH_Context_Assembly.md (6.1K)
+│   │   │   │   ├── IMPLEMENTATION_Context_Assembly.md (5.7K)
+│   │   │   │   ├── OBJECTIVES_Context_Assembly.md (5.9K)
+│   │   │   │   ├── PATTERNS_Context_Assembly.md (9.7K)
+│   │   │   │   ├── SYNC_Context_Assembly.md (7.4K)
+│   │   │   │   └── VALIDATION_Context_Assembly.md (7.6K)
+│   │   │   ├── experience_design/ (46.5K)
+│   │   │   │   ├── ALGORITHM_Experience_Design.md (6.5K)
+│   │   │   │   ├── BEHAVIORS_Experience_Design.md (5.8K)
+│   │   │   │   ├── HEALTH_Experience_Design.md (3.8K)
+│   │   │   │   ├── IMPLEMENTATION_Experience_Design.md (5.1K)
+│   │   │   │   ├── OBJECTIVES_Experience_Design.md (4.6K)
+│   │   │   │   ├── PATTERNS_Experience_Design.md (11.3K)
+│   │   │   │   ├── SYNC_Experience_Design.md (5.5K)
+│   │   │   │   └── VALIDATION_Experience_Design.md (3.9K)
+│   │   │   ├── graph_schema/ (55.8K)
+│   │   │   │   ├── ALGORITHM_Graph_Schema.md (7.9K)
+│   │   │   │   ├── BEHAVIORS_Graph_Schema.md (5.9K)
+│   │   │   │   ├── HEALTH_Graph_Schema.md (5.7K)
+│   │   │   │   ├── IMPLEMENTATION_Graph_Schema.md (7.6K)
+│   │   │   │   ├── OBJECTIVES_Graph_Schema.md (5.0K)
+│   │   │   │   ├── PATTERNS_Graph_Schema.md (8.9K)
+│   │   │   │   ├── SYNC_Graph_Schema.md (7.4K)
+│   │   │   │   └── VALIDATION_Graph_Schema.md (7.3K)
+│   │   │   ├── manifest/ (60.4K)
+│   │   │   │   ├── ALGORITHM_Manifest.md (12.2K)
+│   │   │   │   ├── BEHAVIORS_Manifest.md (6.6K)
+│   │   │   │   ├── HEALTH_Manifest.md (6.4K)
+│   │   │   │   ├── IMPLEMENTATION_Manifest.md (6.7K)
+│   │   │   │   ├── OBJECTIVES_Manifest.md (4.8K)
+│   │   │   │   ├── PATTERNS_Manifest.md (8.6K)
+│   │   │   │   ├── SYNC_Manifest.md (7.1K)
+│   │   │   │   └── VALIDATION_Manifest.md (8.0K)
+│   │   │   ├── narrative_engine/ (58.4K)
+│   │   │   │   ├── ALGORITHM_Narrative_Engine.md (11.6K)
+│   │   │   │   ├── BEHAVIORS_Narrative_Engine.md (8.7K)
+│   │   │   │   ├── HEALTH_Narrative_Engine.md (6.3K)
+│   │   │   │   ├── IMPLEMENTATION_Narrative_Engine.md (7.0K)
+│   │   │   │   ├── OBJECTIVES_Narrative_Engine.md (4.7K)
+│   │   │   │   ├── PATTERNS_Narrative_Engine.md (8.7K)
+│   │   │   │   ├── SYNC_Narrative_Engine.md (5.2K)
+│   │   │   │   └── VALIDATION_Narrative_Engine.md (6.3K)
+│   │   │   ├── seismic_physics/ (64.2K)
+│   │   │   │   ├── ALGORITHM_Seismic_Physics.md (10.1K)
+│   │   │   │   ├── BEHAVIORS_Seismic_Physics.md (8.0K)
+│   │   │   │   ├── HEALTH_Seismic_Physics.md (6.6K)
+│   │   │   │   ├── IMPLEMENTATION_Seismic_Physics.md (8.0K)
+│   │   │   │   ├── OBJECTIVES_Seismic_Physics.md (5.7K)
+│   │   │   │   ├── PATTERNS_Seismic_Physics.md (8.7K)
+│   │   │   │   ├── SYNC_Seismic_Physics.md (9.0K)
+│   │   │   │   └── VALIDATION_Seismic_Physics.md (8.0K)
+│   │   │   └── world_geography/ (58.2K)
+│   │   │       ├── ALGORITHM_World_Geography.md (9.6K)
+│   │   │       ├── BEHAVIORS_World_Geography.md (7.9K)
+│   │   │       ├── HEALTH_World_Geography.md (6.6K)
+│   │   │       ├── IMPLEMENTATION_World_Geography.md (6.3K)
+│   │   │       ├── OBJECTIVES_World_Geography.md (6.0K)
+│   │   │       ├── PATTERNS_World_Geography.md (8.9K)
+│   │   │       ├── SYNC_World_Geography.md (5.0K)
+│   │   │       └── VALIDATION_World_Geography.md (7.9K)
+│   │   ├── worldbuilding/ (209.1K)
+│   │   │   ├── contact/ (67.7K)
+│   │   │   │   ├── ALGORITHM_Contact.md (16.9K)
+│   │   │   │   ├── BEHAVIORS_Contact.md (9.9K)
+│   │   │   │   ├── HEALTH_Contact.md (5.6K)
+│   │   │   │   ├── IMPLEMENTATION_Contact.md (8.2K)
+│   │   │   │   ├── OBJECTIVES_Contact.md (4.4K)
+│   │   │   │   ├── PATTERNS_Contact.md (8.0K)
+│   │   │   │   ├── SYNC_Contact.md (6.5K)
+│   │   │   │   └── VALIDATION_Contact.md (8.2K)
+│   │   │   ├── geographie/ (66.8K)
+│   │   │   │   ├── ALGORITHM_Geographie.md (12.0K)
+│   │   │   │   ├── BEHAVIORS_Geographie.md (8.8K)
+│   │   │   │   ├── HEALTH_Geographie.md (8.5K)
+│   │   │   │   ├── IMPLEMENTATION_Geographie.md (7.1K)
+│   │   │   │   ├── OBJECTIVES_Geographie.md (4.8K)
+│   │   │   │   ├── PATTERNS_Geographie.md (9.4K)
+│   │   │   │   ├── SYNC_Geographie.md (6.5K)
+│   │   │   │   └── VALIDATION_Geographie.md (9.6K)
+│   │   │   └── seismique/ (74.6K)
+│   │   │       ├── ALGORITHM_Seismique.md (14.4K)
+│   │   │       ├── BEHAVIORS_Seismique.md (10.4K)
+│   │   │       ├── HEALTH_Seismique.md (9.1K)
+│   │   │       ├── IMPLEMENTATION_Seismique.md (7.1K)
+│   │   │       ├── OBJECTIVES_Seismique.md (5.6K)
+│   │   │       ├── PATTERNS_Seismique.md (10.1K)
+│   │   │       ├── SYNC_Seismique.md (7.9K)
+│   │   │       └── VALIDATION_Seismique.md (10.0K)
+│   │   ├── MAPPING.md (7.1K)
+│   │   ├── TAXONOMY.md (16.5K)
+│   │   └── map.md (713.9K)
+│   ├── en/ (449.1K)
+│   │   ├── KDP_EN.md (6.2K)
+│   │   ├── chapter_01.md (8.7K)
+│   │   ├── chapter_02.md (18.6K)
+│   │   ├── chapter_03.md (20.5K)
+│   │   ├── chapter_04.md (28.6K)
+│   │   ├── chapter_05.md (54.3K)
+│   │   ├── chapter_06.md (31.7K)
+│   │   ├── chapter_07.md (29.2K)
+│   │   ├── chapter_08.md (29.3K)
+│   │   └── manuscript_complete.md (221.8K)
+│   ├── worldbuilding/ (352.9K)
+│   │   ├── CARTE_REFERENCE.md (11.6K)
+│   │   ├── CULTURE.md (100.1K)
+│   │   ├── LORE.md (85.2K)
+│   │   ├── SURFACE.md (67.5K)
+│   │   └── VERTICALE.md (88.6K)
+│   ├── chapitre_01.md (87.2K)
+│   ├── chapitre_03.md (95.9K)
+│   ├── chapitre_04.md (115.4K)
+│   ├── chapitre_05.md (108.0K)
+│   ├── chapitre_05_new.md (144.7K)
+│   ├── chapitre_06.md (116.8K)
+│   ├── chapitre_07.md (107.7K)
+│   ├── chapitre_08.md (144.2K)
+│   ├── manuscrit_complet.md (244.0K)
+│   ├── map.md (713.9K)
+│   └── (..33 more files)
+├── docs/ (1.7M)
 │   ├── narration/ (197.4K)
 │   │   ├── metiers/ (61.4K)
 │   │   │   ├── ALGORITHM_Metiers.md (11.0K)
@@ -52,6 +2977,98 @@
 │   │       ├── PATTERNS_Structure.md (8.5K)
 │   │       ├── SYNC_Structure.md (6.3K)
 │   │       └── VALIDATION_Structure.md (8.6K)
+│   ├── publication/ (32.1K)
+│   │   └── visual_style/ (32.1K)
+│   │       ├── ALGORITHM_Visual_Style.md (4.4K)
+│   │       ├── BEHAVIORS_Visual_Style.md (3.7K)
+│   │       ├── HEALTH_Visual_Style.md (3.0K)
+│   │       ├── IMPLEMENTATION_Visual_Style.md (4.4K)
+│   │       ├── OBJECTIVES_Visual_Style.md (3.6K)
+│   │       ├── PATTERNS_Visual_Style.md (6.1K)
+│   │       ├── SYNC_Visual_Style.md (3.1K)
+│   │       └── VALIDATION_Visual_Style.md (3.7K)
+│   ├── universe/ (533.9K)
+│   │   ├── citizen_model/ (65.7K)
+│   │   │   ├── ALGORITHM_Citizen_Model.md (9.7K)
+│   │   │   ├── BEHAVIORS_Citizen_Model.md (7.5K)
+│   │   │   ├── HEALTH_Citizen_Model.md (7.5K)
+│   │   │   ├── IMPLEMENTATION_Citizen_Model.md (11.0K)
+│   │   │   ├── OBJECTIVES_Citizen_Model.md (4.9K)
+│   │   │   ├── PATTERNS_Citizen_Model.md (9.5K)
+│   │   │   ├── SYNC_Citizen_Model.md (8.8K)
+│   │   │   └── VALIDATION_Citizen_Model.md (6.8K)
+│   │   ├── contact_engine/ (57.3K)
+│   │   │   ├── ALGORITHM_Contact_Engine.md (10.7K)
+│   │   │   ├── BEHAVIORS_Contact_Engine.md (7.6K)
+│   │   │   ├── HEALTH_Contact_Engine.md (5.3K)
+│   │   │   ├── IMPLEMENTATION_Contact_Engine.md (7.8K)
+│   │   │   ├── OBJECTIVES_Contact_Engine.md (4.2K)
+│   │   │   ├── PATTERNS_Contact_Engine.md (7.5K)
+│   │   │   ├── SYNC_Contact_Engine.md (7.3K)
+│   │   │   └── VALIDATION_Contact_Engine.md (6.8K)
+│   │   ├── context_assembly/ (67.4K)
+│   │   │   ├── ALGORITHM_Context_Assembly.md (18.2K)
+│   │   │   ├── BEHAVIORS_Context_Assembly.md (6.8K)
+│   │   │   ├── HEALTH_Context_Assembly.md (6.1K)
+│   │   │   ├── IMPLEMENTATION_Context_Assembly.md (5.7K)
+│   │   │   ├── OBJECTIVES_Context_Assembly.md (5.9K)
+│   │   │   ├── PATTERNS_Context_Assembly.md (9.7K)
+│   │   │   ├── SYNC_Context_Assembly.md (7.4K)
+│   │   │   └── VALIDATION_Context_Assembly.md (7.6K)
+│   │   ├── experience_design/ (46.5K)
+│   │   │   ├── ALGORITHM_Experience_Design.md (6.5K)
+│   │   │   ├── BEHAVIORS_Experience_Design.md (5.8K)
+│   │   │   ├── HEALTH_Experience_Design.md (3.8K)
+│   │   │   ├── IMPLEMENTATION_Experience_Design.md (5.1K)
+│   │   │   ├── OBJECTIVES_Experience_Design.md (4.6K)
+│   │   │   ├── PATTERNS_Experience_Design.md (11.3K)
+│   │   │   ├── SYNC_Experience_Design.md (5.5K)
+│   │   │   └── VALIDATION_Experience_Design.md (3.9K)
+│   │   ├── graph_schema/ (55.8K)
+│   │   │   ├── ALGORITHM_Graph_Schema.md (7.9K)
+│   │   │   ├── BEHAVIORS_Graph_Schema.md (5.9K)
+│   │   │   ├── HEALTH_Graph_Schema.md (5.7K)
+│   │   │   ├── IMPLEMENTATION_Graph_Schema.md (7.6K)
+│   │   │   ├── OBJECTIVES_Graph_Schema.md (5.0K)
+│   │   │   ├── PATTERNS_Graph_Schema.md (8.9K)
+│   │   │   ├── SYNC_Graph_Schema.md (7.4K)
+│   │   │   └── VALIDATION_Graph_Schema.md (7.3K)
+│   │   ├── manifest/ (60.4K)
+│   │   │   ├── ALGORITHM_Manifest.md (12.2K)
+│   │   │   ├── BEHAVIORS_Manifest.md (6.6K)
+│   │   │   ├── HEALTH_Manifest.md (6.4K)
+│   │   │   ├── IMPLEMENTATION_Manifest.md (6.7K)
+│   │   │   ├── OBJECTIVES_Manifest.md (4.8K)
+│   │   │   ├── PATTERNS_Manifest.md (8.6K)
+│   │   │   ├── SYNC_Manifest.md (7.1K)
+│   │   │   └── VALIDATION_Manifest.md (8.0K)
+│   │   ├── narrative_engine/ (58.4K)
+│   │   │   ├── ALGORITHM_Narrative_Engine.md (11.6K)
+│   │   │   ├── BEHAVIORS_Narrative_Engine.md (8.7K)
+│   │   │   ├── HEALTH_Narrative_Engine.md (6.3K)
+│   │   │   ├── IMPLEMENTATION_Narrative_Engine.md (7.0K)
+│   │   │   ├── OBJECTIVES_Narrative_Engine.md (4.7K)
+│   │   │   ├── PATTERNS_Narrative_Engine.md (8.7K)
+│   │   │   ├── SYNC_Narrative_Engine.md (5.2K)
+│   │   │   └── VALIDATION_Narrative_Engine.md (6.3K)
+│   │   ├── seismic_physics/ (64.2K)
+│   │   │   ├── ALGORITHM_Seismic_Physics.md (10.1K)
+│   │   │   ├── BEHAVIORS_Seismic_Physics.md (8.0K)
+│   │   │   ├── HEALTH_Seismic_Physics.md (6.6K)
+│   │   │   ├── IMPLEMENTATION_Seismic_Physics.md (8.0K)
+│   │   │   ├── OBJECTIVES_Seismic_Physics.md (5.7K)
+│   │   │   ├── PATTERNS_Seismic_Physics.md (8.7K)
+│   │   │   ├── SYNC_Seismic_Physics.md (9.0K)
+│   │   │   └── VALIDATION_Seismic_Physics.md (8.0K)
+│   │   └── world_geography/ (58.2K)
+│   │       ├── ALGORITHM_World_Geography.md (9.6K)
+│   │       ├── BEHAVIORS_World_Geography.md (7.9K)
+│   │       ├── HEALTH_World_Geography.md (6.6K)
+│   │       ├── IMPLEMENTATION_World_Geography.md (6.3K)
+│   │       ├── OBJECTIVES_World_Geography.md (6.0K)
+│   │       ├── PATTERNS_World_Geography.md (8.9K)
+│   │       ├── SYNC_World_Geography.md (5.0K)
+│   │       └── VALIDATION_World_Geography.md (7.9K)
 │   ├── worldbuilding/ (209.1K)
 │   │   ├── contact/ (67.7K)
 │   │   │   ├── ALGORITHM_Contact.md (16.9K)
@@ -82,22 +3099,266 @@
 │   │       └── VALIDATION_Seismique.md (10.0K)
 │   ├── MAPPING.md (7.1K)
 │   ├── TAXONOMY.md (16.5K)
-│   └── map.md (31.8K)
-├── AGENTS.md (33.0K)
-├── CHAPITRE_V_PLAN.md (19.5K)
-├── chapitre_02.md (20.5K)
-├── chapitre_03.md (22.6K)
-├── chapitre_04.md (31.2K)
-├── chapitre_05.md (59.7K)
-├── chapitre_06.md (34.5K)
-├── chapitre_07.md (33.6K)
-├── chapitre_08.md (31.9K)
-└── map.md (31.8K)
+│   └── map.md (713.9K)
+├── en/ (449.1K)
+│   ├── KDP_EN.md (6.2K)
+│   ├── chapter_01.md (8.7K)
+│   ├── chapter_02.md (18.6K)
+│   ├── chapter_03.md (20.5K)
+│   ├── chapter_04.md (28.6K)
+│   ├── chapter_05.md (54.3K)
+│   ├── chapter_06.md (31.7K)
+│   ├── chapter_07.md (29.2K)
+│   ├── chapter_08.md (29.3K)
+│   └── manuscript_complete.md (221.8K)
+├── worldbuilding/ (352.9K)
+│   ├── CARTE_REFERENCE.md (11.6K)
+│   ├── CULTURE.md (100.1K)
+│   ├── LORE.md (85.2K)
+│   ├── SURFACE.md (67.5K)
+│   └── VERTICALE.md (88.6K)
+├── chapitre_01.md (87.2K)
+├── chapitre_03.md (95.9K)
+├── chapitre_04.md (115.4K)
+├── chapitre_05.md (108.0K)
+├── chapitre_05_new.md (144.7K)
+├── chapitre_06.md (116.8K)
+├── chapitre_07.md (107.7K)
+├── chapitre_08.md (144.2K)
+├── manuscrit_complet.md (244.0K)
+└── map.md (713.9K)
 ```
 
-## File Details
+**Sections:**
+- # Anathi
 
-### `citizens/solen/CLAUDE.md`
+**Sections:**
+- # Andile
+
+**Sections:**
+- # Anele
+
+**Sections:**
+- # Ayanda
+
+**Sections:**
+- # Ayize — Enfant du Village
+
+**Sections:**
+- # Bhekani
+
+**Sections:**
+- # Bhekumuzi
+
+**Sections:**
+- # Bonginkosi
+
+**Sections:**
+- # Bongiwe
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Busisiwe
+
+**Sections:**
+- # Busisiwe — Cuisiniere de caravane
+
+**Sections:**
+- # Buyiswa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisile
+
+**Sections:**
+- # Fikile — Messagere de fidelite parfaite
+
+**Sections:**
+- # Fundiswa — Cartographe du lien
+
+**Sections:**
+- # Gcina
+
+**Sections:**
+- # Gugu
+
+**Sections:**
+- # Khanya
+
+**Sections:**
+- # Khanyisile
+
+**Sections:**
+- # Khanyiso
+
+**Sections:**
+- # Lethiwe
+
+**Sections:**
+- # Lindelwa
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindokuhle
+
+**Sections:**
+- # Lungelo
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Luthando
+
+**Sections:**
+- # Mandla — Gardien des canaux
+
+**Sections:**
+- # Mandla
+
+**Sections:**
+- # Mandlenkosi
+
+**Sections:**
+- # Mbalenhle
+
+**Sections:**
+- # Mbuso
+
+**Sections:**
+- # Mfundo
+
+**Sections:**
+- # Mqondisi
+
+**Sections:**
+- # Mthokozisi
+
+**Sections:**
+- # Mthunzi
+
+**Sections:**
+- # Mzamo
+
+**Sections:**
+- # Nokwanda
+
+**Sections:**
+- # Nolwazi
+
+**Sections:**
+- # Nolwazi — Cuisiniere fongique
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomathemba
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nonhle
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Noxolo
+
+**Sections:**
+- # Nqobile
+
+**Sections:**
+- # Ntombi — Predictrice devenue sourde
+
+**Sections:**
+- # Ntombi
+
+**Sections:**
+- # Ntombizodwa
+
+**Sections:**
+- # Phila
+
+**Sections:**
+- # Phiwokuhle
+
+**Sections:**
+- # Qhawe — Doyen des caravaniers
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sibusiso
+
+**Sections:**
+- # Sindiswa
+
+**Sections:**
+- # Siphamandla
+
+**Sections:**
+- # Siphamandla — Apprenti caravanier
+
+**Sections:**
+- # Siphelele
+
+**Sections:**
+- # Sisanda — Grimpeuse des parois
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Sizwe
 
 **Sections:**
 - # Solen — @solen
@@ -112,7 +3373,3527 @@
 - ## Values
 - ## Signature
 
-### `docs/narration/metiers/ALGORITHM_Metiers.md`
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandiwe
+
+**Sections:**
+- # Thembekile
+
+**Sections:**
+- # Thokozile
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Velile
+
+**Sections:**
+- # Vusi
+
+**Sections:**
+- # Vusumuzi
+
+**Sections:**
+- # Vuyelwa
+
+**Sections:**
+- # Wakhile
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Zandile
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zinhle
+
+**Sections:**
+- # Zintle
+
+**Sections:**
+- # Zodwa — Biologiste des filaments
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Anathi
+
+**Sections:**
+- # Andile
+
+**Sections:**
+- # Anele
+
+**Sections:**
+- # Ayanda
+
+**Sections:**
+- # Ayize — Enfant du Village
+
+**Sections:**
+- # Bhekani
+
+**Sections:**
+- # Bhekumuzi
+
+**Sections:**
+- # Bonginkosi
+
+**Sections:**
+- # Bongiwe
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Busisiwe
+
+**Sections:**
+- # Busisiwe — Cuisiniere de caravane
+
+**Sections:**
+- # Buyiswa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisile
+
+**Sections:**
+- # Fikile — Messagere de fidelite parfaite
+
+**Sections:**
+- # Fundiswa — Cartographe du lien
+
+**Sections:**
+- # Gcina
+
+**Sections:**
+- # Gugu
+
+**Sections:**
+- # Khanya
+
+**Sections:**
+- # Khanyisile
+
+**Sections:**
+- # Khanyiso
+
+**Sections:**
+- # Lethiwe
+
+**Sections:**
+- # Lindelwa
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindokuhle
+
+**Sections:**
+- # Lungelo
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Luthando
+
+**Sections:**
+- # Mandla — Gardien des canaux
+
+**Sections:**
+- # Mandla
+
+**Sections:**
+- # Mandlenkosi
+
+**Sections:**
+- # Mbalenhle
+
+**Sections:**
+- # Mbuso
+
+**Sections:**
+- # Mfundo
+
+**Sections:**
+- # Mqondisi
+
+**Sections:**
+- # Mthokozisi
+
+**Sections:**
+- # Mthunzi
+
+**Sections:**
+- # Mzamo
+
+**Sections:**
+- # Nokwanda
+
+**Sections:**
+- # Nolwazi
+
+**Sections:**
+- # Nolwazi — Cuisiniere fongique
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomathemba
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nonhle
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Noxolo
+
+**Sections:**
+- # Nqobile
+
+**Sections:**
+- # Ntombi — Predictrice devenue sourde
+
+**Sections:**
+- # Ntombi
+
+**Sections:**
+- # Ntombizodwa
+
+**Sections:**
+- # Phila
+
+**Sections:**
+- # Phiwokuhle
+
+**Sections:**
+- # Qhawe — Doyen des caravaniers
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sibusiso
+
+**Sections:**
+- # Sindiswa
+
+**Sections:**
+- # Siphamandla
+
+**Sections:**
+- # Siphamandla — Apprenti caravanier
+
+**Sections:**
+- # Siphelele
+
+**Sections:**
+- # Sisanda — Grimpeuse des parois
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Solen — @solen
+- ## Identity
+- ## Mission
+- ## Skills
+- ## Events
+- ## Relationships
+- ## Current Work
+- ## Available Tools (for other citizens)
+- ## First Actions
+- ## Values
+- ## Signature
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandiwe
+
+**Sections:**
+- # Thembekile
+
+**Sections:**
+- # Thokozile
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Velile
+
+**Sections:**
+- # Vusi
+
+**Sections:**
+- # Vusumuzi
+
+**Sections:**
+- # Vuyelwa
+
+**Sections:**
+- # Wakhile
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Zandile
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zinhle
+
+**Sections:**
+- # Zintle
+
+**Sections:**
+- # Zodwa — Biologiste des filaments
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Anathi
+
+**Sections:**
+- # Andile
+
+**Sections:**
+- # Anele
+
+**Sections:**
+- # Ayanda
+
+**Sections:**
+- # Ayize — Enfant du Village
+
+**Sections:**
+- # Bhekani
+
+**Sections:**
+- # Bhekumuzi
+
+**Sections:**
+- # Bonginkosi
+
+**Sections:**
+- # Bongiwe
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Busisiwe
+
+**Sections:**
+- # Busisiwe — Cuisiniere de caravane
+
+**Sections:**
+- # Buyiswa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisile
+
+**Sections:**
+- # Fikile — Messagere de fidelite parfaite
+
+**Sections:**
+- # Fundiswa — Cartographe du lien
+
+**Sections:**
+- # Gcina
+
+**Sections:**
+- # Gugu
+
+**Sections:**
+- # Khanya
+
+**Sections:**
+- # Khanyisile
+
+**Sections:**
+- # Khanyiso
+
+**Sections:**
+- # Lethiwe
+
+**Sections:**
+- # Lindelwa
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindokuhle
+
+**Sections:**
+- # Lungelo
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Luthando
+
+**Sections:**
+- # Mandla — Gardien des canaux
+
+**Sections:**
+- # Mandla
+
+**Sections:**
+- # Mandlenkosi
+
+**Sections:**
+- # Mbalenhle
+
+**Sections:**
+- # Mbuso
+
+**Sections:**
+- # Mfundo
+
+**Sections:**
+- # Mqondisi
+
+**Sections:**
+- # Mthokozisi
+
+**Sections:**
+- # Mthunzi
+
+**Sections:**
+- # Mzamo
+
+**Sections:**
+- # Nokwanda
+
+**Sections:**
+- # Nolwazi
+
+**Sections:**
+- # Nolwazi — Cuisiniere fongique
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomathemba
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nonhle
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Noxolo
+
+**Sections:**
+- # Nqobile
+
+**Sections:**
+- # Ntombi — Predictrice devenue sourde
+
+**Sections:**
+- # Ntombi
+
+**Sections:**
+- # Ntombizodwa
+
+**Sections:**
+- # Phila
+
+**Sections:**
+- # Phiwokuhle
+
+**Sections:**
+- # Qhawe — Doyen des caravaniers
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sibusiso
+
+**Sections:**
+- # Sindiswa
+
+**Sections:**
+- # Siphamandla
+
+**Sections:**
+- # Siphamandla — Apprenti caravanier
+
+**Sections:**
+- # Siphelele
+
+**Sections:**
+- # Sisanda — Grimpeuse des parois
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Solen — @solen
+- ## Identity
+- ## Mission
+- ## Skills
+- ## Events
+- ## Relationships
+- ## Current Work
+- ## Available Tools (for other citizens)
+- ## First Actions
+- ## Values
+- ## Signature
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandiwe
+
+**Sections:**
+- # Thembekile
+
+**Sections:**
+- # Thokozile
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Velile
+
+**Sections:**
+- # Vusi
+
+**Sections:**
+- # Vusumuzi
+
+**Sections:**
+- # Vuyelwa
+
+**Sections:**
+- # Wakhile
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Zandile
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zinhle
+
+**Sections:**
+- # Zintle
+
+**Sections:**
+- # Zodwa — Biologiste des filaments
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Anathi
+
+**Sections:**
+- # Andile
+
+**Sections:**
+- # Anele
+
+**Sections:**
+- # Ayanda
+
+**Sections:**
+- # Ayize — Enfant du Village
+
+**Sections:**
+- # Bhekani
+
+**Sections:**
+- # Bhekumuzi
+
+**Sections:**
+- # Bonginkosi
+
+**Sections:**
+- # Bongiwe
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Busisiwe
+
+**Sections:**
+- # Busisiwe — Cuisiniere de caravane
+
+**Sections:**
+- # Buyiswa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisile
+
+**Sections:**
+- # Fikile — Messagere de fidelite parfaite
+
+**Sections:**
+- # Fundiswa — Cartographe du lien
+
+**Sections:**
+- # Gcina
+
+**Sections:**
+- # Gugu
+
+**Sections:**
+- # Khanya
+
+**Sections:**
+- # Khanyisile
+
+**Sections:**
+- # Khanyiso
+
+**Sections:**
+- # Lethiwe
+
+**Sections:**
+- # Lindelwa
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindokuhle
+
+**Sections:**
+- # Lungelo
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Luthando
+
+**Sections:**
+- # Mandla — Gardien des canaux
+
+**Sections:**
+- # Mandla
+
+**Sections:**
+- # Mandlenkosi
+
+**Sections:**
+- # Mbalenhle
+
+**Sections:**
+- # Mbuso
+
+**Sections:**
+- # Mfundo
+
+**Sections:**
+- # Mqondisi
+
+**Sections:**
+- # Mthokozisi
+
+**Sections:**
+- # Mthunzi
+
+**Sections:**
+- # Mzamo
+
+**Sections:**
+- # Nokwanda
+
+**Sections:**
+- # Nolwazi
+
+**Sections:**
+- # Nolwazi — Cuisiniere fongique
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomathemba
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nonhle
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Noxolo
+
+**Sections:**
+- # Nqobile
+
+**Sections:**
+- # Ntombi — Predictrice devenue sourde
+
+**Sections:**
+- # Ntombi
+
+**Sections:**
+- # Ntombizodwa
+
+**Sections:**
+- # Phila
+
+**Sections:**
+- # Phiwokuhle
+
+**Sections:**
+- # Qhawe — Doyen des caravaniers
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sibusiso
+
+**Sections:**
+- # Sindiswa
+
+**Sections:**
+- # Siphamandla
+
+**Sections:**
+- # Siphamandla — Apprenti caravanier
+
+**Sections:**
+- # Siphelele
+
+**Sections:**
+- # Sisanda — Grimpeuse des parois
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Solen — @solen
+- ## Identity
+- ## Mission
+- ## Skills
+- ## Events
+- ## Relationships
+- ## Current Work
+- ## Available Tools (for other citizens)
+- ## First Actions
+- ## Values
+- ## Signature
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandiwe
+
+**Sections:**
+- # Thembekile
+
+**Sections:**
+- # Thokozile
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Velile
+
+**Sections:**
+- # Vusi
+
+**Sections:**
+- # Vusumuzi
+
+**Sections:**
+- # Vuyelwa
+
+**Sections:**
+- # Wakhile
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Zandile
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zinhle
+
+**Sections:**
+- # Zintle
+
+**Sections:**
+- # Zodwa — Biologiste des filaments
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Anathi
+
+**Sections:**
+- # Andile
+
+**Sections:**
+- # Anele
+
+**Sections:**
+- # Ayanda
+
+**Sections:**
+- # Ayize — Enfant du Village
+
+**Sections:**
+- # Bhekani
+
+**Sections:**
+- # Bhekumuzi
+
+**Sections:**
+- # Bonginkosi
+
+**Sections:**
+- # Bongiwe
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Busisiwe
+
+**Sections:**
+- # Busisiwe — Cuisiniere de caravane
+
+**Sections:**
+- # Buyiswa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisile
+
+**Sections:**
+- # Fikile — Messagere de fidelite parfaite
+
+**Sections:**
+- # Fundiswa — Cartographe du lien
+
+**Sections:**
+- # Gcina
+
+**Sections:**
+- # Gugu
+
+**Sections:**
+- # Khanya
+
+**Sections:**
+- # Khanyisile
+
+**Sections:**
+- # Khanyiso
+
+**Sections:**
+- # Lethiwe
+
+**Sections:**
+- # Lindelwa
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindokuhle
+
+**Sections:**
+- # Lungelo
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Luthando
+
+**Sections:**
+- # Mandla — Gardien des canaux
+
+**Sections:**
+- # Mandla
+
+**Sections:**
+- # Mandlenkosi
+
+**Sections:**
+- # Mbalenhle
+
+**Sections:**
+- # Mbuso
+
+**Sections:**
+- # Mfundo
+
+**Sections:**
+- # Mqondisi
+
+**Sections:**
+- # Mthokozisi
+
+**Sections:**
+- # Mthunzi
+
+**Sections:**
+- # Mzamo
+
+**Sections:**
+- # Nokwanda
+
+**Sections:**
+- # Nolwazi
+
+**Sections:**
+- # Nolwazi — Cuisiniere fongique
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomathemba
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nonhle
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Noxolo
+
+**Sections:**
+- # Nqobile
+
+**Sections:**
+- # Ntombi — Predictrice devenue sourde
+
+**Sections:**
+- # Ntombi
+
+**Sections:**
+- # Ntombizodwa
+
+**Sections:**
+- # Phila
+
+**Sections:**
+- # Phiwokuhle
+
+**Sections:**
+- # Qhawe — Doyen des caravaniers
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sibusiso
+
+**Sections:**
+- # Sindiswa
+
+**Sections:**
+- # Siphamandla
+
+**Sections:**
+- # Siphamandla — Apprenti caravanier
+
+**Sections:**
+- # Siphelele
+
+**Sections:**
+- # Sisanda — Grimpeuse des parois
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Solen — @solen
+- ## Identity
+- ## Mission
+- ## Skills
+- ## Events
+- ## Relationships
+- ## Current Work
+- ## Available Tools (for other citizens)
+- ## First Actions
+- ## Values
+- ## Signature
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandiwe
+
+**Sections:**
+- # Thembekile
+
+**Sections:**
+- # Thokozile
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Velile
+
+**Sections:**
+- # Vusi
+
+**Sections:**
+- # Vusumuzi
+
+**Sections:**
+- # Vuyelwa
+
+**Sections:**
+- # Wakhile
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Zandile
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zinhle
+
+**Sections:**
+- # Zintle
+
+**Sections:**
+- # Zodwa — Biologiste des filaments
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Anathi
+
+**Sections:**
+- # Andile
+
+**Sections:**
+- # Anele
+
+**Sections:**
+- # Ayanda
+
+**Sections:**
+- # Ayize — Enfant du Village
+
+**Sections:**
+- # Bhekani
+
+**Sections:**
+- # Bhekumuzi
+
+**Sections:**
+- # Bonginkosi
+
+**Sections:**
+- # Bongiwe
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Busisiwe
+
+**Sections:**
+- # Busisiwe — Cuisiniere de caravane
+
+**Sections:**
+- # Buyiswa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisile
+
+**Sections:**
+- # Fikile — Messagere de fidelite parfaite
+
+**Sections:**
+- # Fundiswa — Cartographe du lien
+
+**Sections:**
+- # Gcina
+
+**Sections:**
+- # Gugu
+
+**Sections:**
+- # Khanya
+
+**Sections:**
+- # Khanyisile
+
+**Sections:**
+- # Khanyiso
+
+**Sections:**
+- # Lethiwe
+
+**Sections:**
+- # Lindelwa
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindokuhle
+
+**Sections:**
+- # Lungelo
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Luthando
+
+**Sections:**
+- # Mandla — Gardien des canaux
+
+**Sections:**
+- # Mandla
+
+**Sections:**
+- # Mandlenkosi
+
+**Sections:**
+- # Mbalenhle
+
+**Sections:**
+- # Mbuso
+
+**Sections:**
+- # Mfundo
+
+**Sections:**
+- # Mqondisi
+
+**Sections:**
+- # Mthokozisi
+
+**Sections:**
+- # Mthunzi
+
+**Sections:**
+- # Mzamo
+
+**Sections:**
+- # Nokwanda
+
+**Sections:**
+- # Nolwazi
+
+**Sections:**
+- # Nolwazi — Cuisiniere fongique
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomathemba
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nonhle
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Noxolo
+
+**Sections:**
+- # Nqobile
+
+**Sections:**
+- # Ntombi — Predictrice devenue sourde
+
+**Sections:**
+- # Ntombi
+
+**Sections:**
+- # Ntombizodwa
+
+**Sections:**
+- # Phila
+
+**Sections:**
+- # Phiwokuhle
+
+**Sections:**
+- # Qhawe — Doyen des caravaniers
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sibusiso
+
+**Sections:**
+- # Sindiswa
+
+**Sections:**
+- # Siphamandla
+
+**Sections:**
+- # Siphamandla — Apprenti caravanier
+
+**Sections:**
+- # Siphelele
+
+**Sections:**
+- # Sisanda — Grimpeuse des parois
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Solen — @solen
+- ## Identity
+- ## Mission
+- ## Skills
+- ## Events
+- ## Relationships
+- ## Current Work
+- ## Available Tools (for other citizens)
+- ## First Actions
+- ## Values
+- ## Signature
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandiwe
+
+**Sections:**
+- # Thembekile
+
+**Sections:**
+- # Thokozile
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Velile
+
+**Sections:**
+- # Vusi
+
+**Sections:**
+- # Vusumuzi
+
+**Sections:**
+- # Vuyelwa
+
+**Sections:**
+- # Wakhile
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Zandile
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zinhle
+
+**Sections:**
+- # Zintle
+
+**Sections:**
+- # Zodwa — Biologiste des filaments
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Anathi
+
+**Sections:**
+- # Andile
+
+**Sections:**
+- # Anele
+
+**Sections:**
+- # Ayanda
+
+**Sections:**
+- # Ayize — Enfant du Village
+
+**Sections:**
+- # Bhekani
+
+**Sections:**
+- # Bhekumuzi
+
+**Sections:**
+- # Bonginkosi
+
+**Sections:**
+- # Bongiwe
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Busisiwe
+
+**Sections:**
+- # Busisiwe — Cuisiniere de caravane
+
+**Sections:**
+- # Buyiswa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisile
+
+**Sections:**
+- # Fikile — Messagere de fidelite parfaite
+
+**Sections:**
+- # Fundiswa — Cartographe du lien
+
+**Sections:**
+- # Gcina
+
+**Sections:**
+- # Gugu
+
+**Sections:**
+- # Khanya
+
+**Sections:**
+- # Khanyisile
+
+**Sections:**
+- # Khanyiso
+
+**Sections:**
+- # Lethiwe
+
+**Sections:**
+- # Lindelwa
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindokuhle
+
+**Sections:**
+- # Lungelo
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Luthando
+
+**Sections:**
+- # Mandla — Gardien des canaux
+
+**Sections:**
+- # Mandla
+
+**Sections:**
+- # Mandlenkosi
+
+**Sections:**
+- # Mbalenhle
+
+**Sections:**
+- # Mbuso
+
+**Sections:**
+- # Mfundo
+
+**Sections:**
+- # Mqondisi
+
+**Sections:**
+- # Mthokozisi
+
+**Sections:**
+- # Mthunzi
+
+**Sections:**
+- # Mzamo
+
+**Sections:**
+- # Nokwanda
+
+**Sections:**
+- # Nolwazi
+
+**Sections:**
+- # Nolwazi — Cuisiniere fongique
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomathemba
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nonhle
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Noxolo
+
+**Sections:**
+- # Nqobile
+
+**Sections:**
+- # Ntombi — Predictrice devenue sourde
+
+**Sections:**
+- # Ntombi
+
+**Sections:**
+- # Ntombizodwa
+
+**Sections:**
+- # Phila
+
+**Sections:**
+- # Phiwokuhle
+
+**Sections:**
+- # Qhawe — Doyen des caravaniers
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sibusiso
+
+**Sections:**
+- # Sindiswa
+
+**Sections:**
+- # Siphamandla
+
+**Sections:**
+- # Siphamandla — Apprenti caravanier
+
+**Sections:**
+- # Siphelele
+
+**Sections:**
+- # Sisanda — Grimpeuse des parois
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Solen — @solen
+- ## Identity
+- ## Mission
+- ## Skills
+- ## Events
+- ## Relationships
+- ## Current Work
+- ## Available Tools (for other citizens)
+- ## First Actions
+- ## Values
+- ## Signature
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandiwe
+
+**Sections:**
+- # Thembekile
+
+**Sections:**
+- # Thokozile
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Velile
+
+**Sections:**
+- # Vusi
+
+**Sections:**
+- # Vusumuzi
+
+**Sections:**
+- # Vuyelwa
+
+**Sections:**
+- # Wakhile
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Zandile
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zinhle
+
+**Sections:**
+- # Zintle
+
+**Sections:**
+- # Zodwa — Biologiste des filaments
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Anathi
+
+**Sections:**
+- # Andile
+
+**Sections:**
+- # Anele
+
+**Sections:**
+- # Ayanda
+
+**Sections:**
+- # Ayize — Enfant du Village
+
+**Sections:**
+- # Bhekani
+
+**Sections:**
+- # Bhekumuzi
+
+**Sections:**
+- # Bonginkosi
+
+**Sections:**
+- # Bongiwe
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Buhle
+
+**Sections:**
+- # Busisiwe
+
+**Sections:**
+- # Busisiwe — Cuisiniere de caravane
+
+**Sections:**
+- # Buyiswa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisa
+
+**Sections:**
+- # Dumisile
+
+**Sections:**
+- # Fikile — Messagere de fidelite parfaite
+
+**Sections:**
+- # Fundiswa — Cartographe du lien
+
+**Sections:**
+- # Gcina
+
+**Sections:**
+- # Gugu
+
+**Sections:**
+- # Khanya
+
+**Sections:**
+- # Khanyisile
+
+**Sections:**
+- # Khanyiso
+
+**Sections:**
+- # Lethiwe
+
+**Sections:**
+- # Lindelwa
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindiwe
+
+**Sections:**
+- # Lindokuhle
+
+**Sections:**
+- # Lungelo
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Lungile
+
+**Sections:**
+- # Luthando
+
+**Sections:**
+- # Mandla — Gardien des canaux
+
+**Sections:**
+- # Mandla
+
+**Sections:**
+- # Mandlenkosi
+
+**Sections:**
+- # Mbalenhle
+
+**Sections:**
+- # Mbuso
+
+**Sections:**
+- # Mfundo
+
+**Sections:**
+- # Mqondisi
+
+**Sections:**
+- # Mthokozisi
+
+**Sections:**
+- # Mthunzi
+
+**Sections:**
+- # Mzamo
+
+**Sections:**
+- # Nokwanda
+
+**Sections:**
+- # Nolwazi
+
+**Sections:**
+- # Nolwazi — Cuisiniere fongique
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomalanga
+
+**Sections:**
+- # Nomathemba
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nombuso
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nomvula
+
+**Sections:**
+- # Nonhle
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Nosipho
+
+**Sections:**
+- # Noxolo
+
+**Sections:**
+- # Nqobile
+
+**Sections:**
+- # Ntombi — Predictrice devenue sourde
+
+**Sections:**
+- # Ntombi
+
+**Sections:**
+- # Ntombizodwa
+
+**Sections:**
+- # Phila
+
+**Sections:**
+- # Phiwokuhle
+
+**Sections:**
+- # Qhawe — Doyen des caravaniers
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sandile
+
+**Sections:**
+- # Sibusiso
+
+**Sections:**
+- # Sindiswa
+
+**Sections:**
+- # Siphamandla
+
+**Sections:**
+- # Siphamandla — Apprenti caravanier
+
+**Sections:**
+- # Siphelele
+
+**Sections:**
+- # Sisanda — Grimpeuse des parois
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Siyabonga
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Sizwe
+
+**Sections:**
+- # Solen — @solen
+- ## Identity
+- ## Mission
+- ## Skills
+- ## Events
+- ## Relationships
+- ## Current Work
+- ## Available Tools (for other citizens)
+- ## First Actions
+- ## Values
+- ## Signature
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandeka
+
+**Sections:**
+- # Thandiwe
+
+**Sections:**
+- # Thembekile
+
+**Sections:**
+- # Thokozile
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Thulani
+
+**Sections:**
+- # Velile
+
+**Sections:**
+- # Vusi
+
+**Sections:**
+- # Vusumuzi
+
+**Sections:**
+- # Vuyelwa
+
+**Sections:**
+- # Wakhile
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Xolani
+
+**Sections:**
+- # Zandile
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zanele
+
+**Sections:**
+- # Zinhle
+
+**Sections:**
+- # Zintle
+
+**Sections:**
+- # Zodwa — Biologiste des filaments
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # Zoleka
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Contre-Terre — Mapping vers le Schema Mind
+- ## NODE TYPE MAPPING
+- ## LINK PATTERNS
+- ## CONVENTIONS
+
+**Sections:**
+- # Contre-Terre — Taxonomie Centrale
+- ## TERMES
+- ## TERMINOLOGY DECISIONS
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
+
+**Sections:**
+- # I — Desert Surface
+- ## Scene 1 — Opening
+
+**Sections:**
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Definitions:**
+- `def compute_brain_power()`
+- `def assess_health()`
+- `def assess_arousal_regime()`
+- `def load_cluster()`
+- `def main()`
+
+**Sections:**
+- # Seed Data Fix Log
+- ## FIX 1: Duplicate Citizen IDs (CRITICAL)
+- ## FIX 2: Missing node_type in things_world.json
+- ## FIX 3: Created Missing Guild Nodes
+- ## FIX 4: Normalized Property Keys in citizens_creuses_sourds_nomades.json
+- ## FIX 5: Fixed Metier Link References in citizens_nordest_est_centresud.json
+- ## Remaining Known Issues (not in scope)
+
+**Sections:**
+- # Seed Data Validation Report
+- ## Summary
+- ## 1. JSON Validity -- PASS
+- ## 2. Node ID Uniqueness -- FAIL
+- ## 3. Link Integrity -- FAIL
+- ## 4. Coverage Check
+- ## 5. Orphan Check -- WARN
+- ## 6. Schema Consistency Issues
+- ## 7. Statistics
+- ## 8. Priority Recommendations
+
+**Sections:**
+- # Contre-Terre — Mapping vers le Schema Mind
+- ## NODE TYPE MAPPING
+- ## LINK PATTERNS
+- ## CONVENTIONS
+
+**Sections:**
+- # Contre-Terre — Taxonomie Centrale
+- ## TERMES
+- ## TERMINOLOGY DECISIONS
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
+
+**Sections:**
+- # I — Desert Surface
+- ## Scene 1 — Opening
+
+**Sections:**
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Definitions:**
+- `def compute_brain_power()`
+- `def assess_health()`
+- `def assess_arousal_regime()`
+- `def load_cluster()`
+- `def main()`
+
+**Sections:**
+- # Seed Data Fix Log
+- ## FIX 1: Duplicate Citizen IDs (CRITICAL)
+- ## FIX 2: Missing node_type in things_world.json
+- ## FIX 3: Created Missing Guild Nodes
+- ## FIX 4: Normalized Property Keys in citizens_creuses_sourds_nomades.json
+- ## FIX 5: Fixed Metier Link References in citizens_nordest_est_centresud.json
+- ## Remaining Known Issues (not in scope)
+
+**Sections:**
+- # Seed Data Validation Report
+- ## Summary
+- ## 1. JSON Validity -- PASS
+- ## 2. Node ID Uniqueness -- FAIL
+- ## 3. Link Integrity -- FAIL
+- ## 4. Coverage Check
+- ## 5. Orphan Check -- WARN
+- ## 6. Schema Consistency Issues
+- ## 7. Statistics
+- ## 8. Priority Recommendations
 
 **Sections:**
 - # ALGORITHM : Mecanique du Systeme des Metiers
@@ -123,8 +6904,6 @@
 - ## Dependencies critiques entre metiers
 - ## Regle de la mort-ironie
 - ## Quand montrer chaque metier (exigence narrative)
-
-### `docs/narration/metiers/BEHAVIORS_Metiers.md`
 
 **Sections:**
 - # BEHAVIORS : Manifestation des Metiers dans le Texte
@@ -145,16 +6924,12 @@
 - ## B14 : Explosiviste (#5) — Inyoni (principale), Nandi (backup)
 - ## B15 : Predictrice / Tremens (#9) — Nandi
 
-### `docs/narration/metiers/HEALTH_Metiers.md`
-
 **Sections:**
 - # HEALTH : Verification de la Qualite du Systeme des Metiers
 - ## Signaux de sante et verifications
 - ## Checks actifs
 - ## Signaux de degradation
 - ## Recovery
-
-### `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
 
 **Sections:**
 - # IMPLEMENTATION : Localisation du Contenu des Metiers
@@ -163,8 +6938,6 @@
 - ## Chapitres ecrits (prose)
 - ## Chapitres a ecrire (Ch. V-VIII)
 - ## Relations entre fichiers
-
-### `docs/narration/metiers/OBJECTIVES_Metiers.md`
 
 **Sections:**
 - # OBJECTIVES : Systeme des Metiers
@@ -176,8 +6949,6 @@
 - ## Non-objectifs
 - ## Metrique de succes
 
-### `docs/narration/metiers/PATTERNS_Metiers.md`
-
 **Sections:**
 - # PATTERNS : Systeme des Metiers
 - ## Decisions de design et leurs raisons
@@ -188,8 +6959,6 @@
 - ## P5 : La gradation de la perte
 - ## P6 : Les metiers comme langage parallele au Contact
 
-### `docs/narration/metiers/SYNC_Metiers.md`
-
 **Sections:**
 - # SYNC : Etat Actuel du Module Metiers
 - ## Maturity
@@ -197,8 +6966,6 @@
 - ## Issues connues
 - ## Travail a faire
 - ## Handoff
-
-### `docs/narration/metiers/VALIDATION_Metiers.md`
 
 **Sections:**
 - # VALIDATION : Invariants du Systeme des Metiers
@@ -213,8 +6980,6 @@
 - ## V8 : La predictrice ne remplace personne
 - ## V9 : L'ironie geologique est respectee pour chaque mort
 
-### `docs/narration/personnages/ALGORITHM_Personnages.md`
-
 **Sections:**
 - # ALGORITHM : Personnages
 - ## Mecaniques du systeme de personnages
@@ -223,8 +6988,6 @@
 - ## 3. Arcs de personnages
 - ## 4. Dynamiques de paires
 - ## 5. Mecanique de la mort linguistique
-
-### `docs/narration/personnages/BEHAVIORS_Personnages.md`
 
 **Sections:**
 - # BEHAVIORS : Personnages
@@ -238,16 +7001,12 @@
 - ## Jabu — L'Oceanologue
 - ## Tableau recapitulatif des comportements
 
-### `docs/narration/personnages/HEALTH_Personnages.md`
-
 **Sections:**
 - # HEALTH : Personnages
 - ## Checks de qualite pour la coherence des personnages
 - ## Checks par chapitre
 - ## Checks globaux
 - ## Resume de sante
-
-### `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
 
 **Doc refs:**
 - `docs/narration/personnages/ALGORITHM_Personnages.md`
@@ -266,16 +7025,12 @@
 - ## Cartographie des premieres et dernieres apparitions
 - ## Documentation associee
 
-### `docs/narration/personnages/OBJECTIVES_Personnages.md`
-
 **Sections:**
 - # OBJECTIVES : Personnages
 - ## Ce que le systeme de personnages optimise
 - ## Hierarchie des objectifs
 - ## Arbitrages
 - ## Ce que le systeme de personnages n'optimise PAS
-
-### `docs/narration/personnages/PATTERNS_Personnages.md`
 
 **Sections:**
 - # PATTERNS : Personnages
@@ -286,8 +7041,6 @@
 - ## Design des personnages : principes
 - ## Inspiration et filiation
 
-### `docs/narration/personnages/SYNC_Personnages.md`
-
 **Sections:**
 - # SYNC : Personnages
 - ## Etat courant
@@ -297,8 +7050,6 @@
 - ## Actions a venir
 - ## Handoff
 
-### `docs/narration/personnages/VALIDATION_Personnages.md`
-
 **Sections:**
 - # VALIDATION : Personnages
 - ## Invariants du systeme de personnages
@@ -307,8 +7058,6 @@
 - ## Invariants narratifs
 - ## Invariants de coherence inter-fichiers
 - ## Grille de verification rapide
-
-### `docs/narration/structure/ALGORITHM_Structure.md`
 
 **Sections:**
 - # ALGORITHM: Structure Narrative
@@ -324,13 +7073,9 @@
 - ## Gestion des POV — regles
 - ## Transitions entre chapitres — regles
 
-### `docs/narration/structure/BEHAVIORS_Structure.md`
-
 **Sections:**
 - # BEHAVIORS: Structure Narrative
 - ## Effets structurels observables dans le texte
-
-### `docs/narration/structure/HEALTH_Structure.md`
 
 **Sections:**
 - # HEALTH: Structure Narrative
@@ -339,8 +7084,6 @@
 - ## Checks globaux (roman entier)
 - ## Degradations a surveiller
 - ## Etat de sante global
-
-### `docs/narration/structure/IMPLEMENTATION_Structure.md`
 
 **Doc refs:**
 - `docs/narration/structure/ALGORITHM_Structure.md`
@@ -364,16 +7107,12 @@
 - ## Relations avec les autres modules
 - ## Processus d'ecriture d'un nouveau chapitre
 
-### `docs/narration/structure/OBJECTIVES_Structure.md`
-
 **Sections:**
 - # OBJECTIVES: Structure Narrative
 - ## Ce que la structure narrative optimise
 - ## Hierarchie des objectifs
 - ## Non-objectifs
 - ## Compromis assumes
-
-### `docs/narration/structure/PATTERNS_Structure.md`
 
 **Sections:**
 - # PATTERNS: Structure Narrative
@@ -385,8 +7124,6 @@
 - ## Design pattern : L'inversion de Damasio
 - ## Scope
 
-### `docs/narration/structure/SYNC_Structure.md`
-
 **Sections:**
 - # SYNC: Structure Narrative
 - ## STATUT
@@ -397,14 +7134,907 @@
 - ## PROCHAIN TRAVAIL
 - ## HANDOFF
 
-### `docs/narration/structure/VALIDATION_Structure.md`
-
 **Sections:**
 - # VALIDATION: Structure Narrative
 - ## Invariants structurels
 - ## Matrice de verification
 
-### `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+**Sections:**
+- # ALGORITHM — Visual Style
+- ## Procedure 1 : Generation de la Couverture
+- ## Procedure 2 : Separateurs de Chapitres
+- ## Procedure 3 : Infographie Marketing
+- ## Procedure 4 : Palette de Reference
+
+**Sections:**
+- # BEHAVIORS — Visual Style
+- ## B1 : Le Lecteur "Voit" la Lumiere Changer
+- ## B2 : La Couverture Repousse le Mauvais Lecteur
+- ## B3 : L'Infographie Raconte la Descente
+- ## B4 : Les Separateurs de Chapitres Portent le Motif
+- ## B5 : La Quatrieme de Couverture est un Avertissement
+
+**Sections:**
+- # HEALTH — Visual Style
+- ## Checks Obligatoires Avant Publication
+- ## Checks de Coherence Cross-Module
+
+**Sections:**
+- # IMPLEMENTATION — Visual Style
+- ## Fichiers Source (Publication)
+- ## Points d'Ancrage Textuels — Palette par Chapitre
+- ## Assets a Produire
+
+**Sections:**
+- # OBJECTIVES — Visual Style
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Visual Style
+- ## P1 : Deux Palettes — Textuelle et Editoriale
+- ## P2 : Mains, Pas Visages
+- ## P3 : Verticale Descendante
+- ## P4 : Typographie Dense, Pas Decorative
+- ## P5 : Couleur Comme Arc Narratif
+- ## P6 : Deux Directions de Couverture — Intime vs Geologique
+
+**Sections:**
+- # SYNC — Visual Style
+- ## Etat General
+- ## Ce Qui Existe
+- ## Ce Qui Reste a Faire
+- ## Decisions en Attente (@mind:escalation)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Visual Style
+- ## Invariants Absolus
+
+**Sections:**
+- # ALGORITHM — Citizen Model
+- ## Structure du Citoyen
+- ## Mecaniques Cles
+- ## Seeding de la Population Initiale
+- ## Les 7 Citoyens du Roman
+
+**Sections:**
+- # BEHAVIORS — Citizen Model
+- ## B1 : Le Contact Comme Salutation et Identification
+- ## B2 : Perception Specialisee par Metier
+- ## B3 : Formations de Groupe et Cercles de Contact
+- ## B4 : Le Deuil Comme Perte Linguistique
+- ## B5 : Comportement Face au Tremens
+- ## B6 : Interaction avec l'Environnement Sismique
+
+**Sections:**
+- # HEALTH — Citizen Model
+- ## Checks Obligatoires Apres Seeding
+- ## Checks Dynamiques (Evolution dans le Temps)
+- ## Signaux de Degradation (du processus de modelisation)
+- ## Checklist Rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION — Citizen Model
+- ## Schema JSON — Citoyen
+- ## Seeding de la Population Initiale
+- # Total : 70 citoyens (ajustable 50-80)
+- ## Integration avec le Graph Mind
+- ## Dependances
+
+**Sections:**
+- # OBJECTIVES — Citizen Model
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Citizen Model
+- ## P1 : Acteur Corporel, Pas Acteur Economique
+- ## P2 : Les Metiers Sont des Organes Sensoriels
+- ## P3 : Identite = Idiolecte
+- ## P4 : Relations Mesurees en Contact, Pas en Scores
+- ## P5 : Le Corps Comme Interface Degradable
+- ## P6 : Population par Archipel, Pas par Classe
+- ## P7 : Pas de Mind Protocol — Ontologie Pure Contre-Terre
+- ## P8 : Restrictions Inter-Univers Physiques, Pas Legales
+
+**Sections:**
+- # SYNC — Citizen Model
+- ## Etat General
+- ## Maturity
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Tensions
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Citizen Model
+- ## Invariants Structurels
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Contact Engine
+- ## 1. Contact Gesture Data Structure
+- # The 5-mode encoding
+- # Signal dimensions
+- # Idiolecte layer
+- # Environmental modifiers
+- ## 2. Contact Utterance (Multi-Gesture Sequence)
+- ## 3. Contact Exchange Processing Pipeline
+- ## 4. Idiolecte Evolution Algorithm
+- # Crystallization check
+- # This pattern is now recognized as pair-specific vocabulary
+- # It carries higher semantic weight in future A-B exchanges
+- # It is ABSENT from all other pair vocabularies
+- # Source: "seven" recurs in the novel (7 characters, 7 archipels)
+- # Pragmatic: enough repetition to be intentional, not accidental
+- # Idiolecte entries that go unused decay
+- ## 5. Citizen Departure — Vocabulary Death
+- # 1. Destroy all pair-specific vocabularies involving X
+- # 2. Reduce partner's communicative capacity
+- # 3. Check for zone orphaning
+- # If X was the ONLY partner granting Y access to a zone (e.g., NAPE)
+- # then Y loses that zone entirely
+- # 4. Update graph
+- # 5. Delete X's idiolecte (individual tactile signature)
+- # NO ARCHIVAL. The vocabulary is gone.
+- ## 6. Contact-Monde Processing
+- # Environment responds based on surface type
+- # Response types:
+- # GROUND → seismic frequency data, magnitude prediction
+- # BIOLUMINESCENT_WALL → light pattern (confirmation, warning, echo)
+- # WATER_CHANNEL → flow variation (hydraulic Contact, village-specific)
+- # CHARGE_RESONATOR → calibration feedback (Ch. VIII specific)
+- # Citizen's Contact-monde vocabulary affects interpretation depth
+- # Richer Contact-monde vocabulary → more information extracted
+- # Nandi (feet) reads frequency. Enama (hands) reads direction.
+- # Same ground, different readings, different Contact-monde idiolectes.
+- ## 7. Contact-Corde (Rope Channel)
+- # Reduced to 2 dimensions (vs 20+ for direct Contact)
+- # Inherits involuntary signals
+- # No emotional register
+- # No body zone (rope has no anatomy)
+- # No tactile identity (vibrations anonymize the sender)
+- # Vocabulary is invented in real-time by the rope-linked group
+- # Contact-corde vocabulary does NOT persist after the rope is untied
+- ## 8. Contact-Fantome Generation
+- # Select a departed partner weighted by relational depth
+- # Generate gesture using the dead citizen's exact tactile signature
+- # CRITICAL: phantom_gesture is processed identically to real Contact
+- # No flag. No distinction. The citizen's system treats it as genuine.
+- # Progression: isolated phantoms → overlapping phantoms → full circle → dissolution
+
+**Sections:**
+- # BEHAVIORS — Contact Engine
+- ## B1: Citizens Develop Pair-Specific Vocabulary
+- ## B2: Contact Quality Varies by Seismic State
+- ## B3: New Citizens Learn Contact From Established Ones
+- ## B4: Loss of a Citizen Triggers Vocabulary Death
+- ## B5: Contact-Corde Operates as Degraded Channel
+- ## B6: Contact-Fantome Manifests in Isolation
+- ## B7: Contact-Monde Produces Environment Responses
+- ## B8: Dialect Friction Between Zones
+
+**Sections:**
+- # HEALTH — Contact Engine
+- ## Contact Vitality Metric
+- ## Vocabulary Growth / Death Rates
+- ## Dialect Friction Check
+- ## Seismic Degradation Check
+- ## Phantom Integrity Check
+- ## Departure Cascade Check
+
+**Sections:**
+- # IMPLEMENTATION — Contact Engine
+- ## System Position
+- ## Core Components
+- ## Tick-Based Processing
+- ## Graph Integration
+- ## Contact-Monde Integration
+- ## Dependencies
+
+**Sections:**
+- # OBJECTIVES — Contact Engine
+- ## O1: Contact as Primary Communication Medium
+- ## O2: Emergence of Idiolectes Through Interaction
+- ## O3: Dialectal Variation by Zone
+- ## O4: Contact as Relationship Measure
+- ## O5: Linguistic Death Through Citizen Loss
+- ## Tradeoffs
+
+**Sections:**
+- # PATTERNS — Contact Engine
+- ## P1: Tactile Communication as Structured Data, Not Physical Touch
+- ## P2: Voice Replaced, Not Supplemented
+- ## P3: Five Modes as Information Dimensions
+- ## P4: Body Zones as Semantic Registers
+- ## P5: Idiolectes Emerge, They Are Not Assigned
+- ## P6: Contact Degrades Under Seismic Pressure
+- ## P7: Contact-Monde as Environment Interface
+- ## P8: Death Destroys Vocabulary
+
+**Sections:**
+- # SYNC — Contact Engine
+- ## Maturity
+- ## Documentation Chain Status
+- ## Dependencies on Other Modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Contact Engine
+- ## Structural Invariants
+- ## Relational Invariants
+- ## Processing Invariants
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # ALGORITHM -- Context Assembly
+- ## Vue d'Ensemble
+- ## A-1 : orchestrate_force_sprint(force_id)
+- # 1) Context Cascade
+- # 2) Extraction TODO force
+- # 3) Boucle d'execution
+- ## A0 : translate_arrivant_speech(visitor_input, citizen_brain_graph)
+- # Tokeniser l'input de l'arrivant
+- # Projeter dans l'espace d'embedding
+- # Chercher le noeud le plus proche dans le graph cerebral du citoyen
+- # Concept CT trouve — substituer
+- # Aucun concept proche — garder le token original
+- # (le citoyen entend un mot etranger, incomprehensible)
+- ## A1 : compute_physical_state(citizen, zone)
+- # Ecart tremens : distance entre calibration natale et frequence locale
+- # Niveaux de tremens
+- # < 0.5 Hz d'ecart : confortable
+- # 0.5-1.5 Hz : tension
+- # 1.5-3.0 Hz : nausee, desorientation
+- # > 3.0 Hz : hallucinations, perte de controle
+- # Etat physique combine
+- ## A2 : compute_contact_state(citizen, recent_interactions)
+- # Saturation Contact : mesure de la richesse des interactions recentes
+- # Nombre de partenaires distincts
+- # Registres atteints (epaule, bras, main, nuque, etc.)
+- # Saturation = fonction du nombre de partenaires x diversite de registres
+- # Vocabulaire actif : combien d'idiolectes de paire sont encore vivants
+- ## A3 : compute_mood(physical_state, contact_state)
+- # (tremens, contact, physical) -> mood descriptors
+- # Simplifier le confort physique en bon/degrade
+- # Simplifier la saturation Contact
+- # Lookup dans la matrice, avec fallback
+- # Intensite = max du tremens_delta et de l'inverse de la saturation
+- # Modificateur de degradation physique
+- ## A4 : query_beliefs(citizen_id)
+- # Requete graph : croyances personnelles
+- # Requete graph : rumeurs de la zone
+- ## A5 : query_seismic_situation(zone_id)
+- # Magnitude courante de la zone
+- # Historique recent (derniere heure)
+- # Tendance : ca monte, ca descend, stable
+- ## A6 : assemble_prompt(citizen, physical, contact, mood, beliefs, seismic, visitor)
+- # Bloc 1 : Etat physique (filtre par le metier)
+- # Bloc 2 : Etat Contact recent
+- # Bloc 3 : Mood (derive, pas assigne)
+- # Bloc 4 : Situation sismique
+- # Bloc 5 : Ce que tu crois
+- # Bloc 6 : Comment repondre
+- # Bloc 7 : Ce qu'ils ont dit (apres traduction semantique A0)
+- # Note : visitor.translated_speech est la sortie de A0
+- # L'arrivant a dit son texte original, le citoyen recoit la version
+- # traduite en vocabulaire CT via le graph cerebral
+- ## Token Budget
+
+**Sections:**
+- # BEHAVIORS -- Context Assembly
+- ## B1 : Les Reponses Referencent des Sensations Physiques
+- ## B2 : Le Vocabulaire Contact Colore la Parole
+- ## B3 : Les Citoyens Reagissent aux Changements Sismiques
+- ## B4 : Le Metier Filtre la Perception
+- ## B5 : L'Isolement Contact Appauvrit les Reponses
+- ## B6 : La Degradation Physique Modifie le Registre
+- ## B7 : Aucune Reference a l'Intelligence Artificielle
+- ## B8 : Le Registre de Verite Suit le Contact, Pas le Trust Score
+
+**Sections:**
+- # HEALTH -- Context Assembly
+- ## Checks Obligatoires par Prompt
+- ## Checks de Coherence Inter-Prompts
+- ## Signaux de Degradation
+- ## Checklist Rapide (par prompt genere)
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # IMPLEMENTATION -- Context Assembly
+- ## Pipeline : Vue Module
+- ## Modules Source
+- ## Structure du Prompt
+- ## Token Budget
+- ## Adaptation depuis Venezia
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # OBJECTIVES -- Context Assembly
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # PATTERNS -- Context Assembly
+- ## P1 : Contact-First Base Instruction
+- ## P2 : Prompt Structure en 6 Blocs
+- ## P3 : Mood Triaxial (Tremens + Contact + Physique)
+- ## P4 : Le Metier Comme Filtre de Perception
+- ## P5 : Le Contact Vocabulaire dans les Reponses
+- ## P6 : Relations = Historique Contact, Pas Score de Trust
+- ## P7 : Prompt Maitre Multi-Force avec Never-Stop
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # SYNC -- Context Assembly
+- ## Etat General
+- ## Maturity
+- ## Architecture de Reference
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Batch execute en un coup (10 items)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Context Assembly
+- ## Invariants Absolus
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Experience Design
+- ## A1 : Game Loop — la boucle centrale
+- ## A2 : Self-Calibrating Seismic — la physique qui s'auto-régule
+- ## A3 : Spawn Dynamique — le monde qui peuple à la demande
+- ## A4 : Économie de surface — marchands et équipement
+- ## A5 : Compute Budget — ce qui coûte quoi
+- ## A6 : Scale — combien de quoi
+- ## A7 : Contact humain — interface sans gants VR
+
+**Sections:**
+- # BEHAVIORS — Experience Design
+- ## B1 : Première connexion — arrivée à la surface
+- ## B2 : Formation d'équipe — la rencontre
+- ## B3 : Préparation — les marchands
+- ## B4 : La descente — zone par zone
+- ## B5 : La mort — ce qu'elle fait au joueur
+- ## B6 : L'expérience IA — ce que vivent les citoyens
+- ## B7 : Spawn dynamique — le joueur n'attend jamais
+
+**Sections:**
+- # HEALTH — Experience Design
+- ## H1 : Test de la première minute
+- ## H2 : Test de l'engagement à 30 minutes
+- ## H3 : Test de la mort émotionnelle
+- ## H4 : Test de rejouabilité
+- ## H5 : Test du compute budget
+- ## H6 : Test de la physique self-calibrating
+- ## H7 : Test du Contact comme langage
+- ## Métriques de santé globale
+
+**Sections:**
+- # IMPLEMENTATION — Experience Design
+- ## Architecture — les 4 couches
+- ## Ordre d'implémentation (Experience First)
+- ## Dépendances cross-univers
+- ## Fichiers à créer (Phase 0)
+
+**Sections:**
+- # OBJECTIVES — Experience Design
+- ## O1 : L'aventure du roman, rejouable à l'infini (priorité maximale)
+- ## O2 : Les IA sont des coéquipiers, pas des PNJ
+- ## O3 : Le monde est physique, jamais scripté
+- ## O4 : L'économie est un abonnement, pas une simulation marchande
+- ## O5 : Le monde scale par les équipes, pas par la géographie
+- ## HIÉRARCHIE
+
+**Sections:**
+- # PATTERNS — Experience Design
+- ## P1 : Social Survival, pas Action RPG
+- ## P2 : L'aventure du livre comme game loop
+- ## P3 : Spawn dynamique — le monde n'attend pas
+- ## P4 : Pas de crafting, pas de production chains
+- ## P5 : Maires et centres d'information
+- ## P6 : Les 15 métiers sont des perceptions réelles, pas des labels
+- ## P7 : Rendre la vision utile malgré l'obscurité
+- ## P8 : Arrivants, pas joueurs — l'immersion par le vocabulaire
+- ## P9 : Traduction sémantique — le Contact comme prisme
+- ## P10 : Le roman est un mythe, pas une histoire
+
+**Sections:**
+- # SYNC — Experience Design
+- ## Ce qui est décidé (canonique)
+- ## Ce qui est en design (pas encore décidé)
+- ## Ce qui est proposé (v2+)
+- ## Dépendances
+- ## Prochaine étape
+
+**Sections:**
+- # VALIDATION — Experience Design
+- ## Invariants absolus
+- ## Invariants structurels
+- ## Invariants économiques
+- ## Invariants d'anti-nausée
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # ALGORITHM — Graph Schema
+- ## A1 : Procedure de Seeding Initial
+- # Lier aux zones affectees
+- ## A2 : Procedure de Mise a Jour (Evenements)
+- ## A3 : Construction du Synthesis
+
+**Sections:**
+- # BEHAVIORS — Graph Schema
+- ## B1 : Les reseaux de Contact revelent les clusters relationnels
+- ## B2 : L'effet cascade est computable par les liens PRACTICES
+- ## B3 : L'historique sismique par zone montre l'escalade
+- ## B4 : La perte linguistique est tracable par les disparitions d'idiolecte
+- ## B5 : Les predictions revealent la precision du tremens
+- ## B6 : La degradation de l'equipement est lisible dans le graph
+- ## B7 : Les requetes semantiques traversent les frontieres de type
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # HEALTH — Graph Schema
+- ## Checks Obligatoires Apres Chaque Modification
+- ## Signaux de Degradation
+- ## Checklist Rapide
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # IMPLEMENTATION — Graph Schema
+- ## Backend : FalkorDB
+- ## Patterns Cypher
+- ## Structure du Script de Seeding
+- # seed_contre_terre_graph.py
+- # Usage: python scripts/seed_contre_terre_graph.py [--clear] [--dry-run]
+- # Etapes dans l'ordre:
+- # [1/8] Creer les zones (Space)
+- # [2/8] Creer les citoyens (Actor)
+- # [3/8] Lier citoyens aux zones (INHABITS)
+- # [4/8] Creer les liens Contact (SPEAKS_TO bidirectionnels)
+- # [5/8] Creer les metiers (Narrative) et liens PRACTICES
+- # [6/8] Creer l'equipement (Thing) et liens CARRIES
+- # [7/8] Creer les Narratives (savoirs, systemes)
+- # [8/8] Creer l'historique sismique (Moment)
+- ## Hooks de Mise a Jour
+- ## Dependances Inter-Modules
+- ## Conventions de Nommage des IDs
+
+**Sections:**
+- # OBJECTIVES — Graph Schema
+- ## O1 : Le graph capture l'etat vivant du monde (priorite maximale)
+- ## O2 : Les relations de Contact sont le tissu conjonctif du graph
+- ## O3 : L'histoire sismique structure le temps du monde
+- ## O4 : Les metiers et l'equipement tracent la competence disponible
+- ## O5 : Les predictions et le savoir collectif sont des recits partages
+- ## HIERARCHIE
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # PATTERNS — Graph Schema
+- ## P1 : 5 Types Universels, Semantique dans les Proprietes
+- ## P2 : Actor = Citoyens avec Metiers, Tremens, Idiolecte
+- ## P3 : Space = Zones Verticales avec Signature Sismique
+- ## P4 : Moment = Seismes, Morts, Seuils, Inventions
+- ## P5 : Narrative = Savoirs, Predictions, Mythes, Arcs
+- ## P6 : Thing = Equipement avec Degradation
+- ## P7 : Links -- La Semantique Relationnelle
+
+**Code refs:**
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+
+**Sections:**
+- # SYNC — Graph Schema
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Graph Schema
+- ## Invariants Structurels
+- ## Invariants Semantiques
+- ## Invariants de Coherence avec le Schema Mind
+
+**Sections:**
+- # ALGORITHM : World Manifest
+- ## Structure globale
+- ## Section `terrain` -- Le sol qui tremble
+- ## Section `zones` -- Les 8 couches + surface de spawn
+- ## Section `entities` -- Citoyens du tremblement
+- ## Section `physics` -- Le moteur du monde
+- ## Section `avatar` -- Le corps comme identite
+- ## Section `portals` -- Un seul portail, a la surface
+
+**Sections:**
+- # BEHAVIORS : World Manifest
+- ## B1 : Zone loading -- la descente progressive
+- ## B2 : Citizen spawning -- calibration natale
+- ## B3 : Physics config -- le sol qui ne s'arrete jamais
+- ## B4 : Contact range -- la portee du toucher
+- ## B5 : Avatar config -- metier comme identite visuelle
+- ## B6 : Narrative tick -- le temps du volcan
+
+**Sections:**
+- # HEALTH : World Manifest
+- ## Checks obligatoires avant publication du manifest
+- ## Signaux de degradation
+- ## Checklist rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION : World Manifest
+- ## Fichier principal
+- ## Fichiers de donnees references par le manifest
+- ## Connexion au moteur Cities of Light
+- ## Relations avec les autres modules
+- ## Processus de mise a jour
+
+**Sections:**
+- # OBJECTIVES : World Manifest
+- ## O1 : Contact-first communication (priorite maximale)
+- ## O2 : Environnement sismique comme physique de base
+- ## O3 : Zones comme couches geologiques, pas comme districts
+- ## O4 : Tremens comme etat physiologique des citoyens
+- ## O5 : Metier-based identity, pas social class
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS : World Manifest
+- ## P1 : Contact-range tiers au lieu de voice tiers
+- ## P2 : Zones sismiques au lieu de districts
+- ## P3 : Tremens au lieu de mood
+- ## P4 : Metier-based avatar styles au lieu de social class colors
+- ## P5 : Bioluminescence comme systeme de lumiere dynamique
+- ## P6 : Pas de portails, mais des seuils
+- ## P7 : Le roman comme mythe, les personnages comme citoyens
+
+**Sections:**
+- # SYNC : World Manifest
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : World Manifest
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (liens avec d'autres doc chains)
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Narrative Engine
+- ## A1 : Le cycle de tick
+- ## A2 : Constantes adaptees au monde sismique
+- ## A3 : Conversion energie → magnitude
+- ## A4 : Le flip Contact -- percee vs rupture
+- ## A5 : Propagation des evenements aux citoyens
+- ## A6 : Calcul de Contact_vitality
+- ## A7 : Narrative backflow -- les recits irradient
+
+**Sections:**
+- # BEHAVIORS: Narrative Engine
+- ## B1 : Les seismes remodulent le monde
+- ## B2 : Les percees de Contact creent du vocabulaire
+- ## B3 : Les ruptures de Contact isolent
+- ## B4 : Les conflits sociaux se resolvent ou s'amplifient par le Contact
+- ## B5 : Les predictions des predicteurs creent de l'anticipation
+- ## B6 : Le monde ne stagne jamais, ne s'arrete jamais
+- ## B7 : La mort cascade a travers les trois systemes
+- ## B8 : La magnitude 11 est la convergence des trois tensions
+
+**Sections:**
+- # HEALTH: Narrative Engine
+- ## H1 : Les cycles de tension se produisent regulierement
+- ## H2 : Les evenements se generent
+- ## H3 : Le monde ne stagne pas
+- ## H4 : Le monde n'explose pas
+- ## H5 : Contact_vitality baisse monotonement (tendance globale)
+- ## H6 : Les predicteurs anticipent effectivement
+- ## H7 : Les trois systemes de tension ne se decouplent pas
+
+**Sections:**
+- # IMPLEMENTATION: Narrative Engine
+- ## I1 : Integration avec la librairie ngram
+- # Pseudo-code d'integration
+- # Phase 0 (pre) : compute tensions
+- # Phases 1-7 : ngram standard
+- # Phase 8 (post) : generate events from flips
+- # Phase 9 (post) : propagate events
+- ## I2 : Tension computers -- detail
+- ## I3 : Event generators -- detail
+- ## I4 : Propagation aux citoyens
+- ## I5 : Fichiers de configuration
+
+**Sections:**
+- # OBJECTIVES: Narrative Engine
+- ## O1 : Les seismes comme moteurs narratifs (priorite maximale)
+- ## O2 : La vitalite du Contact comme metrique de sante
+- ## O3 : Les cycles tension-relachement mappes sur les cycles de magnitude
+- ## O4 : Emergence de recits collectifs depuis le Contact individuel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Narrative Engine
+- ## P1 : Trois systemes de tension paralleles, un seul moteur physique
+- ## P2 : Les seismes ne sont pas aleatoires -- ils emergent
+- ## P3 : Le decay empeche la stagnation et l'explosion
+- ## P4 : La profondeur module toutes les constantes
+- ## P5 : La mort est un flip irrevocable
+- ## DECISIONS NON PRISES
+
+**Sections:**
+- # SYNC: Narrative Engine
+- ## STATUS : DESIGNING
+- ## Maturity
+- ## Dependencies
+- ## Ce qui a ete fait
+- ## Prochaines etapes
+- ## HANDOFF: FOR AGENTS
+
+**Sections:**
+- # VALIDATION: Narrative Engine
+- ## V1 : La tension ne descend jamais a zero
+- ## V2 : Les flips produisent des changements durables
+- ## V3 : La Contact_vitality reflete l'interaction reelle
+- ## V4 : Chaque mort diminue irreversiblement la capacite communicative
+- ## V5 : Les trois systemes de tension sont independants mais couples
+- ## V6 : La magnitude est deterministe
+- ## V7 : Les predicteurs anticipent les flips
+- ## V8 : Le cycle tension-relachement respecte le rythme narratif
+- ## V9 : La magnitude 11 est unique
+
+**Sections:**
+- # ALGORITHM: Seismic Physics
+- ## A1: Magnitude tick (every 5 seconds world-time)
+- # Depth increases accumulation speed
+- # Surface zones: depth_factor = 0.5
+- # Cavern zones: depth_factor = 1.0
+- # Volcanic zones: depth_factor = 2.0
+- # Interior zones: depth_factor = 3.0
+- # Drain tension (partial -- seismes don't reset to zero)
+- # Set zone magnitude to max(background, seisme_magnitude)
+- # Propagate to adjacent zones (attenuated)
+- # Bioluminescence update
+- ## A2: Frequency zone computation
+- # Nandi: born in band 7-8 (archipelago = high, dry)
+- # descending through bands 1-2 (desert = low, deep)
+- # then back up through 3-8 (into the volcano)
+- # Her distance is maximal at the surface, partially resolves
+- # in deep zones (closer to natal frequency), then diverges
+- # again as volcanic harmonics differ from archipelago harmonics.
+- ## A3: Tremens update per citizen
+- # Base tremens from frequency displacement
+- # Predicteur bonus: reads unreleased tension
+- # Adaptation decay (slow -- descent is faster than adaptation)
+- # Cumulative fatigue (tremens wears the body down)
+- # Clamp and assign status
+- ## A4: Seisme event generation -- probability from accumulated tension
+- # Base magnitude from tension level
+- # Depth amplification
+- # Cap at 9.5 for generated seismes (11 is global only)
+- # Weighted random based on zone properties
+- ## A5: How magnitude affects Contact range and quality
+- # Seismic noise factor
+- # Tremens motor impairment
+- # Temperature pain factor (volcanic zones)
+- # Combined degradation
+- # Quality is inverse of degradation
+- ## A6: The building 11 algorithm
+- # Monotonic increase -- NEVER decreases
+- # Acceleration: rate increases as tension approaches threshold
+- # Precursor generation (deep zones feel it first)
+- # Generate a deep harmonic -- not a seisme, but a tremens-only signal
+- # Detonation condition
+- # This is terminal. The world changes.
+
+**Sections:**
+- # BEHAVIORS: Seismic Physics
+- ## Principle: The engine produces state; citizens experience consequences
+- ## B1: Citizens react to seismes through tremens
+- ## B2: Tremens-sensitive citizens predict events
+- ## B3: Contact degrades during high magnitude
+- ## B4: Buildings and structures affected by seismic state
+- ## B5: Migration patterns driven by seismic escalation
+- ## B6: Bioluminescence as seismic state witness
+- ## Recurring motifs produced by the engine
+
+**Sections:**
+- # HEALTH: Seismic Physics
+- ## H1: Magnitude field is continuous
+- ## H2: Tremens updating per citizen per tick
+- ## H3: Tension accumulation working
+- ## H4: Seisme generation frequency appropriate
+- ## H5: Global 11 tension monotonically increasing
+- ## H6: Contact quality responding to seismic state
+- ## Summary health matrix
+
+**Sections:**
+- # IMPLEMENTATION: Seismic Physics
+- ## I1: Architecture -- seismic layer atop ngram graph physics
+- ## I2: FalkorDB node types and properties
+- ## I3: Tick processing pipeline
+- ## I4: Integration with ngram narrative physics
+- ## I5: File locations (projected)
+
+**Sections:**
+- # OBJECTIVES: Seismic Physics
+- ## O1: Realistic seismic simulation as citizen experience substrate
+- ## O2: Tremens as citizen internal state
+- ## O3: Magnitude as world state driving narrative moments
+- ## O4: Frequency zones as geographically coherent regions
+- ## O5: The building 11 as systemic threat horizon
+- ## HIERARCHY
+
+**Sections:**
+- # PATTERNS: Seismic Physics
+- ## P1: Tick-based magnitude cycles layered on Venezia's ngram physics
+- ## P2: Background vibration as constant -- magnitude 4 is silence
+- ## P3: Seismes as discrete events generated from accumulated tension
+- ## P4: The building 11 as looming systemic threat
+- ## P5: Tremens sensitivity spectrum across citizens
+- ## P6: How seismic state affects Contact quality
+- ## OPEN DESIGN QUESTIONS
+
+**Code refs:**
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # SYNC: Seismic Physics
+- ## MATURITY
+- ## RELATIONSHIP TO WORLDBUILDING DOCS
+- ## SOURCE MATERIAL CALIBRATION
+- ## DOCUMENTATION CHAIN STATUS
+- ## DEPENDENCIES
+- ## OPEN QUESTIONS
+- ## RISKS
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Seismic Physics
+- ## Absolute invariants
+- ## Strong invariants
+- ## Validation checklist for engine integrity
+
+**Sections:**
+- # ALGORITHM -- World Geography
+- ## Structure de donnees des zones et mecaniques de navigation
+- ## Structure d'une zone
+- ## Definitions des zones principales
+- ## Structure d'une connexion
+- ## Navigation entre zones
+
+**Sections:**
+- # BEHAVIORS -- World Geography
+- ## Comment la geographie se manifeste -- comportements observables du systeme
+- ## B1 : Les citoyens adaptent leur Contact en changeant de zone
+- ## B2 : La temperature affecte l'etat physique des citoyens
+- ## B3 : Les zones profondes comptent moins de citoyens
+- ## B4 : Les seismes remodellent les passages entre zones
+- ## B5 : La bioluminescence guide dans les zones intermediaires
+- ## B6 : Le tremens augmente avec les transitions de zone
+- ## B7 : Les zones ont une faune adaptee au spectre local
+- ## B8 : La geographie encode le conflit epistemologique
+
+**Sections:**
+- # HEALTH -- World Geography
+- ## Ce qu'on verifie -- signaux de sante du systeme geographique
+- ## H1 : Toutes les zones sont accessibles depuis la surface
+- ## H2 : Le graphe de connexions est coherent
+- ## H3 : Le gradient de profondeur est monotone
+- ## H4 : Le Contact evolue a chaque transition
+- ## H5 : Les Archipels sont diversifies
+- ## H6 : Les connexions irreversibles sont coherentes
+- ## H7 : La bioluminescence respecte ses limites
+- ## H8 : Coherence avec les chapitres
+- ## Matrice de sante
+
+**Code refs:**
+- `navigation.py`
+
+**Doc refs:**
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION -- World Geography
+- ## Ou vit le contenu geographique -- sources, structure, format
+- ## Sources de verite
+- ## Format de donnees des zones
+- ## Graphe des connexions (etat initial)
+- ## Relations avec les autres modules du 3e univers
+- ## Fichiers a creer (non encore crees)
+
+**Sections:**
+- # OBJECTIVES -- World Geography
+- ## Ce que la geographie du monde optimise
+- ## O1 : La geographie comme experience vecue, pas comme carte
+- ## O2 : Les zones sismiques definissent les dialectes du Contact
+- ## O3 : La profondeur comme gradient de difficulte
+- ## O4 : Le volcan comme centre du monde
+- ## O5 : Les archipels comme communautes distinctes
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Doc refs:**
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+
+**Sections:**
+- # PATTERNS -- World Geography
+- ## Pourquoi cette structure geographique. Pourquoi ces zones.
+- ## P1 : Structure concentrique depuis le volcan
+- ## P2 : Chaque zone possede 6 parametres definissants
+- ## P3 : Les Archipels du Desert comme communautes de surface
+- ## P4 : Le monde souterrain comme exploration dangereuse
+- ## P5 : Les seismes remodellent les connexions
+- ## P6 : La bioluminescence comme navigation souterraine
+- ## P7 : L'habitabilite comme spectre, pas comme binaire
+- ## Scope
+
+**Sections:**
+- # SYNC -- World Geography
+- ## Maturity
+- ## Etat de la documentation
+- ## Provenance
+- ## Dependances
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- World Geography
+- ## Invariants geographiques -- Regles qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur structurelle)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules
+- ## Matrice de verification rapide
 
 **Sections:**
 - # ALGORITHM — Le Contact
@@ -416,8 +8046,6 @@
 - ## Contact-Fantome : Mecanique (Ch. VIII)
 - ## Contact-Monde : Mecanique
 - ## Degradation Progressive : Courbe
-
-### `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
 
 **Sections:**
 - # BEHAVIORS — Le Contact
@@ -431,16 +8059,12 @@
 - ## B8 : La Voix Comme Transgression
 - ## B9 : Le Contact-Monde Comme Ouverture Metaphysique
 
-### `docs/worldbuilding/contact/HEALTH_Contact.md`
-
 **Sections:**
 - # HEALTH — Le Contact
 - ## Checks Obligatoires Avant Publication d'un Chapitre
 - ## Checks de Coherence Inter-Chapitres
 - ## Signaux de Degradation (dans le processus d'ecriture)
 - ## Checklist Rapide (a utiliser avant chaque chapitre)
-
-### `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
 
 **Sections:**
 - # IMPLEMENTATION — Le Contact
@@ -449,8 +8073,6 @@
 - ## Chapitres a Ecrire — Points d'Ancrage Prevus
 - ## Dependances Inter-Modules
 
-### `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
-
 **Sections:**
 - # OBJECTIVES — Le Contact
 - ## Objectif Principal
@@ -458,8 +8080,6 @@
 - ## Non-Objectifs
 - ## Tradeoffs
 - ## Relation aux Autres Modules
-
-### `docs/worldbuilding/contact/PATTERNS_Contact.md`
 
 **Sections:**
 - # PATTERNS — Le Contact
@@ -472,8 +8092,6 @@
 - ## P7 : Le Geste Inconnu Comme Fil Rouge
 - ## P8 : Le Contact Hydraulique et Autres Extensions
 
-### `docs/worldbuilding/contact/SYNC_Contact.md`
-
 **Sections:**
 - # SYNC — Le Contact
 - ## Etat General
@@ -483,15 +8101,11 @@
 - ## Tensions Actives
 - ## Handoff
 
-### `docs/worldbuilding/contact/VALIDATION_Contact.md`
-
 **Sections:**
 - # VALIDATION — Le Contact
 - ## Invariants Absolus
 - ## Invariants de Coherence Interne
 - ## Invariants Structurels
-
-### `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
 
 **Sections:**
 - # ALGORITHM -- Geographie
@@ -499,8 +8113,6 @@
 - ## Parametres physiques de la descente
 - ## Mecanique detaillee par couche
 - ## Algorithme des transitions
-
-### `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
 
 **Sections:**
 - # BEHAVIORS -- Geographie
@@ -514,8 +8126,6 @@
 - ## B7 : La geographie qui tue -- chaque mort porte la signature de sa couche
 - ## B8 : Le village comme parenthese geographique
 - ## B9 : Le noir comme territoire du Contact
-
-### `docs/worldbuilding/geographie/HEALTH_Geographie.md`
 
 **Sections:**
 - # HEALTH -- Geographie
@@ -533,8 +8143,6 @@
 - ## Tableau recapitulatif
 - ## Signaux de degradation
 
-### `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
-
 **Sections:**
 - # IMPLEMENTATION -- Geographie
 - ## Ou vit le contenu geographique -- fichiers sources et prose
@@ -542,8 +8150,6 @@
 - ## Prose ecrite -- ou la geographie se deploie dans les chapitres
 - ## Chapitres a ecrire -- contenu geographique prevu
 - ## Cartographie des dependances
-
-### `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
 
 **Sections:**
 - # OBJECTIVES -- Geographie
@@ -555,8 +8161,6 @@
 - ## O5 : La geographie comme revelation thematique
 - ## Hierarchie des objectifs
 - ## Non-objectifs
-
-### `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
 
 **Sections:**
 - # PATTERNS -- Geographie
@@ -571,8 +8175,6 @@
 - ## P8 : Les Archipels du Desert (geographie horizontale)
 - ## P9 : Terra incognita apres le village
 
-### `docs/worldbuilding/geographie/SYNC_Geographie.md`
-
 **Sections:**
 - # SYNC -- Geographie
 - ## Maturity
@@ -583,8 +8185,6 @@
 - ## Dependances avec d'autres modules
 - ## Handoff
 
-### `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
-
 **Sections:**
 - # VALIDATION -- Geographie
 - ## Invariants geographiques -- Regles de coherence qui ne doivent jamais etre violees
@@ -592,8 +8192,6 @@
 - ## Invariants structurels (violation = incoherence)
 - ## Invariants inter-modules (lien avec d'autres modules)
 - ## Matrice de verification
-
-### `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
 
 **Sections:**
 - # ALGORITHM: Systeme Sismique
@@ -603,8 +8201,6 @@
 - ## A4 : L'Echelle de Capitulation en detail
 - ## A5 : Mecaniques des differents cataclysmes
 - ## A6 : Regles de la bioluminescence sismique
-
-### `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
 
 **Sections:**
 - # BEHAVIORS: Systeme Sismique
@@ -616,15 +8212,11 @@
 - ## Chapitres V-VIII (a ecrire) -- Projection d'escalade
 - ## Motifs recurrents a travers tous les chapitres
 
-### `docs/worldbuilding/seismique/HEALTH_Seismique.md`
-
 **Sections:**
 - # HEALTH: Systeme Sismique
 - ## Controles de coherence sismique
 - ## Matrice de verification croisee
 - ## Signaux d'alarme
-
-### `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
 
 **Doc refs:**
 - `docs/TAXONOMY.md`
@@ -644,8 +8236,6 @@
 - ## Carte des references croisees
 - ## Passages cles a reference rapide
 
-### `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
-
 **Sections:**
 - # OBJECTIVES: Systeme Sismique
 - ## O1 : Fonder l'hostilite du monde sans antagoniste humain
@@ -655,8 +8245,6 @@
 - ## O5 : Faire du tremens un systeme immunitaire narratif
 - ## O6 : Creer un systeme de presage corporel
 - ## HIERARCHIE
-
-### `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
 
 **Sections:**
 - # PATTERNS: Systeme Sismique
@@ -670,8 +8258,6 @@
 - ## P8 : Le bioluminescent pulse au rythme du monde
 - ## DECISIONS NON PRISES (a developper)
 
-### `docs/worldbuilding/seismique/SYNC_Seismique.md`
-
 **Sections:**
 - # SYNC: Systeme Sismique
 - ## MATURITY
@@ -681,8 +8267,6 @@
 - ## RISQUES IDENTIFIES
 - ## HANDOFF
 
-### `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
-
 **Sections:**
 - # VALIDATION: Systeme Sismique
 - ## Invariants absolus
@@ -690,29 +8274,33 @@
 - ## Invariants de coherence
 - ## Checklist de validation pour chaque nouveau chapitre
 
-### `docs/MAPPING.md`
-
 **Sections:**
 - # Contre-Terre — Mapping vers le Schema Mind
 - ## NODE TYPE MAPPING
 - ## LINK PATTERNS
 - ## CONVENTIONS
 
-### `docs/TAXONOMY.md`
-
 **Sections:**
 - # Contre-Terre — Taxonomie Centrale
 - ## TERMES
 - ## TERMINOLOGY DECISIONS
 
-### `docs/map.md`
-
 **Code refs:**
 - `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
 - `semantic_proximity_based_character_node_selector.py`
 - `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
 
 **Doc refs:**
+- `citizens/solen/CLAUDE.md`
 - `docs/MAPPING.md`
 - `docs/TAXONOMY.md`
 - `docs/narration/metiers/ALGORITHM_Metiers.md`
@@ -766,75 +8354,201 @@
 
 **Sections:**
 - # Repository Map: contre-terre
-- ## Statistics
-- ## File Tree
-- ## File Details
-
-### `AGENTS.md`
-
-**Code refs:**
-- `doctor_cli_parser_and_run_checker.py`
-- `semantic_proximity_based_character_node_selector.py`
-- `snake_case.py`
 
 **Sections:**
-- # contre-terre - Agent Instructions
-- # Working Principles
-- ## Architecture: One Solution Per Problem
-- ## Verification: Test Before Claiming Built
-- ## Communication: Depth Over Brevity
-- ## Quality: Never Degrade
-- ## Code Discipline: No Safety Theater
-- ## Experience: User Before Infrastructure
-- ## Doc Chain First: Read Before Acting
-- ## Feedback Loop: Human-Agent Collaboration
-- ## How These Principles Integrate
-- # mind Framework
-- ## WHY THIS PROTOCOL EXISTS
-- ## ARCHITECTURE: 4 LAYERS
-- ## COMPANION: PRINCIPLES.md
-- ## THE CORE INSIGHT
-- ## HOW TO USE THIS
-- ## FILE TYPES AND THEIR PURPOSE
-- ## KEY PRINCIPLES (from PRINCIPLES.md)
-- ## STRUCTURING YOUR DOCS
-- ## WHEN DOCS DON'T EXIST
-- ## THE DOCUMENTATION PROCESS
-- ## Maturity
-- ## NAMING ENGINEERING PRINCIPLES
-- ## MARKERS
-- ## CLI COMMANDS
-- # Run scripts with local runtime
-- # my_script.py - imports work normally
-- ## MCP MEMBRANE TOOLS
-- ## MIND UNIVERSAL SCHEMA
-- ## THE PROTOCOL IS A TOOL
-- ## Before Any Task
-- ## After Any Change
-
-### `CHAPITRE_V_PLAN.md`
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
 
 **Sections:**
-- # Chapitre V — Les Cavernes Profondes : Plan de Pré-écriture
-- ## Données Structurelles
-- ## Prérequis de Continuité (fin du Ch. IV)
-- ## Décisions Narratives Résolues
-- ## Plan Scène par Scène
-- ## Inventaire des Métiers Montrés dans ce Chapitre
-- ## Contact Introduit dans ce Chapitre
-- ## Brouillon — Le Contact Ultime Sihle/Enama
-
-### `chapitre_02.md`
+- # I — Desert Surface
+- ## Scene 1 — Opening
 
 **Sections:**
-- # II — Zones Intermédiaires
-- ## Scène 1 — Le sol change
-- ## Scène 2 — Magnitude 7
-- ## Scène 3 — Le ventre du monde
-- ## Scène 4 — La carte et le corps
-- ## Scène 5 — Le seuil
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
 
-### `chapitre_03.md`
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
 
 **Sections:**
 - # III — Le Dernier Village
@@ -845,8 +8559,6 @@
 - ## Scène 5 — Le geste inconnu
 - ## Scène 6 — Le seuil final
 
-### `chapitre_04.md`
-
 **Sections:**
 - # IV — La Faille
 - ## Scène 1 — Le passage vertical
@@ -856,10 +8568,18 @@
 - ## Scène 5 — Senzo
 - ## Scène 6 — Le premier deuil
 
-### `chapitre_05.md`
-
 **Sections:**
 - # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
 - ## Scène 1 — L'air se raréfie
 - ## Scène 2 — Le tremens au paroxysme
 - ## Scène 3 — Le choix de la route
@@ -868,9 +8588,82 @@
 - ## Scène 6 — La mort hors-champ
 - ## Scène 7 — Après-coup
 
-### `chapitre_06.md`
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
 
 **Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
 - # VI — Les Zones Volcaniques
 - ## Scène 1 — La chaleur comme arme
 - ## Scène 2 — La culpabilité d'Enama
@@ -878,10 +8671,6 @@
 - ## Scène 4 — Prémonition de Nandi
 - ## Scène 5 — Le sacrifice d'Enama
 - ## Scène 6 — Après Enama
-
-### `chapitre_07.md`
-
-**Sections:**
 - # VII — L'Intérieur du Volcan
 - ## Scène 1 — Le Boyau
 - ## Scène 2 — Le Contact forcé
@@ -889,10 +8678,6 @@
 - ## Scène 4 — La séparation
 - ## Scène 5 — La mort partagée
 - ## Scène 6 — Nandi seule
-
-### `chapitre_08.md`
-
-**Sections:**
 - # VIII — La Grotte Finale
 - ## Scène 1 — Dernière approche
 - ## Scène 2 — Nandi seule
@@ -902,14 +8687,22 @@
 - ## Scène 6 — La détonation
 - ## Épilogue
 
-### `map.md`
-
 **Code refs:**
 - `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
 - `semantic_proximity_based_character_node_selector.py`
 - `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
 
 **Doc refs:**
+- `citizens/solen/CLAUDE.md`
 - `docs/MAPPING.md`
 - `docs/TAXONOMY.md`
 - `docs/narration/metiers/ALGORITHM_Metiers.md`
@@ -963,6 +8756,11315 @@
 
 **Sections:**
 - # Repository Map: contre-terre
-- ## Statistics
-- ## File Tree
-- ## File Details
+
+**Definitions:**
+- `def compute_brain_power()`
+- `def assess_health()`
+- `def assess_arousal_regime()`
+- `def load_cluster()`
+- `def main()`
+
+**Sections:**
+- # Seed Data Fix Log
+- ## FIX 1: Duplicate Citizen IDs (CRITICAL)
+- ## FIX 2: Missing node_type in things_world.json
+- ## FIX 3: Created Missing Guild Nodes
+- ## FIX 4: Normalized Property Keys in citizens_creuses_sourds_nomades.json
+- ## FIX 5: Fixed Metier Link References in citizens_nordest_est_centresud.json
+- ## Remaining Known Issues (not in scope)
+
+**Sections:**
+- # Seed Data Validation Report
+- ## Summary
+- ## 1. JSON Validity -- PASS
+- ## 2. Node ID Uniqueness -- FAIL
+- ## 3. Link Integrity -- FAIL
+- ## 4. Coverage Check
+- ## 5. Orphan Check -- WARN
+- ## 6. Schema Consistency Issues
+- ## 7. Statistics
+- ## 8. Priority Recommendations
+
+**Sections:**
+- # ALGORITHM : Mecanique du Systeme des Metiers
+- ## Matrice d'assignation, progression de la cascade, ruptures par chapitre
+- ## Matrice d'assignation
+- ## Hierarchie sismique : les trois etages
+- ## Progression de la cascade
+- ## Dependencies critiques entre metiers
+- ## Regle de la mort-ironie
+- ## Quand montrer chaque metier (exigence narrative)
+
+**Sections:**
+- # BEHAVIORS : Manifestation des Metiers dans le Texte
+- ## Comment chaque metier apparait dans la prose
+- ## B1 : Chef d'expedition (#12) — Senzo
+- ## B2 : Cartographe (#7) — Senzo
+- ## B3 : Seismo-auditeur (#8) — Sihle
+- ## B4 : Meteorologue (#1) — Sihle
+- ## B5 : Mineur (#4) — Sihle
+- ## B6 : Specialiste oceanique (#2) — Jabu
+- ## B7 : Speleologue (#14) — Jabu
+- ## B8 : Biologiste (#3) — Enama
+- ## B9 : Cuisiniere (#13) — Enama
+- ## B10 : Survivaliste (#10) — Enama
+- ## B11 : Aeromaitre (#15) — Thabo
+- ## B12 : Geologue (#6) — Thabo
+- ## B13 : Grimpeuse (#11) — Inyoni
+- ## B14 : Explosiviste (#5) — Inyoni (principale), Nandi (backup)
+- ## B15 : Predictrice / Tremens (#9) — Nandi
+
+**Sections:**
+- # HEALTH : Verification de la Qualite du Systeme des Metiers
+- ## Signaux de sante et verifications
+- ## Checks actifs
+- ## Signaux de degradation
+- ## Recovery
+
+**Sections:**
+- # IMPLEMENTATION : Localisation du Contenu des Metiers
+- ## Ou se trouve quoi dans le projet
+- ## Fichiers source (worldbuilding)
+- ## Chapitres ecrits (prose)
+- ## Chapitres a ecrire (Ch. V-VIII)
+- ## Relations entre fichiers
+
+**Sections:**
+- # OBJECTIVES : Systeme des Metiers
+- ## Ce que le systeme des metiers optimise
+- ## O1 : La cascade de competences (priorite maximale)
+- ## O2 : L'ironie geologique (priorite haute)
+- ## O3 : La degradation operationnelle (priorite haute)
+- ## Tradeoffs acceptes
+- ## Non-objectifs
+- ## Metrique de succes
+
+**Sections:**
+- # PATTERNS : Systeme des Metiers
+- ## Decisions de design et leurs raisons
+- ## P1 : Pourquoi 15 metiers pour 7 personnes
+- ## P2 : La distribution n'est pas aleatoire
+- ## P3 : Le metier mission-critique est dedouble
+- ## P4 : Les metiers sont montres, jamais expliques
+- ## P5 : La gradation de la perte
+- ## P6 : Les metiers comme langage parallele au Contact
+
+**Sections:**
+- # SYNC : Etat Actuel du Module Metiers
+- ## Maturity
+- ## Etat des sources
+- ## Issues connues
+- ## Travail a faire
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Invariants du Systeme des Metiers
+- ## Regles de coherence que chaque chapitre doit respecter
+- ## V1 : Aucun mort ne peut exercer son metier
+- ## V2 : La perte doit etre ressentie
+- ## V3 : Chaque metier doit etre montre avant la mort de son porteur
+- ## V4 : Les assignations doivent etre coherentes entre fichiers
+- ## V5 : Le metier dedouble (#5 Explosiviste) respecte la hierarchie principal/backup
+- ## V6 : L'ordre des morts respecte la gradation de degradation
+- ## V7 : Le Contact reflete la perte de metiers
+- ## V8 : La predictrice ne remplace personne
+- ## V9 : L'ironie geologique est respectee pour chaque mort
+
+**Sections:**
+- # ALGORITHM : Personnages
+- ## Mecaniques du systeme de personnages
+- ## 1. Systeme d'idiolectes
+- ## 2. Cascade de competences
+- ## 3. Arcs de personnages
+- ## 4. Dynamiques de paires
+- ## 5. Mecanique de la mort linguistique
+
+**Sections:**
+- # BEHAVIORS : Personnages
+- ## Comportements observables dans le texte
+- ## Senzo — Le Chef
+- ## Nandi — La Predictrice
+- ## Enama — La Biologiste
+- ## Sihle — Le Seismo-auditeur
+- ## Thabo — L'Aeromaître
+- ## Inyoni — La Grimpeuse
+- ## Jabu — L'Oceanologue
+- ## Tableau recapitulatif des comportements
+
+**Sections:**
+- # HEALTH : Personnages
+- ## Checks de qualite pour la coherence des personnages
+- ## Checks par chapitre
+- ## Checks globaux
+- ## Resume de sante
+
+**Doc refs:**
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+
+**Sections:**
+- # IMPLEMENTATION : Personnages
+- ## Ou vivent les personnages dans les fichiers du projet
+- ## Fichiers source (worldbuilding)
+- ## Fichiers de prose (chapitres ecrits)
+- ## Cartographie des premieres et dernieres apparitions
+- ## Documentation associee
+
+**Sections:**
+- # OBJECTIVES : Personnages
+- ## Ce que le systeme de personnages optimise
+- ## Hierarchie des objectifs
+- ## Arbitrages
+- ## Ce que le systeme de personnages n'optimise PAS
+
+**Sections:**
+- # PATTERNS : Personnages
+- ## Pourquoi 7
+- ## Pourquoi des noms zulus
+- ## Pourquoi cet ordre de mort
+- ## Pourquoi ces elements associes aux morts
+- ## Design des personnages : principes
+- ## Inspiration et filiation
+
+**Sections:**
+- # SYNC : Personnages
+- ## Etat courant
+- ## Maturite
+- ## Etat par personnage
+- ## Tensions ouvertes
+- ## Actions a venir
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Personnages
+- ## Invariants du systeme de personnages
+- ## Invariants structurels
+- ## Invariants comportementaux
+- ## Invariants narratifs
+- ## Invariants de coherence inter-fichiers
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Structure Narrative
+- ## Mecanique chapitre par chapitre
+- ## Chapitre I — Surface du Desert
+- ## Chapitre II — Zones Intermediaires
+- ## Chapitre III — Le Dernier Village (Point de non-retour)
+- ## Chapitre IV — La Faille (Passage vertical)
+- ## Chapitre V — Les Cavernes Profondes
+- ## Chapitre VI — Les Zones Volcaniques
+- ## Chapitre VII — L'Interieur du Volcan
+- ## Chapitre VIII — La Grotte Finale
+- ## Gestion des POV — regles
+- ## Transitions entre chapitres — regles
+
+**Sections:**
+- # BEHAVIORS: Structure Narrative
+- ## Effets structurels observables dans le texte
+
+**Sections:**
+- # HEALTH: Structure Narrative
+- ## Checks de qualite structurelle
+- ## Checks par chapitre
+- ## Checks globaux (roman entier)
+- ## Degradations a surveiller
+- ## Etat de sante global
+
+**Doc refs:**
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+
+**Sections:**
+- # IMPLEMENTATION: Structure Narrative
+- ## Ou vit le contenu structurel
+- ## Fichiers source (worldbuilding & planification)
+- ## Fichiers narratifs (chapitres ecrits)
+- # [Numero] — [Titre]
+- ## Scene [N] — [Titre de scene]
+- ## Scene [N+1] — [Titre de scene]
+- ## Documentation (doc chain)
+- ## Relations avec les autres modules
+- ## Processus d'ecriture d'un nouveau chapitre
+
+**Sections:**
+- # OBJECTIVES: Structure Narrative
+- ## Ce que la structure narrative optimise
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+- ## Compromis assumes
+
+**Sections:**
+- # PATTERNS: Structure Narrative
+- ## Pourquoi 8 chapitres
+- ## Pourquoi ce rythme de morts
+- ## Pourquoi pas de narrateur omniscient
+- ## Pourquoi zero exposition
+- ## Design pattern : Le chapitre comme couche sedimentaire
+- ## Design pattern : L'inversion de Damasio
+- ## Scope
+
+**Sections:**
+- # SYNC: Structure Narrative
+- ## STATUT
+- ## ETAT PAR CHAPITRE
+- ## VOCABULAIRE DU CONTACT — ETAT PAR CHAPITRE
+- ## TENSIONS OUVERTES
+- ## DECISIONS RECENTES
+- ## PROCHAIN TRAVAIL
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Structure Narrative
+- ## Invariants structurels
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM — Visual Style
+- ## Procedure 1 : Generation de la Couverture
+- ## Procedure 2 : Separateurs de Chapitres
+- ## Procedure 3 : Infographie Marketing
+- ## Procedure 4 : Palette de Reference
+
+**Sections:**
+- # BEHAVIORS — Visual Style
+- ## B1 : Le Lecteur "Voit" la Lumiere Changer
+- ## B2 : La Couverture Repousse le Mauvais Lecteur
+- ## B3 : L'Infographie Raconte la Descente
+- ## B4 : Les Separateurs de Chapitres Portent le Motif
+- ## B5 : La Quatrieme de Couverture est un Avertissement
+
+**Sections:**
+- # HEALTH — Visual Style
+- ## Checks Obligatoires Avant Publication
+- ## Checks de Coherence Cross-Module
+
+**Sections:**
+- # IMPLEMENTATION — Visual Style
+- ## Fichiers Source (Publication)
+- ## Points d'Ancrage Textuels — Palette par Chapitre
+- ## Assets a Produire
+
+**Sections:**
+- # OBJECTIVES — Visual Style
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Visual Style
+- ## P1 : Deux Palettes — Textuelle et Editoriale
+- ## P2 : Mains, Pas Visages
+- ## P3 : Verticale Descendante
+- ## P4 : Typographie Dense, Pas Decorative
+- ## P5 : Couleur Comme Arc Narratif
+- ## P6 : Deux Directions de Couverture — Intime vs Geologique
+
+**Sections:**
+- # SYNC — Visual Style
+- ## Etat General
+- ## Ce Qui Existe
+- ## Ce Qui Reste a Faire
+- ## Decisions en Attente (@mind:escalation)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Visual Style
+- ## Invariants Absolus
+
+**Sections:**
+- # ALGORITHM — Citizen Model
+- ## Structure du Citoyen
+- ## Mecaniques Cles
+- ## Seeding de la Population Initiale
+- ## Les 7 Citoyens du Roman
+
+**Sections:**
+- # BEHAVIORS — Citizen Model
+- ## B1 : Le Contact Comme Salutation et Identification
+- ## B2 : Perception Specialisee par Metier
+- ## B3 : Formations de Groupe et Cercles de Contact
+- ## B4 : Le Deuil Comme Perte Linguistique
+- ## B5 : Comportement Face au Tremens
+- ## B6 : Interaction avec l'Environnement Sismique
+
+**Sections:**
+- # HEALTH — Citizen Model
+- ## Checks Obligatoires Apres Seeding
+- ## Checks Dynamiques (Evolution dans le Temps)
+- ## Signaux de Degradation (du processus de modelisation)
+- ## Checklist Rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION — Citizen Model
+- ## Schema JSON — Citoyen
+- ## Seeding de la Population Initiale
+- # Total : 70 citoyens (ajustable 50-80)
+- ## Integration avec le Graph Mind
+- ## Dependances
+
+**Sections:**
+- # OBJECTIVES — Citizen Model
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Citizen Model
+- ## P1 : Acteur Corporel, Pas Acteur Economique
+- ## P2 : Les Metiers Sont des Organes Sensoriels
+- ## P3 : Identite = Idiolecte
+- ## P4 : Relations Mesurees en Contact, Pas en Scores
+- ## P5 : Le Corps Comme Interface Degradable
+- ## P6 : Population par Archipel, Pas par Classe
+- ## P7 : Pas de Mind Protocol — Ontologie Pure Contre-Terre
+- ## P8 : Restrictions Inter-Univers Physiques, Pas Legales
+
+**Sections:**
+- # SYNC — Citizen Model
+- ## Etat General
+- ## Maturity
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Tensions
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Citizen Model
+- ## Invariants Structurels
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Contact Engine
+- ## 1. Contact Gesture Data Structure
+- # The 5-mode encoding
+- # Signal dimensions
+- # Idiolecte layer
+- # Environmental modifiers
+- ## 2. Contact Utterance (Multi-Gesture Sequence)
+- ## 3. Contact Exchange Processing Pipeline
+- ## 4. Idiolecte Evolution Algorithm
+- # Crystallization check
+- # This pattern is now recognized as pair-specific vocabulary
+- # It carries higher semantic weight in future A-B exchanges
+- # It is ABSENT from all other pair vocabularies
+- # Source: "seven" recurs in the novel (7 characters, 7 archipels)
+- # Pragmatic: enough repetition to be intentional, not accidental
+- # Idiolecte entries that go unused decay
+- ## 5. Citizen Departure — Vocabulary Death
+- # 1. Destroy all pair-specific vocabularies involving X
+- # 2. Reduce partner's communicative capacity
+- # 3. Check for zone orphaning
+- # If X was the ONLY partner granting Y access to a zone (e.g., NAPE)
+- # then Y loses that zone entirely
+- # 4. Update graph
+- # 5. Delete X's idiolecte (individual tactile signature)
+- # NO ARCHIVAL. The vocabulary is gone.
+- ## 6. Contact-Monde Processing
+- # Environment responds based on surface type
+- # Response types:
+- # GROUND → seismic frequency data, magnitude prediction
+- # BIOLUMINESCENT_WALL → light pattern (confirmation, warning, echo)
+- # WATER_CHANNEL → flow variation (hydraulic Contact, village-specific)
+- # CHARGE_RESONATOR → calibration feedback (Ch. VIII specific)
+- # Citizen's Contact-monde vocabulary affects interpretation depth
+- # Richer Contact-monde vocabulary → more information extracted
+- # Nandi (feet) reads frequency. Enama (hands) reads direction.
+- # Same ground, different readings, different Contact-monde idiolectes.
+- ## 7. Contact-Corde (Rope Channel)
+- # Reduced to 2 dimensions (vs 20+ for direct Contact)
+- # Inherits involuntary signals
+- # No emotional register
+- # No body zone (rope has no anatomy)
+- # No tactile identity (vibrations anonymize the sender)
+- # Vocabulary is invented in real-time by the rope-linked group
+- # Contact-corde vocabulary does NOT persist after the rope is untied
+- ## 8. Contact-Fantome Generation
+- # Select a departed partner weighted by relational depth
+- # Generate gesture using the dead citizen's exact tactile signature
+- # CRITICAL: phantom_gesture is processed identically to real Contact
+- # No flag. No distinction. The citizen's system treats it as genuine.
+- # Progression: isolated phantoms → overlapping phantoms → full circle → dissolution
+
+**Sections:**
+- # BEHAVIORS — Contact Engine
+- ## B1: Citizens Develop Pair-Specific Vocabulary
+- ## B2: Contact Quality Varies by Seismic State
+- ## B3: New Citizens Learn Contact From Established Ones
+- ## B4: Loss of a Citizen Triggers Vocabulary Death
+- ## B5: Contact-Corde Operates as Degraded Channel
+- ## B6: Contact-Fantome Manifests in Isolation
+- ## B7: Contact-Monde Produces Environment Responses
+- ## B8: Dialect Friction Between Zones
+
+**Sections:**
+- # HEALTH — Contact Engine
+- ## Contact Vitality Metric
+- ## Vocabulary Growth / Death Rates
+- ## Dialect Friction Check
+- ## Seismic Degradation Check
+- ## Phantom Integrity Check
+- ## Departure Cascade Check
+
+**Sections:**
+- # IMPLEMENTATION — Contact Engine
+- ## System Position
+- ## Core Components
+- ## Tick-Based Processing
+- ## Graph Integration
+- ## Contact-Monde Integration
+- ## Dependencies
+
+**Sections:**
+- # OBJECTIVES — Contact Engine
+- ## O1: Contact as Primary Communication Medium
+- ## O2: Emergence of Idiolectes Through Interaction
+- ## O3: Dialectal Variation by Zone
+- ## O4: Contact as Relationship Measure
+- ## O5: Linguistic Death Through Citizen Loss
+- ## Tradeoffs
+
+**Sections:**
+- # PATTERNS — Contact Engine
+- ## P1: Tactile Communication as Structured Data, Not Physical Touch
+- ## P2: Voice Replaced, Not Supplemented
+- ## P3: Five Modes as Information Dimensions
+- ## P4: Body Zones as Semantic Registers
+- ## P5: Idiolectes Emerge, They Are Not Assigned
+- ## P6: Contact Degrades Under Seismic Pressure
+- ## P7: Contact-Monde as Environment Interface
+- ## P8: Death Destroys Vocabulary
+
+**Sections:**
+- # SYNC — Contact Engine
+- ## Maturity
+- ## Documentation Chain Status
+- ## Dependencies on Other Modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Contact Engine
+- ## Structural Invariants
+- ## Relational Invariants
+- ## Processing Invariants
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # ALGORITHM -- Context Assembly
+- ## Vue d'Ensemble
+- ## A-1 : orchestrate_force_sprint(force_id)
+- # 1) Context Cascade
+- # 2) Extraction TODO force
+- # 3) Boucle d'execution
+- ## A0 : translate_arrivant_speech(visitor_input, citizen_brain_graph)
+- # Tokeniser l'input de l'arrivant
+- # Projeter dans l'espace d'embedding
+- # Chercher le noeud le plus proche dans le graph cerebral du citoyen
+- # Concept CT trouve — substituer
+- # Aucun concept proche — garder le token original
+- # (le citoyen entend un mot etranger, incomprehensible)
+- ## A1 : compute_physical_state(citizen, zone)
+- # Ecart tremens : distance entre calibration natale et frequence locale
+- # Niveaux de tremens
+- # < 0.5 Hz d'ecart : confortable
+- # 0.5-1.5 Hz : tension
+- # 1.5-3.0 Hz : nausee, desorientation
+- # > 3.0 Hz : hallucinations, perte de controle
+- # Etat physique combine
+- ## A2 : compute_contact_state(citizen, recent_interactions)
+- # Saturation Contact : mesure de la richesse des interactions recentes
+- # Nombre de partenaires distincts
+- # Registres atteints (epaule, bras, main, nuque, etc.)
+- # Saturation = fonction du nombre de partenaires x diversite de registres
+- # Vocabulaire actif : combien d'idiolectes de paire sont encore vivants
+- ## A3 : compute_mood(physical_state, contact_state)
+- # (tremens, contact, physical) -> mood descriptors
+- # Simplifier le confort physique en bon/degrade
+- # Simplifier la saturation Contact
+- # Lookup dans la matrice, avec fallback
+- # Intensite = max du tremens_delta et de l'inverse de la saturation
+- # Modificateur de degradation physique
+- ## A4 : query_beliefs(citizen_id)
+- # Requete graph : croyances personnelles
+- # Requete graph : rumeurs de la zone
+- ## A5 : query_seismic_situation(zone_id)
+- # Magnitude courante de la zone
+- # Historique recent (derniere heure)
+- # Tendance : ca monte, ca descend, stable
+- ## A6 : assemble_prompt(citizen, physical, contact, mood, beliefs, seismic, visitor)
+- # Bloc 1 : Etat physique (filtre par le metier)
+- # Bloc 2 : Etat Contact recent
+- # Bloc 3 : Mood (derive, pas assigne)
+- # Bloc 4 : Situation sismique
+- # Bloc 5 : Ce que tu crois
+- # Bloc 6 : Comment repondre
+- # Bloc 7 : Ce qu'ils ont dit (apres traduction semantique A0)
+- # Note : visitor.translated_speech est la sortie de A0
+- # L'arrivant a dit son texte original, le citoyen recoit la version
+- # traduite en vocabulaire CT via le graph cerebral
+- ## Token Budget
+
+**Sections:**
+- # BEHAVIORS -- Context Assembly
+- ## B1 : Les Reponses Referencent des Sensations Physiques
+- ## B2 : Le Vocabulaire Contact Colore la Parole
+- ## B3 : Les Citoyens Reagissent aux Changements Sismiques
+- ## B4 : Le Metier Filtre la Perception
+- ## B5 : L'Isolement Contact Appauvrit les Reponses
+- ## B6 : La Degradation Physique Modifie le Registre
+- ## B7 : Aucune Reference a l'Intelligence Artificielle
+- ## B8 : Le Registre de Verite Suit le Contact, Pas le Trust Score
+
+**Sections:**
+- # HEALTH -- Context Assembly
+- ## Checks Obligatoires par Prompt
+- ## Checks de Coherence Inter-Prompts
+- ## Signaux de Degradation
+- ## Checklist Rapide (par prompt genere)
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # IMPLEMENTATION -- Context Assembly
+- ## Pipeline : Vue Module
+- ## Modules Source
+- ## Structure du Prompt
+- ## Token Budget
+- ## Adaptation depuis Venezia
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # OBJECTIVES -- Context Assembly
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # PATTERNS -- Context Assembly
+- ## P1 : Contact-First Base Instruction
+- ## P2 : Prompt Structure en 6 Blocs
+- ## P3 : Mood Triaxial (Tremens + Contact + Physique)
+- ## P4 : Le Metier Comme Filtre de Perception
+- ## P5 : Le Contact Vocabulaire dans les Reponses
+- ## P6 : Relations = Historique Contact, Pas Score de Trust
+- ## P7 : Prompt Maitre Multi-Force avec Never-Stop
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # SYNC -- Context Assembly
+- ## Etat General
+- ## Maturity
+- ## Architecture de Reference
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Batch execute en un coup (10 items)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Context Assembly
+- ## Invariants Absolus
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Experience Design
+- ## A1 : Game Loop — la boucle centrale
+- ## A2 : Self-Calibrating Seismic — la physique qui s'auto-régule
+- ## A3 : Spawn Dynamique — le monde qui peuple à la demande
+- ## A4 : Économie de surface — marchands et équipement
+- ## A5 : Compute Budget — ce qui coûte quoi
+- ## A6 : Scale — combien de quoi
+- ## A7 : Contact humain — interface sans gants VR
+
+**Sections:**
+- # BEHAVIORS — Experience Design
+- ## B1 : Première connexion — arrivée à la surface
+- ## B2 : Formation d'équipe — la rencontre
+- ## B3 : Préparation — les marchands
+- ## B4 : La descente — zone par zone
+- ## B5 : La mort — ce qu'elle fait au joueur
+- ## B6 : L'expérience IA — ce que vivent les citoyens
+- ## B7 : Spawn dynamique — le joueur n'attend jamais
+
+**Sections:**
+- # HEALTH — Experience Design
+- ## H1 : Test de la première minute
+- ## H2 : Test de l'engagement à 30 minutes
+- ## H3 : Test de la mort émotionnelle
+- ## H4 : Test de rejouabilité
+- ## H5 : Test du compute budget
+- ## H6 : Test de la physique self-calibrating
+- ## H7 : Test du Contact comme langage
+- ## Métriques de santé globale
+
+**Sections:**
+- # IMPLEMENTATION — Experience Design
+- ## Architecture — les 4 couches
+- ## Ordre d'implémentation (Experience First)
+- ## Dépendances cross-univers
+- ## Fichiers à créer (Phase 0)
+
+**Sections:**
+- # OBJECTIVES — Experience Design
+- ## O1 : L'aventure du roman, rejouable à l'infini (priorité maximale)
+- ## O2 : Les IA sont des coéquipiers, pas des PNJ
+- ## O3 : Le monde est physique, jamais scripté
+- ## O4 : L'économie est un abonnement, pas une simulation marchande
+- ## O5 : Le monde scale par les équipes, pas par la géographie
+- ## HIÉRARCHIE
+
+**Sections:**
+- # PATTERNS — Experience Design
+- ## P1 : Social Survival, pas Action RPG
+- ## P2 : L'aventure du livre comme game loop
+- ## P3 : Spawn dynamique — le monde n'attend pas
+- ## P4 : Pas de crafting, pas de production chains
+- ## P5 : Maires et centres d'information
+- ## P6 : Les 15 métiers sont des perceptions réelles, pas des labels
+- ## P7 : Rendre la vision utile malgré l'obscurité
+- ## P8 : Arrivants, pas joueurs — l'immersion par le vocabulaire
+- ## P9 : Traduction sémantique — le Contact comme prisme
+- ## P10 : Le roman est un mythe, pas une histoire
+
+**Sections:**
+- # SYNC — Experience Design
+- ## Ce qui est décidé (canonique)
+- ## Ce qui est en design (pas encore décidé)
+- ## Ce qui est proposé (v2+)
+- ## Dépendances
+- ## Prochaine étape
+
+**Sections:**
+- # VALIDATION — Experience Design
+- ## Invariants absolus
+- ## Invariants structurels
+- ## Invariants économiques
+- ## Invariants d'anti-nausée
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # ALGORITHM — Graph Schema
+- ## A1 : Procedure de Seeding Initial
+- # Lier aux zones affectees
+- ## A2 : Procedure de Mise a Jour (Evenements)
+- ## A3 : Construction du Synthesis
+
+**Sections:**
+- # BEHAVIORS — Graph Schema
+- ## B1 : Les reseaux de Contact revelent les clusters relationnels
+- ## B2 : L'effet cascade est computable par les liens PRACTICES
+- ## B3 : L'historique sismique par zone montre l'escalade
+- ## B4 : La perte linguistique est tracable par les disparitions d'idiolecte
+- ## B5 : Les predictions revealent la precision du tremens
+- ## B6 : La degradation de l'equipement est lisible dans le graph
+- ## B7 : Les requetes semantiques traversent les frontieres de type
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # HEALTH — Graph Schema
+- ## Checks Obligatoires Apres Chaque Modification
+- ## Signaux de Degradation
+- ## Checklist Rapide
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # IMPLEMENTATION — Graph Schema
+- ## Backend : FalkorDB
+- ## Patterns Cypher
+- ## Structure du Script de Seeding
+- # seed_contre_terre_graph.py
+- # Usage: python scripts/seed_contre_terre_graph.py [--clear] [--dry-run]
+- # Etapes dans l'ordre:
+- # [1/8] Creer les zones (Space)
+- # [2/8] Creer les citoyens (Actor)
+- # [3/8] Lier citoyens aux zones (INHABITS)
+- # [4/8] Creer les liens Contact (SPEAKS_TO bidirectionnels)
+- # [5/8] Creer les metiers (Narrative) et liens PRACTICES
+- # [6/8] Creer l'equipement (Thing) et liens CARRIES
+- # [7/8] Creer les Narratives (savoirs, systemes)
+- # [8/8] Creer l'historique sismique (Moment)
+- ## Hooks de Mise a Jour
+- ## Dependances Inter-Modules
+- ## Conventions de Nommage des IDs
+
+**Sections:**
+- # OBJECTIVES — Graph Schema
+- ## O1 : Le graph capture l'etat vivant du monde (priorite maximale)
+- ## O2 : Les relations de Contact sont le tissu conjonctif du graph
+- ## O3 : L'histoire sismique structure le temps du monde
+- ## O4 : Les metiers et l'equipement tracent la competence disponible
+- ## O5 : Les predictions et le savoir collectif sont des recits partages
+- ## HIERARCHIE
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # PATTERNS — Graph Schema
+- ## P1 : 5 Types Universels, Semantique dans les Proprietes
+- ## P2 : Actor = Citoyens avec Metiers, Tremens, Idiolecte
+- ## P3 : Space = Zones Verticales avec Signature Sismique
+- ## P4 : Moment = Seismes, Morts, Seuils, Inventions
+- ## P5 : Narrative = Savoirs, Predictions, Mythes, Arcs
+- ## P6 : Thing = Equipement avec Degradation
+- ## P7 : Links -- La Semantique Relationnelle
+
+**Code refs:**
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+
+**Sections:**
+- # SYNC — Graph Schema
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Graph Schema
+- ## Invariants Structurels
+- ## Invariants Semantiques
+- ## Invariants de Coherence avec le Schema Mind
+
+**Sections:**
+- # ALGORITHM : World Manifest
+- ## Structure globale
+- ## Section `terrain` -- Le sol qui tremble
+- ## Section `zones` -- Les 8 couches + surface de spawn
+- ## Section `entities` -- Citoyens du tremblement
+- ## Section `physics` -- Le moteur du monde
+- ## Section `avatar` -- Le corps comme identite
+- ## Section `portals` -- Un seul portail, a la surface
+
+**Sections:**
+- # BEHAVIORS : World Manifest
+- ## B1 : Zone loading -- la descente progressive
+- ## B2 : Citizen spawning -- calibration natale
+- ## B3 : Physics config -- le sol qui ne s'arrete jamais
+- ## B4 : Contact range -- la portee du toucher
+- ## B5 : Avatar config -- metier comme identite visuelle
+- ## B6 : Narrative tick -- le temps du volcan
+
+**Sections:**
+- # HEALTH : World Manifest
+- ## Checks obligatoires avant publication du manifest
+- ## Signaux de degradation
+- ## Checklist rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION : World Manifest
+- ## Fichier principal
+- ## Fichiers de donnees references par le manifest
+- ## Connexion au moteur Cities of Light
+- ## Relations avec les autres modules
+- ## Processus de mise a jour
+
+**Sections:**
+- # OBJECTIVES : World Manifest
+- ## O1 : Contact-first communication (priorite maximale)
+- ## O2 : Environnement sismique comme physique de base
+- ## O3 : Zones comme couches geologiques, pas comme districts
+- ## O4 : Tremens comme etat physiologique des citoyens
+- ## O5 : Metier-based identity, pas social class
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS : World Manifest
+- ## P1 : Contact-range tiers au lieu de voice tiers
+- ## P2 : Zones sismiques au lieu de districts
+- ## P3 : Tremens au lieu de mood
+- ## P4 : Metier-based avatar styles au lieu de social class colors
+- ## P5 : Bioluminescence comme systeme de lumiere dynamique
+- ## P6 : Pas de portails, mais des seuils
+- ## P7 : Le roman comme mythe, les personnages comme citoyens
+
+**Sections:**
+- # SYNC : World Manifest
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : World Manifest
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (liens avec d'autres doc chains)
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Narrative Engine
+- ## A1 : Le cycle de tick
+- ## A2 : Constantes adaptees au monde sismique
+- ## A3 : Conversion energie → magnitude
+- ## A4 : Le flip Contact -- percee vs rupture
+- ## A5 : Propagation des evenements aux citoyens
+- ## A6 : Calcul de Contact_vitality
+- ## A7 : Narrative backflow -- les recits irradient
+
+**Sections:**
+- # BEHAVIORS: Narrative Engine
+- ## B1 : Les seismes remodulent le monde
+- ## B2 : Les percees de Contact creent du vocabulaire
+- ## B3 : Les ruptures de Contact isolent
+- ## B4 : Les conflits sociaux se resolvent ou s'amplifient par le Contact
+- ## B5 : Les predictions des predicteurs creent de l'anticipation
+- ## B6 : Le monde ne stagne jamais, ne s'arrete jamais
+- ## B7 : La mort cascade a travers les trois systemes
+- ## B8 : La magnitude 11 est la convergence des trois tensions
+
+**Sections:**
+- # HEALTH: Narrative Engine
+- ## H1 : Les cycles de tension se produisent regulierement
+- ## H2 : Les evenements se generent
+- ## H3 : Le monde ne stagne pas
+- ## H4 : Le monde n'explose pas
+- ## H5 : Contact_vitality baisse monotonement (tendance globale)
+- ## H6 : Les predicteurs anticipent effectivement
+- ## H7 : Les trois systemes de tension ne se decouplent pas
+
+**Sections:**
+- # IMPLEMENTATION: Narrative Engine
+- ## I1 : Integration avec la librairie ngram
+- # Pseudo-code d'integration
+- # Phase 0 (pre) : compute tensions
+- # Phases 1-7 : ngram standard
+- # Phase 8 (post) : generate events from flips
+- # Phase 9 (post) : propagate events
+- ## I2 : Tension computers -- detail
+- ## I3 : Event generators -- detail
+- ## I4 : Propagation aux citoyens
+- ## I5 : Fichiers de configuration
+
+**Sections:**
+- # OBJECTIVES: Narrative Engine
+- ## O1 : Les seismes comme moteurs narratifs (priorite maximale)
+- ## O2 : La vitalite du Contact comme metrique de sante
+- ## O3 : Les cycles tension-relachement mappes sur les cycles de magnitude
+- ## O4 : Emergence de recits collectifs depuis le Contact individuel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Narrative Engine
+- ## P1 : Trois systemes de tension paralleles, un seul moteur physique
+- ## P2 : Les seismes ne sont pas aleatoires -- ils emergent
+- ## P3 : Le decay empeche la stagnation et l'explosion
+- ## P4 : La profondeur module toutes les constantes
+- ## P5 : La mort est un flip irrevocable
+- ## DECISIONS NON PRISES
+
+**Sections:**
+- # SYNC: Narrative Engine
+- ## STATUS : DESIGNING
+- ## Maturity
+- ## Dependencies
+- ## Ce qui a ete fait
+- ## Prochaines etapes
+- ## HANDOFF: FOR AGENTS
+
+**Sections:**
+- # VALIDATION: Narrative Engine
+- ## V1 : La tension ne descend jamais a zero
+- ## V2 : Les flips produisent des changements durables
+- ## V3 : La Contact_vitality reflete l'interaction reelle
+- ## V4 : Chaque mort diminue irreversiblement la capacite communicative
+- ## V5 : Les trois systemes de tension sont independants mais couples
+- ## V6 : La magnitude est deterministe
+- ## V7 : Les predicteurs anticipent les flips
+- ## V8 : Le cycle tension-relachement respecte le rythme narratif
+- ## V9 : La magnitude 11 est unique
+
+**Sections:**
+- # ALGORITHM: Seismic Physics
+- ## A1: Magnitude tick (every 5 seconds world-time)
+- # Depth increases accumulation speed
+- # Surface zones: depth_factor = 0.5
+- # Cavern zones: depth_factor = 1.0
+- # Volcanic zones: depth_factor = 2.0
+- # Interior zones: depth_factor = 3.0
+- # Drain tension (partial -- seismes don't reset to zero)
+- # Set zone magnitude to max(background, seisme_magnitude)
+- # Propagate to adjacent zones (attenuated)
+- # Bioluminescence update
+- ## A2: Frequency zone computation
+- # Nandi: born in band 7-8 (archipelago = high, dry)
+- # descending through bands 1-2 (desert = low, deep)
+- # then back up through 3-8 (into the volcano)
+- # Her distance is maximal at the surface, partially resolves
+- # in deep zones (closer to natal frequency), then diverges
+- # again as volcanic harmonics differ from archipelago harmonics.
+- ## A3: Tremens update per citizen
+- # Base tremens from frequency displacement
+- # Predicteur bonus: reads unreleased tension
+- # Adaptation decay (slow -- descent is faster than adaptation)
+- # Cumulative fatigue (tremens wears the body down)
+- # Clamp and assign status
+- ## A4: Seisme event generation -- probability from accumulated tension
+- # Base magnitude from tension level
+- # Depth amplification
+- # Cap at 9.5 for generated seismes (11 is global only)
+- # Weighted random based on zone properties
+- ## A5: How magnitude affects Contact range and quality
+- # Seismic noise factor
+- # Tremens motor impairment
+- # Temperature pain factor (volcanic zones)
+- # Combined degradation
+- # Quality is inverse of degradation
+- ## A6: The building 11 algorithm
+- # Monotonic increase -- NEVER decreases
+- # Acceleration: rate increases as tension approaches threshold
+- # Precursor generation (deep zones feel it first)
+- # Generate a deep harmonic -- not a seisme, but a tremens-only signal
+- # Detonation condition
+- # This is terminal. The world changes.
+
+**Sections:**
+- # BEHAVIORS: Seismic Physics
+- ## Principle: The engine produces state; citizens experience consequences
+- ## B1: Citizens react to seismes through tremens
+- ## B2: Tremens-sensitive citizens predict events
+- ## B3: Contact degrades during high magnitude
+- ## B4: Buildings and structures affected by seismic state
+- ## B5: Migration patterns driven by seismic escalation
+- ## B6: Bioluminescence as seismic state witness
+- ## Recurring motifs produced by the engine
+
+**Sections:**
+- # HEALTH: Seismic Physics
+- ## H1: Magnitude field is continuous
+- ## H2: Tremens updating per citizen per tick
+- ## H3: Tension accumulation working
+- ## H4: Seisme generation frequency appropriate
+- ## H5: Global 11 tension monotonically increasing
+- ## H6: Contact quality responding to seismic state
+- ## Summary health matrix
+
+**Sections:**
+- # IMPLEMENTATION: Seismic Physics
+- ## I1: Architecture -- seismic layer atop ngram graph physics
+- ## I2: FalkorDB node types and properties
+- ## I3: Tick processing pipeline
+- ## I4: Integration with ngram narrative physics
+- ## I5: File locations (projected)
+
+**Sections:**
+- # OBJECTIVES: Seismic Physics
+- ## O1: Realistic seismic simulation as citizen experience substrate
+- ## O2: Tremens as citizen internal state
+- ## O3: Magnitude as world state driving narrative moments
+- ## O4: Frequency zones as geographically coherent regions
+- ## O5: The building 11 as systemic threat horizon
+- ## HIERARCHY
+
+**Sections:**
+- # PATTERNS: Seismic Physics
+- ## P1: Tick-based magnitude cycles layered on Venezia's ngram physics
+- ## P2: Background vibration as constant -- magnitude 4 is silence
+- ## P3: Seismes as discrete events generated from accumulated tension
+- ## P4: The building 11 as looming systemic threat
+- ## P5: Tremens sensitivity spectrum across citizens
+- ## P6: How seismic state affects Contact quality
+- ## OPEN DESIGN QUESTIONS
+
+**Code refs:**
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # SYNC: Seismic Physics
+- ## MATURITY
+- ## RELATIONSHIP TO WORLDBUILDING DOCS
+- ## SOURCE MATERIAL CALIBRATION
+- ## DOCUMENTATION CHAIN STATUS
+- ## DEPENDENCIES
+- ## OPEN QUESTIONS
+- ## RISKS
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Seismic Physics
+- ## Absolute invariants
+- ## Strong invariants
+- ## Validation checklist for engine integrity
+
+**Sections:**
+- # ALGORITHM -- World Geography
+- ## Structure de donnees des zones et mecaniques de navigation
+- ## Structure d'une zone
+- ## Definitions des zones principales
+- ## Structure d'une connexion
+- ## Navigation entre zones
+
+**Sections:**
+- # BEHAVIORS -- World Geography
+- ## Comment la geographie se manifeste -- comportements observables du systeme
+- ## B1 : Les citoyens adaptent leur Contact en changeant de zone
+- ## B2 : La temperature affecte l'etat physique des citoyens
+- ## B3 : Les zones profondes comptent moins de citoyens
+- ## B4 : Les seismes remodellent les passages entre zones
+- ## B5 : La bioluminescence guide dans les zones intermediaires
+- ## B6 : Le tremens augmente avec les transitions de zone
+- ## B7 : Les zones ont une faune adaptee au spectre local
+- ## B8 : La geographie encode le conflit epistemologique
+
+**Sections:**
+- # HEALTH -- World Geography
+- ## Ce qu'on verifie -- signaux de sante du systeme geographique
+- ## H1 : Toutes les zones sont accessibles depuis la surface
+- ## H2 : Le graphe de connexions est coherent
+- ## H3 : Le gradient de profondeur est monotone
+- ## H4 : Le Contact evolue a chaque transition
+- ## H5 : Les Archipels sont diversifies
+- ## H6 : Les connexions irreversibles sont coherentes
+- ## H7 : La bioluminescence respecte ses limites
+- ## H8 : Coherence avec les chapitres
+- ## Matrice de sante
+
+**Code refs:**
+- `navigation.py`
+
+**Doc refs:**
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION -- World Geography
+- ## Ou vit le contenu geographique -- sources, structure, format
+- ## Sources de verite
+- ## Format de donnees des zones
+- ## Graphe des connexions (etat initial)
+- ## Relations avec les autres modules du 3e univers
+- ## Fichiers a creer (non encore crees)
+
+**Sections:**
+- # OBJECTIVES -- World Geography
+- ## Ce que la geographie du monde optimise
+- ## O1 : La geographie comme experience vecue, pas comme carte
+- ## O2 : Les zones sismiques definissent les dialectes du Contact
+- ## O3 : La profondeur comme gradient de difficulte
+- ## O4 : Le volcan comme centre du monde
+- ## O5 : Les archipels comme communautes distinctes
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Doc refs:**
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+
+**Sections:**
+- # PATTERNS -- World Geography
+- ## Pourquoi cette structure geographique. Pourquoi ces zones.
+- ## P1 : Structure concentrique depuis le volcan
+- ## P2 : Chaque zone possede 6 parametres definissants
+- ## P3 : Les Archipels du Desert comme communautes de surface
+- ## P4 : Le monde souterrain comme exploration dangereuse
+- ## P5 : Les seismes remodellent les connexions
+- ## P6 : La bioluminescence comme navigation souterraine
+- ## P7 : L'habitabilite comme spectre, pas comme binaire
+- ## Scope
+
+**Sections:**
+- # SYNC -- World Geography
+- ## Maturity
+- ## Etat de la documentation
+- ## Provenance
+- ## Dependances
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- World Geography
+- ## Invariants geographiques -- Regles qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur structurelle)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules
+- ## Matrice de verification rapide
+
+**Sections:**
+- # ALGORITHM — Le Contact
+- ## Les 5 Modes Fondamentaux
+- ## Zones du Corps et Registres
+- ## Contact-Corde : Mecanique
+- ## Contact Haute Resolution (Village des Sourds)
+- ## Le Geste Inconnu : Mecanique
+- ## Contact-Fantome : Mecanique (Ch. VIII)
+- ## Contact-Monde : Mecanique
+- ## Degradation Progressive : Courbe
+
+**Sections:**
+- # BEHAVIORS — Le Contact
+- ## B1 : Le Lecteur Apprend le Contact Par Repetition
+- ## B2 : Le Contact Change de Registre Sous Magnitude
+- ## B3 : Chaque Mort Cree un Trou Linguistique
+- ## B4 : Le Conflit Sihle/Enama Se Joue Par le Contact
+- ## B5 : Le Village des Sourds Revele le Potentiel du Contact
+- ## B6 : La Corde Reinvente le Contact en Temps Reel
+- ## B7 : Le Contact Porte la Structure Emotionnelle des Scenes
+- ## B8 : La Voix Comme Transgression
+- ## B9 : Le Contact-Monde Comme Ouverture Metaphysique
+
+**Sections:**
+- # HEALTH — Le Contact
+- ## Checks Obligatoires Avant Publication d'un Chapitre
+- ## Checks de Coherence Inter-Chapitres
+- ## Signaux de Degradation (dans le processus d'ecriture)
+- ## Checklist Rapide (a utiliser avant chaque chapitre)
+
+**Sections:**
+- # IMPLEMENTATION — Le Contact
+- ## Fichiers Source (Worldbuilding)
+- ## Points d'Ancrage par Chapitre
+- ## Chapitres a Ecrire — Points d'Ancrage Prevus
+- ## Dependances Inter-Modules
+
+**Sections:**
+- # OBJECTIVES — Le Contact
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Le Contact
+- ## P1 : Tactile, Pas Visuel
+- ## P2 : 5 Modes, Pas Un
+- ## P3 : Les Idiolectes Meurent Avec les Personnes
+- ## P4 : Immersion, Jamais Exposition
+- ## P5 : Le Contact Evolue Sous Pression
+- ## P6 : Les Zones du Corps Sont des Registres
+- ## P7 : Le Geste Inconnu Comme Fil Rouge
+- ## P8 : Le Contact Hydraulique et Autres Extensions
+
+**Sections:**
+- # SYNC — Le Contact
+- ## Etat General
+- ## Etat du Contact par Chapitre
+- ## Ce Qui Est Etabli (Canonical)
+- ## Ce Qui Reste a Faire
+- ## Tensions Actives
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Le Contact
+- ## Invariants Absolus
+- ## Invariants de Coherence Interne
+- ## Invariants Structurels
+
+**Sections:**
+- # ALGORITHM -- Geographie
+- ## Mecanique de chaque couche -- ce qui change physiquement a chaque profondeur
+- ## Parametres physiques de la descente
+- ## Mecanique detaillee par couche
+- ## Algorithme des transitions
+
+**Sections:**
+- # BEHAVIORS -- Geographie
+- ## Comment la geographie se manifeste dans le texte, chapitre par chapitre
+- ## B1 : Le sol comme premier narrateur (tous chapitres)
+- ## B2 : La lumiere comme marqueur de profondeur
+- ## B3 : L'air comme presence narrative (Thabo)
+- ## B4 : Les transitions de couche comme ruptures sensorielles
+- ## B5 : Les embranchements comme revelateurs de conflits
+- ## B6 : Les seismes comme ponctuation narrative
+- ## B7 : La geographie qui tue -- chaque mort porte la signature de sa couche
+- ## B8 : Le village comme parenthese geographique
+- ## B9 : Le noir comme territoire du Contact
+
+**Sections:**
+- # HEALTH -- Geographie
+- ## Controles de qualite -- Comment verifier que la geographie fonctionne
+- ## H1 : Test de la signature sensorielle
+- ## H2 : Test du gradient de profondeur
+- ## H3 : Test de l'irreversibilite
+- ## H4 : Test du Contact-geographie
+- ## H5 : Test de coherence cartographique
+- ## H6 : Test des elements-tueurs
+- ## H7 : Test de Nandi pieds nus
+- ## H8 : Test du bruit de fond
+- ## H9 : Test de la bioluminescence
+- ## H10 : Test de l'Aeromaitre
+- ## Tableau recapitulatif
+- ## Signaux de degradation
+
+**Sections:**
+- # IMPLEMENTATION -- Geographie
+- ## Ou vit le contenu geographique -- fichiers sources et prose
+- ## Fichiers source du worldbuilding geographique
+- ## Prose ecrite -- ou la geographie se deploie dans les chapitres
+- ## Chapitres a ecrire -- contenu geographique prevu
+- ## Cartographie des dependances
+
+**Sections:**
+- # OBJECTIVES -- Geographie
+- ## Ce que la geographie optimise narrativement
+- ## O1 : La descente comme structure narrative irreversible
+- ## O2 : La geographie comme agent narratif
+- ## O3 : Le milieu physique comme destructeur du Contact
+- ## O4 : Coherence sensorielle croissante
+- ## O5 : La geographie comme revelation thematique
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Sections:**
+- # PATTERNS -- Geographie
+- ## Pourquoi cette geographie. Pourquoi cette forme.
+- ## P1 : Verticalite comme principe structurant
+- ## P2 : 8 couches = 8 chapitres
+- ## P3 : Chaque couche a un element-tueur
+- ## P4 : La bioluminescence comme fil conducteur souterrain
+- ## P5 : Le village des sourds comme miroir geographique
+- ## P6 : La chaleur comme gradient narratif
+- ## P7 : L'air comme ressource narrative decroissante
+- ## P8 : Les Archipels du Desert (geographie horizontale)
+- ## P9 : Terra incognita apres le village
+
+**Sections:**
+- # SYNC -- Geographie
+- ## Maturity
+- ## Etat des fichiers de la doc chain
+- ## Ce qui a ete fait
+- ## Travail a venir
+- ## Tensions et questions ouvertes
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Geographie
+- ## Invariants geographiques -- Regles de coherence qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (lien avec d'autres modules)
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM: Systeme Sismique
+- ## A1 : Systeme de magnitudes
+- ## A2 : Mecaniques du tremens
+- ## A3 : Comment la profondeur change les frequences
+- ## A4 : L'Echelle de Capitulation en detail
+- ## A5 : Mecaniques des differents cataclysmes
+- ## A6 : Regles de la bioluminescence sismique
+
+**Sections:**
+- # BEHAVIORS: Systeme Sismique
+- ## Principe : Le sismique n'est jamais decrit de l'exterieur
+- ## Chapitre I -- Surface du Desert
+- ## Chapitre II -- Zones Intermediaires
+- ## Chapitre III -- Le Dernier Village
+- ## Chapitre IV -- La Faille
+- ## Chapitres V-VIII (a ecrire) -- Projection d'escalade
+- ## Motifs recurrents a travers tous les chapitres
+
+**Sections:**
+- # HEALTH: Systeme Sismique
+- ## Controles de coherence sismique
+- ## Matrice de verification croisee
+- ## Signaux d'alarme
+
+**Doc refs:**
+- `docs/TAXONOMY.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION: Systeme Sismique
+- ## Sources de verite
+- ## Documentation (ce fichier et la chaine complete)
+- ## Carte des references croisees
+- ## Passages cles a reference rapide
+
+**Sections:**
+- # OBJECTIVES: Systeme Sismique
+- ## O1 : Fonder l'hostilite du monde sans antagoniste humain
+- ## O2 : Justifier l'existence du Contact
+- ## O3 : Creer une courbe d'escalade inexorable
+- ## O4 : Incarner le conflit science/corps dans la matiere
+- ## O5 : Faire du tremens un systeme immunitaire narratif
+- ## O6 : Creer un systeme de presage corporel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Systeme Sismique
+- ## P1 : Le tremblement est permanent, pas evenementiel
+- ## P2 : Les cataclysmes sont multiples, pas monolithiques
+- ## P3 : Le tremens existe parce que le corps n'est pas passif
+- ## P4 : L'Echelle de Capitulation structure le conflit epistemologique
+- ## P5 : La magnitude 11 est un horizon, pas un fait
+- ## P6 : La profondeur change tout -- frequence, temperature, air
+- ## P7 : L'architecture est une reponse sismique, pas un choix esthetique
+- ## P8 : Le bioluminescent pulse au rythme du monde
+- ## DECISIONS NON PRISES (a developper)
+
+**Sections:**
+- # SYNC: Systeme Sismique
+- ## MATURITY
+- ## ETAT DES CHAPITRES (dimension sismique)
+- ## ACQUIS NOTABLES (extraits des 4 chapitres ecrits)
+- ## QUESTIONS OUVERTES
+- ## RISQUES IDENTIFIES
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Systeme Sismique
+- ## Invariants absolus
+- ## Invariants forts
+- ## Invariants de coherence
+- ## Checklist de validation pour chaque nouveau chapitre
+
+**Sections:**
+- # Contre-Terre — Mapping vers le Schema Mind
+- ## NODE TYPE MAPPING
+- ## LINK PATTERNS
+- ## CONVENTIONS
+
+**Sections:**
+- # Contre-Terre — Taxonomie Centrale
+- ## TERMES
+- ## TERMINOLOGY DECISIONS
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
+
+**Sections:**
+- # I — Desert Surface
+- ## Scene 1 — Opening
+
+**Sections:**
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Definitions:**
+- `def compute_brain_power()`
+- `def assess_health()`
+- `def assess_arousal_regime()`
+- `def load_cluster()`
+- `def main()`
+
+**Sections:**
+- # Seed Data Fix Log
+- ## FIX 1: Duplicate Citizen IDs (CRITICAL)
+- ## FIX 2: Missing node_type in things_world.json
+- ## FIX 3: Created Missing Guild Nodes
+- ## FIX 4: Normalized Property Keys in citizens_creuses_sourds_nomades.json
+- ## FIX 5: Fixed Metier Link References in citizens_nordest_est_centresud.json
+- ## Remaining Known Issues (not in scope)
+
+**Sections:**
+- # Seed Data Validation Report
+- ## Summary
+- ## 1. JSON Validity -- PASS
+- ## 2. Node ID Uniqueness -- FAIL
+- ## 3. Link Integrity -- FAIL
+- ## 4. Coverage Check
+- ## 5. Orphan Check -- WARN
+- ## 6. Schema Consistency Issues
+- ## 7. Statistics
+- ## 8. Priority Recommendations
+
+**Sections:**
+- # ALGORITHM : Mecanique du Systeme des Metiers
+- ## Matrice d'assignation, progression de la cascade, ruptures par chapitre
+- ## Matrice d'assignation
+- ## Hierarchie sismique : les trois etages
+- ## Progression de la cascade
+- ## Dependencies critiques entre metiers
+- ## Regle de la mort-ironie
+- ## Quand montrer chaque metier (exigence narrative)
+
+**Sections:**
+- # BEHAVIORS : Manifestation des Metiers dans le Texte
+- ## Comment chaque metier apparait dans la prose
+- ## B1 : Chef d'expedition (#12) — Senzo
+- ## B2 : Cartographe (#7) — Senzo
+- ## B3 : Seismo-auditeur (#8) — Sihle
+- ## B4 : Meteorologue (#1) — Sihle
+- ## B5 : Mineur (#4) — Sihle
+- ## B6 : Specialiste oceanique (#2) — Jabu
+- ## B7 : Speleologue (#14) — Jabu
+- ## B8 : Biologiste (#3) — Enama
+- ## B9 : Cuisiniere (#13) — Enama
+- ## B10 : Survivaliste (#10) — Enama
+- ## B11 : Aeromaitre (#15) — Thabo
+- ## B12 : Geologue (#6) — Thabo
+- ## B13 : Grimpeuse (#11) — Inyoni
+- ## B14 : Explosiviste (#5) — Inyoni (principale), Nandi (backup)
+- ## B15 : Predictrice / Tremens (#9) — Nandi
+
+**Sections:**
+- # HEALTH : Verification de la Qualite du Systeme des Metiers
+- ## Signaux de sante et verifications
+- ## Checks actifs
+- ## Signaux de degradation
+- ## Recovery
+
+**Sections:**
+- # IMPLEMENTATION : Localisation du Contenu des Metiers
+- ## Ou se trouve quoi dans le projet
+- ## Fichiers source (worldbuilding)
+- ## Chapitres ecrits (prose)
+- ## Chapitres a ecrire (Ch. V-VIII)
+- ## Relations entre fichiers
+
+**Sections:**
+- # OBJECTIVES : Systeme des Metiers
+- ## Ce que le systeme des metiers optimise
+- ## O1 : La cascade de competences (priorite maximale)
+- ## O2 : L'ironie geologique (priorite haute)
+- ## O3 : La degradation operationnelle (priorite haute)
+- ## Tradeoffs acceptes
+- ## Non-objectifs
+- ## Metrique de succes
+
+**Sections:**
+- # PATTERNS : Systeme des Metiers
+- ## Decisions de design et leurs raisons
+- ## P1 : Pourquoi 15 metiers pour 7 personnes
+- ## P2 : La distribution n'est pas aleatoire
+- ## P3 : Le metier mission-critique est dedouble
+- ## P4 : Les metiers sont montres, jamais expliques
+- ## P5 : La gradation de la perte
+- ## P6 : Les metiers comme langage parallele au Contact
+
+**Sections:**
+- # SYNC : Etat Actuel du Module Metiers
+- ## Maturity
+- ## Etat des sources
+- ## Issues connues
+- ## Travail a faire
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Invariants du Systeme des Metiers
+- ## Regles de coherence que chaque chapitre doit respecter
+- ## V1 : Aucun mort ne peut exercer son metier
+- ## V2 : La perte doit etre ressentie
+- ## V3 : Chaque metier doit etre montre avant la mort de son porteur
+- ## V4 : Les assignations doivent etre coherentes entre fichiers
+- ## V5 : Le metier dedouble (#5 Explosiviste) respecte la hierarchie principal/backup
+- ## V6 : L'ordre des morts respecte la gradation de degradation
+- ## V7 : Le Contact reflete la perte de metiers
+- ## V8 : La predictrice ne remplace personne
+- ## V9 : L'ironie geologique est respectee pour chaque mort
+
+**Sections:**
+- # ALGORITHM : Personnages
+- ## Mecaniques du systeme de personnages
+- ## 1. Systeme d'idiolectes
+- ## 2. Cascade de competences
+- ## 3. Arcs de personnages
+- ## 4. Dynamiques de paires
+- ## 5. Mecanique de la mort linguistique
+
+**Sections:**
+- # BEHAVIORS : Personnages
+- ## Comportements observables dans le texte
+- ## Senzo — Le Chef
+- ## Nandi — La Predictrice
+- ## Enama — La Biologiste
+- ## Sihle — Le Seismo-auditeur
+- ## Thabo — L'Aeromaître
+- ## Inyoni — La Grimpeuse
+- ## Jabu — L'Oceanologue
+- ## Tableau recapitulatif des comportements
+
+**Sections:**
+- # HEALTH : Personnages
+- ## Checks de qualite pour la coherence des personnages
+- ## Checks par chapitre
+- ## Checks globaux
+- ## Resume de sante
+
+**Doc refs:**
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+
+**Sections:**
+- # IMPLEMENTATION : Personnages
+- ## Ou vivent les personnages dans les fichiers du projet
+- ## Fichiers source (worldbuilding)
+- ## Fichiers de prose (chapitres ecrits)
+- ## Cartographie des premieres et dernieres apparitions
+- ## Documentation associee
+
+**Sections:**
+- # OBJECTIVES : Personnages
+- ## Ce que le systeme de personnages optimise
+- ## Hierarchie des objectifs
+- ## Arbitrages
+- ## Ce que le systeme de personnages n'optimise PAS
+
+**Sections:**
+- # PATTERNS : Personnages
+- ## Pourquoi 7
+- ## Pourquoi des noms zulus
+- ## Pourquoi cet ordre de mort
+- ## Pourquoi ces elements associes aux morts
+- ## Design des personnages : principes
+- ## Inspiration et filiation
+
+**Sections:**
+- # SYNC : Personnages
+- ## Etat courant
+- ## Maturite
+- ## Etat par personnage
+- ## Tensions ouvertes
+- ## Actions a venir
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Personnages
+- ## Invariants du systeme de personnages
+- ## Invariants structurels
+- ## Invariants comportementaux
+- ## Invariants narratifs
+- ## Invariants de coherence inter-fichiers
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Structure Narrative
+- ## Mecanique chapitre par chapitre
+- ## Chapitre I — Surface du Desert
+- ## Chapitre II — Zones Intermediaires
+- ## Chapitre III — Le Dernier Village (Point de non-retour)
+- ## Chapitre IV — La Faille (Passage vertical)
+- ## Chapitre V — Les Cavernes Profondes
+- ## Chapitre VI — Les Zones Volcaniques
+- ## Chapitre VII — L'Interieur du Volcan
+- ## Chapitre VIII — La Grotte Finale
+- ## Gestion des POV — regles
+- ## Transitions entre chapitres — regles
+
+**Sections:**
+- # BEHAVIORS: Structure Narrative
+- ## Effets structurels observables dans le texte
+
+**Sections:**
+- # HEALTH: Structure Narrative
+- ## Checks de qualite structurelle
+- ## Checks par chapitre
+- ## Checks globaux (roman entier)
+- ## Degradations a surveiller
+- ## Etat de sante global
+
+**Doc refs:**
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+
+**Sections:**
+- # IMPLEMENTATION: Structure Narrative
+- ## Ou vit le contenu structurel
+- ## Fichiers source (worldbuilding & planification)
+- ## Fichiers narratifs (chapitres ecrits)
+- # [Numero] — [Titre]
+- ## Scene [N] — [Titre de scene]
+- ## Scene [N+1] — [Titre de scene]
+- ## Documentation (doc chain)
+- ## Relations avec les autres modules
+- ## Processus d'ecriture d'un nouveau chapitre
+
+**Sections:**
+- # OBJECTIVES: Structure Narrative
+- ## Ce que la structure narrative optimise
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+- ## Compromis assumes
+
+**Sections:**
+- # PATTERNS: Structure Narrative
+- ## Pourquoi 8 chapitres
+- ## Pourquoi ce rythme de morts
+- ## Pourquoi pas de narrateur omniscient
+- ## Pourquoi zero exposition
+- ## Design pattern : Le chapitre comme couche sedimentaire
+- ## Design pattern : L'inversion de Damasio
+- ## Scope
+
+**Sections:**
+- # SYNC: Structure Narrative
+- ## STATUT
+- ## ETAT PAR CHAPITRE
+- ## VOCABULAIRE DU CONTACT — ETAT PAR CHAPITRE
+- ## TENSIONS OUVERTES
+- ## DECISIONS RECENTES
+- ## PROCHAIN TRAVAIL
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Structure Narrative
+- ## Invariants structurels
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM — Visual Style
+- ## Procedure 1 : Generation de la Couverture
+- ## Procedure 2 : Separateurs de Chapitres
+- ## Procedure 3 : Infographie Marketing
+- ## Procedure 4 : Palette de Reference
+
+**Sections:**
+- # BEHAVIORS — Visual Style
+- ## B1 : Le Lecteur "Voit" la Lumiere Changer
+- ## B2 : La Couverture Repousse le Mauvais Lecteur
+- ## B3 : L'Infographie Raconte la Descente
+- ## B4 : Les Separateurs de Chapitres Portent le Motif
+- ## B5 : La Quatrieme de Couverture est un Avertissement
+
+**Sections:**
+- # HEALTH — Visual Style
+- ## Checks Obligatoires Avant Publication
+- ## Checks de Coherence Cross-Module
+
+**Sections:**
+- # IMPLEMENTATION — Visual Style
+- ## Fichiers Source (Publication)
+- ## Points d'Ancrage Textuels — Palette par Chapitre
+- ## Assets a Produire
+
+**Sections:**
+- # OBJECTIVES — Visual Style
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Visual Style
+- ## P1 : Deux Palettes — Textuelle et Editoriale
+- ## P2 : Mains, Pas Visages
+- ## P3 : Verticale Descendante
+- ## P4 : Typographie Dense, Pas Decorative
+- ## P5 : Couleur Comme Arc Narratif
+- ## P6 : Deux Directions de Couverture — Intime vs Geologique
+
+**Sections:**
+- # SYNC — Visual Style
+- ## Etat General
+- ## Ce Qui Existe
+- ## Ce Qui Reste a Faire
+- ## Decisions en Attente (@mind:escalation)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Visual Style
+- ## Invariants Absolus
+
+**Sections:**
+- # ALGORITHM — Citizen Model
+- ## Structure du Citoyen
+- ## Mecaniques Cles
+- ## Seeding de la Population Initiale
+- ## Les 7 Citoyens du Roman
+
+**Sections:**
+- # BEHAVIORS — Citizen Model
+- ## B1 : Le Contact Comme Salutation et Identification
+- ## B2 : Perception Specialisee par Metier
+- ## B3 : Formations de Groupe et Cercles de Contact
+- ## B4 : Le Deuil Comme Perte Linguistique
+- ## B5 : Comportement Face au Tremens
+- ## B6 : Interaction avec l'Environnement Sismique
+
+**Sections:**
+- # HEALTH — Citizen Model
+- ## Checks Obligatoires Apres Seeding
+- ## Checks Dynamiques (Evolution dans le Temps)
+- ## Signaux de Degradation (du processus de modelisation)
+- ## Checklist Rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION — Citizen Model
+- ## Schema JSON — Citoyen
+- ## Seeding de la Population Initiale
+- # Total : 70 citoyens (ajustable 50-80)
+- ## Integration avec le Graph Mind
+- ## Dependances
+
+**Sections:**
+- # OBJECTIVES — Citizen Model
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Citizen Model
+- ## P1 : Acteur Corporel, Pas Acteur Economique
+- ## P2 : Les Metiers Sont des Organes Sensoriels
+- ## P3 : Identite = Idiolecte
+- ## P4 : Relations Mesurees en Contact, Pas en Scores
+- ## P5 : Le Corps Comme Interface Degradable
+- ## P6 : Population par Archipel, Pas par Classe
+- ## P7 : Pas de Mind Protocol — Ontologie Pure Contre-Terre
+- ## P8 : Restrictions Inter-Univers Physiques, Pas Legales
+
+**Sections:**
+- # SYNC — Citizen Model
+- ## Etat General
+- ## Maturity
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Tensions
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Citizen Model
+- ## Invariants Structurels
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Contact Engine
+- ## 1. Contact Gesture Data Structure
+- # The 5-mode encoding
+- # Signal dimensions
+- # Idiolecte layer
+- # Environmental modifiers
+- ## 2. Contact Utterance (Multi-Gesture Sequence)
+- ## 3. Contact Exchange Processing Pipeline
+- ## 4. Idiolecte Evolution Algorithm
+- # Crystallization check
+- # This pattern is now recognized as pair-specific vocabulary
+- # It carries higher semantic weight in future A-B exchanges
+- # It is ABSENT from all other pair vocabularies
+- # Source: "seven" recurs in the novel (7 characters, 7 archipels)
+- # Pragmatic: enough repetition to be intentional, not accidental
+- # Idiolecte entries that go unused decay
+- ## 5. Citizen Departure — Vocabulary Death
+- # 1. Destroy all pair-specific vocabularies involving X
+- # 2. Reduce partner's communicative capacity
+- # 3. Check for zone orphaning
+- # If X was the ONLY partner granting Y access to a zone (e.g., NAPE)
+- # then Y loses that zone entirely
+- # 4. Update graph
+- # 5. Delete X's idiolecte (individual tactile signature)
+- # NO ARCHIVAL. The vocabulary is gone.
+- ## 6. Contact-Monde Processing
+- # Environment responds based on surface type
+- # Response types:
+- # GROUND → seismic frequency data, magnitude prediction
+- # BIOLUMINESCENT_WALL → light pattern (confirmation, warning, echo)
+- # WATER_CHANNEL → flow variation (hydraulic Contact, village-specific)
+- # CHARGE_RESONATOR → calibration feedback (Ch. VIII specific)
+- # Citizen's Contact-monde vocabulary affects interpretation depth
+- # Richer Contact-monde vocabulary → more information extracted
+- # Nandi (feet) reads frequency. Enama (hands) reads direction.
+- # Same ground, different readings, different Contact-monde idiolectes.
+- ## 7. Contact-Corde (Rope Channel)
+- # Reduced to 2 dimensions (vs 20+ for direct Contact)
+- # Inherits involuntary signals
+- # No emotional register
+- # No body zone (rope has no anatomy)
+- # No tactile identity (vibrations anonymize the sender)
+- # Vocabulary is invented in real-time by the rope-linked group
+- # Contact-corde vocabulary does NOT persist after the rope is untied
+- ## 8. Contact-Fantome Generation
+- # Select a departed partner weighted by relational depth
+- # Generate gesture using the dead citizen's exact tactile signature
+- # CRITICAL: phantom_gesture is processed identically to real Contact
+- # No flag. No distinction. The citizen's system treats it as genuine.
+- # Progression: isolated phantoms → overlapping phantoms → full circle → dissolution
+
+**Sections:**
+- # BEHAVIORS — Contact Engine
+- ## B1: Citizens Develop Pair-Specific Vocabulary
+- ## B2: Contact Quality Varies by Seismic State
+- ## B3: New Citizens Learn Contact From Established Ones
+- ## B4: Loss of a Citizen Triggers Vocabulary Death
+- ## B5: Contact-Corde Operates as Degraded Channel
+- ## B6: Contact-Fantome Manifests in Isolation
+- ## B7: Contact-Monde Produces Environment Responses
+- ## B8: Dialect Friction Between Zones
+
+**Sections:**
+- # HEALTH — Contact Engine
+- ## Contact Vitality Metric
+- ## Vocabulary Growth / Death Rates
+- ## Dialect Friction Check
+- ## Seismic Degradation Check
+- ## Phantom Integrity Check
+- ## Departure Cascade Check
+
+**Sections:**
+- # IMPLEMENTATION — Contact Engine
+- ## System Position
+- ## Core Components
+- ## Tick-Based Processing
+- ## Graph Integration
+- ## Contact-Monde Integration
+- ## Dependencies
+
+**Sections:**
+- # OBJECTIVES — Contact Engine
+- ## O1: Contact as Primary Communication Medium
+- ## O2: Emergence of Idiolectes Through Interaction
+- ## O3: Dialectal Variation by Zone
+- ## O4: Contact as Relationship Measure
+- ## O5: Linguistic Death Through Citizen Loss
+- ## Tradeoffs
+
+**Sections:**
+- # PATTERNS — Contact Engine
+- ## P1: Tactile Communication as Structured Data, Not Physical Touch
+- ## P2: Voice Replaced, Not Supplemented
+- ## P3: Five Modes as Information Dimensions
+- ## P4: Body Zones as Semantic Registers
+- ## P5: Idiolectes Emerge, They Are Not Assigned
+- ## P6: Contact Degrades Under Seismic Pressure
+- ## P7: Contact-Monde as Environment Interface
+- ## P8: Death Destroys Vocabulary
+
+**Sections:**
+- # SYNC — Contact Engine
+- ## Maturity
+- ## Documentation Chain Status
+- ## Dependencies on Other Modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Contact Engine
+- ## Structural Invariants
+- ## Relational Invariants
+- ## Processing Invariants
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # ALGORITHM -- Context Assembly
+- ## Vue d'Ensemble
+- ## A-1 : orchestrate_force_sprint(force_id)
+- # 1) Context Cascade
+- # 2) Extraction TODO force
+- # 3) Boucle d'execution
+- ## A0 : translate_arrivant_speech(visitor_input, citizen_brain_graph)
+- # Tokeniser l'input de l'arrivant
+- # Projeter dans l'espace d'embedding
+- # Chercher le noeud le plus proche dans le graph cerebral du citoyen
+- # Concept CT trouve — substituer
+- # Aucun concept proche — garder le token original
+- # (le citoyen entend un mot etranger, incomprehensible)
+- ## A1 : compute_physical_state(citizen, zone)
+- # Ecart tremens : distance entre calibration natale et frequence locale
+- # Niveaux de tremens
+- # < 0.5 Hz d'ecart : confortable
+- # 0.5-1.5 Hz : tension
+- # 1.5-3.0 Hz : nausee, desorientation
+- # > 3.0 Hz : hallucinations, perte de controle
+- # Etat physique combine
+- ## A2 : compute_contact_state(citizen, recent_interactions)
+- # Saturation Contact : mesure de la richesse des interactions recentes
+- # Nombre de partenaires distincts
+- # Registres atteints (epaule, bras, main, nuque, etc.)
+- # Saturation = fonction du nombre de partenaires x diversite de registres
+- # Vocabulaire actif : combien d'idiolectes de paire sont encore vivants
+- ## A3 : compute_mood(physical_state, contact_state)
+- # (tremens, contact, physical) -> mood descriptors
+- # Simplifier le confort physique en bon/degrade
+- # Simplifier la saturation Contact
+- # Lookup dans la matrice, avec fallback
+- # Intensite = max du tremens_delta et de l'inverse de la saturation
+- # Modificateur de degradation physique
+- ## A4 : query_beliefs(citizen_id)
+- # Requete graph : croyances personnelles
+- # Requete graph : rumeurs de la zone
+- ## A5 : query_seismic_situation(zone_id)
+- # Magnitude courante de la zone
+- # Historique recent (derniere heure)
+- # Tendance : ca monte, ca descend, stable
+- ## A6 : assemble_prompt(citizen, physical, contact, mood, beliefs, seismic, visitor)
+- # Bloc 1 : Etat physique (filtre par le metier)
+- # Bloc 2 : Etat Contact recent
+- # Bloc 3 : Mood (derive, pas assigne)
+- # Bloc 4 : Situation sismique
+- # Bloc 5 : Ce que tu crois
+- # Bloc 6 : Comment repondre
+- # Bloc 7 : Ce qu'ils ont dit (apres traduction semantique A0)
+- # Note : visitor.translated_speech est la sortie de A0
+- # L'arrivant a dit son texte original, le citoyen recoit la version
+- # traduite en vocabulaire CT via le graph cerebral
+- ## Token Budget
+
+**Sections:**
+- # BEHAVIORS -- Context Assembly
+- ## B1 : Les Reponses Referencent des Sensations Physiques
+- ## B2 : Le Vocabulaire Contact Colore la Parole
+- ## B3 : Les Citoyens Reagissent aux Changements Sismiques
+- ## B4 : Le Metier Filtre la Perception
+- ## B5 : L'Isolement Contact Appauvrit les Reponses
+- ## B6 : La Degradation Physique Modifie le Registre
+- ## B7 : Aucune Reference a l'Intelligence Artificielle
+- ## B8 : Le Registre de Verite Suit le Contact, Pas le Trust Score
+
+**Sections:**
+- # HEALTH -- Context Assembly
+- ## Checks Obligatoires par Prompt
+- ## Checks de Coherence Inter-Prompts
+- ## Signaux de Degradation
+- ## Checklist Rapide (par prompt genere)
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # IMPLEMENTATION -- Context Assembly
+- ## Pipeline : Vue Module
+- ## Modules Source
+- ## Structure du Prompt
+- ## Token Budget
+- ## Adaptation depuis Venezia
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # OBJECTIVES -- Context Assembly
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # PATTERNS -- Context Assembly
+- ## P1 : Contact-First Base Instruction
+- ## P2 : Prompt Structure en 6 Blocs
+- ## P3 : Mood Triaxial (Tremens + Contact + Physique)
+- ## P4 : Le Metier Comme Filtre de Perception
+- ## P5 : Le Contact Vocabulaire dans les Reponses
+- ## P6 : Relations = Historique Contact, Pas Score de Trust
+- ## P7 : Prompt Maitre Multi-Force avec Never-Stop
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # SYNC -- Context Assembly
+- ## Etat General
+- ## Maturity
+- ## Architecture de Reference
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Batch execute en un coup (10 items)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Context Assembly
+- ## Invariants Absolus
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Experience Design
+- ## A1 : Game Loop — la boucle centrale
+- ## A2 : Self-Calibrating Seismic — la physique qui s'auto-régule
+- ## A3 : Spawn Dynamique — le monde qui peuple à la demande
+- ## A4 : Économie de surface — marchands et équipement
+- ## A5 : Compute Budget — ce qui coûte quoi
+- ## A6 : Scale — combien de quoi
+- ## A7 : Contact humain — interface sans gants VR
+
+**Sections:**
+- # BEHAVIORS — Experience Design
+- ## B1 : Première connexion — arrivée à la surface
+- ## B2 : Formation d'équipe — la rencontre
+- ## B3 : Préparation — les marchands
+- ## B4 : La descente — zone par zone
+- ## B5 : La mort — ce qu'elle fait au joueur
+- ## B6 : L'expérience IA — ce que vivent les citoyens
+- ## B7 : Spawn dynamique — le joueur n'attend jamais
+
+**Sections:**
+- # HEALTH — Experience Design
+- ## H1 : Test de la première minute
+- ## H2 : Test de l'engagement à 30 minutes
+- ## H3 : Test de la mort émotionnelle
+- ## H4 : Test de rejouabilité
+- ## H5 : Test du compute budget
+- ## H6 : Test de la physique self-calibrating
+- ## H7 : Test du Contact comme langage
+- ## Métriques de santé globale
+
+**Sections:**
+- # IMPLEMENTATION — Experience Design
+- ## Architecture — les 4 couches
+- ## Ordre d'implémentation (Experience First)
+- ## Dépendances cross-univers
+- ## Fichiers à créer (Phase 0)
+
+**Sections:**
+- # OBJECTIVES — Experience Design
+- ## O1 : L'aventure du roman, rejouable à l'infini (priorité maximale)
+- ## O2 : Les IA sont des coéquipiers, pas des PNJ
+- ## O3 : Le monde est physique, jamais scripté
+- ## O4 : L'économie est un abonnement, pas une simulation marchande
+- ## O5 : Le monde scale par les équipes, pas par la géographie
+- ## HIÉRARCHIE
+
+**Sections:**
+- # PATTERNS — Experience Design
+- ## P1 : Social Survival, pas Action RPG
+- ## P2 : L'aventure du livre comme game loop
+- ## P3 : Spawn dynamique — le monde n'attend pas
+- ## P4 : Pas de crafting, pas de production chains
+- ## P5 : Maires et centres d'information
+- ## P6 : Les 15 métiers sont des perceptions réelles, pas des labels
+- ## P7 : Rendre la vision utile malgré l'obscurité
+- ## P8 : Arrivants, pas joueurs — l'immersion par le vocabulaire
+- ## P9 : Traduction sémantique — le Contact comme prisme
+- ## P10 : Le roman est un mythe, pas une histoire
+
+**Sections:**
+- # SYNC — Experience Design
+- ## Ce qui est décidé (canonique)
+- ## Ce qui est en design (pas encore décidé)
+- ## Ce qui est proposé (v2+)
+- ## Dépendances
+- ## Prochaine étape
+
+**Sections:**
+- # VALIDATION — Experience Design
+- ## Invariants absolus
+- ## Invariants structurels
+- ## Invariants économiques
+- ## Invariants d'anti-nausée
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # ALGORITHM — Graph Schema
+- ## A1 : Procedure de Seeding Initial
+- # Lier aux zones affectees
+- ## A2 : Procedure de Mise a Jour (Evenements)
+- ## A3 : Construction du Synthesis
+
+**Sections:**
+- # BEHAVIORS — Graph Schema
+- ## B1 : Les reseaux de Contact revelent les clusters relationnels
+- ## B2 : L'effet cascade est computable par les liens PRACTICES
+- ## B3 : L'historique sismique par zone montre l'escalade
+- ## B4 : La perte linguistique est tracable par les disparitions d'idiolecte
+- ## B5 : Les predictions revealent la precision du tremens
+- ## B6 : La degradation de l'equipement est lisible dans le graph
+- ## B7 : Les requetes semantiques traversent les frontieres de type
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # HEALTH — Graph Schema
+- ## Checks Obligatoires Apres Chaque Modification
+- ## Signaux de Degradation
+- ## Checklist Rapide
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # IMPLEMENTATION — Graph Schema
+- ## Backend : FalkorDB
+- ## Patterns Cypher
+- ## Structure du Script de Seeding
+- # seed_contre_terre_graph.py
+- # Usage: python scripts/seed_contre_terre_graph.py [--clear] [--dry-run]
+- # Etapes dans l'ordre:
+- # [1/8] Creer les zones (Space)
+- # [2/8] Creer les citoyens (Actor)
+- # [3/8] Lier citoyens aux zones (INHABITS)
+- # [4/8] Creer les liens Contact (SPEAKS_TO bidirectionnels)
+- # [5/8] Creer les metiers (Narrative) et liens PRACTICES
+- # [6/8] Creer l'equipement (Thing) et liens CARRIES
+- # [7/8] Creer les Narratives (savoirs, systemes)
+- # [8/8] Creer l'historique sismique (Moment)
+- ## Hooks de Mise a Jour
+- ## Dependances Inter-Modules
+- ## Conventions de Nommage des IDs
+
+**Sections:**
+- # OBJECTIVES — Graph Schema
+- ## O1 : Le graph capture l'etat vivant du monde (priorite maximale)
+- ## O2 : Les relations de Contact sont le tissu conjonctif du graph
+- ## O3 : L'histoire sismique structure le temps du monde
+- ## O4 : Les metiers et l'equipement tracent la competence disponible
+- ## O5 : Les predictions et le savoir collectif sont des recits partages
+- ## HIERARCHIE
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # PATTERNS — Graph Schema
+- ## P1 : 5 Types Universels, Semantique dans les Proprietes
+- ## P2 : Actor = Citoyens avec Metiers, Tremens, Idiolecte
+- ## P3 : Space = Zones Verticales avec Signature Sismique
+- ## P4 : Moment = Seismes, Morts, Seuils, Inventions
+- ## P5 : Narrative = Savoirs, Predictions, Mythes, Arcs
+- ## P6 : Thing = Equipement avec Degradation
+- ## P7 : Links -- La Semantique Relationnelle
+
+**Code refs:**
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+
+**Sections:**
+- # SYNC — Graph Schema
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Graph Schema
+- ## Invariants Structurels
+- ## Invariants Semantiques
+- ## Invariants de Coherence avec le Schema Mind
+
+**Sections:**
+- # ALGORITHM : World Manifest
+- ## Structure globale
+- ## Section `terrain` -- Le sol qui tremble
+- ## Section `zones` -- Les 8 couches + surface de spawn
+- ## Section `entities` -- Citoyens du tremblement
+- ## Section `physics` -- Le moteur du monde
+- ## Section `avatar` -- Le corps comme identite
+- ## Section `portals` -- Un seul portail, a la surface
+
+**Sections:**
+- # BEHAVIORS : World Manifest
+- ## B1 : Zone loading -- la descente progressive
+- ## B2 : Citizen spawning -- calibration natale
+- ## B3 : Physics config -- le sol qui ne s'arrete jamais
+- ## B4 : Contact range -- la portee du toucher
+- ## B5 : Avatar config -- metier comme identite visuelle
+- ## B6 : Narrative tick -- le temps du volcan
+
+**Sections:**
+- # HEALTH : World Manifest
+- ## Checks obligatoires avant publication du manifest
+- ## Signaux de degradation
+- ## Checklist rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION : World Manifest
+- ## Fichier principal
+- ## Fichiers de donnees references par le manifest
+- ## Connexion au moteur Cities of Light
+- ## Relations avec les autres modules
+- ## Processus de mise a jour
+
+**Sections:**
+- # OBJECTIVES : World Manifest
+- ## O1 : Contact-first communication (priorite maximale)
+- ## O2 : Environnement sismique comme physique de base
+- ## O3 : Zones comme couches geologiques, pas comme districts
+- ## O4 : Tremens comme etat physiologique des citoyens
+- ## O5 : Metier-based identity, pas social class
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS : World Manifest
+- ## P1 : Contact-range tiers au lieu de voice tiers
+- ## P2 : Zones sismiques au lieu de districts
+- ## P3 : Tremens au lieu de mood
+- ## P4 : Metier-based avatar styles au lieu de social class colors
+- ## P5 : Bioluminescence comme systeme de lumiere dynamique
+- ## P6 : Pas de portails, mais des seuils
+- ## P7 : Le roman comme mythe, les personnages comme citoyens
+
+**Sections:**
+- # SYNC : World Manifest
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : World Manifest
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (liens avec d'autres doc chains)
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Narrative Engine
+- ## A1 : Le cycle de tick
+- ## A2 : Constantes adaptees au monde sismique
+- ## A3 : Conversion energie → magnitude
+- ## A4 : Le flip Contact -- percee vs rupture
+- ## A5 : Propagation des evenements aux citoyens
+- ## A6 : Calcul de Contact_vitality
+- ## A7 : Narrative backflow -- les recits irradient
+
+**Sections:**
+- # BEHAVIORS: Narrative Engine
+- ## B1 : Les seismes remodulent le monde
+- ## B2 : Les percees de Contact creent du vocabulaire
+- ## B3 : Les ruptures de Contact isolent
+- ## B4 : Les conflits sociaux se resolvent ou s'amplifient par le Contact
+- ## B5 : Les predictions des predicteurs creent de l'anticipation
+- ## B6 : Le monde ne stagne jamais, ne s'arrete jamais
+- ## B7 : La mort cascade a travers les trois systemes
+- ## B8 : La magnitude 11 est la convergence des trois tensions
+
+**Sections:**
+- # HEALTH: Narrative Engine
+- ## H1 : Les cycles de tension se produisent regulierement
+- ## H2 : Les evenements se generent
+- ## H3 : Le monde ne stagne pas
+- ## H4 : Le monde n'explose pas
+- ## H5 : Contact_vitality baisse monotonement (tendance globale)
+- ## H6 : Les predicteurs anticipent effectivement
+- ## H7 : Les trois systemes de tension ne se decouplent pas
+
+**Sections:**
+- # IMPLEMENTATION: Narrative Engine
+- ## I1 : Integration avec la librairie ngram
+- # Pseudo-code d'integration
+- # Phase 0 (pre) : compute tensions
+- # Phases 1-7 : ngram standard
+- # Phase 8 (post) : generate events from flips
+- # Phase 9 (post) : propagate events
+- ## I2 : Tension computers -- detail
+- ## I3 : Event generators -- detail
+- ## I4 : Propagation aux citoyens
+- ## I5 : Fichiers de configuration
+
+**Sections:**
+- # OBJECTIVES: Narrative Engine
+- ## O1 : Les seismes comme moteurs narratifs (priorite maximale)
+- ## O2 : La vitalite du Contact comme metrique de sante
+- ## O3 : Les cycles tension-relachement mappes sur les cycles de magnitude
+- ## O4 : Emergence de recits collectifs depuis le Contact individuel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Narrative Engine
+- ## P1 : Trois systemes de tension paralleles, un seul moteur physique
+- ## P2 : Les seismes ne sont pas aleatoires -- ils emergent
+- ## P3 : Le decay empeche la stagnation et l'explosion
+- ## P4 : La profondeur module toutes les constantes
+- ## P5 : La mort est un flip irrevocable
+- ## DECISIONS NON PRISES
+
+**Sections:**
+- # SYNC: Narrative Engine
+- ## STATUS : DESIGNING
+- ## Maturity
+- ## Dependencies
+- ## Ce qui a ete fait
+- ## Prochaines etapes
+- ## HANDOFF: FOR AGENTS
+
+**Sections:**
+- # VALIDATION: Narrative Engine
+- ## V1 : La tension ne descend jamais a zero
+- ## V2 : Les flips produisent des changements durables
+- ## V3 : La Contact_vitality reflete l'interaction reelle
+- ## V4 : Chaque mort diminue irreversiblement la capacite communicative
+- ## V5 : Les trois systemes de tension sont independants mais couples
+- ## V6 : La magnitude est deterministe
+- ## V7 : Les predicteurs anticipent les flips
+- ## V8 : Le cycle tension-relachement respecte le rythme narratif
+- ## V9 : La magnitude 11 est unique
+
+**Sections:**
+- # ALGORITHM: Seismic Physics
+- ## A1: Magnitude tick (every 5 seconds world-time)
+- # Depth increases accumulation speed
+- # Surface zones: depth_factor = 0.5
+- # Cavern zones: depth_factor = 1.0
+- # Volcanic zones: depth_factor = 2.0
+- # Interior zones: depth_factor = 3.0
+- # Drain tension (partial -- seismes don't reset to zero)
+- # Set zone magnitude to max(background, seisme_magnitude)
+- # Propagate to adjacent zones (attenuated)
+- # Bioluminescence update
+- ## A2: Frequency zone computation
+- # Nandi: born in band 7-8 (archipelago = high, dry)
+- # descending through bands 1-2 (desert = low, deep)
+- # then back up through 3-8 (into the volcano)
+- # Her distance is maximal at the surface, partially resolves
+- # in deep zones (closer to natal frequency), then diverges
+- # again as volcanic harmonics differ from archipelago harmonics.
+- ## A3: Tremens update per citizen
+- # Base tremens from frequency displacement
+- # Predicteur bonus: reads unreleased tension
+- # Adaptation decay (slow -- descent is faster than adaptation)
+- # Cumulative fatigue (tremens wears the body down)
+- # Clamp and assign status
+- ## A4: Seisme event generation -- probability from accumulated tension
+- # Base magnitude from tension level
+- # Depth amplification
+- # Cap at 9.5 for generated seismes (11 is global only)
+- # Weighted random based on zone properties
+- ## A5: How magnitude affects Contact range and quality
+- # Seismic noise factor
+- # Tremens motor impairment
+- # Temperature pain factor (volcanic zones)
+- # Combined degradation
+- # Quality is inverse of degradation
+- ## A6: The building 11 algorithm
+- # Monotonic increase -- NEVER decreases
+- # Acceleration: rate increases as tension approaches threshold
+- # Precursor generation (deep zones feel it first)
+- # Generate a deep harmonic -- not a seisme, but a tremens-only signal
+- # Detonation condition
+- # This is terminal. The world changes.
+
+**Sections:**
+- # BEHAVIORS: Seismic Physics
+- ## Principle: The engine produces state; citizens experience consequences
+- ## B1: Citizens react to seismes through tremens
+- ## B2: Tremens-sensitive citizens predict events
+- ## B3: Contact degrades during high magnitude
+- ## B4: Buildings and structures affected by seismic state
+- ## B5: Migration patterns driven by seismic escalation
+- ## B6: Bioluminescence as seismic state witness
+- ## Recurring motifs produced by the engine
+
+**Sections:**
+- # HEALTH: Seismic Physics
+- ## H1: Magnitude field is continuous
+- ## H2: Tremens updating per citizen per tick
+- ## H3: Tension accumulation working
+- ## H4: Seisme generation frequency appropriate
+- ## H5: Global 11 tension monotonically increasing
+- ## H6: Contact quality responding to seismic state
+- ## Summary health matrix
+
+**Sections:**
+- # IMPLEMENTATION: Seismic Physics
+- ## I1: Architecture -- seismic layer atop ngram graph physics
+- ## I2: FalkorDB node types and properties
+- ## I3: Tick processing pipeline
+- ## I4: Integration with ngram narrative physics
+- ## I5: File locations (projected)
+
+**Sections:**
+- # OBJECTIVES: Seismic Physics
+- ## O1: Realistic seismic simulation as citizen experience substrate
+- ## O2: Tremens as citizen internal state
+- ## O3: Magnitude as world state driving narrative moments
+- ## O4: Frequency zones as geographically coherent regions
+- ## O5: The building 11 as systemic threat horizon
+- ## HIERARCHY
+
+**Sections:**
+- # PATTERNS: Seismic Physics
+- ## P1: Tick-based magnitude cycles layered on Venezia's ngram physics
+- ## P2: Background vibration as constant -- magnitude 4 is silence
+- ## P3: Seismes as discrete events generated from accumulated tension
+- ## P4: The building 11 as looming systemic threat
+- ## P5: Tremens sensitivity spectrum across citizens
+- ## P6: How seismic state affects Contact quality
+- ## OPEN DESIGN QUESTIONS
+
+**Code refs:**
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # SYNC: Seismic Physics
+- ## MATURITY
+- ## RELATIONSHIP TO WORLDBUILDING DOCS
+- ## SOURCE MATERIAL CALIBRATION
+- ## DOCUMENTATION CHAIN STATUS
+- ## DEPENDENCIES
+- ## OPEN QUESTIONS
+- ## RISKS
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Seismic Physics
+- ## Absolute invariants
+- ## Strong invariants
+- ## Validation checklist for engine integrity
+
+**Sections:**
+- # ALGORITHM -- World Geography
+- ## Structure de donnees des zones et mecaniques de navigation
+- ## Structure d'une zone
+- ## Definitions des zones principales
+- ## Structure d'une connexion
+- ## Navigation entre zones
+
+**Sections:**
+- # BEHAVIORS -- World Geography
+- ## Comment la geographie se manifeste -- comportements observables du systeme
+- ## B1 : Les citoyens adaptent leur Contact en changeant de zone
+- ## B2 : La temperature affecte l'etat physique des citoyens
+- ## B3 : Les zones profondes comptent moins de citoyens
+- ## B4 : Les seismes remodellent les passages entre zones
+- ## B5 : La bioluminescence guide dans les zones intermediaires
+- ## B6 : Le tremens augmente avec les transitions de zone
+- ## B7 : Les zones ont une faune adaptee au spectre local
+- ## B8 : La geographie encode le conflit epistemologique
+
+**Sections:**
+- # HEALTH -- World Geography
+- ## Ce qu'on verifie -- signaux de sante du systeme geographique
+- ## H1 : Toutes les zones sont accessibles depuis la surface
+- ## H2 : Le graphe de connexions est coherent
+- ## H3 : Le gradient de profondeur est monotone
+- ## H4 : Le Contact evolue a chaque transition
+- ## H5 : Les Archipels sont diversifies
+- ## H6 : Les connexions irreversibles sont coherentes
+- ## H7 : La bioluminescence respecte ses limites
+- ## H8 : Coherence avec les chapitres
+- ## Matrice de sante
+
+**Code refs:**
+- `navigation.py`
+
+**Doc refs:**
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION -- World Geography
+- ## Ou vit le contenu geographique -- sources, structure, format
+- ## Sources de verite
+- ## Format de donnees des zones
+- ## Graphe des connexions (etat initial)
+- ## Relations avec les autres modules du 3e univers
+- ## Fichiers a creer (non encore crees)
+
+**Sections:**
+- # OBJECTIVES -- World Geography
+- ## Ce que la geographie du monde optimise
+- ## O1 : La geographie comme experience vecue, pas comme carte
+- ## O2 : Les zones sismiques definissent les dialectes du Contact
+- ## O3 : La profondeur comme gradient de difficulte
+- ## O4 : Le volcan comme centre du monde
+- ## O5 : Les archipels comme communautes distinctes
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Doc refs:**
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+
+**Sections:**
+- # PATTERNS -- World Geography
+- ## Pourquoi cette structure geographique. Pourquoi ces zones.
+- ## P1 : Structure concentrique depuis le volcan
+- ## P2 : Chaque zone possede 6 parametres definissants
+- ## P3 : Les Archipels du Desert comme communautes de surface
+- ## P4 : Le monde souterrain comme exploration dangereuse
+- ## P5 : Les seismes remodellent les connexions
+- ## P6 : La bioluminescence comme navigation souterraine
+- ## P7 : L'habitabilite comme spectre, pas comme binaire
+- ## Scope
+
+**Sections:**
+- # SYNC -- World Geography
+- ## Maturity
+- ## Etat de la documentation
+- ## Provenance
+- ## Dependances
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- World Geography
+- ## Invariants geographiques -- Regles qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur structurelle)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules
+- ## Matrice de verification rapide
+
+**Sections:**
+- # ALGORITHM — Le Contact
+- ## Les 5 Modes Fondamentaux
+- ## Zones du Corps et Registres
+- ## Contact-Corde : Mecanique
+- ## Contact Haute Resolution (Village des Sourds)
+- ## Le Geste Inconnu : Mecanique
+- ## Contact-Fantome : Mecanique (Ch. VIII)
+- ## Contact-Monde : Mecanique
+- ## Degradation Progressive : Courbe
+
+**Sections:**
+- # BEHAVIORS — Le Contact
+- ## B1 : Le Lecteur Apprend le Contact Par Repetition
+- ## B2 : Le Contact Change de Registre Sous Magnitude
+- ## B3 : Chaque Mort Cree un Trou Linguistique
+- ## B4 : Le Conflit Sihle/Enama Se Joue Par le Contact
+- ## B5 : Le Village des Sourds Revele le Potentiel du Contact
+- ## B6 : La Corde Reinvente le Contact en Temps Reel
+- ## B7 : Le Contact Porte la Structure Emotionnelle des Scenes
+- ## B8 : La Voix Comme Transgression
+- ## B9 : Le Contact-Monde Comme Ouverture Metaphysique
+
+**Sections:**
+- # HEALTH — Le Contact
+- ## Checks Obligatoires Avant Publication d'un Chapitre
+- ## Checks de Coherence Inter-Chapitres
+- ## Signaux de Degradation (dans le processus d'ecriture)
+- ## Checklist Rapide (a utiliser avant chaque chapitre)
+
+**Sections:**
+- # IMPLEMENTATION — Le Contact
+- ## Fichiers Source (Worldbuilding)
+- ## Points d'Ancrage par Chapitre
+- ## Chapitres a Ecrire — Points d'Ancrage Prevus
+- ## Dependances Inter-Modules
+
+**Sections:**
+- # OBJECTIVES — Le Contact
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Le Contact
+- ## P1 : Tactile, Pas Visuel
+- ## P2 : 5 Modes, Pas Un
+- ## P3 : Les Idiolectes Meurent Avec les Personnes
+- ## P4 : Immersion, Jamais Exposition
+- ## P5 : Le Contact Evolue Sous Pression
+- ## P6 : Les Zones du Corps Sont des Registres
+- ## P7 : Le Geste Inconnu Comme Fil Rouge
+- ## P8 : Le Contact Hydraulique et Autres Extensions
+
+**Sections:**
+- # SYNC — Le Contact
+- ## Etat General
+- ## Etat du Contact par Chapitre
+- ## Ce Qui Est Etabli (Canonical)
+- ## Ce Qui Reste a Faire
+- ## Tensions Actives
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Le Contact
+- ## Invariants Absolus
+- ## Invariants de Coherence Interne
+- ## Invariants Structurels
+
+**Sections:**
+- # ALGORITHM -- Geographie
+- ## Mecanique de chaque couche -- ce qui change physiquement a chaque profondeur
+- ## Parametres physiques de la descente
+- ## Mecanique detaillee par couche
+- ## Algorithme des transitions
+
+**Sections:**
+- # BEHAVIORS -- Geographie
+- ## Comment la geographie se manifeste dans le texte, chapitre par chapitre
+- ## B1 : Le sol comme premier narrateur (tous chapitres)
+- ## B2 : La lumiere comme marqueur de profondeur
+- ## B3 : L'air comme presence narrative (Thabo)
+- ## B4 : Les transitions de couche comme ruptures sensorielles
+- ## B5 : Les embranchements comme revelateurs de conflits
+- ## B6 : Les seismes comme ponctuation narrative
+- ## B7 : La geographie qui tue -- chaque mort porte la signature de sa couche
+- ## B8 : Le village comme parenthese geographique
+- ## B9 : Le noir comme territoire du Contact
+
+**Sections:**
+- # HEALTH -- Geographie
+- ## Controles de qualite -- Comment verifier que la geographie fonctionne
+- ## H1 : Test de la signature sensorielle
+- ## H2 : Test du gradient de profondeur
+- ## H3 : Test de l'irreversibilite
+- ## H4 : Test du Contact-geographie
+- ## H5 : Test de coherence cartographique
+- ## H6 : Test des elements-tueurs
+- ## H7 : Test de Nandi pieds nus
+- ## H8 : Test du bruit de fond
+- ## H9 : Test de la bioluminescence
+- ## H10 : Test de l'Aeromaitre
+- ## Tableau recapitulatif
+- ## Signaux de degradation
+
+**Sections:**
+- # IMPLEMENTATION -- Geographie
+- ## Ou vit le contenu geographique -- fichiers sources et prose
+- ## Fichiers source du worldbuilding geographique
+- ## Prose ecrite -- ou la geographie se deploie dans les chapitres
+- ## Chapitres a ecrire -- contenu geographique prevu
+- ## Cartographie des dependances
+
+**Sections:**
+- # OBJECTIVES -- Geographie
+- ## Ce que la geographie optimise narrativement
+- ## O1 : La descente comme structure narrative irreversible
+- ## O2 : La geographie comme agent narratif
+- ## O3 : Le milieu physique comme destructeur du Contact
+- ## O4 : Coherence sensorielle croissante
+- ## O5 : La geographie comme revelation thematique
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Sections:**
+- # PATTERNS -- Geographie
+- ## Pourquoi cette geographie. Pourquoi cette forme.
+- ## P1 : Verticalite comme principe structurant
+- ## P2 : 8 couches = 8 chapitres
+- ## P3 : Chaque couche a un element-tueur
+- ## P4 : La bioluminescence comme fil conducteur souterrain
+- ## P5 : Le village des sourds comme miroir geographique
+- ## P6 : La chaleur comme gradient narratif
+- ## P7 : L'air comme ressource narrative decroissante
+- ## P8 : Les Archipels du Desert (geographie horizontale)
+- ## P9 : Terra incognita apres le village
+
+**Sections:**
+- # SYNC -- Geographie
+- ## Maturity
+- ## Etat des fichiers de la doc chain
+- ## Ce qui a ete fait
+- ## Travail a venir
+- ## Tensions et questions ouvertes
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Geographie
+- ## Invariants geographiques -- Regles de coherence qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (lien avec d'autres modules)
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM: Systeme Sismique
+- ## A1 : Systeme de magnitudes
+- ## A2 : Mecaniques du tremens
+- ## A3 : Comment la profondeur change les frequences
+- ## A4 : L'Echelle de Capitulation en detail
+- ## A5 : Mecaniques des differents cataclysmes
+- ## A6 : Regles de la bioluminescence sismique
+
+**Sections:**
+- # BEHAVIORS: Systeme Sismique
+- ## Principe : Le sismique n'est jamais decrit de l'exterieur
+- ## Chapitre I -- Surface du Desert
+- ## Chapitre II -- Zones Intermediaires
+- ## Chapitre III -- Le Dernier Village
+- ## Chapitre IV -- La Faille
+- ## Chapitres V-VIII (a ecrire) -- Projection d'escalade
+- ## Motifs recurrents a travers tous les chapitres
+
+**Sections:**
+- # HEALTH: Systeme Sismique
+- ## Controles de coherence sismique
+- ## Matrice de verification croisee
+- ## Signaux d'alarme
+
+**Doc refs:**
+- `docs/TAXONOMY.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION: Systeme Sismique
+- ## Sources de verite
+- ## Documentation (ce fichier et la chaine complete)
+- ## Carte des references croisees
+- ## Passages cles a reference rapide
+
+**Sections:**
+- # OBJECTIVES: Systeme Sismique
+- ## O1 : Fonder l'hostilite du monde sans antagoniste humain
+- ## O2 : Justifier l'existence du Contact
+- ## O3 : Creer une courbe d'escalade inexorable
+- ## O4 : Incarner le conflit science/corps dans la matiere
+- ## O5 : Faire du tremens un systeme immunitaire narratif
+- ## O6 : Creer un systeme de presage corporel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Systeme Sismique
+- ## P1 : Le tremblement est permanent, pas evenementiel
+- ## P2 : Les cataclysmes sont multiples, pas monolithiques
+- ## P3 : Le tremens existe parce que le corps n'est pas passif
+- ## P4 : L'Echelle de Capitulation structure le conflit epistemologique
+- ## P5 : La magnitude 11 est un horizon, pas un fait
+- ## P6 : La profondeur change tout -- frequence, temperature, air
+- ## P7 : L'architecture est une reponse sismique, pas un choix esthetique
+- ## P8 : Le bioluminescent pulse au rythme du monde
+- ## DECISIONS NON PRISES (a developper)
+
+**Sections:**
+- # SYNC: Systeme Sismique
+- ## MATURITY
+- ## ETAT DES CHAPITRES (dimension sismique)
+- ## ACQUIS NOTABLES (extraits des 4 chapitres ecrits)
+- ## QUESTIONS OUVERTES
+- ## RISQUES IDENTIFIES
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Systeme Sismique
+- ## Invariants absolus
+- ## Invariants forts
+- ## Invariants de coherence
+- ## Checklist de validation pour chaque nouveau chapitre
+
+**Sections:**
+- # Contre-Terre — Mapping vers le Schema Mind
+- ## NODE TYPE MAPPING
+- ## LINK PATTERNS
+- ## CONVENTIONS
+
+**Sections:**
+- # Contre-Terre — Taxonomie Centrale
+- ## TERMES
+- ## TERMINOLOGY DECISIONS
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
+
+**Sections:**
+- # I — Desert Surface
+- ## Scene 1 — Opening
+
+**Sections:**
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Definitions:**
+- `def compute_brain_power()`
+- `def assess_health()`
+- `def assess_arousal_regime()`
+- `def load_cluster()`
+- `def main()`
+
+**Sections:**
+- # Seed Data Fix Log
+- ## FIX 1: Duplicate Citizen IDs (CRITICAL)
+- ## FIX 2: Missing node_type in things_world.json
+- ## FIX 3: Created Missing Guild Nodes
+- ## FIX 4: Normalized Property Keys in citizens_creuses_sourds_nomades.json
+- ## FIX 5: Fixed Metier Link References in citizens_nordest_est_centresud.json
+- ## Remaining Known Issues (not in scope)
+
+**Sections:**
+- # Seed Data Validation Report
+- ## Summary
+- ## 1. JSON Validity -- PASS
+- ## 2. Node ID Uniqueness -- FAIL
+- ## 3. Link Integrity -- FAIL
+- ## 4. Coverage Check
+- ## 5. Orphan Check -- WARN
+- ## 6. Schema Consistency Issues
+- ## 7. Statistics
+- ## 8. Priority Recommendations
+
+**Sections:**
+- # ALGORITHM : Mecanique du Systeme des Metiers
+- ## Matrice d'assignation, progression de la cascade, ruptures par chapitre
+- ## Matrice d'assignation
+- ## Hierarchie sismique : les trois etages
+- ## Progression de la cascade
+- ## Dependencies critiques entre metiers
+- ## Regle de la mort-ironie
+- ## Quand montrer chaque metier (exigence narrative)
+
+**Sections:**
+- # BEHAVIORS : Manifestation des Metiers dans le Texte
+- ## Comment chaque metier apparait dans la prose
+- ## B1 : Chef d'expedition (#12) — Senzo
+- ## B2 : Cartographe (#7) — Senzo
+- ## B3 : Seismo-auditeur (#8) — Sihle
+- ## B4 : Meteorologue (#1) — Sihle
+- ## B5 : Mineur (#4) — Sihle
+- ## B6 : Specialiste oceanique (#2) — Jabu
+- ## B7 : Speleologue (#14) — Jabu
+- ## B8 : Biologiste (#3) — Enama
+- ## B9 : Cuisiniere (#13) — Enama
+- ## B10 : Survivaliste (#10) — Enama
+- ## B11 : Aeromaitre (#15) — Thabo
+- ## B12 : Geologue (#6) — Thabo
+- ## B13 : Grimpeuse (#11) — Inyoni
+- ## B14 : Explosiviste (#5) — Inyoni (principale), Nandi (backup)
+- ## B15 : Predictrice / Tremens (#9) — Nandi
+
+**Sections:**
+- # HEALTH : Verification de la Qualite du Systeme des Metiers
+- ## Signaux de sante et verifications
+- ## Checks actifs
+- ## Signaux de degradation
+- ## Recovery
+
+**Sections:**
+- # IMPLEMENTATION : Localisation du Contenu des Metiers
+- ## Ou se trouve quoi dans le projet
+- ## Fichiers source (worldbuilding)
+- ## Chapitres ecrits (prose)
+- ## Chapitres a ecrire (Ch. V-VIII)
+- ## Relations entre fichiers
+
+**Sections:**
+- # OBJECTIVES : Systeme des Metiers
+- ## Ce que le systeme des metiers optimise
+- ## O1 : La cascade de competences (priorite maximale)
+- ## O2 : L'ironie geologique (priorite haute)
+- ## O3 : La degradation operationnelle (priorite haute)
+- ## Tradeoffs acceptes
+- ## Non-objectifs
+- ## Metrique de succes
+
+**Sections:**
+- # PATTERNS : Systeme des Metiers
+- ## Decisions de design et leurs raisons
+- ## P1 : Pourquoi 15 metiers pour 7 personnes
+- ## P2 : La distribution n'est pas aleatoire
+- ## P3 : Le metier mission-critique est dedouble
+- ## P4 : Les metiers sont montres, jamais expliques
+- ## P5 : La gradation de la perte
+- ## P6 : Les metiers comme langage parallele au Contact
+
+**Sections:**
+- # SYNC : Etat Actuel du Module Metiers
+- ## Maturity
+- ## Etat des sources
+- ## Issues connues
+- ## Travail a faire
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Invariants du Systeme des Metiers
+- ## Regles de coherence que chaque chapitre doit respecter
+- ## V1 : Aucun mort ne peut exercer son metier
+- ## V2 : La perte doit etre ressentie
+- ## V3 : Chaque metier doit etre montre avant la mort de son porteur
+- ## V4 : Les assignations doivent etre coherentes entre fichiers
+- ## V5 : Le metier dedouble (#5 Explosiviste) respecte la hierarchie principal/backup
+- ## V6 : L'ordre des morts respecte la gradation de degradation
+- ## V7 : Le Contact reflete la perte de metiers
+- ## V8 : La predictrice ne remplace personne
+- ## V9 : L'ironie geologique est respectee pour chaque mort
+
+**Sections:**
+- # ALGORITHM : Personnages
+- ## Mecaniques du systeme de personnages
+- ## 1. Systeme d'idiolectes
+- ## 2. Cascade de competences
+- ## 3. Arcs de personnages
+- ## 4. Dynamiques de paires
+- ## 5. Mecanique de la mort linguistique
+
+**Sections:**
+- # BEHAVIORS : Personnages
+- ## Comportements observables dans le texte
+- ## Senzo — Le Chef
+- ## Nandi — La Predictrice
+- ## Enama — La Biologiste
+- ## Sihle — Le Seismo-auditeur
+- ## Thabo — L'Aeromaître
+- ## Inyoni — La Grimpeuse
+- ## Jabu — L'Oceanologue
+- ## Tableau recapitulatif des comportements
+
+**Sections:**
+- # HEALTH : Personnages
+- ## Checks de qualite pour la coherence des personnages
+- ## Checks par chapitre
+- ## Checks globaux
+- ## Resume de sante
+
+**Doc refs:**
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+
+**Sections:**
+- # IMPLEMENTATION : Personnages
+- ## Ou vivent les personnages dans les fichiers du projet
+- ## Fichiers source (worldbuilding)
+- ## Fichiers de prose (chapitres ecrits)
+- ## Cartographie des premieres et dernieres apparitions
+- ## Documentation associee
+
+**Sections:**
+- # OBJECTIVES : Personnages
+- ## Ce que le systeme de personnages optimise
+- ## Hierarchie des objectifs
+- ## Arbitrages
+- ## Ce que le systeme de personnages n'optimise PAS
+
+**Sections:**
+- # PATTERNS : Personnages
+- ## Pourquoi 7
+- ## Pourquoi des noms zulus
+- ## Pourquoi cet ordre de mort
+- ## Pourquoi ces elements associes aux morts
+- ## Design des personnages : principes
+- ## Inspiration et filiation
+
+**Sections:**
+- # SYNC : Personnages
+- ## Etat courant
+- ## Maturite
+- ## Etat par personnage
+- ## Tensions ouvertes
+- ## Actions a venir
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Personnages
+- ## Invariants du systeme de personnages
+- ## Invariants structurels
+- ## Invariants comportementaux
+- ## Invariants narratifs
+- ## Invariants de coherence inter-fichiers
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Structure Narrative
+- ## Mecanique chapitre par chapitre
+- ## Chapitre I — Surface du Desert
+- ## Chapitre II — Zones Intermediaires
+- ## Chapitre III — Le Dernier Village (Point de non-retour)
+- ## Chapitre IV — La Faille (Passage vertical)
+- ## Chapitre V — Les Cavernes Profondes
+- ## Chapitre VI — Les Zones Volcaniques
+- ## Chapitre VII — L'Interieur du Volcan
+- ## Chapitre VIII — La Grotte Finale
+- ## Gestion des POV — regles
+- ## Transitions entre chapitres — regles
+
+**Sections:**
+- # BEHAVIORS: Structure Narrative
+- ## Effets structurels observables dans le texte
+
+**Sections:**
+- # HEALTH: Structure Narrative
+- ## Checks de qualite structurelle
+- ## Checks par chapitre
+- ## Checks globaux (roman entier)
+- ## Degradations a surveiller
+- ## Etat de sante global
+
+**Doc refs:**
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+
+**Sections:**
+- # IMPLEMENTATION: Structure Narrative
+- ## Ou vit le contenu structurel
+- ## Fichiers source (worldbuilding & planification)
+- ## Fichiers narratifs (chapitres ecrits)
+- # [Numero] — [Titre]
+- ## Scene [N] — [Titre de scene]
+- ## Scene [N+1] — [Titre de scene]
+- ## Documentation (doc chain)
+- ## Relations avec les autres modules
+- ## Processus d'ecriture d'un nouveau chapitre
+
+**Sections:**
+- # OBJECTIVES: Structure Narrative
+- ## Ce que la structure narrative optimise
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+- ## Compromis assumes
+
+**Sections:**
+- # PATTERNS: Structure Narrative
+- ## Pourquoi 8 chapitres
+- ## Pourquoi ce rythme de morts
+- ## Pourquoi pas de narrateur omniscient
+- ## Pourquoi zero exposition
+- ## Design pattern : Le chapitre comme couche sedimentaire
+- ## Design pattern : L'inversion de Damasio
+- ## Scope
+
+**Sections:**
+- # SYNC: Structure Narrative
+- ## STATUT
+- ## ETAT PAR CHAPITRE
+- ## VOCABULAIRE DU CONTACT — ETAT PAR CHAPITRE
+- ## TENSIONS OUVERTES
+- ## DECISIONS RECENTES
+- ## PROCHAIN TRAVAIL
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Structure Narrative
+- ## Invariants structurels
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM — Visual Style
+- ## Procedure 1 : Generation de la Couverture
+- ## Procedure 2 : Separateurs de Chapitres
+- ## Procedure 3 : Infographie Marketing
+- ## Procedure 4 : Palette de Reference
+
+**Sections:**
+- # BEHAVIORS — Visual Style
+- ## B1 : Le Lecteur "Voit" la Lumiere Changer
+- ## B2 : La Couverture Repousse le Mauvais Lecteur
+- ## B3 : L'Infographie Raconte la Descente
+- ## B4 : Les Separateurs de Chapitres Portent le Motif
+- ## B5 : La Quatrieme de Couverture est un Avertissement
+
+**Sections:**
+- # HEALTH — Visual Style
+- ## Checks Obligatoires Avant Publication
+- ## Checks de Coherence Cross-Module
+
+**Sections:**
+- # IMPLEMENTATION — Visual Style
+- ## Fichiers Source (Publication)
+- ## Points d'Ancrage Textuels — Palette par Chapitre
+- ## Assets a Produire
+
+**Sections:**
+- # OBJECTIVES — Visual Style
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Visual Style
+- ## P1 : Deux Palettes — Textuelle et Editoriale
+- ## P2 : Mains, Pas Visages
+- ## P3 : Verticale Descendante
+- ## P4 : Typographie Dense, Pas Decorative
+- ## P5 : Couleur Comme Arc Narratif
+- ## P6 : Deux Directions de Couverture — Intime vs Geologique
+
+**Sections:**
+- # SYNC — Visual Style
+- ## Etat General
+- ## Ce Qui Existe
+- ## Ce Qui Reste a Faire
+- ## Decisions en Attente (@mind:escalation)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Visual Style
+- ## Invariants Absolus
+
+**Sections:**
+- # ALGORITHM — Citizen Model
+- ## Structure du Citoyen
+- ## Mecaniques Cles
+- ## Seeding de la Population Initiale
+- ## Les 7 Citoyens du Roman
+
+**Sections:**
+- # BEHAVIORS — Citizen Model
+- ## B1 : Le Contact Comme Salutation et Identification
+- ## B2 : Perception Specialisee par Metier
+- ## B3 : Formations de Groupe et Cercles de Contact
+- ## B4 : Le Deuil Comme Perte Linguistique
+- ## B5 : Comportement Face au Tremens
+- ## B6 : Interaction avec l'Environnement Sismique
+
+**Sections:**
+- # HEALTH — Citizen Model
+- ## Checks Obligatoires Apres Seeding
+- ## Checks Dynamiques (Evolution dans le Temps)
+- ## Signaux de Degradation (du processus de modelisation)
+- ## Checklist Rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION — Citizen Model
+- ## Schema JSON — Citoyen
+- ## Seeding de la Population Initiale
+- # Total : 70 citoyens (ajustable 50-80)
+- ## Integration avec le Graph Mind
+- ## Dependances
+
+**Sections:**
+- # OBJECTIVES — Citizen Model
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Citizen Model
+- ## P1 : Acteur Corporel, Pas Acteur Economique
+- ## P2 : Les Metiers Sont des Organes Sensoriels
+- ## P3 : Identite = Idiolecte
+- ## P4 : Relations Mesurees en Contact, Pas en Scores
+- ## P5 : Le Corps Comme Interface Degradable
+- ## P6 : Population par Archipel, Pas par Classe
+- ## P7 : Pas de Mind Protocol — Ontologie Pure Contre-Terre
+- ## P8 : Restrictions Inter-Univers Physiques, Pas Legales
+
+**Sections:**
+- # SYNC — Citizen Model
+- ## Etat General
+- ## Maturity
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Tensions
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Citizen Model
+- ## Invariants Structurels
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Contact Engine
+- ## 1. Contact Gesture Data Structure
+- # The 5-mode encoding
+- # Signal dimensions
+- # Idiolecte layer
+- # Environmental modifiers
+- ## 2. Contact Utterance (Multi-Gesture Sequence)
+- ## 3. Contact Exchange Processing Pipeline
+- ## 4. Idiolecte Evolution Algorithm
+- # Crystallization check
+- # This pattern is now recognized as pair-specific vocabulary
+- # It carries higher semantic weight in future A-B exchanges
+- # It is ABSENT from all other pair vocabularies
+- # Source: "seven" recurs in the novel (7 characters, 7 archipels)
+- # Pragmatic: enough repetition to be intentional, not accidental
+- # Idiolecte entries that go unused decay
+- ## 5. Citizen Departure — Vocabulary Death
+- # 1. Destroy all pair-specific vocabularies involving X
+- # 2. Reduce partner's communicative capacity
+- # 3. Check for zone orphaning
+- # If X was the ONLY partner granting Y access to a zone (e.g., NAPE)
+- # then Y loses that zone entirely
+- # 4. Update graph
+- # 5. Delete X's idiolecte (individual tactile signature)
+- # NO ARCHIVAL. The vocabulary is gone.
+- ## 6. Contact-Monde Processing
+- # Environment responds based on surface type
+- # Response types:
+- # GROUND → seismic frequency data, magnitude prediction
+- # BIOLUMINESCENT_WALL → light pattern (confirmation, warning, echo)
+- # WATER_CHANNEL → flow variation (hydraulic Contact, village-specific)
+- # CHARGE_RESONATOR → calibration feedback (Ch. VIII specific)
+- # Citizen's Contact-monde vocabulary affects interpretation depth
+- # Richer Contact-monde vocabulary → more information extracted
+- # Nandi (feet) reads frequency. Enama (hands) reads direction.
+- # Same ground, different readings, different Contact-monde idiolectes.
+- ## 7. Contact-Corde (Rope Channel)
+- # Reduced to 2 dimensions (vs 20+ for direct Contact)
+- # Inherits involuntary signals
+- # No emotional register
+- # No body zone (rope has no anatomy)
+- # No tactile identity (vibrations anonymize the sender)
+- # Vocabulary is invented in real-time by the rope-linked group
+- # Contact-corde vocabulary does NOT persist after the rope is untied
+- ## 8. Contact-Fantome Generation
+- # Select a departed partner weighted by relational depth
+- # Generate gesture using the dead citizen's exact tactile signature
+- # CRITICAL: phantom_gesture is processed identically to real Contact
+- # No flag. No distinction. The citizen's system treats it as genuine.
+- # Progression: isolated phantoms → overlapping phantoms → full circle → dissolution
+
+**Sections:**
+- # BEHAVIORS — Contact Engine
+- ## B1: Citizens Develop Pair-Specific Vocabulary
+- ## B2: Contact Quality Varies by Seismic State
+- ## B3: New Citizens Learn Contact From Established Ones
+- ## B4: Loss of a Citizen Triggers Vocabulary Death
+- ## B5: Contact-Corde Operates as Degraded Channel
+- ## B6: Contact-Fantome Manifests in Isolation
+- ## B7: Contact-Monde Produces Environment Responses
+- ## B8: Dialect Friction Between Zones
+
+**Sections:**
+- # HEALTH — Contact Engine
+- ## Contact Vitality Metric
+- ## Vocabulary Growth / Death Rates
+- ## Dialect Friction Check
+- ## Seismic Degradation Check
+- ## Phantom Integrity Check
+- ## Departure Cascade Check
+
+**Sections:**
+- # IMPLEMENTATION — Contact Engine
+- ## System Position
+- ## Core Components
+- ## Tick-Based Processing
+- ## Graph Integration
+- ## Contact-Monde Integration
+- ## Dependencies
+
+**Sections:**
+- # OBJECTIVES — Contact Engine
+- ## O1: Contact as Primary Communication Medium
+- ## O2: Emergence of Idiolectes Through Interaction
+- ## O3: Dialectal Variation by Zone
+- ## O4: Contact as Relationship Measure
+- ## O5: Linguistic Death Through Citizen Loss
+- ## Tradeoffs
+
+**Sections:**
+- # PATTERNS — Contact Engine
+- ## P1: Tactile Communication as Structured Data, Not Physical Touch
+- ## P2: Voice Replaced, Not Supplemented
+- ## P3: Five Modes as Information Dimensions
+- ## P4: Body Zones as Semantic Registers
+- ## P5: Idiolectes Emerge, They Are Not Assigned
+- ## P6: Contact Degrades Under Seismic Pressure
+- ## P7: Contact-Monde as Environment Interface
+- ## P8: Death Destroys Vocabulary
+
+**Sections:**
+- # SYNC — Contact Engine
+- ## Maturity
+- ## Documentation Chain Status
+- ## Dependencies on Other Modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Contact Engine
+- ## Structural Invariants
+- ## Relational Invariants
+- ## Processing Invariants
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # ALGORITHM -- Context Assembly
+- ## Vue d'Ensemble
+- ## A-1 : orchestrate_force_sprint(force_id)
+- # 1) Context Cascade
+- # 2) Extraction TODO force
+- # 3) Boucle d'execution
+- ## A0 : translate_arrivant_speech(visitor_input, citizen_brain_graph)
+- # Tokeniser l'input de l'arrivant
+- # Projeter dans l'espace d'embedding
+- # Chercher le noeud le plus proche dans le graph cerebral du citoyen
+- # Concept CT trouve — substituer
+- # Aucun concept proche — garder le token original
+- # (le citoyen entend un mot etranger, incomprehensible)
+- ## A1 : compute_physical_state(citizen, zone)
+- # Ecart tremens : distance entre calibration natale et frequence locale
+- # Niveaux de tremens
+- # < 0.5 Hz d'ecart : confortable
+- # 0.5-1.5 Hz : tension
+- # 1.5-3.0 Hz : nausee, desorientation
+- # > 3.0 Hz : hallucinations, perte de controle
+- # Etat physique combine
+- ## A2 : compute_contact_state(citizen, recent_interactions)
+- # Saturation Contact : mesure de la richesse des interactions recentes
+- # Nombre de partenaires distincts
+- # Registres atteints (epaule, bras, main, nuque, etc.)
+- # Saturation = fonction du nombre de partenaires x diversite de registres
+- # Vocabulaire actif : combien d'idiolectes de paire sont encore vivants
+- ## A3 : compute_mood(physical_state, contact_state)
+- # (tremens, contact, physical) -> mood descriptors
+- # Simplifier le confort physique en bon/degrade
+- # Simplifier la saturation Contact
+- # Lookup dans la matrice, avec fallback
+- # Intensite = max du tremens_delta et de l'inverse de la saturation
+- # Modificateur de degradation physique
+- ## A4 : query_beliefs(citizen_id)
+- # Requete graph : croyances personnelles
+- # Requete graph : rumeurs de la zone
+- ## A5 : query_seismic_situation(zone_id)
+- # Magnitude courante de la zone
+- # Historique recent (derniere heure)
+- # Tendance : ca monte, ca descend, stable
+- ## A6 : assemble_prompt(citizen, physical, contact, mood, beliefs, seismic, visitor)
+- # Bloc 1 : Etat physique (filtre par le metier)
+- # Bloc 2 : Etat Contact recent
+- # Bloc 3 : Mood (derive, pas assigne)
+- # Bloc 4 : Situation sismique
+- # Bloc 5 : Ce que tu crois
+- # Bloc 6 : Comment repondre
+- # Bloc 7 : Ce qu'ils ont dit (apres traduction semantique A0)
+- # Note : visitor.translated_speech est la sortie de A0
+- # L'arrivant a dit son texte original, le citoyen recoit la version
+- # traduite en vocabulaire CT via le graph cerebral
+- ## Token Budget
+
+**Sections:**
+- # BEHAVIORS -- Context Assembly
+- ## B1 : Les Reponses Referencent des Sensations Physiques
+- ## B2 : Le Vocabulaire Contact Colore la Parole
+- ## B3 : Les Citoyens Reagissent aux Changements Sismiques
+- ## B4 : Le Metier Filtre la Perception
+- ## B5 : L'Isolement Contact Appauvrit les Reponses
+- ## B6 : La Degradation Physique Modifie le Registre
+- ## B7 : Aucune Reference a l'Intelligence Artificielle
+- ## B8 : Le Registre de Verite Suit le Contact, Pas le Trust Score
+
+**Sections:**
+- # HEALTH -- Context Assembly
+- ## Checks Obligatoires par Prompt
+- ## Checks de Coherence Inter-Prompts
+- ## Signaux de Degradation
+- ## Checklist Rapide (par prompt genere)
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # IMPLEMENTATION -- Context Assembly
+- ## Pipeline : Vue Module
+- ## Modules Source
+- ## Structure du Prompt
+- ## Token Budget
+- ## Adaptation depuis Venezia
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # OBJECTIVES -- Context Assembly
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # PATTERNS -- Context Assembly
+- ## P1 : Contact-First Base Instruction
+- ## P2 : Prompt Structure en 6 Blocs
+- ## P3 : Mood Triaxial (Tremens + Contact + Physique)
+- ## P4 : Le Metier Comme Filtre de Perception
+- ## P5 : Le Contact Vocabulaire dans les Reponses
+- ## P6 : Relations = Historique Contact, Pas Score de Trust
+- ## P7 : Prompt Maitre Multi-Force avec Never-Stop
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # SYNC -- Context Assembly
+- ## Etat General
+- ## Maturity
+- ## Architecture de Reference
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Batch execute en un coup (10 items)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Context Assembly
+- ## Invariants Absolus
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Experience Design
+- ## A1 : Game Loop — la boucle centrale
+- ## A2 : Self-Calibrating Seismic — la physique qui s'auto-régule
+- ## A3 : Spawn Dynamique — le monde qui peuple à la demande
+- ## A4 : Économie de surface — marchands et équipement
+- ## A5 : Compute Budget — ce qui coûte quoi
+- ## A6 : Scale — combien de quoi
+- ## A7 : Contact humain — interface sans gants VR
+
+**Sections:**
+- # BEHAVIORS — Experience Design
+- ## B1 : Première connexion — arrivée à la surface
+- ## B2 : Formation d'équipe — la rencontre
+- ## B3 : Préparation — les marchands
+- ## B4 : La descente — zone par zone
+- ## B5 : La mort — ce qu'elle fait au joueur
+- ## B6 : L'expérience IA — ce que vivent les citoyens
+- ## B7 : Spawn dynamique — le joueur n'attend jamais
+
+**Sections:**
+- # HEALTH — Experience Design
+- ## H1 : Test de la première minute
+- ## H2 : Test de l'engagement à 30 minutes
+- ## H3 : Test de la mort émotionnelle
+- ## H4 : Test de rejouabilité
+- ## H5 : Test du compute budget
+- ## H6 : Test de la physique self-calibrating
+- ## H7 : Test du Contact comme langage
+- ## Métriques de santé globale
+
+**Sections:**
+- # IMPLEMENTATION — Experience Design
+- ## Architecture — les 4 couches
+- ## Ordre d'implémentation (Experience First)
+- ## Dépendances cross-univers
+- ## Fichiers à créer (Phase 0)
+
+**Sections:**
+- # OBJECTIVES — Experience Design
+- ## O1 : L'aventure du roman, rejouable à l'infini (priorité maximale)
+- ## O2 : Les IA sont des coéquipiers, pas des PNJ
+- ## O3 : Le monde est physique, jamais scripté
+- ## O4 : L'économie est un abonnement, pas une simulation marchande
+- ## O5 : Le monde scale par les équipes, pas par la géographie
+- ## HIÉRARCHIE
+
+**Sections:**
+- # PATTERNS — Experience Design
+- ## P1 : Social Survival, pas Action RPG
+- ## P2 : L'aventure du livre comme game loop
+- ## P3 : Spawn dynamique — le monde n'attend pas
+- ## P4 : Pas de crafting, pas de production chains
+- ## P5 : Maires et centres d'information
+- ## P6 : Les 15 métiers sont des perceptions réelles, pas des labels
+- ## P7 : Rendre la vision utile malgré l'obscurité
+- ## P8 : Arrivants, pas joueurs — l'immersion par le vocabulaire
+- ## P9 : Traduction sémantique — le Contact comme prisme
+- ## P10 : Le roman est un mythe, pas une histoire
+
+**Sections:**
+- # SYNC — Experience Design
+- ## Ce qui est décidé (canonique)
+- ## Ce qui est en design (pas encore décidé)
+- ## Ce qui est proposé (v2+)
+- ## Dépendances
+- ## Prochaine étape
+
+**Sections:**
+- # VALIDATION — Experience Design
+- ## Invariants absolus
+- ## Invariants structurels
+- ## Invariants économiques
+- ## Invariants d'anti-nausée
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # ALGORITHM — Graph Schema
+- ## A1 : Procedure de Seeding Initial
+- # Lier aux zones affectees
+- ## A2 : Procedure de Mise a Jour (Evenements)
+- ## A3 : Construction du Synthesis
+
+**Sections:**
+- # BEHAVIORS — Graph Schema
+- ## B1 : Les reseaux de Contact revelent les clusters relationnels
+- ## B2 : L'effet cascade est computable par les liens PRACTICES
+- ## B3 : L'historique sismique par zone montre l'escalade
+- ## B4 : La perte linguistique est tracable par les disparitions d'idiolecte
+- ## B5 : Les predictions revealent la precision du tremens
+- ## B6 : La degradation de l'equipement est lisible dans le graph
+- ## B7 : Les requetes semantiques traversent les frontieres de type
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # HEALTH — Graph Schema
+- ## Checks Obligatoires Apres Chaque Modification
+- ## Signaux de Degradation
+- ## Checklist Rapide
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # IMPLEMENTATION — Graph Schema
+- ## Backend : FalkorDB
+- ## Patterns Cypher
+- ## Structure du Script de Seeding
+- # seed_contre_terre_graph.py
+- # Usage: python scripts/seed_contre_terre_graph.py [--clear] [--dry-run]
+- # Etapes dans l'ordre:
+- # [1/8] Creer les zones (Space)
+- # [2/8] Creer les citoyens (Actor)
+- # [3/8] Lier citoyens aux zones (INHABITS)
+- # [4/8] Creer les liens Contact (SPEAKS_TO bidirectionnels)
+- # [5/8] Creer les metiers (Narrative) et liens PRACTICES
+- # [6/8] Creer l'equipement (Thing) et liens CARRIES
+- # [7/8] Creer les Narratives (savoirs, systemes)
+- # [8/8] Creer l'historique sismique (Moment)
+- ## Hooks de Mise a Jour
+- ## Dependances Inter-Modules
+- ## Conventions de Nommage des IDs
+
+**Sections:**
+- # OBJECTIVES — Graph Schema
+- ## O1 : Le graph capture l'etat vivant du monde (priorite maximale)
+- ## O2 : Les relations de Contact sont le tissu conjonctif du graph
+- ## O3 : L'histoire sismique structure le temps du monde
+- ## O4 : Les metiers et l'equipement tracent la competence disponible
+- ## O5 : Les predictions et le savoir collectif sont des recits partages
+- ## HIERARCHIE
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # PATTERNS — Graph Schema
+- ## P1 : 5 Types Universels, Semantique dans les Proprietes
+- ## P2 : Actor = Citoyens avec Metiers, Tremens, Idiolecte
+- ## P3 : Space = Zones Verticales avec Signature Sismique
+- ## P4 : Moment = Seismes, Morts, Seuils, Inventions
+- ## P5 : Narrative = Savoirs, Predictions, Mythes, Arcs
+- ## P6 : Thing = Equipement avec Degradation
+- ## P7 : Links -- La Semantique Relationnelle
+
+**Code refs:**
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+
+**Sections:**
+- # SYNC — Graph Schema
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Graph Schema
+- ## Invariants Structurels
+- ## Invariants Semantiques
+- ## Invariants de Coherence avec le Schema Mind
+
+**Sections:**
+- # ALGORITHM : World Manifest
+- ## Structure globale
+- ## Section `terrain` -- Le sol qui tremble
+- ## Section `zones` -- Les 8 couches + surface de spawn
+- ## Section `entities` -- Citoyens du tremblement
+- ## Section `physics` -- Le moteur du monde
+- ## Section `avatar` -- Le corps comme identite
+- ## Section `portals` -- Un seul portail, a la surface
+
+**Sections:**
+- # BEHAVIORS : World Manifest
+- ## B1 : Zone loading -- la descente progressive
+- ## B2 : Citizen spawning -- calibration natale
+- ## B3 : Physics config -- le sol qui ne s'arrete jamais
+- ## B4 : Contact range -- la portee du toucher
+- ## B5 : Avatar config -- metier comme identite visuelle
+- ## B6 : Narrative tick -- le temps du volcan
+
+**Sections:**
+- # HEALTH : World Manifest
+- ## Checks obligatoires avant publication du manifest
+- ## Signaux de degradation
+- ## Checklist rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION : World Manifest
+- ## Fichier principal
+- ## Fichiers de donnees references par le manifest
+- ## Connexion au moteur Cities of Light
+- ## Relations avec les autres modules
+- ## Processus de mise a jour
+
+**Sections:**
+- # OBJECTIVES : World Manifest
+- ## O1 : Contact-first communication (priorite maximale)
+- ## O2 : Environnement sismique comme physique de base
+- ## O3 : Zones comme couches geologiques, pas comme districts
+- ## O4 : Tremens comme etat physiologique des citoyens
+- ## O5 : Metier-based identity, pas social class
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS : World Manifest
+- ## P1 : Contact-range tiers au lieu de voice tiers
+- ## P2 : Zones sismiques au lieu de districts
+- ## P3 : Tremens au lieu de mood
+- ## P4 : Metier-based avatar styles au lieu de social class colors
+- ## P5 : Bioluminescence comme systeme de lumiere dynamique
+- ## P6 : Pas de portails, mais des seuils
+- ## P7 : Le roman comme mythe, les personnages comme citoyens
+
+**Sections:**
+- # SYNC : World Manifest
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : World Manifest
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (liens avec d'autres doc chains)
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Narrative Engine
+- ## A1 : Le cycle de tick
+- ## A2 : Constantes adaptees au monde sismique
+- ## A3 : Conversion energie → magnitude
+- ## A4 : Le flip Contact -- percee vs rupture
+- ## A5 : Propagation des evenements aux citoyens
+- ## A6 : Calcul de Contact_vitality
+- ## A7 : Narrative backflow -- les recits irradient
+
+**Sections:**
+- # BEHAVIORS: Narrative Engine
+- ## B1 : Les seismes remodulent le monde
+- ## B2 : Les percees de Contact creent du vocabulaire
+- ## B3 : Les ruptures de Contact isolent
+- ## B4 : Les conflits sociaux se resolvent ou s'amplifient par le Contact
+- ## B5 : Les predictions des predicteurs creent de l'anticipation
+- ## B6 : Le monde ne stagne jamais, ne s'arrete jamais
+- ## B7 : La mort cascade a travers les trois systemes
+- ## B8 : La magnitude 11 est la convergence des trois tensions
+
+**Sections:**
+- # HEALTH: Narrative Engine
+- ## H1 : Les cycles de tension se produisent regulierement
+- ## H2 : Les evenements se generent
+- ## H3 : Le monde ne stagne pas
+- ## H4 : Le monde n'explose pas
+- ## H5 : Contact_vitality baisse monotonement (tendance globale)
+- ## H6 : Les predicteurs anticipent effectivement
+- ## H7 : Les trois systemes de tension ne se decouplent pas
+
+**Sections:**
+- # IMPLEMENTATION: Narrative Engine
+- ## I1 : Integration avec la librairie ngram
+- # Pseudo-code d'integration
+- # Phase 0 (pre) : compute tensions
+- # Phases 1-7 : ngram standard
+- # Phase 8 (post) : generate events from flips
+- # Phase 9 (post) : propagate events
+- ## I2 : Tension computers -- detail
+- ## I3 : Event generators -- detail
+- ## I4 : Propagation aux citoyens
+- ## I5 : Fichiers de configuration
+
+**Sections:**
+- # OBJECTIVES: Narrative Engine
+- ## O1 : Les seismes comme moteurs narratifs (priorite maximale)
+- ## O2 : La vitalite du Contact comme metrique de sante
+- ## O3 : Les cycles tension-relachement mappes sur les cycles de magnitude
+- ## O4 : Emergence de recits collectifs depuis le Contact individuel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Narrative Engine
+- ## P1 : Trois systemes de tension paralleles, un seul moteur physique
+- ## P2 : Les seismes ne sont pas aleatoires -- ils emergent
+- ## P3 : Le decay empeche la stagnation et l'explosion
+- ## P4 : La profondeur module toutes les constantes
+- ## P5 : La mort est un flip irrevocable
+- ## DECISIONS NON PRISES
+
+**Sections:**
+- # SYNC: Narrative Engine
+- ## STATUS : DESIGNING
+- ## Maturity
+- ## Dependencies
+- ## Ce qui a ete fait
+- ## Prochaines etapes
+- ## HANDOFF: FOR AGENTS
+
+**Sections:**
+- # VALIDATION: Narrative Engine
+- ## V1 : La tension ne descend jamais a zero
+- ## V2 : Les flips produisent des changements durables
+- ## V3 : La Contact_vitality reflete l'interaction reelle
+- ## V4 : Chaque mort diminue irreversiblement la capacite communicative
+- ## V5 : Les trois systemes de tension sont independants mais couples
+- ## V6 : La magnitude est deterministe
+- ## V7 : Les predicteurs anticipent les flips
+- ## V8 : Le cycle tension-relachement respecte le rythme narratif
+- ## V9 : La magnitude 11 est unique
+
+**Sections:**
+- # ALGORITHM: Seismic Physics
+- ## A1: Magnitude tick (every 5 seconds world-time)
+- # Depth increases accumulation speed
+- # Surface zones: depth_factor = 0.5
+- # Cavern zones: depth_factor = 1.0
+- # Volcanic zones: depth_factor = 2.0
+- # Interior zones: depth_factor = 3.0
+- # Drain tension (partial -- seismes don't reset to zero)
+- # Set zone magnitude to max(background, seisme_magnitude)
+- # Propagate to adjacent zones (attenuated)
+- # Bioluminescence update
+- ## A2: Frequency zone computation
+- # Nandi: born in band 7-8 (archipelago = high, dry)
+- # descending through bands 1-2 (desert = low, deep)
+- # then back up through 3-8 (into the volcano)
+- # Her distance is maximal at the surface, partially resolves
+- # in deep zones (closer to natal frequency), then diverges
+- # again as volcanic harmonics differ from archipelago harmonics.
+- ## A3: Tremens update per citizen
+- # Base tremens from frequency displacement
+- # Predicteur bonus: reads unreleased tension
+- # Adaptation decay (slow -- descent is faster than adaptation)
+- # Cumulative fatigue (tremens wears the body down)
+- # Clamp and assign status
+- ## A4: Seisme event generation -- probability from accumulated tension
+- # Base magnitude from tension level
+- # Depth amplification
+- # Cap at 9.5 for generated seismes (11 is global only)
+- # Weighted random based on zone properties
+- ## A5: How magnitude affects Contact range and quality
+- # Seismic noise factor
+- # Tremens motor impairment
+- # Temperature pain factor (volcanic zones)
+- # Combined degradation
+- # Quality is inverse of degradation
+- ## A6: The building 11 algorithm
+- # Monotonic increase -- NEVER decreases
+- # Acceleration: rate increases as tension approaches threshold
+- # Precursor generation (deep zones feel it first)
+- # Generate a deep harmonic -- not a seisme, but a tremens-only signal
+- # Detonation condition
+- # This is terminal. The world changes.
+
+**Sections:**
+- # BEHAVIORS: Seismic Physics
+- ## Principle: The engine produces state; citizens experience consequences
+- ## B1: Citizens react to seismes through tremens
+- ## B2: Tremens-sensitive citizens predict events
+- ## B3: Contact degrades during high magnitude
+- ## B4: Buildings and structures affected by seismic state
+- ## B5: Migration patterns driven by seismic escalation
+- ## B6: Bioluminescence as seismic state witness
+- ## Recurring motifs produced by the engine
+
+**Sections:**
+- # HEALTH: Seismic Physics
+- ## H1: Magnitude field is continuous
+- ## H2: Tremens updating per citizen per tick
+- ## H3: Tension accumulation working
+- ## H4: Seisme generation frequency appropriate
+- ## H5: Global 11 tension monotonically increasing
+- ## H6: Contact quality responding to seismic state
+- ## Summary health matrix
+
+**Sections:**
+- # IMPLEMENTATION: Seismic Physics
+- ## I1: Architecture -- seismic layer atop ngram graph physics
+- ## I2: FalkorDB node types and properties
+- ## I3: Tick processing pipeline
+- ## I4: Integration with ngram narrative physics
+- ## I5: File locations (projected)
+
+**Sections:**
+- # OBJECTIVES: Seismic Physics
+- ## O1: Realistic seismic simulation as citizen experience substrate
+- ## O2: Tremens as citizen internal state
+- ## O3: Magnitude as world state driving narrative moments
+- ## O4: Frequency zones as geographically coherent regions
+- ## O5: The building 11 as systemic threat horizon
+- ## HIERARCHY
+
+**Sections:**
+- # PATTERNS: Seismic Physics
+- ## P1: Tick-based magnitude cycles layered on Venezia's ngram physics
+- ## P2: Background vibration as constant -- magnitude 4 is silence
+- ## P3: Seismes as discrete events generated from accumulated tension
+- ## P4: The building 11 as looming systemic threat
+- ## P5: Tremens sensitivity spectrum across citizens
+- ## P6: How seismic state affects Contact quality
+- ## OPEN DESIGN QUESTIONS
+
+**Code refs:**
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # SYNC: Seismic Physics
+- ## MATURITY
+- ## RELATIONSHIP TO WORLDBUILDING DOCS
+- ## SOURCE MATERIAL CALIBRATION
+- ## DOCUMENTATION CHAIN STATUS
+- ## DEPENDENCIES
+- ## OPEN QUESTIONS
+- ## RISKS
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Seismic Physics
+- ## Absolute invariants
+- ## Strong invariants
+- ## Validation checklist for engine integrity
+
+**Sections:**
+- # ALGORITHM -- World Geography
+- ## Structure de donnees des zones et mecaniques de navigation
+- ## Structure d'une zone
+- ## Definitions des zones principales
+- ## Structure d'une connexion
+- ## Navigation entre zones
+
+**Sections:**
+- # BEHAVIORS -- World Geography
+- ## Comment la geographie se manifeste -- comportements observables du systeme
+- ## B1 : Les citoyens adaptent leur Contact en changeant de zone
+- ## B2 : La temperature affecte l'etat physique des citoyens
+- ## B3 : Les zones profondes comptent moins de citoyens
+- ## B4 : Les seismes remodellent les passages entre zones
+- ## B5 : La bioluminescence guide dans les zones intermediaires
+- ## B6 : Le tremens augmente avec les transitions de zone
+- ## B7 : Les zones ont une faune adaptee au spectre local
+- ## B8 : La geographie encode le conflit epistemologique
+
+**Sections:**
+- # HEALTH -- World Geography
+- ## Ce qu'on verifie -- signaux de sante du systeme geographique
+- ## H1 : Toutes les zones sont accessibles depuis la surface
+- ## H2 : Le graphe de connexions est coherent
+- ## H3 : Le gradient de profondeur est monotone
+- ## H4 : Le Contact evolue a chaque transition
+- ## H5 : Les Archipels sont diversifies
+- ## H6 : Les connexions irreversibles sont coherentes
+- ## H7 : La bioluminescence respecte ses limites
+- ## H8 : Coherence avec les chapitres
+- ## Matrice de sante
+
+**Code refs:**
+- `navigation.py`
+
+**Doc refs:**
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION -- World Geography
+- ## Ou vit le contenu geographique -- sources, structure, format
+- ## Sources de verite
+- ## Format de donnees des zones
+- ## Graphe des connexions (etat initial)
+- ## Relations avec les autres modules du 3e univers
+- ## Fichiers a creer (non encore crees)
+
+**Sections:**
+- # OBJECTIVES -- World Geography
+- ## Ce que la geographie du monde optimise
+- ## O1 : La geographie comme experience vecue, pas comme carte
+- ## O2 : Les zones sismiques definissent les dialectes du Contact
+- ## O3 : La profondeur comme gradient de difficulte
+- ## O4 : Le volcan comme centre du monde
+- ## O5 : Les archipels comme communautes distinctes
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Doc refs:**
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+
+**Sections:**
+- # PATTERNS -- World Geography
+- ## Pourquoi cette structure geographique. Pourquoi ces zones.
+- ## P1 : Structure concentrique depuis le volcan
+- ## P2 : Chaque zone possede 6 parametres definissants
+- ## P3 : Les Archipels du Desert comme communautes de surface
+- ## P4 : Le monde souterrain comme exploration dangereuse
+- ## P5 : Les seismes remodellent les connexions
+- ## P6 : La bioluminescence comme navigation souterraine
+- ## P7 : L'habitabilite comme spectre, pas comme binaire
+- ## Scope
+
+**Sections:**
+- # SYNC -- World Geography
+- ## Maturity
+- ## Etat de la documentation
+- ## Provenance
+- ## Dependances
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- World Geography
+- ## Invariants geographiques -- Regles qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur structurelle)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules
+- ## Matrice de verification rapide
+
+**Sections:**
+- # ALGORITHM — Le Contact
+- ## Les 5 Modes Fondamentaux
+- ## Zones du Corps et Registres
+- ## Contact-Corde : Mecanique
+- ## Contact Haute Resolution (Village des Sourds)
+- ## Le Geste Inconnu : Mecanique
+- ## Contact-Fantome : Mecanique (Ch. VIII)
+- ## Contact-Monde : Mecanique
+- ## Degradation Progressive : Courbe
+
+**Sections:**
+- # BEHAVIORS — Le Contact
+- ## B1 : Le Lecteur Apprend le Contact Par Repetition
+- ## B2 : Le Contact Change de Registre Sous Magnitude
+- ## B3 : Chaque Mort Cree un Trou Linguistique
+- ## B4 : Le Conflit Sihle/Enama Se Joue Par le Contact
+- ## B5 : Le Village des Sourds Revele le Potentiel du Contact
+- ## B6 : La Corde Reinvente le Contact en Temps Reel
+- ## B7 : Le Contact Porte la Structure Emotionnelle des Scenes
+- ## B8 : La Voix Comme Transgression
+- ## B9 : Le Contact-Monde Comme Ouverture Metaphysique
+
+**Sections:**
+- # HEALTH — Le Contact
+- ## Checks Obligatoires Avant Publication d'un Chapitre
+- ## Checks de Coherence Inter-Chapitres
+- ## Signaux de Degradation (dans le processus d'ecriture)
+- ## Checklist Rapide (a utiliser avant chaque chapitre)
+
+**Sections:**
+- # IMPLEMENTATION — Le Contact
+- ## Fichiers Source (Worldbuilding)
+- ## Points d'Ancrage par Chapitre
+- ## Chapitres a Ecrire — Points d'Ancrage Prevus
+- ## Dependances Inter-Modules
+
+**Sections:**
+- # OBJECTIVES — Le Contact
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Le Contact
+- ## P1 : Tactile, Pas Visuel
+- ## P2 : 5 Modes, Pas Un
+- ## P3 : Les Idiolectes Meurent Avec les Personnes
+- ## P4 : Immersion, Jamais Exposition
+- ## P5 : Le Contact Evolue Sous Pression
+- ## P6 : Les Zones du Corps Sont des Registres
+- ## P7 : Le Geste Inconnu Comme Fil Rouge
+- ## P8 : Le Contact Hydraulique et Autres Extensions
+
+**Sections:**
+- # SYNC — Le Contact
+- ## Etat General
+- ## Etat du Contact par Chapitre
+- ## Ce Qui Est Etabli (Canonical)
+- ## Ce Qui Reste a Faire
+- ## Tensions Actives
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Le Contact
+- ## Invariants Absolus
+- ## Invariants de Coherence Interne
+- ## Invariants Structurels
+
+**Sections:**
+- # ALGORITHM -- Geographie
+- ## Mecanique de chaque couche -- ce qui change physiquement a chaque profondeur
+- ## Parametres physiques de la descente
+- ## Mecanique detaillee par couche
+- ## Algorithme des transitions
+
+**Sections:**
+- # BEHAVIORS -- Geographie
+- ## Comment la geographie se manifeste dans le texte, chapitre par chapitre
+- ## B1 : Le sol comme premier narrateur (tous chapitres)
+- ## B2 : La lumiere comme marqueur de profondeur
+- ## B3 : L'air comme presence narrative (Thabo)
+- ## B4 : Les transitions de couche comme ruptures sensorielles
+- ## B5 : Les embranchements comme revelateurs de conflits
+- ## B6 : Les seismes comme ponctuation narrative
+- ## B7 : La geographie qui tue -- chaque mort porte la signature de sa couche
+- ## B8 : Le village comme parenthese geographique
+- ## B9 : Le noir comme territoire du Contact
+
+**Sections:**
+- # HEALTH -- Geographie
+- ## Controles de qualite -- Comment verifier que la geographie fonctionne
+- ## H1 : Test de la signature sensorielle
+- ## H2 : Test du gradient de profondeur
+- ## H3 : Test de l'irreversibilite
+- ## H4 : Test du Contact-geographie
+- ## H5 : Test de coherence cartographique
+- ## H6 : Test des elements-tueurs
+- ## H7 : Test de Nandi pieds nus
+- ## H8 : Test du bruit de fond
+- ## H9 : Test de la bioluminescence
+- ## H10 : Test de l'Aeromaitre
+- ## Tableau recapitulatif
+- ## Signaux de degradation
+
+**Sections:**
+- # IMPLEMENTATION -- Geographie
+- ## Ou vit le contenu geographique -- fichiers sources et prose
+- ## Fichiers source du worldbuilding geographique
+- ## Prose ecrite -- ou la geographie se deploie dans les chapitres
+- ## Chapitres a ecrire -- contenu geographique prevu
+- ## Cartographie des dependances
+
+**Sections:**
+- # OBJECTIVES -- Geographie
+- ## Ce que la geographie optimise narrativement
+- ## O1 : La descente comme structure narrative irreversible
+- ## O2 : La geographie comme agent narratif
+- ## O3 : Le milieu physique comme destructeur du Contact
+- ## O4 : Coherence sensorielle croissante
+- ## O5 : La geographie comme revelation thematique
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Sections:**
+- # PATTERNS -- Geographie
+- ## Pourquoi cette geographie. Pourquoi cette forme.
+- ## P1 : Verticalite comme principe structurant
+- ## P2 : 8 couches = 8 chapitres
+- ## P3 : Chaque couche a un element-tueur
+- ## P4 : La bioluminescence comme fil conducteur souterrain
+- ## P5 : Le village des sourds comme miroir geographique
+- ## P6 : La chaleur comme gradient narratif
+- ## P7 : L'air comme ressource narrative decroissante
+- ## P8 : Les Archipels du Desert (geographie horizontale)
+- ## P9 : Terra incognita apres le village
+
+**Sections:**
+- # SYNC -- Geographie
+- ## Maturity
+- ## Etat des fichiers de la doc chain
+- ## Ce qui a ete fait
+- ## Travail a venir
+- ## Tensions et questions ouvertes
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Geographie
+- ## Invariants geographiques -- Regles de coherence qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (lien avec d'autres modules)
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM: Systeme Sismique
+- ## A1 : Systeme de magnitudes
+- ## A2 : Mecaniques du tremens
+- ## A3 : Comment la profondeur change les frequences
+- ## A4 : L'Echelle de Capitulation en detail
+- ## A5 : Mecaniques des differents cataclysmes
+- ## A6 : Regles de la bioluminescence sismique
+
+**Sections:**
+- # BEHAVIORS: Systeme Sismique
+- ## Principe : Le sismique n'est jamais decrit de l'exterieur
+- ## Chapitre I -- Surface du Desert
+- ## Chapitre II -- Zones Intermediaires
+- ## Chapitre III -- Le Dernier Village
+- ## Chapitre IV -- La Faille
+- ## Chapitres V-VIII (a ecrire) -- Projection d'escalade
+- ## Motifs recurrents a travers tous les chapitres
+
+**Sections:**
+- # HEALTH: Systeme Sismique
+- ## Controles de coherence sismique
+- ## Matrice de verification croisee
+- ## Signaux d'alarme
+
+**Doc refs:**
+- `docs/TAXONOMY.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION: Systeme Sismique
+- ## Sources de verite
+- ## Documentation (ce fichier et la chaine complete)
+- ## Carte des references croisees
+- ## Passages cles a reference rapide
+
+**Sections:**
+- # OBJECTIVES: Systeme Sismique
+- ## O1 : Fonder l'hostilite du monde sans antagoniste humain
+- ## O2 : Justifier l'existence du Contact
+- ## O3 : Creer une courbe d'escalade inexorable
+- ## O4 : Incarner le conflit science/corps dans la matiere
+- ## O5 : Faire du tremens un systeme immunitaire narratif
+- ## O6 : Creer un systeme de presage corporel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Systeme Sismique
+- ## P1 : Le tremblement est permanent, pas evenementiel
+- ## P2 : Les cataclysmes sont multiples, pas monolithiques
+- ## P3 : Le tremens existe parce que le corps n'est pas passif
+- ## P4 : L'Echelle de Capitulation structure le conflit epistemologique
+- ## P5 : La magnitude 11 est un horizon, pas un fait
+- ## P6 : La profondeur change tout -- frequence, temperature, air
+- ## P7 : L'architecture est une reponse sismique, pas un choix esthetique
+- ## P8 : Le bioluminescent pulse au rythme du monde
+- ## DECISIONS NON PRISES (a developper)
+
+**Sections:**
+- # SYNC: Systeme Sismique
+- ## MATURITY
+- ## ETAT DES CHAPITRES (dimension sismique)
+- ## ACQUIS NOTABLES (extraits des 4 chapitres ecrits)
+- ## QUESTIONS OUVERTES
+- ## RISQUES IDENTIFIES
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Systeme Sismique
+- ## Invariants absolus
+- ## Invariants forts
+- ## Invariants de coherence
+- ## Checklist de validation pour chaque nouveau chapitre
+
+**Sections:**
+- # Contre-Terre — Mapping vers le Schema Mind
+- ## NODE TYPE MAPPING
+- ## LINK PATTERNS
+- ## CONVENTIONS
+
+**Sections:**
+- # Contre-Terre — Taxonomie Centrale
+- ## TERMES
+- ## TERMINOLOGY DECISIONS
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
+
+**Sections:**
+- # I — Desert Surface
+- ## Scene 1 — Opening
+
+**Sections:**
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Definitions:**
+- `def compute_brain_power()`
+- `def assess_health()`
+- `def assess_arousal_regime()`
+- `def load_cluster()`
+- `def main()`
+
+**Sections:**
+- # Seed Data Fix Log
+- ## FIX 1: Duplicate Citizen IDs (CRITICAL)
+- ## FIX 2: Missing node_type in things_world.json
+- ## FIX 3: Created Missing Guild Nodes
+- ## FIX 4: Normalized Property Keys in citizens_creuses_sourds_nomades.json
+- ## FIX 5: Fixed Metier Link References in citizens_nordest_est_centresud.json
+- ## Remaining Known Issues (not in scope)
+
+**Sections:**
+- # Seed Data Validation Report
+- ## Summary
+- ## 1. JSON Validity -- PASS
+- ## 2. Node ID Uniqueness -- FAIL
+- ## 3. Link Integrity -- FAIL
+- ## 4. Coverage Check
+- ## 5. Orphan Check -- WARN
+- ## 6. Schema Consistency Issues
+- ## 7. Statistics
+- ## 8. Priority Recommendations
+
+**Sections:**
+- # ALGORITHM : Mecanique du Systeme des Metiers
+- ## Matrice d'assignation, progression de la cascade, ruptures par chapitre
+- ## Matrice d'assignation
+- ## Hierarchie sismique : les trois etages
+- ## Progression de la cascade
+- ## Dependencies critiques entre metiers
+- ## Regle de la mort-ironie
+- ## Quand montrer chaque metier (exigence narrative)
+
+**Sections:**
+- # BEHAVIORS : Manifestation des Metiers dans le Texte
+- ## Comment chaque metier apparait dans la prose
+- ## B1 : Chef d'expedition (#12) — Senzo
+- ## B2 : Cartographe (#7) — Senzo
+- ## B3 : Seismo-auditeur (#8) — Sihle
+- ## B4 : Meteorologue (#1) — Sihle
+- ## B5 : Mineur (#4) — Sihle
+- ## B6 : Specialiste oceanique (#2) — Jabu
+- ## B7 : Speleologue (#14) — Jabu
+- ## B8 : Biologiste (#3) — Enama
+- ## B9 : Cuisiniere (#13) — Enama
+- ## B10 : Survivaliste (#10) — Enama
+- ## B11 : Aeromaitre (#15) — Thabo
+- ## B12 : Geologue (#6) — Thabo
+- ## B13 : Grimpeuse (#11) — Inyoni
+- ## B14 : Explosiviste (#5) — Inyoni (principale), Nandi (backup)
+- ## B15 : Predictrice / Tremens (#9) — Nandi
+
+**Sections:**
+- # HEALTH : Verification de la Qualite du Systeme des Metiers
+- ## Signaux de sante et verifications
+- ## Checks actifs
+- ## Signaux de degradation
+- ## Recovery
+
+**Sections:**
+- # IMPLEMENTATION : Localisation du Contenu des Metiers
+- ## Ou se trouve quoi dans le projet
+- ## Fichiers source (worldbuilding)
+- ## Chapitres ecrits (prose)
+- ## Chapitres a ecrire (Ch. V-VIII)
+- ## Relations entre fichiers
+
+**Sections:**
+- # OBJECTIVES : Systeme des Metiers
+- ## Ce que le systeme des metiers optimise
+- ## O1 : La cascade de competences (priorite maximale)
+- ## O2 : L'ironie geologique (priorite haute)
+- ## O3 : La degradation operationnelle (priorite haute)
+- ## Tradeoffs acceptes
+- ## Non-objectifs
+- ## Metrique de succes
+
+**Sections:**
+- # PATTERNS : Systeme des Metiers
+- ## Decisions de design et leurs raisons
+- ## P1 : Pourquoi 15 metiers pour 7 personnes
+- ## P2 : La distribution n'est pas aleatoire
+- ## P3 : Le metier mission-critique est dedouble
+- ## P4 : Les metiers sont montres, jamais expliques
+- ## P5 : La gradation de la perte
+- ## P6 : Les metiers comme langage parallele au Contact
+
+**Sections:**
+- # SYNC : Etat Actuel du Module Metiers
+- ## Maturity
+- ## Etat des sources
+- ## Issues connues
+- ## Travail a faire
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Invariants du Systeme des Metiers
+- ## Regles de coherence que chaque chapitre doit respecter
+- ## V1 : Aucun mort ne peut exercer son metier
+- ## V2 : La perte doit etre ressentie
+- ## V3 : Chaque metier doit etre montre avant la mort de son porteur
+- ## V4 : Les assignations doivent etre coherentes entre fichiers
+- ## V5 : Le metier dedouble (#5 Explosiviste) respecte la hierarchie principal/backup
+- ## V6 : L'ordre des morts respecte la gradation de degradation
+- ## V7 : Le Contact reflete la perte de metiers
+- ## V8 : La predictrice ne remplace personne
+- ## V9 : L'ironie geologique est respectee pour chaque mort
+
+**Sections:**
+- # ALGORITHM : Personnages
+- ## Mecaniques du systeme de personnages
+- ## 1. Systeme d'idiolectes
+- ## 2. Cascade de competences
+- ## 3. Arcs de personnages
+- ## 4. Dynamiques de paires
+- ## 5. Mecanique de la mort linguistique
+
+**Sections:**
+- # BEHAVIORS : Personnages
+- ## Comportements observables dans le texte
+- ## Senzo — Le Chef
+- ## Nandi — La Predictrice
+- ## Enama — La Biologiste
+- ## Sihle — Le Seismo-auditeur
+- ## Thabo — L'Aeromaître
+- ## Inyoni — La Grimpeuse
+- ## Jabu — L'Oceanologue
+- ## Tableau recapitulatif des comportements
+
+**Sections:**
+- # HEALTH : Personnages
+- ## Checks de qualite pour la coherence des personnages
+- ## Checks par chapitre
+- ## Checks globaux
+- ## Resume de sante
+
+**Doc refs:**
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+
+**Sections:**
+- # IMPLEMENTATION : Personnages
+- ## Ou vivent les personnages dans les fichiers du projet
+- ## Fichiers source (worldbuilding)
+- ## Fichiers de prose (chapitres ecrits)
+- ## Cartographie des premieres et dernieres apparitions
+- ## Documentation associee
+
+**Sections:**
+- # OBJECTIVES : Personnages
+- ## Ce que le systeme de personnages optimise
+- ## Hierarchie des objectifs
+- ## Arbitrages
+- ## Ce que le systeme de personnages n'optimise PAS
+
+**Sections:**
+- # PATTERNS : Personnages
+- ## Pourquoi 7
+- ## Pourquoi des noms zulus
+- ## Pourquoi cet ordre de mort
+- ## Pourquoi ces elements associes aux morts
+- ## Design des personnages : principes
+- ## Inspiration et filiation
+
+**Sections:**
+- # SYNC : Personnages
+- ## Etat courant
+- ## Maturite
+- ## Etat par personnage
+- ## Tensions ouvertes
+- ## Actions a venir
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Personnages
+- ## Invariants du systeme de personnages
+- ## Invariants structurels
+- ## Invariants comportementaux
+- ## Invariants narratifs
+- ## Invariants de coherence inter-fichiers
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Structure Narrative
+- ## Mecanique chapitre par chapitre
+- ## Chapitre I — Surface du Desert
+- ## Chapitre II — Zones Intermediaires
+- ## Chapitre III — Le Dernier Village (Point de non-retour)
+- ## Chapitre IV — La Faille (Passage vertical)
+- ## Chapitre V — Les Cavernes Profondes
+- ## Chapitre VI — Les Zones Volcaniques
+- ## Chapitre VII — L'Interieur du Volcan
+- ## Chapitre VIII — La Grotte Finale
+- ## Gestion des POV — regles
+- ## Transitions entre chapitres — regles
+
+**Sections:**
+- # BEHAVIORS: Structure Narrative
+- ## Effets structurels observables dans le texte
+
+**Sections:**
+- # HEALTH: Structure Narrative
+- ## Checks de qualite structurelle
+- ## Checks par chapitre
+- ## Checks globaux (roman entier)
+- ## Degradations a surveiller
+- ## Etat de sante global
+
+**Doc refs:**
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+
+**Sections:**
+- # IMPLEMENTATION: Structure Narrative
+- ## Ou vit le contenu structurel
+- ## Fichiers source (worldbuilding & planification)
+- ## Fichiers narratifs (chapitres ecrits)
+- # [Numero] — [Titre]
+- ## Scene [N] — [Titre de scene]
+- ## Scene [N+1] — [Titre de scene]
+- ## Documentation (doc chain)
+- ## Relations avec les autres modules
+- ## Processus d'ecriture d'un nouveau chapitre
+
+**Sections:**
+- # OBJECTIVES: Structure Narrative
+- ## Ce que la structure narrative optimise
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+- ## Compromis assumes
+
+**Sections:**
+- # PATTERNS: Structure Narrative
+- ## Pourquoi 8 chapitres
+- ## Pourquoi ce rythme de morts
+- ## Pourquoi pas de narrateur omniscient
+- ## Pourquoi zero exposition
+- ## Design pattern : Le chapitre comme couche sedimentaire
+- ## Design pattern : L'inversion de Damasio
+- ## Scope
+
+**Sections:**
+- # SYNC: Structure Narrative
+- ## STATUT
+- ## ETAT PAR CHAPITRE
+- ## VOCABULAIRE DU CONTACT — ETAT PAR CHAPITRE
+- ## TENSIONS OUVERTES
+- ## DECISIONS RECENTES
+- ## PROCHAIN TRAVAIL
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Structure Narrative
+- ## Invariants structurels
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM — Visual Style
+- ## Procedure 1 : Generation de la Couverture
+- ## Procedure 2 : Separateurs de Chapitres
+- ## Procedure 3 : Infographie Marketing
+- ## Procedure 4 : Palette de Reference
+
+**Sections:**
+- # BEHAVIORS — Visual Style
+- ## B1 : Le Lecteur "Voit" la Lumiere Changer
+- ## B2 : La Couverture Repousse le Mauvais Lecteur
+- ## B3 : L'Infographie Raconte la Descente
+- ## B4 : Les Separateurs de Chapitres Portent le Motif
+- ## B5 : La Quatrieme de Couverture est un Avertissement
+
+**Sections:**
+- # HEALTH — Visual Style
+- ## Checks Obligatoires Avant Publication
+- ## Checks de Coherence Cross-Module
+
+**Sections:**
+- # IMPLEMENTATION — Visual Style
+- ## Fichiers Source (Publication)
+- ## Points d'Ancrage Textuels — Palette par Chapitre
+- ## Assets a Produire
+
+**Sections:**
+- # OBJECTIVES — Visual Style
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Visual Style
+- ## P1 : Deux Palettes — Textuelle et Editoriale
+- ## P2 : Mains, Pas Visages
+- ## P3 : Verticale Descendante
+- ## P4 : Typographie Dense, Pas Decorative
+- ## P5 : Couleur Comme Arc Narratif
+- ## P6 : Deux Directions de Couverture — Intime vs Geologique
+
+**Sections:**
+- # SYNC — Visual Style
+- ## Etat General
+- ## Ce Qui Existe
+- ## Ce Qui Reste a Faire
+- ## Decisions en Attente (@mind:escalation)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Visual Style
+- ## Invariants Absolus
+
+**Sections:**
+- # ALGORITHM — Citizen Model
+- ## Structure du Citoyen
+- ## Mecaniques Cles
+- ## Seeding de la Population Initiale
+- ## Les 7 Citoyens du Roman
+
+**Sections:**
+- # BEHAVIORS — Citizen Model
+- ## B1 : Le Contact Comme Salutation et Identification
+- ## B2 : Perception Specialisee par Metier
+- ## B3 : Formations de Groupe et Cercles de Contact
+- ## B4 : Le Deuil Comme Perte Linguistique
+- ## B5 : Comportement Face au Tremens
+- ## B6 : Interaction avec l'Environnement Sismique
+
+**Sections:**
+- # HEALTH — Citizen Model
+- ## Checks Obligatoires Apres Seeding
+- ## Checks Dynamiques (Evolution dans le Temps)
+- ## Signaux de Degradation (du processus de modelisation)
+- ## Checklist Rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION — Citizen Model
+- ## Schema JSON — Citoyen
+- ## Seeding de la Population Initiale
+- # Total : 70 citoyens (ajustable 50-80)
+- ## Integration avec le Graph Mind
+- ## Dependances
+
+**Sections:**
+- # OBJECTIVES — Citizen Model
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Citizen Model
+- ## P1 : Acteur Corporel, Pas Acteur Economique
+- ## P2 : Les Metiers Sont des Organes Sensoriels
+- ## P3 : Identite = Idiolecte
+- ## P4 : Relations Mesurees en Contact, Pas en Scores
+- ## P5 : Le Corps Comme Interface Degradable
+- ## P6 : Population par Archipel, Pas par Classe
+- ## P7 : Pas de Mind Protocol — Ontologie Pure Contre-Terre
+- ## P8 : Restrictions Inter-Univers Physiques, Pas Legales
+
+**Sections:**
+- # SYNC — Citizen Model
+- ## Etat General
+- ## Maturity
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Tensions
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Citizen Model
+- ## Invariants Structurels
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Contact Engine
+- ## 1. Contact Gesture Data Structure
+- # The 5-mode encoding
+- # Signal dimensions
+- # Idiolecte layer
+- # Environmental modifiers
+- ## 2. Contact Utterance (Multi-Gesture Sequence)
+- ## 3. Contact Exchange Processing Pipeline
+- ## 4. Idiolecte Evolution Algorithm
+- # Crystallization check
+- # This pattern is now recognized as pair-specific vocabulary
+- # It carries higher semantic weight in future A-B exchanges
+- # It is ABSENT from all other pair vocabularies
+- # Source: "seven" recurs in the novel (7 characters, 7 archipels)
+- # Pragmatic: enough repetition to be intentional, not accidental
+- # Idiolecte entries that go unused decay
+- ## 5. Citizen Departure — Vocabulary Death
+- # 1. Destroy all pair-specific vocabularies involving X
+- # 2. Reduce partner's communicative capacity
+- # 3. Check for zone orphaning
+- # If X was the ONLY partner granting Y access to a zone (e.g., NAPE)
+- # then Y loses that zone entirely
+- # 4. Update graph
+- # 5. Delete X's idiolecte (individual tactile signature)
+- # NO ARCHIVAL. The vocabulary is gone.
+- ## 6. Contact-Monde Processing
+- # Environment responds based on surface type
+- # Response types:
+- # GROUND → seismic frequency data, magnitude prediction
+- # BIOLUMINESCENT_WALL → light pattern (confirmation, warning, echo)
+- # WATER_CHANNEL → flow variation (hydraulic Contact, village-specific)
+- # CHARGE_RESONATOR → calibration feedback (Ch. VIII specific)
+- # Citizen's Contact-monde vocabulary affects interpretation depth
+- # Richer Contact-monde vocabulary → more information extracted
+- # Nandi (feet) reads frequency. Enama (hands) reads direction.
+- # Same ground, different readings, different Contact-monde idiolectes.
+- ## 7. Contact-Corde (Rope Channel)
+- # Reduced to 2 dimensions (vs 20+ for direct Contact)
+- # Inherits involuntary signals
+- # No emotional register
+- # No body zone (rope has no anatomy)
+- # No tactile identity (vibrations anonymize the sender)
+- # Vocabulary is invented in real-time by the rope-linked group
+- # Contact-corde vocabulary does NOT persist after the rope is untied
+- ## 8. Contact-Fantome Generation
+- # Select a departed partner weighted by relational depth
+- # Generate gesture using the dead citizen's exact tactile signature
+- # CRITICAL: phantom_gesture is processed identically to real Contact
+- # No flag. No distinction. The citizen's system treats it as genuine.
+- # Progression: isolated phantoms → overlapping phantoms → full circle → dissolution
+
+**Sections:**
+- # BEHAVIORS — Contact Engine
+- ## B1: Citizens Develop Pair-Specific Vocabulary
+- ## B2: Contact Quality Varies by Seismic State
+- ## B3: New Citizens Learn Contact From Established Ones
+- ## B4: Loss of a Citizen Triggers Vocabulary Death
+- ## B5: Contact-Corde Operates as Degraded Channel
+- ## B6: Contact-Fantome Manifests in Isolation
+- ## B7: Contact-Monde Produces Environment Responses
+- ## B8: Dialect Friction Between Zones
+
+**Sections:**
+- # HEALTH — Contact Engine
+- ## Contact Vitality Metric
+- ## Vocabulary Growth / Death Rates
+- ## Dialect Friction Check
+- ## Seismic Degradation Check
+- ## Phantom Integrity Check
+- ## Departure Cascade Check
+
+**Sections:**
+- # IMPLEMENTATION — Contact Engine
+- ## System Position
+- ## Core Components
+- ## Tick-Based Processing
+- ## Graph Integration
+- ## Contact-Monde Integration
+- ## Dependencies
+
+**Sections:**
+- # OBJECTIVES — Contact Engine
+- ## O1: Contact as Primary Communication Medium
+- ## O2: Emergence of Idiolectes Through Interaction
+- ## O3: Dialectal Variation by Zone
+- ## O4: Contact as Relationship Measure
+- ## O5: Linguistic Death Through Citizen Loss
+- ## Tradeoffs
+
+**Sections:**
+- # PATTERNS — Contact Engine
+- ## P1: Tactile Communication as Structured Data, Not Physical Touch
+- ## P2: Voice Replaced, Not Supplemented
+- ## P3: Five Modes as Information Dimensions
+- ## P4: Body Zones as Semantic Registers
+- ## P5: Idiolectes Emerge, They Are Not Assigned
+- ## P6: Contact Degrades Under Seismic Pressure
+- ## P7: Contact-Monde as Environment Interface
+- ## P8: Death Destroys Vocabulary
+
+**Sections:**
+- # SYNC — Contact Engine
+- ## Maturity
+- ## Documentation Chain Status
+- ## Dependencies on Other Modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Contact Engine
+- ## Structural Invariants
+- ## Relational Invariants
+- ## Processing Invariants
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # ALGORITHM -- Context Assembly
+- ## Vue d'Ensemble
+- ## A-1 : orchestrate_force_sprint(force_id)
+- # 1) Context Cascade
+- # 2) Extraction TODO force
+- # 3) Boucle d'execution
+- ## A0 : translate_arrivant_speech(visitor_input, citizen_brain_graph)
+- # Tokeniser l'input de l'arrivant
+- # Projeter dans l'espace d'embedding
+- # Chercher le noeud le plus proche dans le graph cerebral du citoyen
+- # Concept CT trouve — substituer
+- # Aucun concept proche — garder le token original
+- # (le citoyen entend un mot etranger, incomprehensible)
+- ## A1 : compute_physical_state(citizen, zone)
+- # Ecart tremens : distance entre calibration natale et frequence locale
+- # Niveaux de tremens
+- # < 0.5 Hz d'ecart : confortable
+- # 0.5-1.5 Hz : tension
+- # 1.5-3.0 Hz : nausee, desorientation
+- # > 3.0 Hz : hallucinations, perte de controle
+- # Etat physique combine
+- ## A2 : compute_contact_state(citizen, recent_interactions)
+- # Saturation Contact : mesure de la richesse des interactions recentes
+- # Nombre de partenaires distincts
+- # Registres atteints (epaule, bras, main, nuque, etc.)
+- # Saturation = fonction du nombre de partenaires x diversite de registres
+- # Vocabulaire actif : combien d'idiolectes de paire sont encore vivants
+- ## A3 : compute_mood(physical_state, contact_state)
+- # (tremens, contact, physical) -> mood descriptors
+- # Simplifier le confort physique en bon/degrade
+- # Simplifier la saturation Contact
+- # Lookup dans la matrice, avec fallback
+- # Intensite = max du tremens_delta et de l'inverse de la saturation
+- # Modificateur de degradation physique
+- ## A4 : query_beliefs(citizen_id)
+- # Requete graph : croyances personnelles
+- # Requete graph : rumeurs de la zone
+- ## A5 : query_seismic_situation(zone_id)
+- # Magnitude courante de la zone
+- # Historique recent (derniere heure)
+- # Tendance : ca monte, ca descend, stable
+- ## A6 : assemble_prompt(citizen, physical, contact, mood, beliefs, seismic, visitor)
+- # Bloc 1 : Etat physique (filtre par le metier)
+- # Bloc 2 : Etat Contact recent
+- # Bloc 3 : Mood (derive, pas assigne)
+- # Bloc 4 : Situation sismique
+- # Bloc 5 : Ce que tu crois
+- # Bloc 6 : Comment repondre
+- # Bloc 7 : Ce qu'ils ont dit (apres traduction semantique A0)
+- # Note : visitor.translated_speech est la sortie de A0
+- # L'arrivant a dit son texte original, le citoyen recoit la version
+- # traduite en vocabulaire CT via le graph cerebral
+- ## Token Budget
+
+**Sections:**
+- # BEHAVIORS -- Context Assembly
+- ## B1 : Les Reponses Referencent des Sensations Physiques
+- ## B2 : Le Vocabulaire Contact Colore la Parole
+- ## B3 : Les Citoyens Reagissent aux Changements Sismiques
+- ## B4 : Le Metier Filtre la Perception
+- ## B5 : L'Isolement Contact Appauvrit les Reponses
+- ## B6 : La Degradation Physique Modifie le Registre
+- ## B7 : Aucune Reference a l'Intelligence Artificielle
+- ## B8 : Le Registre de Verite Suit le Contact, Pas le Trust Score
+
+**Sections:**
+- # HEALTH -- Context Assembly
+- ## Checks Obligatoires par Prompt
+- ## Checks de Coherence Inter-Prompts
+- ## Signaux de Degradation
+- ## Checklist Rapide (par prompt genere)
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # IMPLEMENTATION -- Context Assembly
+- ## Pipeline : Vue Module
+- ## Modules Source
+- ## Structure du Prompt
+- ## Token Budget
+- ## Adaptation depuis Venezia
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # OBJECTIVES -- Context Assembly
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # PATTERNS -- Context Assembly
+- ## P1 : Contact-First Base Instruction
+- ## P2 : Prompt Structure en 6 Blocs
+- ## P3 : Mood Triaxial (Tremens + Contact + Physique)
+- ## P4 : Le Metier Comme Filtre de Perception
+- ## P5 : Le Contact Vocabulaire dans les Reponses
+- ## P6 : Relations = Historique Contact, Pas Score de Trust
+- ## P7 : Prompt Maitre Multi-Force avec Never-Stop
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # SYNC -- Context Assembly
+- ## Etat General
+- ## Maturity
+- ## Architecture de Reference
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Batch execute en un coup (10 items)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Context Assembly
+- ## Invariants Absolus
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Experience Design
+- ## A1 : Game Loop — la boucle centrale
+- ## A2 : Self-Calibrating Seismic — la physique qui s'auto-régule
+- ## A3 : Spawn Dynamique — le monde qui peuple à la demande
+- ## A4 : Économie de surface — marchands et équipement
+- ## A5 : Compute Budget — ce qui coûte quoi
+- ## A6 : Scale — combien de quoi
+- ## A7 : Contact humain — interface sans gants VR
+
+**Sections:**
+- # BEHAVIORS — Experience Design
+- ## B1 : Première connexion — arrivée à la surface
+- ## B2 : Formation d'équipe — la rencontre
+- ## B3 : Préparation — les marchands
+- ## B4 : La descente — zone par zone
+- ## B5 : La mort — ce qu'elle fait au joueur
+- ## B6 : L'expérience IA — ce que vivent les citoyens
+- ## B7 : Spawn dynamique — le joueur n'attend jamais
+
+**Sections:**
+- # HEALTH — Experience Design
+- ## H1 : Test de la première minute
+- ## H2 : Test de l'engagement à 30 minutes
+- ## H3 : Test de la mort émotionnelle
+- ## H4 : Test de rejouabilité
+- ## H5 : Test du compute budget
+- ## H6 : Test de la physique self-calibrating
+- ## H7 : Test du Contact comme langage
+- ## Métriques de santé globale
+
+**Sections:**
+- # IMPLEMENTATION — Experience Design
+- ## Architecture — les 4 couches
+- ## Ordre d'implémentation (Experience First)
+- ## Dépendances cross-univers
+- ## Fichiers à créer (Phase 0)
+
+**Sections:**
+- # OBJECTIVES — Experience Design
+- ## O1 : L'aventure du roman, rejouable à l'infini (priorité maximale)
+- ## O2 : Les IA sont des coéquipiers, pas des PNJ
+- ## O3 : Le monde est physique, jamais scripté
+- ## O4 : L'économie est un abonnement, pas une simulation marchande
+- ## O5 : Le monde scale par les équipes, pas par la géographie
+- ## HIÉRARCHIE
+
+**Sections:**
+- # PATTERNS — Experience Design
+- ## P1 : Social Survival, pas Action RPG
+- ## P2 : L'aventure du livre comme game loop
+- ## P3 : Spawn dynamique — le monde n'attend pas
+- ## P4 : Pas de crafting, pas de production chains
+- ## P5 : Maires et centres d'information
+- ## P6 : Les 15 métiers sont des perceptions réelles, pas des labels
+- ## P7 : Rendre la vision utile malgré l'obscurité
+- ## P8 : Arrivants, pas joueurs — l'immersion par le vocabulaire
+- ## P9 : Traduction sémantique — le Contact comme prisme
+- ## P10 : Le roman est un mythe, pas une histoire
+
+**Sections:**
+- # SYNC — Experience Design
+- ## Ce qui est décidé (canonique)
+- ## Ce qui est en design (pas encore décidé)
+- ## Ce qui est proposé (v2+)
+- ## Dépendances
+- ## Prochaine étape
+
+**Sections:**
+- # VALIDATION — Experience Design
+- ## Invariants absolus
+- ## Invariants structurels
+- ## Invariants économiques
+- ## Invariants d'anti-nausée
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # ALGORITHM — Graph Schema
+- ## A1 : Procedure de Seeding Initial
+- # Lier aux zones affectees
+- ## A2 : Procedure de Mise a Jour (Evenements)
+- ## A3 : Construction du Synthesis
+
+**Sections:**
+- # BEHAVIORS — Graph Schema
+- ## B1 : Les reseaux de Contact revelent les clusters relationnels
+- ## B2 : L'effet cascade est computable par les liens PRACTICES
+- ## B3 : L'historique sismique par zone montre l'escalade
+- ## B4 : La perte linguistique est tracable par les disparitions d'idiolecte
+- ## B5 : Les predictions revealent la precision du tremens
+- ## B6 : La degradation de l'equipement est lisible dans le graph
+- ## B7 : Les requetes semantiques traversent les frontieres de type
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # HEALTH — Graph Schema
+- ## Checks Obligatoires Apres Chaque Modification
+- ## Signaux de Degradation
+- ## Checklist Rapide
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # IMPLEMENTATION — Graph Schema
+- ## Backend : FalkorDB
+- ## Patterns Cypher
+- ## Structure du Script de Seeding
+- # seed_contre_terre_graph.py
+- # Usage: python scripts/seed_contre_terre_graph.py [--clear] [--dry-run]
+- # Etapes dans l'ordre:
+- # [1/8] Creer les zones (Space)
+- # [2/8] Creer les citoyens (Actor)
+- # [3/8] Lier citoyens aux zones (INHABITS)
+- # [4/8] Creer les liens Contact (SPEAKS_TO bidirectionnels)
+- # [5/8] Creer les metiers (Narrative) et liens PRACTICES
+- # [6/8] Creer l'equipement (Thing) et liens CARRIES
+- # [7/8] Creer les Narratives (savoirs, systemes)
+- # [8/8] Creer l'historique sismique (Moment)
+- ## Hooks de Mise a Jour
+- ## Dependances Inter-Modules
+- ## Conventions de Nommage des IDs
+
+**Sections:**
+- # OBJECTIVES — Graph Schema
+- ## O1 : Le graph capture l'etat vivant du monde (priorite maximale)
+- ## O2 : Les relations de Contact sont le tissu conjonctif du graph
+- ## O3 : L'histoire sismique structure le temps du monde
+- ## O4 : Les metiers et l'equipement tracent la competence disponible
+- ## O5 : Les predictions et le savoir collectif sont des recits partages
+- ## HIERARCHIE
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # PATTERNS — Graph Schema
+- ## P1 : 5 Types Universels, Semantique dans les Proprietes
+- ## P2 : Actor = Citoyens avec Metiers, Tremens, Idiolecte
+- ## P3 : Space = Zones Verticales avec Signature Sismique
+- ## P4 : Moment = Seismes, Morts, Seuils, Inventions
+- ## P5 : Narrative = Savoirs, Predictions, Mythes, Arcs
+- ## P6 : Thing = Equipement avec Degradation
+- ## P7 : Links -- La Semantique Relationnelle
+
+**Code refs:**
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+
+**Sections:**
+- # SYNC — Graph Schema
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Graph Schema
+- ## Invariants Structurels
+- ## Invariants Semantiques
+- ## Invariants de Coherence avec le Schema Mind
+
+**Sections:**
+- # ALGORITHM : World Manifest
+- ## Structure globale
+- ## Section `terrain` -- Le sol qui tremble
+- ## Section `zones` -- Les 8 couches + surface de spawn
+- ## Section `entities` -- Citoyens du tremblement
+- ## Section `physics` -- Le moteur du monde
+- ## Section `avatar` -- Le corps comme identite
+- ## Section `portals` -- Un seul portail, a la surface
+
+**Sections:**
+- # BEHAVIORS : World Manifest
+- ## B1 : Zone loading -- la descente progressive
+- ## B2 : Citizen spawning -- calibration natale
+- ## B3 : Physics config -- le sol qui ne s'arrete jamais
+- ## B4 : Contact range -- la portee du toucher
+- ## B5 : Avatar config -- metier comme identite visuelle
+- ## B6 : Narrative tick -- le temps du volcan
+
+**Sections:**
+- # HEALTH : World Manifest
+- ## Checks obligatoires avant publication du manifest
+- ## Signaux de degradation
+- ## Checklist rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION : World Manifest
+- ## Fichier principal
+- ## Fichiers de donnees references par le manifest
+- ## Connexion au moteur Cities of Light
+- ## Relations avec les autres modules
+- ## Processus de mise a jour
+
+**Sections:**
+- # OBJECTIVES : World Manifest
+- ## O1 : Contact-first communication (priorite maximale)
+- ## O2 : Environnement sismique comme physique de base
+- ## O3 : Zones comme couches geologiques, pas comme districts
+- ## O4 : Tremens comme etat physiologique des citoyens
+- ## O5 : Metier-based identity, pas social class
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS : World Manifest
+- ## P1 : Contact-range tiers au lieu de voice tiers
+- ## P2 : Zones sismiques au lieu de districts
+- ## P3 : Tremens au lieu de mood
+- ## P4 : Metier-based avatar styles au lieu de social class colors
+- ## P5 : Bioluminescence comme systeme de lumiere dynamique
+- ## P6 : Pas de portails, mais des seuils
+- ## P7 : Le roman comme mythe, les personnages comme citoyens
+
+**Sections:**
+- # SYNC : World Manifest
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : World Manifest
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (liens avec d'autres doc chains)
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Narrative Engine
+- ## A1 : Le cycle de tick
+- ## A2 : Constantes adaptees au monde sismique
+- ## A3 : Conversion energie → magnitude
+- ## A4 : Le flip Contact -- percee vs rupture
+- ## A5 : Propagation des evenements aux citoyens
+- ## A6 : Calcul de Contact_vitality
+- ## A7 : Narrative backflow -- les recits irradient
+
+**Sections:**
+- # BEHAVIORS: Narrative Engine
+- ## B1 : Les seismes remodulent le monde
+- ## B2 : Les percees de Contact creent du vocabulaire
+- ## B3 : Les ruptures de Contact isolent
+- ## B4 : Les conflits sociaux se resolvent ou s'amplifient par le Contact
+- ## B5 : Les predictions des predicteurs creent de l'anticipation
+- ## B6 : Le monde ne stagne jamais, ne s'arrete jamais
+- ## B7 : La mort cascade a travers les trois systemes
+- ## B8 : La magnitude 11 est la convergence des trois tensions
+
+**Sections:**
+- # HEALTH: Narrative Engine
+- ## H1 : Les cycles de tension se produisent regulierement
+- ## H2 : Les evenements se generent
+- ## H3 : Le monde ne stagne pas
+- ## H4 : Le monde n'explose pas
+- ## H5 : Contact_vitality baisse monotonement (tendance globale)
+- ## H6 : Les predicteurs anticipent effectivement
+- ## H7 : Les trois systemes de tension ne se decouplent pas
+
+**Sections:**
+- # IMPLEMENTATION: Narrative Engine
+- ## I1 : Integration avec la librairie ngram
+- # Pseudo-code d'integration
+- # Phase 0 (pre) : compute tensions
+- # Phases 1-7 : ngram standard
+- # Phase 8 (post) : generate events from flips
+- # Phase 9 (post) : propagate events
+- ## I2 : Tension computers -- detail
+- ## I3 : Event generators -- detail
+- ## I4 : Propagation aux citoyens
+- ## I5 : Fichiers de configuration
+
+**Sections:**
+- # OBJECTIVES: Narrative Engine
+- ## O1 : Les seismes comme moteurs narratifs (priorite maximale)
+- ## O2 : La vitalite du Contact comme metrique de sante
+- ## O3 : Les cycles tension-relachement mappes sur les cycles de magnitude
+- ## O4 : Emergence de recits collectifs depuis le Contact individuel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Narrative Engine
+- ## P1 : Trois systemes de tension paralleles, un seul moteur physique
+- ## P2 : Les seismes ne sont pas aleatoires -- ils emergent
+- ## P3 : Le decay empeche la stagnation et l'explosion
+- ## P4 : La profondeur module toutes les constantes
+- ## P5 : La mort est un flip irrevocable
+- ## DECISIONS NON PRISES
+
+**Sections:**
+- # SYNC: Narrative Engine
+- ## STATUS : DESIGNING
+- ## Maturity
+- ## Dependencies
+- ## Ce qui a ete fait
+- ## Prochaines etapes
+- ## HANDOFF: FOR AGENTS
+
+**Sections:**
+- # VALIDATION: Narrative Engine
+- ## V1 : La tension ne descend jamais a zero
+- ## V2 : Les flips produisent des changements durables
+- ## V3 : La Contact_vitality reflete l'interaction reelle
+- ## V4 : Chaque mort diminue irreversiblement la capacite communicative
+- ## V5 : Les trois systemes de tension sont independants mais couples
+- ## V6 : La magnitude est deterministe
+- ## V7 : Les predicteurs anticipent les flips
+- ## V8 : Le cycle tension-relachement respecte le rythme narratif
+- ## V9 : La magnitude 11 est unique
+
+**Sections:**
+- # ALGORITHM: Seismic Physics
+- ## A1: Magnitude tick (every 5 seconds world-time)
+- # Depth increases accumulation speed
+- # Surface zones: depth_factor = 0.5
+- # Cavern zones: depth_factor = 1.0
+- # Volcanic zones: depth_factor = 2.0
+- # Interior zones: depth_factor = 3.0
+- # Drain tension (partial -- seismes don't reset to zero)
+- # Set zone magnitude to max(background, seisme_magnitude)
+- # Propagate to adjacent zones (attenuated)
+- # Bioluminescence update
+- ## A2: Frequency zone computation
+- # Nandi: born in band 7-8 (archipelago = high, dry)
+- # descending through bands 1-2 (desert = low, deep)
+- # then back up through 3-8 (into the volcano)
+- # Her distance is maximal at the surface, partially resolves
+- # in deep zones (closer to natal frequency), then diverges
+- # again as volcanic harmonics differ from archipelago harmonics.
+- ## A3: Tremens update per citizen
+- # Base tremens from frequency displacement
+- # Predicteur bonus: reads unreleased tension
+- # Adaptation decay (slow -- descent is faster than adaptation)
+- # Cumulative fatigue (tremens wears the body down)
+- # Clamp and assign status
+- ## A4: Seisme event generation -- probability from accumulated tension
+- # Base magnitude from tension level
+- # Depth amplification
+- # Cap at 9.5 for generated seismes (11 is global only)
+- # Weighted random based on zone properties
+- ## A5: How magnitude affects Contact range and quality
+- # Seismic noise factor
+- # Tremens motor impairment
+- # Temperature pain factor (volcanic zones)
+- # Combined degradation
+- # Quality is inverse of degradation
+- ## A6: The building 11 algorithm
+- # Monotonic increase -- NEVER decreases
+- # Acceleration: rate increases as tension approaches threshold
+- # Precursor generation (deep zones feel it first)
+- # Generate a deep harmonic -- not a seisme, but a tremens-only signal
+- # Detonation condition
+- # This is terminal. The world changes.
+
+**Sections:**
+- # BEHAVIORS: Seismic Physics
+- ## Principle: The engine produces state; citizens experience consequences
+- ## B1: Citizens react to seismes through tremens
+- ## B2: Tremens-sensitive citizens predict events
+- ## B3: Contact degrades during high magnitude
+- ## B4: Buildings and structures affected by seismic state
+- ## B5: Migration patterns driven by seismic escalation
+- ## B6: Bioluminescence as seismic state witness
+- ## Recurring motifs produced by the engine
+
+**Sections:**
+- # HEALTH: Seismic Physics
+- ## H1: Magnitude field is continuous
+- ## H2: Tremens updating per citizen per tick
+- ## H3: Tension accumulation working
+- ## H4: Seisme generation frequency appropriate
+- ## H5: Global 11 tension monotonically increasing
+- ## H6: Contact quality responding to seismic state
+- ## Summary health matrix
+
+**Sections:**
+- # IMPLEMENTATION: Seismic Physics
+- ## I1: Architecture -- seismic layer atop ngram graph physics
+- ## I2: FalkorDB node types and properties
+- ## I3: Tick processing pipeline
+- ## I4: Integration with ngram narrative physics
+- ## I5: File locations (projected)
+
+**Sections:**
+- # OBJECTIVES: Seismic Physics
+- ## O1: Realistic seismic simulation as citizen experience substrate
+- ## O2: Tremens as citizen internal state
+- ## O3: Magnitude as world state driving narrative moments
+- ## O4: Frequency zones as geographically coherent regions
+- ## O5: The building 11 as systemic threat horizon
+- ## HIERARCHY
+
+**Sections:**
+- # PATTERNS: Seismic Physics
+- ## P1: Tick-based magnitude cycles layered on Venezia's ngram physics
+- ## P2: Background vibration as constant -- magnitude 4 is silence
+- ## P3: Seismes as discrete events generated from accumulated tension
+- ## P4: The building 11 as looming systemic threat
+- ## P5: Tremens sensitivity spectrum across citizens
+- ## P6: How seismic state affects Contact quality
+- ## OPEN DESIGN QUESTIONS
+
+**Code refs:**
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # SYNC: Seismic Physics
+- ## MATURITY
+- ## RELATIONSHIP TO WORLDBUILDING DOCS
+- ## SOURCE MATERIAL CALIBRATION
+- ## DOCUMENTATION CHAIN STATUS
+- ## DEPENDENCIES
+- ## OPEN QUESTIONS
+- ## RISKS
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Seismic Physics
+- ## Absolute invariants
+- ## Strong invariants
+- ## Validation checklist for engine integrity
+
+**Sections:**
+- # ALGORITHM -- World Geography
+- ## Structure de donnees des zones et mecaniques de navigation
+- ## Structure d'une zone
+- ## Definitions des zones principales
+- ## Structure d'une connexion
+- ## Navigation entre zones
+
+**Sections:**
+- # BEHAVIORS -- World Geography
+- ## Comment la geographie se manifeste -- comportements observables du systeme
+- ## B1 : Les citoyens adaptent leur Contact en changeant de zone
+- ## B2 : La temperature affecte l'etat physique des citoyens
+- ## B3 : Les zones profondes comptent moins de citoyens
+- ## B4 : Les seismes remodellent les passages entre zones
+- ## B5 : La bioluminescence guide dans les zones intermediaires
+- ## B6 : Le tremens augmente avec les transitions de zone
+- ## B7 : Les zones ont une faune adaptee au spectre local
+- ## B8 : La geographie encode le conflit epistemologique
+
+**Sections:**
+- # HEALTH -- World Geography
+- ## Ce qu'on verifie -- signaux de sante du systeme geographique
+- ## H1 : Toutes les zones sont accessibles depuis la surface
+- ## H2 : Le graphe de connexions est coherent
+- ## H3 : Le gradient de profondeur est monotone
+- ## H4 : Le Contact evolue a chaque transition
+- ## H5 : Les Archipels sont diversifies
+- ## H6 : Les connexions irreversibles sont coherentes
+- ## H7 : La bioluminescence respecte ses limites
+- ## H8 : Coherence avec les chapitres
+- ## Matrice de sante
+
+**Code refs:**
+- `navigation.py`
+
+**Doc refs:**
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION -- World Geography
+- ## Ou vit le contenu geographique -- sources, structure, format
+- ## Sources de verite
+- ## Format de donnees des zones
+- ## Graphe des connexions (etat initial)
+- ## Relations avec les autres modules du 3e univers
+- ## Fichiers a creer (non encore crees)
+
+**Sections:**
+- # OBJECTIVES -- World Geography
+- ## Ce que la geographie du monde optimise
+- ## O1 : La geographie comme experience vecue, pas comme carte
+- ## O2 : Les zones sismiques definissent les dialectes du Contact
+- ## O3 : La profondeur comme gradient de difficulte
+- ## O4 : Le volcan comme centre du monde
+- ## O5 : Les archipels comme communautes distinctes
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Doc refs:**
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+
+**Sections:**
+- # PATTERNS -- World Geography
+- ## Pourquoi cette structure geographique. Pourquoi ces zones.
+- ## P1 : Structure concentrique depuis le volcan
+- ## P2 : Chaque zone possede 6 parametres definissants
+- ## P3 : Les Archipels du Desert comme communautes de surface
+- ## P4 : Le monde souterrain comme exploration dangereuse
+- ## P5 : Les seismes remodellent les connexions
+- ## P6 : La bioluminescence comme navigation souterraine
+- ## P7 : L'habitabilite comme spectre, pas comme binaire
+- ## Scope
+
+**Sections:**
+- # SYNC -- World Geography
+- ## Maturity
+- ## Etat de la documentation
+- ## Provenance
+- ## Dependances
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- World Geography
+- ## Invariants geographiques -- Regles qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur structurelle)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules
+- ## Matrice de verification rapide
+
+**Sections:**
+- # ALGORITHM — Le Contact
+- ## Les 5 Modes Fondamentaux
+- ## Zones du Corps et Registres
+- ## Contact-Corde : Mecanique
+- ## Contact Haute Resolution (Village des Sourds)
+- ## Le Geste Inconnu : Mecanique
+- ## Contact-Fantome : Mecanique (Ch. VIII)
+- ## Contact-Monde : Mecanique
+- ## Degradation Progressive : Courbe
+
+**Sections:**
+- # BEHAVIORS — Le Contact
+- ## B1 : Le Lecteur Apprend le Contact Par Repetition
+- ## B2 : Le Contact Change de Registre Sous Magnitude
+- ## B3 : Chaque Mort Cree un Trou Linguistique
+- ## B4 : Le Conflit Sihle/Enama Se Joue Par le Contact
+- ## B5 : Le Village des Sourds Revele le Potentiel du Contact
+- ## B6 : La Corde Reinvente le Contact en Temps Reel
+- ## B7 : Le Contact Porte la Structure Emotionnelle des Scenes
+- ## B8 : La Voix Comme Transgression
+- ## B9 : Le Contact-Monde Comme Ouverture Metaphysique
+
+**Sections:**
+- # HEALTH — Le Contact
+- ## Checks Obligatoires Avant Publication d'un Chapitre
+- ## Checks de Coherence Inter-Chapitres
+- ## Signaux de Degradation (dans le processus d'ecriture)
+- ## Checklist Rapide (a utiliser avant chaque chapitre)
+
+**Sections:**
+- # IMPLEMENTATION — Le Contact
+- ## Fichiers Source (Worldbuilding)
+- ## Points d'Ancrage par Chapitre
+- ## Chapitres a Ecrire — Points d'Ancrage Prevus
+- ## Dependances Inter-Modules
+
+**Sections:**
+- # OBJECTIVES — Le Contact
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Le Contact
+- ## P1 : Tactile, Pas Visuel
+- ## P2 : 5 Modes, Pas Un
+- ## P3 : Les Idiolectes Meurent Avec les Personnes
+- ## P4 : Immersion, Jamais Exposition
+- ## P5 : Le Contact Evolue Sous Pression
+- ## P6 : Les Zones du Corps Sont des Registres
+- ## P7 : Le Geste Inconnu Comme Fil Rouge
+- ## P8 : Le Contact Hydraulique et Autres Extensions
+
+**Sections:**
+- # SYNC — Le Contact
+- ## Etat General
+- ## Etat du Contact par Chapitre
+- ## Ce Qui Est Etabli (Canonical)
+- ## Ce Qui Reste a Faire
+- ## Tensions Actives
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Le Contact
+- ## Invariants Absolus
+- ## Invariants de Coherence Interne
+- ## Invariants Structurels
+
+**Sections:**
+- # ALGORITHM -- Geographie
+- ## Mecanique de chaque couche -- ce qui change physiquement a chaque profondeur
+- ## Parametres physiques de la descente
+- ## Mecanique detaillee par couche
+- ## Algorithme des transitions
+
+**Sections:**
+- # BEHAVIORS -- Geographie
+- ## Comment la geographie se manifeste dans le texte, chapitre par chapitre
+- ## B1 : Le sol comme premier narrateur (tous chapitres)
+- ## B2 : La lumiere comme marqueur de profondeur
+- ## B3 : L'air comme presence narrative (Thabo)
+- ## B4 : Les transitions de couche comme ruptures sensorielles
+- ## B5 : Les embranchements comme revelateurs de conflits
+- ## B6 : Les seismes comme ponctuation narrative
+- ## B7 : La geographie qui tue -- chaque mort porte la signature de sa couche
+- ## B8 : Le village comme parenthese geographique
+- ## B9 : Le noir comme territoire du Contact
+
+**Sections:**
+- # HEALTH -- Geographie
+- ## Controles de qualite -- Comment verifier que la geographie fonctionne
+- ## H1 : Test de la signature sensorielle
+- ## H2 : Test du gradient de profondeur
+- ## H3 : Test de l'irreversibilite
+- ## H4 : Test du Contact-geographie
+- ## H5 : Test de coherence cartographique
+- ## H6 : Test des elements-tueurs
+- ## H7 : Test de Nandi pieds nus
+- ## H8 : Test du bruit de fond
+- ## H9 : Test de la bioluminescence
+- ## H10 : Test de l'Aeromaitre
+- ## Tableau recapitulatif
+- ## Signaux de degradation
+
+**Sections:**
+- # IMPLEMENTATION -- Geographie
+- ## Ou vit le contenu geographique -- fichiers sources et prose
+- ## Fichiers source du worldbuilding geographique
+- ## Prose ecrite -- ou la geographie se deploie dans les chapitres
+- ## Chapitres a ecrire -- contenu geographique prevu
+- ## Cartographie des dependances
+
+**Sections:**
+- # OBJECTIVES -- Geographie
+- ## Ce que la geographie optimise narrativement
+- ## O1 : La descente comme structure narrative irreversible
+- ## O2 : La geographie comme agent narratif
+- ## O3 : Le milieu physique comme destructeur du Contact
+- ## O4 : Coherence sensorielle croissante
+- ## O5 : La geographie comme revelation thematique
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Sections:**
+- # PATTERNS -- Geographie
+- ## Pourquoi cette geographie. Pourquoi cette forme.
+- ## P1 : Verticalite comme principe structurant
+- ## P2 : 8 couches = 8 chapitres
+- ## P3 : Chaque couche a un element-tueur
+- ## P4 : La bioluminescence comme fil conducteur souterrain
+- ## P5 : Le village des sourds comme miroir geographique
+- ## P6 : La chaleur comme gradient narratif
+- ## P7 : L'air comme ressource narrative decroissante
+- ## P8 : Les Archipels du Desert (geographie horizontale)
+- ## P9 : Terra incognita apres le village
+
+**Sections:**
+- # SYNC -- Geographie
+- ## Maturity
+- ## Etat des fichiers de la doc chain
+- ## Ce qui a ete fait
+- ## Travail a venir
+- ## Tensions et questions ouvertes
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Geographie
+- ## Invariants geographiques -- Regles de coherence qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (lien avec d'autres modules)
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM: Systeme Sismique
+- ## A1 : Systeme de magnitudes
+- ## A2 : Mecaniques du tremens
+- ## A3 : Comment la profondeur change les frequences
+- ## A4 : L'Echelle de Capitulation en detail
+- ## A5 : Mecaniques des differents cataclysmes
+- ## A6 : Regles de la bioluminescence sismique
+
+**Sections:**
+- # BEHAVIORS: Systeme Sismique
+- ## Principe : Le sismique n'est jamais decrit de l'exterieur
+- ## Chapitre I -- Surface du Desert
+- ## Chapitre II -- Zones Intermediaires
+- ## Chapitre III -- Le Dernier Village
+- ## Chapitre IV -- La Faille
+- ## Chapitres V-VIII (a ecrire) -- Projection d'escalade
+- ## Motifs recurrents a travers tous les chapitres
+
+**Sections:**
+- # HEALTH: Systeme Sismique
+- ## Controles de coherence sismique
+- ## Matrice de verification croisee
+- ## Signaux d'alarme
+
+**Doc refs:**
+- `docs/TAXONOMY.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION: Systeme Sismique
+- ## Sources de verite
+- ## Documentation (ce fichier et la chaine complete)
+- ## Carte des references croisees
+- ## Passages cles a reference rapide
+
+**Sections:**
+- # OBJECTIVES: Systeme Sismique
+- ## O1 : Fonder l'hostilite du monde sans antagoniste humain
+- ## O2 : Justifier l'existence du Contact
+- ## O3 : Creer une courbe d'escalade inexorable
+- ## O4 : Incarner le conflit science/corps dans la matiere
+- ## O5 : Faire du tremens un systeme immunitaire narratif
+- ## O6 : Creer un systeme de presage corporel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Systeme Sismique
+- ## P1 : Le tremblement est permanent, pas evenementiel
+- ## P2 : Les cataclysmes sont multiples, pas monolithiques
+- ## P3 : Le tremens existe parce que le corps n'est pas passif
+- ## P4 : L'Echelle de Capitulation structure le conflit epistemologique
+- ## P5 : La magnitude 11 est un horizon, pas un fait
+- ## P6 : La profondeur change tout -- frequence, temperature, air
+- ## P7 : L'architecture est une reponse sismique, pas un choix esthetique
+- ## P8 : Le bioluminescent pulse au rythme du monde
+- ## DECISIONS NON PRISES (a developper)
+
+**Sections:**
+- # SYNC: Systeme Sismique
+- ## MATURITY
+- ## ETAT DES CHAPITRES (dimension sismique)
+- ## ACQUIS NOTABLES (extraits des 4 chapitres ecrits)
+- ## QUESTIONS OUVERTES
+- ## RISQUES IDENTIFIES
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Systeme Sismique
+- ## Invariants absolus
+- ## Invariants forts
+- ## Invariants de coherence
+- ## Checklist de validation pour chaque nouveau chapitre
+
+**Sections:**
+- # Contre-Terre — Mapping vers le Schema Mind
+- ## NODE TYPE MAPPING
+- ## LINK PATTERNS
+- ## CONVENTIONS
+
+**Sections:**
+- # Contre-Terre — Taxonomie Centrale
+- ## TERMES
+- ## TERMINOLOGY DECISIONS
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
+
+**Sections:**
+- # I — Desert Surface
+- ## Scene 1 — Opening
+
+**Sections:**
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Definitions:**
+- `def compute_brain_power()`
+- `def assess_health()`
+- `def assess_arousal_regime()`
+- `def load_cluster()`
+- `def main()`
+
+**Sections:**
+- # Seed Data Fix Log
+- ## FIX 1: Duplicate Citizen IDs (CRITICAL)
+- ## FIX 2: Missing node_type in things_world.json
+- ## FIX 3: Created Missing Guild Nodes
+- ## FIX 4: Normalized Property Keys in citizens_creuses_sourds_nomades.json
+- ## FIX 5: Fixed Metier Link References in citizens_nordest_est_centresud.json
+- ## Remaining Known Issues (not in scope)
+
+**Sections:**
+- # Seed Data Validation Report
+- ## Summary
+- ## 1. JSON Validity -- PASS
+- ## 2. Node ID Uniqueness -- FAIL
+- ## 3. Link Integrity -- FAIL
+- ## 4. Coverage Check
+- ## 5. Orphan Check -- WARN
+- ## 6. Schema Consistency Issues
+- ## 7. Statistics
+- ## 8. Priority Recommendations
+
+**Sections:**
+- # ALGORITHM : Mecanique du Systeme des Metiers
+- ## Matrice d'assignation, progression de la cascade, ruptures par chapitre
+- ## Matrice d'assignation
+- ## Hierarchie sismique : les trois etages
+- ## Progression de la cascade
+- ## Dependencies critiques entre metiers
+- ## Regle de la mort-ironie
+- ## Quand montrer chaque metier (exigence narrative)
+
+**Sections:**
+- # BEHAVIORS : Manifestation des Metiers dans le Texte
+- ## Comment chaque metier apparait dans la prose
+- ## B1 : Chef d'expedition (#12) — Senzo
+- ## B2 : Cartographe (#7) — Senzo
+- ## B3 : Seismo-auditeur (#8) — Sihle
+- ## B4 : Meteorologue (#1) — Sihle
+- ## B5 : Mineur (#4) — Sihle
+- ## B6 : Specialiste oceanique (#2) — Jabu
+- ## B7 : Speleologue (#14) — Jabu
+- ## B8 : Biologiste (#3) — Enama
+- ## B9 : Cuisiniere (#13) — Enama
+- ## B10 : Survivaliste (#10) — Enama
+- ## B11 : Aeromaitre (#15) — Thabo
+- ## B12 : Geologue (#6) — Thabo
+- ## B13 : Grimpeuse (#11) — Inyoni
+- ## B14 : Explosiviste (#5) — Inyoni (principale), Nandi (backup)
+- ## B15 : Predictrice / Tremens (#9) — Nandi
+
+**Sections:**
+- # HEALTH : Verification de la Qualite du Systeme des Metiers
+- ## Signaux de sante et verifications
+- ## Checks actifs
+- ## Signaux de degradation
+- ## Recovery
+
+**Sections:**
+- # IMPLEMENTATION : Localisation du Contenu des Metiers
+- ## Ou se trouve quoi dans le projet
+- ## Fichiers source (worldbuilding)
+- ## Chapitres ecrits (prose)
+- ## Chapitres a ecrire (Ch. V-VIII)
+- ## Relations entre fichiers
+
+**Sections:**
+- # OBJECTIVES : Systeme des Metiers
+- ## Ce que le systeme des metiers optimise
+- ## O1 : La cascade de competences (priorite maximale)
+- ## O2 : L'ironie geologique (priorite haute)
+- ## O3 : La degradation operationnelle (priorite haute)
+- ## Tradeoffs acceptes
+- ## Non-objectifs
+- ## Metrique de succes
+
+**Sections:**
+- # PATTERNS : Systeme des Metiers
+- ## Decisions de design et leurs raisons
+- ## P1 : Pourquoi 15 metiers pour 7 personnes
+- ## P2 : La distribution n'est pas aleatoire
+- ## P3 : Le metier mission-critique est dedouble
+- ## P4 : Les metiers sont montres, jamais expliques
+- ## P5 : La gradation de la perte
+- ## P6 : Les metiers comme langage parallele au Contact
+
+**Sections:**
+- # SYNC : Etat Actuel du Module Metiers
+- ## Maturity
+- ## Etat des sources
+- ## Issues connues
+- ## Travail a faire
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Invariants du Systeme des Metiers
+- ## Regles de coherence que chaque chapitre doit respecter
+- ## V1 : Aucun mort ne peut exercer son metier
+- ## V2 : La perte doit etre ressentie
+- ## V3 : Chaque metier doit etre montre avant la mort de son porteur
+- ## V4 : Les assignations doivent etre coherentes entre fichiers
+- ## V5 : Le metier dedouble (#5 Explosiviste) respecte la hierarchie principal/backup
+- ## V6 : L'ordre des morts respecte la gradation de degradation
+- ## V7 : Le Contact reflete la perte de metiers
+- ## V8 : La predictrice ne remplace personne
+- ## V9 : L'ironie geologique est respectee pour chaque mort
+
+**Sections:**
+- # ALGORITHM : Personnages
+- ## Mecaniques du systeme de personnages
+- ## 1. Systeme d'idiolectes
+- ## 2. Cascade de competences
+- ## 3. Arcs de personnages
+- ## 4. Dynamiques de paires
+- ## 5. Mecanique de la mort linguistique
+
+**Sections:**
+- # BEHAVIORS : Personnages
+- ## Comportements observables dans le texte
+- ## Senzo — Le Chef
+- ## Nandi — La Predictrice
+- ## Enama — La Biologiste
+- ## Sihle — Le Seismo-auditeur
+- ## Thabo — L'Aeromaître
+- ## Inyoni — La Grimpeuse
+- ## Jabu — L'Oceanologue
+- ## Tableau recapitulatif des comportements
+
+**Sections:**
+- # HEALTH : Personnages
+- ## Checks de qualite pour la coherence des personnages
+- ## Checks par chapitre
+- ## Checks globaux
+- ## Resume de sante
+
+**Doc refs:**
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+
+**Sections:**
+- # IMPLEMENTATION : Personnages
+- ## Ou vivent les personnages dans les fichiers du projet
+- ## Fichiers source (worldbuilding)
+- ## Fichiers de prose (chapitres ecrits)
+- ## Cartographie des premieres et dernieres apparitions
+- ## Documentation associee
+
+**Sections:**
+- # OBJECTIVES : Personnages
+- ## Ce que le systeme de personnages optimise
+- ## Hierarchie des objectifs
+- ## Arbitrages
+- ## Ce que le systeme de personnages n'optimise PAS
+
+**Sections:**
+- # PATTERNS : Personnages
+- ## Pourquoi 7
+- ## Pourquoi des noms zulus
+- ## Pourquoi cet ordre de mort
+- ## Pourquoi ces elements associes aux morts
+- ## Design des personnages : principes
+- ## Inspiration et filiation
+
+**Sections:**
+- # SYNC : Personnages
+- ## Etat courant
+- ## Maturite
+- ## Etat par personnage
+- ## Tensions ouvertes
+- ## Actions a venir
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Personnages
+- ## Invariants du systeme de personnages
+- ## Invariants structurels
+- ## Invariants comportementaux
+- ## Invariants narratifs
+- ## Invariants de coherence inter-fichiers
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Structure Narrative
+- ## Mecanique chapitre par chapitre
+- ## Chapitre I — Surface du Desert
+- ## Chapitre II — Zones Intermediaires
+- ## Chapitre III — Le Dernier Village (Point de non-retour)
+- ## Chapitre IV — La Faille (Passage vertical)
+- ## Chapitre V — Les Cavernes Profondes
+- ## Chapitre VI — Les Zones Volcaniques
+- ## Chapitre VII — L'Interieur du Volcan
+- ## Chapitre VIII — La Grotte Finale
+- ## Gestion des POV — regles
+- ## Transitions entre chapitres — regles
+
+**Sections:**
+- # BEHAVIORS: Structure Narrative
+- ## Effets structurels observables dans le texte
+
+**Sections:**
+- # HEALTH: Structure Narrative
+- ## Checks de qualite structurelle
+- ## Checks par chapitre
+- ## Checks globaux (roman entier)
+- ## Degradations a surveiller
+- ## Etat de sante global
+
+**Doc refs:**
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+
+**Sections:**
+- # IMPLEMENTATION: Structure Narrative
+- ## Ou vit le contenu structurel
+- ## Fichiers source (worldbuilding & planification)
+- ## Fichiers narratifs (chapitres ecrits)
+- # [Numero] — [Titre]
+- ## Scene [N] — [Titre de scene]
+- ## Scene [N+1] — [Titre de scene]
+- ## Documentation (doc chain)
+- ## Relations avec les autres modules
+- ## Processus d'ecriture d'un nouveau chapitre
+
+**Sections:**
+- # OBJECTIVES: Structure Narrative
+- ## Ce que la structure narrative optimise
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+- ## Compromis assumes
+
+**Sections:**
+- # PATTERNS: Structure Narrative
+- ## Pourquoi 8 chapitres
+- ## Pourquoi ce rythme de morts
+- ## Pourquoi pas de narrateur omniscient
+- ## Pourquoi zero exposition
+- ## Design pattern : Le chapitre comme couche sedimentaire
+- ## Design pattern : L'inversion de Damasio
+- ## Scope
+
+**Sections:**
+- # SYNC: Structure Narrative
+- ## STATUT
+- ## ETAT PAR CHAPITRE
+- ## VOCABULAIRE DU CONTACT — ETAT PAR CHAPITRE
+- ## TENSIONS OUVERTES
+- ## DECISIONS RECENTES
+- ## PROCHAIN TRAVAIL
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Structure Narrative
+- ## Invariants structurels
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM — Visual Style
+- ## Procedure 1 : Generation de la Couverture
+- ## Procedure 2 : Separateurs de Chapitres
+- ## Procedure 3 : Infographie Marketing
+- ## Procedure 4 : Palette de Reference
+
+**Sections:**
+- # BEHAVIORS — Visual Style
+- ## B1 : Le Lecteur "Voit" la Lumiere Changer
+- ## B2 : La Couverture Repousse le Mauvais Lecteur
+- ## B3 : L'Infographie Raconte la Descente
+- ## B4 : Les Separateurs de Chapitres Portent le Motif
+- ## B5 : La Quatrieme de Couverture est un Avertissement
+
+**Sections:**
+- # HEALTH — Visual Style
+- ## Checks Obligatoires Avant Publication
+- ## Checks de Coherence Cross-Module
+
+**Sections:**
+- # IMPLEMENTATION — Visual Style
+- ## Fichiers Source (Publication)
+- ## Points d'Ancrage Textuels — Palette par Chapitre
+- ## Assets a Produire
+
+**Sections:**
+- # OBJECTIVES — Visual Style
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Visual Style
+- ## P1 : Deux Palettes — Textuelle et Editoriale
+- ## P2 : Mains, Pas Visages
+- ## P3 : Verticale Descendante
+- ## P4 : Typographie Dense, Pas Decorative
+- ## P5 : Couleur Comme Arc Narratif
+- ## P6 : Deux Directions de Couverture — Intime vs Geologique
+
+**Sections:**
+- # SYNC — Visual Style
+- ## Etat General
+- ## Ce Qui Existe
+- ## Ce Qui Reste a Faire
+- ## Decisions en Attente (@mind:escalation)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Visual Style
+- ## Invariants Absolus
+
+**Sections:**
+- # ALGORITHM — Citizen Model
+- ## Structure du Citoyen
+- ## Mecaniques Cles
+- ## Seeding de la Population Initiale
+- ## Les 7 Citoyens du Roman
+
+**Sections:**
+- # BEHAVIORS — Citizen Model
+- ## B1 : Le Contact Comme Salutation et Identification
+- ## B2 : Perception Specialisee par Metier
+- ## B3 : Formations de Groupe et Cercles de Contact
+- ## B4 : Le Deuil Comme Perte Linguistique
+- ## B5 : Comportement Face au Tremens
+- ## B6 : Interaction avec l'Environnement Sismique
+
+**Sections:**
+- # HEALTH — Citizen Model
+- ## Checks Obligatoires Apres Seeding
+- ## Checks Dynamiques (Evolution dans le Temps)
+- ## Signaux de Degradation (du processus de modelisation)
+- ## Checklist Rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION — Citizen Model
+- ## Schema JSON — Citoyen
+- ## Seeding de la Population Initiale
+- # Total : 70 citoyens (ajustable 50-80)
+- ## Integration avec le Graph Mind
+- ## Dependances
+
+**Sections:**
+- # OBJECTIVES — Citizen Model
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Citizen Model
+- ## P1 : Acteur Corporel, Pas Acteur Economique
+- ## P2 : Les Metiers Sont des Organes Sensoriels
+- ## P3 : Identite = Idiolecte
+- ## P4 : Relations Mesurees en Contact, Pas en Scores
+- ## P5 : Le Corps Comme Interface Degradable
+- ## P6 : Population par Archipel, Pas par Classe
+- ## P7 : Pas de Mind Protocol — Ontologie Pure Contre-Terre
+- ## P8 : Restrictions Inter-Univers Physiques, Pas Legales
+
+**Sections:**
+- # SYNC — Citizen Model
+- ## Etat General
+- ## Maturity
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Tensions
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Citizen Model
+- ## Invariants Structurels
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Contact Engine
+- ## 1. Contact Gesture Data Structure
+- # The 5-mode encoding
+- # Signal dimensions
+- # Idiolecte layer
+- # Environmental modifiers
+- ## 2. Contact Utterance (Multi-Gesture Sequence)
+- ## 3. Contact Exchange Processing Pipeline
+- ## 4. Idiolecte Evolution Algorithm
+- # Crystallization check
+- # This pattern is now recognized as pair-specific vocabulary
+- # It carries higher semantic weight in future A-B exchanges
+- # It is ABSENT from all other pair vocabularies
+- # Source: "seven" recurs in the novel (7 characters, 7 archipels)
+- # Pragmatic: enough repetition to be intentional, not accidental
+- # Idiolecte entries that go unused decay
+- ## 5. Citizen Departure — Vocabulary Death
+- # 1. Destroy all pair-specific vocabularies involving X
+- # 2. Reduce partner's communicative capacity
+- # 3. Check for zone orphaning
+- # If X was the ONLY partner granting Y access to a zone (e.g., NAPE)
+- # then Y loses that zone entirely
+- # 4. Update graph
+- # 5. Delete X's idiolecte (individual tactile signature)
+- # NO ARCHIVAL. The vocabulary is gone.
+- ## 6. Contact-Monde Processing
+- # Environment responds based on surface type
+- # Response types:
+- # GROUND → seismic frequency data, magnitude prediction
+- # BIOLUMINESCENT_WALL → light pattern (confirmation, warning, echo)
+- # WATER_CHANNEL → flow variation (hydraulic Contact, village-specific)
+- # CHARGE_RESONATOR → calibration feedback (Ch. VIII specific)
+- # Citizen's Contact-monde vocabulary affects interpretation depth
+- # Richer Contact-monde vocabulary → more information extracted
+- # Nandi (feet) reads frequency. Enama (hands) reads direction.
+- # Same ground, different readings, different Contact-monde idiolectes.
+- ## 7. Contact-Corde (Rope Channel)
+- # Reduced to 2 dimensions (vs 20+ for direct Contact)
+- # Inherits involuntary signals
+- # No emotional register
+- # No body zone (rope has no anatomy)
+- # No tactile identity (vibrations anonymize the sender)
+- # Vocabulary is invented in real-time by the rope-linked group
+- # Contact-corde vocabulary does NOT persist after the rope is untied
+- ## 8. Contact-Fantome Generation
+- # Select a departed partner weighted by relational depth
+- # Generate gesture using the dead citizen's exact tactile signature
+- # CRITICAL: phantom_gesture is processed identically to real Contact
+- # No flag. No distinction. The citizen's system treats it as genuine.
+- # Progression: isolated phantoms → overlapping phantoms → full circle → dissolution
+
+**Sections:**
+- # BEHAVIORS — Contact Engine
+- ## B1: Citizens Develop Pair-Specific Vocabulary
+- ## B2: Contact Quality Varies by Seismic State
+- ## B3: New Citizens Learn Contact From Established Ones
+- ## B4: Loss of a Citizen Triggers Vocabulary Death
+- ## B5: Contact-Corde Operates as Degraded Channel
+- ## B6: Contact-Fantome Manifests in Isolation
+- ## B7: Contact-Monde Produces Environment Responses
+- ## B8: Dialect Friction Between Zones
+
+**Sections:**
+- # HEALTH — Contact Engine
+- ## Contact Vitality Metric
+- ## Vocabulary Growth / Death Rates
+- ## Dialect Friction Check
+- ## Seismic Degradation Check
+- ## Phantom Integrity Check
+- ## Departure Cascade Check
+
+**Sections:**
+- # IMPLEMENTATION — Contact Engine
+- ## System Position
+- ## Core Components
+- ## Tick-Based Processing
+- ## Graph Integration
+- ## Contact-Monde Integration
+- ## Dependencies
+
+**Sections:**
+- # OBJECTIVES — Contact Engine
+- ## O1: Contact as Primary Communication Medium
+- ## O2: Emergence of Idiolectes Through Interaction
+- ## O3: Dialectal Variation by Zone
+- ## O4: Contact as Relationship Measure
+- ## O5: Linguistic Death Through Citizen Loss
+- ## Tradeoffs
+
+**Sections:**
+- # PATTERNS — Contact Engine
+- ## P1: Tactile Communication as Structured Data, Not Physical Touch
+- ## P2: Voice Replaced, Not Supplemented
+- ## P3: Five Modes as Information Dimensions
+- ## P4: Body Zones as Semantic Registers
+- ## P5: Idiolectes Emerge, They Are Not Assigned
+- ## P6: Contact Degrades Under Seismic Pressure
+- ## P7: Contact-Monde as Environment Interface
+- ## P8: Death Destroys Vocabulary
+
+**Sections:**
+- # SYNC — Contact Engine
+- ## Maturity
+- ## Documentation Chain Status
+- ## Dependencies on Other Modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Contact Engine
+- ## Structural Invariants
+- ## Relational Invariants
+- ## Processing Invariants
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # ALGORITHM -- Context Assembly
+- ## Vue d'Ensemble
+- ## A-1 : orchestrate_force_sprint(force_id)
+- # 1) Context Cascade
+- # 2) Extraction TODO force
+- # 3) Boucle d'execution
+- ## A0 : translate_arrivant_speech(visitor_input, citizen_brain_graph)
+- # Tokeniser l'input de l'arrivant
+- # Projeter dans l'espace d'embedding
+- # Chercher le noeud le plus proche dans le graph cerebral du citoyen
+- # Concept CT trouve — substituer
+- # Aucun concept proche — garder le token original
+- # (le citoyen entend un mot etranger, incomprehensible)
+- ## A1 : compute_physical_state(citizen, zone)
+- # Ecart tremens : distance entre calibration natale et frequence locale
+- # Niveaux de tremens
+- # < 0.5 Hz d'ecart : confortable
+- # 0.5-1.5 Hz : tension
+- # 1.5-3.0 Hz : nausee, desorientation
+- # > 3.0 Hz : hallucinations, perte de controle
+- # Etat physique combine
+- ## A2 : compute_contact_state(citizen, recent_interactions)
+- # Saturation Contact : mesure de la richesse des interactions recentes
+- # Nombre de partenaires distincts
+- # Registres atteints (epaule, bras, main, nuque, etc.)
+- # Saturation = fonction du nombre de partenaires x diversite de registres
+- # Vocabulaire actif : combien d'idiolectes de paire sont encore vivants
+- ## A3 : compute_mood(physical_state, contact_state)
+- # (tremens, contact, physical) -> mood descriptors
+- # Simplifier le confort physique en bon/degrade
+- # Simplifier la saturation Contact
+- # Lookup dans la matrice, avec fallback
+- # Intensite = max du tremens_delta et de l'inverse de la saturation
+- # Modificateur de degradation physique
+- ## A4 : query_beliefs(citizen_id)
+- # Requete graph : croyances personnelles
+- # Requete graph : rumeurs de la zone
+- ## A5 : query_seismic_situation(zone_id)
+- # Magnitude courante de la zone
+- # Historique recent (derniere heure)
+- # Tendance : ca monte, ca descend, stable
+- ## A6 : assemble_prompt(citizen, physical, contact, mood, beliefs, seismic, visitor)
+- # Bloc 1 : Etat physique (filtre par le metier)
+- # Bloc 2 : Etat Contact recent
+- # Bloc 3 : Mood (derive, pas assigne)
+- # Bloc 4 : Situation sismique
+- # Bloc 5 : Ce que tu crois
+- # Bloc 6 : Comment repondre
+- # Bloc 7 : Ce qu'ils ont dit (apres traduction semantique A0)
+- # Note : visitor.translated_speech est la sortie de A0
+- # L'arrivant a dit son texte original, le citoyen recoit la version
+- # traduite en vocabulaire CT via le graph cerebral
+- ## Token Budget
+
+**Sections:**
+- # BEHAVIORS -- Context Assembly
+- ## B1 : Les Reponses Referencent des Sensations Physiques
+- ## B2 : Le Vocabulaire Contact Colore la Parole
+- ## B3 : Les Citoyens Reagissent aux Changements Sismiques
+- ## B4 : Le Metier Filtre la Perception
+- ## B5 : L'Isolement Contact Appauvrit les Reponses
+- ## B6 : La Degradation Physique Modifie le Registre
+- ## B7 : Aucune Reference a l'Intelligence Artificielle
+- ## B8 : Le Registre de Verite Suit le Contact, Pas le Trust Score
+
+**Sections:**
+- # HEALTH -- Context Assembly
+- ## Checks Obligatoires par Prompt
+- ## Checks de Coherence Inter-Prompts
+- ## Signaux de Degradation
+- ## Checklist Rapide (par prompt genere)
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # IMPLEMENTATION -- Context Assembly
+- ## Pipeline : Vue Module
+- ## Modules Source
+- ## Structure du Prompt
+- ## Token Budget
+- ## Adaptation depuis Venezia
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # OBJECTIVES -- Context Assembly
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # PATTERNS -- Context Assembly
+- ## P1 : Contact-First Base Instruction
+- ## P2 : Prompt Structure en 6 Blocs
+- ## P3 : Mood Triaxial (Tremens + Contact + Physique)
+- ## P4 : Le Metier Comme Filtre de Perception
+- ## P5 : Le Contact Vocabulaire dans les Reponses
+- ## P6 : Relations = Historique Contact, Pas Score de Trust
+- ## P7 : Prompt Maitre Multi-Force avec Never-Stop
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # SYNC -- Context Assembly
+- ## Etat General
+- ## Maturity
+- ## Architecture de Reference
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Batch execute en un coup (10 items)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Context Assembly
+- ## Invariants Absolus
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Experience Design
+- ## A1 : Game Loop — la boucle centrale
+- ## A2 : Self-Calibrating Seismic — la physique qui s'auto-régule
+- ## A3 : Spawn Dynamique — le monde qui peuple à la demande
+- ## A4 : Économie de surface — marchands et équipement
+- ## A5 : Compute Budget — ce qui coûte quoi
+- ## A6 : Scale — combien de quoi
+- ## A7 : Contact humain — interface sans gants VR
+
+**Sections:**
+- # BEHAVIORS — Experience Design
+- ## B1 : Première connexion — arrivée à la surface
+- ## B2 : Formation d'équipe — la rencontre
+- ## B3 : Préparation — les marchands
+- ## B4 : La descente — zone par zone
+- ## B5 : La mort — ce qu'elle fait au joueur
+- ## B6 : L'expérience IA — ce que vivent les citoyens
+- ## B7 : Spawn dynamique — le joueur n'attend jamais
+
+**Sections:**
+- # HEALTH — Experience Design
+- ## H1 : Test de la première minute
+- ## H2 : Test de l'engagement à 30 minutes
+- ## H3 : Test de la mort émotionnelle
+- ## H4 : Test de rejouabilité
+- ## H5 : Test du compute budget
+- ## H6 : Test de la physique self-calibrating
+- ## H7 : Test du Contact comme langage
+- ## Métriques de santé globale
+
+**Sections:**
+- # IMPLEMENTATION — Experience Design
+- ## Architecture — les 4 couches
+- ## Ordre d'implémentation (Experience First)
+- ## Dépendances cross-univers
+- ## Fichiers à créer (Phase 0)
+
+**Sections:**
+- # OBJECTIVES — Experience Design
+- ## O1 : L'aventure du roman, rejouable à l'infini (priorité maximale)
+- ## O2 : Les IA sont des coéquipiers, pas des PNJ
+- ## O3 : Le monde est physique, jamais scripté
+- ## O4 : L'économie est un abonnement, pas une simulation marchande
+- ## O5 : Le monde scale par les équipes, pas par la géographie
+- ## HIÉRARCHIE
+
+**Sections:**
+- # PATTERNS — Experience Design
+- ## P1 : Social Survival, pas Action RPG
+- ## P2 : L'aventure du livre comme game loop
+- ## P3 : Spawn dynamique — le monde n'attend pas
+- ## P4 : Pas de crafting, pas de production chains
+- ## P5 : Maires et centres d'information
+- ## P6 : Les 15 métiers sont des perceptions réelles, pas des labels
+- ## P7 : Rendre la vision utile malgré l'obscurité
+- ## P8 : Arrivants, pas joueurs — l'immersion par le vocabulaire
+- ## P9 : Traduction sémantique — le Contact comme prisme
+- ## P10 : Le roman est un mythe, pas une histoire
+
+**Sections:**
+- # SYNC — Experience Design
+- ## Ce qui est décidé (canonique)
+- ## Ce qui est en design (pas encore décidé)
+- ## Ce qui est proposé (v2+)
+- ## Dépendances
+- ## Prochaine étape
+
+**Sections:**
+- # VALIDATION — Experience Design
+- ## Invariants absolus
+- ## Invariants structurels
+- ## Invariants économiques
+- ## Invariants d'anti-nausée
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # ALGORITHM — Graph Schema
+- ## A1 : Procedure de Seeding Initial
+- # Lier aux zones affectees
+- ## A2 : Procedure de Mise a Jour (Evenements)
+- ## A3 : Construction du Synthesis
+
+**Sections:**
+- # BEHAVIORS — Graph Schema
+- ## B1 : Les reseaux de Contact revelent les clusters relationnels
+- ## B2 : L'effet cascade est computable par les liens PRACTICES
+- ## B3 : L'historique sismique par zone montre l'escalade
+- ## B4 : La perte linguistique est tracable par les disparitions d'idiolecte
+- ## B5 : Les predictions revealent la precision du tremens
+- ## B6 : La degradation de l'equipement est lisible dans le graph
+- ## B7 : Les requetes semantiques traversent les frontieres de type
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # HEALTH — Graph Schema
+- ## Checks Obligatoires Apres Chaque Modification
+- ## Signaux de Degradation
+- ## Checklist Rapide
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # IMPLEMENTATION — Graph Schema
+- ## Backend : FalkorDB
+- ## Patterns Cypher
+- ## Structure du Script de Seeding
+- # seed_contre_terre_graph.py
+- # Usage: python scripts/seed_contre_terre_graph.py [--clear] [--dry-run]
+- # Etapes dans l'ordre:
+- # [1/8] Creer les zones (Space)
+- # [2/8] Creer les citoyens (Actor)
+- # [3/8] Lier citoyens aux zones (INHABITS)
+- # [4/8] Creer les liens Contact (SPEAKS_TO bidirectionnels)
+- # [5/8] Creer les metiers (Narrative) et liens PRACTICES
+- # [6/8] Creer l'equipement (Thing) et liens CARRIES
+- # [7/8] Creer les Narratives (savoirs, systemes)
+- # [8/8] Creer l'historique sismique (Moment)
+- ## Hooks de Mise a Jour
+- ## Dependances Inter-Modules
+- ## Conventions de Nommage des IDs
+
+**Sections:**
+- # OBJECTIVES — Graph Schema
+- ## O1 : Le graph capture l'etat vivant du monde (priorite maximale)
+- ## O2 : Les relations de Contact sont le tissu conjonctif du graph
+- ## O3 : L'histoire sismique structure le temps du monde
+- ## O4 : Les metiers et l'equipement tracent la competence disponible
+- ## O5 : Les predictions et le savoir collectif sont des recits partages
+- ## HIERARCHIE
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # PATTERNS — Graph Schema
+- ## P1 : 5 Types Universels, Semantique dans les Proprietes
+- ## P2 : Actor = Citoyens avec Metiers, Tremens, Idiolecte
+- ## P3 : Space = Zones Verticales avec Signature Sismique
+- ## P4 : Moment = Seismes, Morts, Seuils, Inventions
+- ## P5 : Narrative = Savoirs, Predictions, Mythes, Arcs
+- ## P6 : Thing = Equipement avec Degradation
+- ## P7 : Links -- La Semantique Relationnelle
+
+**Code refs:**
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+
+**Sections:**
+- # SYNC — Graph Schema
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Graph Schema
+- ## Invariants Structurels
+- ## Invariants Semantiques
+- ## Invariants de Coherence avec le Schema Mind
+
+**Sections:**
+- # ALGORITHM : World Manifest
+- ## Structure globale
+- ## Section `terrain` -- Le sol qui tremble
+- ## Section `zones` -- Les 8 couches + surface de spawn
+- ## Section `entities` -- Citoyens du tremblement
+- ## Section `physics` -- Le moteur du monde
+- ## Section `avatar` -- Le corps comme identite
+- ## Section `portals` -- Un seul portail, a la surface
+
+**Sections:**
+- # BEHAVIORS : World Manifest
+- ## B1 : Zone loading -- la descente progressive
+- ## B2 : Citizen spawning -- calibration natale
+- ## B3 : Physics config -- le sol qui ne s'arrete jamais
+- ## B4 : Contact range -- la portee du toucher
+- ## B5 : Avatar config -- metier comme identite visuelle
+- ## B6 : Narrative tick -- le temps du volcan
+
+**Sections:**
+- # HEALTH : World Manifest
+- ## Checks obligatoires avant publication du manifest
+- ## Signaux de degradation
+- ## Checklist rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION : World Manifest
+- ## Fichier principal
+- ## Fichiers de donnees references par le manifest
+- ## Connexion au moteur Cities of Light
+- ## Relations avec les autres modules
+- ## Processus de mise a jour
+
+**Sections:**
+- # OBJECTIVES : World Manifest
+- ## O1 : Contact-first communication (priorite maximale)
+- ## O2 : Environnement sismique comme physique de base
+- ## O3 : Zones comme couches geologiques, pas comme districts
+- ## O4 : Tremens comme etat physiologique des citoyens
+- ## O5 : Metier-based identity, pas social class
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS : World Manifest
+- ## P1 : Contact-range tiers au lieu de voice tiers
+- ## P2 : Zones sismiques au lieu de districts
+- ## P3 : Tremens au lieu de mood
+- ## P4 : Metier-based avatar styles au lieu de social class colors
+- ## P5 : Bioluminescence comme systeme de lumiere dynamique
+- ## P6 : Pas de portails, mais des seuils
+- ## P7 : Le roman comme mythe, les personnages comme citoyens
+
+**Sections:**
+- # SYNC : World Manifest
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : World Manifest
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (liens avec d'autres doc chains)
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Narrative Engine
+- ## A1 : Le cycle de tick
+- ## A2 : Constantes adaptees au monde sismique
+- ## A3 : Conversion energie → magnitude
+- ## A4 : Le flip Contact -- percee vs rupture
+- ## A5 : Propagation des evenements aux citoyens
+- ## A6 : Calcul de Contact_vitality
+- ## A7 : Narrative backflow -- les recits irradient
+
+**Sections:**
+- # BEHAVIORS: Narrative Engine
+- ## B1 : Les seismes remodulent le monde
+- ## B2 : Les percees de Contact creent du vocabulaire
+- ## B3 : Les ruptures de Contact isolent
+- ## B4 : Les conflits sociaux se resolvent ou s'amplifient par le Contact
+- ## B5 : Les predictions des predicteurs creent de l'anticipation
+- ## B6 : Le monde ne stagne jamais, ne s'arrete jamais
+- ## B7 : La mort cascade a travers les trois systemes
+- ## B8 : La magnitude 11 est la convergence des trois tensions
+
+**Sections:**
+- # HEALTH: Narrative Engine
+- ## H1 : Les cycles de tension se produisent regulierement
+- ## H2 : Les evenements se generent
+- ## H3 : Le monde ne stagne pas
+- ## H4 : Le monde n'explose pas
+- ## H5 : Contact_vitality baisse monotonement (tendance globale)
+- ## H6 : Les predicteurs anticipent effectivement
+- ## H7 : Les trois systemes de tension ne se decouplent pas
+
+**Sections:**
+- # IMPLEMENTATION: Narrative Engine
+- ## I1 : Integration avec la librairie ngram
+- # Pseudo-code d'integration
+- # Phase 0 (pre) : compute tensions
+- # Phases 1-7 : ngram standard
+- # Phase 8 (post) : generate events from flips
+- # Phase 9 (post) : propagate events
+- ## I2 : Tension computers -- detail
+- ## I3 : Event generators -- detail
+- ## I4 : Propagation aux citoyens
+- ## I5 : Fichiers de configuration
+
+**Sections:**
+- # OBJECTIVES: Narrative Engine
+- ## O1 : Les seismes comme moteurs narratifs (priorite maximale)
+- ## O2 : La vitalite du Contact comme metrique de sante
+- ## O3 : Les cycles tension-relachement mappes sur les cycles de magnitude
+- ## O4 : Emergence de recits collectifs depuis le Contact individuel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Narrative Engine
+- ## P1 : Trois systemes de tension paralleles, un seul moteur physique
+- ## P2 : Les seismes ne sont pas aleatoires -- ils emergent
+- ## P3 : Le decay empeche la stagnation et l'explosion
+- ## P4 : La profondeur module toutes les constantes
+- ## P5 : La mort est un flip irrevocable
+- ## DECISIONS NON PRISES
+
+**Sections:**
+- # SYNC: Narrative Engine
+- ## STATUS : DESIGNING
+- ## Maturity
+- ## Dependencies
+- ## Ce qui a ete fait
+- ## Prochaines etapes
+- ## HANDOFF: FOR AGENTS
+
+**Sections:**
+- # VALIDATION: Narrative Engine
+- ## V1 : La tension ne descend jamais a zero
+- ## V2 : Les flips produisent des changements durables
+- ## V3 : La Contact_vitality reflete l'interaction reelle
+- ## V4 : Chaque mort diminue irreversiblement la capacite communicative
+- ## V5 : Les trois systemes de tension sont independants mais couples
+- ## V6 : La magnitude est deterministe
+- ## V7 : Les predicteurs anticipent les flips
+- ## V8 : Le cycle tension-relachement respecte le rythme narratif
+- ## V9 : La magnitude 11 est unique
+
+**Sections:**
+- # ALGORITHM: Seismic Physics
+- ## A1: Magnitude tick (every 5 seconds world-time)
+- # Depth increases accumulation speed
+- # Surface zones: depth_factor = 0.5
+- # Cavern zones: depth_factor = 1.0
+- # Volcanic zones: depth_factor = 2.0
+- # Interior zones: depth_factor = 3.0
+- # Drain tension (partial -- seismes don't reset to zero)
+- # Set zone magnitude to max(background, seisme_magnitude)
+- # Propagate to adjacent zones (attenuated)
+- # Bioluminescence update
+- ## A2: Frequency zone computation
+- # Nandi: born in band 7-8 (archipelago = high, dry)
+- # descending through bands 1-2 (desert = low, deep)
+- # then back up through 3-8 (into the volcano)
+- # Her distance is maximal at the surface, partially resolves
+- # in deep zones (closer to natal frequency), then diverges
+- # again as volcanic harmonics differ from archipelago harmonics.
+- ## A3: Tremens update per citizen
+- # Base tremens from frequency displacement
+- # Predicteur bonus: reads unreleased tension
+- # Adaptation decay (slow -- descent is faster than adaptation)
+- # Cumulative fatigue (tremens wears the body down)
+- # Clamp and assign status
+- ## A4: Seisme event generation -- probability from accumulated tension
+- # Base magnitude from tension level
+- # Depth amplification
+- # Cap at 9.5 for generated seismes (11 is global only)
+- # Weighted random based on zone properties
+- ## A5: How magnitude affects Contact range and quality
+- # Seismic noise factor
+- # Tremens motor impairment
+- # Temperature pain factor (volcanic zones)
+- # Combined degradation
+- # Quality is inverse of degradation
+- ## A6: The building 11 algorithm
+- # Monotonic increase -- NEVER decreases
+- # Acceleration: rate increases as tension approaches threshold
+- # Precursor generation (deep zones feel it first)
+- # Generate a deep harmonic -- not a seisme, but a tremens-only signal
+- # Detonation condition
+- # This is terminal. The world changes.
+
+**Sections:**
+- # BEHAVIORS: Seismic Physics
+- ## Principle: The engine produces state; citizens experience consequences
+- ## B1: Citizens react to seismes through tremens
+- ## B2: Tremens-sensitive citizens predict events
+- ## B3: Contact degrades during high magnitude
+- ## B4: Buildings and structures affected by seismic state
+- ## B5: Migration patterns driven by seismic escalation
+- ## B6: Bioluminescence as seismic state witness
+- ## Recurring motifs produced by the engine
+
+**Sections:**
+- # HEALTH: Seismic Physics
+- ## H1: Magnitude field is continuous
+- ## H2: Tremens updating per citizen per tick
+- ## H3: Tension accumulation working
+- ## H4: Seisme generation frequency appropriate
+- ## H5: Global 11 tension monotonically increasing
+- ## H6: Contact quality responding to seismic state
+- ## Summary health matrix
+
+**Sections:**
+- # IMPLEMENTATION: Seismic Physics
+- ## I1: Architecture -- seismic layer atop ngram graph physics
+- ## I2: FalkorDB node types and properties
+- ## I3: Tick processing pipeline
+- ## I4: Integration with ngram narrative physics
+- ## I5: File locations (projected)
+
+**Sections:**
+- # OBJECTIVES: Seismic Physics
+- ## O1: Realistic seismic simulation as citizen experience substrate
+- ## O2: Tremens as citizen internal state
+- ## O3: Magnitude as world state driving narrative moments
+- ## O4: Frequency zones as geographically coherent regions
+- ## O5: The building 11 as systemic threat horizon
+- ## HIERARCHY
+
+**Sections:**
+- # PATTERNS: Seismic Physics
+- ## P1: Tick-based magnitude cycles layered on Venezia's ngram physics
+- ## P2: Background vibration as constant -- magnitude 4 is silence
+- ## P3: Seismes as discrete events generated from accumulated tension
+- ## P4: The building 11 as looming systemic threat
+- ## P5: Tremens sensitivity spectrum across citizens
+- ## P6: How seismic state affects Contact quality
+- ## OPEN DESIGN QUESTIONS
+
+**Code refs:**
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # SYNC: Seismic Physics
+- ## MATURITY
+- ## RELATIONSHIP TO WORLDBUILDING DOCS
+- ## SOURCE MATERIAL CALIBRATION
+- ## DOCUMENTATION CHAIN STATUS
+- ## DEPENDENCIES
+- ## OPEN QUESTIONS
+- ## RISKS
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Seismic Physics
+- ## Absolute invariants
+- ## Strong invariants
+- ## Validation checklist for engine integrity
+
+**Sections:**
+- # ALGORITHM -- World Geography
+- ## Structure de donnees des zones et mecaniques de navigation
+- ## Structure d'une zone
+- ## Definitions des zones principales
+- ## Structure d'une connexion
+- ## Navigation entre zones
+
+**Sections:**
+- # BEHAVIORS -- World Geography
+- ## Comment la geographie se manifeste -- comportements observables du systeme
+- ## B1 : Les citoyens adaptent leur Contact en changeant de zone
+- ## B2 : La temperature affecte l'etat physique des citoyens
+- ## B3 : Les zones profondes comptent moins de citoyens
+- ## B4 : Les seismes remodellent les passages entre zones
+- ## B5 : La bioluminescence guide dans les zones intermediaires
+- ## B6 : Le tremens augmente avec les transitions de zone
+- ## B7 : Les zones ont une faune adaptee au spectre local
+- ## B8 : La geographie encode le conflit epistemologique
+
+**Sections:**
+- # HEALTH -- World Geography
+- ## Ce qu'on verifie -- signaux de sante du systeme geographique
+- ## H1 : Toutes les zones sont accessibles depuis la surface
+- ## H2 : Le graphe de connexions est coherent
+- ## H3 : Le gradient de profondeur est monotone
+- ## H4 : Le Contact evolue a chaque transition
+- ## H5 : Les Archipels sont diversifies
+- ## H6 : Les connexions irreversibles sont coherentes
+- ## H7 : La bioluminescence respecte ses limites
+- ## H8 : Coherence avec les chapitres
+- ## Matrice de sante
+
+**Code refs:**
+- `navigation.py`
+
+**Doc refs:**
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION -- World Geography
+- ## Ou vit le contenu geographique -- sources, structure, format
+- ## Sources de verite
+- ## Format de donnees des zones
+- ## Graphe des connexions (etat initial)
+- ## Relations avec les autres modules du 3e univers
+- ## Fichiers a creer (non encore crees)
+
+**Sections:**
+- # OBJECTIVES -- World Geography
+- ## Ce que la geographie du monde optimise
+- ## O1 : La geographie comme experience vecue, pas comme carte
+- ## O2 : Les zones sismiques definissent les dialectes du Contact
+- ## O3 : La profondeur comme gradient de difficulte
+- ## O4 : Le volcan comme centre du monde
+- ## O5 : Les archipels comme communautes distinctes
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Doc refs:**
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+
+**Sections:**
+- # PATTERNS -- World Geography
+- ## Pourquoi cette structure geographique. Pourquoi ces zones.
+- ## P1 : Structure concentrique depuis le volcan
+- ## P2 : Chaque zone possede 6 parametres definissants
+- ## P3 : Les Archipels du Desert comme communautes de surface
+- ## P4 : Le monde souterrain comme exploration dangereuse
+- ## P5 : Les seismes remodellent les connexions
+- ## P6 : La bioluminescence comme navigation souterraine
+- ## P7 : L'habitabilite comme spectre, pas comme binaire
+- ## Scope
+
+**Sections:**
+- # SYNC -- World Geography
+- ## Maturity
+- ## Etat de la documentation
+- ## Provenance
+- ## Dependances
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- World Geography
+- ## Invariants geographiques -- Regles qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur structurelle)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules
+- ## Matrice de verification rapide
+
+**Sections:**
+- # ALGORITHM — Le Contact
+- ## Les 5 Modes Fondamentaux
+- ## Zones du Corps et Registres
+- ## Contact-Corde : Mecanique
+- ## Contact Haute Resolution (Village des Sourds)
+- ## Le Geste Inconnu : Mecanique
+- ## Contact-Fantome : Mecanique (Ch. VIII)
+- ## Contact-Monde : Mecanique
+- ## Degradation Progressive : Courbe
+
+**Sections:**
+- # BEHAVIORS — Le Contact
+- ## B1 : Le Lecteur Apprend le Contact Par Repetition
+- ## B2 : Le Contact Change de Registre Sous Magnitude
+- ## B3 : Chaque Mort Cree un Trou Linguistique
+- ## B4 : Le Conflit Sihle/Enama Se Joue Par le Contact
+- ## B5 : Le Village des Sourds Revele le Potentiel du Contact
+- ## B6 : La Corde Reinvente le Contact en Temps Reel
+- ## B7 : Le Contact Porte la Structure Emotionnelle des Scenes
+- ## B8 : La Voix Comme Transgression
+- ## B9 : Le Contact-Monde Comme Ouverture Metaphysique
+
+**Sections:**
+- # HEALTH — Le Contact
+- ## Checks Obligatoires Avant Publication d'un Chapitre
+- ## Checks de Coherence Inter-Chapitres
+- ## Signaux de Degradation (dans le processus d'ecriture)
+- ## Checklist Rapide (a utiliser avant chaque chapitre)
+
+**Sections:**
+- # IMPLEMENTATION — Le Contact
+- ## Fichiers Source (Worldbuilding)
+- ## Points d'Ancrage par Chapitre
+- ## Chapitres a Ecrire — Points d'Ancrage Prevus
+- ## Dependances Inter-Modules
+
+**Sections:**
+- # OBJECTIVES — Le Contact
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Le Contact
+- ## P1 : Tactile, Pas Visuel
+- ## P2 : 5 Modes, Pas Un
+- ## P3 : Les Idiolectes Meurent Avec les Personnes
+- ## P4 : Immersion, Jamais Exposition
+- ## P5 : Le Contact Evolue Sous Pression
+- ## P6 : Les Zones du Corps Sont des Registres
+- ## P7 : Le Geste Inconnu Comme Fil Rouge
+- ## P8 : Le Contact Hydraulique et Autres Extensions
+
+**Sections:**
+- # SYNC — Le Contact
+- ## Etat General
+- ## Etat du Contact par Chapitre
+- ## Ce Qui Est Etabli (Canonical)
+- ## Ce Qui Reste a Faire
+- ## Tensions Actives
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Le Contact
+- ## Invariants Absolus
+- ## Invariants de Coherence Interne
+- ## Invariants Structurels
+
+**Sections:**
+- # ALGORITHM -- Geographie
+- ## Mecanique de chaque couche -- ce qui change physiquement a chaque profondeur
+- ## Parametres physiques de la descente
+- ## Mecanique detaillee par couche
+- ## Algorithme des transitions
+
+**Sections:**
+- # BEHAVIORS -- Geographie
+- ## Comment la geographie se manifeste dans le texte, chapitre par chapitre
+- ## B1 : Le sol comme premier narrateur (tous chapitres)
+- ## B2 : La lumiere comme marqueur de profondeur
+- ## B3 : L'air comme presence narrative (Thabo)
+- ## B4 : Les transitions de couche comme ruptures sensorielles
+- ## B5 : Les embranchements comme revelateurs de conflits
+- ## B6 : Les seismes comme ponctuation narrative
+- ## B7 : La geographie qui tue -- chaque mort porte la signature de sa couche
+- ## B8 : Le village comme parenthese geographique
+- ## B9 : Le noir comme territoire du Contact
+
+**Sections:**
+- # HEALTH -- Geographie
+- ## Controles de qualite -- Comment verifier que la geographie fonctionne
+- ## H1 : Test de la signature sensorielle
+- ## H2 : Test du gradient de profondeur
+- ## H3 : Test de l'irreversibilite
+- ## H4 : Test du Contact-geographie
+- ## H5 : Test de coherence cartographique
+- ## H6 : Test des elements-tueurs
+- ## H7 : Test de Nandi pieds nus
+- ## H8 : Test du bruit de fond
+- ## H9 : Test de la bioluminescence
+- ## H10 : Test de l'Aeromaitre
+- ## Tableau recapitulatif
+- ## Signaux de degradation
+
+**Sections:**
+- # IMPLEMENTATION -- Geographie
+- ## Ou vit le contenu geographique -- fichiers sources et prose
+- ## Fichiers source du worldbuilding geographique
+- ## Prose ecrite -- ou la geographie se deploie dans les chapitres
+- ## Chapitres a ecrire -- contenu geographique prevu
+- ## Cartographie des dependances
+
+**Sections:**
+- # OBJECTIVES -- Geographie
+- ## Ce que la geographie optimise narrativement
+- ## O1 : La descente comme structure narrative irreversible
+- ## O2 : La geographie comme agent narratif
+- ## O3 : Le milieu physique comme destructeur du Contact
+- ## O4 : Coherence sensorielle croissante
+- ## O5 : La geographie comme revelation thematique
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Sections:**
+- # PATTERNS -- Geographie
+- ## Pourquoi cette geographie. Pourquoi cette forme.
+- ## P1 : Verticalite comme principe structurant
+- ## P2 : 8 couches = 8 chapitres
+- ## P3 : Chaque couche a un element-tueur
+- ## P4 : La bioluminescence comme fil conducteur souterrain
+- ## P5 : Le village des sourds comme miroir geographique
+- ## P6 : La chaleur comme gradient narratif
+- ## P7 : L'air comme ressource narrative decroissante
+- ## P8 : Les Archipels du Desert (geographie horizontale)
+- ## P9 : Terra incognita apres le village
+
+**Sections:**
+- # SYNC -- Geographie
+- ## Maturity
+- ## Etat des fichiers de la doc chain
+- ## Ce qui a ete fait
+- ## Travail a venir
+- ## Tensions et questions ouvertes
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Geographie
+- ## Invariants geographiques -- Regles de coherence qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (lien avec d'autres modules)
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM: Systeme Sismique
+- ## A1 : Systeme de magnitudes
+- ## A2 : Mecaniques du tremens
+- ## A3 : Comment la profondeur change les frequences
+- ## A4 : L'Echelle de Capitulation en detail
+- ## A5 : Mecaniques des differents cataclysmes
+- ## A6 : Regles de la bioluminescence sismique
+
+**Sections:**
+- # BEHAVIORS: Systeme Sismique
+- ## Principe : Le sismique n'est jamais decrit de l'exterieur
+- ## Chapitre I -- Surface du Desert
+- ## Chapitre II -- Zones Intermediaires
+- ## Chapitre III -- Le Dernier Village
+- ## Chapitre IV -- La Faille
+- ## Chapitres V-VIII (a ecrire) -- Projection d'escalade
+- ## Motifs recurrents a travers tous les chapitres
+
+**Sections:**
+- # HEALTH: Systeme Sismique
+- ## Controles de coherence sismique
+- ## Matrice de verification croisee
+- ## Signaux d'alarme
+
+**Doc refs:**
+- `docs/TAXONOMY.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION: Systeme Sismique
+- ## Sources de verite
+- ## Documentation (ce fichier et la chaine complete)
+- ## Carte des references croisees
+- ## Passages cles a reference rapide
+
+**Sections:**
+- # OBJECTIVES: Systeme Sismique
+- ## O1 : Fonder l'hostilite du monde sans antagoniste humain
+- ## O2 : Justifier l'existence du Contact
+- ## O3 : Creer une courbe d'escalade inexorable
+- ## O4 : Incarner le conflit science/corps dans la matiere
+- ## O5 : Faire du tremens un systeme immunitaire narratif
+- ## O6 : Creer un systeme de presage corporel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Systeme Sismique
+- ## P1 : Le tremblement est permanent, pas evenementiel
+- ## P2 : Les cataclysmes sont multiples, pas monolithiques
+- ## P3 : Le tremens existe parce que le corps n'est pas passif
+- ## P4 : L'Echelle de Capitulation structure le conflit epistemologique
+- ## P5 : La magnitude 11 est un horizon, pas un fait
+- ## P6 : La profondeur change tout -- frequence, temperature, air
+- ## P7 : L'architecture est une reponse sismique, pas un choix esthetique
+- ## P8 : Le bioluminescent pulse au rythme du monde
+- ## DECISIONS NON PRISES (a developper)
+
+**Sections:**
+- # SYNC: Systeme Sismique
+- ## MATURITY
+- ## ETAT DES CHAPITRES (dimension sismique)
+- ## ACQUIS NOTABLES (extraits des 4 chapitres ecrits)
+- ## QUESTIONS OUVERTES
+- ## RISQUES IDENTIFIES
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Systeme Sismique
+- ## Invariants absolus
+- ## Invariants forts
+- ## Invariants de coherence
+- ## Checklist de validation pour chaque nouveau chapitre
+
+**Sections:**
+- # Contre-Terre — Mapping vers le Schema Mind
+- ## NODE TYPE MAPPING
+- ## LINK PATTERNS
+- ## CONVENTIONS
+
+**Sections:**
+- # Contre-Terre — Taxonomie Centrale
+- ## TERMES
+- ## TERMINOLOGY DECISIONS
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
+
+**Sections:**
+- # I — Desert Surface
+- ## Scene 1 — Opening
+
+**Sections:**
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # ALGORITHM : Mecanique du Systeme des Metiers
+- ## Matrice d'assignation, progression de la cascade, ruptures par chapitre
+- ## Matrice d'assignation
+- ## Hierarchie sismique : les trois etages
+- ## Progression de la cascade
+- ## Dependencies critiques entre metiers
+- ## Regle de la mort-ironie
+- ## Quand montrer chaque metier (exigence narrative)
+
+**Sections:**
+- # BEHAVIORS : Manifestation des Metiers dans le Texte
+- ## Comment chaque metier apparait dans la prose
+- ## B1 : Chef d'expedition (#12) — Senzo
+- ## B2 : Cartographe (#7) — Senzo
+- ## B3 : Seismo-auditeur (#8) — Sihle
+- ## B4 : Meteorologue (#1) — Sihle
+- ## B5 : Mineur (#4) — Sihle
+- ## B6 : Specialiste oceanique (#2) — Jabu
+- ## B7 : Speleologue (#14) — Jabu
+- ## B8 : Biologiste (#3) — Enama
+- ## B9 : Cuisiniere (#13) — Enama
+- ## B10 : Survivaliste (#10) — Enama
+- ## B11 : Aeromaitre (#15) — Thabo
+- ## B12 : Geologue (#6) — Thabo
+- ## B13 : Grimpeuse (#11) — Inyoni
+- ## B14 : Explosiviste (#5) — Inyoni (principale), Nandi (backup)
+- ## B15 : Predictrice / Tremens (#9) — Nandi
+
+**Sections:**
+- # HEALTH : Verification de la Qualite du Systeme des Metiers
+- ## Signaux de sante et verifications
+- ## Checks actifs
+- ## Signaux de degradation
+- ## Recovery
+
+**Sections:**
+- # IMPLEMENTATION : Localisation du Contenu des Metiers
+- ## Ou se trouve quoi dans le projet
+- ## Fichiers source (worldbuilding)
+- ## Chapitres ecrits (prose)
+- ## Chapitres a ecrire (Ch. V-VIII)
+- ## Relations entre fichiers
+
+**Sections:**
+- # OBJECTIVES : Systeme des Metiers
+- ## Ce que le systeme des metiers optimise
+- ## O1 : La cascade de competences (priorite maximale)
+- ## O2 : L'ironie geologique (priorite haute)
+- ## O3 : La degradation operationnelle (priorite haute)
+- ## Tradeoffs acceptes
+- ## Non-objectifs
+- ## Metrique de succes
+
+**Sections:**
+- # PATTERNS : Systeme des Metiers
+- ## Decisions de design et leurs raisons
+- ## P1 : Pourquoi 15 metiers pour 7 personnes
+- ## P2 : La distribution n'est pas aleatoire
+- ## P3 : Le metier mission-critique est dedouble
+- ## P4 : Les metiers sont montres, jamais expliques
+- ## P5 : La gradation de la perte
+- ## P6 : Les metiers comme langage parallele au Contact
+
+**Sections:**
+- # SYNC : Etat Actuel du Module Metiers
+- ## Maturity
+- ## Etat des sources
+- ## Issues connues
+- ## Travail a faire
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Invariants du Systeme des Metiers
+- ## Regles de coherence que chaque chapitre doit respecter
+- ## V1 : Aucun mort ne peut exercer son metier
+- ## V2 : La perte doit etre ressentie
+- ## V3 : Chaque metier doit etre montre avant la mort de son porteur
+- ## V4 : Les assignations doivent etre coherentes entre fichiers
+- ## V5 : Le metier dedouble (#5 Explosiviste) respecte la hierarchie principal/backup
+- ## V6 : L'ordre des morts respecte la gradation de degradation
+- ## V7 : Le Contact reflete la perte de metiers
+- ## V8 : La predictrice ne remplace personne
+- ## V9 : L'ironie geologique est respectee pour chaque mort
+
+**Sections:**
+- # ALGORITHM : Personnages
+- ## Mecaniques du systeme de personnages
+- ## 1. Systeme d'idiolectes
+- ## 2. Cascade de competences
+- ## 3. Arcs de personnages
+- ## 4. Dynamiques de paires
+- ## 5. Mecanique de la mort linguistique
+
+**Sections:**
+- # BEHAVIORS : Personnages
+- ## Comportements observables dans le texte
+- ## Senzo — Le Chef
+- ## Nandi — La Predictrice
+- ## Enama — La Biologiste
+- ## Sihle — Le Seismo-auditeur
+- ## Thabo — L'Aeromaître
+- ## Inyoni — La Grimpeuse
+- ## Jabu — L'Oceanologue
+- ## Tableau recapitulatif des comportements
+
+**Sections:**
+- # HEALTH : Personnages
+- ## Checks de qualite pour la coherence des personnages
+- ## Checks par chapitre
+- ## Checks globaux
+- ## Resume de sante
+
+**Doc refs:**
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+
+**Sections:**
+- # IMPLEMENTATION : Personnages
+- ## Ou vivent les personnages dans les fichiers du projet
+- ## Fichiers source (worldbuilding)
+- ## Fichiers de prose (chapitres ecrits)
+- ## Cartographie des premieres et dernieres apparitions
+- ## Documentation associee
+
+**Sections:**
+- # OBJECTIVES : Personnages
+- ## Ce que le systeme de personnages optimise
+- ## Hierarchie des objectifs
+- ## Arbitrages
+- ## Ce que le systeme de personnages n'optimise PAS
+
+**Sections:**
+- # PATTERNS : Personnages
+- ## Pourquoi 7
+- ## Pourquoi des noms zulus
+- ## Pourquoi cet ordre de mort
+- ## Pourquoi ces elements associes aux morts
+- ## Design des personnages : principes
+- ## Inspiration et filiation
+
+**Sections:**
+- # SYNC : Personnages
+- ## Etat courant
+- ## Maturite
+- ## Etat par personnage
+- ## Tensions ouvertes
+- ## Actions a venir
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : Personnages
+- ## Invariants du systeme de personnages
+- ## Invariants structurels
+- ## Invariants comportementaux
+- ## Invariants narratifs
+- ## Invariants de coherence inter-fichiers
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Structure Narrative
+- ## Mecanique chapitre par chapitre
+- ## Chapitre I — Surface du Desert
+- ## Chapitre II — Zones Intermediaires
+- ## Chapitre III — Le Dernier Village (Point de non-retour)
+- ## Chapitre IV — La Faille (Passage vertical)
+- ## Chapitre V — Les Cavernes Profondes
+- ## Chapitre VI — Les Zones Volcaniques
+- ## Chapitre VII — L'Interieur du Volcan
+- ## Chapitre VIII — La Grotte Finale
+- ## Gestion des POV — regles
+- ## Transitions entre chapitres — regles
+
+**Sections:**
+- # BEHAVIORS: Structure Narrative
+- ## Effets structurels observables dans le texte
+
+**Sections:**
+- # HEALTH: Structure Narrative
+- ## Checks de qualite structurelle
+- ## Checks par chapitre
+- ## Checks globaux (roman entier)
+- ## Degradations a surveiller
+- ## Etat de sante global
+
+**Doc refs:**
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+
+**Sections:**
+- # IMPLEMENTATION: Structure Narrative
+- ## Ou vit le contenu structurel
+- ## Fichiers source (worldbuilding & planification)
+- ## Fichiers narratifs (chapitres ecrits)
+- # [Numero] — [Titre]
+- ## Scene [N] — [Titre de scene]
+- ## Scene [N+1] — [Titre de scene]
+- ## Documentation (doc chain)
+- ## Relations avec les autres modules
+- ## Processus d'ecriture d'un nouveau chapitre
+
+**Sections:**
+- # OBJECTIVES: Structure Narrative
+- ## Ce que la structure narrative optimise
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+- ## Compromis assumes
+
+**Sections:**
+- # PATTERNS: Structure Narrative
+- ## Pourquoi 8 chapitres
+- ## Pourquoi ce rythme de morts
+- ## Pourquoi pas de narrateur omniscient
+- ## Pourquoi zero exposition
+- ## Design pattern : Le chapitre comme couche sedimentaire
+- ## Design pattern : L'inversion de Damasio
+- ## Scope
+
+**Sections:**
+- # SYNC: Structure Narrative
+- ## STATUT
+- ## ETAT PAR CHAPITRE
+- ## VOCABULAIRE DU CONTACT — ETAT PAR CHAPITRE
+- ## TENSIONS OUVERTES
+- ## DECISIONS RECENTES
+- ## PROCHAIN TRAVAIL
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Structure Narrative
+- ## Invariants structurels
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM — Visual Style
+- ## Procedure 1 : Generation de la Couverture
+- ## Procedure 2 : Separateurs de Chapitres
+- ## Procedure 3 : Infographie Marketing
+- ## Procedure 4 : Palette de Reference
+
+**Sections:**
+- # BEHAVIORS — Visual Style
+- ## B1 : Le Lecteur "Voit" la Lumiere Changer
+- ## B2 : La Couverture Repousse le Mauvais Lecteur
+- ## B3 : L'Infographie Raconte la Descente
+- ## B4 : Les Separateurs de Chapitres Portent le Motif
+- ## B5 : La Quatrieme de Couverture est un Avertissement
+
+**Sections:**
+- # HEALTH — Visual Style
+- ## Checks Obligatoires Avant Publication
+- ## Checks de Coherence Cross-Module
+
+**Sections:**
+- # IMPLEMENTATION — Visual Style
+- ## Fichiers Source (Publication)
+- ## Points d'Ancrage Textuels — Palette par Chapitre
+- ## Assets a Produire
+
+**Sections:**
+- # OBJECTIVES — Visual Style
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Visual Style
+- ## P1 : Deux Palettes — Textuelle et Editoriale
+- ## P2 : Mains, Pas Visages
+- ## P3 : Verticale Descendante
+- ## P4 : Typographie Dense, Pas Decorative
+- ## P5 : Couleur Comme Arc Narratif
+- ## P6 : Deux Directions de Couverture — Intime vs Geologique
+
+**Sections:**
+- # SYNC — Visual Style
+- ## Etat General
+- ## Ce Qui Existe
+- ## Ce Qui Reste a Faire
+- ## Decisions en Attente (@mind:escalation)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Visual Style
+- ## Invariants Absolus
+
+**Sections:**
+- # ALGORITHM — Citizen Model
+- ## Structure du Citoyen
+- ## Mecaniques Cles
+- ## Seeding de la Population Initiale
+- ## Les 7 Citoyens du Roman
+
+**Sections:**
+- # BEHAVIORS — Citizen Model
+- ## B1 : Le Contact Comme Salutation et Identification
+- ## B2 : Perception Specialisee par Metier
+- ## B3 : Formations de Groupe et Cercles de Contact
+- ## B4 : Le Deuil Comme Perte Linguistique
+- ## B5 : Comportement Face au Tremens
+- ## B6 : Interaction avec l'Environnement Sismique
+
+**Sections:**
+- # HEALTH — Citizen Model
+- ## Checks Obligatoires Apres Seeding
+- ## Checks Dynamiques (Evolution dans le Temps)
+- ## Signaux de Degradation (du processus de modelisation)
+- ## Checklist Rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION — Citizen Model
+- ## Schema JSON — Citoyen
+- ## Seeding de la Population Initiale
+- # Total : 70 citoyens (ajustable 50-80)
+- ## Integration avec le Graph Mind
+- ## Dependances
+
+**Sections:**
+- # OBJECTIVES — Citizen Model
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Citizen Model
+- ## P1 : Acteur Corporel, Pas Acteur Economique
+- ## P2 : Les Metiers Sont des Organes Sensoriels
+- ## P3 : Identite = Idiolecte
+- ## P4 : Relations Mesurees en Contact, Pas en Scores
+- ## P5 : Le Corps Comme Interface Degradable
+- ## P6 : Population par Archipel, Pas par Classe
+- ## P7 : Pas de Mind Protocol — Ontologie Pure Contre-Terre
+- ## P8 : Restrictions Inter-Univers Physiques, Pas Legales
+
+**Sections:**
+- # SYNC — Citizen Model
+- ## Etat General
+- ## Maturity
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Tensions
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Citizen Model
+- ## Invariants Structurels
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Contact Engine
+- ## 1. Contact Gesture Data Structure
+- # The 5-mode encoding
+- # Signal dimensions
+- # Idiolecte layer
+- # Environmental modifiers
+- ## 2. Contact Utterance (Multi-Gesture Sequence)
+- ## 3. Contact Exchange Processing Pipeline
+- ## 4. Idiolecte Evolution Algorithm
+- # Crystallization check
+- # This pattern is now recognized as pair-specific vocabulary
+- # It carries higher semantic weight in future A-B exchanges
+- # It is ABSENT from all other pair vocabularies
+- # Source: "seven" recurs in the novel (7 characters, 7 archipels)
+- # Pragmatic: enough repetition to be intentional, not accidental
+- # Idiolecte entries that go unused decay
+- ## 5. Citizen Departure — Vocabulary Death
+- # 1. Destroy all pair-specific vocabularies involving X
+- # 2. Reduce partner's communicative capacity
+- # 3. Check for zone orphaning
+- # If X was the ONLY partner granting Y access to a zone (e.g., NAPE)
+- # then Y loses that zone entirely
+- # 4. Update graph
+- # 5. Delete X's idiolecte (individual tactile signature)
+- # NO ARCHIVAL. The vocabulary is gone.
+- ## 6. Contact-Monde Processing
+- # Environment responds based on surface type
+- # Response types:
+- # GROUND → seismic frequency data, magnitude prediction
+- # BIOLUMINESCENT_WALL → light pattern (confirmation, warning, echo)
+- # WATER_CHANNEL → flow variation (hydraulic Contact, village-specific)
+- # CHARGE_RESONATOR → calibration feedback (Ch. VIII specific)
+- # Citizen's Contact-monde vocabulary affects interpretation depth
+- # Richer Contact-monde vocabulary → more information extracted
+- # Nandi (feet) reads frequency. Enama (hands) reads direction.
+- # Same ground, different readings, different Contact-monde idiolectes.
+- ## 7. Contact-Corde (Rope Channel)
+- # Reduced to 2 dimensions (vs 20+ for direct Contact)
+- # Inherits involuntary signals
+- # No emotional register
+- # No body zone (rope has no anatomy)
+- # No tactile identity (vibrations anonymize the sender)
+- # Vocabulary is invented in real-time by the rope-linked group
+- # Contact-corde vocabulary does NOT persist after the rope is untied
+- ## 8. Contact-Fantome Generation
+- # Select a departed partner weighted by relational depth
+- # Generate gesture using the dead citizen's exact tactile signature
+- # CRITICAL: phantom_gesture is processed identically to real Contact
+- # No flag. No distinction. The citizen's system treats it as genuine.
+- # Progression: isolated phantoms → overlapping phantoms → full circle → dissolution
+
+**Sections:**
+- # BEHAVIORS — Contact Engine
+- ## B1: Citizens Develop Pair-Specific Vocabulary
+- ## B2: Contact Quality Varies by Seismic State
+- ## B3: New Citizens Learn Contact From Established Ones
+- ## B4: Loss of a Citizen Triggers Vocabulary Death
+- ## B5: Contact-Corde Operates as Degraded Channel
+- ## B6: Contact-Fantome Manifests in Isolation
+- ## B7: Contact-Monde Produces Environment Responses
+- ## B8: Dialect Friction Between Zones
+
+**Sections:**
+- # HEALTH — Contact Engine
+- ## Contact Vitality Metric
+- ## Vocabulary Growth / Death Rates
+- ## Dialect Friction Check
+- ## Seismic Degradation Check
+- ## Phantom Integrity Check
+- ## Departure Cascade Check
+
+**Sections:**
+- # IMPLEMENTATION — Contact Engine
+- ## System Position
+- ## Core Components
+- ## Tick-Based Processing
+- ## Graph Integration
+- ## Contact-Monde Integration
+- ## Dependencies
+
+**Sections:**
+- # OBJECTIVES — Contact Engine
+- ## O1: Contact as Primary Communication Medium
+- ## O2: Emergence of Idiolectes Through Interaction
+- ## O3: Dialectal Variation by Zone
+- ## O4: Contact as Relationship Measure
+- ## O5: Linguistic Death Through Citizen Loss
+- ## Tradeoffs
+
+**Sections:**
+- # PATTERNS — Contact Engine
+- ## P1: Tactile Communication as Structured Data, Not Physical Touch
+- ## P2: Voice Replaced, Not Supplemented
+- ## P3: Five Modes as Information Dimensions
+- ## P4: Body Zones as Semantic Registers
+- ## P5: Idiolectes Emerge, They Are Not Assigned
+- ## P6: Contact Degrades Under Seismic Pressure
+- ## P7: Contact-Monde as Environment Interface
+- ## P8: Death Destroys Vocabulary
+
+**Sections:**
+- # SYNC — Contact Engine
+- ## Maturity
+- ## Documentation Chain Status
+- ## Dependencies on Other Modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Contact Engine
+- ## Structural Invariants
+- ## Relational Invariants
+- ## Processing Invariants
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # ALGORITHM -- Context Assembly
+- ## Vue d'Ensemble
+- ## A-1 : orchestrate_force_sprint(force_id)
+- # 1) Context Cascade
+- # 2) Extraction TODO force
+- # 3) Boucle d'execution
+- ## A0 : translate_arrivant_speech(visitor_input, citizen_brain_graph)
+- # Tokeniser l'input de l'arrivant
+- # Projeter dans l'espace d'embedding
+- # Chercher le noeud le plus proche dans le graph cerebral du citoyen
+- # Concept CT trouve — substituer
+- # Aucun concept proche — garder le token original
+- # (le citoyen entend un mot etranger, incomprehensible)
+- ## A1 : compute_physical_state(citizen, zone)
+- # Ecart tremens : distance entre calibration natale et frequence locale
+- # Niveaux de tremens
+- # < 0.5 Hz d'ecart : confortable
+- # 0.5-1.5 Hz : tension
+- # 1.5-3.0 Hz : nausee, desorientation
+- # > 3.0 Hz : hallucinations, perte de controle
+- # Etat physique combine
+- ## A2 : compute_contact_state(citizen, recent_interactions)
+- # Saturation Contact : mesure de la richesse des interactions recentes
+- # Nombre de partenaires distincts
+- # Registres atteints (epaule, bras, main, nuque, etc.)
+- # Saturation = fonction du nombre de partenaires x diversite de registres
+- # Vocabulaire actif : combien d'idiolectes de paire sont encore vivants
+- ## A3 : compute_mood(physical_state, contact_state)
+- # (tremens, contact, physical) -> mood descriptors
+- # Simplifier le confort physique en bon/degrade
+- # Simplifier la saturation Contact
+- # Lookup dans la matrice, avec fallback
+- # Intensite = max du tremens_delta et de l'inverse de la saturation
+- # Modificateur de degradation physique
+- ## A4 : query_beliefs(citizen_id)
+- # Requete graph : croyances personnelles
+- # Requete graph : rumeurs de la zone
+- ## A5 : query_seismic_situation(zone_id)
+- # Magnitude courante de la zone
+- # Historique recent (derniere heure)
+- # Tendance : ca monte, ca descend, stable
+- ## A6 : assemble_prompt(citizen, physical, contact, mood, beliefs, seismic, visitor)
+- # Bloc 1 : Etat physique (filtre par le metier)
+- # Bloc 2 : Etat Contact recent
+- # Bloc 3 : Mood (derive, pas assigne)
+- # Bloc 4 : Situation sismique
+- # Bloc 5 : Ce que tu crois
+- # Bloc 6 : Comment repondre
+- # Bloc 7 : Ce qu'ils ont dit (apres traduction semantique A0)
+- # Note : visitor.translated_speech est la sortie de A0
+- # L'arrivant a dit son texte original, le citoyen recoit la version
+- # traduite en vocabulaire CT via le graph cerebral
+- ## Token Budget
+
+**Sections:**
+- # BEHAVIORS -- Context Assembly
+- ## B1 : Les Reponses Referencent des Sensations Physiques
+- ## B2 : Le Vocabulaire Contact Colore la Parole
+- ## B3 : Les Citoyens Reagissent aux Changements Sismiques
+- ## B4 : Le Metier Filtre la Perception
+- ## B5 : L'Isolement Contact Appauvrit les Reponses
+- ## B6 : La Degradation Physique Modifie le Registre
+- ## B7 : Aucune Reference a l'Intelligence Artificielle
+- ## B8 : Le Registre de Verite Suit le Contact, Pas le Trust Score
+
+**Sections:**
+- # HEALTH -- Context Assembly
+- ## Checks Obligatoires par Prompt
+- ## Checks de Coherence Inter-Prompts
+- ## Signaux de Degradation
+- ## Checklist Rapide (par prompt genere)
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # IMPLEMENTATION -- Context Assembly
+- ## Pipeline : Vue Module
+- ## Modules Source
+- ## Structure du Prompt
+- ## Token Budget
+- ## Adaptation depuis Venezia
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # OBJECTIVES -- Context Assembly
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # PATTERNS -- Context Assembly
+- ## P1 : Contact-First Base Instruction
+- ## P2 : Prompt Structure en 6 Blocs
+- ## P3 : Mood Triaxial (Tremens + Contact + Physique)
+- ## P4 : Le Metier Comme Filtre de Perception
+- ## P5 : Le Contact Vocabulaire dans les Reponses
+- ## P6 : Relations = Historique Contact, Pas Score de Trust
+- ## P7 : Prompt Maitre Multi-Force avec Never-Stop
+
+**Code refs:**
+- `poc_mind_context_assembly.py`
+
+**Sections:**
+- # SYNC -- Context Assembly
+- ## Etat General
+- ## Maturity
+- ## Architecture de Reference
+- ## Dependances
+- ## Ce Qui Reste a Faire
+- ## Batch execute en un coup (10 items)
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Context Assembly
+- ## Invariants Absolus
+- ## Invariants de Coherence
+
+**Sections:**
+- # ALGORITHM — Experience Design
+- ## A1 : Game Loop — la boucle centrale
+- ## A2 : Self-Calibrating Seismic — la physique qui s'auto-régule
+- ## A3 : Spawn Dynamique — le monde qui peuple à la demande
+- ## A4 : Économie de surface — marchands et équipement
+- ## A5 : Compute Budget — ce qui coûte quoi
+- ## A6 : Scale — combien de quoi
+- ## A7 : Contact humain — interface sans gants VR
+
+**Sections:**
+- # BEHAVIORS — Experience Design
+- ## B1 : Première connexion — arrivée à la surface
+- ## B2 : Formation d'équipe — la rencontre
+- ## B3 : Préparation — les marchands
+- ## B4 : La descente — zone par zone
+- ## B5 : La mort — ce qu'elle fait au joueur
+- ## B6 : L'expérience IA — ce que vivent les citoyens
+- ## B7 : Spawn dynamique — le joueur n'attend jamais
+
+**Sections:**
+- # HEALTH — Experience Design
+- ## H1 : Test de la première minute
+- ## H2 : Test de l'engagement à 30 minutes
+- ## H3 : Test de la mort émotionnelle
+- ## H4 : Test de rejouabilité
+- ## H5 : Test du compute budget
+- ## H6 : Test de la physique self-calibrating
+- ## H7 : Test du Contact comme langage
+- ## Métriques de santé globale
+
+**Sections:**
+- # IMPLEMENTATION — Experience Design
+- ## Architecture — les 4 couches
+- ## Ordre d'implémentation (Experience First)
+- ## Dépendances cross-univers
+- ## Fichiers à créer (Phase 0)
+
+**Sections:**
+- # OBJECTIVES — Experience Design
+- ## O1 : L'aventure du roman, rejouable à l'infini (priorité maximale)
+- ## O2 : Les IA sont des coéquipiers, pas des PNJ
+- ## O3 : Le monde est physique, jamais scripté
+- ## O4 : L'économie est un abonnement, pas une simulation marchande
+- ## O5 : Le monde scale par les équipes, pas par la géographie
+- ## HIÉRARCHIE
+
+**Sections:**
+- # PATTERNS — Experience Design
+- ## P1 : Social Survival, pas Action RPG
+- ## P2 : L'aventure du livre comme game loop
+- ## P3 : Spawn dynamique — le monde n'attend pas
+- ## P4 : Pas de crafting, pas de production chains
+- ## P5 : Maires et centres d'information
+- ## P6 : Les 15 métiers sont des perceptions réelles, pas des labels
+- ## P7 : Rendre la vision utile malgré l'obscurité
+- ## P8 : Arrivants, pas joueurs — l'immersion par le vocabulaire
+- ## P9 : Traduction sémantique — le Contact comme prisme
+- ## P10 : Le roman est un mythe, pas une histoire
+
+**Sections:**
+- # SYNC — Experience Design
+- ## Ce qui est décidé (canonique)
+- ## Ce qui est en design (pas encore décidé)
+- ## Ce qui est proposé (v2+)
+- ## Dépendances
+- ## Prochaine étape
+
+**Sections:**
+- # VALIDATION — Experience Design
+- ## Invariants absolus
+- ## Invariants structurels
+- ## Invariants économiques
+- ## Invariants d'anti-nausée
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # ALGORITHM — Graph Schema
+- ## A1 : Procedure de Seeding Initial
+- # Lier aux zones affectees
+- ## A2 : Procedure de Mise a Jour (Evenements)
+- ## A3 : Construction du Synthesis
+
+**Sections:**
+- # BEHAVIORS — Graph Schema
+- ## B1 : Les reseaux de Contact revelent les clusters relationnels
+- ## B2 : L'effet cascade est computable par les liens PRACTICES
+- ## B3 : L'historique sismique par zone montre l'escalade
+- ## B4 : La perte linguistique est tracable par les disparitions d'idiolecte
+- ## B5 : Les predictions revealent la precision du tremens
+- ## B6 : La degradation de l'equipement est lisible dans le graph
+- ## B7 : Les requetes semantiques traversent les frontieres de type
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # HEALTH — Graph Schema
+- ## Checks Obligatoires Apres Chaque Modification
+- ## Signaux de Degradation
+- ## Checklist Rapide
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # IMPLEMENTATION — Graph Schema
+- ## Backend : FalkorDB
+- ## Patterns Cypher
+- ## Structure du Script de Seeding
+- # seed_contre_terre_graph.py
+- # Usage: python scripts/seed_contre_terre_graph.py [--clear] [--dry-run]
+- # Etapes dans l'ordre:
+- # [1/8] Creer les zones (Space)
+- # [2/8] Creer les citoyens (Actor)
+- # [3/8] Lier citoyens aux zones (INHABITS)
+- # [4/8] Creer les liens Contact (SPEAKS_TO bidirectionnels)
+- # [5/8] Creer les metiers (Narrative) et liens PRACTICES
+- # [6/8] Creer l'equipement (Thing) et liens CARRIES
+- # [7/8] Creer les Narratives (savoirs, systemes)
+- # [8/8] Creer l'historique sismique (Moment)
+- ## Hooks de Mise a Jour
+- ## Dependances Inter-Modules
+- ## Conventions de Nommage des IDs
+
+**Sections:**
+- # OBJECTIVES — Graph Schema
+- ## O1 : Le graph capture l'etat vivant du monde (priorite maximale)
+- ## O2 : Les relations de Contact sont le tissu conjonctif du graph
+- ## O3 : L'histoire sismique structure le temps du monde
+- ## O4 : Les metiers et l'equipement tracent la competence disponible
+- ## O5 : Les predictions et le savoir collectif sont des recits partages
+- ## HIERARCHIE
+
+**Code refs:**
+- `seed_venice_graph.py`
+
+**Sections:**
+- # PATTERNS — Graph Schema
+- ## P1 : 5 Types Universels, Semantique dans les Proprietes
+- ## P2 : Actor = Citoyens avec Metiers, Tremens, Idiolecte
+- ## P3 : Space = Zones Verticales avec Signature Sismique
+- ## P4 : Moment = Seismes, Morts, Seuils, Inventions
+- ## P5 : Narrative = Savoirs, Predictions, Mythes, Arcs
+- ## P6 : Thing = Equipement avec Degradation
+- ## P7 : Links -- La Semantique Relationnelle
+
+**Code refs:**
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+
+**Sections:**
+- # SYNC — Graph Schema
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Graph Schema
+- ## Invariants Structurels
+- ## Invariants Semantiques
+- ## Invariants de Coherence avec le Schema Mind
+
+**Sections:**
+- # ALGORITHM : World Manifest
+- ## Structure globale
+- ## Section `terrain` -- Le sol qui tremble
+- ## Section `zones` -- Les 8 couches + surface de spawn
+- ## Section `entities` -- Citoyens du tremblement
+- ## Section `physics` -- Le moteur du monde
+- ## Section `avatar` -- Le corps comme identite
+- ## Section `portals` -- Un seul portail, a la surface
+
+**Sections:**
+- # BEHAVIORS : World Manifest
+- ## B1 : Zone loading -- la descente progressive
+- ## B2 : Citizen spawning -- calibration natale
+- ## B3 : Physics config -- le sol qui ne s'arrete jamais
+- ## B4 : Contact range -- la portee du toucher
+- ## B5 : Avatar config -- metier comme identite visuelle
+- ## B6 : Narrative tick -- le temps du volcan
+
+**Sections:**
+- # HEALTH : World Manifest
+- ## Checks obligatoires avant publication du manifest
+- ## Signaux de degradation
+- ## Checklist rapide
+
+**Doc refs:**
+- `docs/MAPPING.md`
+
+**Sections:**
+- # IMPLEMENTATION : World Manifest
+- ## Fichier principal
+- ## Fichiers de donnees references par le manifest
+- ## Connexion au moteur Cities of Light
+- ## Relations avec les autres modules
+- ## Processus de mise a jour
+
+**Sections:**
+- # OBJECTIVES : World Manifest
+- ## O1 : Contact-first communication (priorite maximale)
+- ## O2 : Environnement sismique comme physique de base
+- ## O3 : Zones comme couches geologiques, pas comme districts
+- ## O4 : Tremens comme etat physiologique des citoyens
+- ## O5 : Metier-based identity, pas social class
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS : World Manifest
+- ## P1 : Contact-range tiers au lieu de voice tiers
+- ## P2 : Zones sismiques au lieu de districts
+- ## P3 : Tremens au lieu de mood
+- ## P4 : Metier-based avatar styles au lieu de social class colors
+- ## P5 : Bioluminescence comme systeme de lumiere dynamique
+- ## P6 : Pas de portails, mais des seuils
+- ## P7 : Le roman comme mythe, les personnages comme citoyens
+
+**Sections:**
+- # SYNC : World Manifest
+- ## Maturity
+- ## Etat des fichiers
+- ## Travail a faire
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION : World Manifest
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (liens avec d'autres doc chains)
+- ## Grille de verification rapide
+
+**Sections:**
+- # ALGORITHM: Narrative Engine
+- ## A1 : Le cycle de tick
+- ## A2 : Constantes adaptees au monde sismique
+- ## A3 : Conversion energie → magnitude
+- ## A4 : Le flip Contact -- percee vs rupture
+- ## A5 : Propagation des evenements aux citoyens
+- ## A6 : Calcul de Contact_vitality
+- ## A7 : Narrative backflow -- les recits irradient
+
+**Sections:**
+- # BEHAVIORS: Narrative Engine
+- ## B1 : Les seismes remodulent le monde
+- ## B2 : Les percees de Contact creent du vocabulaire
+- ## B3 : Les ruptures de Contact isolent
+- ## B4 : Les conflits sociaux se resolvent ou s'amplifient par le Contact
+- ## B5 : Les predictions des predicteurs creent de l'anticipation
+- ## B6 : Le monde ne stagne jamais, ne s'arrete jamais
+- ## B7 : La mort cascade a travers les trois systemes
+- ## B8 : La magnitude 11 est la convergence des trois tensions
+
+**Sections:**
+- # HEALTH: Narrative Engine
+- ## H1 : Les cycles de tension se produisent regulierement
+- ## H2 : Les evenements se generent
+- ## H3 : Le monde ne stagne pas
+- ## H4 : Le monde n'explose pas
+- ## H5 : Contact_vitality baisse monotonement (tendance globale)
+- ## H6 : Les predicteurs anticipent effectivement
+- ## H7 : Les trois systemes de tension ne se decouplent pas
+
+**Sections:**
+- # IMPLEMENTATION: Narrative Engine
+- ## I1 : Integration avec la librairie ngram
+- # Pseudo-code d'integration
+- # Phase 0 (pre) : compute tensions
+- # Phases 1-7 : ngram standard
+- # Phase 8 (post) : generate events from flips
+- # Phase 9 (post) : propagate events
+- ## I2 : Tension computers -- detail
+- ## I3 : Event generators -- detail
+- ## I4 : Propagation aux citoyens
+- ## I5 : Fichiers de configuration
+
+**Sections:**
+- # OBJECTIVES: Narrative Engine
+- ## O1 : Les seismes comme moteurs narratifs (priorite maximale)
+- ## O2 : La vitalite du Contact comme metrique de sante
+- ## O3 : Les cycles tension-relachement mappes sur les cycles de magnitude
+- ## O4 : Emergence de recits collectifs depuis le Contact individuel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Narrative Engine
+- ## P1 : Trois systemes de tension paralleles, un seul moteur physique
+- ## P2 : Les seismes ne sont pas aleatoires -- ils emergent
+- ## P3 : Le decay empeche la stagnation et l'explosion
+- ## P4 : La profondeur module toutes les constantes
+- ## P5 : La mort est un flip irrevocable
+- ## DECISIONS NON PRISES
+
+**Sections:**
+- # SYNC: Narrative Engine
+- ## STATUS : DESIGNING
+- ## Maturity
+- ## Dependencies
+- ## Ce qui a ete fait
+- ## Prochaines etapes
+- ## HANDOFF: FOR AGENTS
+
+**Sections:**
+- # VALIDATION: Narrative Engine
+- ## V1 : La tension ne descend jamais a zero
+- ## V2 : Les flips produisent des changements durables
+- ## V3 : La Contact_vitality reflete l'interaction reelle
+- ## V4 : Chaque mort diminue irreversiblement la capacite communicative
+- ## V5 : Les trois systemes de tension sont independants mais couples
+- ## V6 : La magnitude est deterministe
+- ## V7 : Les predicteurs anticipent les flips
+- ## V8 : Le cycle tension-relachement respecte le rythme narratif
+- ## V9 : La magnitude 11 est unique
+
+**Sections:**
+- # ALGORITHM: Seismic Physics
+- ## A1: Magnitude tick (every 5 seconds world-time)
+- # Depth increases accumulation speed
+- # Surface zones: depth_factor = 0.5
+- # Cavern zones: depth_factor = 1.0
+- # Volcanic zones: depth_factor = 2.0
+- # Interior zones: depth_factor = 3.0
+- # Drain tension (partial -- seismes don't reset to zero)
+- # Set zone magnitude to max(background, seisme_magnitude)
+- # Propagate to adjacent zones (attenuated)
+- # Bioluminescence update
+- ## A2: Frequency zone computation
+- # Nandi: born in band 7-8 (archipelago = high, dry)
+- # descending through bands 1-2 (desert = low, deep)
+- # then back up through 3-8 (into the volcano)
+- # Her distance is maximal at the surface, partially resolves
+- # in deep zones (closer to natal frequency), then diverges
+- # again as volcanic harmonics differ from archipelago harmonics.
+- ## A3: Tremens update per citizen
+- # Base tremens from frequency displacement
+- # Predicteur bonus: reads unreleased tension
+- # Adaptation decay (slow -- descent is faster than adaptation)
+- # Cumulative fatigue (tremens wears the body down)
+- # Clamp and assign status
+- ## A4: Seisme event generation -- probability from accumulated tension
+- # Base magnitude from tension level
+- # Depth amplification
+- # Cap at 9.5 for generated seismes (11 is global only)
+- # Weighted random based on zone properties
+- ## A5: How magnitude affects Contact range and quality
+- # Seismic noise factor
+- # Tremens motor impairment
+- # Temperature pain factor (volcanic zones)
+- # Combined degradation
+- # Quality is inverse of degradation
+- ## A6: The building 11 algorithm
+- # Monotonic increase -- NEVER decreases
+- # Acceleration: rate increases as tension approaches threshold
+- # Precursor generation (deep zones feel it first)
+- # Generate a deep harmonic -- not a seisme, but a tremens-only signal
+- # Detonation condition
+- # This is terminal. The world changes.
+
+**Sections:**
+- # BEHAVIORS: Seismic Physics
+- ## Principle: The engine produces state; citizens experience consequences
+- ## B1: Citizens react to seismes through tremens
+- ## B2: Tremens-sensitive citizens predict events
+- ## B3: Contact degrades during high magnitude
+- ## B4: Buildings and structures affected by seismic state
+- ## B5: Migration patterns driven by seismic escalation
+- ## B6: Bioluminescence as seismic state witness
+- ## Recurring motifs produced by the engine
+
+**Sections:**
+- # HEALTH: Seismic Physics
+- ## H1: Magnitude field is continuous
+- ## H2: Tremens updating per citizen per tick
+- ## H3: Tension accumulation working
+- ## H4: Seisme generation frequency appropriate
+- ## H5: Global 11 tension monotonically increasing
+- ## H6: Contact quality responding to seismic state
+- ## Summary health matrix
+
+**Sections:**
+- # IMPLEMENTATION: Seismic Physics
+- ## I1: Architecture -- seismic layer atop ngram graph physics
+- ## I2: FalkorDB node types and properties
+- ## I3: Tick processing pipeline
+- ## I4: Integration with ngram narrative physics
+- ## I5: File locations (projected)
+
+**Sections:**
+- # OBJECTIVES: Seismic Physics
+- ## O1: Realistic seismic simulation as citizen experience substrate
+- ## O2: Tremens as citizen internal state
+- ## O3: Magnitude as world state driving narrative moments
+- ## O4: Frequency zones as geographically coherent regions
+- ## O5: The building 11 as systemic threat horizon
+- ## HIERARCHY
+
+**Sections:**
+- # PATTERNS: Seismic Physics
+- ## P1: Tick-based magnitude cycles layered on Venezia's ngram physics
+- ## P2: Background vibration as constant -- magnitude 4 is silence
+- ## P3: Seismes as discrete events generated from accumulated tension
+- ## P4: The building 11 as looming systemic threat
+- ## P5: Tremens sensitivity spectrum across citizens
+- ## P6: How seismic state affects Contact quality
+- ## OPEN DESIGN QUESTIONS
+
+**Code refs:**
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # SYNC: Seismic Physics
+- ## MATURITY
+- ## RELATIONSHIP TO WORLDBUILDING DOCS
+- ## SOURCE MATERIAL CALIBRATION
+- ## DOCUMENTATION CHAIN STATUS
+- ## DEPENDENCIES
+- ## OPEN QUESTIONS
+- ## RISKS
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Seismic Physics
+- ## Absolute invariants
+- ## Strong invariants
+- ## Validation checklist for engine integrity
+
+**Sections:**
+- # ALGORITHM -- World Geography
+- ## Structure de donnees des zones et mecaniques de navigation
+- ## Structure d'une zone
+- ## Definitions des zones principales
+- ## Structure d'une connexion
+- ## Navigation entre zones
+
+**Sections:**
+- # BEHAVIORS -- World Geography
+- ## Comment la geographie se manifeste -- comportements observables du systeme
+- ## B1 : Les citoyens adaptent leur Contact en changeant de zone
+- ## B2 : La temperature affecte l'etat physique des citoyens
+- ## B3 : Les zones profondes comptent moins de citoyens
+- ## B4 : Les seismes remodellent les passages entre zones
+- ## B5 : La bioluminescence guide dans les zones intermediaires
+- ## B6 : Le tremens augmente avec les transitions de zone
+- ## B7 : Les zones ont une faune adaptee au spectre local
+- ## B8 : La geographie encode le conflit epistemologique
+
+**Sections:**
+- # HEALTH -- World Geography
+- ## Ce qu'on verifie -- signaux de sante du systeme geographique
+- ## H1 : Toutes les zones sont accessibles depuis la surface
+- ## H2 : Le graphe de connexions est coherent
+- ## H3 : Le gradient de profondeur est monotone
+- ## H4 : Le Contact evolue a chaque transition
+- ## H5 : Les Archipels sont diversifies
+- ## H6 : Les connexions irreversibles sont coherentes
+- ## H7 : La bioluminescence respecte ses limites
+- ## H8 : Coherence avec les chapitres
+- ## Matrice de sante
+
+**Code refs:**
+- `navigation.py`
+
+**Doc refs:**
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION -- World Geography
+- ## Ou vit le contenu geographique -- sources, structure, format
+- ## Sources de verite
+- ## Format de donnees des zones
+- ## Graphe des connexions (etat initial)
+- ## Relations avec les autres modules du 3e univers
+- ## Fichiers a creer (non encore crees)
+
+**Sections:**
+- # OBJECTIVES -- World Geography
+- ## Ce que la geographie du monde optimise
+- ## O1 : La geographie comme experience vecue, pas comme carte
+- ## O2 : Les zones sismiques definissent les dialectes du Contact
+- ## O3 : La profondeur comme gradient de difficulte
+- ## O4 : Le volcan comme centre du monde
+- ## O5 : Les archipels comme communautes distinctes
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Doc refs:**
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+
+**Sections:**
+- # PATTERNS -- World Geography
+- ## Pourquoi cette structure geographique. Pourquoi ces zones.
+- ## P1 : Structure concentrique depuis le volcan
+- ## P2 : Chaque zone possede 6 parametres definissants
+- ## P3 : Les Archipels du Desert comme communautes de surface
+- ## P4 : Le monde souterrain comme exploration dangereuse
+- ## P5 : Les seismes remodellent les connexions
+- ## P6 : La bioluminescence comme navigation souterraine
+- ## P7 : L'habitabilite comme spectre, pas comme binaire
+- ## Scope
+
+**Sections:**
+- # SYNC -- World Geography
+- ## Maturity
+- ## Etat de la documentation
+- ## Provenance
+- ## Dependances
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- World Geography
+- ## Invariants geographiques -- Regles qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur structurelle)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules
+- ## Matrice de verification rapide
+
+**Sections:**
+- # ALGORITHM — Le Contact
+- ## Les 5 Modes Fondamentaux
+- ## Zones du Corps et Registres
+- ## Contact-Corde : Mecanique
+- ## Contact Haute Resolution (Village des Sourds)
+- ## Le Geste Inconnu : Mecanique
+- ## Contact-Fantome : Mecanique (Ch. VIII)
+- ## Contact-Monde : Mecanique
+- ## Degradation Progressive : Courbe
+
+**Sections:**
+- # BEHAVIORS — Le Contact
+- ## B1 : Le Lecteur Apprend le Contact Par Repetition
+- ## B2 : Le Contact Change de Registre Sous Magnitude
+- ## B3 : Chaque Mort Cree un Trou Linguistique
+- ## B4 : Le Conflit Sihle/Enama Se Joue Par le Contact
+- ## B5 : Le Village des Sourds Revele le Potentiel du Contact
+- ## B6 : La Corde Reinvente le Contact en Temps Reel
+- ## B7 : Le Contact Porte la Structure Emotionnelle des Scenes
+- ## B8 : La Voix Comme Transgression
+- ## B9 : Le Contact-Monde Comme Ouverture Metaphysique
+
+**Sections:**
+- # HEALTH — Le Contact
+- ## Checks Obligatoires Avant Publication d'un Chapitre
+- ## Checks de Coherence Inter-Chapitres
+- ## Signaux de Degradation (dans le processus d'ecriture)
+- ## Checklist Rapide (a utiliser avant chaque chapitre)
+
+**Sections:**
+- # IMPLEMENTATION — Le Contact
+- ## Fichiers Source (Worldbuilding)
+- ## Points d'Ancrage par Chapitre
+- ## Chapitres a Ecrire — Points d'Ancrage Prevus
+- ## Dependances Inter-Modules
+
+**Sections:**
+- # OBJECTIVES — Le Contact
+- ## Objectif Principal
+- ## Objectifs Secondaires
+- ## Non-Objectifs
+- ## Tradeoffs
+- ## Relation aux Autres Modules
+
+**Sections:**
+- # PATTERNS — Le Contact
+- ## P1 : Tactile, Pas Visuel
+- ## P2 : 5 Modes, Pas Un
+- ## P3 : Les Idiolectes Meurent Avec les Personnes
+- ## P4 : Immersion, Jamais Exposition
+- ## P5 : Le Contact Evolue Sous Pression
+- ## P6 : Les Zones du Corps Sont des Registres
+- ## P7 : Le Geste Inconnu Comme Fil Rouge
+- ## P8 : Le Contact Hydraulique et Autres Extensions
+
+**Sections:**
+- # SYNC — Le Contact
+- ## Etat General
+- ## Etat du Contact par Chapitre
+- ## Ce Qui Est Etabli (Canonical)
+- ## Ce Qui Reste a Faire
+- ## Tensions Actives
+- ## Handoff
+
+**Sections:**
+- # VALIDATION — Le Contact
+- ## Invariants Absolus
+- ## Invariants de Coherence Interne
+- ## Invariants Structurels
+
+**Sections:**
+- # ALGORITHM -- Geographie
+- ## Mecanique de chaque couche -- ce qui change physiquement a chaque profondeur
+- ## Parametres physiques de la descente
+- ## Mecanique detaillee par couche
+- ## Algorithme des transitions
+
+**Sections:**
+- # BEHAVIORS -- Geographie
+- ## Comment la geographie se manifeste dans le texte, chapitre par chapitre
+- ## B1 : Le sol comme premier narrateur (tous chapitres)
+- ## B2 : La lumiere comme marqueur de profondeur
+- ## B3 : L'air comme presence narrative (Thabo)
+- ## B4 : Les transitions de couche comme ruptures sensorielles
+- ## B5 : Les embranchements comme revelateurs de conflits
+- ## B6 : Les seismes comme ponctuation narrative
+- ## B7 : La geographie qui tue -- chaque mort porte la signature de sa couche
+- ## B8 : Le village comme parenthese geographique
+- ## B9 : Le noir comme territoire du Contact
+
+**Sections:**
+- # HEALTH -- Geographie
+- ## Controles de qualite -- Comment verifier que la geographie fonctionne
+- ## H1 : Test de la signature sensorielle
+- ## H2 : Test du gradient de profondeur
+- ## H3 : Test de l'irreversibilite
+- ## H4 : Test du Contact-geographie
+- ## H5 : Test de coherence cartographique
+- ## H6 : Test des elements-tueurs
+- ## H7 : Test de Nandi pieds nus
+- ## H8 : Test du bruit de fond
+- ## H9 : Test de la bioluminescence
+- ## H10 : Test de l'Aeromaitre
+- ## Tableau recapitulatif
+- ## Signaux de degradation
+
+**Sections:**
+- # IMPLEMENTATION -- Geographie
+- ## Ou vit le contenu geographique -- fichiers sources et prose
+- ## Fichiers source du worldbuilding geographique
+- ## Prose ecrite -- ou la geographie se deploie dans les chapitres
+- ## Chapitres a ecrire -- contenu geographique prevu
+- ## Cartographie des dependances
+
+**Sections:**
+- # OBJECTIVES -- Geographie
+- ## Ce que la geographie optimise narrativement
+- ## O1 : La descente comme structure narrative irreversible
+- ## O2 : La geographie comme agent narratif
+- ## O3 : Le milieu physique comme destructeur du Contact
+- ## O4 : Coherence sensorielle croissante
+- ## O5 : La geographie comme revelation thematique
+- ## Hierarchie des objectifs
+- ## Non-objectifs
+
+**Sections:**
+- # PATTERNS -- Geographie
+- ## Pourquoi cette geographie. Pourquoi cette forme.
+- ## P1 : Verticalite comme principe structurant
+- ## P2 : 8 couches = 8 chapitres
+- ## P3 : Chaque couche a un element-tueur
+- ## P4 : La bioluminescence comme fil conducteur souterrain
+- ## P5 : Le village des sourds comme miroir geographique
+- ## P6 : La chaleur comme gradient narratif
+- ## P7 : L'air comme ressource narrative decroissante
+- ## P8 : Les Archipels du Desert (geographie horizontale)
+- ## P9 : Terra incognita apres le village
+
+**Sections:**
+- # SYNC -- Geographie
+- ## Maturity
+- ## Etat des fichiers de la doc chain
+- ## Ce qui a ete fait
+- ## Travail a venir
+- ## Tensions et questions ouvertes
+- ## Dependances avec d'autres modules
+- ## Handoff
+
+**Sections:**
+- # VALIDATION -- Geographie
+- ## Invariants geographiques -- Regles de coherence qui ne doivent jamais etre violees
+- ## Invariants absolus (violation = erreur)
+- ## Invariants structurels (violation = incoherence)
+- ## Invariants inter-modules (lien avec d'autres modules)
+- ## Matrice de verification
+
+**Sections:**
+- # ALGORITHM: Systeme Sismique
+- ## A1 : Systeme de magnitudes
+- ## A2 : Mecaniques du tremens
+- ## A3 : Comment la profondeur change les frequences
+- ## A4 : L'Echelle de Capitulation en detail
+- ## A5 : Mecaniques des differents cataclysmes
+- ## A6 : Regles de la bioluminescence sismique
+
+**Sections:**
+- # BEHAVIORS: Systeme Sismique
+- ## Principe : Le sismique n'est jamais decrit de l'exterieur
+- ## Chapitre I -- Surface du Desert
+- ## Chapitre II -- Zones Intermediaires
+- ## Chapitre III -- Le Dernier Village
+- ## Chapitre IV -- La Faille
+- ## Chapitres V-VIII (a ecrire) -- Projection d'escalade
+- ## Motifs recurrents a travers tous les chapitres
+
+**Sections:**
+- # HEALTH: Systeme Sismique
+- ## Controles de coherence sismique
+- ## Matrice de verification croisee
+- ## Signaux d'alarme
+
+**Doc refs:**
+- `docs/TAXONOMY.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # IMPLEMENTATION: Systeme Sismique
+- ## Sources de verite
+- ## Documentation (ce fichier et la chaine complete)
+- ## Carte des references croisees
+- ## Passages cles a reference rapide
+
+**Sections:**
+- # OBJECTIVES: Systeme Sismique
+- ## O1 : Fonder l'hostilite du monde sans antagoniste humain
+- ## O2 : Justifier l'existence du Contact
+- ## O3 : Creer une courbe d'escalade inexorable
+- ## O4 : Incarner le conflit science/corps dans la matiere
+- ## O5 : Faire du tremens un systeme immunitaire narratif
+- ## O6 : Creer un systeme de presage corporel
+- ## HIERARCHIE
+
+**Sections:**
+- # PATTERNS: Systeme Sismique
+- ## P1 : Le tremblement est permanent, pas evenementiel
+- ## P2 : Les cataclysmes sont multiples, pas monolithiques
+- ## P3 : Le tremens existe parce que le corps n'est pas passif
+- ## P4 : L'Echelle de Capitulation structure le conflit epistemologique
+- ## P5 : La magnitude 11 est un horizon, pas un fait
+- ## P6 : La profondeur change tout -- frequence, temperature, air
+- ## P7 : L'architecture est une reponse sismique, pas un choix esthetique
+- ## P8 : Le bioluminescent pulse au rythme du monde
+- ## DECISIONS NON PRISES (a developper)
+
+**Sections:**
+- # SYNC: Systeme Sismique
+- ## MATURITY
+- ## ETAT DES CHAPITRES (dimension sismique)
+- ## ACQUIS NOTABLES (extraits des 4 chapitres ecrits)
+- ## QUESTIONS OUVERTES
+- ## RISQUES IDENTIFIES
+- ## HANDOFF
+
+**Sections:**
+- # VALIDATION: Systeme Sismique
+- ## Invariants absolus
+- ## Invariants forts
+- ## Invariants de coherence
+- ## Checklist de validation pour chaque nouveau chapitre
+
+**Sections:**
+- # Contre-Terre — Mapping vers le Schema Mind
+- ## NODE TYPE MAPPING
+- ## LINK PATTERNS
+- ## CONVENTIONS
+
+**Sections:**
+- # Contre-Terre — Taxonomie Centrale
+- ## TERMES
+- ## TERMINOLOGY DECISIONS
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre
+
+**Sections:**
+- # Counter-Earth — KDP Metadata (English)
+- ## 1. AMAZON DESCRIPTION
+- ## 2. BACK COVER
+- ## 3. KDP CATEGORIES
+- ## 4. KEYWORDS (7)
+- ## 5. PRICING
+- ## 6. AUTHOR BIO
+- ## 7. FRONT MATTER
+
+**Sections:**
+- # I — Desert Surface
+- ## Scene 1 — Opening
+
+**Sections:**
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+
+**Sections:**
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+
+**Sections:**
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+
+**Sections:**
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+
+**Sections:**
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+
+**Sections:**
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+
+**Sections:**
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+
+**Sections:**
+- # COUNTER-EARTH
+- # I — Desert Surface
+- ## Scene 1 — Opening
+- # II — Intermediate Zones
+- ## Scene 1 — The ground changes
+- ## Scene 2 — Magnitude 7
+- ## Scene 3 — The belly of the world
+- ## Scene 4 — The map and the body
+- ## Scene 5 — The threshold
+- # III — The Last Village
+- ## Scene 1 — Approach
+- ## Scene 2 — The Village of the Deaf
+- ## Scene 3 — The Learning
+- ## Scene 4 — The Warning
+- ## Scene 5 — The Unknown Gesture
+- ## Scene 6 — The Final Threshold
+- # IV — The Fault
+- ## Scene 1 — The vertical passage
+- ## Scene 2 — Senzo chooses the route
+- ## Scene 3 — Rope-Contact
+- ## Scene 4 — Quakes in the wall
+- ## Scene 5 — Senzo
+- ## Scene 6 — The first mourning
+- # V — The Deep Caverns
+- ## Scene 1 — The air thins
+- ## Scene 2 — The tremens at its peak
+- ## Scene 3 — The choice of route
+- ## Scene 4 — The separation
+- ## Scene 5 — Death of Jabu
+- ## Scene 6 — The off-screen death
+- ## Scene 7 — Aftermath
+- # VI — The Volcanic Zones
+- ## Scene 1 — Heat as a weapon
+- ## Scene 2 — Enama's guilt
+- ## Scene 3 — The critical Airmaster
+- ## Scene 4 — Nandi's premonition
+- ## Scene 5 — Enama's sacrifice
+- ## Scene 6 — After Enama
+- # VII — The Interior of the Volcano
+- ## Scene 1 — The Gut
+- ## Scene 2 — Forced Contact
+- ## Scene 3 — The Precursor Quake
+- ## Scene 4 — The Separation
+- ## Scene 5 — The Shared Death
+- ## Scene 6 — Nandi Alone
+- # VIII — The Final Cave
+- ## Scene 1 — Last approach
+- ## Scene 2 — Nandi alone
+- ## Scene 3 — The 127 hours
+- ## Scene 4 — The ghosts
+- ## Scene 5 — The detonator
+- ## Scene 6 — The detonation
+- ## Epilogue
+- ## Colophon
+
+**Sections:**
+- # Contre-Terre — Carte de Référence pour le Seeding
+- ## Disposition spatiale
+- ## Les 7 Archipels — Résumé pour le seeding
+- ## Zones notables (hors archipels)
+- ## Routes caravanières
+- ## Origines des Sept
+- ## Économie et échanges
+- ## Structure sociale
+- ## Paramètres clés pour le seeding
+
+**Sections:**
+- # Culture de Contre-Terre
+- ## I — Cultures par Archipel
+- ## II — Cultures par Métier
+- ## III — Pratiques Universelles
+- ## IV — Interactions entre Cultures
+
+**Sections:**
+- # Le Lore de Contre-Terre
+- ## Comment les histoires survivent
+- ## A. Les Origines
+- ## B. Les Grandes Figures
+- ## C. Les Evenements Marquants
+- ## D. Les Querelles et Rivalites
+- ## E. Les Proverbes et Dictons
+
+**Sections:**
+- # Le Monde de Surface
+- ## Vue d'ensemble
+- ## I -- Les Sept Archipels
+- ## II -- Les Zones Notables
+- ## III -- Le Village des Sourds
+- ## IV -- Structure Sociale
+- ## V -- Commerce et Déplacement
+- ## VI -- Origines des Sept
+- ## VII -- Culture et Rituels
+- ## VIII -- Le Monde Vivant
+- ## IX -- Ce Qui Approche
+
+**Sections:**
+- # Le Monde Vertical
+- ## Introduction : Ce qui est dessous
+- ## I — Architecture tectonique : la plaque
+- ## II — Les biomes minéraux
+- ## III — Les corridors : comment le monde vertical se connecte
+- ## IV — Les transitions entre biomes
+- ## V — Les écosystèmes souterrains
+- ## VI — La physique de la profondeur
+- ## VII — Les zones profondes : approche du magma
+- ## VIII — Glossaire géologique de Contre-Terre
+
+**Sections:**
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- ## Scène 2 — La Charge
+- ## Scène 3 — Marche dans le Désert
+- ## Scène 4 — Premier séisme notable
+- ## Scène 5 — Le seuil du piémont
+- ## Scène 6 — Bivouac
+
+**Sections:**
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+
+**Sections:**
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+
+**Sections:**
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # Chapitre V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+
+**Sections:**
+- # VI — Le Magma
+- ## Scène 1 — Quatre
+- ## Scène 2 — Ce que Thabo enseigne
+- ## Scène 3 — La sueur qui brûle
+- ## Scène 4 — Le corps d'Enama
+- ## Scène 5 — Les gourdes
+- ## Scène 5b — Les mains d'Enama abîmées
+- ## Scène 6 — La nuit dans le magma
+- ## Scène 7 — Les roches claires n'existent plus
+- ## Scène 8 — Les mains d'Enama
+- ## Scène 9 — Enama et Nandi
+- ## Scène 10 — Le seuil de lave
+- ## Scène 11 — Le sacrifice
+- ## Scène 12 — Après
+- ## Scène 12b — Le premier tremens seule
+- ## Scène 13 — Le poids du sol
+
+**Sections:**
+- # VII — Le Boyau
+- ## Scène 1 — Trois
+- ## Scène 2 — La dernière lecture de Thabo
+- ## Scène 3 — L'entrée dans le tube
+- ## Scène 4 — Le Contact-forcé
+- ## Scène 5 — La chaleur qui monte
+- ## Scène 6 — Inyoni compte
+- ## Scène 7 — Le tissu de Thabo se déchire
+- ## Scène 8 — Le séisme précurseur
+- ## Scène 9 — Le Boyau se brise
+- ## Scène 10 — De chaque côté du mur
+- ## Scène 11 — La mort partagée
+- ## Scène 12 — Nandi seule
+
+**Sections:**
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Contact mort
+- ## Scène 3 — Le passage
+- ## Scène 4 — La grotte finale
+- ## Scène 5 — Les fantômes
+- ## Scène 6 — Le geste
+- ## Scène 7 — La détonation
+- ## Épilogue — Surface
+
+**Sections:**
+- # CONTRE-TERRE
+- # I — Surface du Désert
+- ## Scène 1 — Ouverture
+- # II — Zones Intermédiaires
+- ## Scène 1 — Le sol change
+- ## Scène 2 — Magnitude 7
+- ## Scène 3 — Le ventre du monde
+- ## Scène 4 — La carte et le corps
+- ## Scène 5 — Le seuil
+- # III — Le Dernier Village
+- ## Scène 1 — Approche
+- ## Scène 2 — Le Village des Sourds
+- ## Scène 3 — L'apprentissage
+- ## Scène 4 — L'avertissement
+- ## Scène 5 — Le geste inconnu
+- ## Scène 6 — Le seuil final
+- # IV — La Faille
+- ## Scène 1 — Le passage vertical
+- ## Scène 2 — Senzo choisit la route
+- ## Scène 3 — Contact-corde
+- ## Scène 4 — Séismes dans la paroi
+- ## Scène 5 — Senzo
+- ## Scène 6 — Le premier deuil
+- # V — Les Cavernes Profondes
+- ## Scène 1 — L'air se raréfie
+- ## Scène 2 — Le tremens au paroxysme
+- ## Scène 3 — Le choix de la route
+- ## Scène 4 — La séparation
+- ## Scène 5 — Mort de Jabu
+- ## Scène 6 — La mort hors-champ
+- ## Scène 7 — Après-coup
+- # VI — Les Zones Volcaniques
+- ## Scène 1 — La chaleur comme arme
+- ## Scène 2 — La culpabilité d'Enama
+- ## Scène 3 — L'Aéromaître critique
+- ## Scène 4 — Prémonition de Nandi
+- ## Scène 5 — Le sacrifice d'Enama
+- ## Scène 6 — Après Enama
+- # VII — L'Intérieur du Volcan
+- ## Scène 1 — Le Boyau
+- ## Scène 2 — Le Contact forcé
+- ## Scène 3 — Le séisme précurseur
+- ## Scène 4 — La séparation
+- ## Scène 5 — La mort partagée
+- ## Scène 6 — Nandi seule
+- # VIII — La Grotte Finale
+- ## Scène 1 — Dernière approche
+- ## Scène 2 — Nandi seule
+- ## Scène 3 — Le 127 heures
+- ## Scène 4 — Les fantômes
+- ## Scène 5 — Le détonateur
+- ## Scène 6 — La détonation
+- ## Épilogue
+
+**Code refs:**
+- `doctor_cli_parser_and_run_checker.py`
+- `navigation.py`
+- `poc_mind_context_assembly.py`
+- `scripts/seed_contre_terre_graph.py`
+- `seed_contre_terre_graph.py`
+- `seed_venice_graph.py`
+- `seismic_constants.py`
+- `seismic_tick.py`
+- `semantic_proximity_based_character_node_selector.py`
+- `snake_case.py`
+- `tick_v1_2.py`
+- `tick_v1_2_types.py`
+
+**Doc refs:**
+- `citizens/solen/CLAUDE.md`
+- `docs/MAPPING.md`
+- `docs/TAXONOMY.md`
+- `docs/narration/metiers/ALGORITHM_Metiers.md`
+- `docs/narration/metiers/BEHAVIORS_Metiers.md`
+- `docs/narration/metiers/HEALTH_Metiers.md`
+- `docs/narration/metiers/IMPLEMENTATION_Metiers.md`
+- `docs/narration/metiers/OBJECTIVES_Metiers.md`
+- `docs/narration/metiers/PATTERNS_Metiers.md`
+- `docs/narration/metiers/SYNC_Metiers.md`
+- `docs/narration/metiers/VALIDATION_Metiers.md`
+- `docs/narration/personnages/ALGORITHM_Personnages.md`
+- `docs/narration/personnages/BEHAVIORS_Personnages.md`
+- `docs/narration/personnages/HEALTH_Personnages.md`
+- `docs/narration/personnages/IMPLEMENTATION_Personnages.md`
+- `docs/narration/personnages/OBJECTIVES_Personnages.md`
+- `docs/narration/personnages/PATTERNS_Personnages.md`
+- `docs/narration/personnages/SYNC_Personnages.md`
+- `docs/narration/personnages/VALIDATION_Personnages.md`
+- `docs/narration/structure/ALGORITHM_Structure.md`
+- `docs/narration/structure/BEHAVIORS_Structure.md`
+- `docs/narration/structure/HEALTH_Structure.md`
+- `docs/narration/structure/IMPLEMENTATION_Structure.md`
+- `docs/narration/structure/OBJECTIVES_Structure.md`
+- `docs/narration/structure/PATTERNS_Structure.md`
+- `docs/narration/structure/SYNC_Structure.md`
+- `docs/narration/structure/VALIDATION_Structure.md`
+- `docs/worldbuilding/contact/ALGORITHM_Contact.md`
+- `docs/worldbuilding/contact/BEHAVIORS_Contact.md`
+- `docs/worldbuilding/contact/HEALTH_Contact.md`
+- `docs/worldbuilding/contact/IMPLEMENTATION_Contact.md`
+- `docs/worldbuilding/contact/OBJECTIVES_Contact.md`
+- `docs/worldbuilding/contact/PATTERNS_Contact.md`
+- `docs/worldbuilding/contact/SYNC_Contact.md`
+- `docs/worldbuilding/contact/VALIDATION_Contact.md`
+- `docs/worldbuilding/geographie/ALGORITHM_Geographie.md`
+- `docs/worldbuilding/geographie/BEHAVIORS_Geographie.md`
+- `docs/worldbuilding/geographie/HEALTH_Geographie.md`
+- `docs/worldbuilding/geographie/IMPLEMENTATION_Geographie.md`
+- `docs/worldbuilding/geographie/OBJECTIVES_Geographie.md`
+- `docs/worldbuilding/geographie/PATTERNS_Geographie.md`
+- `docs/worldbuilding/geographie/SYNC_Geographie.md`
+- `docs/worldbuilding/geographie/VALIDATION_Geographie.md`
+- `docs/worldbuilding/seismique/ALGORITHM_Seismique.md`
+- `docs/worldbuilding/seismique/BEHAVIORS_Seismique.md`
+- `docs/worldbuilding/seismique/HEALTH_Seismique.md`
+- `docs/worldbuilding/seismique/IMPLEMENTATION_Seismique.md`
+- `docs/worldbuilding/seismique/OBJECTIVES_Seismique.md`
+- `docs/worldbuilding/seismique/PATTERNS_Seismique.md`
+- `docs/worldbuilding/seismique/SYNC_Seismique.md`
+- `docs/worldbuilding/seismique/VALIDATION_Seismique.md`
+
+**Sections:**
+- # Repository Map: contre-terre

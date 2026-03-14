@@ -9,6 +9,10 @@ services:
     envVars:
       - key: RENDER
         value: "true"
+      - key: ENABLE_ORCHESTRATOR
+        value: "true"
+      - key: HOME_ID
+        value: contre-terre
       # FalkorDB (embedded, localhost)
       - key: DATABASE_BACKEND
         value: falkordb
@@ -21,13 +25,6 @@ services:
       # Embeddings
       - key: EMBEDDING_PROVIDER
         value: local
-      # Optional: switch to OpenAI embeddings for better quality
-      # - key: EMBEDDING_PROVIDER
-      #   value: openai
-      # - key: OPENAI_API_KEY
-      #   sync: false
-      # - key: OPENAI_EMBEDDING_MODEL
-      #   value: text-embedding-3-small
     disk:
       name: contre-terre-data
       mountPath: /data

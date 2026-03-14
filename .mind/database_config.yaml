@@ -1,30 +1,10 @@
 database:
   backend: falkordb
   falkordb:
-    host: localhost              # FALKORDB_HOST env overrides
-    port: 6379                   # FALKORDB_PORT env overrides
-    graph_name: contre_terre     # Un graph par univers
-
+    host: localhost
+    port: 6379
+    graph_name: contre_terre
 embedding:
-  provider: local                # local = all-mpnet-base-v2, pas d'API key nécessaire
+  provider: local
   model: all-mpnet-base-v2
   dimension: 768
-
-seed:
-  script: seed_contre_terre_graph  # Notre script custom — ingère 35 JSON (11 seed + 24 brains) dans FalkorDB
-  brain_json: data/brains/shared/contre_terre_base.json  # Base cognitive partagée par tous les citoyens (47 noeuds, 111 liens)
-
-# Preset Contre-Terre : les citoyens naissent avec leur cerveau
-# mais découvrent le monde par interaction, pas par ingestion du repo.
-behaviors:
-  file_ingest: false         # Les citoyens ne connaissent pas le repo — ils vivent dans un monde de séismes, pas dans un dépôt git
-  doc_ingest: false          # Pas de connaissance des doc chains — le PATTERNS du Contact n'existe pas pour eux, le Contact existe
-  mind_ingest: false         # Pas de Mind Protocol dans l'univers — pas de SID, pas de $MIND, pas de blockchain. Ontologie pure CT
-  overview: true             # On garde le map.md pour les agents qui travaillent SUR le projet (pas les citoyens)
-  embeddings: true           # Les embeddings permettent la recherche sémantique — fondation de la traduction sémantique des arrivants
-  health_checks: true        # Vérification de cohérence du graph — les invariants du monde doivent tenir
-  capabilities_graph: true   # Les capabilities Mind restent actives pour les agents de maintenance
-  citizen_seed: true         # On seed les cerveaux — chaque citoyen démarre avec ses valeurs, concepts, désirs, processus
-  mcp_config: true           # Le membrane server expose le graph — c'est comme ça que les citoyens perçoivent le monde
-  know_all_citizens: false   # Les citoyens ne connaissent PAS tout le monde — ils connaissent leurs voisins, leur guilde, leurs liens
-  relational_seeds: false    # Les relations sont dans nos seed JSON (relationships.json), pas dans les profiles CLAUDE.md
