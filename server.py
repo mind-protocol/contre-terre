@@ -194,6 +194,54 @@ def citizens():
     return []
 
 
+# ── Citizen info by handle ────────────────────────────────────────────────────
+
+@app.get("/infos/@{handle}")
+def citizen_info(handle: str):
+    """Get full citizen profile: identity, neighbors, relationships, location."""
+    # Find the citizen node
+    citizen_id = f"actor_citoyen_{handle}"
+    if citizen_id not in _nodes:
+        # Try without suffix — search all nodes
+        matches = [nid for nid in _nodes if nid.startswith(f"actor_citoyen_{handle}")]
+        if not matches:
+            raise HTTPException(404, f"Citizen @{handle} not found")
+        citizen_id = matches[0]
+
+    citizen = _nodes[citizen_id]
+    neighbors = _get_neighbors(citizen_id)
+
+    # Split neighbors by type
+    knows = [n for n in neighbors if n["relation"] in ("connait", "ami_de", "collegue_de", "marie_a", "parent_de")]
+    trained_by = [n for n in neighbors if n["relation"] in ("forme_par", "enseigne")]
+    conflicts = [n for n in neighbors if n["relation"] in ("en_conflit_avec", "rival_de")]
+    location = [n for n in neighbors if n["relation"] in ("habite",)]
+    guild = [n for n in neighbors if n["relation"] in ("membre_de",)]
+    respects = [n for n in neighbors if n["relation"] == "respecte"]
+    debts = [n for n in neighbors if n["relation"] == "doit_a"]
+
+    # Read CLAUDE.md if available
+    claude_md = ""
+    claude_path = PROJECT_ROOT / "citizens" / handle / "CLAUDE.md"
+    if claude_path.exists():
+        claude_md = claude_path.read_text()
+
+    return {
+        "handle": handle,
+        "id": citizen_id,
+        "identity": claude_md,
+        "node": citizen,
+        "location": location,
+        "guild": guild,
+        "knows": knows,
+        "trained_by": trained_by,
+        "conflicts": conflicts,
+        "respects": respects,
+        "debts": debts,
+        "all_connections": len(neighbors),
+    }
+
+
 # ── Node detail ──────────────────────────────────────────────────────────────
 
 @app.get("/node/{node_id}")
