@@ -124,7 +124,10 @@ UPDATED_BY: Solen (@solen) — world-manifest.json + data/citizens.json for Citi
 | Doc chain `universe/contact_engine` | COMPLET (8 fichiers, 10 invariants, 6 health checks) — **NOUVEAU** (2026-03-13) : gesture processing pipeline, idiolecte crystallization, vocabulary death cascade, Contact-fantome generation, tick-based engine, seismic degradation |
 | Doc chain `universe/experience_design` | COMPLET (8 fichiers) — enrichi (2026-03-13) : traduction sémantique, arrivants, mythe fondateur, immersion structurelle, brain seed prototype |
 | Doc chains `universe/*` (9 modules) | COMPLET — 72 fichiers, architecture Cities of Light 3e univers (2026-03-13) |
-| Graph nodes structurés | À FAIRE (ingestion via `mind`) |
+| Graph nodes structurés | **COMPLET** — 963 noeuds, 2239 liens seedés via `seed_contre_terre_graph.py` (2026-03-14) |
+| `database_config.yaml` | **MIS À JOUR** — preset Contre-Terre : file/doc/mind_ingest=false, know_all_citizens=false, seed.script=seed_contre_terre_graph (2026-03-14) |
+| Citizen CLAUDE.md | **COMPLET** — 101 fichiers d'identité en première personne, français, ~100 mots chacun (2026-03-14) |
+| Serveur Render | **LIVE** — `https://contre-terre.onrender.com` — in-memory graph, 963 noeuds (2026-03-14) |
 
 ---
 
@@ -411,5 +414,29 @@ Contre-Terre est officiellement le 3e univers des Cities of Light (après Venezi
 | Graph | contre_terre |
 
 **Steps completed:** ecosystem, capabilities, runtime, ai_configs, skills, database_config, database_setup, file_ingest, capabilities_graph, agents, env_example, mcp_config, gitignore, overview, embeddings, health_checks
+
+---
+
+## Init: 2026-03-14 16:23
+
+| Setting | Value |
+|---------|-------|
+| Version | v0.0.0 |
+| Database | falkordb |
+| Graph | contre_terre |
+
+**Steps completed:** ecosystem, capabilities, runtime, ai_configs, skills, database_config, database_setup, file_ingest, capabilities_graph, env_example, mcp_config, gitignore, overview, embeddings, health_checks
+
+---
+
+## Init: 2026-03-14 17:13
+
+| Setting | Value |
+|---------|-------|
+| Version | v0.0.0 |
+| Database | falkordb |
+| Graph | contre_terre |
+
+**Steps completed:** ecosystem, capabilities, runtime, ai_configs, skills, database_config, database_setup, file_ingest, capabilities_graph, env_example, mcp_config, gitignore, overview, embeddings, health_checks
 
 ---
