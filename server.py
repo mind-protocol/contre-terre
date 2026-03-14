@@ -253,3 +253,33 @@ def get_node(node_id: str):
         **node,
         "neighbors": _get_neighbors(node_id),
     }
+
+
+# ── Membrane Ping (for L4 liveness check) ───────────────────────────────────
+
+@app.get("/membrane/ping/{handle}")
+def membrane_ping(handle: str):
+    """Lightweight citizen liveness check via membrane.
+
+    Checks if the citizen exists in the local graph or citizens/ directory.
+    Called by L4 registry's /ping/{handle} endpoint.
+    """
+    citizens_dir = PROJECT_ROOT / "citizens"
+    has_profile = (citizens_dir / handle / "profile.json").exists()
+    has_claude = (citizens_dir / handle / "CLAUDE.md").exists()
+
+    # Check if citizen exists as node in the in-memory graph
+    in_graph = handle in _nodes or f"CITIZEN_{handle}" in _nodes
+    node_count = 0
+    if in_graph:
+        node_count = len(_get_neighbors(handle)) if handle in _nodes else len(_get_neighbors(f"CITIZEN_{handle}"))
+
+    alive = has_profile or has_claude or in_graph
+
+    return {
+        "handle": handle,
+        "alive": alive,
+        "profile": has_profile,
+        "brain_nodes": node_count,
+        "has_keys": (PROJECT_ROOT / ".keys" / handle).exists(),
+    }
