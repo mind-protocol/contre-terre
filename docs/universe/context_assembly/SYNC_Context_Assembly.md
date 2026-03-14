@@ -3,7 +3,7 @@
 > Etat actuel du module. Ou on en est, ce qui est fait, ce qui reste.
 
 ```
-LAST_UPDATED: 2026-03-13
+LAST_UPDATED: 2026-03-14
 UPDATED_BY: Claude Opus 4.6 (agent, voice)
 STATUS: DESIGNING
 ```
@@ -92,6 +92,24 @@ Aucun de ces modules n'est encore implemente. Le context_assembly est le consomm
 - [ ] Test papier : ecrire a la main un prompt pour Nandi avec tremens eleve, Contact affame, pieds degrades. Le soumettre a un LLM. La reponse sent-elle le monde sismique ?
 - [ ] Test de differentiation : ecrire deux prompts (Aeromaitre vs Predictrice) dans la meme zone. Les reponses divergent-elles sur la perception ?
 - [ ] Test d'appauvrissement : comparer un prompt Contact-sature vs Contact-affame pour le meme citoyen. L'affame est-il mesurablment plus pauvre ?
+
+---
+
+
+## Batch execute en un coup (10 items)
+
+- [x] Definir le template canonique du prompt maitre 5 Forces
+- [x] Definir la checklist operationnelle Force
+- [x] Lier explicitement PATTERNS P7 vers les artefacts operationnels
+- [x] Ajouter l'algorithme d'orchestration `A-1 orchestrate_force_sprint()`
+- [x] Ajouter l'invariant `V11` (MASTER TODO obligatoire)
+- [x] Ajouter l'invariant `V12` (todo initiale avant execution)
+- [x] Ajouter l'invariant `V13` (escalation + proposition + action)
+- [x] Ajouter l'invariant `V14` (commit atomique par item)
+- [x] Ajouter le health check `H9` (integrity MASTER TODO)
+- [x] Ajouter le health check `H10` (cadence commit/todo)
+
+**Resultat :** Le pattern P7 n'est plus uniquement descriptif. Il est maintenant executable (template), verifiable (validation + health), et pilotable (MASTER TODO).
 
 ---
 

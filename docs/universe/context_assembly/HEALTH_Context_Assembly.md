@@ -116,3 +116,15 @@ Quand un signal de degradation est detecte :
 ---
 
 *Derives de : VALIDATION_Context_Assembly.md, BEHAVIORS_Context_Assembly.md, ALGORITHM_Context_Assembly.md*
+
+### H9 : Integrity MASTER TODO
+
+**Quoi :** La section `MASTER TODO` est presente et structuree par Force.
+**Pourquoi :** VALIDATION V11 — la planification depend de cette section.
+**Comment :** Scanner `.mind/state/SYNC_Project_State.md` et verifier qu'au moins 5 sous-blocs existent (`Force 1` ... `Force 5`).
+
+### H10 : Cadence Commit/TODO
+
+**Quoi :** Les items executes produisent une trace de commits atomiques.
+**Pourquoi :** VALIDATION V14 — execution observable et auditable.
+**Comment :** Croiser les items coches dans `MASTER TODO` avec `git log --oneline`. Toute execution sans commit associe est un signal critique.
