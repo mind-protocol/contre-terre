@@ -1,38 +1,21 @@
-# Use the official FalkorDB image as base — it already has redis + the module
-FROM falkordb/falkordb:latest
-
-# Install Python 3 on top
-USER root
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3 \
-    python3-pip \
-    && rm -rf /var/lib/apt/lists/*
+FROM python:3.11-slim-bookworm
 
 WORKDIR /app
 
-# Python dependencies (minimal — no sentence-transformers)
-RUN pip3 install --no-cache-dir --break-system-packages \
-    falkordb>=1.0.0 \
-    numpy>=1.24.0 \
-    httpx>=0.24.0 \
-    pydantic>=2.0.0 \
-    pyyaml>=6.0 \
+RUN pip install --no-cache-dir \
     fastapi>=0.100.0 \
     uvicorn>=0.30.0 \
+    pydantic>=2.0.0 \
+    pyyaml>=6.0 \
     python-dotenv>=1.0.0
 
-# Application code
-COPY . /app/
-
-# Startup script
-COPY start.sh /start.sh
-RUN chmod +x /start.sh
-
-# Persistent data + logs directories
-RUN mkdir -p /data/falkordb /data/state /app/logs
+COPY data/seed/ /app/data/seed/
+COPY data/brains/ /app/data/brains/
+COPY data/citizens.json /app/data/citizens.json
+COPY world-manifest.json /app/world-manifest.json
+COPY server.py /app/server.py
+COPY seed_contre_terre_graph.py /app/seed_contre_terre_graph.py
 
 EXPOSE 10000
 
-# Override FalkorDB's entrypoint — we manage redis ourselves in start.sh
-ENTRYPOINT []
-CMD ["/start.sh"]
+CMD ["python3", "-m", "uvicorn", "server:app", "--host", "0.0.0.0", "--port", "10000"]
