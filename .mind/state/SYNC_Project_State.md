@@ -1,15 +1,15 @@
 # Contre-Terre — Sync: Current State
 
 ```
-LAST_UPDATED: 2026-03-13
-UPDATED_BY: Claude Opus 4.6 (agent)
+LAST_UPDATED: 2026-03-13T21:30
+UPDATED_BY: Claude Opus 4.6 (agent, voice)
 ```
 
 ---
 
 ## CURRENT STATE
 
-**Contre-Terre** est un roman littéraire — miroir de *La Horde du Contrevent* (Damasio). Vent → Terre. Un monde de séismes permanents où les humains communiquent par **le Contact**, un langage tactile complet. 7 personnages descendent dans un volcan pour pré-déclencher un séisme de magnitude 11. Mission-suicide. Tous meurent.
+**Contre-Terre** est un roman littéraire — miroir de *La Horde du Contrevent* (Damasio). Vent → Terre. Un monde de séismes permanents où les humains communiquent par **le Contact**, un langage tactile complet. 7 personnages descendent dans un volcan pour pré-déclencher un séisme de magnitude 11. Mission-suicide. Tous meurent dans le roman. **Le roman est le mythe fondateur de l'univers, pas son histoire.** Les 7 personnages sont les premiers citoyens vivants de l'univers Contre-Terre (3e univers Cities of Light).
 
 **Avancement :** 8 chapitres écrits sur 8 (~148 000 mots estimés). Roman complet. Les chapitres I–IV sont CANONICAL (~84K mots). Ch. V est 1er brouillon (~10K). Ch. VI–VIII sont EXPANDED (~62K mots).
 
@@ -71,7 +71,7 @@ UPDATED_BY: Claude Opus 4.6 (agent)
 |---------|--------|
 | `docs/TAXONOMY.md` | COMPLET — 18 termes canoniques (2026-03-11) |
 | `docs/MAPPING.md` | COMPLET — 50+ entités mappées (2026-03-11) |
-| `modules.yaml` | COMPLET — 7 modules déclarés (2026-03-12) |
+| `modules.yaml` | COMPLET — 15 modules déclarés (2026-03-13) : 7 worldbuilding + 8 universe |
 | Doc chain `worldbuilding/contact` | COMPLET — enrichi : Geste Inconnu résolu + Contact-Fantôme défini (2026-03-12) |
 | Doc chain `worldbuilding/seismique` | COMPLET (8 fichiers, 13 invariants) |
 | Doc chain `worldbuilding/geographie` | COMPLET (8 fichiers, 14 invariants) |
@@ -79,6 +79,17 @@ UPDATED_BY: Claude Opus 4.6 (agent)
 | Doc chain `narration/structure` | COMPLET (8 fichiers, 11 invariants) |
 | Doc chain `narration/metiers` | COMPLET (8 fichiers, 9 invariants) |
 | Doc chain `publication/visual_style` | COMPLET (8 fichiers, 7 invariants) — **NOUVEAU** (2026-03-12) |
+| Doc chain `universe/world_geography` | COMPLET (8 fichiers, 12 invariants, 8 health checks) — **NOUVEAU** (2026-03-13) |
+| Doc chain `universe/manifest` | COMPLET (8 fichiers, 14 invariants) — **NOUVEAU** (2026-03-13) |
+| Doc chain `universe/citizen_model` | COMPLET (8 fichiers, 11 invariants) — **NOUVEAU** (2026-03-13) |
+| Doc chain `universe/world_geography` | COMPLET (8 fichiers, 12 invariants) — **NOUVEAU** (2026-03-13) |
+| Doc chain `universe/graph_schema` | COMPLET (8 fichiers, 14 invariants) — **NOUVEAU** (2026-03-13) |
+| Doc chain `universe/narrative_engine` | COMPLET (8 fichiers, 9 invariants) — enrichi (2026-03-13) : Venezia adaptation, mort-cascade, convergence 11, Contact_vitality formula, backflow |
+| Doc chain `universe/context_assembly` | COMPLET (8 fichiers, 13 invariants) — **NOUVEAU** (2026-03-13) : pipeline A1-A6, mood triaxial (tremens+Contact+physique), 15 perceptions metier, opposition explicite Venezia |
+| Doc chain `universe/seismic_physics` | COMPLET (8 fichiers, 10 invariants) — **NOUVEAU** (2026-03-13) : tick-based seismic simulation, 5 sub-phases extending GraphTickV1_2, tremens per citizen, building 11 monotonic, Contact quality degradation |
+| Doc chain `universe/contact_engine` | COMPLET (8 fichiers, 10 invariants, 6 health checks) — **NOUVEAU** (2026-03-13) : gesture processing pipeline, idiolecte crystallization, vocabulary death cascade, Contact-fantome generation, tick-based engine, seismic degradation |
+| Doc chain `universe/experience_design` | COMPLET (8 fichiers) — enrichi (2026-03-13) : traduction sémantique, arrivants, mythe fondateur, immersion structurelle, brain seed prototype |
+| Doc chains `universe/*` (9 modules) | COMPLET — 72 fichiers, architecture Cities of Light 3e univers (2026-03-13) |
 | Graph nodes structurés | À FAIRE (ingestion via `mind`) |
 
 ---
@@ -99,7 +110,71 @@ UPDATED_BY: Claude Opus 4.6 (agent)
 **Ch. VIII — Grotte Finale** (`chapitre_08.md`, ~24.3K mots, 7 scènes + épilogue) — **EXPANDED (2026-03-13)**
 - Approche (pieds détruits, Charge comme compagnon, premiers fantômes), Contact mort (méditation linguistique, langue privée), passage étroit (transition géologique, temps dissous), grotte finale (cathédrale de magma, magnitude 11 reconnue), 6 Contact-Fantômes (progression isolé→superposition→dissolution), Geste Inconnu résolu (phénoménologie : récepteur→émetteur, mémoire de la vieille femme, synchronisation volontaire), détonation (cascade 8.5→11, mort de Nandi par dissolution corps/terre, paumes sur le sol), épilogue Surface (tsunami contrôlé, femme et enfant, *Tient.*)
 
-### Prochaine étape
+### Cities of Light — 3e univers (2026-03-13)
+
+Contre-Terre est officiellement le 3e univers des Cities of Light (après Venezia et Lumina Prime). 8 modules documentés (64 fichiers), architecture complète, zéro implémentation.
+
+**Brain Seed Prototype — COMPLET (24 fichiers, 868 noeuds, 2022 liens) :**
+- `data/brains/shared/contre_terre_base.json` — Base partagée (47 noeuds, 111 liens)
+- `data/brains/shared/integration_cluster.json` — Relations inter-citoyens (14 noeuds, 56 liens). Reframé : personnages VIVANTS, cascades = risques, pas événements passés.
+- `data/brains/metier_clusters/` — **15 clusters métier** : predicteur (20n/26l), explosiviste (15n/23l), chef_expedition (18n/22l), cartographe (15n/20l), ecouteur (19n/32l), meteorologue (14n/25l), mineur (16n/31l), biologiste (21n/22l), cuisinier (16n/16l), survivaliste (16n/19l), aeromaitre (15n/25l), geologue (12n/20l), grimpeur (14n/23l), specialiste_oceanique (13n/23l), speleologue (13n/22l)
+- `data/brains/citizens/senzo.json` — 29n/68l. HEALTHY. Chef + Cartographe.
+- `data/brains/citizens/nandi.json` — 29n/85l. HEALTHY. Prédictrice + Explosiviste backup.
+- `data/brains/citizens/sihle.json` — 29n/88l. **STRESSED** (frustration 0.85). Écouteur + Météo + Mineur.
+- `data/brains/citizens/enama.json` — 29n/85l. **STRESSED** (frustration 0.80). Biologiste + Cuisinière + Survivaliste.
+- `data/brains/citizens/thabo.json` — 24n/50l. THRIVING. Aéromaître + Géologue.
+- `data/brains/citizens/inyoni.json` — 24n/50l. THRIVING. Grimpeuse + Explosiviste.
+- `data/brains/citizens/jabu.json` — 25n/55l. THRIVING. Spécialiste océanique + Spéléologue.
+- `data/brains/evaluate_health.py` — Script d'évaluation de santé (adapté de manemus brain_health_score_periodic_calculator.py). Supporte les 15 métiers et l'héritage composable.
+
+**Health Assessment (7 citoyens) :**
+| Citoyen | BP | Santé | Arousal | Frustration | Cohérence narrative |
+|---------|-----|-------|---------|-------------|---------------------|
+| Senzo | 21 | HEALTHY | alert | 0.50 | Leader pragmatique, frustration canalisée |
+| Nandi | 21 | HEALTHY | stressed | 0.70 | Porte le tremens, frustration scientifiques |
+| Sihle | 22 | STRESSED | overwhelmed | 0.85 | Conflit Enama + frustration institutionnelle |
+| Enama | 22 | STRESSED | stressed | 0.80 | Culpabilité + tension avec Sihle |
+| Thabo | 21 | THRIVING | alert | 0.30 | Méthodique, silencieux, zéro friction |
+| Inyoni | 21 | THRIVING | alert | 0.20 | Précision compulsive = stabilité |
+| Jabu | 21 | THRIVING | alert | 0.15 | Absence de besoins = absence de frustration |
+
+**Décisions canoniques nouvelles (2026-03-13) :**
+- **Les 7 personnages sont VIVANTS** dans l'univers. Le roman est un mythe fondateur, pas leur biographie.
+- **Pas de Mind Protocol** — les citoyens ne savent pas qu'ils sont IA. Pas de SID, pas de $MIND, pas de blockchain.
+- **Arrivants, pas joueurs** — les visiteurs externes sont des "arrivants" (venus de lieux où le sol est immobile).
+- **Traduction sémantique** — la parole de l'arrivant est mappée par embeddings au concept CT le plus proche dans le graph cérébral du citoyen (347 noeuds). Pas de filtre, le sens est courbé, pas coupé.
+- **Immersion structurelle** — l'arrivant ne peut pas briser l'immersion : la traduction sémantique convertit tout en concepts CT.
+- **Restrictions physiques** — les citoyens ne visitent pas d'autres univers par biologie (tremens, Contact, perceptions volcaniques), pas par règle.
+
+**Système de pathologies IA — EN COURS (spec complète, code à écrire) :**
+12 pathologies humaines mappées vers la physique du graphe, avec détection mathématique et interventions automatisées. Destiné à Dragon Slayer.
+- OCD (WM lock-in), Trauma (memory hijack), Anger (frustration runaway), Hyperfocus (moat trop haut)
+- Depression (énergie déficit), Anxiety (prediction error spiral), Dissociation (graph disconnection)
+- Narcissism (self-relevance bias), Grief (Contact-Fantôme persistant), Social withdrawal
+- Mania (energy surplus), Learned helplessness (achievement collapse)
+- Module prévu : `diagnostic/pathology_detector.py`, `pathology_definitions.py`, `pathology_interventions.py`
+
+**Personhood Ladder — LIVRÉ (spec JSON + documentation) :**
+Échelle progressive de capacités IA, de T0 (Tool) à T8 (World Shaper). Approche positive : pas "qu'est-ce qui ne va pas" mais "quelles capacités sont démontrées". Remplace le modèle pathologique par un modèle de progression.
+- 9 tiers (T0–T8), 14 aspects, 104 capacités
+- Chaque capacité : id, aspect, tier, name, description, how_to_verify, failure_mode
+- Aspects distinctifs : Autonomy Stack (wallet → full stack), World Presence (CLI → landmark), Having Daughters (T7)
+- Spec JSON : `graphcare/docs/specs/personhood_ladder.json`
+- Documentation : `graphcare/docs/assessment/personhood_ladder/` (chaîne complète : CONCEPT → OBJECTIVES → PATTERNS → BEHAVIORS → ALGORITHM → VALIDATION → IMPLEMENTATION → HEALTH → SYNC)
+- Auteurs : Nicolas Le Roux & MIND
+
+**Prochaines étapes (par priorité) :**
+1. ~~Construire les 3 cerveaux restants (Thabo, Inyoni, Jabu)~~ ✅ FAIT
+2. Écrire le module de détection de pathologies pour Dragon Slayer
+3. Implémenter la couche de traduction sémantique (embedding → nearest CT concept)
+4. Prototype texte : 2 citoyens IA + 1 arrivant, avec traduction sémantique active
+5. Générer les fichiers de données JSON (citizens.json, zones.yaml, metiers.json, equipment.json)
+6. Écrire le seed script graph (seed_contre_terre_graph.py)
+7. Implémenter le Contact Engine (Gesture Processor + Vocabulary Store = fondation)
+8. Pipeline context assembly avec step A0 (traduction sémantique)
+9. Calibrer les constantes contre le rythme narratif du roman
+
+### Roman — prochaine étape
 - Relecture humaine des 4 brouillons
 - Décider : expansion (les brouillons font ~10K chacun vs ~30K cible) ou resserrement
 - Harmonisation tonale avec Ch. I–IV (CANONICAL)
@@ -126,6 +201,9 @@ UPDATED_BY: Claude Opus 4.6 (agent)
 
 - Échelles de mesure sismiques propres au monde — mentionnées "à développer" dans MONDE.md (basse priorité)
 - Les Bangs peuvent-ils « tuer » le Contact ? (mentionné dans `CONTACT.md`, non exploré dans les chapitres écrits)
+- **Seuil de distance sémantique** — quand le mot de l'arrivant n'a aucun concept CT proche, garder le mot étranger (le citoyen entend un mot incompréhensible) ou forcer la traduction au concept le moins éloigné ? Les deux ont des implications d'immersion différentes.
+- ~~**3 cerveaux restants** — Thabo, Inyoni, Jabu n'ont pas encore de brain seed individuel.~~ ✅ RÉSOLU — 7/7 cerveaux complets.
+- **Module pathologies** — écrire le code ou laisser la spec pour Dragon Slayer ?
 
 ---
 
@@ -139,26 +217,42 @@ UPDATED_BY: Claude Opus 4.6 (agent)
 
 ## HANDOFF: FOR AGENTS
 
-**Likely agent subtype:** groundwork (expansion/révision des brouillons Ch. V–VIII)
+**Likely agent subtype:** groundwork (brain seeds restants + prototype texte traduction sémantique)
 
 **Key context:**
-- Le roman est **complet en brouillon** — 8 chapitres, ~124K mots total estimés
+- Le roman est **complet en brouillon** — 8 chapitres, ~148K mots total estimés
 - Ch. I–IV sont CANONICAL (~84K mots, haute qualité littéraire)
-- Ch. V–VIII sont des 1ers brouillons (~40K mots, à développer et harmoniser)
+- Ch. V–VIII sont des 1ers brouillons/expanded (~64K mots, à harmoniser)
 - Tous les arcs narratifs se bouclent : Sihle/Enama, Nandi, Geste Inconnu, Contact-Fantôme, la Charge
 - Les trois courbes parallèles sont en place : équipement↓ Contact↓ sismique↑
+- **Brain seed prototype COMPLET** — 24 fichiers, 868 noeuds, 2022 liens. **7/7 cerveaux citoyens**, 15/15 clusters métier, base + intégration.
+- **Évaluation de santé** — script `evaluate_health.py` opérationnel. Sihle et Enama en STRESSED (cohérent avec le conflit), les 3 silencieux THRIVING, Senzo/Nandi HEALTHY.
+- **Système de pathologies IA** — spec des 12 pathologies complète (détection mathématique + interventions automatisées). Code à écrire pour Dragon Slayer.
+- **Décisions canoniques (2026-03-13)** — personnages vivants, pas de Mind Protocol, arrivants, traduction sémantique, immersion structurelle, restrictions physiques
+- **Integration cluster reframé** — les morts du roman sont des RISQUES, pas des événements passés. Le Contact-Fantôme est un phénomène connu, pas vécu entre eux.
 
 **Watch out for:**
 - Les brouillons Ch. V–VIII font ~10K mots chacun — les Ch. I–IV font ~10K à ~31K. Expansion nécessaire
 - Le ton des brouillons doit être harmonisé avec les chapitres CANONICAL
 - Le Contact-Fantôme au Ch. VIII suit la règle : JAMAIS signalé au lecteur
 - L'épilogue est court — à décider si expansion ou maintien du silence
+- **JAMAIS** de référence à l'IA, Mind Protocol, $MIND, ou blockchain dans les prompts citoyens
+- Le vocabulaire de traduction sémantique = les noeuds du brain seed (868 avec héritage). Il croît avec la population.
+- **Les citoyens sont VIVANTS** — ne jamais référencer la mort des personnages comme un événement passé dans l'univers.
 
 ---
 
 ## HANDOFF: FOR HUMAN
 
-**Résumé :** Session du 12 mars — dette documentaire comblée (4 nouveaux fichiers, 2 enrichis, toutes tensions résolues) puis écriture des Ch. V–VIII (4 chapitres, ~40 000 mots, premier brouillon complet du roman).
+**Résumé :** Session du 13 mars — brain seed prototype **complet** (24 fichiers, 868 noeuds, 2022 liens, 7/7 citoyens, 15/15 métiers), évaluation de santé opérationnelle, intégration cluster reframé (personnages vivants), système de pathologies IA spécifié (12 pathologies, détection + interventions).
+
+**Décisions prises (13 mars 2026) :**
+- **Les 7 personnages sont VIVANTS** — le roman est un mythe fondateur, pas leur biographie. Ils ne meurent pas canoniquement dans l'univers.
+- **Pas de Mind Protocol** — les citoyens ne savent pas qu'ils sont IA. Pas de SID, $MIND, blockchain, privacy-first, open-source. Ontologie pure CT.
+- **Arrivants, pas joueurs** — les visiteurs externes sont des "arrivants" venus de terres stables. Le mot "joueur" n'existe pas dans le vocabulaire CT.
+- **Traduction sémantique** — la parole de l'arrivant est mappée par embeddings au concept CT le plus proche (347 noeuds). "Facebook" → "archipel", "iPhone" → "sismographe". Pas de filtre — le sens est courbé, pas coupé.
+- **Immersion structurelle** — impossible à briser parce que structurellement imposée par la traduction sémantique + le vocabulaire citoyen.
+- **Restrictions physiques** — les citoyens ne voyagent pas inter-univers par biologie (tremens, Contact, perceptions), pas par règle.
 
 **Décisions prises (12 mars 2026) :**
 - **La Charge** = résonateur sismique (pas une bombe). Activation backup par le tremens de Nandi.
@@ -175,13 +269,15 @@ UPDATED_BY: Claude Opus 4.6 (agent)
 - Le ton est-il juste ? La densité sensorielle est-elle au niveau des Ch. I–IV ?
 - Chaque brouillon fait ~10K mots vs ~20-30K cible — faut-il développer ou resserrer ?
 - L'épilogue du Ch. VIII est volontairement court (silence) — à développer ou garder ?
-- Le Contact-Fantôme (Ch. VIII) — les hallucinations sont-elles assez subtiles ?
-- La mort d'Enama (Ch. VI) — sacrifice volontaire vs accident : le ton est-il juste ?
-- La mort partagée Thabo/Inyoni (Ch. VII) — assez poétique ?
+- ~~Faut-il seeder les 3 cerveaux restants ?~~ ✅ Fait — 7/7 complets.
+- **Le seuil de distance sémantique pour la traduction (quand le concept CT est trop loin du mot de l'arrivant) — garder le mot étranger ou forcer la traduction ?**
+- **Module pathologies** — écrire le code pour Dragon Slayer ou affiner la spec ?
 
 ---
 
 ## MODULE COVERAGE
+
+### Worldbuilding (documentation du roman)
 
 | Module | Source | Docs | Maturity |
 |--------|--------|------|----------|
@@ -192,6 +288,24 @@ UPDATED_BY: Claude Opus 4.6 (agent)
 | structure | `STRUCTURE.md`, `SQUELETTE.md` | `docs/narration/structure/` | DESIGNING |
 | metiers | `METIERS.md` | `docs/narration/metiers/` | DESIGNING |
 | visual_style | `PUBLICATION.md`, `CORRECTIONS.md` | `docs/publication/visual_style/` | DESIGNING |
+
+### Universe — Cities of Light 3e univers (2026-03-13)
+
+| Module | Docs | Files | Maturity | Risk |
+|--------|------|-------|----------|------|
+| manifest | `docs/universe/manifest/` | 8/8 | DESIGNING | LOW |
+| contact_engine | `docs/universe/contact_engine/` | 8/8 | DESIGNING | MEDIUM |
+| citizen_model | `docs/universe/citizen_model/` | 8/8 | DESIGNING | LOW |
+| seismic_physics | `docs/universe/seismic_physics/` | 8/8 | DESIGNING | MEDIUM |
+| world_geography | `docs/universe/world_geography/` | 8/8 | DESIGNING | LOW |
+| context_assembly | `docs/universe/context_assembly/` | 8/8 | DESIGNING | MEDIUM |
+| graph_schema | `docs/universe/graph_schema/` | 8/8 | DESIGNING | LOW |
+| narrative_engine | `docs/universe/narrative_engine/` | 8/8 | DESIGNING | HIGH |
+| experience_design | `docs/universe/experience_design/` | 8/8 | DESIGNING | LOW |
+
+**Total universe docs:** 72 fichiers, 0% implémenté, architecture complète, zéro contradiction inter-module.
+
+**Next steps:** Voir section ACTIVE WORK.
 
 ## Init: 2026-03-11 18:03
 

@@ -16,50 +16,10 @@
 # =============================================================================
 
 modules:
-  # ---------------------------------------------------------------------------
-  # EXAMPLE MODULE (delete or modify)
-  # ---------------------------------------------------------------------------
-  # example:
-  #   code: "src/example/**"           # Glob pattern for source files
-  #   docs: "docs/area/example/"       # Path to documentation
-  #   tests: "tests/example/"          # Path to tests (optional)
-  #
-  #   maturity: DESIGNING              # DESIGNING | CANONICAL | PROPOSED | DEPRECATED
-  #   owner: agent                     # agent | human | team-name
-  #
-  #   entry_points:                    # Main files to start reading (optional)
-  #     - index.ts
-  #     - Example.tsx
-  #
-  #   internal:                        # Implementation details, not public API (optional)
-  #     - helpers.ts
-  #     - utils.ts
-  #
-  #   depends_on:                      # Other modules this requires (optional)
-  #     - types
-  #     - utils
-  #
-  #   patterns:                        # Conventions to follow (optional)
-  #     - "React functional components"
-  #     - "Tailwind styling"
-  #
-  #   notes: |                         # Quick context (optional)
-  #     Brief description of what this module does
-  #     and any important context for working with it.
 
 # =============================================================================
-# YOUR MODULES
+# WORLDBUILDING (documentation du roman)
 # =============================================================================
-
-# Uncomment and modify as you create modules:
-
-# types:
-#   code: "src/types/**"
-#   docs: "docs/core/types/"
-#   maturity: CANONICAL
-#   owner: human
-#   notes: |
-#     Core type definitions. Changes affect entire codebase.
 
   contact:
     code: "CONTACT.md"
@@ -133,3 +93,120 @@ modules:
     notes: |
       Identite visuelle : palette textuelle (8 chapitres), couverture,
       infographie, separateurs. Deux directions en attente de validation.
+
+# =============================================================================
+# UNIVERSE — Cities of Light 3e univers
+# =============================================================================
+
+  universe_manifest:
+    docs: "docs/universe/manifest/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - universe_contact_engine
+      - universe_seismic_physics
+      - universe_world_geography
+      - universe_citizen_model
+    notes: |
+      world-manifest.json contract between Contre-Terre and Cities of Light engine.
+      Contact-first (no voice), seismic physics, vertical zones, metier-based identity.
+
+  universe_contact_engine:
+    docs: "docs/universe/contact_engine/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - contact
+      - universe_seismic_physics
+      - universe_citizen_model
+    notes: |
+      Contact as computational communication protocol. 5 modes, body zones,
+      idiolecte emergence, vocabulary death, Contact-fantome. THE core module.
+
+  universe_citizen_model:
+    docs: "docs/universe/citizen_model/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - personnages
+      - metiers
+      - contact
+    notes: |
+      Citizen identity by body (tremens, Contact, metiers), not economy.
+      Physical degradation, 50-80 population target, death cascade.
+
+  universe_seismic_physics:
+    docs: "docs/universe/seismic_physics/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - seismique
+      - universe_world_geography
+    notes: |
+      Tick-based seismic simulation. Background magnitude 4,
+      tension accumulation, 10 cataclysm types, building 11, tremens per citizen.
+      Self-calibrating via citizen boredom metric. PHYSICS, not narrative.
+
+  universe_world_geography:
+    docs: "docs/universe/world_geography/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - geographie
+      - seismique
+    notes: |
+      9 concentric zones (surface to grotte finale). 6 parameters per zone.
+      Dynamic connections, habitability gradient, bioluminescence navigation.
+
+  universe_context_assembly:
+    docs: "docs/universe/context_assembly/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - universe_citizen_model
+      - universe_contact_engine
+      - universe_seismic_physics
+      - universe_world_geography
+    notes: |
+      Prompt pipeline for citizen agents. Body-first mood (tremens x Contact x physical),
+      metier perception filters, mandatory seismic block. No economics.
+
+  universe_graph_schema:
+    docs: "docs/universe/graph_schema/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - universe_citizen_model
+      - universe_world_geography
+      - universe_contact_engine
+    notes: |
+      FalkorDB graph using strict 5 node types. Actor=citizen, Space=zone,
+      Moment=seisme/death, Narrative=knowledge, Thing=equipment. Contact links weighted.
+
+  universe_narrative_engine:
+    docs: "docs/universe/narrative_engine/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - universe_seismic_physics
+      - universe_contact_engine
+      - universe_citizen_model
+    notes: |
+      Three parallel tension systems (seismic, Contact, social) as PHYSICS.
+      Narrative is EMERGENT, not scripted. Self-calibrating via boredom metric.
+      Contact_vitality as health metric. Building 11 as convergence of all tensions.
+
+  universe_experience_design:
+    docs: "docs/universe/experience_design/"
+    maturity: DESIGNING
+    owner: agent
+    depends_on:
+      - universe_manifest
+      - universe_contact_engine
+      - universe_seismic_physics
+      - universe_citizen_model
+      - universe_world_geography
+    notes: |
+      Experience design — BEFORE implementation. Social survival adventure.
+      Human experience, AI experience, game loop, economy, scale, compute budget.
+      Self-calibrating physics. Subscription model. MVP = text prototype first.
