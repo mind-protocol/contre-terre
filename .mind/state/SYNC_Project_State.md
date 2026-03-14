@@ -2,7 +2,7 @@
 
 ```
 LAST_UPDATED: 2026-03-14
-UPDATED_BY: Solen (@solen) — deployment config for Render (Dockerfile, render.yaml, server.py, start.sh, docker-compose.yml)
+UPDATED_BY: Solen (@solen) — world-manifest.json + data/citizens.json for Cities of Light 3D engine
 ```
 
 ---
@@ -129,6 +129,14 @@ UPDATED_BY: Solen (@solen) — deployment config for Render (Dockerfile, render.
 ---
 
 ## ACTIVE WORK
+
+### Cities of Light 3D engine integration — COMPLET (2026-03-14)
+
+**Files created:**
+- `world-manifest.json` — World manifest for the Cities of Light 3D engine. Procedural-island terrain generator, Preetham sky model, 9 zones (Le Volcan landmark + 7 archipels + Village des Sourds), physics engine ngram with 5-minute tick. Entities sourced from `data/citizens.json`.
+- `data/citizens.json` — 108 citizens for the 3D engine. 101 from seed files (citizens_sud_nord_ouest, citizens_nordest_est_centresud, citizens_creuses_sourds_nomades) + 7 novel characters (Senzo, Nandi, Sihle, Enama, Thabo, Inyoni, Jabu). Each citizen has id, display name, primary metier as social_class, 3D position (derived from archipelago zone + residence sub-offset + deterministic per-citizen scatter), and zone assignment. Distribution: basses-terres 19, froides 16, chaudes 17, seches 15, salines 12, creuses 12, roulantes 10, village-sourds 7. Caravaniers and hermits positioned in the desert between their home archipelago and the volcano center.
+
+**Symlink:** `/home/mind-protocol/cities-of-light/worlds/contre-terre` -> `/home/mind-protocol/contre-terre` (already existed, verified working).
 
 ### Render deployment — COMPLET (2026-03-14)
 
