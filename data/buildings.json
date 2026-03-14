@@ -1,0 +1,407 @@
+[
+  {
+    "id": "space_batiment_siege_consortium",
+    "name": "Siege du Consortium a Kahlamba. Grand dome sobre, ",
+    "category": "general",
+    "position": {
+      "x": 17.434786720715273,
+      "z": -16.684444469804298
+    }
+  },
+  {
+    "id": "space_batiment_marche_kahlamba",
+    "name": "Marche de Kahlamba -- plus grand des sept archipel",
+    "category": "general",
+    "position": {
+      "x": -0.7179437274640748,
+      "z": -14.312635040040917
+    }
+  },
+  {
+    "id": "space_batiment_atelier_cordage_ndaba",
+    "name": "Atelier de cordage de Ndaba. Tisserandes accroupie",
+    "category": "general",
+    "position": {
+      "x": -4.94798537252737,
+      "z": -22.068230001391054
+    }
+  },
+  {
+    "id": "space_batiment_centre_formation_mhluzi",
+    "name": "Centre de formation ecouteurs/predicteurs a Mhluzi",
+    "category": "general",
+    "position": {
+      "x": -6.051344051154196,
+      "z": 24.2654421889863
+    }
+  },
+  {
+    "id": "space_batiment_pont_principal_ingwe",
+    "name": "Pont principal d'Ingwe -- cordes ajustees chaque j",
+    "category": "general",
+    "position": {
+      "x": -11.739847091392402,
+      "z": 14.20353009742847
+    }
+  },
+  {
+    "id": "space_batiment_niveaux_umzimkhulu",
+    "name": "Niveaux d'Umzimkhulu -- cinq etages de granite, le",
+    "category": "general",
+    "position": {
+      "x": -2.249581633042837,
+      "z": -3.849625700491856
+    }
+  },
+  {
+    "id": "space_batiment_atelier_taille_mantolo",
+    "name": "Atelier de taille de Mantolo. Les tailleurs utilis",
+    "category": "general",
+    "position": {
+      "x": 22.865882042983657,
+      "z": 24.771134474635694
+    }
+  },
+  {
+    "id": "space_batiment_poste_consortium_bhekisisa",
+    "name": "Poste avance du Consortium a Bhekisisa. Dome mobil",
+    "category": "general",
+    "position": {
+      "x": 2.788416170280911,
+      "z": 10.920413764816303
+    }
+  },
+  {
+    "id": "space_batiment_seuil_themba",
+    "name": "Seuil de Themba -- poste de garde a l'entree des c",
+    "category": "general",
+    "position": {
+      "x": -17.260158736296795,
+      "z": -10.16460872527179
+    }
+  },
+  {
+    "id": "space_batiment_depression_cristalline_umsizi",
+    "name": "Depression cristalline d'Umsizi. Gypse reflechissa",
+    "category": "general",
+    "position": {
+      "x": 23.435468248457944,
+      "z": 3.9590145408128095
+    }
+  },
+  {
+    "id": "space_batiment_grottes_sibaya",
+    "name": "Grottes de Sibaya -- 37 cavites connectees sous le",
+    "category": "general",
+    "position": {
+      "x": 2.1097600687137117,
+      "z": 12.398778018953202
+    }
+  },
+  {
+    "id": "space_batiment_atelier_cartographie_mathamo",
+    "name": "Atelier de cartographie tactile de Mathamo. Cartog",
+    "category": "general",
+    "position": {
+      "x": -22.141736354625845,
+      "z": 4.208879722948559
+    }
+  },
+  {
+    "id": "space_batiment_habitations_village_sourds",
+    "name": "Habitations du Village des Sourds. Domes souples a",
+    "category": "general",
+    "position": {
+      "x": 0.1425191459756796,
+      "z": 17.635994602414264
+    }
+  },
+  {
+    "id": "space_batiment_atelier_tissus_phakade",
+    "name": "Atelier de tissus de Phakade. Fibres de plantes vi",
+    "category": "general",
+    "position": {
+      "x": -17.128363603025836,
+      "z": 23.038945163722516
+    }
+  },
+  {
+    "id": "space_batiment_puits_lesedi",
+    "name": "Puits de Lesedi -- fissures phreatiques ou les pec",
+    "category": "general",
+    "position": {
+      "x": -20.994426737970656,
+      "z": -15.70875195096384
+    }
+  },
+  {
+    "id": "space_salle_reunion_consortium",
+    "name": "Salle de reunion du Consortium. Cercle de 15 siege",
+    "category": "general",
+    "position": {
+      "x": 4.751755322501381,
+      "z": 8.760627680204507
+    }
+  },
+  {
+    "id": "space_salle_archives_consortium",
+    "name": "Archives tactiles du Consortium. Murs de basalte g",
+    "category": "general",
+    "position": {
+      "x": -13.23980524995344,
+      "z": -19.00566930264379
+    }
+  },
+  {
+    "id": "space_salle_entrepot_cordes",
+    "name": "Entrepot de cordes du marche. Rigoles de sable hum",
+    "category": "general",
+    "position": {
+      "x": 19.514365706471878,
+      "z": -12.689232610568757
+    }
+  },
+  {
+    "id": "space_salle_entrepot_sel",
+    "name": "Entrepot de sel du marche. Tranchee seche en cuir ",
+    "category": "general",
+    "position": {
+      "x": 4.72595767667206,
+      "z": 5.969075516605155
+    }
+  },
+  {
+    "id": "space_salle_entrepot_caissons",
+    "name": "Entrepot de caissons amortisseurs du marche. Boite",
+    "category": "general",
+    "position": {
+      "x": -4.038754233206376,
+      "z": 4.183614464561238
+    }
+  },
+  {
+    "id": "space_salle_zone_negociation",
+    "name": "Zone de negociation du marche. Commerce par Contac",
+    "category": "general",
+    "position": {
+      "x": 1.1391357765979429,
+      "z": 21.73531288682136
+    }
+  },
+  {
+    "id": "space_salle_ecoute_mhluzi",
+    "name": "Salle d'ecoute de Mhluzi. Silence absolu, schiste ",
+    "category": "general",
+    "position": {
+      "x": -14.787040028823178,
+      "z": 10.809590039470741
+    }
+  },
+  {
+    "id": "space_salle_tremens_mhluzi",
+    "name": "Salle des tremens a Mhluzi. Plancher suspendu ampl",
+    "category": "general",
+    "position": {
+      "x": -13.065702369207699,
+      "z": -5.210707660437276
+    }
+  },
+  {
+    "id": "space_salle_niveau_1_profond",
+    "name": "Niveau 1 profond d'Umzimkhulu. Domaine des anciens",
+    "category": "general",
+    "position": {
+      "x": 8.584511147998562,
+      "z": -10.000146010061888
+    }
+  },
+  {
+    "id": "space_salle_niveau_5_surface",
+    "name": "Niveau 5 surface d'Umzimkhulu. Domaine des jeunes ",
+    "category": "general",
+    "position": {
+      "x": -9.1911401864073,
+      "z": 12.593224620720108
+    }
+  },
+  {
+    "id": "space_salle_atelier_essieux",
+    "name": "Atelier des essieux d'Umzimkhulu. Granite poli en ",
+    "category": "general",
+    "position": {
+      "x": -21.372844275342135,
+      "z": -2.0857238690706943
+    }
+  },
+  {
+    "id": "space_salle_commune_sourds",
+    "name": "Salle commune du Village des Sourds. Caverne elarg",
+    "category": "general",
+    "position": {
+      "x": 24.922722042722114,
+      "z": 24.804822392754723
+    }
+  },
+  {
+    "id": "space_salle_geste_inconnu",
+    "name": "Salle du Geste Inconnu. Alcove ou se transmet le C",
+    "category": "general",
+    "position": {
+      "x": -21.33696394501835,
+      "z": -14.34228438664798
+    }
+  },
+  {
+    "id": "space_salle_rigole_centrale",
+    "name": "Rigole centrale du Village des Sourds. Canal d'eau",
+    "category": "general",
+    "position": {
+      "x": -11.739979262479933,
+      "z": 21.662968899685453
+    }
+  },
+  {
+    "id": "space_salle_grotte_principale_sibaya",
+    "name": "Grotte principale de Sibaya. Voute de calcaire nat",
+    "category": "general",
+    "position": {
+      "x": 19.043208684321975,
+      "z": 18.963512124227137
+    }
+  },
+  {
+    "id": "space_salle_grotte_cartographie",
+    "name": "Grotte de cartographie de Sibaya. Traces ephemeres",
+    "category": "general",
+    "position": {
+      "x": -6.523645563055801,
+      "z": -17.112658382138402
+    }
+  },
+  {
+    "id": "space_salle_grotte_stockage",
+    "name": "Grotte de stockage de Sibaya. Calcaire absorbant, ",
+    "category": "general",
+    "position": {
+      "x": 16.687247731990354,
+      "z": 10.176996254368547
+    }
+  },
+  {
+    "id": "space_salle_sismographe_bhekisisa",
+    "name": "Salle de mesure sismique du poste Consortium a Bhe",
+    "category": "general",
+    "position": {
+      "x": 5.583888286297505,
+      "z": 24.361653181575214
+    }
+  },
+  {
+    "id": "space_salle_galerie_entree_themba",
+    "name": "Galerie d'entree de Themba. Faille etroite a 30 de",
+    "category": "general",
+    "position": {
+      "x": 7.698815885536632,
+      "z": -24.608844642392103
+    }
+  },
+  {
+    "id": "space_salle_voiles_umsizi",
+    "name": "Marche aux voiles d'Umsizi. Tissus filtrant la lum",
+    "category": "general",
+    "position": {
+      "x": 15.855206755773082,
+      "z": -10.031062390001106
+    }
+  },
+  {
+    "id": "space_salle_tressage_ndaba",
+    "name": "Salle de tressage de Ndaba. Tisserandes accroupies",
+    "category": "general",
+    "position": {
+      "x": 8.169435748303869,
+      "z": 21.946500196355196
+    }
+  },
+  {
+    "id": "space_salle_atelier_fibres_phakade",
+    "name": "Atelier de fibres de Phakade. Feuilles vibrantes s",
+    "category": "general",
+    "position": {
+      "x": -18.285444280331614,
+      "z": -19.22856647904489
+    }
+  },
+  {
+    "id": "space_salle_fissure_puits_lesedi",
+    "name": "Fissure principale de Lesedi. Descente vers les na",
+    "category": "general",
+    "position": {
+      "x": -19.64820111452912,
+      "z": 2.661182044240796
+    }
+  },
+  {
+    "id": "space_salle_cartographie_tactile_mathamo",
+    "name": "Salle de transmission de Mathamo. Maitres cartogra",
+    "category": "general",
+    "position": {
+      "x": -11.382589384259184,
+      "z": 5.241491351511197
+    }
+  },
+  {
+    "id": "space_salle_taille_mantolo",
+    "name": "Salle de taille de Mantolo. Coins de basalte place",
+    "category": "general",
+    "position": {
+      "x": 10.8806093569399,
+      "z": -14.820134383627353
+    }
+  },
+  {
+    "id": "space_salle_poste_cordiers_ingwe",
+    "name": "Poste des cordiers d'Ingwe. Plate-forme d'ancrage ",
+    "category": "general",
+    "position": {
+      "x": 6.7118979442539874,
+      "z": -11.80080491847953
+    }
+  },
+  {
+    "id": "space_salle_veille_themba",
+    "name": "Salle de veille de Themba. Gardiens dormant pieds ",
+    "category": "general",
+    "position": {
+      "x": -0.5734073925311733,
+      "z": 20.26682455396616
+    }
+  },
+  {
+    "id": "space_salle_stockage_fibres_ndaba",
+    "name": "Reserve de fibres de Ndaba. Racines profondes susp",
+    "category": "general",
+    "position": {
+      "x": 17.305185664742773,
+      "z": -20.385076614363328
+    }
+  },
+  {
+    "id": "space_salle_sel_extraction_umsizi",
+    "name": "Zone d'extraction de sel d'Umsizi. Cristaux de gyp",
+    "category": "general",
+    "position": {
+      "x": -3.821211371813682,
+      "z": -11.165988801387417
+    }
+  },
+  {
+    "id": "space_salle_reunion_bhekisisa",
+    "name": "Salle de briefing du poste Consortium a Bhekisisa.",
+    "category": "general",
+    "position": {
+      "x": -24.822715545610883,
+      "z": 13.555961150981354
+    }
+  }
+]
