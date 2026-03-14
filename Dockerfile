@@ -15,7 +15,9 @@ COPY data/citizens.json /app/data/citizens.json
 COPY world-manifest.json /app/world-manifest.json
 COPY server.py /app/server.py
 COPY seed_contre_terre_graph.py /app/seed_contre_terre_graph.py
+COPY citizens/ /app/citizens/
+COPY .mind/runtime/ /app/.mind/runtime/
 
 EXPOSE 10000
 
-CMD ["python3", "-m", "uvicorn", "server:app", "--host", "0.0.0.0", "--port", "10000"]
+CMD ["sh", "-c", "cd /app/.mind/runtime && python3 -m uvicorn home_server:app --host 0.0.0.0 --port 8765 & cd /app && python3 -m uvicorn server:app --host 0.0.0.0 --port 10000"]
