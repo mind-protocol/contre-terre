@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 ARG FALKORDB_VERSION=v4.16.7
 RUN wget -q "https://github.com/FalkorDB/FalkorDB/releases/download/${FALKORDB_VERSION}/falkordb-x64.so" \
     -O /opt/falkordb.so \
-    && chmod 644 /opt/falkordb.so
+    && chmod 755 /opt/falkordb.so
 
 WORKDIR /app
 
