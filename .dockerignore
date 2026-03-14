@@ -36,8 +36,7 @@ data/export/
 data/*.png
 data/*.jpg
 
-# Citizens directory (citizen identity files, not needed for graph server)
-citizens/
+# Citizens CLAUDE.md files needed for /infos/@handle endpoint
 
 # Cover images in data/
 data/cover_*
