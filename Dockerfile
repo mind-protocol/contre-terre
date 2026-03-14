@@ -1,25 +1,22 @@
+# Stage 1: Get FalkorDB module from official image
+FROM falkordb/falkordb:latest AS falkordb-source
+
+# Stage 2: Build the application
 FROM python:3.11-slim-bookworm
 
-# System dependencies: redis-server (for FalkorDB), curl, wget
+# System dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    gcc \
-    libffi-dev \
     redis-server \
     redis-tools \
-    curl \
-    ca-certificates \
-    wget \
     && rm -rf /var/lib/apt/lists/*
 
-# FalkorDB module: download the .so for redis-server --loadmodule
-ARG FALKORDB_VERSION=v4.16.7
-RUN wget -q "https://github.com/FalkorDB/FalkorDB/releases/download/${FALKORDB_VERSION}/falkordb-x64.so" \
-    -O /opt/falkordb.so \
-    && chmod 755 /opt/falkordb.so
+# Copy FalkorDB module from official image
+COPY --from=falkordb-source /FalkorDB/bin/linux-x64-release/src/falkordb.so /opt/falkordb.so
+RUN chmod 755 /opt/falkordb.so
 
 WORKDIR /app
 
-# Python dependencies (mind runtime + embeddings)
+# Python dependencies
 RUN pip install --no-cache-dir \
     falkordb>=1.0.0 \
     numpy>=1.24.0 \
@@ -28,8 +25,7 @@ RUN pip install --no-cache-dir \
     pyyaml>=6.0 \
     fastapi>=0.100.0 \
     uvicorn>=0.30.0 \
-    python-dotenv>=1.0.0 \
-    sentence-transformers>=2.2.0
+    python-dotenv>=1.0.0
 
 # Application code
 COPY . /app/
