@@ -2,5 +2,7 @@
 .mind/runtime/
 .env
 
-# Export data
+# Export data (but keep seed and brain data)
 data/
+!data/seed/
+!data/brains/

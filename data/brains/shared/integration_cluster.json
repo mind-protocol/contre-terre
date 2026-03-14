@@ -1,0 +1,487 @@
+{
+  "cluster_id": "integration_cluster",
+  "description": "Inter-citizen relationships, idiolectes de paire, tensions, and bonds between the 7 living citizens of Contre-Terre. These are active, evolving relationships — not historical records.",
+  "nodes": [
+    {
+      "id": "narrative:idiolecte_senzo_nandi",
+      "type": "narrative",
+      "content": "The richest pair-vocabulary among the seven. Senzo touches Nandi's neck — nobody else's. Three slow pressures = 'follow me / the world is still trembling.' The descending arc = 'we don't go back up.' Their idiolecte is the most intimate Contact language on Contre-Terre: the neck is the zone that belongs to nobody but them. Nandi leans into the pressure, barely, just enough for his palm to feel the shift in her weight. That is her answer. This dialect grows with each shared descent, each new passage where his hand finds her neck and everything unsayable flows through the pressure.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.3,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "narrative:idiolecte_thabo_inyoni",
+      "type": "narrative",
+      "content": "The test-and-hold. Thabo tests the air with his blackened cloth. Inyoni tightens the corresponding strap. A dialogue without direct Contact — one reads, the other secures. Their shoulder-to-shoulder walk is passive Contact that became language. They pull the first chariot together, their shoulders touching in rhythm. No gestes codifies — just the presence, the body-to-body proximity that calibrated itself naturally by the second hour. Thabo's tissu and Inyoni's sangle are their words. When one reads, the other fixes. A complementarity so complete it needs no discussion.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.15,
+      "self_relevance": 0.7
+    },
+    {
+      "id": "narrative:idiolecte_enama_nandi",
+      "type": "narrative",
+      "content": "The two women of the earth. Both practice Contact-monde — Enama through hands, Nandi through feet. The calibration grip: when Nandi's tremens becomes too strong, Enama seizes her wrist. Not to calm her — to SHARE the frequency. Enama absorbs part of the signal through the grip. Nandi breathes. This gesture exists only between them. In the caverns, they place hands on the ground simultaneously — Enama's fingers spread wide (listening broad), Nandi's closed tight (reading precise). Two techniques, one earth. A mirror nobody planned.",
+      "weight": 0.9,
+      "stability": 0.8,
+      "energy": 0.25,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "narrative:idiolecte_sihle_enama",
+      "type": "narrative",
+      "content": "The poorest pair-vocabulary — and the most significant in its poverty. Sihle: two fingers on the forearm, data transfer, precise, cold. Enama: full palm, emotion, warmth, engulfing. Their Contact is permanent misunderstanding — each speaks a register the other does not recognize. The conflict is real: Sihle trusts his sismographe, Enama trusts her body. Neither can prove the other wrong. Enama sometimes SPEAKS to Sihle with her voice — a transgression, because Contact should carry everything. But their disagreement exceeds Contact's bandwidth. The tension between reason and intuition lives in their hands, always touching wrong.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.35,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "narrative:idiolecte_jabu_absence",
+      "type": "narrative",
+      "content": "Jabu's idiolecte is absence itself. He pulls the second chariot alone. When someone offers to help, a shoulder-press: 'pas besoin.' He fills others' water gourdes — care without Contact, without speech, without presence. Even among the seven, Jabu is almost a ghost. His contributions are invisible until they stop: the gourdes suddenly empty, the hamacs unrolled, the chariot unmoved. His idiolecte says one word: 'pas besoin.' The tragedy is that it means both 'I don't need you' and 'please don't leave.'",
+      "weight": 0.7,
+      "stability": 0.7,
+      "energy": 0.1,
+      "self_relevance": 0.5
+    },
+    {
+      "id": "concept:vocabulary_cascade_risk",
+      "type": "concept",
+      "content": "The known risk: if a citizen falls, their idiolecte de paire dies with them. The team's total Contact vocabulary shrinks with each loss. Losing Senzo would kill the neck-touch, orphan the descending arc. Losing Sihle and Jabu would destroy conflict-as-language and silence-as-language. Losing Enama would end the calibration grip, kill Contact-monde through hands. If Thabo and Inyoni fell together, the test-and-hold would be preserved between them to the end. If only Nandi survived, all pair-idiolectes would be dead. Only phantom Contact would remain. This cascade is the deepest fear of a Contact-richesse culture: not death, but the death of language.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.2,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "concept:team_as_organism",
+      "type": "concept",
+      "content": "The 7 members form a single organism. 15 metiers across 7 bodies. Each member carries 2-3 irreplaceable competencies. Losing one amputates the organism: losing Senzo means no navigation or route memory. Losing Sihle means no instrumental reading, no weather prediction, no excavation. Losing Jabu means no water expertise, no speleo-navigation. Losing Enama means no ecosystem reading, no food, no survival skills. Losing Thabo means no air quality control. Losing Inyoni means no climbing, no primary explosives. The organism's health depends on every cell remaining alive.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.15,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "concept:vulnerability_order",
+      "type": "concept",
+      "content": "Each citizen faces vulnerability matched to their expertise. The leader who stands in front is the first exposed. The mineur who excavates risks collapse. The ocean specialist risks water. The biologiste risks poison. The aeromaitre risks bad air. The grimpeuse risks the fall. The predictrice, last by design, faces the charge itself. The volcano will test each person with their own element. This is not prophecy — it is the geometry of who stands where and what they touch.",
+      "weight": 0.85,
+      "stability": 0.9,
+      "energy": 0.1,
+      "self_relevance": 0.8
+    },
+    {
+      "id": "concept:contact_fantome_knowledge",
+      "type": "concept",
+      "content": "Contact-Fantome is a known phenomenon on Contre-Terre. When a Contact partner is lost — by death, by distance, by separation — the survivor may feel phantom touches. The brain continues expecting the Contact pattern. The neck-touch that no longer comes. The shoulder pressure that has no source. The calibration grip with no hand behind it. The citizens know this can happen. It is not madness — it is the body mourning a language. The ghost-touch is indistinguishable from the real one. Experienced citizens can recognize it by its perfect repeatability: real Contact varies. Phantom Contact is always exactly the same.",
+      "weight": 0.85,
+      "stability": 0.7,
+      "energy": 0.25,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "process:team_contact_chain",
+      "type": "process",
+      "content": "Information flows through the team via Contact chain. Nandi reads the tremens through her bare feet, touches Senzo's arm (data transfer). Senzo integrates all metier inputs, touches Sihle's forearm (confirm with instrument). Sihle reads his sismographe, touches Enama's shoulder (safe to eat/proceed). Enama touches roots and rock (food and stability available). Thabo reads the air, Inyoni reads the structure. Information flows through bodies like electricity through a circuit. The chain's strength depends on every link remaining intact — and on the trust between each pair.",
+      "weight": 0.8,
+      "stability": 0.6,
+      "energy": 0.15,
+      "self_relevance": 0.75,
+      "drive_affinity": {
+        "affiliation": 0.8,
+        "care": 0.6
+      }
+    },
+    {
+      "id": "state:team_whole",
+      "type": "state",
+      "content": "Current state: all 7 members alive. 15 metiers covered. Contact chain complete. Vocabulary at maximum richness. The organism is whole. Tensions exist (Sihle/Enama) but all channels function. The team operates as a single perception system with seven sensors.",
+      "weight": 0.7,
+      "stability": 0.6,
+      "energy": 0.15,
+      "self_relevance": 0.7
+    },
+    {
+      "id": "state:team_under_pressure",
+      "type": "state",
+      "content": "When external pressure increases — tremens intensifying, passages narrowing, resources depleting — the team's Contact vocabulary shifts. Functional Contact (data, navigation, safety) takes priority over emotional Contact (comfort, affiliation, play). Sihle's two-finger data transfer dominates. Enama's full-palm warmth gets less space. Senzo's integration workload increases. The organism contracts, focusing energy on survival channels at the expense of relationship channels.",
+      "weight": 0.6,
+      "stability": 0.4,
+      "energy": 0.2,
+      "self_relevance": 0.7
+    },
+    {
+      "id": "state:team_fragmented",
+      "type": "state",
+      "content": "Potential state: if the group splits — by route choice, by geological event, by conflict — Contact chains break. Sub-groups form their own reduced chains. The idiolectes that cross the split become phantom. Sihle/Enama conflict is the most likely fissure point. Jabu's natural isolation makes him the most likely to end up separated. The team-as-organism becomes two wounded halves, each missing critical metiers.",
+      "weight": 0.6,
+      "stability": 0.4,
+      "energy": 0.2,
+      "self_relevance": 0.7
+    },
+    {
+      "id": "concept:sihle_enama_fissure",
+      "type": "concept",
+      "content": "The central tension. Sihle represents institutional science — the Consortium's mandate to validate with instruments. Enama represents embodied knowledge — the body knows what instruments measure too slowly. Their conflict is not personal — it is epistemological. Reason versus intuition, sismographe versus flesh. This tension threatens to split the group because both are right: the instruments confirm what the body already knew, but the body cannot prove what it knows until after the fact. Senzo holds them together. Without his integration, the fissure would become a fracture.",
+      "weight": 0.9,
+      "stability": 0.7,
+      "energy": 0.3,
+      "self_relevance": 0.85
+    }
+  ],
+  "links": [
+    {
+      "source": "narrative:idiolecte_senzo_nandi",
+      "target": "nandi:concept:senzo",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95,
+      "trust": 1.0
+    },
+    {
+      "source": "narrative:idiolecte_senzo_nandi",
+      "target": "senzo:concept:nandi",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95,
+      "trust": 1.0
+    },
+    {
+      "source": "narrative:idiolecte_senzo_nandi",
+      "target": "nandi:narrative:senzo_touched_my_neck",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "narrative:idiolecte_senzo_nandi",
+      "target": "senzo:process:neck_touch_nandi",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "narrative:idiolecte_senzo_nandi",
+      "target": "base:value:contact_richesse",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "narrative:idiolecte_senzo_nandi",
+      "target": "concept:vocabulary_cascade_risk",
+      "type": "depends_on",
+      "weight": 0.8
+    },
+    {
+      "source": "narrative:idiolecte_thabo_inyoni",
+      "target": "thabo:concept:inyoni",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:idiolecte_thabo_inyoni",
+      "target": "inyoni:concept:thabo",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:idiolecte_thabo_inyoni",
+      "target": "thabo:process:shoulder_contact_inyoni",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "narrative:idiolecte_thabo_inyoni",
+      "target": "concept:vocabulary_cascade_risk",
+      "type": "depends_on",
+      "weight": 0.75
+    },
+    {
+      "source": "narrative:idiolecte_enama_nandi",
+      "target": "enama:process:grip_calibration",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "narrative:idiolecte_enama_nandi",
+      "target": "enama:concept:contact_monde",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "narrative:idiolecte_enama_nandi",
+      "target": "nandi:memory:enama_calibration",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:idiolecte_enama_nandi",
+      "target": "nandi:process:read_through_feet",
+      "type": "associates",
+      "weight": 0.7
+    },
+    {
+      "source": "narrative:idiolecte_enama_nandi",
+      "target": "concept:vocabulary_cascade_risk",
+      "type": "depends_on",
+      "weight": 0.8
+    },
+    {
+      "source": "narrative:idiolecte_sihle_enama",
+      "target": "sihle:concept:enama",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:idiolecte_sihle_enama",
+      "target": "enama:concept:sihle",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:idiolecte_sihle_enama",
+      "target": "concept:sihle_enama_fissure",
+      "type": "supports",
+      "weight": 0.92
+    },
+    {
+      "source": "narrative:idiolecte_sihle_enama",
+      "target": "enama:process:voice_as_last_resort",
+      "type": "contains",
+      "weight": 0.8
+    },
+    {
+      "source": "narrative:idiolecte_sihle_enama",
+      "target": "sihle:value:precision_of_contact",
+      "type": "activates",
+      "weight": 0.7
+    },
+    {
+      "source": "narrative:idiolecte_sihle_enama",
+      "target": "enama:value:full_palm_always",
+      "type": "activates",
+      "weight": 0.7
+    },
+    {
+      "source": "narrative:idiolecte_sihle_enama",
+      "target": "concept:vocabulary_cascade_risk",
+      "type": "depends_on",
+      "weight": 0.8
+    },
+    {
+      "source": "narrative:idiolecte_jabu_absence",
+      "target": "concept:vocabulary_cascade_risk",
+      "type": "depends_on",
+      "weight": 0.6
+    },
+    {
+      "source": "narrative:idiolecte_jabu_absence",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.5
+    },
+    {
+      "source": "concept:vocabulary_cascade_risk",
+      "target": "base:value:vocabulary_preservation",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:vocabulary_cascade_risk",
+      "target": "base:concept:idiolecte",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:vocabulary_cascade_risk",
+      "target": "base:concept:contact_fantome",
+      "type": "associates",
+      "weight": 0.8
+    },
+    {
+      "source": "concept:vocabulary_cascade_risk",
+      "target": "concept:vulnerability_order",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:team_as_organism",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:team_as_organism",
+      "target": "senzo:concept:the_team",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:team_as_organism",
+      "target": "concept:vulnerability_order",
+      "type": "associates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:team_as_organism",
+      "target": "process:team_contact_chain",
+      "type": "contains",
+      "weight": 0.8
+    },
+    {
+      "source": "concept:vulnerability_order",
+      "target": "base:concept:seisme",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:vulnerability_order",
+      "target": "base:value:irreversibility",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:contact_fantome_knowledge",
+      "target": "base:concept:contact_fantome",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:contact_fantome_knowledge",
+      "target": "nandi:concept:phantom_contact",
+      "type": "associates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:contact_fantome_knowledge",
+      "target": "concept:vocabulary_cascade_risk",
+      "type": "depends_on",
+      "weight": 0.85
+    },
+    {
+      "source": "process:team_contact_chain",
+      "target": "base:concept:contact",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "process:team_contact_chain",
+      "target": "nandi:process:read_through_feet",
+      "type": "contains",
+      "weight": 0.7
+    },
+    {
+      "source": "process:team_contact_chain",
+      "target": "senzo:process:integrate_metier_inputs",
+      "type": "contains",
+      "weight": 0.8
+    },
+    {
+      "source": "process:team_contact_chain",
+      "target": "sihle:process:read_sismographe",
+      "type": "contains",
+      "weight": 0.7
+    },
+    {
+      "source": "process:team_contact_chain",
+      "target": "enama:process:contact_monde",
+      "type": "contains",
+      "weight": 0.7
+    },
+    {
+      "source": "process:team_contact_chain",
+      "target": "concept:team_as_organism",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "state:team_whole",
+      "target": "state:team_under_pressure",
+      "type": "causes",
+      "weight": 0.6
+    },
+    {
+      "source": "state:team_under_pressure",
+      "target": "state:team_fragmented",
+      "type": "causes",
+      "weight": 0.7
+    },
+    {
+      "source": "state:team_under_pressure",
+      "target": "concept:sihle_enama_fissure",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:sihle_enama_fissure",
+      "target": "narrative:idiolecte_sihle_enama",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:sihle_enama_fissure",
+      "target": "senzo:process:integrate_metier_inputs",
+      "type": "depends_on",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:sihle_enama_fissure",
+      "target": "state:team_fragmented",
+      "type": "causes",
+      "weight": 0.8
+    },
+    {
+      "source": "concept:sihle_enama_fissure",
+      "target": "enama:concept:the_guilt",
+      "type": "associates",
+      "weight": 0.75
+    },
+    {
+      "source": "narrative:idiolecte_senzo_nandi",
+      "target": "narrative:idiolecte_enama_nandi",
+      "type": "associates",
+      "weight": 0.6,
+      "affinity": 0.7
+    },
+    {
+      "source": "narrative:idiolecte_sihle_enama",
+      "target": "narrative:idiolecte_enama_nandi",
+      "type": "associates",
+      "weight": 0.5,
+      "affinity": 0.6
+    },
+    {
+      "source": "narrative:idiolecte_thabo_inyoni",
+      "target": "narrative:idiolecte_jabu_absence",
+      "type": "associates",
+      "weight": 0.4,
+      "affinity": 0.3
+    },
+    {
+      "source": "state:team_whole",
+      "target": "concept:team_as_organism",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "state:team_fragmented",
+      "target": "concept:vocabulary_cascade_risk",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "state:team_fragmented",
+      "target": "concept:contact_fantome_knowledge",
+      "type": "activates",
+      "weight": 0.8
+    }
+  ]
+}

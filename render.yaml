@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: contre-terre
+    runtime: docker
+    plan: starter
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: RENDER
+        value: "true"
+      # FalkorDB (embedded, localhost)
+      - key: DATABASE_BACKEND
+        value: falkordb
+      - key: FALKORDB_HOST
+        value: localhost
+      - key: FALKORDB_PORT
+        value: "6379"
+      - key: FALKORDB_GRAPH
+        value: contre_terre
+      # Embeddings
+      - key: EMBEDDING_PROVIDER
+        value: local
+      # Optional: switch to OpenAI embeddings for better quality
+      # - key: EMBEDDING_PROVIDER
+      #   value: openai
+      # - key: OPENAI_API_KEY
+      #   sync: false
+      # - key: OPENAI_EMBEDDING_MODEL
+      #   value: text-embedding-3-small
+    disk:
+      name: contre-terre-data
+      mountPath: /data
+      sizeGB: 1

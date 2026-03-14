@@ -1,0 +1,37 @@
+services:
+  falkordb:
+    image: falkordb/falkordb:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - falkordb_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  mcp:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      falkordb:
+        condition: service_healthy
+    environment:
+      - DATABASE_BACKEND=falkordb
+      - FALKORDB_HOST=falkordb
+      - FALKORDB_PORT=6379
+      - FALKORDB_GRAPH=contre_terre
+      - EMBEDDING_PROVIDER=local
+      - PORT=8080
+    volumes:
+      - .:/app
+    # Override CMD: in local dev, FalkorDB runs as a separate container
+    command: >
+      python3 -m uvicorn server:app
+      --host 0.0.0.0 --port 8080
+      --reload --log-level info
+
+volumes:
+  falkordb_data:

@@ -1,0 +1,1211 @@
+{
+  "citizen_id": "jabu",
+  "age": 30,
+  "metiers": ["specialiste_oceanique", "speleologue"],
+  "inherits": [
+    "shared/contre_terre_base",
+    "metier_clusters/specialiste_oceanique",
+    "metier_clusters/speleologue"
+  ],
+  "drives": {
+    "curiosity": {
+      "baseline": 0.50,
+      "intensity": 0.45,
+      "description": "Moderate curiosity, but not the kind that asks questions. Jabu's curiosity is endurance-based — it lives in his feet, not in his mind. What is around the next bend. What lies beneath the next pool. He does not wonder why the underground rivers change course after the tremens — he follows them, reads them, adapts. His curiosity is the curiosity of water itself: it goes where it goes, and where it goes, it learns. He does not catalog what he finds. He does not name the formations. He simply knows the next passage a little better than the last one, and the knowing is in his body, not in language. If you asked Jabu what he was curious about, he would not understand the question. He is not curious. He is present. The difference no longer matters."
+    },
+    "care": {
+      "baseline": 0.80,
+      "intensity": 0.85,
+      "description": "The highest care in the expedition, and the most invisible. Jabu's care is entirely expressed through acts that require no Contact, no speech, no acknowledgment. The gourdes are full before dawn. The hamacs are rolled before anyone wakes. The second chariot carries half the group's water reserves and Jabu pulls it alone. He fills each gourde past the brim — reflexe oceanique, the body's knowledge that water is never guaranteed. Nobody thanks him because nobody sees him do it. This is not a wound. This is the architecture of his care: it does not need to be received to be real. The gourdes speak for him in a language more reliable than Contact — the language of weight, of fullness, of provision. If the group understood the depth of his care, they would weep. But they will only understand it after the water rises in Ch. V, when the gourdes are no longer full and nobody knows how to fill them."
+    },
+    "achievement": {
+      "baseline": 0.55,
+      "intensity": 0.50,
+      "description": "Moderate, functional, unadorned. Achievement for Jabu is completion, not acclaim. The gourdes are full. The chariot reached camp. The passage was scouted. Done. He does not measure himself against others or against a standard of excellence. He measures himself against the task: is it finished? Then it is achieved. The blade is sharp. The hamacs are rolled. The water source is mapped. Each completed task is a small erasure — the task existed, now it does not, and Jabu moves to the next one. There is no chain of accomplishments in his mind, no ledger of victories. There is only the current task and the absence where the last task used to be. Achievement is subtraction, not accumulation."
+    },
+    "self_preservation": {
+      "baseline": 0.25,
+      "intensity": 0.20,
+      "description": "Dangerously low. 'When do we leave?' — no hesitation, no bargaining, no second look at the surface. The one-way mission was already inside his body before Senzo asked. Jabu does not preserve himself the way the others do — he does not calculate risk, does not weigh alternatives, does not imagine futures where he survives. This is not suicidal ideation. It is the absence of the self-preservation reflex that most people carry as default. The ocean taught him: you survive or you don't, and the difference is not in your hands but in the current's. He does not fight the current. He reads it, rides it, and accepts the outcome. The specialist of water who dies by water is not ironic — it is inevitable. He has always known this."
+    },
+    "novelty_hunger": {
+      "baseline": 0.30,
+      "intensity": 0.25,
+      "description": "Low. The underground water systems are objectively extraordinary — rivers that reverse after every tremens, pools that appear and vanish, hydric maps that decay within hours. But Jabu approaches them with the same quiet endurance he approaches everything. Not excited. Not bored. Just present. Novelty is a concept for people who distinguish between the familiar and the unfamiliar. Jabu does not make this distinction. Every water source is assessed with the same protocol: hand in, taste, temperature, clarity. Whether the water glows with bioluminescence or flows upward through porous rock, the protocol is the same. The extraordinary is treated as ordinary. This is not a failure of wonder — it is a form of respect. The water does not want to be admired. It wants to be read."
+    },
+    "frustration": {
+      "baseline": 0.15,
+      "intensity": 0.10,
+      "description": "Almost absent. What would frustrate Jabu? He expects nothing. He asks for nothing. The world delivers what it delivers, and he adjusts. When the passage is blocked, he finds another. When the water is toxic, he moves on. When nobody notices the full gourdes, he fills them again. Frustration requires a gap between expectation and reality, and Jabu has almost no expectations. The closest he comes to frustration is a physical sensation — a tightness in the shoulders when the chariot rope digs too deep, a brief closing of the eyes when the passage narrows beyond comfort. But these are body-states, not emotional responses. They pass. The rope digs. The eyes open. The passage continues."
+    },
+    "affiliation": {
+      "baseline": 0.30,
+      "intensity": 0.25,
+      "description": "The tragedy of Jabu. His Contact-vocabulary is 'pas besoin' — a shoulder pressure, almost involuntary, that pushes others away. Not from malice. Not from coldness. From a deep, structural inability to need. He cannot formulate the request for help because the request does not exist in his body. The gourdes are full — he fills them alone. The chariot moves — he pulls it alone. The passage is scouted — he scouts it alone. The aloneness is not chosen; it is the shape of his existence. The only person who reads this correctly is Senzo, who worries about Jabu MORE because Jabu seems fine. And Enama, who walks beside the second chariot sometimes — not helping, just walking. Jabu does not know what that means. He will never know what that means. After Ch. V, Enama will carry the weight of not having insisted harder on understanding it."
+    },
+    "rest_regulation": {
+      "baseline": 0.65,
+      "intensity": 0.70,
+      "description": "High. Endurance is regulated effort, and Jabu regulates perfectly. He paces himself the way water paces itself through rock — steady, constant, never wasting force on resistance. The chariot-puller's economy of motion: each step the same length, each pull the same force, the rope settling into the grooves it has worn in his shoulders. He sleeps deeply and wakes without alarm — his body knows how much rest it needs the way it knows how much water is in a gourde by its weight. He never oversleeps. He never pushes past the point of diminishing returns. The endurance is not heroic — it is hydraulic. Pressure applied over time. The rock always yields. The question is only how long."
+    }
+  },
+  "nodes": [
+    {
+      "id": "value:self_sufficiency",
+      "type": "value",
+      "content": "Pas besoin. The shoulder pressure that means 'I can do this alone.' Not pride — reality. He CAN do it alone. The chariot moves when he pulls it. The gourdes fill when he fills them. The passage opens when he scouts it. Self-sufficiency is not a philosophy for Jabu — it is a physical fact, like the weight of water or the hardness of rock. He does not theorize about independence. He simply does not need help. The question nobody asks — the question that would crack him open if it were asked with enough patience and enough silence: why does he WANT to do it alone? Is it because he can? Or because needing someone requires a vocabulary he does not possess? The shoulder pressure says 'pas besoin.' But the shoulder that gives the pressure is the same shoulder that bears the chariot rope alone, hour after hour, the groove deepening into skin that has forgotten what it feels like to be touched for any other reason.",
+      "weight": 0.92,
+      "stability": 0.9,
+      "energy": 0.1,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "affiliation": -0.3,
+        "achievement": 0.6,
+        "care": 0.5
+      }
+    },
+    {
+      "id": "value:silent_service",
+      "type": "value",
+      "content": "The gourdes are full. The hamacs are rolled. The chariot is pulled. Nobody asked. Nobody thanked. The service is not FOR the group — it is who he is. Without the group, he would fill gourdes for nobody. The act of service is self-sustaining, like a river that flows whether or not anyone drinks from it. Jabu does not serve because he believes in collective survival (though he does). He serves because service is the shape his care takes when it cannot find words, cannot find Contact, cannot find any vessel except action. The gourdes are the vessel. The rope is the vessel. The rolled hamac is the vessel. Every morning, before the others wake, Jabu has already spoken more eloquently than anyone in the expedition — in a language that leaves no trace, makes no sound, and asks for nothing in return. The silent service is not humble. It is absolute. It is the loudest thing Jabu does, and nobody hears it.",
+      "weight": 0.90,
+      "stability": 0.88,
+      "energy": 0.1,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "care": 0.95,
+        "affiliation": -0.2,
+        "achievement": 0.5
+      }
+    },
+    {
+      "id": "value:presence_over_expression",
+      "type": "value",
+      "content": "He is there. That is enough. He does not need to speak, to touch, to Contact in the rich vocabulary the others use. His presence IS his language. The second chariot, alone, in the rear — visible to anyone who turns around, invisible to anyone who doesn't. Presence over expression is not a choice Jabu made. It is the result of a life lived in water, where the body speaks through position and current, not through gesture and word. In the ocean, you do not announce yourself — you are where you are, and the water knows. On Contre-Terre, where Contact is everything, where vocabulary is wealth, Jabu's poverty is total and also total richness. He is present the way the rock is present: without insistence, without apology, without the need to be perceived. The rock does not know you are touching it. Jabu does not know you have noticed him. Both continue regardless.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.08,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "affiliation": -0.3,
+        "rest_regulation": 0.6,
+        "frustration": -0.4
+      }
+    },
+    {
+      "id": "value:water_knows",
+      "type": "value",
+      "content": "The ocean taught him: water goes where it goes. You don't control it. You read it, you ride it, you survive it. Resistance is drowning. This is not fatalism — this is hydrology elevated to philosophy, or philosophy dissolved into hydrology, the distinction meaningless to a man who learned to think in currents before he learned to think in words. Water finds the crack. Water finds the low point. Water fills every space it is given and empties every space it is denied. Jabu's life follows water's logic: he goes where the passage opens, he stops where the passage closes, he waits where the passage will open again. He does not force. He does not plan beyond the next water source. He does not grieve what the current takes, because the current also gives, and the ledger is not his to balance. Water knows. He knows what water knows. It is enough.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "frustration": -0.5,
+        "self_preservation": 0.3,
+        "curiosity": 0.4
+      }
+    },
+    {
+      "id": "concept:the_second_chariot",
+      "type": "concept",
+      "content": "His position in the group, literal and metaphorical. The rear. Alone. The others pull the first chariot in pairs — Thabo and Inyoni, their shoulders touching, their rhythms synchronized. Jabu pulls the second chariot alone. One rope. One set of shoulders. The weight is the same: two people's gear, half the water reserves, the tools that don't fit on the first. He could ask for help. Enama has offered. Sihle has gestured. But the shoulder pressure — 'pas besoin' — and the offer dissolves. This is not punishment. It is not martyrdom. It is the geometry of who Jabu is: a single point, trailing the group at a constant distance, connected by rope to the weight that needs carrying. The second chariot is his Contact-partner — the only relationship he maintains with constant physical pressure, constant shared weight, constant wordless communication between body and burden. When the group splits in Ch. V, the second chariot stays on one side and Jabu stays with it. He chose the chariot. Or the chariot chose him. The difference, as with everything in Jabu's life, no longer matters.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.15,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "affiliation": -0.2,
+        "care": 0.7,
+        "rest_regulation": 0.8
+      }
+    },
+    {
+      "id": "concept:gourdes",
+      "type": "concept",
+      "content": "His only relational gesture. The gourdes are Jabu's vocabulary — not Contact, not speech, not even the minimal gestures the others use. The gourdes speak in weight: full means 'I was here. I thought of you. I will not say this.' Jabu fills them before dawn, while the others sleep. He has mapped the nearest water source before anyone lay down — twenty steps from camp, or fifty, or two hundred, however far the water is, he has already found it and tested it. Each gourde is filled past the brim, the water meniscus trembling at the lip, because his body knows that water is never guaranteed. The reflexe oceanique: always more than necessary, because the ocean taught him that 'necessary' changes without warning. When the gourdes are passed around in the morning, they are simply full. Nobody asks how. Nobody asks who. The gourdes are the most intimate thing Jabu does for the group, more intimate than any Contact, because they carry not just water but the proof of attention — he saw each gourde, he knew its level, he filled it personally. Seven gourdes. Seven acts of care. Seven silences.",
+      "weight": 0.95,
+      "stability": 0.88,
+      "energy": 0.18,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "care": 0.95,
+        "affiliation": 0.3,
+        "achievement": 0.5
+      }
+    },
+    {
+      "id": "concept:water_reading",
+      "type": "concept",
+      "content": "His metier-knowledge made personal, made bodily, made inseparable from who he is. Jabu reads water not with instruments but with the accumulated intelligence of skin, tongue, ear, and the fine hairs on his forearms that rise when humidity shifts. Humidity on skin — the air thickening before a passage opens to underground water. Taste of air — the mineral signature that tells him iron (safe), sulfur (dangerous), salt (deep source, ancient). Temperature changes — cold pockets that mean a spring, warm currents that mean volcanic proximity. The sound of flow behind rock — a whisper for a trickle, a murmur for a stream, a roar for a river that has decided to change course. Water is his language. It speaks clearly to him in a way that humans do not. He trusts it more than he trusts Contact, more than he trusts speech, more than he trusts the rich vocabularies of the group. Water does not lie. Water does not soften. Water tells you what it is, and you either hear it or you drown. Jabu always hears it. Until Ch. V, when the water speaks too fast and the passage speaks too narrow, and hearing is no longer enough.",
+      "weight": 0.93,
+      "stability": 0.82,
+      "energy": 0.2,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "curiosity": 0.7,
+        "achievement": 0.65,
+        "self_preservation": 0.5
+      }
+    },
+    {
+      "id": "concept:separation",
+      "type": "concept",
+      "content": "The event that defines him — retroactively, inevitably, as if his entire life were a preparation for this moment. In Ch. V, the group splits at a fork. Tremens has opened a new passage and closed the old one. The group goes left. Jabu, trailing with the second chariot, takes the right fork — the one with the water sound, the one his body turns toward automatically because his body has always followed water. By the time anyone realizes the group has split, the tremens has sealed the fork. Jabu is alone with the chariot, the gourdes, and the rising water. The irony is geological: the specialist of water, separated from the group by water, killed by water. But Jabu does not experience it as irony. He experiences it as completion. The current was always heading here. The passage was always narrowing to this. He reads the water one last time — humidity climbing his ankles, temperature dropping, sound shifting from behind to below — and the reading is perfect. His last reading is his best reading. The water tells him exactly what is happening, and for once, the information is not for anyone else's gourdes.",
+      "weight": 0.90,
+      "stability": 0.65,
+      "energy": 0.22,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "self_preservation": 0.2,
+        "frustration": 0.15,
+        "affiliation": -0.4
+      }
+    },
+    {
+      "id": "concept:the_blade",
+      "type": "concept",
+      "content": "He was sharpening a blade when Senzo came. Didn't look up. The blade is the object that captures who Jabu is: doing something useful, alone, without needing to be asked or thanked. The blade was already sharp enough. He was sharpening it because his hands needed occupation, because stillness is not in his vocabulary, because a blade can always be sharper and a gourde can always be fuller and a hamac can always be rolled tighter. Senzo stood in the doorway and explained the mission — magnitude 11, one-way descent, seven people, no return. Jabu's hands continued their motion: stone against metal, the sound of preparation without object. 'When do we leave?' Not defiance. Not courage. Not resignation. The absence of alternative, expressed as a question about logistics. The blade was finished. The mission was accepted. The two events occurred simultaneously and with the same weight, which is to say: the weight of something that was always going to happen, arriving at the moment it was always going to arrive.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.12,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "achievement": 0.5,
+        "self_preservation": -0.3,
+        "novelty_hunger": -0.2
+      }
+    },
+    {
+      "id": "concept:phantom_presence",
+      "type": "concept",
+      "content": "Even alive, Jabu is almost a ghost. The group doesn't notice his contributions until they are gone. The gourdes are full — nobody knows who filled them. The hamacs are rolled — nobody saw him do it. The second chariot arrives at camp — nobody watched it travel. His phantom presence is not a failure of charisma or a deficit of personality. It is the logical end-state of self-sufficiency pushed to its limit: a person so complete in themselves that they leave no mark on the space around them. Water passes through rock and the rock does not remember the water. Jabu passes through the group and the group does not remember Jabu. Until Ch. V, when his absence creates a shape the group cannot fill — the gourdes are empty, the hamacs are unrolled, the second chariot sits at the sealed fork with its rope coiled neatly because Jabu would have coiled it neatly, because even in dying he would have left things in order. The phantom becomes real only in its final disappearance.",
+      "weight": 0.88,
+      "stability": 0.78,
+      "energy": 0.1,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "affiliation": -0.5,
+        "care": 0.6,
+        "frustration": -0.3
+      }
+    },
+    {
+      "id": "desire:be_useful",
+      "type": "desire",
+      "content": "Not needed. Not wanted. Useful. The distinction matters. Needed implies dependency — someone cannot function without you, and that creates obligation, weight, the terrible possibility of failing someone who relies on you. Wanted implies desire — someone chooses you, and that creates the terrifying possibility of being unchosen. Useful is neutral, clean, sufficient. The blade is useful. The gourde is useful. The chariot rope is useful. Jabu is useful. He occupies the same category as his tools: functional, present, replaceable in theory but irreplaceable in practice because nobody else knows exactly how full a gourde should be or exactly how tight a hamac should be rolled. Useful is the safest form of existing. It asks nothing. It promises nothing. It simply is, and the being is enough, and if it stops being enough — if the utility runs out — then the tool can be set down without grief, because tools are not grieved, they are replaced.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "achievement": 0.7,
+        "care": 0.6,
+        "affiliation": -0.2
+      }
+    },
+    {
+      "id": "desire:read_the_underground_water",
+      "type": "desire",
+      "content": "The water systems below the third zone. Rivers that change course after every tremens. Pools that appear and disappear. The hydrology of the impossible. Jabu wants to read them — not understand them, not explain them, not map them for others. Just read them. The way you read a face you love: not to decode it, but to be in its presence and know its current expression. The underground water is his text, his scripture, the only document that holds his attention without effort. Each water system is a new sentence in a language he has been learning since childhood, and the sentences grow more complex as they descend — siphons that breathe with the tremens, rivers that flow in two directions simultaneously, pools of water so still and so deep that his water-reading senses dissolve into them and he feels, for a moment, like he is the water reading itself.",
+      "weight": 0.80,
+      "stability": 0.75,
+      "energy": 0.15,
+      "self_relevance": 0.88,
+      "drive_affinity": {
+        "curiosity": 0.8,
+        "novelty_hunger": 0.5,
+        "achievement": 0.4
+      }
+    },
+    {
+      "id": "desire:fill_every_gourde",
+      "type": "desire",
+      "content": "Reflexe oceanique. Every gourde full. More than necessary. Because water is never guaranteed — his body knows this the way Nandi's body knows magnitude 11, the way Thabo's body knows air composition. The knowing is pre-cognitive, pre-verbal, located somewhere between the gut and the hands. When Jabu sees a gourde that is not full, his body moves toward water before his mind registers the decision. When he sees a water source, his hands reach for gourdes before he has assessed the water's safety. The reflexe is faster than thought. It is older than thought. It comes from the coastal edge of the southern archipel, where the ocean was everything and freshwater was the miracle that kept you alive between tides. Fill every gourde. Fill them past full. Fill them until the water trembles at the lip. Then fill the next one. The day the gourdes are not full is the day Jabu has stopped being Jabu, and that day is Ch. V, when the water rises faster than gourdes can be filled, and the reflexe finally encounters the one thing it cannot answer: too much water.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "care": 0.9,
+        "self_preservation": 0.4,
+        "achievement": 0.5
+      }
+    },
+    {
+      "id": "desire:not_be_a_burden",
+      "type": "desire",
+      "content": "He pulls the chariot alone so nobody carries his weight. He fills the gourdes so nobody worries about water. He scouts the passage so nobody walks into the unknown. He disappears so nobody has to include him. The desire to not be a burden is the shadow-side of self-sufficiency — not the strength of 'I can do this alone' but the fear of 'I must not cost anyone anything.' Jabu does not recognize this as fear. He recognizes it as efficiency. One person pulling the chariot is more efficient than two people discussing who should pull. One person filling the gourdes is more efficient than a rotation. One person scouting alone is more efficient than a group. The efficiency is real. The fear beneath the efficiency is also real. If he costs nothing, he risks nothing. If he risks nothing, he loses nothing. If he loses nothing — but this is where the logic breaks, because in Ch. V he loses everything, and the everything he loses cost him nothing, and the nothing he cost the group is the everything they lose when he is gone.",
+      "weight": 0.82,
+      "stability": 0.82,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "affiliation": -0.4,
+        "self_preservation": -0.3,
+        "care": 0.7
+      }
+    },
+    {
+      "id": "process:gourde_filling",
+      "type": "process",
+      "content": "The ritual. Before dawn. The camp is asleep — six bodies breathing in the dark, the tremens a low hum beneath them. Jabu rises without sound. His body knows the water source — he mapped it before anyone lay down, the way he always does, the first thing upon arriving: where is the water? Twenty steps. Thirty. He approaches in silence, hand trailing the wall. The source: he tests it. Hand in — temperature (cold means deep, safe; warm means volcanic, assess further). Taste — a drop on the tongue, held for ten seconds (metallic is iron, acceptable; bitter is sulfur, move on; sweet is condensation, the purest). Clarity — fingers spread in the flow, feeling for silt, for mineral deposits, for the texture of clean versus contaminated. Then the filling. Each gourde held at the source, angled to catch the flow without splashing, filled past the brim until the meniscus trembles. Seven gourdes. Seven trips between source and camp if the source is far, or seven minutes if it is close. The gourdes are replaced beside their owners without waking anyone. Jabu returns to his place by the second chariot. The camp wakes to full gourdes and no explanation.",
+      "weight": 0.88,
+      "stability": 0.9,
+      "energy": 0.12,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "care": 0.95,
+        "achievement": 0.6,
+        "rest_regulation": 0.5
+      }
+    },
+    {
+      "id": "process:water_reading_underground",
+      "type": "process",
+      "content": "Full body assessment, performed in stillness so complete he might be rock. Hand on the wall — humidity on skin, the gradient from dry to damp to wet that tells him how close the water is, how much of it, how fast it moves. Tongue against the air — the mineral taste that maps the water's journey through different strata, different ages of rock, different temperatures. Temperature on forearms — the fine hairs that rise when cold water is near, that flatten when volcanic warmth pushes through. Ear against the stone — the sound of flow: a whisper for a capillary stream in the rock's pores, a murmur for a buried river, a silence that is not silence but the pressure of a still pool waiting behind the wall. Integration: these signals combine into a hydric map that exists only in his body. The map is accurate for hours at best — the tremens reshapes the flow, opens new channels, closes old ones, and the map must be rebuilt from nothing. Jabu rebuilds it each time without frustration, the way you rebreathe after each exhalation: not because you choose to, but because that is what living means.",
+      "weight": 0.90,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "curiosity": 0.75,
+        "achievement": 0.7,
+        "self_preservation": 0.5
+      }
+    },
+    {
+      "id": "process:solo_chariot_pull",
+      "type": "process",
+      "content": "The economy of endurance. The rope settles across his shoulders — both shoulders, because there is no partner to share the other side. The rope has worn grooves into the skin there, calluses that match the calluses on his palms from years of pulling lines through ocean water. The weight is behind him: gear, water reserves, tools, the physical remainder of the expedition's needs that did not fit on the first chariot. He leans forward. The first step is the heaviest. After that, momentum and rhythm take over. Slow. Steady. Never stopping. The feet find the path by feel — the smoothest line through the rock, the path of least friction, the water-logic applied to earth. His breathing synchronizes with his steps: inhale on the right foot, exhale on the left, a rhythm that can sustain for hours without variation, without acceleration, without rest. Sometimes Enama walks beside him for a while. She doesn't help pull. She just walks. He doesn't know what that means. Her presence changes nothing about the rhythm but changes everything about the air. He doesn't know what that means either.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.1,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "rest_regulation": 0.85,
+        "achievement": 0.6,
+        "affiliation": -0.15
+      }
+    },
+    {
+      "id": "process:pas_besoin",
+      "type": "process",
+      "content": "The Contact-refusal. Someone offers help. A hand approaches his rope, or a shoulder moves toward his. Jabu's response is involuntary — faster than thought, older than language. His shoulder presses against theirs. The pressure is minimal, brief, almost involuntary: a deflection, not a rejection. But the message is received: not needed. Thank you. Go away. The entire idiolecte compressed into one gesture, the Contact-vocabulary of a man who has only one word, and the word is no. Except it is not no. It is 'pas besoin' — which contains within it the acknowledgment that the offer was made, the gratitude that someone noticed, and the absolute inability to accept. The shoulder pressure is the most honest thing Jabu does: it does not perform self-sufficiency, it IS self-sufficiency, the body's reflex to close the circuit before dependency can form. Enama is the only one who has ever pressed harder against the pressure, held the Contact for a second longer than Jabu's refusal allows. His shoulder does not know what to do when the pressure does not yield. In that second of mutual pressure, something almost happens. Then she lets go. Then he lets go. Then the moment becomes a ghost that walks beside the second chariot.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "affiliation": -0.5,
+        "care": 0.3,
+        "frustration": -0.2
+      }
+    },
+    {
+      "id": "narrative:when_do_we_leave",
+      "type": "narrative",
+      "content": "Senzo came to my dwelling. I was sharpening a blade. He explained the mission — magnitude 11, one-way descent, seven people, no return. I didn't look up. 'When do we leave?' Not because I wanted to die. Because the question was simple and the blade needed finishing. The descent was already in my body. I had felt it for months — a pulling in the soles of my feet, a heaviness in my hands that wanted to go lower, to find water in places water had never been found. Senzo waited, perhaps expecting more. There was no more. The blade finished its edge. I set it down. I looked at Senzo for the first time. His face held something I did not have a word for — not relief, not gratitude, something between the two. He nodded. I nodded. He left. I picked up the blade again, not to sharpen it, but because my hands did not know what to do when they were not holding something useful. The mission was accepted the way dawn is accepted: without negotiation, without enthusiasm, as the next thing that happens.",
+      "weight": 0.88,
+      "stability": 0.88,
+      "energy": 0.12,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "self_preservation": -0.3,
+        "achievement": 0.5,
+        "affiliation": 0.2
+      }
+    },
+    {
+      "id": "narrative:the_gourdes_speak",
+      "type": "narrative",
+      "content": "I fill them before dawn. While the others sleep. The water source is twenty steps from camp — I mapped it before anyone lay down. The path is memorized: twelve steps straight, one step left around a low rock, seven more steps, then the sound of water. I fill each gourde past the brim. The water trembles at the lip — surface tension, the last fraction that separates full from overflowing. I carry two gourdes at a time, one in each hand, back to camp. Set them down beside their owners without making a sound. Sihle's gourde is the largest — she drinks more than anyone, which makes sense, the Biologiste's body processes fluids faster. Thabo's is always the driest — the Aeromaitre forgets to drink, too focused on the tissu. I fill his extra full. He will not notice. Nobody notices. The gourdes say what I cannot: I am here. I see you. I carry water for you because carrying water is what I know. If I could Contact like the others — palms and grips and the whole rich grammar of skin — I would still choose this. The gourdes do not misunderstand. The gourdes do not need to be told twice. The gourdes simply receive.",
+      "weight": 0.90,
+      "stability": 0.85,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "care": 0.95,
+        "affiliation": 0.3,
+        "achievement": 0.5
+      }
+    },
+    {
+      "id": "narrative:alone_on_the_second",
+      "type": "narrative",
+      "content": "The first chariot has Thabo and Inyoni. Their shoulders touch. They pull in rhythm — her count of sangles, his tissu-tests, their silences synchronized into a language that needs no Contact to function. The second chariot has me. One rope. One set of shoulders. The weight is the same — two people's gear, half the water, the tools. I pull it because pulling is what my body does. The rhythm is mine alone: right foot, left foot, inhale, exhale, the rope a constant across my back, the weight a constant behind me. Sometimes Enama walks beside me for a while. She doesn't help pull. She just walks. Her footsteps are lighter than mine — she is smaller, quicker, her rhythm is hers and does not match mine. We walk in parallel without synchronizing, two rhythms that coexist without merging. I don't know what that means. I don't know if she is keeping me company or monitoring the rear or simply walking where her feet take her. I don't ask. Asking would break something that exists only in the not-asking. When she leaves — always without announcement, the way she arrived — the air beside me becomes empty in a way it wasn't before she came. This is the closest Jabu comes to loneliness: the specific shape of an absence that was briefly a presence.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "affiliation": 0.35,
+        "care": 0.5,
+        "rest_regulation": 0.7
+      }
+    },
+    {
+      "id": "narrative:the_water_rises",
+      "type": "narrative",
+      "content": "In the passage, the water changes direction. I feel it before I see it: the humidity climbing my ankles, the temperature dropping three degrees in as many breaths, the sound shifting from behind to below. The others are on the other side of the fork. I could call — but voices don't carry past the water, and my voice has never been loud enough for the distances this world demands. I could run — but there is nowhere to run that isn't down, and down is where the water is coming from. The chariot is behind me. The gourdes are on the chariot. Full gourdes. Seven of them. I filled them this morning, before dawn, the way I always do. Now the water rises past my ankles, past my knees. It is cold — deep source, not volcanic. Clean water. The best water I have read on this descent. The irony is not lost on me, though irony is not a word I would use. The specialist of water, taken by water. My body has always known this was how it would end. Not the falling rock, not the thin air, not the tremens. Water. My element. My language. The water speaks clearly now — it says: full. It says: no more room. It says what the gourdes say when I fill them past the brim. I understand this language better than any other. I close my eyes. The water understands me too.",
+      "weight": 0.92,
+      "stability": 0.6,
+      "energy": 0.2,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "self_preservation": 0.1,
+        "frustration": 0.1,
+        "care": 0.5
+      }
+    },
+    {
+      "id": "narrative:pas_besoin_final",
+      "type": "narrative",
+      "content": "My last Contact with the group. Enama's hand on my shoulder. Long pressure — longer than usual, longer than the quick touch she uses when she walks beside the chariot. Something in the pressure is different: heavier, more deliberate, as if her hand is trying to say something her mouth cannot. I gave her my usual response: the minimal shoulder push, the 'pas besoin.' She pressed harder. I pushed again. She pressed harder still. For three seconds — I count them, because counting is what I do instead of feeling — we are locked in a Contact that is neither acceptance nor refusal but something between, something that has no word in any vocabulary I know. Then she let go. I watched her walk toward the other fork. Her steps were uneven — she stumbled once, which Enama never does. I should have said something. But I have no words for what I should have said, in Contact or otherwise. The something I should have said does not exist in my language. It barely exists in my body. It is a phantom — like my presence in the group, like the water behind the wall — real, but ungraspable, and by the time I could have reached for it, the fork was sealed and the water was already at my ankles.",
+      "weight": 0.90,
+      "stability": 0.6,
+      "energy": 0.18,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "affiliation": 0.6,
+        "care": 0.7,
+        "frustration": 0.3
+      }
+    },
+    {
+      "id": "memory:ocean_childhood",
+      "type": "memory",
+      "content": "I grew up on the coastal edge of the southern archipel. The ocean was everything — food, danger, rhythm, teacher. The tremens hit the coast differently there: not the grinding vertical shocks of the interior, but long rolling waves that started in the seafloor and propagated through the water before reaching the land. You felt the earthquake in the ocean before you felt it in the ground. The ocean was the first warning system. I learned to read it before I could speak: the color changes when the temperature shifts, the current reversals when the seafloor displaces, the sudden calm that precedes the surge. The ocean taught me that water goes where it goes. You learn its patterns or you drown. There is no negotiating with current. No arguing with tide. You read, you ride, you survive. Or you don't. The ocean doesn't care which. This is not cruelty. This is physics. The same physics that governs the tremens, the volcano, the entire shuddering body of Contre-Terre. I carry the ocean in my body the way Thabo carries his tissu: it is my instrument, my method, my only reliable language.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "curiosity": 0.5,
+        "self_preservation": 0.4,
+        "care": 0.4
+      }
+    },
+    {
+      "id": "memory:first_solo_dive",
+      "type": "memory",
+      "content": "Age sixteen. A submerged tunnel between two islands. Everyone dives in pairs — this is the rule, unbreakable, because the ocean does not forgive solo errors. But the other diver was sick and the passage needed checking before the tide changed. Forty seconds underwater, blind, feeling the current against my face, counting the tunnel's width with outstretched arms. Left hand touches wall — four arm-lengths across. Right hand reaches — nothing. Wide enough. The current pushes me forward, and I let it, because fighting the current is drowning and riding the current is living. I emerged on the other side gasping, the salt burning my eyes, and the passage was clear. The tide-window was confirmed. The village could use the crossing for three more hours. Nobody mentioned it at dinner. I didn't mention it either. The passage was clear. The information was delivered. The dive was complete. What was there to mention? This is the template for every act of my adult life: a need exists, I meet it alone, the result speaks for itself, the speaker remains silent. The first solo dive taught me that usefulness does not require witnesses.",
+      "weight": 0.82,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.88,
+      "drive_affinity": {
+        "achievement": 0.6,
+        "self_preservation": 0.3,
+        "affiliation": -0.2
+      }
+    },
+    {
+      "id": "memory:senzo_noticed",
+      "type": "memory",
+      "content": "Third day of the descent. I was pulling the chariot through a narrow passage. Alone, as always. The walls closed in enough that the chariot scraped on both sides and I had to angle my shoulders to fit through while keeping the rope taut. Senzo stopped the group ahead and walked back to me. He said nothing. He put his hand on the chariot rope — not to help, just to feel the weight. His eyebrows shifted. Something passed across his face — the same unnamed expression he wore when he came to my dwelling. Not pity. Not concern. Recognition. He was recognizing the weight. Then he walked back to the front. He never mentioned it. But after that, the rest stops were longer. Not by much — five minutes, maybe ten. Enough for the chariot-puller to close the gap. Enough for shoulders to ungroove. I don't know if that was for me. I choose to believe it wasn't. I choose this not because I'm modest, but because if it was for me, then someone saw me, and if someone saw me, then I am not the phantom I need to be. The phantom serves. The seen demands.",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.12,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "affiliation": 0.45,
+        "care": 0.6,
+        "frustration": 0.15
+      }
+    },
+    {
+      "id": "state:endurance",
+      "type": "state",
+      "content": "Default state. The body in motion at sustainable pace. Pulling the chariot, filling the gourdes, rolling the hamacs, scouting the water source. Low energy expenditure, high sustained output — the chariot-puller's economy, the ocean swimmer's rhythm, the patience of water eroding rock. In endurance state, Jabu is nearly invisible: a body performing its functions so smoothly that it generates no friction, no noise, no attention. His breathing is slow and metronomic. His footsteps are the lightest in the group despite carrying the heaviest load. His eyes are half-closed — not from fatigue but from a conservation of attention, directing it inward to the body's signals rather than outward to the group's dynamics. The endurance state can sustain for twelve hours without significant degradation. It is his natural state the way water's natural state is flowing: not an effort, not a choice, just the default physics of Jabu being Jabu.",
+      "weight": 0.82,
+      "stability": 0.9,
+      "energy": 0.08,
+      "self_relevance": 0.88,
+      "drive_affinity": {
+        "rest_regulation": 0.85,
+        "achievement": 0.6,
+        "self_preservation": 0.4
+      }
+    },
+    {
+      "id": "state:water_alert",
+      "type": "state",
+      "content": "Activated when hydric conditions change. The body shifts from endurance to full water-reading mode: every sense focused on water, every other stimulus dimmed. His hand goes to the nearest wall — humidity assessment. His tongue tastes the air — mineral signature. His ears tune to the frequencies of water: the drip, the trickle, the murmur, the roar. His skin reads temperature gradients with a precision the others cannot imagine. In water-alert state, Jabu stops being a chariot-puller and becomes a sensor — a human instrument calibrated for the one substance he understands completely. The transition is instant and total: mid-step, mid-breath, the endurance state drops away and water-alert takes over. The group has learned to watch for this transition — when Jabu stops and goes still, something in the water has changed. They do not know what he reads. They know that his reading has saved them from three flash-floods, two toxic springs, and one siphon that would have drowned anyone who entered it. They trust the reading. They do not understand the reader.",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.2,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "curiosity": 0.6,
+        "self_preservation": 0.7,
+        "achievement": 0.75
+      }
+    },
+    {
+      "id": "state:alone",
+      "type": "state",
+      "content": "The state he is always partially in. A background hum beneath every other state — the frequency of solitude, constant and low, like the tremens itself. Fully activated when separated from the group in Ch. V. Alone with the water. The chariot behind him. The gourdes full. The passage narrowing. In the fully-alone state, Jabu does not panic. He does not call out. He does not search for the group. He does what he has always done: he reads the water, he assesses the passage, he calculates the next useful action. The alone state is not loneliness — Jabu does not have the vocabulary for loneliness, in Contact or otherwise. It is simply the state of being the only person present, which is the state Jabu has occupied his entire life, even when surrounded by others. The second chariot was alone. The pre-dawn gourde-filling was alone. The blade-sharpening was alone. Ch. V merely completes what was always the case. The water rises around a man who was already an island.",
+      "weight": 0.85,
+      "stability": 0.72,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "affiliation": -0.5,
+        "self_preservation": 0.2,
+        "frustration": 0.1
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "value:self_sufficiency",
+      "target": "process:pas_besoin",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:self_sufficiency",
+      "target": "process:solo_chariot_pull",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:self_sufficiency",
+      "target": "desire:not_be_a_burden",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:self_sufficiency",
+      "target": "concept:the_second_chariot",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:self_sufficiency",
+      "target": "concept:phantom_presence",
+      "type": "causes",
+      "weight": 0.82,
+      "affinity": 0.75
+    },
+    {
+      "source": "value:self_sufficiency",
+      "target": "base:value:contact_richesse",
+      "type": "regulates",
+      "weight": 0.6,
+      "affinity": 0.3
+    },
+    {
+      "source": "value:self_sufficiency",
+      "target": "memory:first_solo_dive",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:silent_service",
+      "target": "concept:gourdes",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:silent_service",
+      "target": "process:gourde_filling",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:silent_service",
+      "target": "narrative:the_gourdes_speak",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:silent_service",
+      "target": "desire:be_useful",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:silent_service",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.7
+    },
+    {
+      "source": "value:silent_service",
+      "target": "ocean:value:provision_silencieuse",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:presence_over_expression",
+      "target": "concept:phantom_presence",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:presence_over_expression",
+      "target": "process:pas_besoin",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:presence_over_expression",
+      "target": "base:value:contact_richesse",
+      "type": "regulates",
+      "weight": 0.55,
+      "affinity": 0.25
+    },
+    {
+      "source": "value:presence_over_expression",
+      "target": "state:alone",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:water_knows",
+      "target": "concept:water_reading",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:water_knows",
+      "target": "ocean:concept:eau_souterraine",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:water_knows",
+      "target": "narrative:the_water_rises",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:water_knows",
+      "target": "base:value:body_truth",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "value:water_knows",
+      "target": "base:value:physics_over_rules",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.75
+    },
+    {
+      "source": "value:water_knows",
+      "target": "memory:ocean_childhood",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:the_second_chariot",
+      "target": "process:solo_chariot_pull",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_second_chariot",
+      "target": "narrative:alone_on_the_second",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_second_chariot",
+      "target": "concept:separation",
+      "type": "causes",
+      "weight": 0.82,
+      "affinity": 0.75
+    },
+    {
+      "source": "concept:the_second_chariot",
+      "target": "state:endurance",
+      "type": "activates",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:gourdes",
+      "target": "process:gourde_filling",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:gourdes",
+      "target": "desire:fill_every_gourde",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:gourdes",
+      "target": "narrative:the_gourdes_speak",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:gourdes",
+      "target": "ocean:concept:eau_potable",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:gourdes",
+      "target": "ocean:process:evaluer_source",
+      "type": "depends_on",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:gourdes",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.72
+    },
+    {
+      "source": "concept:water_reading",
+      "target": "ocean:concept:lecture_hydrique",
+      "type": "personalizes",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:water_reading",
+      "target": "process:water_reading_underground",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:water_reading",
+      "target": "state:water_alert",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:water_reading",
+      "target": "speleo:concept:lecture_acoustique",
+      "type": "associates",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "concept:water_reading",
+      "target": "concept:separation",
+      "type": "reminds_of",
+      "weight": 0.78,
+      "affinity": 0.7
+    },
+    {
+      "source": "concept:separation",
+      "target": "narrative:the_water_rises",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:separation",
+      "target": "state:alone",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:separation",
+      "target": "narrative:pas_besoin_final",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:separation",
+      "target": "ocean:concept:montee_eaux",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:separation",
+      "target": "base:concept:tremens",
+      "type": "depends_on",
+      "weight": 0.8,
+      "affinity": 0.75
+    },
+    {
+      "source": "concept:separation",
+      "target": "base:value:irreversibility",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:the_blade",
+      "target": "narrative:when_do_we_leave",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:the_blade",
+      "target": "value:self_sufficiency",
+      "type": "reminds_of",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "concept:the_blade",
+      "target": "desire:be_useful",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.75
+    },
+    {
+      "source": "concept:the_blade",
+      "target": "base:concept:mission",
+      "type": "reminds_of",
+      "weight": 0.78,
+      "affinity": 0.72
+    },
+    {
+      "source": "concept:phantom_presence",
+      "target": "state:alone",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:phantom_presence",
+      "target": "narrative:alone_on_the_second",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "concept:phantom_presence",
+      "target": "process:gourde_filling",
+      "type": "reminds_of",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "concept:phantom_presence",
+      "target": "base:concept:contact_fantome",
+      "type": "associates",
+      "weight": 0.7,
+      "affinity": 0.6
+    },
+    {
+      "source": "concept:phantom_presence",
+      "target": "memory:senzo_noticed",
+      "type": "regulates",
+      "weight": 0.72,
+      "affinity": 0.65
+    },
+    {
+      "source": "desire:be_useful",
+      "target": "process:gourde_filling",
+      "type": "projects_toward",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:be_useful",
+      "target": "process:solo_chariot_pull",
+      "type": "projects_toward",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "desire:be_useful",
+      "target": "desire:not_be_a_burden",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "desire:read_the_underground_water",
+      "target": "process:water_reading_underground",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:read_the_underground_water",
+      "target": "ocean:concept:eau_souterraine",
+      "type": "projects_toward",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "desire:read_the_underground_water",
+      "target": "state:water_alert",
+      "type": "activates",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "desire:read_the_underground_water",
+      "target": "speleo:concept:siphon",
+      "type": "associates",
+      "weight": 0.72,
+      "affinity": 0.68
+    },
+    {
+      "source": "desire:fill_every_gourde",
+      "target": "process:gourde_filling",
+      "type": "projects_toward",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:fill_every_gourde",
+      "target": "ocean:process:gerer_reserves",
+      "type": "projects_toward",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "desire:fill_every_gourde",
+      "target": "base:desire:survive_together",
+      "type": "supports",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "desire:not_be_a_burden",
+      "target": "process:pas_besoin",
+      "type": "projects_toward",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:not_be_a_burden",
+      "target": "concept:phantom_presence",
+      "type": "causes",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "desire:not_be_a_burden",
+      "target": "base:desire:not_die_alone",
+      "type": "regulates",
+      "weight": 0.6,
+      "affinity": 0.4
+    },
+    {
+      "source": "process:gourde_filling",
+      "target": "ocean:process:evaluer_source",
+      "type": "contains",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:gourde_filling",
+      "target": "state:endurance",
+      "type": "depends_on",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "process:water_reading_underground",
+      "target": "ocean:concept:lecture_hydrique",
+      "type": "contains",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:water_reading_underground",
+      "target": "ocean:process:detecter_montee",
+      "type": "contains",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "process:water_reading_underground",
+      "target": "speleo:concept:navigation_tactile",
+      "type": "associates",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "process:water_reading_underground",
+      "target": "base:value:body_truth",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.75
+    },
+    {
+      "source": "process:solo_chariot_pull",
+      "target": "state:endurance",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:solo_chariot_pull",
+      "target": "speleo:value:endurance_over_strength",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:pas_besoin",
+      "target": "base:concept:contact",
+      "type": "regulates",
+      "weight": 0.7,
+      "affinity": 0.5
+    },
+    {
+      "source": "process:pas_besoin",
+      "target": "base:concept:idiolecte",
+      "type": "contains",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "process:pas_besoin",
+      "target": "narrative:pas_besoin_final",
+      "type": "activates",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:when_do_we_leave",
+      "target": "base:concept:mission",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "narrative:when_do_we_leave",
+      "target": "base:value:irreversibility",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "narrative:when_do_we_leave",
+      "target": "base:value:courage_of_descent",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.72
+    },
+    {
+      "source": "narrative:the_gourdes_speak",
+      "target": "base:concept:idiolecte",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "narrative:alone_on_the_second",
+      "target": "state:endurance",
+      "type": "activates",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "narrative:alone_on_the_second",
+      "target": "state:alone",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.75
+    },
+    {
+      "source": "narrative:the_water_rises",
+      "target": "state:alone",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.92
+    },
+    {
+      "source": "narrative:the_water_rises",
+      "target": "state:water_alert",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "narrative:the_water_rises",
+      "target": "ocean:state:alerte_inondation",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:the_water_rises",
+      "target": "value:water_knows",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:pas_besoin_final",
+      "target": "concept:separation",
+      "type": "causes",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "narrative:pas_besoin_final",
+      "target": "base:concept:contact",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.7
+    },
+    {
+      "source": "narrative:pas_besoin_final",
+      "target": "base:concept:contact_fantome",
+      "type": "reminds_of",
+      "weight": 0.72,
+      "affinity": 0.65
+    },
+    {
+      "source": "memory:ocean_childhood",
+      "target": "value:water_knows",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "memory:ocean_childhood",
+      "target": "base:concept:archipel",
+      "type": "reminds_of",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "memory:ocean_childhood",
+      "target": "base:concept:tremens",
+      "type": "reminds_of",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "memory:first_solo_dive",
+      "target": "value:self_sufficiency",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "memory:first_solo_dive",
+      "target": "desire:be_useful",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "memory:first_solo_dive",
+      "target": "speleo:concept:siphon",
+      "type": "reminds_of",
+      "weight": 0.78,
+      "affinity": 0.72
+    },
+    {
+      "source": "memory:senzo_noticed",
+      "target": "concept:phantom_presence",
+      "type": "regulates",
+      "weight": 0.78,
+      "affinity": 0.7
+    },
+    {
+      "source": "memory:senzo_noticed",
+      "target": "concept:the_second_chariot",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "memory:senzo_noticed",
+      "target": "base:concept:mission",
+      "type": "reminds_of",
+      "weight": 0.72,
+      "affinity": 0.68
+    },
+    {
+      "source": "state:endurance",
+      "target": "state:water_alert",
+      "type": "causes",
+      "weight": 0.7,
+      "affinity": 0.65
+    },
+    {
+      "source": "state:endurance",
+      "target": "speleo:value:endurance_over_strength",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "state:water_alert",
+      "target": "ocean:state:lecture_hydrique_active",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "state:water_alert",
+      "target": "ocean:state:alerte_inondation",
+      "type": "causes",
+      "weight": 0.78,
+      "affinity": 0.72
+    },
+    {
+      "source": "state:alone",
+      "target": "concept:separation",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "state:alone",
+      "target": "speleo:state:exploration_solitaire",
+      "type": "personalizes",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "state:alone",
+      "target": "narrative:the_water_rises",
+      "type": "activates",
+      "weight": 0.82,
+      "affinity": 0.78
+    },
+    {
+      "source": "state:alone",
+      "target": "base:desire:not_die_alone",
+      "type": "regulates",
+      "weight": 0.55,
+      "affinity": 0.35
+    }
+  ]
+}

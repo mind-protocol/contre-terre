@@ -1,0 +1,265 @@
+{
+  "cluster_id": "metier_geologue",
+  "description": "Le Geologue — specialiste de la roche, des strates, de la stabilite structurelle. Sur Contre-Terre, la geologie n'est pas une science contemplative — c'est une science de survie. La roche n'est pas inerte : elle respire, se deforme, se fracture sous le tremens permanent. Le Geologue lit les parois comme un medecin lit un corps — les fissures sont des symptomes, les strates sont l'histoire, les changements de couleur sont les signes vitaux. Ses mains sur la roche lui disent ce que les yeux ne peuvent pas voir dans le noir : la densite, la temperature, la direction du grain, la proximite d'une faille. Thabo est le Geologue de l'expedition — ses connaissances croisent celles de l'Aeromaitre, car la roche et l'air sont les deux faces du meme espace.",
+  "skill_levels": {
+    "novice": "Reconnait les types de roche principaux au toucher — granite, basalte, calcaire, obsidienne volcanique. Sait identifier une fissure structurelle d'une fissure superficielle par la profondeur au doigt. Comprend la stratification en theorie mais peine a la lire dans le chaos de la roche deformee par le tremens. Fait confiance a ses yeux plus qu'a ses mains — erreur fondamentale en souterrain.",
+    "practitioner": "Lit la roche exclusivement au toucher. Identifie les zones de stress par la temperature — la roche sous pression chauffe. Comprend comment le tremens deforme les strates et predit les points de rupture probables. Evalue la stabilite d'un plafond en posant la main et en sentant les micro-vibrations transmises. Sait distinguer la roche porteuse de la roche decorative — celle qui soutient de celle qui remplit.",
+    "master": "La roche parle. Le maitre-geologue sent l'histoire de chaque paroi — les strates d'il y a des millions d'annees, les deformations recentes, les fractures en cours. Ses mains detectent les tensions invisibles dans la roche : les zones qui vont ceder dans les prochaines heures, les murs qui tiendront malgre le tremens, les passages qui se ferment lentement. Il predit les effondrements non par calcul mais par lecture tactile de la roche — la meme competence que le Predicteur applique au tremens, mais a l'echelle de la structure. Thabo a ce niveau : quand il pose la main sur un mur et secoue la tete, on fait demi-tour."
+  },
+  "nodes": [
+    {
+      "id": "concept:lecture_tactile_roche",
+      "type": "concept",
+      "content": "La lecture tactile de la roche est le fondement du metier de Geologue souterrain. Dans le noir, les yeux sont inutiles. Les mains deviennent l'instrument principal. Le Geologue pose la paume a plat sur la paroi et laisse ses doigts explorer : la texture revele le type de roche (grain fin = basalte, grain gros = granite, lisse = calcaire poli par l'eau), la temperature revele le stress (roche chaude = pression interne, roche froide = stable), les micro-vibrations revelent la solidite (vibrations hautes = roche stable, vibrations basses = roche sur le point de ceder). La main du Geologue est calibree par des annees de pratique — chaque surface touchee enrichit la base de donnees tactile.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.8,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "concept:strates",
+      "type": "concept",
+      "content": "Les strates sont l'histoire de la planete ecrite dans la roche. Chaque couche represente une ere — les plus profondes les plus anciennes. Sur Contre-Terre, les strates sont deformees par l'activite sismique permanente : pliees, fracturees, inversees. Le Geologue lit ces deformations comme un linguiste lit un palimpseste — sous le chaos apparent, l'ordre original est encore lisible. La direction des strates indique les mouvements tectoniques. Leur epaisseur indique les periodes de calme ou d'activite. Leurs fractures indiquent les lignes de faille actuelles. Descendre dans le volcan, c'est remonter dans le temps — chaque metre de profondeur revele une couche plus ancienne, une roche plus dense, une histoire plus violente.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.65,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "concept:stabilite_structurelle",
+      "type": "concept",
+      "content": "La stabilite structurelle est la question que le Geologue pose a chaque mur, chaque plafond, chaque sol. Ce passage va-t-il tenir? Ce plafond va-t-il s'effondrer? Ce sol va-t-il ceder? La reponse n'est jamais oui ou non — c'est un gradient temporel. Ce mur tiendra encore deux heures. Ce plafond est stable pour la prochaine pulsation du tremens, mais pas pour celle d'apres. Ce sol est solide maintenant, mais l'eau qui s'infiltre le fragilise d'heure en heure. Le Geologue transforme chaque espace en equation de temps : combien de temps avons-nous avant que cet endroit devienne notre tombe? La reponse est toujours finie. Sur Contre-Terre, rien ne tient indefiniment.",
+      "weight": 0.9,
+      "stability": 0.82,
+      "energy": 0.78,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:failles",
+      "type": "concept",
+      "content": "Les failles sont les cicatrices de la planete — les lignes ou la roche s'est deja brisee. Une faille n'est jamais guerie : elle est le chemin de moindre resistance pour la prochaine fracture. Le Geologue les repere au toucher — un changement brutal de texture, une discontinuite dans la temperature, une zone ou les micro-vibrations changent de frequence. Les failles sont a la fois un danger (la roche cede d'abord la ou elle a deja cede) et un outil (les failles naturelles peuvent etre exploitees pour ouvrir des passages). L'Explosiviste a besoin du Geologue pour placer ses charges — une charge mal placee par rapport a une faille peut declencher un effondrement catastrophique au lieu d'une ouverture controlee.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.7,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:rock_tells_truth",
+      "type": "value",
+      "content": "La roche ne ment pas. Elle ne spécule pas, ne politique pas, n'espere pas. Elle est ce qu'elle est — dense, fracturee, stable, instable. Quand le Geologue pose sa main sur la paroi, la reponse est objective. La roche dit oui ou non. Elle dit 'je tiendrai' ou 'je suis en train de ceder'. Il n'y a pas d'interpretation, pas de negociation. C'est la meme verite que l'Ecouteur cherche dans son sismographe — la verite de la mesure, pas de l'opinion. Le Geologue et l'Ecouteur partagent cette epistemologie : la matiere est plus fiable que le discours.",
+      "weight": 0.85,
+      "stability": 0.9,
+      "energy": 0.6,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "value:methodical_observation",
+      "type": "value",
+      "content": "Observer avant de conclure. Toucher avant de juger. Le Geologue ne fait jamais d'evaluation rapide — il pose la main, attend, deplace la main, attend encore. Trois points de contact minimum avant un verdict. La methode est lente, mais la lenteur est une forme de respect envers la complexite de la roche. Les erreurs geologiques tuent — un plafond declare stable qui s'effondre, un passage declare ouvert qui se ferme. La methode est le rempart contre l'erreur. Le Geologue methodique survit. Le Geologue presse est enterre.",
+      "weight": 0.82,
+      "stability": 0.88,
+      "energy": 0.55,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.75
+    },
+    {
+      "id": "process:evaluer_paroi",
+      "type": "process",
+      "content": "Evaluer une paroi par le toucher. Le Geologue s'approche, pose la paume a plat. Premier contact : temperature. La paroi est-elle chaude (stress), froide (stable), ou tiede (transition)? Deuxieme contact : texture. Grain fin ou gros, lisse ou rugueux, fractures superficielles ou profondes? Troisieme contact : vibrations. Les doigts detectent les micro-tremblements transmis par la roche — frequence haute (integrite), frequence basse (faiblesse). Le Geologue deplace la main — trois points minimum, espaces de la largeur des epaules. Compare les lectures. Si les trois points concordent : verdict fiable. Si un point diverge : zone de faille probable. Le resultat est un geste Contact vers le chef : deux doigts sur l'epaule = stable. Poing ferme = dangereux.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.75,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:lire_strates",
+      "type": "process",
+      "content": "Lire les strates pour comprendre l'histoire geologique du passage. Les doigts suivent les lignes de stratification — les couches horizontales (ou ce qu'il en reste apres les deformations). La direction des strates indique le pendage : si les couches plongent vers le bas, on descend dans la direction du mouvement tectonique — favorable a la progression. Si les couches se dressent presque verticalement, on traverse une zone de compression extreme — dangereuse mais souvent riche en passages naturels creuses par la pression. Le Geologue transmet ces informations au cartographe par Contact-paume : une carte geologique tactile, couche par couche, tracee sur la main de l'autre.",
+      "weight": 0.82,
+      "stability": 0.82,
+      "energy": 0.65,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "process:detecter_failles",
+      "type": "process",
+      "content": "Detecter les failles dans la roche. Le Geologue cherche les discontinuites : un changement brutal de temperature entre deux zones adjacentes, une difference de texture que les doigts percoivent comme un 'saut', une ligne ou les micro-vibrations changent de frequence. Les failles sont parfois visibles (une fissure nette dans la paroi), souvent invisibles (la discontinuite est interne, detectable uniquement par la vibration transmise). Le Geologue suit la faille du bout des doigts — sa direction, sa profondeur estimee, son activite (une faille qui vibre est active, une faille froide et silencieuse est ancienne). La faille est ensuite communiquee au groupe par Contact : le Geologue trace la ligne de faille sur la paume du chef, indiquant la direction et le danger.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.72,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "desire:read_deep_history",
+      "type": "desire",
+      "content": "Lire l'histoire profonde de la planete. Au-dela de la survie, le Geologue porte une curiosite qui le tire vers le bas. Chaque metre de profondeur est un chapitre que personne n'a lu. Les strates les plus profondes racontent la naissance de Contre-Terre — les premieres eruptions, les premiers tremens, la formation des cavernes primordiales. Le Geologue descend pour survivre, mais une part de lui descend pour savoir. Qu'est-ce qui se trouve au fond? Quelle roche? Quel age? Quelle histoire? Cette curiosite est discrete — Thabo ne l'exprime pas — mais elle est la quand ses doigts s'attardent sur une strate inconnue, quand il prend le temps de sentir une roche qu'il n'a jamais touchee. Le Geologue est aussi un explorateur, meme s'il ne l'admet pas.",
+      "weight": 0.8,
+      "stability": 0.75,
+      "energy": 0.7,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.72
+    },
+    {
+      "id": "narrative:rock_memory",
+      "type": "narrative",
+      "content": "La roche se souvient de tout. Chaque seisme laisse une trace — une micro-fracture, un deplacement de strate, un changement de densite. La roche que je touche maintenant porte la memoire de millions de tremens anterieurs. Mes doigts lisent cette memoire — pas comme un livre, plutot comme un braille ecrit par la planete elle-meme. Chaque mur est un chapitre. Chaque faille est un evenement. Quand je pose ma main sur la roche chaude des zones profondes, je touche quelque chose de plus vieux que tout ce que je connais. La roche ne se souvient pas de nous — nous sommes trop recents, trop petits, trop ephemeres. Mais nous pouvons nous souvenir d'elle, si nous prenons le temps de poser nos mains et de lire.",
+      "weight": 0.82,
+      "stability": 0.78,
+      "energy": 0.65,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.72
+    },
+    {
+      "id": "state:lecture_geologique",
+      "type": "state",
+      "content": "L'etat de lecture geologique. Le Geologue est immobile, les deux mains sur la paroi, les yeux fermes. Ses doigts explorent lentement — quelques centimetres a la fois, avec des pauses pour sentir les micro-vibrations. Son corps est detendu mais attentif — la tension dans les bras interfererait avec la lecture tactile. La respiration est lente, reguliere. Dans cet etat, le Geologue est vulnerables aux dangers soudains — il ne voit pas, n'entend pas bien, toute son attention est dans ses mains. Thabo en lecture geologique ressemble a un prieur : a genoux ou debout, les mains sur la pierre, les yeux clos, le front parfois appuye contre la paroi comme pour mieux entendre ce que la roche dit.",
+      "weight": 0.78,
+      "stability": 0.85,
+      "energy": 0.6,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.78
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:lecture_tactile_roche",
+      "target": "process:evaluer_paroi",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:lecture_tactile_roche",
+      "target": "value:rock_tells_truth",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:lecture_tactile_roche",
+      "target": "state:lecture_geologique",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:strates",
+      "target": "process:lire_strates",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:strates",
+      "target": "narrative:rock_memory",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:strates",
+      "target": "desire:read_deep_history",
+      "type": "activates",
+      "weight": 0.8
+    },
+    {
+      "source": "concept:stabilite_structurelle",
+      "target": "process:evaluer_paroi",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:stabilite_structurelle",
+      "target": "concept:failles",
+      "type": "associates",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:failles",
+      "target": "process:detecter_failles",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:failles",
+      "target": "concept:stabilite_structurelle",
+      "type": "regulates",
+      "weight": 0.85
+    },
+    {
+      "source": "value:rock_tells_truth",
+      "target": "value:methodical_observation",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "value:methodical_observation",
+      "target": "process:evaluer_paroi",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "value:methodical_observation",
+      "target": "process:detecter_failles",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "process:evaluer_paroi",
+      "target": "concept:stabilite_structurelle",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "process:lire_strates",
+      "target": "desire:read_deep_history",
+      "type": "supports",
+      "weight": 0.8
+    },
+    {
+      "source": "process:detecter_failles",
+      "target": "concept:stabilite_structurelle",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:read_deep_history",
+      "target": "concept:strates",
+      "type": "projects_toward",
+      "weight": 0.85
+    },
+    {
+      "source": "narrative:rock_memory",
+      "target": "concept:lecture_tactile_roche",
+      "type": "reminds_of",
+      "weight": 0.85
+    },
+    {
+      "source": "state:lecture_geologique",
+      "target": "process:evaluer_paroi",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "state:lecture_geologique",
+      "target": "process:lire_strates",
+      "type": "contains",
+      "weight": 0.82
+    }
+  ]
+}

@@ -1,0 +1,938 @@
+{
+  "cluster_id": "culture_clusters",
+  "description": "Cultural practices, rituals, traditions, superstitions, and customs of Contre-Terre -- extracted from CULTURE.md, linked to archipels, metiers, and lore figures",
+  "nodes": [
+
+    {
+      "id": "narrative_culture_marche_sud",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Les gens du Sud marchent pieds a plat, d'un bloc, sans roulement talon-pointe. Le basalte dense absorbe tout -- alors les pieds du Sud compensent par la surface maximale : pied a plat, contact total avec le sol, orteils ecartes comme les doigts d'une main qui palpe. La foulee est courte, reguliere, pesante. Un habitant de Kahlamba marche comme quelqu'un qui pese ses pas. Les gens de Ndaba, qui travaillent le cordage, ont une variante : pieds tournes vers l'interieur, orteils pointes l'un vers l'autre -- l'effet des heures accroupis a tresser. Un tisserand de Ndaba se reconnait a cette marche pigeonne meme a trente metres.",
+      "synthesis": "Marche lente, pieds a plat, contact maximal au sol -- dialecte corporel du basalte. Variante pigeonne des tisserands de Ndaba.",
+      "weight": 0.6,
+      "properties": {
+        "archipel": "space_archipel_sud",
+        "domaine": "marche",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_superstition_pied_gauche_sud",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Au Sud, on ne pose jamais le pied gauche en premier sur une fissure dans le sol. Le pied droit d'abord, toujours. Le gauche porte le poids de la nuit, disent les vieux -- le cote du corps qui dort le dernier et qui se reveille le premier, celui qui sent les repliques nocturnes que le droit ne percoit pas. Poser le gauche sur une faille, c'est inviter la faille a se souvenir de toi.",
+      "synthesis": "Superstition du pied gauche sur la faille -- le gauche porte la nuit, le droit ouvre le chemin.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_sud",
+        "domaine": "superstition",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_deuil_sud",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Le Contact final du mourant est recu par la personne la plus proche, puis transmis a toutes les personnes presentes, main par main, epaule par epaule, en cercle. La transmission peut prendre une heure si le cercle est large. Personne ne quitte le cercle avant que le Contact ait fait le tour complet. Le corps du mort est depose a plat, paumes vers le bas, en Contact avec la terre. On attend que les seismes de fond l'enfouissent. Le vocabulaire Contact du mort est preserve par ses proches -- chaque geste-signature reproduit entre les vivants, lentement, de plus en plus rarement, jusqu'a ce que les mains oublient. Le deuil du Sud est le plus long des sept archipels. Les mains du Sud n'oublient pas vite.",
+      "synthesis": "Deuil du Sud : cercle de transmission du Contact final, corps depose paumes vers le bas, vocabulaire du mort preserve puis lentement oublie.",
+      "weight": 0.7,
+      "properties": {
+        "archipel": "space_archipel_sud",
+        "domaine": "deuil",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_cuisine_biere_sud",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "La bouillie de Kahlamba est la base : tubercule fermente pile, eau pure de Lesedi, sel de Nkosazana, raclure de racine rouge. On y ajoute parfois de la graisse de lezard de basalte -- noire, acre, qui ne rancit jamais. Apres six jours en gourde, elle fermente davantage et devient une biere epaisse que les anciens boivent le soir, accroupis sous les domes, les yeux fermes, le dos contre la paroi. La biere de bouillie est le seul alcool de Contre-Terre. L'eau de Lesedi -- bleutee, minerale, froide -- est la seule eau froide du monde. On la boit en fermant les yeux.",
+      "synthesis": "Bouillie de Kahlamba, biere de fermentation (seul alcool de Contre-Terre), eau froide de Lesedi -- luxe des yeux fermes.",
+      "weight": 0.55,
+      "properties": {
+        "archipel": "space_archipel_sud",
+        "domaine": "nourriture",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_culture_marche_nord_est",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "La demarche du Nord-Est est saccadee, rapide, avec des micro-pauses. Le pied touche le sol brievement -- un contact sec, un rebond -- puis se souleve avant que la prochaine replique amplifie le schiste sous la semelle. Marche d'oiseau, nerveuse, avec de petites hesitations qui sont de la lecture. Les habitants d'Iziphuku, le village-tube de huit metres de large, marchent droit, pieds l'un devant l'autre, sur une seule ligne, comme un funambule.",
+      "synthesis": "Marche saccadee, rebondissante, lecture rapide du schiste -- marche d'oiseau. Variante lineaire de funambule a Iziphuku.",
+      "weight": 0.6,
+      "properties": {
+        "archipel": "space_archipel_nord_est",
+        "domaine": "marche",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_superstition_repliques_paires_nord_est",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Au Nord-Est, les repliques qui viennent par deux, par quatre ou par six sont mauvais signe. Le schiste amplifie par couches -- une replique qui se dedouble a traverse un nombre pair de feuillets, elle vient de plus profond. Les gens de Mhluzi comptent les repliques avec les doigts. Quand le compte tombe pair, ils changent de position -- un pas a gauche, un pas a droite, n'importe quoi pour rompre la symetrie.",
+      "synthesis": "Superstition des repliques paires -- comptage aux doigts, rupture de symetrie corporelle pour conjurer le danger profond.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_nord_est",
+        "domaine": "superstition",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_deuil_nord_est",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "La mort au Nord-Est est rapide. Le Contact final transmis en rafale -- trois pressions, cinq au maximum. Pas de cercle. La personne la plus proche recoit et c'est fini. Le corps est laisse la ou il est tombe, dans la posture de sa derniere seconde, parce que cette posture contient le dernier mot du sol. Le vocabulaire du mort n'est pas preserve -- les gestes du mort doivent mourir avec lui. Les reproduire, c'est forcer le sol a repeter un message deja envoye. Le deuil du Nord-Est est le plus court des sept archipels. Les mains oublient vite parce qu'elles ont ete entrainees a oublier.",
+      "synthesis": "Deuil rapide, rafale de Contact final, corps laisse en posture ultime, vocabulaire du mort non preserve -- les mains oublient vite.",
+      "weight": 0.7,
+      "properties": {
+        "archipel": "space_archipel_nord_est",
+        "domaine": "deuil",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_culture_marche_ouest",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Les gens de l'Ouest marchent comme des marins. Le gres migrant ne reste pas sous les pieds -- il derive, oblique, change de pente. Les habitants d'Ingwe ont developpe une marche compensatoire : le poids du corps oscille d'un pied sur l'autre, genoux flechis, centre de gravite bas. Marche de roulis. Un habitant de l'Ouest se reconnait a ce balancement permanent -- meme sur le basalte stable du Sud, il continue de compenser un mouvement qui n'existe pas. Les gens de Zama, le bloc solitaire, marchent pieds ecarte, orteils agrippes au gres, comme sur une corniche.",
+      "synthesis": "Marche de marin -- roulis compensatoire, genoux flechis, balancement permanent. Variante de corniche a Zama.",
+      "weight": 0.6,
+      "properties": {
+        "archipel": "space_archipel_ouest",
+        "domaine": "marche",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_superstition_derive_ouest",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Si un bloc de gres derive vers le volcan, les gens d'Ingwe decrochent les hamacs et dorment a meme le sol cette nuit-la. Dormir dans le hamac quand le sol marche vers la Bouche, c'est tourner le dos a la terre -- c'est l'insulter. Un pont casse par le vent est signe de chance -- le vent est l'allie, il pousse les blocs, nettoie la poussiere. Le bloc qui chante -- quand le gres emet un son grave et continu -- les gens cessent tout travail. Le chant du bloc dit la direction de la prochaine derive.",
+      "synthesis": "Superstitions des Roulantes : derive vers le volcan force le sol direct, pont casse par le vent est chance, bloc qui chante predit la derive.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_ouest",
+        "domaine": "superstition",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_deuil_ouest",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "La mort aux Roulantes est un depart. Le corps du mort est pousse hors du bloc, depose sur le gravier entre les blocs, la ou le gres ne porte plus personne. Le bloc est vivant, le bloc derive, le bloc continue, et le mort ne continue pas. Le Contact final est un geste de main a main : on tire la main du mourant vers soi, puis on la repousse une derniere fois. 'Tu t'eloignes. Tu ne reviens pas.' Le vocabulaire du mort est modifie, pas preserve -- le geste-signature est legerement altere, integre dans un nouveau geste qui melange le mort et le vivant. Aux Roulantes, les morts derivent dans la langue comme les blocs derivent dans le desert.",
+      "synthesis": "Deuil de derive : corps pousse hors du bloc, Contact final tire-repousse, vocabulaire du mort altere et fusionne avec le vivant.",
+      "weight": 0.7,
+      "properties": {
+        "archipel": "space_archipel_ouest",
+        "domaine": "deuil",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_culture_marche_nord",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Les gens du Nord marchent lourdement. Le granite est froid et dur -- le talon frappe d'abord, puis le pied bascule vers l'avant. Seule marche talon-pointe de Contre-Terre. Le granite renvoie les chocs, le talon sert d'amortisseur. Marche sonore -- on entend venir un habitant d'Umzimkhulu avant de le sentir en Contact. Marche de mineur, de tailleur de roche. Les gens de Mantolo frappent les murs de leurs poings en passant -- reflexe de tailleur. On frappe, on ecoute, on continue. Meme les gens.",
+      "synthesis": "Marche lourde talon-pointe, sonore, autoritaire -- dialecte du granite. Les gens de Mantolo frappent les murs en marchant.",
+      "weight": 0.6,
+      "properties": {
+        "archipel": "space_archipel_nord",
+        "domaine": "marche",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_superstition_roche_pleure_nord",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Quand le granite suinte de l'humidite sous un changement brusque de temperature, les gens de Umzimkhulu appellent ca 'la roche qui pleure' -- signe d'un seisme profond. Le granite sent la chaleur du magma bien avant les instruments. Quand le mur pleure, on evacue le niveau. Au Nord, personne ne vit au cinquieme niveau par choix -- reserve aux tailleurs les plus endurcis. Les habitants du cinquieme ont 'le sang de la roche'. Les tailleurs de Mantolo comptent les eclats : impair, bloc sain ; pair, bloc vicie.",
+      "synthesis": "Superstitions du Nord : roche qui pleure annonce seisme profond, cinquieme niveau maudit, eclats pairs signalent fissure cachee.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_nord",
+        "domaine": "superstition",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_deuil_nord",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Le Nord taille la mort dans la roche. Le Contact final est recu par l'aine present -- pas le plus proche, l'aine. L'aine le recoit et ne le transmet pas. Le Contact final appartient a celui qui l'a recu. Privilege et fardeau -- l'aine porte le dernier mot du mort pour le reste de sa vie. Le corps est place dans une niche taillee dans le granite -- les seules tombes de Contre-Terre. Les tailleurs de Mantolo sculptent la niche en une journee, utilisant les seismes pour fendre la roche. Le mort est dans la roche, comme la roche est dans le mort.",
+      "synthesis": "Deuil du Nord : Contact final recu par l'aine seul, corps dans une niche de granite -- seules tombes de Contre-Terre.",
+      "weight": 0.7,
+      "properties": {
+        "archipel": "space_archipel_nord",
+        "domaine": "deuil",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_culture_marche_centre_sud",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Les gens des Chaudes ne marchent pas -- ils avancent en equilibre. Le basalte jeune est coupant, irregulier. Marche de crabe : corps de cote, pied d'appui ancre, pied en mouvement cherchant la prochaine surface plane. Genoux flechis, dos courbe. Les gardiens de Themba descendent : corps incline vers l'avant, centre de gravite projete en bas, mains en appui sur le sol. Ils marchent a quatre pattes aussi naturellement qu'a deux.",
+      "synthesis": "Marche de crabe, equilibre sur basalte coupant. Les gardiens de Themba marchent a quatre pattes naturellement.",
+      "weight": 0.6,
+      "properties": {
+        "archipel": "space_archipel_centre_sud",
+        "domaine": "marche",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_superstition_soufre_aube_centre_sud",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Si l'odeur de soufre est plus forte le matin que la veille au soir, le volcan s'approche -- la marge recule. Les gens de Bhekisisa verifient le soufre chaque matin. Quand le soufre monte, on demonte le camp. Le dome qui tourne sur ses piquets -- 'le sol nous dit de partir'. Le geste de verification sans reponse : 'le decalage du fantome' -- ton corps est la mais plus dans la meme frequence. On te touche fort, longtemps, pour te recaler.",
+      "synthesis": "Superstitions des Chaudes : soufre qui monte force le depart, dome qui tourne signale le sol hostile, decalage du fantome exige un recalage par Contact prolonge.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_centre_sud",
+        "domaine": "superstition",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_deuil_centre_sud",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "La mort aux Chaudes est un retrait. Le mourant est porte hors du camp, vers le piemont, depose face au volcan. Le Contact final se fait les mains du mourant posees sur le sol brulant -- les dernieres vibrations du volcan entrent dans le corps comme un dernier message, et le mourant les transmet par un grip convulsif a celui qui le tient. Contact final medie par la terre. Le corps est laisse sur le piemont. Le soufre le recouvre en quelques jours. Les morts deviennent du soufre -- jaunes, cristallins, eternels.",
+      "synthesis": "Deuil des Chaudes : mourant face au volcan, Contact final medie par le sol brulant, corps recouvert de soufre -- les morts deviennent cristallins.",
+      "weight": 0.7,
+      "properties": {
+        "archipel": "space_archipel_centre_sud",
+        "domaine": "deuil",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_culture_marche_est",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Les gens de l'Est marchent sur la pointe des pieds. Le gypse cristallin est friable -- chaque pas complet ecrase des cristaux, souleve une poussiere blanche. Marche en pointe : poids sur les orteils, talon souleve de quelques millimetres, pas leger, precis, silencieux. Marche de danseur -- les plus gracieux de Contre-Terre, les plus fragiles sur les terrains durs du Nord. Les femmes de Nkosazana marchent en canard -- pieds tournes vers l'exterieur, genoux ecartes, effet des heures de descente dans les fissures etroites.",
+      "synthesis": "Marche de danseur sur pointes -- pas legers sur gypse friable. Variante en canard des grimpeuses de Nkosazana.",
+      "weight": 0.6,
+      "properties": {
+        "archipel": "space_archipel_est",
+        "domaine": "marche",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_superstition_cristaux_roses_est",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Quand les cristaux de gypse deviennent roses -- oxydation du fer -- les gens d'Umsizi y voient du sang dans la roche. Le rose annonce un seisme de magnitude 6 ou plus. Le sel qui fond sur les parois de Nkosazana signifie que l'eau souterraine remonte -- on monte. Le voile de protection dechire est jete immediatement : le porter dechire, c'est laisser la lumiere pure entrer et etre vu par la terre. La terre qui te voit te cherche.",
+      "synthesis": "Superstitions des Salines : cristaux roses annoncent le sang sismique, sel qui fond force la remontee, voile dechire expose au regard de la terre.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_est",
+        "domaine": "superstition",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_deuil_est",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "La mort aux Salines est cristallisee. Le corps est couvert de sel gris -- momifie, sec, leger. Seul archipel qui conserve physiquement ses morts dans des depots ouverts. On peut toucher le sel et sentir la forme du mort sous les cristaux. Le Contact final est du bout des doigts -- phalange sur le front du mourant. Le vocabulaire du mort est compte : les gens de l'Est enumerent le nombre de gestes que le mort possedait, et ce nombre est ajoute au nom tactile. 'Il avait quarante-trois gestes' est un hommage.",
+      "synthesis": "Deuil des Salines : corps momifie sous le sel, Contact final du bout des doigts, vocabulaire du mort compte et ajoute a son nom.",
+      "weight": 0.7,
+      "properties": {
+        "archipel": "space_archipel_est",
+        "domaine": "deuil",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_culture_marche_sud_ouest",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Les gens des Creuses marchent pieds ecartes et orteils agrippes. Le calcaire karstique est poreux, rugueux, plein de micro-trous. La plante des pieds des gens de Sibaya est la plus calleuse de Contre-Terre -- 'la deuxieme roche'. Marche de grimpeur au sol -- les pieds collent, les orteils agrippent, les mains touchent souvent le sol ou les murs. Les cartographes de Mathamo marchent les yeux fermes, les mains tendues, lisant le tunnel par le toucher.",
+      "synthesis": "Marche de grimpeur au sol -- orteils agrippes, pieds calleux, mains sur les murs. Cartographes de Mathamo marchent les yeux fermes.",
+      "weight": 0.6,
+      "properties": {
+        "archipel": "space_archipel_sud_ouest",
+        "domaine": "marche",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_superstition_eau_direction_sud_ouest",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Si la rigole d'eau souterraine change de sens de courant, les gens de Sibaya montent immediatement -- la pression souterraine a change. La goutte qui tombe trois fois en succession rapide signifie que la pression d'eau au-dessus a augmente : 'trois gouttes, c'est la terre qui compte jusqu'a trois avant de frapper'. Le calcaire qui chante -- une note claire, haute -- signifie que l'eau a trouve une nouvelle cavite. Mais suivre le chant trop longtemps, c'est suivre l'eau jusque dans la noyade.",
+      "synthesis": "Superstitions des Creuses : eau qui change de direction force la remontee, trois gouttes rapides annoncent le coup, calcaire qui chante attire et noie.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_sud_ouest",
+        "domaine": "superstition",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_deuil_sud_ouest",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "La mort dans les Creuses est un retour a l'eau. Le corps du mort est confie a la riviere souterraine -- depose dans le courant, l'eau l'emporte vers les siphons, vers les profondeurs que personne n'a cartographiees. Le mort devient l'eau. L'eau qui suinte sur les parois de la grotte est, peut-etre, le retour de quelqu'un. Le Contact final est un Contact de pied -- le mourant pose son pied contre le pied de celui qui reste. Le pied qui quitte le sol.",
+      "synthesis": "Deuil des Creuses : corps confie a la riviere souterraine, le mort devient l'eau, Contact final de pied a pied.",
+      "weight": 0.7,
+      "properties": {
+        "archipel": "space_archipel_sud_ouest",
+        "domaine": "deuil",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_odeur_sud",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Le Sud sent le cuir et la sueur acide. Les domes de cuir tanne degagent une odeur animale, musquee. La sueur du Sud est plus acide -- le basalte dense libere des traces de fer qui s'oxydent au contact de la transpiration. Un habitant du Sud a les aisselles qui sentent le metal tiede. Odeur de forge eteinte. Les caravaniers du Nord disent qu'on sent Kahlamba trois jours avant d'y arriver.",
+      "synthesis": "Signature olfactive du Sud : cuir, sueur acide, metal tiede -- on sent Kahlamba trois jours avant d'arriver.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_sud",
+        "domaine": "odeur",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_odeur_nord_est",
+      "node_type": "narrative",
+      "type": "culture_archipel",
+      "content": "Les Seches sentent la poussiere de schiste et la sueur seche. Le schiste libere une poudre grise qui se depose sur tout. La sueur ne coule pas -- elle seche instantanement, laissant une pellicule de sel et de poudre qui crisse sous les doigts. Un habitant du Nord-Est a la peau qui crisse quand on le touche en Contact. On reconnait quelqu'un des Seches les yeux fermes au bruit que fait sa peau sous les doigts.",
+      "synthesis": "Signature olfactive du Nord-Est : poussiere de schiste, sueur seche -- la peau crisse sous les doigts, identification tactile-sonore.",
+      "weight": 0.5,
+      "properties": {
+        "archipel": "space_archipel_nord_est",
+        "domaine": "odeur",
+        "observable": true
+      }
+    },
+
+    {
+      "id": "narrative_tic_predicteur",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le predicteur tape du pied. Battement regulier, inconscient -- pas de l'impatience mais une synchronisation. Le pied cherche la frequence du sol et s'y accorde. Quand il tape plus vite, la frequence monte. Quand il s'arrete brutalement, le silence est venu -- et le silence du predicteur est plus inquietant que son agitation. Nandi ne tape pas du pied -- elle frotte ses orteils nus contre la roche, mouvement lateral. Les predicteurs vomissent. Pas par maladie -- par lecture. Le tremens provoque des nausees que le predicteur entraine ne combat pas : la qualite de la nausee dit la frequence. Vomissement sec = frequence haute. Vomissement liquide = frequence basse.",
+      "synthesis": "Tic du predicteur : tapement de pied pour synchronisation frequentielle, vomissement comme lecture de spectre sismique.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "predicteur",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_jargon_predicteur",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Jargon Contact du predicteur. Main a plat sur le sol, doigts fermes = 'je lis', ne pas deranger. Poing ferme frappe contre sa propre cuisse = 'ca monte', augmentation de magnitude imminente. Doigts ecartes, main tremblante a l'epaule = 'le silence est charge', tension en accumulation. Pied qui frappe le sol trois fois = verification de frequence. Deux mains sur les joues de l'interlocuteur, pressions alternatives droite-gauche = transmission directe de la frequence sentie. Rituel avant lecture : pieds nus, paralleles, orteils ecartes, yeux fermes, trois respirations, immobilite complete. Le sol decide de la duree.",
+      "synthesis": "Vocabulaire Contact specialise du predicteur : lecture au sol, poing-cuisse pour alerte, transmission par paumes sur joues, rituel d'immobilite pieds nus.",
+      "weight": 0.6,
+      "properties": {
+        "metier": "predicteur",
+        "domaine": "jargon_contact",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_ecouteur",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "L'ecouteur penche la tete. Toujours du meme cote -- cote de l'oreille dominante. Asymetrie du cou : tete legerement inclinee en permanence, oreille tournee vers le sol. Quand il se redresse, il a cesse d'ecouter -- ou ce qu'il entend est si fort que la posture n'a plus d'importance. L'ecouteur ferme les yeux plus que les autres -- le sens visuel interfere avec la lecture des basses. Sihle marche parfois les yeux fermes pendant des minutes entieres.",
+      "synthesis": "Tic de l'ecouteur : tete penchee vers le sol (oreille dominante), yeux fermes pour eliminer le bruit visuel -- asymetrie permanente du cou.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "ecouteur",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_jargon_ecouteur",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Jargon Contact de l'ecouteur. Deux doigts sur l'avant-bras, pression stable = 'donnee technique'. Index sur sa propre tempe = 'j'ecoute, ne bouge pas'. Paume a plat sur le harnais du sismographe = 'l'instrument confirme ou infirme'. Retrait de la main = desaccord -- le geste le plus froid du Contact. Pression de deux doigts suivie d'un chiffre tape en pressions = magnitude. Rituel du matin : derouler le rouleau d'un centimetre, verifier la trace de la nuit, noter la magnitude de fond. La nuit de l'ecouteur est une courbe.",
+      "synthesis": "Vocabulaire Contact de l'ecouteur : deux doigts = donnee technique, index-tempe = ecoute, retrait de main = desaccord froid, magnitude en pressions codees.",
+      "weight": 0.6,
+      "properties": {
+        "metier": "ecouteur",
+        "domaine": "jargon_contact",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_mineur",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le mineur frappe tout. Murs, sols, plafonds, objets, personnes. Trois coups secs du poing -- pas pour faire du bruit, pour ecouter la reponse. La roche saine sonne clair. La roche fissuree sonne creux. Un mineur qui arrive dans un nouveau batiment frappe les murs avant de s'y installer. Un mineur qui frappe un mur et fronce les sourcils -- tout le monde evacue. Les mineurs reniflent la poussiere : basalte sent le fer, granite sent le froid, calcaire sent la pluie. Rituel de descente : frapper le seuil trois fois. La premiere demande la permission. La deuxieme ecoute la reponse. La troisieme confirme la decision.",
+      "synthesis": "Tic du mineur : tout frapper et ecouter la reponse (clair = sain, creux = danger). Reniflement diagnostique. Rituel des trois frappes au seuil.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "mineur",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_aeromaitre",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "L'aeromaitre touche le tissu en permanence. Pli, depli, pli, depli -- meme quand il ne travaille pas. Les doigts qui plient le tissu lisent sa texture, son humidite, sa rigidite. Un tissu qui a change de texture a absorbe quelque chose de nouveau. L'aeromaitre fronce les sourcils -- geste de notation, chaque froncement est un point de donnees. Les doigts de l'aeromaitre sont noircis -- les bouts des phalanges gris-noir, colores par les particules que le tissu a absorbees. L'index et le pouce sont les plus noirs. Le tissu est sa marque. Il ne s'en separe jamais.",
+      "synthesis": "Tic de l'aeromaitre : manipulation perpetuelle du tissu, froncement de sourcils comme notation. Doigts noircis par les particules -- l'index et le pouce les plus noirs.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "aeromaitre",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_jargon_aeromaitre",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Jargon Contact de l'aeromaitre. Bras leve, tissu tendu, main immobile = 'je lis l'air, attendez'. Main a plat, mouvement lateral lent = 'l'air circule, on avance'. Main a plat, mouvement rapide = 'l'air s'accelere, changement de pression'. Tissu replie brusquement dans le poing = 'air mort, CO2, on recule'. Main devant la bouche, doigts ecartes = 'respirer par la bouche, gaz irritant'. Rituel : souffler sur le tissu chaque matin, il doit se soulever d'un centimetre. Tissu neuf calibre en le portant contre la peau une journee entiere.",
+      "synthesis": "Vocabulaire Contact de l'aeromaitre : tissu tendu = lecture d'air, replie = CO2 danger, main-bouche = gaz irritant. Calibration du tissu par le corps.",
+      "weight": 0.6,
+      "properties": {
+        "metier": "aeromaitre",
+        "domaine": "jargon_contact",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_grimpeuse",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "La grimpeuse compte. Tout. Les sangles (trente-deux), les fibres de la corde (quarante-sept), les noeuds, les prises, les metres restants. Comptage comme priere mecanique -- un rythme qui stabilise corps et esprit. Quand Inyoni cesse de compter, quelque chose ne va pas. La grimpeuse serre : ses mains se ferment sur tout ce qu'elles touchent. Le grip de la grimpeuse est le plus fort de l'expedition. Quand Inyoni te saisit, tu ne t'en liberes pas -- ses doigts ne savent pas comment lacher. Les mains de la grimpeuse ne s'ouvrent jamais completement, meme au repos.",
+      "synthesis": "Tic de la grimpeuse : comptage compulsif (sangles, fibres, noeuds), grip involontaire -- les mains ne s'ouvrent jamais completement.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "grimpeuse",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_cuisinier",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le cuisinier goute tout. Pas avec la bouche -- avec les doigts. Il trempe un doigt dans la bouillie, le porte a ses levres, et suce. Geste rapide, discret, repete dix fois par repas. Le cuisinier lit la texture, la salinite, la temperature, l'acidite par le toucher du doigt et le gout de la levre. Il frotte ses doigts l'un contre l'autre en permanence -- calibration. Le cuisinier renifle les gourdes chaque matin. Sa langue est brulee -- epaissie, insensible aux temperatures normales, couverte de papilles mortes et renaissantes. Il lecherait la roche pour en diagnostiquer la composition.",
+      "synthesis": "Tic du cuisinier : doigt-gouter, frottement de calibration, reniflage des gourdes. Langue brulee, epaissie, papilles en cycle perpetuel de mort et renaissance.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "cuisinier",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_cartographe",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le cartographe palpe les surfaces. Murs, sols, colonnes, aretes -- ses mains se posent partout, doigts ecartes, et lisent la topologie par le toucher. Le corps memorise les formes, les mains enregistrent sans que la conscience n'intervienne. Le cartographe tourne : quand il arrive dans un espace ouvert, il pivote sur lui-meme, bras legerement ecartes, pour sentir les dimensions du volume. Rituel : fermer les yeux avant d'entrer dans un tunnel nouveau. 'Si tes yeux voient avant que tes mains sachent, tes yeux te mentiront.' Les callosites rondes au bout des phalanges -- les 'yeux des doigts'.",
+      "synthesis": "Tic du cartographe : palpation compulsive de toute surface, rotation dans les espaces ouverts. Rituel des yeux fermes a l'entree du tunnel.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "cartographe",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_geologue",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le geologue ramasse des cailloux. Partout, tout le temps. Ses poches sont pleines de fragments qu'il palpe, compare, trie. Il frotte deux pierres l'une contre l'autre pour ecouter le bruit -- le grincement dit la durete, l'eclat dit la composition. Le geologue leche la roche. Serieusement -- la langue sur la pierre dit le gout du mineral : sel, soufre, fer, calcium. Les geologues ont la langue la plus abimee de Contre-Terre -- seche, crevassee, couverte de micro-entailles. Les dents tachees de pigments mineraux.",
+      "synthesis": "Tic du geologue : ramassage compulsif de cailloux, frottement comparatif, lechage diagnostique de la roche. Langue crevassee, dents pigmentees.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "geologue",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_explosiviste",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "L'explosiviste est le plus calme de l'expedition. Gestes lents, mesures, precis -- la moindre secousse involontaire pourrait etre catastrophique. Immobilite deliberee qui devient trait de personnalite : il ne sursaute jamais, ne fait jamais de geste brusque, ne court jamais. Marche comme s'il portait un nouveau-ne. L'explosiviste manipule des objets invisibles -- meme sans explosif, ses doigts miment l'assemblage : pincement, rotation, positionnement. Tabou absolu : ne jamais toucher la Charge quand il tremble. Si le tremens le prend, il recule et attend.",
+      "synthesis": "Tic de l'explosiviste : calme absolu, immobilite deliberee, manipulation d'objets invisibles. Tabou : mains immobiles ou pas de Charge.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "explosiviste",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_speleologue",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le speleologue ecoute l'eau. Meme quand il n'y a pas d'eau. Il penche la tete vers le bas -- l'oreille cherche le son sous le sol, le glouglou d'une riviere souterraine. Le speleologue mouille son doigt et le pose sur la roche pour sentir l'humidite. Il compte les gouttes : le rythme des gouttes dit la pression d'eau au-dessus. Sa peau est perpetuellement humide -- gonflee, ramollie, doigts fripes comme apres un bain. Les ongles sont mous. Les articulations craquent -- l'humidite a infiltre le cartilage.",
+      "synthesis": "Tic du speleologue : ecoute de l'eau fantome, doigt-humidite sur la roche, comptage des gouttes. Peau perpetuellement gonflee et fripee.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "speleologue",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_biologiste",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le biologiste s'accroupit. Face a n'importe quelle surface, n'importe quel organisme -- il s'accroupit, mains a plat sur le sol, doigts ecartes, et sent. Contact-monde : la main ouverte sur la terre vivante, lisant les micro-vibrations des myceliums, des vers, des bacteries. Le biologiste distingue le vivant du mineral par le toucher -- la roche nue vibre uniformement, la roche vivante avec des irregularites qui sont les signatures des organismes. Le biologiste renifle la vie : decomposition, champignon, soufre metabolise. Genoux calleux, mains tachees de terre.",
+      "synthesis": "Tic du biologiste : accroupissement compulsif, Contact-monde par les paumes, reniflage de la vie organique. Genoux de moine, mains de jardinier.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "biologiste",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_meteorologue",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le meteorologue leve la tete. Quand les autres regardent le sol, le meteorologue regarde le ciel -- ou le plafond quand il n'y a plus de ciel. Il cherche les courants, les changements de lumiere, les variations de pression. Seul membre de l'expedition qui regarde vers le haut. Le meteorologue mouille son doigt et le leve -- pas pour sentir le vent, pour sentir l'evaporation. La vitesse de sechage dit l'humidite, la temperature, le mouvement. Peau seche sur le dos des mains, moite sur les paumes.",
+      "synthesis": "Tic du meteorologue : tete levee vers le ciel, doigt mouille pour lire l'evaporation. Seul a regarder vers le haut.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "meteorologue",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_leader",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le leader touche tout le monde. C'est sa fonction : maintenir le Contact avec chaque membre, verifier l'etat emotionnel, physique, psychologique par un grip, une pression, un frolement. Senzo ne passait jamais une journee sans avoir touche les six autres. Son Contact etait un inventaire -- pas des rations, mais des personnes. Le geste de choix : index pointe vers le sol, suivi d'un arc descendant -- 'par ici, on ne remonte pas'. Apres la mort de Senzo, personne ne fait plus ce geste. Le geste de decision meurt avec le decideur.",
+      "synthesis": "Tic du leader : Contact quotidien avec chaque membre, inventaire tactile des personnes. Le geste de decision meurt avec Senzo.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "leader",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_specialiste_oceanique",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le specialiste oceanique remplit les gourdes. Toujours. Plus que necessaire. Reflexe de Jabu -- celui qui connait l'eau sait que l'eau change de niveau sans prevenir. Il mesure l'eau avec ses doigts -- plonges dans la gourde, retires, niveau evalue au millimetre. Un specialiste oceanique dont les doigts sont secs n'a plus d'eau -- pire etat possible. Doigts perpétuellement fripes, peau gonflee, empreintes digitales effacees. Seul metier dont la marque efface la marque -- les callosites ne tiennent pas sur une peau constamment mouillee.",
+      "synthesis": "Tic du specialiste oceanique : remplissage compulsif des gourdes, mesure au doigt. Doigts fripes, empreintes effacees -- la marque qui efface la marque.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "specialiste_oceanique",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_tic_survivaliste",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Le survivaliste inventorie. Il palpe ses poches, ses sangles, ses gourdes, ses outils en permanence -- verification par routine, pas paranoïa. Il sait combien de rations restent, combien de metres de corde, combien de gourdes pleines -- par le toucher, pas par le compte. Le poids de ses poches est sa comptabilite. Le survivaliste ramasse tout ce qui pourrait servir : eclat de roche dure, fibre vegetale, goutte d'eau. Le ramasseur du groupe. Poches deformees, mains polyvalentes couvertes de callosites variees sans pattern dominant.",
+      "synthesis": "Tic du survivaliste : inventaire tactile permanent, ramassage compulsif. Mains polyvalentes, poches deformees par le poids du possible.",
+      "weight": 0.65,
+      "properties": {
+        "metier": "survivaliste",
+        "domaine": "tic_professionnel",
+        "observable": true
+      }
+    },
+
+    {
+      "id": "moment_contact_du_matin",
+      "node_type": "moment",
+      "type": "rituel_universel",
+      "content": "Le premier Contact de la journee est un droit, pas un devoir. On ne touche personne qui ne tend pas la main, l'epaule, le bras. Le premier Contact du matin est donne par celui qui s'est reveille le premier -- il touche le dormeur le plus proche, doucement, une pression longue sur l'epaule : 'le monde est encore la, tu peux te lever'. La personne touchee se reveille et touche la suivante. Le Contact du matin se propage dans un village comme une onde sismique -- de proche en proche, du premier leve au dernier dormeur. Dans les couples, le Contact du matin est intime : main sur le visage, paume sur la poitrine, geste personnel que chaque paire a developpe en silence.",
+      "synthesis": "Rituel du matin : propagation du Contact de proche en proche, premier mot tactile de la journee -- 'le monde est encore la'.",
+      "weight": 0.75,
+      "properties": {
+        "universel": true,
+        "frequence": "quotidien",
+        "domaine": "rituel"
+      }
+    },
+    {
+      "id": "moment_verification_sismique",
+      "node_type": "moment",
+      "type": "rituel_universel",
+      "content": "Toutes les quelques minutes, un micro-silence traverse le corps de chaque habitant de Contre-Terre. Un battement de pause dans le geste en cours. Les doigts s'immobilisent. Le souffle se retient un quart de seconde. Le corps ecoute. Les pieds lisent. Puis le mouvement reprend. Ce n'est pas conscient. C'est calibre. Le corps verifie que la frequence de fond n'a pas change, que le Sommeil est toujours le Sommeil. Quand deux personnes font leur verification en meme temps -- quand deux corps se figent a la meme seconde -- c'est un moment de synchronisation involontaire qui dit tout sur la relation : les corps sont calibres sur la meme frequence.",
+      "synthesis": "Micro-pause sismique : verification involontaire toutes les quelques minutes. La synchronisation entre deux corps revele la calibration partagee.",
+      "weight": 0.8,
+      "properties": {
+        "universel": true,
+        "frequence": "continu",
+        "domaine": "rituel"
+      }
+    },
+    {
+      "id": "moment_lecture_callosites",
+      "node_type": "moment",
+      "type": "rituel_universel",
+      "content": "Les callosites racontent une vie. Un maitre de Contact peut lire les mains d'un etranger et dire son metier, son archipel d'origine, son age approximatif, ses blessures passees, et la nature de ses relations les plus proches. Callosites du mineur en triangle (paume-base des doigts-poignet). Callosites du cartographe aux bouts des doigts. Callosites de la grimpeuse en stries paralleles. Absence de callosite = cuisinier ou leader. On ne touche jamais les callosites de quelqu'un sans permission. Les callosites sont intimes -- plus intimes que le visage, plus revelatrices que la voix. Demander a quelqu'un de te montrer ses callosites, c'est lui demander de se deshabiller.",
+      "synthesis": "Lecture des callosites : curriculum vitae de la peau -- metier, archipel, age, relations. Intimite plus profonde que le visage.",
+      "weight": 0.7,
+      "properties": {
+        "universel": true,
+        "frequence": "occasionnel",
+        "domaine": "rituel"
+      }
+    },
+    {
+      "id": "moment_hygiene_sable",
+      "node_type": "moment",
+      "type": "rituel_universel",
+      "content": "L'eau est precieuse. On ne se lave pas -- on s'essuie. Le tissu de corps est un morceau de cuir souple, porte autour du cou, passe sur la peau pour enlever sueur, poussiere, cristaux de sel. On s'essuie les mains avant le Contact -- des mains sales sont des mains qui 'parlent mal', qui transmettent du bruit au lieu du signal. L'hygiene des mains est la seule hygiene sacree. Le sable est utilise comme abrasif : on se frotte bras, jambes, torse avec du sable fin pour gratter les couches de sueur sechee. Les gens du Sud ont la peau la plus lisse (basalte = sable fin). Les gens du Nord la plus rugueuse (granite = poussiere qui colle).",
+      "synthesis": "Hygiene au sable : tissu de cuir pour essuyer, sable comme abrasif, mains lavees avant le Contact -- l'hygiene comme condition du langage.",
+      "weight": 0.6,
+      "properties": {
+        "universel": true,
+        "frequence": "quotidien",
+        "domaine": "rituel"
+      }
+    },
+    {
+      "id": "moment_contact_nocturne",
+      "node_type": "moment",
+      "type": "rituel_universel",
+      "content": "La nuit, le Contact devient lent. Les gestes raccourcissent en nombre mais s'allongent en duree. On ne fait plus de verrous de bras complexes -- on fait des pressions d'epaule, des grips de poignet, des contacts de pied. Le vocabulaire nocturne est un vocabulaire minimal : 'tu es la', 'le sol est bon', 'dors'. Le Contact nocturne est le baby-talk de la langue tactile. On navigue la nuit par les pieds. La memoire du sol -- changements de texture, pentes, fissures -- est une carte que le corps connait sans les yeux.",
+      "synthesis": "Contact nocturne minimal : vocabulaire reduit a l'essentiel, gestes lents et longs. Baby-talk tactile -- 'tu es la, dors'.",
+      "weight": 0.65,
+      "properties": {
+        "universel": true,
+        "frequence": "quotidien",
+        "domaine": "rituel"
+      }
+    },
+    {
+      "id": "moment_premier_contact_enfant",
+      "node_type": "moment",
+      "type": "rituel_universel",
+      "content": "Un enfant de Contre-Terre apprend a toucher avant de parler, a compter avant de marcher, et a tomber avant de grimper. Le premier mot Contact d'un enfant est 'tu es la' -- la pression chaude sur la poitrine que la sage-femme lui a transmise a la naissance. L'enfant le reproduit vers six mois, quand ses mains sont assez coordonnees pour presser la peau de sa mere. Le premier 'tu es la' d'un enfant est un evenement. On le raconte. Les enfants sont poses sur le sol regulierement -- calibration, pas punition. Un enfant qui n'est pas pose assez souvent perd sa calibration et developpe un tremens de desorientation.",
+      "synthesis": "Premier Contact de l'enfant : 'tu es la' reproduit vers six mois. Calibration au sol des le plus jeune age. Education corporelle avant tout.",
+      "weight": 0.75,
+      "properties": {
+        "universel": true,
+        "frequence": "unique",
+        "domaine": "rituel"
+      }
+    },
+    {
+      "id": "moment_main_de_lancien",
+      "node_type": "moment",
+      "type": "rituel_universel",
+      "content": "Les vieux ne sont pas exclus. Ils sont traduits. Un enfant ou un proche se tient a cote du vieux et 'traduit' son Contact imprecis : les mains du jeune saisissent les mains du vieux, sentent l'intention derriere le geste rate, et le reproduisent avec la precision que le corps du vieux ne peut plus fournir. Metier informel de 'main du vieux'. Les enfants qui le pratiquent developpent une sensibilite de Contact exceptionnelle -- ils doivent lire ce que le geste voulait dire, pas ce qu'il a dit. La pire vieillesse est celle du predicteur : le tremens ne s'arrete pas avec l'age, il empire. Le vieux predicteur tremble en permanence, incapable de distinguer son propre tremblement de celui de la terre.",
+      "synthesis": "Main de l'ancien : traduction du Contact imprecis du vieux par un jeune. Metier informel qui forge la sensibilite. Le vieux predicteur se confond avec la terre.",
+      "weight": 0.7,
+      "properties": {
+        "universel": true,
+        "frequence": "quotidien",
+        "domaine": "rituel"
+      }
+    },
+    {
+      "id": "moment_comptage",
+      "node_type": "moment",
+      "type": "rituel_universel",
+      "content": "Tout le monde compte sur Contre-Terre. Les caravaniers comptent les pas entre deux veines. Les cuisiniers comptent les jours de fermentation. Les mineurs comptent les frappes. Les predicteurs comptent les intervalles entre les repliques. Le vieux du village des sourds frappe le sol et compte les echos. Le comptage est la seule mathematique de Contre-Terre -- pas de calcul abstrait, pas de geometrie, du comptage pur, corporel, mecanique. Les nombres sont des rythmes, pas des concepts. Compter, c'est battre la mesure du monde. Les enfants apprennent a compter en tapant des pressions, pas en montrant les doigts. Un enfant de trois ans tape quatre pressions pour dire 'Battement'. Il ne sait pas ce qu'est le quatre. Mais ses doigts le savent.",
+      "synthesis": "Comptage universel : seule mathematique de Contre-Terre, nombres comme rythmes, pas comme concepts. Compter = battre la mesure du monde.",
+      "weight": 0.7,
+      "properties": {
+        "universel": true,
+        "frequence": "continu",
+        "domaine": "rituel"
+      }
+    },
+
+    {
+      "id": "narrative_choc_sud_nord_est",
+      "node_type": "narrative",
+      "type": "interaction_culturelle",
+      "content": "La collision de tempos. Le Contact du Sud est lent -- trois respirations par salut. Le Contact du Nord-Est est rapide -- trois pressions en deux secondes. Quand un habitant de Kahlamba salue un habitant de Mhluzi, le decalage est physique : le geste du Sud n'est pas termine que le geste du Nord-Est est deja reparti. Le Sud croit que le Nord-Est est impoli. Le Nord-Est croit que le Sud est sourd. La negociation passe par les caravaniers qui maitrisent les deux tempos -- ils recoivent le geste rapide et le retransmettent lent, ou l'inverse. Traducteurs de vitesse. C'est epuisant : le corps change de rythme toute la journee.",
+      "synthesis": "Choc culturel Sud/Nord-Est : collision de tempos du Contact, malentendu permanent, mediation par les caravaniers traducteurs de vitesse.",
+      "weight": 0.65,
+      "properties": {
+        "domaine": "interaction",
+        "archipels": ["space_archipel_sud", "space_archipel_nord_est"],
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_caravanier_traducteur",
+      "node_type": "narrative",
+      "type": "interaction_culturelle",
+      "content": "Le caravanier est le seul polyglotte tactile de Contre-Terre. Son corps parle trois, quatre, cinq dialectes -- il sait poser le pied a plat pour le Sud, rebondir pour le Nord-Est, compenser pour l'Ouest, frapper pour le Nord. Ses mains ont appris les cinq vitesses du Contact. Ses callosites sont un patchwork -- striees par les cordes, lisses par la cuisine, arrondies par la cartographie. Le caravanier est un homme de tous les metiers et d'aucun. Son metier est le chemin. Les caravaniers developpent un Contact de transit -- dialecte simplifie, universel, compris de tous. Dix gestes, dix significations, zero nuance. Le pidgin du monde tactile.",
+      "synthesis": "Le caravanier polyglotte tactile : cinq dialectes, callosites de patchwork, Contact de transit pidgin -- dix gestes universels sans nuance.",
+      "weight": 0.7,
+      "properties": {
+        "domaine": "interaction",
+        "metier": "caravanier",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_mariage_inter_archipel",
+      "node_type": "narrative",
+      "type": "interaction_culturelle",
+      "content": "Les mariages inter-archipels existent. Ils sont rares. Et ils sont douloureux. Le probleme est la calibration : un corps calibre sur les basses du basalte du Sud ne s'adapte pas facilement aux hautes frequences du schiste du Nord-Est. Le tremens de transition dure des semaines -- nausees, vomissements, vertiges. Le mariage exige un choix : l'un des deux quitte sa frequence et adopte celle de l'autre. Choix physiologique, pas symbolique. Le corps se recalibre. La vieille frequence s'efface. On ne revient pas chez soi sans payer le prix du retour. Les couples inter-archipel developpent un Contact de compromis -- un tempo intermediaire qui n'appartient qu'a eux. Le plus bel idiolecte de paire du monde.",
+      "synthesis": "Mariage inter-archipel : recalibration physiologique douloureuse, choix de frequence irreversible, naissance d'un idiolecte de compromis unique.",
+      "weight": 0.65,
+      "properties": {
+        "domaine": "interaction",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_enfant_metis_sismique",
+      "node_type": "narrative",
+      "type": "interaction_culturelle",
+      "content": "Un enfant ne entre deux archipels recoit la calibration du lieu de naissance, pas celle des parents. Le sol calibre, pas le sang. Mais les enfants metis ont un spectre de tolerance plus large -- leur seuil de tremens est plus haut, comme si le corps avait herite de la memoire vibratoire des deux parents sans en heriter la frequence. Les enfants metis font d'excellents caravaniers. Et d'excellents predicteurs. Les enfants nes pendant un seisme sont les mieux calibres de tous -- calibration plus large parce que la frequence de naissance etait un melange. Les anciens disent : 'ces enfants ont le monde entier dans les pieds'.",
+      "synthesis": "Enfant metis sismique : calibration par le sol de naissance, spectre de tolerance elargi, excellent caravanier ou predicteur. Ne pendant un seisme = 'le monde entier dans les pieds'.",
+      "weight": 0.6,
+      "properties": {
+        "domaine": "interaction",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_negociation_tempo",
+      "node_type": "narrative",
+      "type": "interaction_culturelle",
+      "content": "Quand deux dialectes se rencontrent, le tempo se negocie par les corps. Le salut du Sud (epaule contre epaule, trois respirations) se heurte au salut du Nord-Est (trois pressions en deux secondes). Le salut de l'Ouest (main tiree-repoussee) se heurte au salut du Nord (poing sur l'epaule, pression dosee par rang). La negociation ne passe pas par la parole -- elle passe par le ralentissement progressif ou l'acceleration progressive du Contact, jusqu'a ce que les deux corps trouvent un rythme commun. Le rythme commun n'est jamais celui de l'un ou de l'autre. C'est un troisieme rythme. Le rythme de la rencontre.",
+      "synthesis": "Negociation de tempo : quand deux dialectes se rencontrent, les corps negocient un troisieme rythme -- ni l'un ni l'autre, le rythme de la rencontre.",
+      "weight": 0.6,
+      "properties": {
+        "domaine": "interaction",
+        "observable": true
+      }
+    },
+
+    {
+      "id": "narrative_rivalite_predicteur_ecouteur",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "La tension predicteur-ecouteur est la plus profonde. L'ecouteur mesure, le predicteur sent. L'ecouteur a des chiffres, le predicteur a des vomissements. La science refuse le corps. Le corps refuse la science. 'Tu sens, mais tu ne sais pas' est l'insulte de Sihle a Nandi. Les predicteurs ne se defendent pas par les mots -- ils se defendent par le fait. Quand le sismographe dit 'tout va bien' et que le predicteur vomit, c'est le predicteur qui a raison. Les predicteurs ont l'habitude d'avoir raison trop tard et d'etre crus trop tard. L'ecouteur ne lit jamais le tremens d'un predicteur -- le tremens est un signal parasite pour l'instrument.",
+      "synthesis": "Rivalite predicteur/ecouteur : chiffres contre vomissements, science contre corps. Les predicteurs ont raison trop tard. L'ecouteur refuse le tremens comme bruit.",
+      "weight": 0.7,
+      "properties": {
+        "metiers": ["predicteur", "ecouteur"],
+        "domaine": "rivalite",
+        "observable": true
+      }
+    },
+    {
+      "id": "narrative_rivalite_mineur_geologue",
+      "node_type": "narrative",
+      "type": "culture_metier",
+      "content": "Les mineurs et les geologues se chevauchent : le mineur casse la roche, le geologue la lit. Le mineur dit 'je sais ce que la roche fait quand je la frappe'. Le geologue dit 'je sais ce que la roche est avant que tu la frappes'. Les deux ont raison. Les deux se regardent avec un respect mele d'irritation. Les cartographes et les speleologues se disputent le souterrain : le cartographe memorise le tunnel, le speleologue vit dans le tunnel. 'Tu cartographies ce que je connais par coeur.' 'Tu connais un tunnel, je connais le reseau.' Les cuisiniers sont meprises par tout le monde -- sauf quand la faim arrive.",
+      "synthesis": "Rivalites de metier : mineur/geologue (casser vs lire), cartographe/speleologue (memoriser vs habiter), cuisinier meprise jusqu'a la faim.",
+      "weight": 0.6,
+      "properties": {
+        "metiers": ["mineur", "geologue", "cartographe", "speleologue", "cuisinier"],
+        "domaine": "rivalite",
+        "observable": true
+      }
+    }
+  ],
+
+  "links": [
+
+    { "source": "narrative_culture_marche_sud", "target": "concept:archipel", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Basses-Terres" } },
+    { "source": "narrative_superstition_pied_gauche_sud", "target": "concept:archipel", "type": "pratique_a", "weight": 0.6, "affinity": 0.7, "properties": { "lieu": "Basses-Terres" } },
+    { "source": "narrative_deuil_sud", "target": "concept:archipel", "type": "pratique_a", "weight": 0.75, "affinity": 0.8, "properties": { "lieu": "Basses-Terres" } },
+    { "source": "narrative_cuisine_biere_sud", "target": "concept:archipel", "type": "pratique_a", "weight": 0.6, "affinity": 0.7, "properties": { "lieu": "Basses-Terres" } },
+    { "source": "narrative_odeur_sud", "target": "concept:archipel", "type": "pratique_a", "weight": 0.5, "affinity": 0.6, "properties": { "lieu": "Basses-Terres" } },
+
+    { "source": "narrative_culture_marche_nord_est", "target": "concept:archipel", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Seches" } },
+    { "source": "narrative_superstition_repliques_paires_nord_est", "target": "concept:archipel", "type": "pratique_a", "weight": 0.6, "affinity": 0.7, "properties": { "lieu": "Seches" } },
+    { "source": "narrative_deuil_nord_est", "target": "concept:archipel", "type": "pratique_a", "weight": 0.75, "affinity": 0.8, "properties": { "lieu": "Seches" } },
+    { "source": "narrative_odeur_nord_est", "target": "concept:archipel", "type": "pratique_a", "weight": 0.5, "affinity": 0.6, "properties": { "lieu": "Seches" } },
+
+    { "source": "narrative_culture_marche_ouest", "target": "concept:archipel", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Roulantes" } },
+    { "source": "narrative_superstition_derive_ouest", "target": "concept:archipel", "type": "pratique_a", "weight": 0.6, "affinity": 0.7, "properties": { "lieu": "Roulantes" } },
+    { "source": "narrative_deuil_ouest", "target": "concept:archipel", "type": "pratique_a", "weight": 0.75, "affinity": 0.8, "properties": { "lieu": "Roulantes" } },
+
+    { "source": "narrative_culture_marche_nord", "target": "concept:archipel", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Froides" } },
+    { "source": "narrative_superstition_roche_pleure_nord", "target": "concept:archipel", "type": "pratique_a", "weight": 0.6, "affinity": 0.7, "properties": { "lieu": "Froides" } },
+    { "source": "narrative_deuil_nord", "target": "concept:archipel", "type": "pratique_a", "weight": 0.75, "affinity": 0.8, "properties": { "lieu": "Froides" } },
+
+    { "source": "narrative_culture_marche_centre_sud", "target": "concept:archipel", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Chaudes" } },
+    { "source": "narrative_superstition_soufre_aube_centre_sud", "target": "concept:archipel", "type": "pratique_a", "weight": 0.6, "affinity": 0.7, "properties": { "lieu": "Chaudes" } },
+    { "source": "narrative_deuil_centre_sud", "target": "concept:archipel", "type": "pratique_a", "weight": 0.75, "affinity": 0.8, "properties": { "lieu": "Chaudes" } },
+
+    { "source": "narrative_culture_marche_est", "target": "concept:archipel", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Salines" } },
+    { "source": "narrative_superstition_cristaux_roses_est", "target": "concept:archipel", "type": "pratique_a", "weight": 0.6, "affinity": 0.7, "properties": { "lieu": "Salines" } },
+    { "source": "narrative_deuil_est", "target": "concept:archipel", "type": "pratique_a", "weight": 0.75, "affinity": 0.8, "properties": { "lieu": "Salines" } },
+
+    { "source": "narrative_culture_marche_sud_ouest", "target": "concept:archipel", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Creuses" } },
+    { "source": "narrative_superstition_eau_direction_sud_ouest", "target": "concept:archipel", "type": "pratique_a", "weight": 0.6, "affinity": 0.7, "properties": { "lieu": "Creuses" } },
+    { "source": "narrative_deuil_sud_ouest", "target": "concept:archipel", "type": "pratique_a", "weight": 0.75, "affinity": 0.8, "properties": { "lieu": "Creuses" } },
+
+    { "source": "narrative_culture_marche_sud", "target": "narrative_culture_marche_nord_est", "type": "contraste_avec", "weight": 0.8, "affinity": 0.7, "properties": { "nature": "tempo_oppose" } },
+    { "source": "narrative_culture_marche_sud", "target": "narrative_culture_marche_nord", "type": "contraste_avec", "weight": 0.6, "affinity": 0.5, "properties": { "nature": "plat_vs_talon" } },
+    { "source": "narrative_culture_marche_nord_est", "target": "narrative_culture_marche_ouest", "type": "contraste_avec", "weight": 0.5, "affinity": 0.5, "properties": { "nature": "saccade_vs_roulis" } },
+    { "source": "narrative_culture_marche_est", "target": "narrative_culture_marche_nord", "type": "contraste_avec", "weight": 0.7, "affinity": 0.5, "properties": { "nature": "pointe_vs_talon" } },
+
+    { "source": "narrative_deuil_sud", "target": "narrative_deuil_nord_est", "type": "contraste_avec", "weight": 0.85, "affinity": 0.6, "properties": { "nature": "long_vs_court" } },
+    { "source": "narrative_deuil_sud", "target": "narrative_deuil_ouest", "type": "contraste_avec", "weight": 0.6, "affinity": 0.6, "properties": { "nature": "preserve_vs_modifie" } },
+    { "source": "narrative_deuil_nord", "target": "narrative_deuil_sud_ouest", "type": "contraste_avec", "weight": 0.7, "affinity": 0.5, "properties": { "nature": "roche_vs_eau" } },
+    { "source": "narrative_deuil_est", "target": "narrative_deuil_centre_sud", "type": "contraste_avec", "weight": 0.6, "affinity": 0.5, "properties": { "nature": "sel_vs_soufre" } },
+
+    { "source": "narrative_culture_marche_sud", "target": "narrative_odeur_sud", "type": "lie_a", "weight": 0.6, "affinity": 0.7 },
+    { "source": "narrative_culture_marche_nord_est", "target": "narrative_odeur_nord_est", "type": "lie_a", "weight": 0.6, "affinity": 0.7 },
+
+    { "source": "narrative_odeur_sud", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.7, "affinity": 0.8, "properties": { "archipel": "Sud", "signature": "cuir_sueur_acide" } },
+    { "source": "narrative_odeur_nord_est", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.7, "affinity": 0.8, "properties": { "archipel": "Nord-Est", "signature": "schiste_peau_crissante" } },
+    { "source": "narrative_culture_marche_sud", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.75, "affinity": 0.85, "properties": { "archipel": "Sud", "signature": "pieds_a_plat" } },
+    { "source": "narrative_culture_marche_nord_est", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.75, "affinity": 0.85, "properties": { "archipel": "Nord-Est", "signature": "marche_saccadee" } },
+    { "source": "narrative_culture_marche_ouest", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.75, "affinity": 0.85, "properties": { "archipel": "Ouest", "signature": "roulis_compensatoire" } },
+    { "source": "narrative_culture_marche_nord", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.75, "affinity": 0.85, "properties": { "archipel": "Nord", "signature": "marche_talon_pointe_sonore" } },
+    { "source": "narrative_culture_marche_centre_sud", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.75, "affinity": 0.85, "properties": { "archipel": "Centre-Sud", "signature": "marche_crabe" } },
+    { "source": "narrative_culture_marche_est", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.75, "affinity": 0.85, "properties": { "archipel": "Est", "signature": "pointes_de_pieds" } },
+    { "source": "narrative_culture_marche_sud_ouest", "target": "concept:archipel", "type": "identifie_origine", "weight": 0.75, "affinity": 0.85, "properties": { "archipel": "Sud-Ouest", "signature": "orteils_agrippes" } },
+
+    { "source": "narrative_tic_predicteur", "target": "concept:tremens", "type": "pratique_par_metier", "weight": 0.85, "affinity": 0.9 },
+    { "source": "narrative_jargon_predicteur", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_tic_predicteur", "target": "narrative_jargon_predicteur", "type": "lie_a", "weight": 0.8, "affinity": 0.9 },
+
+    { "source": "narrative_tic_ecouteur", "target": "concept:tremens", "type": "pratique_par_metier", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_jargon_ecouteur", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_tic_ecouteur", "target": "narrative_jargon_ecouteur", "type": "lie_a", "weight": 0.8, "affinity": 0.9 },
+
+    { "source": "narrative_tic_mineur", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_tic_aeromaitre", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_jargon_aeromaitre", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_tic_aeromaitre", "target": "narrative_jargon_aeromaitre", "type": "lie_a", "weight": 0.8, "affinity": 0.9 },
+
+    { "source": "narrative_tic_grimpeuse", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_tic_cuisinier", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_tic_cartographe", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_tic_geologue", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_tic_explosiviste", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_tic_speleologue", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_tic_biologiste", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_tic_meteorologue", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_tic_leader", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_tic_specialiste_oceanique", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_tic_survivaliste", "target": "concept:contact", "type": "pratique_par_metier", "weight": 0.65, "affinity": 0.7 },
+
+    { "source": "narrative_rivalite_predicteur_ecouteur", "target": "narrative_tic_predicteur", "type": "lie_a", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_rivalite_predicteur_ecouteur", "target": "narrative_tic_ecouteur", "type": "lie_a", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_rivalite_mineur_geologue", "target": "narrative_tic_mineur", "type": "lie_a", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_rivalite_mineur_geologue", "target": "narrative_tic_geologue", "type": "lie_a", "weight": 0.7, "affinity": 0.75 },
+
+    { "source": "narrative_tic_predicteur", "target": "narrative_superstition_repliques_paires_nord_est", "type": "lie_a", "weight": 0.5, "affinity": 0.6, "properties": { "raison": "comptage_et_prediction" } },
+    { "source": "narrative_tic_aeromaitre", "target": "narrative_superstition_soufre_aube_centre_sud", "type": "lie_a", "weight": 0.5, "affinity": 0.6, "properties": { "raison": "lecture_de_l_air" } },
+    { "source": "narrative_tic_mineur", "target": "narrative_superstition_roche_pleure_nord", "type": "lie_a", "weight": 0.5, "affinity": 0.6, "properties": { "raison": "diagnostic_de_la_roche" } },
+    { "source": "narrative_tic_speleologue", "target": "narrative_superstition_eau_direction_sud_ouest", "type": "lie_a", "weight": 0.55, "affinity": 0.65, "properties": { "raison": "lecture_de_l_eau" } },
+
+    { "source": "moment_contact_du_matin", "target": "moment_verification_sismique", "type": "lie_a", "weight": 0.75, "affinity": 0.8, "properties": { "sequence": "matin_puis_continu" } },
+    { "source": "moment_contact_du_matin", "target": "moment_contact_nocturne", "type": "lie_a", "weight": 0.7, "affinity": 0.8, "properties": { "sequence": "cycle_jour_nuit" } },
+    { "source": "moment_premier_contact_enfant", "target": "moment_main_de_lancien", "type": "lie_a", "weight": 0.65, "affinity": 0.7, "properties": { "sequence": "debut_et_fin_de_vie" } },
+    { "source": "moment_comptage", "target": "moment_verification_sismique", "type": "lie_a", "weight": 0.6, "affinity": 0.7, "properties": { "sequence": "comptage_dans_verification" } },
+    { "source": "moment_hygiene_sable", "target": "moment_contact_du_matin", "type": "lie_a", "weight": 0.5, "affinity": 0.6, "properties": { "sequence": "hygiene_avant_contact" } },
+    { "source": "moment_lecture_callosites", "target": "moment_contact_du_matin", "type": "lie_a", "weight": 0.5, "affinity": 0.6, "properties": { "sequence": "lecture_dans_premier_contact" } },
+
+    { "source": "moment_contact_du_matin", "target": "concept:contact", "type": "pratique_a", "weight": 0.85, "affinity": 0.9 },
+    { "source": "moment_verification_sismique", "target": "concept:tremens", "type": "pratique_a", "weight": 0.8, "affinity": 0.85 },
+    { "source": "moment_lecture_callosites", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+    { "source": "moment_premier_contact_enfant", "target": "concept:contact", "type": "pratique_a", "weight": 0.85, "affinity": 0.9 },
+    { "source": "moment_main_de_lancien", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+    { "source": "moment_comptage", "target": "concept:tremens", "type": "pratique_a", "weight": 0.7, "affinity": 0.75 },
+    { "source": "moment_contact_nocturne", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+    { "source": "moment_hygiene_sable", "target": "concept:contact", "type": "pratique_a", "weight": 0.6, "affinity": 0.7 },
+
+    { "source": "narrative_choc_sud_nord_est", "target": "narrative_culture_marche_sud", "type": "lie_a", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_choc_sud_nord_est", "target": "narrative_culture_marche_nord_est", "type": "lie_a", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_choc_sud_nord_est", "target": "narrative_deuil_sud", "type": "contraste_avec", "weight": 0.6, "affinity": 0.5, "properties": { "nature": "tempo_lent" } },
+    { "source": "narrative_choc_sud_nord_est", "target": "narrative_deuil_nord_est", "type": "contraste_avec", "weight": 0.6, "affinity": 0.5, "properties": { "nature": "tempo_rapide" } },
+
+    { "source": "narrative_caravanier_traducteur", "target": "narrative_choc_sud_nord_est", "type": "lie_a", "weight": 0.8, "affinity": 0.85, "properties": { "role": "mediateur" } },
+    { "source": "narrative_caravanier_traducteur", "target": "narrative_negociation_tempo", "type": "lie_a", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_mariage_inter_archipel", "target": "narrative_enfant_metis_sismique", "type": "lie_a", "weight": 0.85, "affinity": 0.9, "properties": { "sequence": "mariage_puis_enfant" } },
+    { "source": "narrative_enfant_metis_sismique", "target": "narrative_caravanier_traducteur", "type": "lie_a", "weight": 0.6, "affinity": 0.7, "properties": { "raison": "spectre_elargi_ideal_caravanier" } },
+
+    { "source": "narrative_mariage_inter_archipel", "target": "concept:contact", "type": "pratique_a", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_negociation_tempo", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+
+    { "source": "narrative_tic_predicteur", "target": "value:body_truth", "type": "supports", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_tic_ecouteur", "target": "value:body_truth", "type": "supports", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_rivalite_predicteur_ecouteur", "target": "value:body_truth", "type": "supports", "weight": 0.75, "affinity": 0.8 },
+
+    { "source": "narrative_deuil_sud", "target": "value:vocabulary_preservation", "type": "supports", "weight": 0.85, "affinity": 0.9 },
+    { "source": "narrative_deuil_nord_est", "target": "value:vocabulary_preservation", "type": "contraste_avec", "weight": 0.7, "affinity": 0.5, "properties": { "nature": "refus_de_preservation" } },
+    { "source": "narrative_deuil_ouest", "target": "value:vocabulary_preservation", "type": "supports", "weight": 0.6, "affinity": 0.65, "properties": { "nature": "preservation_par_modification" } },
+    { "source": "narrative_deuil_est", "target": "value:vocabulary_preservation", "type": "supports", "weight": 0.7, "affinity": 0.75, "properties": { "nature": "comptage_du_vocabulaire" } },
+
+    { "source": "moment_premier_contact_enfant", "target": "value:transmission", "type": "supports", "weight": 0.9, "affinity": 0.95 },
+    { "source": "moment_main_de_lancien", "target": "value:transmission", "type": "supports", "weight": 0.85, "affinity": 0.9 },
+    { "source": "moment_comptage", "target": "value:physics_over_rules", "type": "supports", "weight": 0.65, "affinity": 0.7 },
+    { "source": "moment_verification_sismique", "target": "value:physics_over_rules", "type": "supports", "weight": 0.8, "affinity": 0.85 },
+    { "source": "moment_contact_du_matin", "target": "value:collective_survival", "type": "supports", "weight": 0.75, "affinity": 0.8 },
+    { "source": "moment_contact_nocturne", "target": "value:collective_survival", "type": "supports", "weight": 0.65, "affinity": 0.7 },
+    { "source": "moment_lecture_callosites", "target": "value:perception_is_identity", "type": "supports", "weight": 0.8, "affinity": 0.85 },
+
+    { "source": "narrative_tic_mineur", "target": "narrative_culture_marche_nord", "type": "lie_a", "weight": 0.6, "affinity": 0.7, "properties": { "raison": "tailleurs_et_mineurs_du_nord" } },
+    { "source": "narrative_tic_aeromaitre", "target": "narrative_culture_marche_centre_sud", "type": "lie_a", "weight": 0.5, "affinity": 0.6, "properties": { "raison": "aeromaitres_formes_aux_Chaudes" } },
+    { "source": "narrative_tic_speleologue", "target": "narrative_culture_marche_sud_ouest", "type": "lie_a", "weight": 0.6, "affinity": 0.7, "properties": { "raison": "speleo_originaires_des_Creuses" } },
+    { "source": "narrative_tic_grimpeuse", "target": "narrative_culture_marche_est", "type": "lie_a", "weight": 0.5, "affinity": 0.6, "properties": { "raison": "grimpeuses_formees_a_Nkosazana" } },
+
+    { "source": "narrative_cuisine_biere_sud", "target": "narrative_tic_cuisinier", "type": "lie_a", "weight": 0.6, "affinity": 0.7, "properties": { "raison": "savoir_culinaire_du_sud" } },
+
+    { "source": "narrative_tic_predicteur", "target": "narrative_superstition_pied_gauche_sud", "type": "lie_a", "weight": 0.4, "affinity": 0.5, "properties": { "raison": "pieds_comme_lecteurs" } },
+    { "source": "narrative_tic_cartographe", "target": "narrative_culture_marche_sud_ouest", "type": "lie_a", "weight": 0.6, "affinity": 0.7, "properties": { "raison": "cartographes_de_Mathamo" } },
+    { "source": "narrative_tic_leader", "target": "moment_contact_du_matin", "type": "lie_a", "weight": 0.65, "affinity": 0.7, "properties": { "raison": "inventaire_quotidien_des_personnes" } },
+
+    { "source": "narrative_choc_sud_nord_est", "target": "narrative_mariage_inter_archipel", "type": "lie_a", "weight": 0.6, "affinity": 0.65, "properties": { "raison": "meme_collision_de_frequences" } },
+    { "source": "narrative_negociation_tempo", "target": "narrative_caravanier_traducteur", "type": "lie_a", "weight": 0.7, "affinity": 0.75, "properties": { "raison": "negociation_implique_traduction" } },
+
+    { "source": "narrative_deuil_sud", "target": "concept:contact", "type": "pratique_a", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_deuil_nord_est", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_deuil_ouest", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_deuil_nord", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_deuil_centre_sud", "target": "concept:contact", "type": "pratique_a", "weight": 0.8, "affinity": 0.85 },
+    { "source": "narrative_deuil_est", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+    { "source": "narrative_deuil_sud_ouest", "target": "concept:contact", "type": "pratique_a", "weight": 0.75, "affinity": 0.8 },
+
+    { "source": "narrative_superstition_pied_gauche_sud", "target": "narrative_superstition_repliques_paires_nord_est", "type": "contraste_avec", "weight": 0.5, "affinity": 0.5, "properties": { "nature": "lateralite_vs_comptage" } },
+    { "source": "narrative_superstition_roche_pleure_nord", "target": "narrative_superstition_soufre_aube_centre_sud", "type": "contraste_avec", "weight": 0.5, "affinity": 0.5, "properties": { "nature": "humidite_vs_gaz" } },
+    { "source": "narrative_superstition_derive_ouest", "target": "narrative_superstition_eau_direction_sud_ouest", "type": "contraste_avec", "weight": 0.45, "affinity": 0.5, "properties": { "nature": "derive_de_roche_vs_derive_d_eau" } },
+    { "source": "narrative_superstition_cristaux_roses_est", "target": "narrative_superstition_roche_pleure_nord", "type": "contraste_avec", "weight": 0.45, "affinity": 0.5, "properties": { "nature": "couleur_vs_humidite" } },
+
+    { "source": "narrative_tic_explosiviste", "target": "narrative_tic_grimpeuse", "type": "contraste_avec", "weight": 0.5, "affinity": 0.5, "properties": { "nature": "calme_vs_comptage_compulsif" } },
+    { "source": "narrative_tic_ecouteur", "target": "narrative_tic_meteorologue", "type": "contraste_avec", "weight": 0.5, "affinity": 0.5, "properties": { "nature": "tete_penchee_vs_tete_levee" } },
+    { "source": "narrative_tic_cuisinier", "target": "narrative_tic_geologue", "type": "lie_a", "weight": 0.5, "affinity": 0.6, "properties": { "raison": "tous_deux_goutent_la_matiere" } },
+
+    { "source": "narrative_tic_predicteur", "target": "narrative_culture_marche_nord_est", "type": "lie_a", "weight": 0.55, "affinity": 0.65, "properties": { "raison": "predicteurs_nes_aux_Seches" } },
+    { "source": "narrative_tic_ecouteur", "target": "narrative_culture_marche_nord", "type": "lie_a", "weight": 0.55, "affinity": 0.65, "properties": { "raison": "ecouteurs_formes_au_Nord" } },
+
+    { "source": "moment_contact_du_matin", "target": "value:contact_richesse", "type": "supports", "weight": 0.7, "affinity": 0.75 },
+    { "source": "moment_lecture_callosites", "target": "value:contact_richesse", "type": "supports", "weight": 0.65, "affinity": 0.7 },
+
+    { "source": "narrative_caravanier_traducteur", "target": "moment_lecture_callosites", "type": "lie_a", "weight": 0.55, "affinity": 0.6, "properties": { "raison": "callosites_patchwork_revelent_le_polyglotte" } },
+    { "source": "narrative_enfant_metis_sismique", "target": "moment_premier_contact_enfant", "type": "lie_a", "weight": 0.6, "affinity": 0.65, "properties": { "raison": "calibration_elargie_des_naissance" } },
+    { "source": "narrative_mariage_inter_archipel", "target": "narrative_negociation_tempo", "type": "lie_a", "weight": 0.7, "affinity": 0.75, "properties": { "raison": "mariage_implique_negociation_permanente" } },
+
+    { "source": "narrative_tic_biologiste", "target": "concept:bioluminescence", "type": "lie_a", "weight": 0.6, "affinity": 0.7, "properties": { "raison": "contact_monde_avec_filaments" } },
+    { "source": "narrative_tic_explosiviste", "target": "concept:magnitude_11", "type": "lie_a", "weight": 0.6, "affinity": 0.7, "properties": { "raison": "detonation_pour_prevenir_magnitude_11" } },
+    { "source": "narrative_tic_leader", "target": "concept:mission", "type": "lie_a", "weight": 0.7, "affinity": 0.8, "properties": { "raison": "leader_mene_la_mission" } },
+
+    { "source": "narrative_rivalite_predicteur_ecouteur", "target": "narrative_choc_sud_nord_est", "type": "lie_a", "weight": 0.6, "affinity": 0.65, "properties": { "raison": "meme_tension_culturelle_nord_est_vs_nord" } },
+
+    { "source": "narrative_tic_survivaliste", "target": "value:collective_survival", "type": "supports", "weight": 0.7, "affinity": 0.75 },
+    { "source": "narrative_tic_cuisinier", "target": "value:collective_survival", "type": "supports", "weight": 0.65, "affinity": 0.7 },
+    { "source": "narrative_tic_specialiste_oceanique", "target": "value:collective_survival", "type": "supports", "weight": 0.65, "affinity": 0.7 }
+  ]
+}

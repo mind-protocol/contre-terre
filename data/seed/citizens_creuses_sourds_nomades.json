@@ -1,0 +1,1700 @@
+{
+  "cluster_id": "citizens_creuses_sourds_nomades",
+  "description": "Citizens of the Sud-Ouest (Creuses), Village des Sourds, nomadic caravaniers, and dispersed hamlets -- with links to the 7 novel characters",
+  "nodes": [
+    {
+      "id": "actor_citoyen_nombuso_sudouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Doyenne des speleos de Sibaya. Ses mains connaissent les 37 grottes mieux que n'importe quelle carte tactile -- elle les a toutes parcourues a 14 ans et n'a jamais cesse depuis.",
+      "synthesis": "Speleologue veterane de Sibaya, 62 ans, memoire vivante du reseau de grottes.",
+      "weight": 0.6,
+      "properties": {
+        "age": 62,
+        "genre": "femme",
+        "metiers": [
+          "speleologue",
+          "cartographe"
+        ],
+        "guildes": [
+          "Guilde des Profondeurs"
+        ],
+        "tremens_signature": "tremblement fin des doigts quand l'eau change de pression sous le calcaire",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_ville_sibaya",
+        "dialecte": "Creuses hydraulique, lent, vertical -- variante ancienne avec pressions longues"
+      }
+    },
+    {
+      "id": "actor_citoyen_vuyelwa",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Speleo qui ne dort qu'en profondeur. Elle descend dans les grottes inferieures chaque soir et remonte a l'aube, les mains blanchies par le calcaire humide.",
+      "synthesis": "Speleologue de Sibaya, 34 ans, specialiste des grottes inferieures et des siphons.",
+      "weight": 0.55,
+      "properties": {
+        "age": 34,
+        "genre": "femme",
+        "metiers": [
+          "speleologue"
+        ],
+        "guildes": [
+          "Guilde des Profondeurs"
+        ],
+        "tremens_signature": "tressaillement des chevilles dans les siphons -- le corps lit la pression d'eau avant les mains",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_ville_sibaya",
+        "dialecte": "Creuses hydraulique, gestes amples adaptes aux passages etroits"
+      }
+    },
+    {
+      "id": "actor_citoyen_buhle_sudouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mineur-speleo dont les poings sonnent le calcaire comme d'autres sonnent le granite. Il frappe les parois en descendant -- trois coups, toujours trois -- et connait la densite de chaque couche.",
+      "synthesis": "Mineur-speleologue de Sibaya, 41 ans, specialiste du calcaire profond.",
+      "weight": 0.55,
+      "properties": {
+        "age": 41,
+        "genre": "homme",
+        "metiers": [
+          "mineur",
+          "speleologue"
+        ],
+        "guildes": [
+          "Guilde des Profondeurs"
+        ],
+        "tremens_signature": "vibration des metacarpes apres les frappes -- les mains resonnent avec le calcaire",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_ville_sibaya",
+        "dialecte": "Creuses hydraulique, frappe-et-ecoute emprunte aux Froides"
+      }
+    },
+    {
+      "id": "actor_citoyen_zoleka_sudouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Cuisiniere de Sibaya, inventrice d'une bouillie aux champignons des troisieme et quatrieme grottes. Elle descend chaque matin cueillir dans le noir, les mains seules la guident.",
+      "synthesis": "Cuisiniere de Sibaya, 28 ans, specialiste des champignons souterrains.",
+      "weight": 0.5,
+      "properties": {
+        "age": 28,
+        "genre": "femme",
+        "metiers": [
+          "cuisinier"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "pas de tremens notable -- ses mains tremblent naturellement a force de plonger dans l'eau froide",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_ville_sibaya",
+        "dialecte": "Creuses hydraulique, doigts toujours humides de bouillie"
+      }
+    },
+    {
+      "id": "actor_citoyen_mthunzi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Le plus jeune speleo certifie de Sibaya. A seize ans, il descend deja dans les grottes du deuxieme niveau seul. Ses pieds agrippent le calcaire comme une deuxieme paire de mains.",
+      "synthesis": "Apprenti speleologue de Sibaya, 16 ans, grimpeur naturel des puits verticaux.",
+      "weight": 0.5,
+      "properties": {
+        "age": 16,
+        "genre": "homme",
+        "metiers": [
+          "speleologue",
+          "escalade"
+        ],
+        "guildes": [
+          "Guilde des Profondeurs"
+        ],
+        "tremens_signature": "leger, pieds seulement -- le corps n'a pas encore appris a ecouter avec les mains",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_ville_sibaya",
+        "dialecte": "Creuses hydraulique, rapide pour son age -- influence des caravaniers de passage"
+      }
+    },
+    {
+      "id": "actor_citoyen_nomalanga_sudouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Cartographe de corde de Sibaya. Elle encode la topologie des grottes sur des cordes a noeuds que les speleos emportent en descente -- chaque noeud est un embranchement, chaque espace entre noeuds est une distance.",
+      "synthesis": "Cartographe de corde de Sibaya, 47 ans, encode le reseau de grottes en noeuds tactiles.",
+      "weight": 0.55,
+      "properties": {
+        "age": 47,
+        "genre": "femme",
+        "metiers": [
+          "cartographe"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "doigts qui comptent en permanence -- les intervalles entre noeuds, les embranchements",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_ville_sibaya",
+        "dialecte": "Creuses hydraulique, enrichi de Contact-corde pour l'encodage"
+      }
+    },
+    {
+      "id": "actor_citoyen_sandile_sudouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Gardien des eaux de Sibaya. Il surveille les niveaux des rigoles souterraines et alerte quand le debit change. Dort le pied dans l'eau pour sentir les variations nocturnes.",
+      "synthesis": "Gardien des eaux de Sibaya, 55 ans, specialiste des nappes et des rigoles.",
+      "weight": 0.55,
+      "properties": {
+        "age": 55,
+        "genre": "homme",
+        "metiers": [
+          "specialiste_oceans",
+          "survivaliste"
+        ],
+        "guildes": [
+          "Guilde des Profondeurs"
+        ],
+        "tremens_signature": "pieds perpetuellement fripes, sentent les micro-variations de debit",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_ville_sibaya",
+        "dialecte": "Creuses hydraulique, pressions longues -- le Contact suit le rythme de l'eau"
+      }
+    },
+    {
+      "id": "actor_citoyen_thandeka_sudouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Maitresse cartographe de Mathamo. C'est elle qui a forme Senzo a la cartographie tactile -- ses avant-bras portent la carte de tout le reseau souterrain des Creuses.",
+      "synthesis": "Maitresse cartographe de Mathamo, 58 ans, formatrice de Senzo, avant-bras couverts de cartes tactiles.",
+      "weight": 0.65,
+      "properties": {
+        "age": 58,
+        "genre": "femme",
+        "metiers": [
+          "cartographe"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "aucun tremens perceptible -- le calcaire de Mathamo est le plus calme des Creuses",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_village_mathamo",
+        "dialecte": "Creuses hydraulique, specialise en tracage -- ses doigts dessinent plus qu'ils ne pressent"
+      }
+    },
+    {
+      "id": "actor_citoyen_gcina",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Apprenti cartographe de Mathamo, yeux fermes en permanence quand il travaille. Ses mains apprennent les tunnels avec une precision que Thandeka dit superieure a la sienne au meme age.",
+      "synthesis": "Apprenti cartographe de Mathamo, 22 ans, toucher exceptionnellement precis.",
+      "weight": 0.5,
+      "properties": {
+        "age": 22,
+        "genre": "homme",
+        "metiers": [
+          "cartographe",
+          "speleologue"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "doigts qui frissonnent face a une roche nouvelle -- le corps enregistre",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_village_mathamo",
+        "dialecte": "Creuses hydraulique, tracage lent et meticuleux sur l'avant-bras"
+      }
+    },
+    {
+      "id": "actor_citoyen_lindiwe_sudouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Geologue de Mathamo, specialiste du calcaire karstique. Elle leche les parois pour determiner l'age de la dissolution. Sa langue distingue sept stades de calcaire.",
+      "synthesis": "Geologue de Mathamo, 39 ans, lit l'age du calcaire par la langue, sept stades de dissolution.",
+      "weight": 0.55,
+      "properties": {
+        "age": 39,
+        "genre": "femme",
+        "metiers": [
+          "specialiste_roche",
+          "cartographe"
+        ],
+        "guildes": [
+          "Guilde des Profondeurs",
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "langue qui se contracte involontairement devant une roche inconnue",
+        "calibration": "basses",
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_village_mathamo",
+        "dialecte": "Creuses hydraulique, contact precis du bout des doigts -- influence des Salines ou elle a passe un an"
+      }
+    },
+    {
+      "id": "actor_citoyen_khanya",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "L'ancienne du village. En tremens d'Os permanent depuis huit ans. Ses trois doigts sur le sol lisent des frequences que personne d'autre ne percoit. C'est elle qui enseigne le geste inconnu.",
+      "synthesis": "Ancienne du Village des Sourds, 70 ans, en tremens d'Os, gardienne du geste inconnu.",
+      "weight": 0.75,
+      "properties": {
+        "age": 70,
+        "genre": "femme",
+        "metiers": [
+          "predicteur"
+        ],
+        "guildes": [
+          "Guilde du Sens"
+        ],
+        "tremens_signature": "tremens d'Os permanent -- le corps et le sol sont devenus un seul instrument",
+        "calibration": "basses",
+        "surdite": true,
+        "role_narratif": "enseigne le geste inconnu a Nandi (Ch. III)",
+        "archipel": "space_village_sourds",
+        "residence": "space_village_sourds",
+        "dialecte": "Contact a 3 doigts, le plus raffine de Contre-Terre -- 300 gestes uniques"
+      }
+    },
+    {
+      "id": "actor_citoyen_mandla_sourds",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Gardien des canaux d'eau bioluminescents. Il entretient les rigoles qui alimentent le village et les filaments qui les eclairent. Sourd de naissance, il lit l'eau par ses pieds.",
+      "synthesis": "Gardien des canaux du Village des Sourds, 44 ans, sourd de naissance, entretient rigoles et bioluminescence.",
+      "weight": 0.6,
+      "properties": {
+        "age": 44,
+        "genre": "homme",
+        "metiers": [
+          "specialiste_oceans",
+          "biologiste"
+        ],
+        "guildes": [
+          "Guilde du Sens"
+        ],
+        "tremens_signature": "pieds qui tapent le sol en rythme avec le debit des rigoles -- synchronisation inconsciente",
+        "calibration": "basses",
+        "surdite": true,
+        "archipel": "space_village_sourds",
+        "residence": "space_village_sourds",
+        "dialecte": "Contact a 3 doigts, specialise en debit hydraulique -- chaque variation de pression est un mot"
+      }
+    },
+    {
+      "id": "actor_citoyen_zodwa",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Biologiste du village, specialiste des filaments bioluminescents. Elle cultive les colonies fongiques qui eclairent les cavernes et sait les multiplier par bouturage.",
+      "synthesis": "Biologiste du Village des Sourds, 36 ans, specialiste des filaments bioluminescents.",
+      "weight": 0.55,
+      "properties": {
+        "age": 36,
+        "genre": "femme",
+        "metiers": [
+          "biologiste"
+        ],
+        "guildes": [
+          "Guilde du Sens"
+        ],
+        "tremens_signature": "frissonnement des phalanges quand les filaments changent de luminosite",
+        "calibration": "basses",
+        "surdite": true,
+        "archipel": "space_village_sourds",
+        "residence": "space_village_sourds",
+        "dialecte": "Contact a 3 doigts, gestes precis et legers -- elle touche tout comme elle touche les filaments"
+      }
+    },
+    {
+      "id": "actor_citoyen_ayize",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Ne sourd il y a onze ans. Le plus jeune a maitriser le Contact a 3 doigts avec fluidite. Ses mains bougent si vite que les visiteurs de surface ne suivent pas.",
+      "synthesis": "Enfant du Village des Sourds, 11 ans, ne sourd, Contact a 3 doigts d'une fluidite precoce.",
+      "weight": 0.5,
+      "properties": {
+        "age": 11,
+        "genre": "homme",
+        "metiers": [],
+        "guildes": [],
+        "tremens_signature": "aucun tremens -- le corps n'a pas encore muri dans le sol volcanique",
+        "calibration": "basses",
+        "surdite": true,
+        "archipel": "space_village_sourds",
+        "residence": "space_village_sourds",
+        "dialecte": "Contact a 3 doigts, vitesse exceptionnelle pour son age"
+      }
+    },
+    {
+      "id": "actor_citoyen_sisanda",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nee sourde, sept ans. Elle grimpe les parois des cavernes avec une agilite qui inquiete les adultes. Ses pieds nus sont sa seule connexion au monde vibratoire.",
+      "synthesis": "Enfant du Village des Sourds, 7 ans, nee sourde, grimpeuse instinctive des parois.",
+      "weight": 0.45,
+      "properties": {
+        "age": 7,
+        "genre": "femme",
+        "metiers": [],
+        "guildes": [],
+        "tremens_signature": "aucun",
+        "calibration": "basses",
+        "surdite": true,
+        "archipel": "space_village_sourds",
+        "residence": "space_village_sourds",
+        "dialecte": "Contact a 3 doigts, en apprentissage -- ses gestes sont encore imprecis mais expressifs"
+      }
+    },
+    {
+      "id": "actor_citoyen_ntombi_centresud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Predictrice du village, sourde depuis l'age de seize ans apres une exposition prolongee aux infra-basses de la faille. Ses pieds lisent le sol avec une precision que la surface ne connait pas.",
+      "synthesis": "Predictrice du Village des Sourds, 52 ans, devenue sourde a 16 ans, lecture au sol la plus fine de Contre-Terre.",
+      "weight": 0.6,
+      "properties": {
+        "age": 52,
+        "genre": "femme",
+        "metiers": [
+          "predicteur"
+        ],
+        "guildes": [
+          "Guilde du Sens"
+        ],
+        "tremens_signature": "tremens des pieds intense -- vomit encore aux changements de frequence profonds",
+        "calibration": "larges",
+        "surdite": true,
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_village_sourds",
+        "dialecte": "Contact a 3 doigts acquis, conserve des traces du dialecte urgent des Chaudes"
+      }
+    },
+    {
+      "id": "actor_citoyen_fundiswa",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Cartographe du village, trace les galeries entre le Village et la surface. Seul lien regulier avec le monde d'en haut. Ses avant-bras portent la carte du chemin que l'expedition empruntera.",
+      "synthesis": "Cartographe du Village des Sourds, 48 ans, trace les galeries vers la surface, lien avec le monde d'en haut.",
+      "weight": 0.6,
+      "properties": {
+        "age": 48,
+        "genre": "homme",
+        "metiers": [
+          "cartographe",
+          "speleologue"
+        ],
+        "guildes": [
+          "Guilde du Lien",
+          "Guilde des Profondeurs"
+        ],
+        "tremens_signature": "doigts qui tracent des chemins sur toute surface qu'il touche",
+        "calibration": "basses",
+        "surdite": true,
+        "archipel": "space_village_sourds",
+        "residence": "space_village_sourds",
+        "dialecte": "Contact a 3 doigts pour le village, Contact hydraulique des Creuses en surface -- bilingue"
+      }
+    },
+    {
+      "id": "actor_citoyen_nolwazi_sourds",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Cuisiniere du village, maitrise la preparation de bouillies a partir des champignons et lichens des profondeurs. Ses doigts sont toujours humides et taches de pigments fongiques.",
+      "synthesis": "Cuisiniere du Village des Sourds, 33 ans, maitrise de la cuisine fongique des profondeurs.",
+      "weight": 0.5,
+      "properties": {
+        "age": 33,
+        "genre": "femme",
+        "metiers": [
+          "cuisinier",
+          "biologiste"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "aucun tremens notable",
+        "calibration": "basses",
+        "surdite": true,
+        "archipel": "space_village_sourds",
+        "residence": "space_village_sourds",
+        "dialecte": "Contact a 3 doigts, doigts humides de cuisson -- son Contact laisse une trace moite"
+      }
+    },
+    {
+      "id": "actor_citoyen_qhawe",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Doyen des caravaniers, 37 traversees de la Longue. Connait chaque veine de roche stable par la frequence sous ses pieds. Son corps parle cinq dialectes de Contact sans effort.",
+      "synthesis": "Veteran caravanier, 59 ans, 37 traversees de la Longue, polyglotte tactile a cinq dialectes.",
+      "weight": 0.65,
+      "properties": {
+        "age": 59,
+        "genre": "homme",
+        "metiers": [
+          "survivaliste",
+          "cartographe"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "seuil de tremens anormalement haut -- le corps supporte les changements de frequence sans nausee",
+        "calibration": "larges",
+        "routes_connues": [
+          "La Longue",
+          "La Nerveuse",
+          "route Creuses-Sud",
+          "route Sud-Est"
+        ],
+        "archipel": "space_archipel_sud",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "polyglotte tactile -- Sud (base), Nord-Est rapide, Ouest compensatoire, Creuses vertical, Nord lourd"
+      }
+    },
+    {
+      "id": "actor_citoyen_fikile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Messagere de caravane, fidelite parfaite. Elle recoit un Contact et le retransmet a l'identique apres des jours de marche. Ses mains sont la memoire du monde entre les archipels.",
+      "synthesis": "Messagere caravaniere, 31 ans, fidelite de transmission parfaite, memoire tactile exceptionnelle.",
+      "weight": 0.6,
+      "properties": {
+        "age": 31,
+        "genre": "femme",
+        "metiers": [
+          "cartographe",
+          "survivaliste"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "mains qui repetent des micro-gestes en dormant -- le corps repete le message a transmettre",
+        "calibration": "hautes",
+        "routes_connues": [
+          "La Nerveuse",
+          "La Muette",
+          "route Nord-Est/Sud"
+        ],
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "polyglotte tactile -- Nord-Est rapide (base), Sud lent, Salines cristallin, Chaudes urgent"
+      }
+    },
+    {
+      "id": "actor_citoyen_siphamandla_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Apprenti caravanier de dix-sept ans, enfant metis sismique (mere du Sud, pere du Nord-Est). Son corps supporte les changements de frequence mieux que les adultes. Premiere traversee en cours.",
+      "synthesis": "Apprenti caravanier, 17 ans, metis sismique Sud/Nord-Est, seuil de tremens eleve.",
+      "weight": 0.5,
+      "properties": {
+        "age": 17,
+        "genre": "homme",
+        "metiers": [
+          "survivaliste"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "nausees legeres mais supportables -- le corps s'adapte vite, comme tous les metis sismiques",
+        "calibration": "larges",
+        "routes_connues": [
+          "La Longue (en cours)"
+        ],
+        "archipel": "space_archipel_sud",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "Contact de transit basique plus dialecte du Sud -- apprend les autres en route"
+      }
+    },
+    {
+      "id": "actor_citoyen_busisiwe_ouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Cuisiniere de caravane, sait preparer la bouillie a partir de n'importe quel ingredient de n'importe quel archipel. Son odeur change selon la derniere route -- elle porte les epices de tous les mondes.",
+      "synthesis": "Cuisiniere caravaniere, 42 ans, adapte la bouillie a chaque archipel, porte les odeurs de tous les mondes.",
+      "weight": 0.55,
+      "properties": {
+        "age": 42,
+        "genre": "femme",
+        "metiers": [
+          "cuisinier",
+          "survivaliste"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "doigts qui goutent l'air comme un aeromaitre -- la cuisine est son Contact avec le monde",
+        "calibration": "larges",
+        "routes_connues": [
+          "La Longue",
+          "route Ouest-Nord",
+          "route Ouest-Creuses"
+        ],
+        "archipel": "space_archipel_ouest",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "polyglotte tactile -- Ouest compensatoire (base), Sud, Nord, Creuses"
+      }
+    },
+    {
+      "id": "actor_citoyen_lethiwe",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Caravanier-ecouteur, le nez colle au sol pendant les pauses. Ses oreilles entendent les repliques a travers les veines de roche. Il choisit les routes par la frequence, pas par la distance.",
+      "synthesis": "Caravanier-ecouteur, 38 ans, choisit les routes par la frequence sismique des veines.",
+      "weight": 0.55,
+      "properties": {
+        "age": 38,
+        "genre": "homme",
+        "metiers": [
+          "ecouteur",
+          "survivaliste"
+        ],
+        "guildes": [
+          "Guilde du Sens",
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "tete penchee a gauche en permanence -- oreille dominante tournee vers le sol",
+        "calibration": "basses",
+        "routes_connues": [
+          "La Muette",
+          "La Nerveuse",
+          "route Nord-Sud"
+        ],
+        "archipel": "space_archipel_nord",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "polyglotte tactile -- Nord lourd (base), Sud, Nord-Est, Chaudes"
+      }
+    },
+    {
+      "id": "actor_citoyen_xolani_est",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Caravanier explosiviste, transporte les charges de sel et les meches de Nkosazana. Ses gestes sont les plus lents de la caravane -- un homme qui marche comme s'il portait un nouveau-ne.",
+      "synthesis": "Caravanier-explosiviste, 46 ans, transporte les charges des Salines, gestes d'une lenteur deliberee.",
+      "weight": 0.55,
+      "properties": {
+        "age": 46,
+        "genre": "homme",
+        "metiers": [
+          "specialiste_explosifs",
+          "survivaliste"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "mains immobiles meme en tremens -- sur-entrainement d'explosiviste",
+        "calibration": "hautes",
+        "routes_connues": [
+          "route Est-Sud",
+          "route Est-Chaudes",
+          "La Muette"
+        ],
+        "archipel": "space_archipel_est",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "polyglotte tactile -- Salines cristallin (base), Sud, Chaudes, Creuses"
+      }
+    },
+    {
+      "id": "actor_citoyen_nonhle",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Caravaniere-cartographe, dessine les routes sur ses propres bras avec de l'encre de champignon. Quand ses bras sont pleins, elle efface et recommence. Vingt-deux traversees.",
+      "synthesis": "Caravaniere-cartographe, 50 ans, 22 traversees, carte vivante sur ses propres bras.",
+      "weight": 0.55,
+      "properties": {
+        "age": 50,
+        "genre": "femme",
+        "metiers": [
+          "cartographe",
+          "survivaliste"
+        ],
+        "guildes": [
+          "Guilde du Lien"
+        ],
+        "tremens_signature": "doigts qui dessinent des tracés sur tout ce qu'elle touche -- tic de cartographe permanent",
+        "calibration": "larges",
+        "routes_connues": [
+          "La Longue",
+          "route Creuses-Sud",
+          "route Creuses-Chaudes",
+          "La Nerveuse"
+        ],
+        "archipel": "space_archipel_sud_ouest",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "polyglotte tactile -- Creuses hydraulique (base), Sud, Ouest, Nord-Est"
+      }
+    },
+    {
+      "id": "actor_citoyen_dumisa_nordest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Ancien predicteur des Seches, parti apres que ses predictions aient ete ignorees trois fois de suite. Vit seul sur un promontoire de basalte entre le Sud et l'Ouest, les pieds dans le vent.",
+      "synthesis": "Hermite-predicteur, 64 ans, ancien de Mhluzi, vit seul entre le Sud et l'Ouest apres trois predictions ignorees.",
+      "weight": 0.55,
+      "properties": {
+        "age": 64,
+        "genre": "homme",
+        "metiers": [
+          "predicteur"
+        ],
+        "guildes": [],
+        "tremens_signature": "tremens permanent des pieds, vomit seul sur son promontoire quand la frequence monte",
+        "calibration": "hautes",
+        "raison_isolement": "trois predictions de magnitude 7+ ignorees par le Consortium -- la troisieme s'est realisee",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "Nord-Est rapide degrade -- n'a plus personne a qui parler en Contact depuis des annees"
+      }
+    },
+    {
+      "id": "actor_citoyen_lungelo",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Tisserande exilee de Ndaba. A coupe une corde -- l'interdit absolu des grimpeurs. Vit dans une grotte entre les Creuses et le desert, fabrique des cordes que personne ne vient chercher.",
+      "synthesis": "Tisserande exilee, 37 ans, bannie de Ndaba pour avoir coupe une corde, vit seule entre les Creuses et le desert.",
+      "weight": 0.5,
+      "properties": {
+        "age": 37,
+        "genre": "femme",
+        "metiers": [
+          "escalade"
+        ],
+        "guildes": [],
+        "tremens_signature": "mains qui se ferment involontairement -- le reflexe de la corde qu'elle a coupee",
+        "calibration": "basses",
+        "raison_isolement": "a coupe une corde pour sauver une vie, mais couper une corde est un interdit absolu",
+        "archipel": "space_archipel_sud",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "Sud lent, degrade par l'isolement -- ses gestes sont devenus hesitants"
+      }
+    },
+    {
+      "id": "actor_citoyen_thokozile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Meteorologue solitaire installee pres de la Dent Noire. Elle lit l'atmosphere depuis ce point fixe, envoie ses lectures par caravane. Son doigt mouille leve est le premier geste que les caravaniers voient en arrivant.",
+      "synthesis": "Meteorologue solitaire, 53 ans, poste d'observation a la Dent Noire, envoie ses lectures par caravane.",
+      "weight": 0.55,
+      "properties": {
+        "age": 53,
+        "genre": "femme",
+        "metiers": [
+          "meteorologue"
+        ],
+        "guildes": [
+          "Guilde du Sens"
+        ],
+        "tremens_signature": "doigt mouille perpetuellement leve -- le vent est sa conversation permanente",
+        "calibration": "basses",
+        "raison_isolement": "choix delibere -- la Dent Noire est le meilleur point de lecture atmospherique du monde",
+        "archipel": "space_archipel_nord",
+        "residence": "space_zone_dent_noire",
+        "dialecte": "Nord lourd, simplifie -- communique surtout en Contact de transit avec les caravaniers"
+      }
+    },
+    {
+      "id": "actor_citoyen_wakhile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Ancien mineur de Mantolo, devenu aveugle apres un eboulement. Vit seul pres de la Faille de Khensi, ou il ecoute les infra-basses que ses yeux ne peuvent plus voir. Les ecouteurs en formation le consultent.",
+      "synthesis": "Mineur aveugle, 61 ans, vit pres de la Faille de Khensi, consultant pour les ecouteurs en formation.",
+      "weight": 0.55,
+      "properties": {
+        "age": 61,
+        "genre": "homme",
+        "metiers": [
+          "mineur",
+          "ecouteur"
+        ],
+        "guildes": [
+          "Guilde des Profondeurs"
+        ],
+        "tremens_signature": "corps entier qui vibre avec la faille -- les 0.3 Hz resonnent dans ses os en permanence",
+        "calibration": "basses",
+        "raison_isolement": "eboulement a Mantolo l'a rendu aveugle -- la faille est devenue ses yeux",
+        "archipel": "space_archipel_nord",
+        "residence": "space_zone_faille_khensi",
+        "dialecte": "Nord lourd, enrichi par les infra-basses de Khensi -- son Contact est si profond qu'il fait mal"
+      }
+    },
+    {
+      "id": "actor_citoyen_thandiwe",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Biologiste nomade qui ne s'installe nulle part. Elle suit les mycéliums entre les archipels, cartographie les reseaux fongiques souterrains. Les champignons ne connaissent pas de frontieres.",
+      "synthesis": "Biologiste nomade, 45 ans, suit les myceliums entre les archipels, cartographie les reseaux fongiques.",
+      "weight": 0.55,
+      "properties": {
+        "age": 45,
+        "genre": "femme",
+        "metiers": [
+          "biologiste",
+          "survivaliste"
+        ],
+        "guildes": [
+          "Guilde du Sens"
+        ],
+        "tremens_signature": "mains a plat sur le sol pendant de longues minutes -- lit le vivant sous la surface",
+        "calibration": "larges",
+        "raison_isolement": "pas un exil -- un choix de methode. Les myceliums ne s'arretent pas aux frontieres des archipels",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_zone_desert_sismique",
+        "dialecte": "Chaudes urgent (base), enrichi de Creuses hydraulique et Contact de transit"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "space_ville_sibaya",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_vuyelwa",
+      "target": "space_ville_sibaya",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_buhle_sudouest",
+      "target": "space_ville_sibaya",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_sudouest",
+      "target": "space_ville_sibaya",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_mthunzi",
+      "target": "space_ville_sibaya",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sudouest",
+      "target": "space_ville_sibaya",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_sudouest",
+      "target": "space_ville_sibaya",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "space_village_mathamo",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_gcina",
+      "target": "space_village_mathamo",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sudouest",
+      "target": "space_village_mathamo",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "depuis": "15 ans"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "space_village_sourds",
+      "type": "habite",
+      "weight": 0.9,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandla_sourds",
+      "target": "space_village_sourds",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_zodwa",
+      "target": "space_village_sourds",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_ayize",
+      "target": "space_village_sourds",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_sisanda",
+      "target": "space_village_sourds",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombi_centresud",
+      "target": "space_village_sourds",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "36 ans"
+      }
+    },
+    {
+      "source": "actor_citoyen_fundiswa",
+      "target": "space_village_sourds",
+      "type": "habite",
+      "weight": 0.8,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_nolwazi_sourds",
+      "target": "space_village_sourds",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "depuis": "naissance"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "space_zone_desert_sismique",
+      "type": "parcourt",
+      "weight": 0.8,
+      "properties": {
+        "mode": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "space_zone_desert_sismique",
+      "type": "parcourt",
+      "weight": 0.8,
+      "properties": {
+        "mode": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphamandla_sud",
+      "target": "space_zone_desert_sismique",
+      "type": "parcourt",
+      "weight": 0.7,
+      "properties": {
+        "mode": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_busisiwe_ouest",
+      "target": "space_zone_desert_sismique",
+      "type": "parcourt",
+      "weight": 0.8,
+      "properties": {
+        "mode": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "space_zone_desert_sismique",
+      "type": "parcourt",
+      "weight": 0.8,
+      "properties": {
+        "mode": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_est",
+      "target": "space_zone_desert_sismique",
+      "type": "parcourt",
+      "weight": 0.8,
+      "properties": {
+        "mode": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "space_zone_desert_sismique",
+      "type": "parcourt",
+      "weight": 0.8,
+      "properties": {
+        "mode": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisa_nordest",
+      "target": "space_zone_desert_sismique",
+      "type": "habite",
+      "weight": 0.6,
+      "properties": {
+        "mode": "ermite"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungelo",
+      "target": "space_zone_desert_sismique",
+      "type": "habite",
+      "weight": 0.6,
+      "properties": {
+        "mode": "exilee"
+      }
+    },
+    {
+      "source": "actor_citoyen_thokozile",
+      "target": "space_zone_dent_noire",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "mode": "poste d'observation"
+      }
+    },
+    {
+      "source": "actor_citoyen_wakhile",
+      "target": "space_zone_faille_khensi",
+      "type": "habite",
+      "weight": 0.7,
+      "properties": {
+        "mode": "ermite"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandiwe",
+      "target": "space_zone_desert_sismique",
+      "type": "parcourt",
+      "weight": 0.7,
+      "properties": {
+        "mode": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_vuyelwa",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "maitresse-apprentie, Nombuso a forme Vuyelwa aux grottes inferieures"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_buhle_sudouest",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "collegues de speleo, descendent ensemble depuis 15 ans"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_nomalanga_sudouest",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "Nomalanga encode les parcours que Nombuso a explores"
+      }
+    },
+    {
+      "source": "actor_citoyen_vuyelwa",
+      "target": "actor_citoyen_mthunzi",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Vuyelwa supervise les descentes de Mthunzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_buhle_sudouest",
+      "target": "actor_citoyen_sandile_sudouest",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Buhle creuse les canaux que Sandile entretient"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_sudouest",
+      "target": "actor_citoyen_nomalanga_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Zoleka cuisine les champignons des grottes que Nomalanga cartographie"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_sudouest",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "les eaux de Sandile coulent dans les grottes de Nombuso"
+      }
+    },
+    {
+      "source": "actor_citoyen_mthunzi",
+      "target": "actor_citoyen_buhle_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Mthunzi apprend la percussion du calcaire aupres de Buhle"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sudouest",
+      "target": "actor_citoyen_thandeka_sudouest",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "Nomalanga encode les cordes, Thandeka encode les bras -- deux systemes de cartographie complementaires"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "actor_citoyen_gcina",
+      "type": "connait",
+      "weight": 0.8,
+      "properties": {
+        "relation": "maitresse-apprenti, Thandeka forme Gcina au tracage tactile"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "actor_citoyen_lindiwe_sudouest",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "collaborent -- Lindiwe identifie la roche, Thandeka la cartographie"
+      }
+    },
+    {
+      "source": "actor_citoyen_gcina",
+      "target": "actor_citoyen_lindiwe_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Gcina apprend la geologie du calcaire aupres de Lindiwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sudouest",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Lindiwe analyse les roches que Nombuso decouvre en speleo"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "actor_citoyen_ntombi_centresud",
+      "type": "connait",
+      "weight": 0.8,
+      "properties": {
+        "relation": "Khanya forme Ntombi au tremens d'Os -- la seule autre predictrice du village"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "actor_citoyen_mandla_sourds",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "Mandla ajuste les canaux selon les lectures de Khanya"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "actor_citoyen_ayize",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Khanya enseigne le geste inconnu aux enfants -- Ayize est le plus avance"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandla_sourds",
+      "target": "actor_citoyen_zodwa",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "l'eau de Mandla nourrit les filaments de Zodwa"
+      }
+    },
+    {
+      "source": "actor_citoyen_zodwa",
+      "target": "actor_citoyen_nolwazi_sourds",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Zodwa cultive, Nolwazi cuisine -- les champignons passent de l'une a l'autre"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombi_centresud",
+      "target": "actor_citoyen_fundiswa",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Ntombi predit, Fundiswa trace les chemins -- leurs roles sont complementaires"
+      }
+    },
+    {
+      "source": "actor_citoyen_ayize",
+      "target": "actor_citoyen_sisanda",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "les deux enfants du village, grandissent ensemble"
+      }
+    },
+    {
+      "source": "actor_citoyen_fundiswa",
+      "target": "actor_citoyen_mandla_sourds",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Fundiswa cartographie les galeries, Mandla entretient les canaux qui les longent"
+      }
+    },
+    {
+      "source": "actor_citoyen_nolwazi_sourds",
+      "target": "actor_citoyen_khanya",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Nolwazi prepare les bouillies de Khanya -- adapte la texture a ses mains tremblantes"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_busisiwe_ouest",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "traversent ensemble depuis 12 ans -- Busisiwe nourrit les caravanes de Qhawe"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_siphamandla_sud",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "Qhawe forme Siphamandla -- son premier apprenti"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_lethiwe",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Lethiwe lit les frequences, Qhawe choisit la route -- binome de navigation"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_nonhle",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Nonhle cartographie les routes que Qhawe a parcourues 37 fois"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_xolani_est",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Fikile porte les messages, Xolani porte les charges -- meme caravane, roles differents"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_busisiwe_ouest",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "deux femmes dans la meme caravane, partagent les quarts de nuit"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphamandla_sud",
+      "target": "actor_citoyen_lethiwe",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Siphamandla apprend la lecture des frequences aupres de Lethiwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_est",
+      "target": "actor_citoyen_nonhle",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Xolani connait les explosifs, Nonhle connait les chemins -- se croisent souvent"
+      }
+    },
+    {
+      "source": "actor_citoyen_busisiwe_ouest",
+      "target": "actor_citoyen_nonhle",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "anciennes des Creuses toutes les deux -- se reconnaissent a l'odeur de calcaire humide"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_thokozile",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Qhawe s'arrete a la Dent Noire a chaque traversee -- Thokozile lui donne les lectures atmospheriques"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_dumisa_nordest",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "Qhawe laisse des rations au promontoire de Dumisa -- respect entre vieux routiers"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Nonhle est nee a Sibaya, Nombuso est sa tante -- les liens restent malgre le nomadisme"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_thokozile",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Fikile transmet les lectures de Thokozile aux archipels"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "actor_citoyen_wakhile",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Lethiwe consulte Wakhile a chaque passage pres de Khensi -- le vieil aveugle entend ce que les instruments ne disent pas"
+      }
+    },
+    {
+      "source": "actor_citoyen_fundiswa",
+      "target": "actor_citoyen_thandeka_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Fundiswa echange des cartes tactiles avec Thandeka -- le souterrain profond rejoint les Creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_khanya",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "Nombuso a visite le Village des Sourds trois fois -- Khanya l'a accueillie a chaque fois"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandiwe",
+      "target": "actor_citoyen_zodwa",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Thandiwe apporte des echantillons fongiques de surface, Zodwa les compare aux souches du village"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandiwe",
+      "target": "actor_citoyen_lindiwe_sudouest",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "les deux biologistes/geologues echangent des observations sur les myceliums du calcaire"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisa_nordest",
+      "target": "actor_citoyen_wakhile",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "deux ermites qui se comprennent -- le predicteur ignore et le mineur aveugle"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungelo",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "connait",
+      "weight": 0.3,
+      "properties": {
+        "relation": "Lungelo fournissait des cordes a Sibaya avant son exil -- Nombuso s'en souvient"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_vuyelwa",
+      "type": "guide",
+      "weight": 0.7,
+      "properties": {
+        "domaine": "speleo grottes inferieures"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "actor_citoyen_gcina",
+      "type": "guide",
+      "weight": 0.8,
+      "properties": {
+        "domaine": "cartographie tactile"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "actor_citoyen_ntombi_centresud",
+      "type": "guide",
+      "weight": 0.7,
+      "properties": {
+        "domaine": "tremens d'Os et geste inconnu"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_siphamandla_sud",
+      "type": "guide",
+      "weight": 0.7,
+      "properties": {
+        "domaine": "routes caravanieres"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "space_archipel_sud_ouest",
+      "type": "membre_de",
+      "weight": 0.7,
+      "properties": {
+        "role": "doyenne des speleos"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "space_archipel_sud_ouest",
+      "type": "membre_de",
+      "weight": 0.7,
+      "properties": {
+        "role": "maitresse cartographe"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "space_village_sourds",
+      "type": "membre_de",
+      "weight": 0.9,
+      "properties": {
+        "role": "ancienne, gardienne du geste inconnu"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "space_zone_la_longue",
+      "type": "parcourt",
+      "weight": 0.8,
+      "properties": {
+        "frequence": "3-4 fois par an depuis 37 ans"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "space_zone_la_nerveuse",
+      "type": "parcourt",
+      "weight": 0.6,
+      "properties": {
+        "frequence": "1-2 fois par an"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "space_zone_la_nerveuse",
+      "type": "parcourt",
+      "weight": 0.7,
+      "properties": {
+        "frequence": "route principale de messagerie"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "space_zone_la_muette",
+      "type": "parcourt",
+      "weight": 0.6,
+      "properties": {
+        "frequence": "2 fois par an"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "space_zone_la_muette",
+      "type": "parcourt",
+      "weight": 0.7,
+      "properties": {
+        "frequence": "route preferee -- le silence l'aide a ecouter"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "space_zone_la_longue",
+      "type": "parcourt",
+      "weight": 0.7,
+      "properties": {
+        "frequence": "route principale, 22 traversees"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "space_ville_kahlamba",
+      "type": "commerce",
+      "weight": 0.6,
+      "properties": {
+        "echange": "apporte sel et tissus, repart avec cordes et rations"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "space_ville_sibaya",
+      "type": "commerce",
+      "weight": 0.5,
+      "properties": {
+        "echange": "apporte sel, repart avec champignons et expertise speleo"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_est",
+      "target": "space_village_nkosazana",
+      "type": "commerce",
+      "weight": 0.6,
+      "properties": {
+        "echange": "transporte sel et charges explosives de Nkosazana vers les Creuses et les Chaudes"
+      }
+    },
+    {
+      "source": "actor_citoyen_busisiwe_ouest",
+      "target": "space_ville_ingwe",
+      "type": "commerce",
+      "weight": 0.5,
+      "properties": {
+        "echange": "echange recettes et ingredients entre Ingwe et les autres archipels"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "actor_citoyen_senzo",
+      "type": "connait",
+      "weight": 0.8,
+      "properties": {
+        "relation": "a forme Senzo a la cartographie tactile a Mathamo -- ses avant-bras portent encore les tracés qu'elle lui a enseignes"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_senzo",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "a guide Senzo dans les grottes de Sibaya pendant sa formation a Mathamo"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sudouest",
+      "target": "actor_citoyen_senzo",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "a enseigne a Senzo les sept stades du calcaire pendant son sejour aux Creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisa_nordest",
+      "target": "actor_citoyen_nandi",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Dumisa a vu Nandi enfant a Mhluzi -- a reconnu le tremens en elle avant ses maitres"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_nandi",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "a porte un message de Nandi d'Iziphuku a Mhluzi -- le message sentait le tremens"
+      }
+    },
+    {
+      "source": "actor_citoyen_wakhile",
+      "target": "actor_citoyen_sihle",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "Sihle a etudie 6 mois a la Faille de Khensi -- Wakhile etait son mentor informel, celui qui ecoute sans instruments"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "actor_citoyen_sihle",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "a croise Sihle a Umzimkhulu -- respect mutuel entre ecouteurs"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_jabu",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "Jabu a grandi a Sibaya -- Nombuso l'a vu naitre et devenir speleo"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_sudouest",
+      "target": "actor_citoyen_jabu",
+      "type": "connait",
+      "weight": 0.7,
+      "properties": {
+        "relation": "Sandile a appris a Jabu a lire les eaux souterraines -- le gardien des eaux a forme le specialiste oceanique"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sudouest",
+      "target": "actor_citoyen_jabu",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "a encode les parcours de Jabu sur ses cordes a noeuds avant son depart"
+      }
+    },
+    {
+      "source": "actor_citoyen_busisiwe_ouest",
+      "target": "actor_citoyen_enama",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "a nourri Enama pendant ses deux saisons a Zama -- la bouillie des Roulantes lui donnait la nausee"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandiwe",
+      "target": "actor_citoyen_enama",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "deux biologistes qui se sont croisees a Bhekisisa -- Thandiwe a reconnu le Contact-monde d'Enama"
+      }
+    },
+    {
+      "source": "actor_citoyen_thokozile",
+      "target": "actor_citoyen_thabo",
+      "type": "connait",
+      "weight": 0.5,
+      "properties": {
+        "relation": "Thokozile a transmis des lectures atmospheriques a Thabo via caravane -- les deux lisent l'air par des methodes differentes"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_thabo",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "a transporte les tissus de Phakade destines a Thabo -- la commande la plus delicate de sa carriere"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_est",
+      "target": "actor_citoyen_inyoni",
+      "type": "connait",
+      "weight": 0.6,
+      "properties": {
+        "relation": "a travaille avec Inyoni a Nkosazana -- deux explosivistes qui comptent chaque charge avec la meme obsession"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_inyoni",
+      "type": "connait",
+      "weight": 0.4,
+      "properties": {
+        "relation": "a porte un message d'Inyoni de Nkosazana vers Bhekisisa -- le message comptait 47 mots exactement"
+      }
+    }
+  ]
+}

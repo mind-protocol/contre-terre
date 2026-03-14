@@ -1,0 +1,476 @@
+{
+  "cluster_id": "lore_narratives",
+  "description": "Myths, origin stories, proverbs, and rivalries of Contre-Terre -- extracted from LORE.md sections A (Origines), D (Querelles), E (Proverbes)",
+  "nodes": [
+
+    {
+      "id": "narrative_mythe_origine_sud",
+      "node_type": "narrative",
+      "type": "mythe_origine",
+      "content": "Au Sud, les humains ont toujours ete la -- nes de la roche comme les tubercules naissent de la terre. Le geste de Contact est le plus ancien connu : deux paumes pressees, lentes, symetriques, signifiant 'ici depuis toujours'.",
+      "synthesis": "Mythe d'origine du Sud : les humains sont nes de la roche, presents depuis toujours",
+      "weight": 0.6,
+      "properties": { "archipel": "space_archipel_sud" }
+    },
+    {
+      "id": "narrative_mythe_origine_nord_est",
+      "node_type": "narrative",
+      "type": "mythe_origine",
+      "content": "Au Nord-Est, les humains sont tombes du ciel -- pas comme une pluie, comme une chute. Quelque chose les a laches d'un endroit ou le sol ne tremblait pas. Le geste est bref, sec, violent : une claque sur l'avant-bras imitant l'impact.",
+      "synthesis": "Mythe d'origine des Seches : chute depuis un lieu sans tremblements, geste d'impact",
+      "weight": 0.6,
+      "properties": { "archipel": "space_archipel_nord_est" }
+    },
+    {
+      "id": "narrative_mythe_origine_ouest",
+      "node_type": "narrative",
+      "type": "mythe_origine",
+      "content": "Les Roulantes ne racontent pas l'arrivee mais le mouvement. Les humains ont toujours derive, comme les blocs de gres, sans origine ni destination. Le 'geste sans bord' -- un glissement de paume qui ne commence ni ne finit nulle part.",
+      "synthesis": "Mythe d'origine des Roulantes : derive perpetuelle, pas d'origine, pas de destination",
+      "weight": 0.6,
+      "properties": { "archipel": "space_archipel_ouest" }
+    },
+    {
+      "id": "narrative_mythe_origine_nord",
+      "node_type": "narrative",
+      "type": "mythe_origine",
+      "content": "Les Froides racontent que les humains sont sortis de la pierre -- pas nes, sortis, comme d'un tunnel. Umzimkhulu aurait ete trouvee, pas fondee, ses cinq niveaux deja creuses. La question n'est pas 'd'ou venons-nous' mais 'pourquoi sommes-nous remontes'.",
+      "synthesis": "Mythe d'origine des Froides : sortie de la pierre, cite deja creusee, question ouverte du retour",
+      "weight": 0.6,
+      "properties": { "archipel": "space_archipel_nord" }
+    },
+    {
+      "id": "narrative_mythe_origine_centre_sud",
+      "node_type": "narrative",
+      "type": "mythe_origine",
+      "content": "Les Chaudes racontent que le volcan les a craches -- produits du magma comme le basalte et le soufre. Le geste de Contact est une pression qui monte du poignet vers l'epaule, une eruption du bras. On ne craint pas sa mere.",
+      "synthesis": "Mythe d'origine des Chaudes : craches par le volcan, enfants du magma",
+      "weight": 0.6,
+      "properties": { "archipel": "space_archipel_centre_sud" }
+    },
+    {
+      "id": "narrative_mythe_origine_est",
+      "node_type": "narrative",
+      "type": "mythe_origine",
+      "content": "Les Salines racontent que les humains sont venus de la lumiere -- les cristaux de gypse, frappes par le soleil, concentrent assez de lumiere pour engendrer la vie. Les gens d'Umsizi la racontent les yeux fermes.",
+      "synthesis": "Mythe d'origine des Salines : nes de la lumiere concentree par les cristaux de gypse",
+      "weight": 0.6,
+      "properties": { "archipel": "space_archipel_est" }
+    },
+    {
+      "id": "narrative_mythe_origine_sud_ouest",
+      "node_type": "narrative",
+      "type": "mythe_origine",
+      "content": "Les Creuses racontent qu'il y avait des gens avant -- pas des humains, des etres d'avant qui vivaient dans les grottes avec un Contact que personne ne comprend plus. Le calcaire se souvient de quelqu'un, et ce n'est pas nous.",
+      "synthesis": "Mythe d'origine des Creuses : predecesseurs inconnus dans les grottes, memoire du calcaire",
+      "weight": 0.6,
+      "properties": { "archipel": "space_archipel_sud_ouest" }
+    },
+
+    {
+      "id": "narrative_mythe_zinhle_premier_contact",
+      "node_type": "narrative",
+      "type": "mythe",
+      "content": "Lors d'un seisme de Fracture, Zinhle a trouve deux enfants perdus dans le noir et le bruit. Elle a pose ses mains sur leurs epaules et ils ont compris : 'je suis la'. Le Contact est ne -- une langue inventee par les mains quand les voix ont echoue.",
+      "synthesis": "Zinhle et le Premier Contact : invention de la langue tactile pendant un seisme de Fracture",
+      "weight": 0.8,
+      "properties": { "figure": "Zinhle", "evenement": "Premier Contact" }
+    },
+    {
+      "id": "narrative_mythe_mazibuko_descente",
+      "node_type": "narrative",
+      "type": "mythe",
+      "content": "Mazibuko le Sourd est descendu seul dans le volcan. Quand il est remonte, il avait perdu le Contact -- ses mains bougeaient correctement mais ne disaient rien. 'Les mains sans voix.' Chaque nuit, il posait ses mains sur la roche et tremblait. La roche ne repondait jamais.",
+      "synthesis": "Mazibuko le Sourd : premiere descente solo, perte du Contact, mains sans voix",
+      "weight": 0.7,
+      "properties": { "figure": "Mazibuko", "evenement": "Premiere descente" }
+    },
+    {
+      "id": "narrative_mythe_thembalihle_demi_tour",
+      "node_type": "narrative",
+      "type": "mythe",
+      "content": "Thembalihle menait douze personnes vers la chambre magmatique pour le Consortium. Aux tubes de lave, elle a fait demi-tour. Le geste du 'demi-tour' -- main qui descend puis remonte -- peut signifier sagesse ou lachete. Personne n'a jamais tranche.",
+      "synthesis": "Thembalihle : expedition de douze qui a fait demi-tour aux tubes de lave, geste ambivalent",
+      "weight": 0.7,
+      "properties": { "figure": "Thembalihle", "evenement": "Expedition echouee" }
+    },
+    {
+      "id": "narrative_mythe_premier_contact_corde",
+      "node_type": "narrative",
+      "type": "mythe",
+      "content": "Kwanele de Ndaba a invente la triple tresse -- un troisieme brin en spirale inverse qui absorbe les vibrations laterales. Avant elle, le Contact-corde etait inutilisable en profondeur. Sa fille Nobanzi a defait ses cordes, et Kwanele a perdu le Contact avec elle pendant deux ans.",
+      "synthesis": "Kwanele et le premier Contact-corde : triple tresse, rupture mere-fille, reconciliation par la corde",
+      "weight": 0.7,
+      "properties": { "figure": "Kwanele", "evenement": "Invention Contact-corde" }
+    },
+    {
+      "id": "narrative_mythe_decouverte_tremens",
+      "node_type": "narrative",
+      "type": "mythe",
+      "content": "Dumisani le Muet, meilleur ecouteur de son epoque, est devenu sourd. Il a continue d'ecouter avec le corps -- les vibrations passaient par le calcanteum, le tibia, le bassin. Il a decouvert le tremens d'Os. Son corps s'etait recalibre. La surdite avait deplace l'ecoute.",
+      "synthesis": "Dumisani : decouverte du tremens d'Os par un ecouteur devenu sourd, recalibration du corps",
+      "weight": 0.75,
+      "properties": { "figure": "Dumisani", "evenement": "Decouverte du tremens" }
+    },
+
+    {
+      "id": "narrative_proverbe_sol_decide",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Le sol decide. Paume ouverte posee a plat sur le sol, breve, definitive.",
+      "synthesis": "La physique l'emporte sur la volonte humaine",
+      "weight": 0.5,
+      "properties": { "geste_contact": "paume posee a plat sur le sol", "usage": "universel" }
+    },
+    {
+      "id": "narrative_proverbe_pieds_savent",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Les pieds savent avant la tete. Confiance dans la perception corporelle plutot que dans le raisonnement.",
+      "synthesis": "Primaute du corps sur l'intellect -- proverbe des caravaniers",
+      "weight": 0.5,
+      "properties": { "geste_contact": "pied tape au sol une fois", "usage": "caravaniers" }
+    },
+    {
+      "id": "narrative_proverbe_cri_nom",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "On ne crie un nom que quand les mains ont echoue. Utiliser la voix est un aveu d'echec tactile.",
+      "synthesis": "La voix est un dernier recours -- dignite du Contact",
+      "weight": 0.5,
+      "properties": { "geste_contact": "mains ouvertes retournees, paumes vers le ciel", "usage": "universel" }
+    },
+    {
+      "id": "narrative_proverbe_tu_es_la",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Tu es la. Paume ouverte posee sur l'epaule. Le premier mot, le dernier mot, le seul mot que le Contact ne peut pas perdre.",
+      "synthesis": "Le geste fondateur du Contact -- presence pure",
+      "weight": 0.6,
+      "properties": { "geste_contact": "paume ouverte sur l'epaule", "usage": "universel" }
+    },
+    {
+      "id": "narrative_proverbe_hamac",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Le hamac ne tient pas a l'homme qui le quitte. Le deuil est la vibration residuelle apres le depart.",
+      "synthesis": "Sur le deuil -- les vivants oscillent encore apres la mort",
+      "weight": 0.5,
+      "properties": { "geste_contact": "main posee sur un hamac vide, sentant l'oscillation", "usage": "deuil" }
+    },
+    {
+      "id": "narrative_proverbe_corps_calendrier",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Le corps n'a pas de calendrier. Le corps sait quoi, pas quand. Battement de coeur arythmique sur le poignet.",
+      "synthesis": "Defense des predicteurs : precision du quoi, imprecision du quand",
+      "weight": 0.5,
+      "properties": { "geste_contact": "deux pressions arythmiques sur le poignet", "usage": "predicteurs" }
+    },
+    {
+      "id": "narrative_proverbe_dumisani",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Dumisani n'entendait rien et savait tout. Doigt pose sur l'oreille, puis retire et pose sur le poignet.",
+      "synthesis": "Le corps sait sans preuves -- cite quand les scientifiques demandent des preuves",
+      "weight": 0.5,
+      "properties": { "geste_contact": "doigt de l'oreille au poignet", "usage": "predicteurs", "figure": "Dumisani" }
+    },
+    {
+      "id": "narrative_proverbe_sipho",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Sipho dit que ca vient. Double sens : ironie (ca ne viendra jamais) ou avertissement (ca finit toujours par venir). Le ton du Contact tranche.",
+      "synthesis": "Ambivalence de la prediction -- moquerie ou vindication selon le ton",
+      "weight": 0.5,
+      "properties": { "geste_contact": "quatre pressions repetees sur l'epaule", "usage": "universel", "figure": "Sipho" }
+    },
+    {
+      "id": "narrative_proverbe_zanele",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Zanele savait et n'a rien dit, et c'etait la meilleure chose a dire. Paume vers le sol, immobile.",
+      "synthesis": "Sagesse du silence -- parfois ne rien faire est la meilleure prediction",
+      "weight": 0.5,
+      "properties": { "geste_contact": "paume ouverte vers le sol, immobile", "usage": "predicteurs", "figure": "Zanele" }
+    },
+    {
+      "id": "narrative_proverbe_trembles",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Tu trembles comme quelqu'un qui sait. Main posee sur le poignet de l'autre, sentant le tremens. Pas de reponse necessaire.",
+      "synthesis": "Reconnaissance entre predicteurs -- le tremens comme diagnostic",
+      "weight": 0.5,
+      "properties": { "geste_contact": "main sur le poignet, sentant le tremens", "usage": "predicteurs" }
+    },
+    {
+      "id": "narrative_proverbe_veine_pieds",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "La veine est la ou les pieds la trouvent, pas la ou la carte la met. Contre la cartographie abstraite.",
+      "synthesis": "Primaute du pied nu sur la carte -- proverbe des caravaniers",
+      "weight": 0.5,
+      "properties": { "geste_contact": "pied nu pose puis glisse sur le sol", "usage": "caravaniers" }
+    },
+    {
+      "id": "narrative_proverbe_khethiwe",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Le chemin n'est pas la ou tu crois qu'il est. Zigzag du doigt sur l'avant-bras.",
+      "synthesis": "Quand la route change, quand l'habitude ment -- proverbe de Khethiwe",
+      "weight": 0.5,
+      "properties": { "geste_contact": "zigzag du doigt sur l'avant-bras", "usage": "caravaniers", "figure": "Khethiwe" }
+    },
+    {
+      "id": "narrative_proverbe_phila",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Comme Phila l'a dit. Le message brut, sans interpretation, sans embellissement. Le geste exact.",
+      "synthesis": "Fidelite absolue du message -- proverbe des puristes du Contact",
+      "weight": 0.5,
+      "properties": { "geste_contact": "pression unique, ferme, centree", "usage": "caravaniers", "figure": "Phila" }
+    },
+    {
+      "id": "narrative_proverbe_quarante_deux_jours",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Quarante-deux jours seul, c'est quarante-deux jours avec le sol. Le sol est un compagnon -- il tremble, il ment, il change, mais il est la.",
+      "synthesis": "Solitude du caravanier : le sol comme compagnon imparfait",
+      "weight": 0.5,
+      "properties": { "geste_contact": "pied pose lentement, comme un salut", "usage": "caravaniers" }
+    },
+    {
+      "id": "narrative_proverbe_lindani",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Lindani a explose le mauvais mur et a trouve le bon monde. Poing ferme qui s'ouvre lentement.",
+      "synthesis": "L'erreur feconde -- patron des decouvertes accidentelles",
+      "weight": 0.5,
+      "properties": { "geste_contact": "poing ferme qui s'ouvre lentement", "usage": "explosivistes", "figure": "Lindani" }
+    },
+    {
+      "id": "narrative_proverbe_zenzele",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Ca a le gout de survivre. Langue qui touche le palais, puis pression sur l'epaule. La cuisine n'est pas un art du plaisir -- c'est un art de la survie.",
+      "synthesis": "Proverbe de Zenzele -- la survie a un gout, et il suffit",
+      "weight": 0.5,
+      "properties": { "geste_contact": "langue au palais, pression sur l'epaule", "usage": "cuisiniers", "figure": "Zenzele" }
+    },
+    {
+      "id": "narrative_proverbe_troisieme_main",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "La troisieme main. Le troisieme brin de la corde de Kwanele -- la solution qui n'est ni la premiere ni la deuxieme. Pression du pouce au centre de la paume.",
+      "synthesis": "La solution inattendue, le troisieme brin -- proverbe de Kwanele",
+      "weight": 0.5,
+      "properties": { "geste_contact": "pouce au centre de la paume, entre les tendons", "usage": "cordiers", "figure": "Kwanele" }
+    },
+    {
+      "id": "narrative_proverbe_air_ment_pas",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "L'air ne ment pas, mais il ne dit pas toute la verite. L'aeromaitre doit lire et deviner -- la frontiere entre les deux est invisible.",
+      "synthesis": "Proverbe des aeromaitres -- l'air dit ce qu'il contient, pas ce qui se cache",
+      "weight": 0.5,
+      "properties": { "geste_contact": "tissu tendu entre les mains, renifle", "usage": "aeromaitres" }
+    },
+    {
+      "id": "narrative_proverbe_mandla",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Mandla fermait les yeux et posait mieux que nous. Contact les yeux fermes : mains posees sur l'avant-bras sans regarder.",
+      "synthesis": "Contre l'arrogance de la vue -- proverbe des cordistes",
+      "weight": 0.5,
+      "properties": { "geste_contact": "mains sur l'avant-bras, yeux fermes", "usage": "cordistes", "figure": "Mandla" }
+    },
+    {
+      "id": "narrative_proverbe_roche_souvient",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "La roche se souvient de tout. Le granite vibre aux basses parce que les souvenirs les plus anciens sont les plus profonds. Les humains oublient. La roche, jamais.",
+      "synthesis": "Memoire de la roche -- proverbe des mineurs",
+      "weight": 0.5,
+      "properties": { "geste_contact": "paume posee longuement sur la paroi de roche", "usage": "mineurs" }
+    },
+    {
+      "id": "narrative_proverbe_pieds_thulani",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Les pieds de Thulani. Quelqu'un qui se tient entre deux choses et qui ne dort pas. La responsabilite comme insomnie.",
+      "synthesis": "La responsabilite permanente -- proverbe des Roulantes",
+      "weight": 0.5,
+      "properties": { "geste_contact": "pieds poses sur deux surfaces differentes, oscillation", "usage": "Roulantes", "figure": "Thulani" }
+    },
+    {
+      "id": "narrative_proverbe_construis_bas",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Construis en bas, pas en haut. Poing enfonce vers le sol. Premier geste enseigne aux apprentis batisseurs.",
+      "synthesis": "Sagesse architecturale de Gugu -- s'enfoncer dans le sol, pas le surplomber",
+      "weight": 0.5,
+      "properties": { "geste_contact": "poing enfonce vers le bas", "usage": "architectes", "figure": "Gugu" }
+    },
+    {
+      "id": "narrative_proverbe_kahlamba_bouge_pas",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Kahlamba ne bouge pas. C'est pour ca que Kahlamba pense que le monde ne bouge pas. L'insulte la plus elegante du lore.",
+      "synthesis": "L'immobilite comme arrogance -- insulte des Roulantes envers le Sud",
+      "weight": 0.5,
+      "properties": { "geste_contact": "pieds plantes, immobiles, exageres", "usage": "Roulantes" }
+    },
+    {
+      "id": "narrative_proverbe_mot_inconnu",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Il y a un mot que tu ne connais pas encore. Trois doigts -- pouce, index, majeur -- en triangle sur le dos de la main. Proverbe de Noma.",
+      "synthesis": "Humilite linguistique -- le Contact est plus grand que tout ce que tu en sais",
+      "weight": 0.5,
+      "properties": { "geste_contact": "trois doigts en triangle sur le dos de la main", "usage": "universel", "figure": "Noma" }
+    },
+    {
+      "id": "narrative_proverbe_terre_donne_reprend",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "La terre donne, mais la terre reprend. Proverbe de la Famine des Salines. Pouce presse sur la gorge.",
+      "synthesis": "Avertissement contre l'extraction excessive -- le sol se souvient de ce que tu as pris",
+      "weight": 0.5,
+      "properties": { "geste_contact": "pouce presse sur la gorge, bref", "usage": "Salines" }
+    },
+    {
+      "id": "narrative_proverbe_silence_charge",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Le silence est charge. Passe vite. Paume qui se ferme lentement, comprimant l'air. Un silence sismique n'est pas un silence -- c'est une accumulation.",
+      "synthesis": "Proverbe des speleo -- le silence sismique annonce la rupture",
+      "weight": 0.5,
+      "properties": { "geste_contact": "paume qui se ferme lentement", "usage": "speleo" }
+    },
+    {
+      "id": "narrative_proverbe_tu_entres",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Tu ne descends pas. Tu entres. Le volcan est un corps -- la roche est une chair, les failles sont des veines, la lave est un sang.",
+      "synthesis": "Le monde vertical comme corps vivant -- proverbe de la descente",
+      "weight": 0.5,
+      "properties": { "geste_contact": "main qui entre lentement dans un espace ferme", "usage": "expeditionnaires" }
+    },
+    {
+      "id": "narrative_proverbe_os_parlent",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Quand les os parlent, les instruments se taisent. Le moment ou le corps en sait plus que la machine -- passage de l'Echelle du Souffle a l'Echelle de Moelle.",
+      "synthesis": "Version radicale de la Capitulation -- le corps supplante l'instrument",
+      "weight": 0.5,
+      "properties": { "geste_contact": "main posee sur l'os du bras, puis retiree de l'instrument", "usage": "predicteurs" }
+    },
+    {
+      "id": "narrative_proverbe_meurt_pas_seul",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "On ne meurt pas seul. La main sur la main, la pression sur l'epaule, le dernier geste. Le Contact ne pardonne pas les mots non dits.",
+      "synthesis": "Proverbe du Contact final -- mourir sans contact est le pire destin",
+      "weight": 0.55,
+      "properties": { "geste_contact": "main posee sur la main du mourant", "usage": "universel" }
+    },
+    {
+      "id": "narrative_proverbe_sol_vibre_toujours",
+      "node_type": "narrative",
+      "type": "proverbe",
+      "content": "Le sol vibre. Il a toujours vibre. Il vibrera toujours. Premiere phrase apprise, derniere phrase oubliee.",
+      "synthesis": "Axiome fondamental de Contre-Terre -- la vibration est l'etat naturel du monde",
+      "weight": 0.55,
+      "properties": { "geste_contact": "pieds nus poses a plat, sentant la vibration", "usage": "universel" }
+    },
+
+    {
+      "id": "narrative_rivalite_seches_froides",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Les Froides croient aux instruments et aux chiffres. Les Seches croient au corps et au tremens. Quand un Froid dit 'les donnees montrent' et qu'un Seche repond par un tremblement volontaire des mains, le cercle du Consortium se fige. Sihle et Nandi incarnent cette querelle.",
+      "synthesis": "Rivalite Seches/Froides : corps contre instrument, tremens contre sismographe",
+      "weight": 0.7,
+      "properties": { "camp_1": "space_archipel_nord_est", "camp_2": "space_archipel_nord", "nature": "epistemologique" }
+    },
+    {
+      "id": "narrative_rivalite_creuses_chaudes",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Les Creuses connaissent les grottes -- le calcaire, le karstique, le confortable. Les Chaudes connaissent le feu -- le basalte, le soufre, le piemont. Les deux revendiquent la maitrise du monde souterrain. L'expedition de Senzo a inclus des deux -- Jabu (Creuses) et Thabo (Chaudes).",
+      "synthesis": "Rivalite Creuses/Chaudes : qui possede le monde souterrain -- grottes froides ou feu volcanique",
+      "weight": 0.65,
+      "properties": { "camp_1": "space_archipel_sud_ouest", "camp_2": "space_archipel_centre_sud", "nature": "territoriale" }
+    },
+    {
+      "id": "narrative_rivalite_sud_tous",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Le Sud controle les cordes (Ndaba) et l'eau pure (Lesedi). Son Contact lent est percu comme condescendant. Son dialecte sert de langue commune. Les six autres archipels trouvent le Sud arrogant -- son immobilite meme ressemble a du mepris.",
+      "synthesis": "Rivalite Sud contre tous : arrogance commerciale, condescendance du Contact lent, monopole des ressources",
+      "weight": 0.65,
+      "properties": { "camp_1": "space_archipel_sud", "camp_2": "tous", "nature": "commerciale" }
+    },
+    {
+      "id": "narrative_rivalite_predicteurs_ecouteurs",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "L'ecouteur mesure, le predicteur sent. 'Tu sens, mais tu ne sais pas' est l'insulte de Sihle. Les predicteurs se defendent par le fait : quand le sismographe dit 'tout va bien' et que le predicteur vomit, c'est le predicteur qui a raison -- trop tard.",
+      "synthesis": "Rivalite predicteurs/ecouteurs : conflit Nandi/Sihle en grand -- chiffres contre vomissements",
+      "weight": 0.7,
+      "properties": { "camp_1": "predicteur", "camp_2": "ecouteur", "nature": "epistemologique" }
+    },
+    {
+      "id": "narrative_rivalite_roulantes_cartographes",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Les Roulantes vivent sur des blocs qui derivent -- leur monde bouge. Les cartographes fixent des positions. Mkhize sentait la derive a un dixieme de centimetre par jour, mais son corps avait raison au mauvais moment. Peut-on cartographier ce qui bouge ? Le decalage de Mkhize dit : le corps connait la verite sans connaitre le calendrier.",
+      "synthesis": "Rivalite Roulantes/cartographes fixes : peut-on fixer ce qui derive -- corps vs mesure",
+      "weight": 0.6,
+      "properties": { "camp_1": "space_archipel_ouest", "camp_2": "cartographes", "nature": "philosophique" }
+    }
+  ],
+
+  "links": [
+
+    { "source": "narrative_mythe_zinhle_premier_contact", "target": "narrative_proverbe_tu_es_la", "type": "raconte", "weight": 0.85, "affinity": 0.9, "properties": { "relation": "le premier mot de Zinhle est le proverbe fondateur" } },
+    { "source": "narrative_mythe_mazibuko_descente", "target": "narrative_mythe_decouverte_tremens", "type": "raconte", "weight": 0.6, "affinity": 0.7, "properties": { "relation": "Mazibuko prefigure le tremens que Dumisani nommera" } },
+    { "source": "narrative_mythe_thembalihle_demi_tour", "target": "narrative_mythe_mazibuko_descente", "type": "raconte", "weight": 0.5, "affinity": 0.6, "properties": { "relation": "deux histoires de descente, deux destins opposes" } },
+    { "source": "narrative_mythe_premier_contact_corde", "target": "narrative_proverbe_troisieme_main", "type": "raconte", "weight": 0.75, "affinity": 0.85, "properties": { "relation": "la triple tresse de Kwanele engendre le proverbe" } },
+    { "source": "narrative_mythe_decouverte_tremens", "target": "narrative_proverbe_dumisani", "type": "raconte", "weight": 0.8, "affinity": 0.9, "properties": { "relation": "Dumisani le Muet engendre le proverbe des predicteurs" } },
+
+    { "source": "narrative_proverbe_sipho", "target": "narrative_rivalite_predicteurs_ecouteurs", "type": "reference", "weight": 0.65, "affinity": 0.7, "properties": { "relation": "Sipho incarne le conflit prediction/preuve" } },
+    { "source": "narrative_proverbe_zanele", "target": "narrative_rivalite_predicteurs_ecouteurs", "type": "reference", "weight": 0.6, "affinity": 0.7, "properties": { "relation": "Zanele illustre la sagesse controversee du silence" } },
+    { "source": "narrative_proverbe_dumisani", "target": "narrative_rivalite_seches_froides", "type": "reference", "weight": 0.65, "affinity": 0.75, "properties": { "relation": "Dumisani cite quand les scientifiques demandent des preuves" } },
+    { "source": "narrative_proverbe_khethiwe", "target": "narrative_proverbe_veine_pieds", "type": "reference", "weight": 0.55, "affinity": 0.65, "properties": { "relation": "deux proverbes caravaniers sur la primaut du pied sur la carte" } },
+    { "source": "narrative_proverbe_lindani", "target": "narrative_mythe_premier_contact_corde", "type": "reference", "weight": 0.45, "affinity": 0.5, "properties": { "relation": "erreurs fecondes -- Lindani et Kwanele dans la meme tradition" } },
+    { "source": "narrative_proverbe_kahlamba_bouge_pas", "target": "narrative_rivalite_sud_tous", "type": "reference", "weight": 0.7, "affinity": 0.8, "properties": { "relation": "l'insulte elegante des Roulantes cristallise la rivalite" } },
+    { "source": "narrative_proverbe_pieds_thulani", "target": "narrative_rivalite_roulantes_cartographes", "type": "reference", "weight": 0.55, "affinity": 0.65, "properties": { "relation": "Thulani incarne la tension entre fixite et derive" } },
+    { "source": "narrative_proverbe_os_parlent", "target": "narrative_rivalite_seches_froides", "type": "reference", "weight": 0.7, "affinity": 0.8, "properties": { "relation": "version radicale du conflit corps/instrument" } },
+    { "source": "narrative_proverbe_os_parlent", "target": "narrative_rivalite_predicteurs_ecouteurs", "type": "reference", "weight": 0.65, "affinity": 0.75, "properties": { "relation": "le moment ou le predicteur supplante l'ecouteur" } },
+    { "source": "narrative_proverbe_mot_inconnu", "target": "narrative_mythe_zinhle_premier_contact", "type": "reference", "weight": 0.5, "affinity": 0.6, "properties": { "relation": "Noma herite de Zinhle -- le Contact continue de grandir" } },
+    { "source": "narrative_proverbe_terre_donne_reprend", "target": "narrative_rivalite_creuses_chaudes", "type": "reference", "weight": 0.5, "affinity": 0.55, "properties": { "relation": "avertissement applicable aux deux exploiteurs du souterrain" } },
+    { "source": "narrative_proverbe_trembles", "target": "narrative_mythe_decouverte_tremens", "type": "reference", "weight": 0.6, "affinity": 0.7, "properties": { "relation": "reconnaissance du tremens heritee de Dumisani" } },
+    { "source": "narrative_proverbe_roche_souvient", "target": "narrative_mythe_origine_nord", "type": "reference", "weight": 0.55, "affinity": 0.65, "properties": { "relation": "la memoire de la roche resonne avec le mythe des Froides" } },
+    { "source": "narrative_proverbe_phila", "target": "narrative_proverbe_tu_es_la", "type": "reference", "weight": 0.45, "affinity": 0.55, "properties": { "relation": "fidelite du message -- le geste exact sans modification" } },
+
+    { "source": "narrative_mythe_origine_sud", "target": "space_archipel_sud", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Basses-Terres" } },
+    { "source": "narrative_mythe_origine_nord_est", "target": "space_archipel_nord_est", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Seches" } },
+    { "source": "narrative_mythe_origine_ouest", "target": "space_archipel_ouest", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Roulantes" } },
+    { "source": "narrative_mythe_origine_nord", "target": "space_archipel_nord", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Froides" } },
+    { "source": "narrative_mythe_origine_centre_sud", "target": "space_archipel_centre_sud", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Chaudes" } },
+    { "source": "narrative_mythe_origine_est", "target": "space_archipel_est", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Salines" } },
+    { "source": "narrative_mythe_origine_sud_ouest", "target": "space_archipel_sud_ouest", "type": "pratique_a", "weight": 0.7, "affinity": 0.8, "properties": { "lieu": "Creuses" } },
+
+    { "source": "narrative_rivalite_seches_froides", "target": "space_archipel_nord_est", "type": "concerne", "weight": 0.7, "affinity": 0.8, "properties": { "role": "camp_corps" } },
+    { "source": "narrative_rivalite_seches_froides", "target": "space_archipel_nord", "type": "concerne", "weight": 0.7, "affinity": 0.8, "properties": { "role": "camp_instrument" } },
+    { "source": "narrative_rivalite_creuses_chaudes", "target": "space_archipel_sud_ouest", "type": "concerne", "weight": 0.65, "affinity": 0.75, "properties": { "role": "camp_grottes" } },
+    { "source": "narrative_rivalite_creuses_chaudes", "target": "space_archipel_centre_sud", "type": "concerne", "weight": 0.65, "affinity": 0.75, "properties": { "role": "camp_feu" } },
+    { "source": "narrative_rivalite_sud_tous", "target": "space_archipel_sud", "type": "concerne", "weight": 0.7, "affinity": 0.8, "properties": { "role": "dominant" } },
+    { "source": "narrative_rivalite_predicteurs_ecouteurs", "target": "space_archipel_nord_est", "type": "concerne", "weight": 0.6, "affinity": 0.7, "properties": { "role": "berceau_predicteurs" } },
+    { "source": "narrative_rivalite_predicteurs_ecouteurs", "target": "space_archipel_nord", "type": "concerne", "weight": 0.6, "affinity": 0.7, "properties": { "role": "berceau_ecouteurs" } },
+    { "source": "narrative_rivalite_roulantes_cartographes", "target": "space_archipel_ouest", "type": "concerne", "weight": 0.65, "affinity": 0.75, "properties": { "role": "monde_mobile" } },
+    { "source": "narrative_rivalite_sud_tous", "target": "space_archipel_ouest", "type": "concerne", "weight": 0.55, "affinity": 0.65, "properties": { "role": "critique_immobilite" } },
+    { "source": "narrative_rivalite_roulantes_cartographes", "target": "space_archipel_nord", "type": "concerne", "weight": 0.5, "affinity": 0.6, "properties": { "role": "cartographes_fixes" } }
+  ]
+}

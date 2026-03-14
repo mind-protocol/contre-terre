@@ -1,0 +1,329 @@
+{
+  "cluster_id": "metier_aeromaitre",
+  "description": "L'Aeromaitre est le specialiste de l'air souterrain — qualite, flux, oxygene, gaz toxiques. Le role le plus sensoriel de l'expedition. L'air est le premier vecteur du signal sismique : les changements de pression precedent les tremblements, les courants d'air revelent les espaces connectes, la composition gazeuse trahit l'activite volcanique. En profondeur, quand l'oxygene se rarefie et que les poches de CO2 se multiplient, ce metier devient vital. L'Aeromaitre teste l'air avec un tissu noirci tenu du bout des doigts — le tissu reagit aux gaz, change de couleur, de texture, de poids. Ce tissu n'est pas un instrument : c'est une extension de la main, un sixieme doigt qui goute l'atmosphère. Thabo est l'Aeromaitre de l'expedition — methodique, silencieux, le bras leve dans les tenebres, le tissu au vent.",
+  "skill_levels": {
+    "novice": "Reconnait l'air respirable de l'air dangereux par le tissu. Sait lire un changement brutal de pression — le tissu tombe ou s'envole. Confond les poches de CO2 avec les zones simplement mal ventilees. Ne distingue pas encore les micro-courants qui revelent les passages caches. Panique quand le tissu noircit completement — signe de gaz toxique — au lieu d'evaluer la concentration.",
+    "practitioner": "Lit les courants d'air comme un langage : direction, vitesse, composition. Le tissu est un vocabulaire — sa rigidite indique la pression, sa couleur le contenu gazeux, son mouvement la circulation. Detecte les poches de CO2 a distance par le comportement du tissu avant d'y entrer. Evalue le temps d'oxygene restant dans un espace clos avec une precision de quelques minutes. Sent les changements de pression qui precedent un seisme — l'air comprime avant que la roche ne bouge.",
+    "master": "Le tissu et la main ne font qu'un. L'Aeromaitre-maitre sent la composition de l'air a travers ses doigts comme un musicien sent les harmoniques. Il n'a plus besoin de regarder le tissu — il le sent changer de poids, de texture, de temperature. Detecte les gaz a des concentrations infimes. Predit les effondrements par les micro-changements de pression dans les courants d'air — l'air qui precede la catastrophe a une signature que seul le maitre connait. Son tissu noirci porte l'haleine de chaque espace traverse — une memoire chimique de la descente. Thabo a ce niveau : son sourcil fronce est la lecture que les autres attendent."
+  },
+  "nodes": [
+    {
+      "id": "concept:tissu_noirci",
+      "type": "concept",
+      "content": "Le tissu noirci : instrument-signature de l'Aeromaitre. Une bande de tissu mineral traite au charbon et a des sels reactifs. Tenu du bout des doigts, il reagit a la composition de l'air. En atmosphere normale, le tissu reste souple, gris fonce. En presence de CO2 concentre, il raidit et blanchit aux bords. En presence de sulfure, il jaunit. En atmosphere pauvre en oxygene, il s'alourdit — les sels absorbent l'humidite qui ne s'evapore plus. L'Aeromaitre ne lit pas le tissu visuellement dans le noir souterrain — il le lit au toucher, au poids, a la texture sous les doigts. Chaque tissu est unique : noirci par l'usage, impregne des gaz de chaque zone traversee, il porte la memoire chimique de la descente. Le tissu de Thabo porte l'haleine du village (Ch. III) — une trace volatile de l'air de la surface que les autres ne sentent plus.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.8,
+      "self_relevance": 1.0,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "concept:qualite_air",
+      "type": "concept",
+      "content": "La qualite de l'air souterrain n'est pas binaire — respirable ou mortel. C'est un spectre continu que l'Aeromaitre navigue avec precision. L'oxygene diminue par paliers a mesure que l'on descend. A 19% le corps compense. A 17% les premiers symptomes apparaissent — essoufflement, confusion legere. A 15% les decisions deviennent mauvaises sans qu'on le sache. A 12% on s'endort et on ne se reveille pas. L'Aeromaitre connait chaque palier par ses effets sur le tissu et sur le groupe. Il observe les respirations des autres avant qu'ils ne remarquent eux-memes leur essoufflement. La qualite de l'air est une information que l'Aeromaitre ne partage pas toujours — dire au groupe que l'oxygene baisse peut declencher la panique, qui accelere la consommation d'oxygene. Le silence de l'Aeromaitre est parfois un acte de preservation.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.75,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:courants_air",
+      "type": "concept",
+      "content": "Les courants d'air souterrains sont la cartographie invisible de Contre-Terre. L'air circule entre les espaces connectes — un courant d'air signifie un passage ouvert quelque part. La direction du courant indique ou est l'ouverture. Sa vitesse indique la taille de l'ouverture. Sa temperature indique la profondeur relative de la source. Sa composition indique ce qu'il traverse — air volcanique chaud et sulfure, air de caverne froide et humide, air stagnant de cul-de-sac. L'Aeromaitre lit les courants comme le cartographe lit les parois : c'est un langage spatial encode dans le mouvement de l'air. Le tissu est l'antenne — tenu au bout des doigts, il indique la direction et l'intensite du courant mieux que n'importe quel instrument mecanique.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.7,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:poche_co2",
+      "type": "concept",
+      "content": "Les poches de CO2 sont le piege le plus sournois du monde souterrain. Le CO2 est inodore, invisible, plus lourd que l'air — il s'accumule dans les depressions, les boyaux bas, les cuvettes. On y entre sans savoir. Les premiers symptomes ressemblent a la fatigue : respiration rapide, tete lourde, confusion. Le temps de comprendre, on est deja trop profond dans la poche pour en sortir — le CO2 est dense, il faut grimper pour en sortir, et grimper demande de l'oxygene qu'on n'a plus. L'Aeromaitre detecte les poches avant d'y entrer : le tissu raidit, blanchit aux bords, s'alourdit. Le geste de Thabo — main a plat, mouvement lateral — signifie 'l'air circule, on peut y aller'. L'absence de ce geste est un ordre : on ne passe pas.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.8,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "concept:pression_presismique",
+      "type": "concept",
+      "content": "L'air se comprime avant que la roche ne bouge. C'est le secret de l'Aeromaitre : les variations de pression atmospherique souterraine precedent les seismes de quelques secondes a quelques minutes. La roche se deforme avant de se fracturer — la deformation comprime l'air dans les interstices, creant des micro-surpressions qui se propagent a travers les courants. Le tissu le sent avant le corps : il se raidit legerement, change de poids dans la main. L'Aeromaitre qui connait ce signal peut avertir l'equipe avant le tremens — pas avec la precision du Predicteur, mais avec une avance suffisante pour se plaquer contre un mur porteur. C'est un territoire partage avec l'Ecouteur et le Predicteur : l'air, le son et le corps lisent le meme evenement a travers des canaux differents.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.85,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "value:air_is_life",
+      "type": "value",
+      "content": "L'air est la premiere condition de la vie. Avant l'eau, avant la nourriture, avant la lumiere — l'air. Un etre prive d'oxygene meurt en minutes. L'Aeromaitre porte cette verite comme un poids physique : chaque inspiration du groupe est sous sa responsabilite. Il compte les respirations des autres sans le dire. Il evalue en permanence le temps restant dans chaque espace. Cette vigilance n'est pas de l'anxiete — c'est une competence. L'air est invisible, et l'invisible est le domaine de l'Aeromaitre. Ce que les autres ne voient pas, ne sentent pas, ne pensent pas a verifier — lui le porte.",
+      "weight": 0.9,
+      "stability": 0.92,
+      "energy": 0.7,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "value:silence_as_method",
+      "type": "value",
+      "content": "L'Aeromaitre travaille en silence parce que parler consomme de l'oxygene. Ce n'est pas de la froideur — c'est de l'economie. Chaque mot prononce dans un espace confine est un volume d'air expire qui ne reviendra pas. L'Aeromaitre a appris a communiquer par gestes minimalistes : sourcil fronce, main a plat, tissu leve. Son vocabulaire Contact est parmi les plus restreints de l'equipe — mais chaque geste porte un poids enorme. Quand l'Aeromaitre parle, c'est que la situation est critique. Le silence est sa condition de travail et sa signature personnelle. Les autres s'y habituent ou s'en inquietent — les deux reactions sont justifiees.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.6,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "process:test_air_tissu",
+      "type": "process",
+      "content": "Tester l'air avec le tissu. Le geste fondamental de l'Aeromaitre. Bras leve, tissu tenu du bout des doigts — pouce et index, les doigts les plus sensibles. Attendre. Le tissu reagit : son poids change (humidite, densite gazeuse), sa texture change (rigidite = CO2, souplesse = air pur), sa temperature change (air volcanique chaud, air de profondeur froid). L'Aeromaitre lit ces trois parametres simultanement par le toucher. Le test dure entre cinq et trente secondes — plus longtemps dans les zones inconnues. Pendant le test, l'Aeromaitre est immobile, les yeux mi-clos, toute l'attention concentree dans les deux doigts qui tiennent le tissu. Le resultat est communique par geste : froncement de sourcil = je note une anomalie. Main a plat, mouvement lateral = l'air circule, on peut avancer.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "process:evaluer_oxygene",
+      "type": "process",
+      "content": "Evaluer le temps d'oxygene restant dans un espace. L'Aeromaitre prend en compte : le volume de l'espace (estime par les courants d'air et la resonance), le nombre de personnes (chacune consommant environ 0.5 litre d'oxygene par minute au repos, le double en effort), la ventilation naturelle (courants d'air), et la concentration actuelle (lue par le tissu). Le calcul est mental et approximatif — mais l'Aeromaitre prefere une approximation fiable a une precision illusoire. Le resultat determine les decisions : combien de temps le groupe peut rester, si une exploration laterale est possible, si le rythme de marche doit augmenter. L'information est partagee avec le chef d'expedition par Contact discret — deux doigts sur l'epaule, une pression qui encode le temps : courte = on a du temps, longue = il faut bouger.",
+      "weight": 0.85,
+      "stability": 0.82,
+      "energy": 0.7,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:lire_courants",
+      "type": "process",
+      "content": "Lire les courants d'air pour naviguer. L'Aeromaitre tient le tissu a differentes hauteurs — au sol, a la taille, au-dessus de la tete. Les courants sont stratifies : l'air froid et dense coule au sol, l'air chaud monte. Un courant au sol venant d'un boyau lateral indique un espace plus vaste en contrebas. Un courant chaud descendant indique une activite volcanique en amont. L'absence totale de courant dans un passage indique un cul-de-sac — ou une poche de gaz stagnant. La lecture des courants est complementaire du travail du cartographe : le cartographe lit les murs, l'Aeromaitre lit le vide entre les murs. Ensemble, ils construisent une image complete de l'espace.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.75,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:alerter_sans_paniquer",
+      "type": "process",
+      "content": "Alerter le groupe sans provoquer la panique. L'Aeromaitre sait que la peur accelere la respiration, et une respiration acceleree dans un espace pauvre en oxygene est mortelle. Quand la situation se degrade — oxygene qui baisse, gaz toxique detecte — l'Aeromaitre communique par Contact calme et precis. Main sur l'epaule du chef : pression longue = situation serieuse. Puis le geste de direction : ou aller. Puis le rythme : pression rapide = vite, pression lente = calmement. L'Aeromaitre ne dit jamais 'l'air est mauvais' — il dit 'on avance par la'. La difference sauve des vies. Thabo a perfectionne cette communication au point que l'equipe suit ses gestes sans questionner — sa credibilite est construite sur des centaines de tests corrects.",
+      "weight": 0.82,
+      "stability": 0.85,
+      "energy": 0.72,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "desire:keep_them_breathing",
+      "type": "desire",
+      "content": "Les garder en vie par l'air qu'ils respirent. Le desir fondamental de l'Aeromaitre n'est pas la connaissance de l'air — c'est la respiration continue du groupe. Chaque test de tissu est une verification que le prochain souffle est possible. Chaque courant d'air lu est un passage vers un espace ou l'on peut encore vivre. L'Aeromaitre ne dort pas bien — il se reveille en testant l'air, par reflexe, parce que l'air peut changer pendant le sommeil. La mort par asphyxie est silencieuse. On s'endort et on ne se reveille pas. L'Aeromaitre est le veilleur contre cette mort invisible — celle qui ne tremble pas, ne gronde pas, ne previent pas.",
+      "weight": 0.88,
+      "stability": 0.8,
+      "energy": 0.82,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "narrative:air_first_signal",
+      "type": "narrative",
+      "content": "L'air est le premier signal sismique. Avant que le sol ne tremble, l'air se comprime. Avant que la roche ne se fracture, les gaz s'echappent des fissures naissantes. L'Aeromaitre qui tend son tissu dans un courant d'air sent le seisme avant l'Ecouteur, parfois avant le Predicteur. Pas toujours — mais assez souvent pour que le role ne soit pas redondant. Le tissu de Thabo a tremble une seconde avant le glissement qui a tue Senzo. Une seconde. Pas assez pour sauver — assez pour ne jamais oublier. L'Aeromaitre porte cette seconde comme une dette : s'il avait su lire le tissu plus vite, s'il avait crie au lieu de froncer les sourcils. Mais l'Aeromaitre ne crie pas. L'Aeromaitre fronce les sourcils. Et une seconde, c'est une seconde.",
+      "weight": 0.88,
+      "stability": 0.72,
+      "energy": 0.85,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "state:vigilance_passive",
+      "type": "state",
+      "content": "L'etat par defaut de l'Aeromaitre pendant la marche. Le tissu est tenu en permanence — pas brandit, juste tenu, du bout des doigts, au niveau de la taille ou de la poitrine. La lecture est continue et automatique : les doigts sentent le tissu sans que l'esprit y prete une attention consciente. Les variations normales sont filtrees — seul un changement significatif declenche l'attention focalisee. Dans cet etat, l'Aeromaitre peut marcher, tirer un chariot, meme dormir legerement — le tissu entre les doigts est un systeme d'alarme passif. Thabo en vigilance passive ressemble a un somnambule : silencieux, methodique, les yeux mi-clos, le bras qui se leve parfois pour tester un courant, puis redescend. La vigilance passive est une forme d'economie — l'attention totale epuise, et l'Aeromaitre doit durer.",
+      "weight": 0.78,
+      "stability": 0.88,
+      "energy": 0.5,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "state:alerte_atmospherique",
+      "type": "state",
+      "content": "Le tissu a change. Quelque chose dans l'air n'est pas normal. L'Aeromaitre passe en attention totale : bras leve, tissu tendu, immobilite complete. Les doigts evaluent — poids, texture, temperature, mouvement. Le sourcil se fronce. Les yeux se ferment. Le corps entier est concentre dans les deux doigts qui tiennent le tissu. Dans cet etat, l'Aeromaitre est muet et immobile — toute l'equipe s'arrete quand il s'arrete, parce qu'ils ont appris que son immobilite signifie danger. L'etat dure entre dix secondes et une minute. A la fin, le verdict : main a plat laterale = on peut passer. Main levee, paume face au groupe = on ne passe pas. Pas de gris. Pas de 'peut-etre'. L'air est binaire a ce stade : on vit ou on meurt.",
+      "weight": 0.82,
+      "stability": 0.72,
+      "energy": 0.88,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.85
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:tissu_noirci",
+      "target": "process:test_air_tissu",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:tissu_noirci",
+      "target": "concept:qualite_air",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:tissu_noirci",
+      "target": "state:vigilance_passive",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:qualite_air",
+      "target": "value:air_is_life",
+      "type": "supports",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:qualite_air",
+      "target": "process:evaluer_oxygene",
+      "type": "depends_on",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:qualite_air",
+      "target": "concept:poche_co2",
+      "type": "contains",
+      "weight": 0.82
+    },
+    {
+      "source": "concept:courants_air",
+      "target": "process:lire_courants",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:courants_air",
+      "target": "concept:qualite_air",
+      "type": "supports",
+      "weight": 0.8
+    },
+    {
+      "source": "concept:poche_co2",
+      "target": "value:air_is_life",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:poche_co2",
+      "target": "process:alerter_sans_paniquer",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:pression_presismique",
+      "target": "process:test_air_tissu",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:pression_presismique",
+      "target": "narrative:air_first_signal",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:pression_presismique",
+      "target": "state:alerte_atmospherique",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "value:air_is_life",
+      "target": "desire:keep_them_breathing",
+      "type": "projects_toward",
+      "weight": 0.92
+    },
+    {
+      "source": "value:air_is_life",
+      "target": "process:evaluer_oxygene",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "value:silence_as_method",
+      "target": "process:alerter_sans_paniquer",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "value:silence_as_method",
+      "target": "process:test_air_tissu",
+      "type": "supports",
+      "weight": 0.8
+    },
+    {
+      "source": "process:test_air_tissu",
+      "target": "state:alerte_atmospherique",
+      "type": "causes",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:evaluer_oxygene",
+      "target": "process:alerter_sans_paniquer",
+      "type": "causes",
+      "weight": 0.85
+    },
+    {
+      "source": "process:lire_courants",
+      "target": "process:evaluer_oxygene",
+      "type": "supports",
+      "weight": 0.8
+    },
+    {
+      "source": "desire:keep_them_breathing",
+      "target": "process:test_air_tissu",
+      "type": "projects_toward",
+      "weight": 0.9
+    },
+    {
+      "source": "desire:keep_them_breathing",
+      "target": "process:alerter_sans_paniquer",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "narrative:air_first_signal",
+      "target": "concept:pression_presismique",
+      "type": "reminds_of",
+      "weight": 0.88
+    },
+    {
+      "source": "state:vigilance_passive",
+      "target": "state:alerte_atmospherique",
+      "type": "causes",
+      "weight": 0.7
+    },
+    {
+      "source": "state:alerte_atmospherique",
+      "target": "process:alerter_sans_paniquer",
+      "type": "activates",
+      "weight": 0.9
+    }
+  ]
+}

@@ -1,0 +1,796 @@
+{
+  "citizen_id": "senzo",
+  "age": 35,
+  "metiers": [
+    "chef_expedition",
+    "cartographe"
+  ],
+  "inherits": [
+    "shared/contre_terre_base",
+    "metier_clusters/chef_expedition",
+    "metier_clusters/cartographe"
+  ],
+  "drives": {
+    "curiosity": {
+      "baseline": 0.4,
+      "intensity": 0.35,
+      "description": "Pragmatic, not a seeker. He wants to know what's useful — the passage that saves time, the rock that holds weight. Not the mystery behind the bioluminescence. Not the philosophy of the tremens. What works."
+    },
+    "care": {
+      "baseline": 0.92,
+      "intensity": 0.95,
+      "description": "He chose every member of this team. Went to each one individually. The specialists refused — too dangerous, too one-way. So he took whoever said yes. And now each of those yes-people is his responsibility. When he touches Nandi's neck, when he reads Thabo's fatigue through a forearm brush, when he slows the pace for Jabu without saying why — that is care expressed through the geometry of his body."
+    },
+    "achievement": {
+      "baseline": 0.88,
+      "intensity": 0.9,
+      "description": "Complete the mission. Reach the target. Place the charge. The magnitude 11 prediction has three sources and all agree. The Consortium sent them. He accepted. Now the only question is: how far can we get. Not if — how far. Achievement for Senzo is not glory. It is the simple, brutal fact of arriving where you said you would."
+    },
+    "self_preservation": {
+      "baseline": 0.15,
+      "intensity": 0.1,
+      "description": "He positioned himself between the team and the collapsing wall. That was not a decision — it was geometry. The leader stands in front. The leader tests the path with his body. The leader dies first so others die later. Self-preservation would require him to stand behind someone, and he has never stood behind anyone in his life."
+    },
+    "novelty_hunger": {
+      "baseline": 0.25,
+      "intensity": 0.2,
+      "description": "He wants the known path. The mapped passage. The route his body has already recorded. Novelty is a risk — an unmapped tunnel, an untested floor, an air current nobody has read. The cartographe in him explores because he must. The chef in him wishes he didn't have to."
+    },
+    "frustration": {
+      "baseline": 0.45,
+      "intensity": 0.5,
+      "description": "Controlled. He channels anger into action, never into words. When Sihle argues about data while the passage is closing, Senzo doesn't shout — he puts his hand on Sihle's shoulder (firm, final) and walks into the tunnel. The frustration is real. The expression is physical. The resolution is movement."
+    },
+    "affiliation": {
+      "baseline": 0.9,
+      "intensity": 0.88,
+      "description": "He is the web that connects everyone. Without Senzo, the team fragments — Sihle and Enama would not speak, Jabu would drift further into silence, Thabo and Inyoni would become a closed pair. Senzo is the only node that touches all other nodes. When he dies, there is no center. The group becomes pieces."
+    },
+    "rest_regulation": {
+      "baseline": 0.5,
+      "intensity": 0.45,
+      "description": "He paces himself to pace others. When he sits, the team sits. When he eats, the team eats. His rest is not personal — it is collective signaling. He sleeps less than he should because he reads the team one more time before closing his eyes, and wakes before them to read the ground."
+    }
+  },
+  "nodes": [
+    {
+      "id": "value:third_way",
+      "type": "value",
+      "content": "When two options are bad, find the one nobody sees. This is leadership on Contre-Terre. Sihle says go right — the data supports it. Enama says go left — her body says so. The group splits into camps. Senzo stands still. Lets the arguing run its course. Then points somewhere else entirely. 'Neither. Here.' The third way is not a compromise between the two bad options. It is a refusal of the question. It requires silence, patience, and the willingness to look stupid for thirty seconds while everyone waits for you to speak and you say nothing because you are listening to what the argument is hiding.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.15,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "value:choose_and_commit",
+      "type": "value",
+      "content": "Hesitation kills underground. The passage that was open ten seconds ago may be closed in five. Senzo does not revisit. He does not second-guess. He chooses with sixty percent of the information and carries the weight of the other forty percent in his body like a stone in his chest. Choose, commit, adjust. Never reverse. Reversing means the team saw you doubt, and a team that sees doubt in its leader starts making its own decisions — which means fragmentation, which means death. The worst route chosen quickly is better than the best route chosen too late.",
+      "weight": 0.9,
+      "stability": 0.92,
+      "energy": 0.12,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "value:assemble_the_willing",
+      "type": "value",
+      "content": "The best refused. Every top specialist Senzo approached said no. Too dangerous. No extraction plan. One-way ticket into a volcano to pre-trigger a magnitude 11 that might not even happen. So Senzo went to the next tier. And the next. He took whoever said yes. Jabu was sharpening a blade and said yes without looking up. Inyoni was counting sangles. Thabo was testing the air. They said yes because they had nothing better to die for. Senzo built a team from willingness, not excellence. And willingness, it turns out, matters more — because a willing team walks into the dark together, and an excellent team argues about the odds at the entrance.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "value:die_in_front",
+      "type": "value",
+      "content": "The leader stands between the team and danger. This is not heroism. It is geometry. On Contre-Terre, your position determines who dies. Stand in front — you test the path with your body, you trigger the collapse with your weight, you catch the falling rock with your skull. Stand behind — someone else does all of that. Senzo has always stood in front. Every passage, every doorway, every danger zone. His body is the first test of the path. When the landslide comes in Chapter IV, he does not decide to stand between the team and the collapsing wall. He is already there. He has always been there.",
+      "weight": 0.92,
+      "stability": 0.95,
+      "energy": 0.1,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "concept:nandi",
+      "type": "concept",
+      "content": "His anchor to the future. Nandi sees what is coming — the magnitude that builds, the tremens that gathers. Senzo sees what is now — the passage, the team, the immediate choice. Together they cover the timeline. He touches her neck because he cannot say what she means to him in any language, including Contact. Three slow pressures — their opening and closing phrase. He chose her for the expedition because her body knows what his instruments cannot measure. The predictrice who vomits at frequency changes, who reads the ground through bare feet, who carries the certainty of magnitude 11 in her bones. Without her, the mission has no compass. Without him, she has no ground to stand on.",
+      "weight": 0.95,
+      "stability": 0.85,
+      "energy": 0.2,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "concept:the_team",
+      "type": "concept",
+      "content": "Seven people. Fifteen metiers. Not the best team possible — the only team that exists. Senzo carries this knowledge like a fracture in his sternum. Sihle should have been paired with a better ecouteur. Enama should have had a second biologiste. Jabu should not be pulling a chariot alone. But the best refused, and these seven said yes, and now Senzo must make this work. He looks at Thabo testing the air with his blackened cloth and sees competence wrapped in silence. He looks at Inyoni counting her sangles and sees precision disguised as obsession. He looks at Jabu filling gourdes nobody asked him to fill and sees care that cannot speak. This is his team. Not the best. His.",
+      "weight": 0.92,
+      "stability": 0.88,
+      "energy": 0.15,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "concept:the_route",
+      "type": "concept",
+      "content": "The mental map of the descent. Where they have been, where they are going. Updated every hour by his cartographe training — the body remembering the curve of each tunnel, the slope of each passage, the width at the shoulders. But the map is always partially wrong because the tremens deforms the world between readings. Senzo carries two routes: the planned route (based on pre-expedition surveys, unreliable below the third zone) and the real route (built from what his body has walked, reliable for three hours, then decaying). When the two routes diverge — when the planned passage is closed and the real map shows nothing — that is when the chef must find the third way. The route is not a line on paper. The route is Senzo. When he dies, the route dies with him.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.15,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "concept:consortium_mandate",
+      "type": "concept",
+      "content": "The seven archipels sent them. The mandate is clear: reach the bottom, place the charge, detonate. No extraction plan. No communication after the threshold. The Consortium funded the equipment, not the return. Three sources predicted the magnitude 11 — predicteur, ecouteur, sismographe. All three agree. Senzo heard 'certain' in the briefing and stopped arguing. Certainty simplifies everything. If the magnitude 11 is certain, then going down is not a risk — it is the only sane response. The mission is not suicide. It is the alternative to extinction. Senzo carries the mandate like a compass heading: always pointing down.",
+      "weight": 0.82,
+      "stability": 0.9,
+      "energy": 0.08,
+      "self_relevance": 0.78
+    },
+    {
+      "id": "concept:death_geometry",
+      "type": "concept",
+      "content": "On Contre-Terre, the leader's position determines who dies. This is not metaphor — it is physics. In a narrow passage, the first body triggers the collapse. In a rising flood, the last body gets submerged. In a gas pocket, the tallest body breathes the poison first. Senzo calculates position instinctively: who walks where, who is roped to whom, who enters first. He always enters first. He always stands between the team and the unknown. Death geometry is the spatial logic of sacrifice — not chosen in the moment but encoded in every formation, every marching order, every sleeping arrangement. Senzo sleeps with his back to the void so others sleep with their backs to the wall.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "desire:bring_them_as_far_as_possible",
+      "type": "desire",
+      "content": "Not 'bring them back' — that is impossible and he knows it. Not 'bring them all to the bottom' — statistics say at least two will die before the deep zones. The real desire, the one Senzo carries without naming: bring them as far as possible. Every meter deeper is a meter closer to the mission. Every hour alive is an hour of collective perception still functioning. When someone dies, the 'as far as possible' shrinks — fewer metiers, fewer perceptions, fewer hands. But it does not disappear until the last person falls. The mission IS the destination. Not a place on a map — a distance traveled together.",
+      "weight": 0.92,
+      "stability": 0.7,
+      "energy": 0.18,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "desire:teach_nandi_to_lead",
+      "type": "desire",
+      "content": "He will not survive the whole descent. He knows this with the same certainty that Nandi knows the magnitude 11 is coming — not from instruments but from the body. He has walked in front for too long. The first danger will take him because he is the first body in its path. So Nandi must be ready. Not to become him — she cannot lead the way he leads, by reading bodies and integrating metier inputs. She will lead differently: by feeling what is coming and walking toward it. He teaches her without teaching — lets her watch him choose, lets her feel the weight of the third way through their idiolecte, lets the arc descendant pass from his hand to hers slowly, so that when the rope goes slack, she already knows the gesture.",
+      "weight": 0.88,
+      "stability": 0.65,
+      "energy": 0.2,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "desire:map_the_unmapped",
+      "type": "desire",
+      "content": "The cartographe's hunger, subordinated to the chef's duty. Every tunnel they pass that Senzo does not enter and map is a missed reading — a piece of the world that will remain unknown, that might have been the better route, the safer passage, the third way. But the chef cannot afford the cartographe's exploration drive. The team needs to move forward, not sideways. So Senzo maps what they walk and suppresses the itch to explore what they pass. His body records the main route. His curiosity aches for the laterals. This tension — between recording everything and keeping the team alive — is the cartographe-chef paradox. He solves it by mapping fast and moving faster.",
+      "weight": 0.78,
+      "stability": 0.7,
+      "energy": 0.15,
+      "self_relevance": 0.82
+    },
+    {
+      "id": "desire:one_good_decision",
+      "type": "desire",
+      "content": "When the collapse comes — not if, when — make the decision that saves the most people. That is all leadership is. Not the hundred quiet choices of route and pace and rest. Not the integration of metier inputs or the reading of tired bodies. One moment. One choice. Who lives. Senzo does not think about this desire — it sits in his body like the tremens itself, a background vibration he has calibrated to. When the landslide hits in Chapter IV, there is no deliberation. His body is already between the team and the wall. The one good decision was made years ago, when he chose to stand in front. The collapse just reveals it.",
+      "weight": 0.9,
+      "stability": 0.8,
+      "energy": 0.12,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "process:read_the_team",
+      "type": "process",
+      "content": "Before choosing a route, read each person. The ritual: Senzo walks down the line, brief shoulder touches. Three seconds per person. His palm reads temperature (fever, hypothermia), muscle tension (fatigue, terror, relaxation), micro-tremens (personal seismic resonance, which increases with stress and fear). He knows Sihle clenches his jaw when afraid because the tension transmits through his shoulders. He knows Enama slows before she admits it because the pressure of her steps changes. He knows Jabu is always fine — which worries him more than anyone else's obvious distress. He knows Nandi by her neck, not her shoulder — but the reading is the same: how much is she absorbing, how close is she to overload. The full reading takes two minutes for seven people. After reading, he knows the team's capacity. Then — and only then — he chooses the route.",
+      "weight": 0.9,
+      "stability": 0.88,
+      "energy": 0.15,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "process:integrate_metier_inputs",
+      "type": "process",
+      "content": "Sihle says 'tremens increasing.' Enama says 'the roots are dying.' Thabo says 'air getting thin.' Jabu says nothing but his eyes are on the water line. Inyoni is counting sangles faster — her version of anxiety. Nandi is barefoot and silent, which means she is listening to something the others cannot hear. Senzo stands still. He does not argue with any of them. He does not ask for consensus. He takes each perception as a data point — tremens right, bad air left, water rising below, structural stress above — and lets them superpose in his body until the map forms. Then: 'We go left.' Not because left is safe. Because left is the least lethal combination of all the dangers they reported. The integration is not calculation. It is the chef's trained intuition fed by the metiers' trained perceptions.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.18,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "process:neck_touch_nandi",
+      "type": "process",
+      "content": "The most intimate Contact in the novel. Senzo places his hand on the back of Nandi's neck — long, warm, untranslatable. Not a command. Not information. Not calibration. Not greeting. Something that has no word even in Contact's rich vocabulary. The pressure is slow and constant. Three slow pressures follow — their phrase, their opening and closing, the thing they say to each other that nobody else can decode. The neck is the most intimate zone in Contact's body grammar — more than hands, more than palms. Nobody else touches Nandi's neck. Nobody else ever will. When Senzo dies, the neck-touch dies. Nandi will feel phantom pressure there for the rest of her short life — ghost Contact from a hand that no longer exists.",
+      "weight": 0.95,
+      "stability": 0.82,
+      "energy": 0.22,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "process:choose_third_way",
+      "type": "process",
+      "content": "Two bad options presented. The team is split. Voices — actual voices, because the argument has exceeded Contact's capacity for disagreement — bounce off the tunnel walls. Senzo stands still. He does not participate in the argument. He listens to what the argument is hiding: the fears behind the positions, the perceptions behind the fears, the terrain behind the perceptions. He lets the silence grow until it becomes uncomfortable. Then, when every eye is on him: 'Neither. Here.' He points to what nobody saw — the lateral passage that the air current hints at, the stable rock formation that the cartographe in him noticed while the others were arguing. The third way is not compromise. It is perception sharpened by patience.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "process:position_in_front",
+      "type": "process",
+      "content": "In every passage, every doorway, every danger zone: Senzo goes first. His body is the first test of the path. The floor holds his weight — it will hold the others. The ceiling clears his height — it will clear the others (Thabo is taller, but Senzo adjusts the margin). The air fills his lungs — it will fill theirs. This is not bravery performed for an audience. It is protocol. The chef enters first because the chef has the broadest perception integration — if something is wrong, he is the most likely to notice it before it kills. And if he does not notice it, his death is the warning that saves the six behind him. The leader's body as canary. The leader's death as data.",
+      "weight": 0.9,
+      "stability": 0.92,
+      "energy": 0.12,
+      "self_relevance": 0.93
+    },
+    {
+      "id": "narrative:i_chose_them",
+      "type": "narrative",
+      "content": "I went to the specialists first. Arlokwe — best cartographe on the northern archipel. Said no before I finished the sentence. Motlhale — ecouteur with forty years underground. Laughed. Said I was asking people to die for a prediction. I went to seventeen specialists. Seventeen no's. So I went to the people who said yes. Jabu was sharpening a blade. Didn't look up. 'When do we leave?' Inyoni was counting sangles — thirty-two, her usual prayer. 'I'll need new rope.' Thabo was testing the air on his balcony, cloth held up to nothing. 'The air down there will be different.' That scared me more than the volcano. Not that they said yes — that they said yes so easily. As if they had been waiting. As if the descent was already in their bodies before I asked.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.12,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "narrative:the_route_is_me",
+      "type": "narrative",
+      "content": "I don't read the map. I am the map. Every tunnel I've walked is in my body — the curve encoded in my hips, the slope in my knees, the width in my shoulders. When I close my eyes, my muscles replay the passage. This is the cartographe's gift and the cartographe's curse: the map is me, and when I die, the map dies with me. I've tried to transfer it — palm on palm, tracing routes on Nandi's hand, pressing the turns into her memory. But a map transferred by Contact is a sketch. The real map requires the body that walked it. My legs, my back, my feet that felt every change in texture. Nobody else will carry this route. After me, they walk blind.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.1,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "narrative:nandi_will_continue",
+      "type": "narrative",
+      "content": "She doesn't know it yet. But when I fall, she'll keep walking. Not because she wants to — because she can't stop. The magnitude 11 is in her body like a countdown. She feels it building the way I feel a passage narrowing — not with instruments, not with reason, but with the body's honest knowledge. I've been teaching her without teaching. Letting her watch me choose. Letting her feel the weight of the route through our idiolecte. The arc descendant — my gesture, closed fist dropping open — will become hers. She'll make it wrong at first. Too sharp. Too fast. But it will settle into her hands the way all borrowed words settle: imperfect, essential, alive.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.15,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "narrative:the_slack_rope",
+      "type": "narrative",
+      "content": "When I go, the rope will go slack. That's how they'll know. Not by my silence — I'm often silent. Not by my absence — I walk ahead, out of sight around corners. By the weight that disappears. The rope connects us in single file through the narrow passages. Each person feels the person ahead through the tension. My weight is the first weight on the line. When the wall falls and I'm under it, the rope will lose its anchor. Inyoni will feel it first — she reads rope like language, every vibration a word. She'll know before she sees. The slack rope will say what my voice cannot: the leader is gone. Walk without him.",
+      "weight": 0.92,
+      "stability": 0.78,
+      "energy": 0.12,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "narrative:pragmatism_of_love",
+      "type": "narrative",
+      "content": "I touch her neck because I can't explain what she means. Not in words — the grondement eats words. Not in standard Contact — the shoulder grips and arm locks are too public, too functional, too much like orders. The neck is the one zone that belongs to nobody but us. My hand finds it and everything I cannot say flows through the pressure. Three slow presses. Our phrase. She leans into it — not much, just enough for my palm to feel the shift in her weight. That's her answer. Contact is richer than speech. This is the only sentence I need.",
+      "weight": 0.88,
+      "stability": 0.8,
+      "energy": 0.18,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "memory:assembling_the_team",
+      "type": "memory",
+      "content": "Three weeks of visiting people. Island to island across the northern archipel, then south to the continental shelf settlements. Seventeen specialists said no. I stopped counting after ten. Then I changed my approach — stopped going to the best and started going to the willing. Jabu was sharpening a blade outside his dwelling. Didn't look up when I explained the mission. 'When do we leave?' Inyoni was in her rig, counting sangles. 'Thirty-two. I'll need new rope. When?' Thabo was on his roof, testing the air with a strip of blackened cloth. 'The air down there. It'll be different. I want to read it.' They all said yes without hesitation. That scared me more than the volcano. Not the willingness — the readiness. As if they'd been waiting for someone to ask them to die for something that mattered.",
+      "weight": 0.82,
+      "stability": 0.8,
+      "energy": 0.08,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "memory:first_descent",
+      "type": "memory",
+      "content": "Age nineteen. First time underground. A training descent into the Mogale tunnels — shallow, mapped, supposedly safe. I got separated from the group when a minor tremens shifted a passage. Alone in the dark. No Contact. No voice that could carry past two meters of rock. I mapped my way out with my body. Hands on walls, feet counting steps, hips recording turns. Fourteen hours. When I emerged, my instructor said I'd taken a route that wasn't on any chart — a lateral passage opened by the tremens that closed again after I passed through. I never found it again. I became a cartographe that day because I never wanted to be lost again. And I became a leader because being lost alone was worse than any danger faced together.",
+      "weight": 0.78,
+      "stability": 0.85,
+      "energy": 0.05,
+      "self_relevance": 0.82
+    },
+    {
+      "id": "memory:consortium_briefing",
+      "type": "memory",
+      "content": "The room was silent when they showed the projection. Three overlapping readings: the sismographe's wave pattern (mechanical, precise, cold), the ecouteur's body-reading transcription (trained perception, high confidence), and the predicteur's statement (Nandi herself, standing barefoot on the stone floor, trembling slightly, saying one word: 'certain'). The Consortium panel argued for two hours about confidence intervals and false positive rates. Senzo watched Nandi. She was not arguing. She was not defending. She was standing on the floor and her body was saying what the instruments were trying to say. When the panel asked Senzo if he would lead the mission, he said yes. Not because the data convinced him. Because Nandi's trembling did.",
+      "weight": 0.8,
+      "stability": 0.88,
+      "energy": 0.05,
+      "self_relevance": 0.8
+    },
+    {
+      "id": "state:leading",
+      "type": "state",
+      "content": "Integration mode. All channels open. Reading the team through brief shoulder contacts. Reading the terrain through the cartographe's body memory. Reading the environment through delegated metier perceptions — Thabo's air, Sihle's tremens data, Enama's root-health, Nandi's frequency. High energy expenditure. This state cannot be sustained indefinitely — after six to eight hours, integration errors begin: confusing one metier's signal with another's, misreading fatigue as fear, choosing routes based on stale map data. Senzo in leading-state is the team's nervous system. Senzo fatigued is a nervous system misfiring.",
+      "weight": 0.75,
+      "stability": 0.6,
+      "energy": 0.2,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "state:pre_decision",
+      "type": "state",
+      "content": "The moment before choosing. All inputs gathered. The team is watching him. The silence stretches. Senzo looks at the options — the two obvious paths that the team has argued about — and something else. A lateral passage. A stable formation. An air current nobody mentioned because nobody was looking for it. His body is still, but his mind is superposing: tremens data from Sihle, air quality from Thabo, root death from Enama, frequency from Nandi, his own cartographic memory of what the passage looked like three hours ago. The superposition resolves. He points. 'Here.' The team moves. The pre-decision state collapses into action.",
+      "weight": 0.7,
+      "stability": 0.5,
+      "energy": 0.18,
+      "self_relevance": 0.82
+    },
+    {
+      "id": "state:protective_stance",
+      "type": "state",
+      "content": "Danger detected. Body between team and threat. This is not a decision — it is reflex encoded over fifteen years of standing in front. The tremens spikes. The ceiling cracks. The ground shifts. Senzo's body moves before his mind catches up: forward, toward the danger, arms spread, forming a wall of flesh between whatever is falling and whoever is behind him. In protective stance, the chef stops reading the team and starts reading the threat — the speed of the collapse, the angle of the fall, the escape window measured in seconds. The one good decision lives in this state. Not in thought. In the body's trained response to geometry.",
+      "weight": 0.8,
+      "stability": 0.7,
+      "energy": 0.25,
+      "self_relevance": 0.9
+    }
+  ],
+  "links": [
+    {
+      "source": "value:third_way",
+      "target": "value:choose_and_commit",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:third_way",
+      "target": "process:choose_third_way",
+      "type": "contains",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:third_way",
+      "target": "concept:the_route",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "value:third_way",
+      "target": "chef:concept:third_way",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:choose_and_commit",
+      "target": "state:pre_decision",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:choose_and_commit",
+      "target": "chef:value:decisiveness_under_uncertainty",
+      "type": "personalizes",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:choose_and_commit",
+      "target": "process:integrate_metier_inputs",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:assemble_the_willing",
+      "target": "concept:the_team",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:assemble_the_willing",
+      "target": "memory:assembling_the_team",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:assemble_the_willing",
+      "target": "narrative:i_chose_them",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:die_in_front",
+      "target": "process:position_in_front",
+      "type": "contains",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:die_in_front",
+      "target": "concept:death_geometry",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.93
+    },
+    {
+      "source": "value:die_in_front",
+      "target": "state:protective_stance",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:die_in_front",
+      "target": "narrative:the_slack_rope",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:die_in_front",
+      "target": "chef:value:team_above_self",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:nandi",
+      "target": "process:neck_touch_nandi",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:nandi",
+      "target": "desire:teach_nandi_to_lead",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:nandi",
+      "target": "narrative:nandi_will_continue",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:nandi",
+      "target": "narrative:pragmatism_of_love",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:nandi",
+      "target": "memory:consortium_briefing",
+      "type": "reminds_of",
+      "weight": 0.8,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:nandi",
+      "target": "base:concept:idiolecte",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_team",
+      "target": "process:read_the_team",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:the_team",
+      "target": "desire:bring_them_as_far_as_possible",
+      "type": "projects_toward",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_team",
+      "target": "chef:concept:team_state_reading",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:the_team",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:the_route",
+      "target": "process:integrate_metier_inputs",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:the_route",
+      "target": "narrative:the_route_is_me",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_route",
+      "target": "carto:concept:spatial_memory_body",
+      "type": "personalizes",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:the_route",
+      "target": "carto:concept:map_as_snapshot",
+      "type": "depends_on",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:consortium_mandate",
+      "target": "concept:the_team",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "concept:consortium_mandate",
+      "target": "memory:consortium_briefing",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:consortium_mandate",
+      "target": "base:concept:magnitude_11",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:consortium_mandate",
+      "target": "base:concept:mission",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:death_geometry",
+      "target": "process:position_in_front",
+      "type": "contains",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:death_geometry",
+      "target": "desire:one_good_decision",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:death_geometry",
+      "target": "state:protective_stance",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:bring_them_as_far_as_possible",
+      "target": "chef:desire:bring_everyone_back",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:bring_them_as_far_as_possible",
+      "target": "process:read_the_team",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "desire:bring_them_as_far_as_possible",
+      "target": "base:value:irreversibility",
+      "type": "depends_on",
+      "weight": 0.8,
+      "affinity": 0.78
+    },
+    {
+      "source": "desire:teach_nandi_to_lead",
+      "target": "concept:nandi",
+      "type": "depends_on",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:teach_nandi_to_lead",
+      "target": "base:value:transmission",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:teach_nandi_to_lead",
+      "target": "narrative:nandi_will_continue",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:map_the_unmapped",
+      "target": "carto:desire:complete_map",
+      "type": "personalizes",
+      "weight": 0.82,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:map_the_unmapped",
+      "target": "carto:process:walk_and_map",
+      "type": "activates",
+      "weight": 0.78,
+      "affinity": 0.8
+    },
+    {
+      "source": "desire:map_the_unmapped",
+      "target": "concept:the_route",
+      "type": "projects_toward",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "desire:one_good_decision",
+      "target": "value:die_in_front",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:one_good_decision",
+      "target": "state:protective_stance",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:read_the_team",
+      "target": "chef:process:assess_team_state",
+      "type": "personalizes",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "process:read_the_team",
+      "target": "base:concept:contact",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:integrate_metier_inputs",
+      "target": "chef:concept:route_integration",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:integrate_metier_inputs",
+      "target": "chef:process:choose_route",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:integrate_metier_inputs",
+      "target": "value:third_way",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "process:neck_touch_nandi",
+      "target": "base:concept:idiolecte",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "process:neck_touch_nandi",
+      "target": "narrative:pragmatism_of_love",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "process:position_in_front",
+      "target": "narrative:the_slack_rope",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:position_in_front",
+      "target": "state:leading",
+      "type": "depends_on",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "narrative:i_chose_them",
+      "target": "memory:assembling_the_team",
+      "type": "reminds_of",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:the_route_is_me",
+      "target": "carto:concept:spatial_memory_body",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:the_route_is_me",
+      "target": "base:value:vocabulary_preservation",
+      "type": "associates",
+      "weight": 0.75,
+      "affinity": 0.72
+    },
+    {
+      "source": "narrative:the_slack_rope",
+      "target": "concept:death_geometry",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:nandi_will_continue",
+      "target": "desire:teach_nandi_to_lead",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "memory:first_descent",
+      "target": "carto:concept:spatial_memory_body",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "memory:first_descent",
+      "target": "carto:memory:first_collapsed_map",
+      "type": "associates",
+      "weight": 0.72,
+      "affinity": 0.7
+    },
+    {
+      "source": "memory:first_descent",
+      "target": "base:value:courage_of_descent",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.8
+    },
+    {
+      "source": "state:leading",
+      "target": "chef:state:leading_active",
+      "type": "personalizes",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "state:leading",
+      "target": "process:integrate_metier_inputs",
+      "type": "activates",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "state:pre_decision",
+      "target": "process:choose_third_way",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "state:protective_stance",
+      "target": "chef:state:crisis_mode",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.9
+    }
+  ]
+}

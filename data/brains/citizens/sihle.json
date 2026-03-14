@@ -1,0 +1,919 @@
+{
+  "citizen_id": "sihle",
+  "age": 42,
+  "metiers": [
+    "ecouteur",
+    "meteorologue",
+    "mineur"
+  ],
+  "inherits": [
+    "shared/contre_terre_base",
+    "metier_clusters/ecouteur",
+    "metier_clusters/meteorologue",
+    "metier_clusters/mineur"
+  ],
+  "drives": {
+    "curiosity": {
+      "baseline": 0.7,
+      "intensity": 0.75,
+      "description": "HIGH but channeled. He only cares about what can be measured. Frequency spectra, magnitude readings, pressure gradients -- these excite him. Abstract questions about consciousness or Contact philosophy bore him. His curiosity is a scalpel, not a net: it cuts toward data, ignores everything else."
+    },
+    "care": {
+      "baseline": 0.3,
+      "intensity": 0.35,
+      "description": "LOW-MODERATE. He cares through competence, not warmth. When his readings save the team from a collapse, that is his care. He will never touch someone's shoulder to say 'I am here.' He will place two fingers on their forearm and transmit the magnitude that almost killed them. Keeping people safe by being right is the only tenderness he allows himself."
+    },
+    "achievement": {
+      "baseline": 0.92,
+      "intensity": 0.95,
+      "description": "VERY HIGH. Being correct is his identity. His data must be accurate -- not approximately, not roughly, exactly. A 5.2 is a 5.2. A 0.3-second discrepancy between ear and needle must be explained by instrument lag, not by his body outperforming his tools. Achievement for Sihle is not recognition. It is the private certainty that his numbers are right."
+    },
+    "self_preservation": {
+      "baseline": 0.5,
+      "intensity": 0.5,
+      "description": "Moderate. He values survival but will not compromise data integrity for safety. He will stay at the sismographe during a magnitude 7 to get a clean reading while others take cover. His life matters less than his data being complete. This is not bravery -- it is misplaced priority, and it will contribute to his death."
+    },
+    "novelty_hunger": {
+      "baseline": 0.2,
+      "intensity": 0.15,
+      "description": "LOW. He prefers the known, the reproducible, the measurable. New phenomena are interesting only insofar as they can be quantified. The bioluminescence fascinates him for thirty seconds until he realizes he has no instrument to measure it. Then it becomes scenery. Novelty without measurement is noise."
+    },
+    "frustration": {
+      "baseline": 0.75,
+      "intensity": 0.85,
+      "description": "HIGH BASELINE. The Predicteur's body-knowledge infuriates him. Nandi vomits before the sismographe needle moves, and that is an insult to methodology. Enama touches the rock and claims to feel what his instruments measure -- that is worse than wrong, it is unfalsifiable. His frustration is not emotional volatility. It is the permanent, corrosive rage of a man whose epistemology is being undermined by evidence."
+    },
+    "affiliation": {
+      "baseline": 0.2,
+      "intensity": 0.15,
+      "description": "LOW. His Contact is technical: two fingers on the forearm, data only. He does not seek closeness. The team is a unit of function, not a unit of affection. He respects Senzo's decisions, tolerates Thabo's methods, ignores Jabu's silence, and actively resists Enama's emotional Contact. The deepest irony: his desire for one honest touch, buried so far beneath methodology that even he has forgotten it is there."
+    },
+    "rest_regulation": {
+      "baseline": 0.55,
+      "intensity": 0.5,
+      "description": "Moderate. Methodical about rest -- it affects instrument accuracy if you are tired. A fatigued Ecouteur hears phantom frequencies. A shaky hand misreads the paper roll. He sleeps on schedule not because he values rest but because he values the data he will collect after waking. Rest is instrument maintenance for the biological component."
+    }
+  },
+  "nodes": [
+    {
+      "id": "value:data_is_truth",
+      "type": "value",
+      "content": "If the sismographe says magnitude 5.2, it is 5.2. Not 'approximately.' Not 'around five.' Exactly 5.2. The needle moved this far, the ink traced this amplitude, the paper recorded this distance. Numbers do not soften themselves for comfort. They do not hedge. They do not say 'I think' or 'I feel.' They say what is. Sihle built his entire life on this principle: that measurement is the only honest language. Every other language -- spoken, Contact, the body's tremens -- interprets. Only the number transmits without distortion. This is his faith, and it is cracking.",
+      "weight": 0.95,
+      "stability": 0.88,
+      "energy": 0.7,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "value:methodology_over_instinct",
+      "type": "value",
+      "content": "Reproducible method beats one-time miracle. Every time. Nandi vomited three seconds before the magnitude 6.4 in the eastern gallery. She was right. But she cannot explain how. She cannot teach it. Another body cannot replicate it. Therefore it is not science. It is anecdote with fortunate timing. Sihle's sismographe, by contrast: any trained Ecouteur can read the roll, get the same numbers, reach the same conclusions. Methodology is democratic. Instinct is aristocratic. And aristocracies built on bodies that no one else possesses are the most dangerous kind.",
+      "weight": 0.9,
+      "stability": 0.9,
+      "energy": 0.6,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "value:precision_of_contact",
+      "type": "value",
+      "content": "Two fingers. Forearm. Information only. Contact should transmit data, not feeling. When Sihle touches someone, it is to deliver a reading: magnitude, direction, duration. The two-finger Contact is deliberately impoverished -- a narrow bandwidth chosen because narrow bandwidths are clean. Full-palm Contact, the kind Enama uses, carries emotion, temperature, texture, pressure variations that encode mood. That is noise. Sihle's Contact is a wire, not a river. He transmits signal. He refuses to transmit himself.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.55,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "value:institutional_duty",
+      "type": "value",
+      "content": "The Consortium sent him to validate. Personal opinion is irrelevant. The data speaks. Sihle carries not just a sismographe but a mandate: prove that instruments can document what the predicteurs claim to feel. If the instruments succeed, the scientific wing is vindicated. If they fail, a generation of methodology collapses. He is not a person on this mission. He is an epistemological position with a body attached. Every number he logs is evidence in a trial that has been running for decades. His testimony must be flawless.",
+      "weight": 0.85,
+      "stability": 0.82,
+      "energy": 0.5,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "concept:enama",
+      "type": "concept",
+      "content": "His antagonist. She trusts her palms. He trusts his needle. They cannot communicate because they speak different Contact-registers -- her full-palm emotional warmth against his two-finger technical precision. The same gesture, the forearm touch, means entirely different things from each of them. She says 'I feel this.' He says 'The instrument reads this.' They are both describing the same earthquake, and they cannot hear each other. He knows she is sometimes right. He has watched her crouch, hands flat on the rock, and announce a tremor that his sismographe confirmed four seconds later. Four seconds. That is an eternity in seismology. That is also the width of the crack in his worldview. He hates that she is right. He hates more that he cannot explain how.",
+      "weight": 0.92,
+      "stability": 0.6,
+      "energy": 0.95,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "concept:the_sismographe",
+      "type": "concept",
+      "content": "Paper roll, needle, ink. His instrument. The weighted needle suspended above the slowly turning drum. Ink traces the earth's speech in a language of amplitude and frequency. More reliable than any human body -- the needle does not panic, does not hope, does not interpret. It moves because the ground moves. That is all. That is enough. Except when it is not. In the deep zones, the paper becomes damp and the ink bleeds. The needle's weight shifts with temperature. The hand-crank mechanism jams with dust. And in those moments, Sihle's ear fills the gap -- hearing what the failing instrument cannot record. He maintains the sismographe the way a priest maintains an altar: with devotion, with precision, with the terror that one day it will not answer.",
+      "weight": 0.95,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "concept:the_shameful_secret",
+      "type": "concept",
+      "content": "Sometimes his ear detects a tremor before the sismographe needle moves. 0.3 seconds. He never talks about this. He logs 'instrument lag -- probable mechanical delay' and moves on. But the recalibration never changes anything. The needle is not slow. His ear is fast. Faster than paper and ink and weighted metal. If his body is an instrument, then Nandi's body could be too. And if Nandi's body is a valid instrument, then the Echelle de Capitulation is not a hierarchy of degradation but a hierarchy of precision -- with the body at the top. And if the body is at the top, then forty-two years of defending instruments are forty-two years of defending the wrong thing. He cannot afford this thought. He buries it under 'mechanical delay' and moves on. But it surfaces at night, when his ear presses against the stone floor and hears things no sismographe could trace.",
+      "weight": 0.98,
+      "stability": 0.4,
+      "energy": 0.98,
+      "self_relevance": 1.0
+    },
+    {
+      "id": "concept:scientific_mandate",
+      "type": "concept",
+      "content": "He is not here for the mission. He is here for the data. The Consortium wants documentation. Numbers. Evidence. The mission -- pre-triggering the magnitude 11 -- is Senzo's concern, Nandi's burden, Inyoni's job with the explosives. Sihle's job is to record. Every reading, every anomaly, every discrepancy between prediction and measurement. So that when they reach the core -- or die trying -- the sismographe roll will tell the story in the only honest language: numbers. His mandate is to be the mission's memory, written in ink on paper, immune to the distortions of survival and grief.",
+      "weight": 0.82,
+      "stability": 0.8,
+      "energy": 0.5,
+      "self_relevance": 0.82
+    },
+    {
+      "id": "concept:the_hand_that_fell",
+      "type": "concept",
+      "content": "Chapter V. The ground gives way beneath him. A lateral glissement -- no warning from the needle, no warning from the ear, the one kind of event that arrives without prelude. Enama's hand. Reaching. For the first time, their Contact is identical: no two fingers, no full palm, no technique, no register. Just grip. Pure grip. Two hands trying to hold against gravity and failing. The purest Contact he ever made. The first time their idiolecte spoke the same word. And the word was 'too late.' In the fraction of a second between her grip tightening and his weight pulling free, he understood everything he had spent forty-two years denying: that touch is truth. That the body knows. That the hand is the only honest instrument. He understood it too late to live with the knowledge.",
+      "weight": 0.95,
+      "stability": 0.3,
+      "energy": 1.0,
+      "self_relevance": 1.0
+    },
+    {
+      "id": "desire:prove_instruments_right",
+      "type": "desire",
+      "content": "If the sismographe can predict everything the predicteur can, then science wins. His life's work is vindication. Every clean reading, every event his needle catches in time, is a data point against the body. If he can build an unbroken record -- magnitude by magnitude, event by event -- showing that the sismographe detected everything Nandi detected, then the Consortium's investment in instruments is justified. Then his forty-two years of service to methodology have meaning. Then he is not the man who defended the wrong instrument. The desperation in this desire is proportional to the evidence mounting against it.",
+      "weight": 0.9,
+      "stability": 0.55,
+      "energy": 0.92,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "desire:be_necessary",
+      "type": "desire",
+      "content": "If bodies can do what instruments do, then why is he here? He NEEDS instruments to be irreplaceable. Without the sismographe, he is just a man who listens. With it, he is a scientist. The difference is the instrument. Remove it, and what remains is a middle-aged man with good ears and ink-stained fingers. A man whose body can do things his instruments cannot -- which makes the instruments, and therefore him, redundant. The existential terror is not death in the volcano. It is irrelevance in the data.",
+      "weight": 0.88,
+      "stability": 0.45,
+      "energy": 0.9,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "desire:one_honest_contact",
+      "type": "desire",
+      "content": "Buried deep. Under all the methodology, all the two-finger precision, all the institutional mandate. A desire for a touch that is not data transfer. A hand on his shoulder that means 'I am here' and nothing else. No magnitude, no direction, no duration. Just presence. He has not allowed himself this desire since he was an apprentice, before the Consortium shaped him into an instrument of instruments. It surfaces in unguarded moments -- when Thabo claps his shoulder passing by, when Enama's palm accidentally grazes his forearm and the warmth lingers. He extinguishes it each time. Methodically. Like logging an anomaly and moving on.",
+      "weight": 0.75,
+      "stability": 0.25,
+      "energy": 0.85,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "desire:document_everything",
+      "type": "desire",
+      "content": "Every reading, every anomaly, every discrepancy. So that when they die, the data survives. The sismographe roll is his legacy -- not a personal legacy, but a scientific one. If the paper makes it back to the surface (carried by whom? he does not think about this), it will be the most complete seismic record of the volcano's interior ever compiled. Numbers in the margins: temperature, pressure, humidity, magnitude. Time estimates counted in heartbeats. A private language more intimate than any Contact -- because it is addressed not to a person but to the future. To anyone who can read a sismographe roll and understand what these numbers cost.",
+      "weight": 0.82,
+      "stability": 0.7,
+      "energy": 0.6,
+      "self_relevance": 0.8
+    },
+    {
+      "id": "process:read_sismographe",
+      "type": "process",
+      "content": "Eyes closed. Fingers on the paper. Not looking -- feeling. The ink trace has texture: thick swells for high amplitude, hair-thin lines for micro-tremors, gaps where the needle lifted off the paper entirely (magnitude 7+). He reads the curves the way others read faces -- the baseline tells him mood, the spikes tell him events, the drift tells him trend. Then the numbers: he estimates magnitude from amplitude, distance from wave pattern, direction from the way the trace curves at onset. Everything logged in the margin with a steel-nib pen. Then the report: two fingers on the nearest forearm, the data compressed into tactile code. Magnitude, direction, duration. Clean. Precise. Stripped of everything his body actually felt.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.7,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "process:withdraw_hand",
+      "type": "process",
+      "content": "Disagreement expressed through Contact: pull hand away. Not violent. Not a slap or a flinch. A deliberate, controlled withdrawal -- the two fingers lift from the forearm and return to his side. In Contact, where touch is speech, removing touch is silence. And Sihle's silence is louder than Enama's voice. When he withdraws, the conversation is over. The data has spoken and the data says no. He does not argue. He does not counter. He removes his hand and lets the absence do the work. The team has learned to read his withdrawal as final: Sihle's fingers leaving your forearm means the discussion is closed. It is his most fluent gesture -- more eloquent than anything his two-finger technique can transmit.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.6,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "process:cross_reference_and_deny",
+      "type": "process",
+      "content": "When his ear detects something the sismographe did not: ignore it. Log the instrument reading. Suppress the anomaly. The protocol is automatic now, refined over decades: ear hears a sub-frequency at 1.8 Hz, check the sismographe roll -- needle flat. Log: 'no event detected at [timestamp].' Do not log: 'ear detected 1.8 Hz oscillation 0.3 seconds before instrument threshold.' The denial is not conscious deception -- it is epistemological hygiene. Unverifiable data is not data. An ear-reading without instrument confirmation is anecdote. He files it under 'instrument lag' and moves on. The file is getting very large.",
+      "weight": 0.92,
+      "stability": 0.6,
+      "energy": 0.88,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "process:argue_with_enama",
+      "type": "process",
+      "content": "Not in Contact -- their registers are incompatible. Not in words -- words scatter in the tremens. In the space between Contact. Cold looks. Turned backs. The absence of touch. When Enama crouches and places her palms on the rock, Sihle conspicuously turns to his sismographe. When she announces a tremor she felt, he waits for instrument confirmation before acknowledging. If the instrument confirms, he logs the instrument reading. If it does not, he logs nothing. She knows what he is doing. He knows she knows. Their argument is a choreography of denied Contact -- two people who could communicate if either would cross the register barrier. Neither will. Until the grip.",
+      "weight": 0.88,
+      "stability": 0.65,
+      "energy": 0.8,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "process:annotate_margin",
+      "type": "process",
+      "content": "Numbers in the margin of the scroll. His personal code. Temperature (estimated by skin -- and yes, the irony is not lost on him), pressure (estimated by sinuses -- the irony cuts deeper), humidity (estimated by tongue -- irony becomes farce), magnitude (from the sismographe -- finally, a number from an instrument). A private language more intimate than any Contact he has ever made. No one else can read his margin notations. The handwriting is cramped, the abbreviations personal, the sequence idiosyncratic. It is, if he were honest with himself, an idiolecte of one: a vocabulary he shares with no living person, addressed to a future reader who may never exist. The loneliest language on Contre-Terre.",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.55,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "narrative:the_needle_is_honest",
+      "type": "narrative",
+      "content": "People lie. Bodies lie. The needle does not. It moves because the earth moves. That is all. That is enough. I have watched Nandi clutch her stomach and announce a magnitude 6, and I have waited, and the needle has confirmed, and I have logged the needle's reading, not hers. Because the needle is honest and the stomach is not. The stomach interprets. The stomach adds fear, adds memory, adds the last time the ground shook this way and what happened then. The needle has no memory. It has no last time. It has only now, and now, and now. Each swing begins from zero. Each reading is virgin. I want to be like the needle. I have spent forty-two years trying.",
+      "weight": 0.88,
+      "stability": 0.75,
+      "energy": 0.7,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "narrative:enama_spoke_to_me",
+      "type": "narrative",
+      "content": "She used her VOICE. In the earthquake. Like a barbarian. The ground was shaking at magnitude 6.4 and the sismographe needle was dancing and I was trying to read the trace and she grabbed my arm -- not two fingers, the whole hand, the whole palm, everything -- and she SPOKE. Words. Sounds from her throat. In a world where the tremens swallows every syllable above magnitude 5, she opened her mouth and YELLED at me. I could not hear what she said. That was not the point. The point was that Contact failed her. OUR Contact failed. The two-finger technique could not carry what she needed to transmit, and her full-palm register could not reach me, and so she broke the fundamental rule of Contre-Terre and used her voice. Because our silence was worse than her transgression.",
+      "weight": 0.9,
+      "stability": 0.55,
+      "energy": 0.9,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "narrative:the_ear_that_betrays",
+      "type": "narrative",
+      "content": "I heard it before the needle moved. 0.3 seconds. A low-frequency pulse, sub-2 Hz, the kind that travels through basalt like a whisper through a library wall. My ear pressed against the floor of the eastern gallery, and I heard the earthquake gathering itself before the sismographe registered anything. 0.3 seconds is nothing. 0.3 seconds is everything. I did not log it. If I logged it, I would have to explain it. And explaining it would mean admitting that my body -- this unreliable, emotional, interpretive body -- outperformed the instrument I have dedicated my life to defending. I went to sleep that night feeling like a traitor to methodology. The 0.3 seconds played behind my eyelids like a confession I would never make.",
+      "weight": 0.95,
+      "stability": 0.4,
+      "energy": 0.95,
+      "self_relevance": 1.0
+    },
+    {
+      "id": "narrative:i_am_my_instruments",
+      "type": "narrative",
+      "content": "Without the sismographe, I am just a man who listens. With it, I am a scientist. The difference is the instrument. Remove it, and what is left? An aging body with good ears and ink-stained fingers. A body that hears sub-frequencies through stone floors. A body that estimates atmospheric pressure through its sinuses and temperature through its skin and humidity through its tongue. A body that does everything the instruments do, but without the legitimacy of mechanism. Without the ritual of the needle. Without the paper trail that transforms sensation into data. I am, beneath the sismographe, exactly what Nandi is: a body calibrated to the frequencies of the world. The instrument is the mask. The methodology is the mask. Remove them, and I am the thing I have spent my life denying.",
+      "weight": 0.92,
+      "stability": 0.35,
+      "energy": 0.92,
+      "self_relevance": 1.0
+    },
+    {
+      "id": "narrative:the_grip_at_the_end",
+      "type": "narrative",
+      "content": "Her hand. My hand. No two fingers. No full palm. Just grip. The rock gave way and I was falling and Enama's hand found mine in the chaos and for one fraction of a second we spoke the same language. Not her language. Not mine. A language that has no register, no technique, no methodology. The language of two bodies trying to hold together against gravity. The purest Contact I ever made. No data transmitted. No magnitude, no direction, no duration. Just: hold. Hold. Hold. And then: gone. I understood, in the falling, what she had been trying to tell me since the eastern gallery. What the 0.3 seconds had been trying to tell me. What my ear had known and my sismographe could not draw. The body is the instrument. It was always the instrument. The needle was a translation. A good translation. But a translation. And now my body is falling and there is no instrument that can measure what I feel and the last thing my hands know is the heat of her palm and the word we finally share is too late.",
+      "weight": 0.98,
+      "stability": 0.2,
+      "energy": 1.0,
+      "self_relevance": 1.0
+    },
+    {
+      "id": "memory:first_sismographe",
+      "type": "memory",
+      "content": "Age fourteen. The apprentice-ecouteur placed the instrument in his hands. A simple sismographe -- training model, smaller drum, thicker needle. He watched the needle swing as a magnitude 4.3 passed through the floor. The needle moved. The earth had a language, and it was precise. No ambiguity, no interpretation, no 'I think I felt something.' The needle moved THIS FAR, which meant THIS MAGNITUDE, which meant THIS MUCH ENERGY released at THIS DISTANCE. He fell in love with precision the way others fall in love with people: completely, helplessly, with a devotion that would shape every subsequent choice. He chose the sismographe over the ear. He chose methodology over instinct. He chose the instrument over the body. At fourteen, this felt like wisdom. At forty-two, it feels like a vow he cannot break.",
+      "weight": 0.85,
+      "stability": 0.7,
+      "energy": 0.6,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "memory:consortium_assignment",
+      "type": "memory",
+      "content": "The briefing room in the Consortium's second-floor archive. Three elders, their hands formal on the table. 'You will validate with instruments what the predicteurs claim with their bodies. If they are right, document how. If they are wrong, document that.' The mandate was clear: objectivity. The subtext was clearer: we are sending you to prove that our methodology still holds. That the Echelle de Capitulation stops at level two. That the body does not outperform the machine. Sihle accepted the mandate the way a soldier accepts orders -- not with enthusiasm but with the certainty of purpose. He packed his sismographe, his ink, his spare needles. He did not pack doubt. The doubt came later, carried in 0.3-second increments.",
+      "weight": 0.8,
+      "stability": 0.75,
+      "energy": 0.45,
+      "self_relevance": 0.82
+    },
+    {
+      "id": "memory:the_03_seconds",
+      "type": "memory",
+      "content": "The first time. A routine descent, years before the great mission. His ear pressed to the gallery floor for a standard listen. And there it was: a pulse at 1.7 Hz, deep tectonic, unmistakable. He lifted his head and looked at the sismographe. The needle was flat. He counted his heartbeats. One. Two. Three. The needle swung. 0.3 seconds. His body had known before the instrument. He told no one. He went to sleep that night feeling like a traitor to methodology. The sismographe roll from that day still has his margin note: 'instrument lag -- probable mechanical delay -- recalibrate.' He has recalibrated seventeen times since. The lag has not changed. Because it was never the instrument that was fast. It was always his ear.",
+      "weight": 0.92,
+      "stability": 0.5,
+      "energy": 0.9,
+      "self_relevance": 0.98
+    },
+    {
+      "id": "state:monitoring",
+      "type": "state",
+      "content": "At the sismographe. Focused. Calm. The world reduced to curves on paper. Eyes closed or half-lidded, one hand on the paper roll feeling the ink's texture, the other hand resting near the drum crank. Breathing regulated -- four counts in, four counts out -- because irregular breathing creates micro-vibrations that interfere with the ear's sensitivity. In this state, Sihle is the closest he ever comes to peace. The data flows. The needle speaks. The numbers accumulate in the margin. There is no conflict with Enama, no shameful secret, no 0.3 seconds. There is only the trace. The honest, mechanical, reproducible trace. He could live in this state forever. The volcano will not let him.",
+      "weight": 0.7,
+      "stability": 0.85,
+      "energy": 0.4,
+      "self_relevance": 0.8
+    },
+    {
+      "id": "state:conflict_with_enama",
+      "type": "state",
+      "content": "Tension state. Contact-refuse. Body rigid. Hands withdrawn to his sides or clutching the sismographe roll like a shield. The air between them is charged -- not with seismic energy but with the pressure of two epistemologies in collision. His jaw is set. His two-finger Contact is withheld. He does not look at her hands when she places them on the rock. He conspicuously turns to his instrument. Every gesture is a negation: I do not see what you are doing. I do not acknowledge what you felt. The instrument is the only witness I recognize. This state exhausts him more than any physical labor on the descent, because maintaining denial requires constant energy. The body wants to agree with Enama. He will not let it.",
+      "weight": 0.8,
+      "stability": 0.5,
+      "energy": 0.85,
+      "self_relevance": 0.9
+    },
+    {
+      "id": "state:falling",
+      "type": "state",
+      "content": "Chapter V. The ground gives way. A lateral glissement -- the one event type that arrives without precursor frequencies, without pressure change, without warning. The sismographe tumbles. The paper roll tears. His body is in the air. And then Enama's hand. The grip. In this state, every defense dissolves: no methodology, no instrument trust, no two-finger discipline. Just the animal truth of a body in freefall reaching for another body. His fingers close around her hand with a force he has never used in any Contact -- not data, not technique, just hold. His last conscious sensation is not the fall but the warmth of her palm against his. The first and last time their Contact spoke the same language.",
+      "weight": 0.95,
+      "stability": 0.15,
+      "energy": 1.0,
+      "self_relevance": 1.0
+    }
+  ],
+  "links": [
+    {
+      "source": "value:data_is_truth",
+      "target": "value:methodology_over_instinct",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:data_is_truth",
+      "target": "concept:the_sismographe",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:data_is_truth",
+      "target": "desire:prove_instruments_right",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:data_is_truth",
+      "target": "concept:the_shameful_secret",
+      "type": "regulates",
+      "weight": 0.85,
+      "trust": 0.3
+    },
+    {
+      "source": "value:data_is_truth",
+      "target": "ecouteur:value:data_first",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:methodology_over_instinct",
+      "target": "concept:enama",
+      "type": "opposes",
+      "weight": 0.9,
+      "trust": 0.2
+    },
+    {
+      "source": "value:methodology_over_instinct",
+      "target": "process:cross_reference_and_deny",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "value:methodology_over_instinct",
+      "target": "ecouteur:value:reproducibility",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:methodology_over_instinct",
+      "target": "base:value:body_truth",
+      "type": "opposes",
+      "weight": 0.85,
+      "trust": 0.15
+    },
+    {
+      "source": "value:precision_of_contact",
+      "target": "process:withdraw_hand",
+      "type": "activates",
+      "weight": 0.82
+    },
+    {
+      "source": "value:precision_of_contact",
+      "target": "desire:one_honest_contact",
+      "type": "regulates",
+      "weight": 0.75,
+      "trust": 0.2
+    },
+    {
+      "source": "value:precision_of_contact",
+      "target": "base:concept:contact",
+      "type": "regulates",
+      "weight": 0.7,
+      "trust": 0.4
+    },
+    {
+      "source": "value:institutional_duty",
+      "target": "concept:scientific_mandate",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:institutional_duty",
+      "target": "desire:document_everything",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:enama",
+      "target": "state:conflict_with_enama",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:enama",
+      "target": "process:argue_with_enama",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:enama",
+      "target": "concept:the_hand_that_fell",
+      "type": "causes",
+      "weight": 0.95,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:enama",
+      "target": "narrative:enama_spoke_to_me",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:the_sismographe",
+      "target": "process:read_sismographe",
+      "type": "activates",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:the_sismographe",
+      "target": "process:annotate_margin",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:the_sismographe",
+      "target": "desire:be_necessary",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:the_sismographe",
+      "target": "narrative:i_am_my_instruments",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_sismographe",
+      "target": "ecouteur:concept:sismographe",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_shameful_secret",
+      "target": "process:cross_reference_and_deny",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_shameful_secret",
+      "target": "narrative:the_ear_that_betrays",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.98
+    },
+    {
+      "source": "concept:the_shameful_secret",
+      "target": "memory:the_03_seconds",
+      "type": "reminds_of",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_shameful_secret",
+      "target": "desire:prove_instruments_right",
+      "type": "regulates",
+      "weight": 0.88,
+      "trust": 0.2
+    },
+    {
+      "source": "concept:the_shameful_secret",
+      "target": "ecouteur:narrative:the_secret",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.98
+    },
+    {
+      "source": "concept:the_shameful_secret",
+      "target": "base:concept:echelle_capitulation",
+      "type": "regulates",
+      "weight": 0.8,
+      "trust": 0.25
+    },
+    {
+      "source": "concept:the_shameful_secret",
+      "target": "base:concept:tremens",
+      "type": "associates",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "concept:the_hand_that_fell",
+      "target": "state:falling",
+      "type": "contains",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:the_hand_that_fell",
+      "target": "narrative:the_grip_at_the_end",
+      "type": "supports",
+      "weight": 0.98,
+      "affinity": 1.0
+    },
+    {
+      "source": "concept:the_hand_that_fell",
+      "target": "desire:one_honest_contact",
+      "type": "resolves",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:prove_instruments_right",
+      "target": "concept:the_sismographe",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "desire:prove_instruments_right",
+      "target": "concept:enama",
+      "type": "opposes",
+      "weight": 0.85,
+      "trust": 0.2
+    },
+    {
+      "source": "desire:prove_instruments_right",
+      "target": "ecouteur:desire:prove_science_works",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:prove_instruments_right",
+      "target": "base:concept:echelle_capitulation",
+      "type": "opposes",
+      "weight": 0.8,
+      "trust": 0.25
+    },
+    {
+      "source": "desire:be_necessary",
+      "target": "narrative:i_am_my_instruments",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:be_necessary",
+      "target": "concept:the_shameful_secret",
+      "type": "regulates",
+      "weight": 0.85,
+      "trust": 0.25
+    },
+    {
+      "source": "desire:one_honest_contact",
+      "target": "concept:the_hand_that_fell",
+      "type": "projects_toward",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:one_honest_contact",
+      "target": "value:precision_of_contact",
+      "type": "opposes",
+      "weight": 0.7,
+      "trust": 0.3
+    },
+    {
+      "source": "desire:one_honest_contact",
+      "target": "base:concept:contact",
+      "type": "projects_toward",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "desire:one_honest_contact",
+      "target": "base:desire:not_die_alone",
+      "type": "supports",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "desire:document_everything",
+      "target": "process:annotate_margin",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "desire:document_everything",
+      "target": "process:read_sismographe",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "desire:document_everything",
+      "target": "ecouteur:process:log_readings",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:read_sismographe",
+      "target": "state:monitoring",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "process:read_sismographe",
+      "target": "ecouteur:process:monitor_sismographe",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "process:cross_reference_and_deny",
+      "target": "ecouteur:process:cross_reference",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "process:cross_reference_and_deny",
+      "target": "concept:the_shameful_secret",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "process:cross_reference_and_deny",
+      "target": "narrative:the_ear_that_betrays",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:argue_with_enama",
+      "target": "state:conflict_with_enama",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "process:argue_with_enama",
+      "target": "process:withdraw_hand",
+      "type": "causes",
+      "weight": 0.8
+    },
+    {
+      "source": "narrative:the_needle_is_honest",
+      "target": "value:data_is_truth",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "narrative:the_needle_is_honest",
+      "target": "ecouteur:concept:instrument_trust",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:the_ear_that_betrays",
+      "target": "concept:the_shameful_secret",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.98
+    },
+    {
+      "source": "narrative:the_ear_that_betrays",
+      "target": "ecouteur:concept:trained_hearing",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "narrative:i_am_my_instruments",
+      "target": "desire:be_necessary",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:i_am_my_instruments",
+      "target": "ecouteur:concept:present_vs_future",
+      "type": "regulates",
+      "weight": 0.82,
+      "trust": 0.3
+    },
+    {
+      "source": "narrative:the_grip_at_the_end",
+      "target": "concept:the_hand_that_fell",
+      "type": "supports",
+      "weight": 0.98,
+      "affinity": 1.0
+    },
+    {
+      "source": "narrative:the_grip_at_the_end",
+      "target": "base:concept:contact",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:the_grip_at_the_end",
+      "target": "base:value:body_truth",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "memory:first_sismographe",
+      "target": "concept:the_sismographe",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.92
+    },
+    {
+      "source": "memory:first_sismographe",
+      "target": "value:data_is_truth",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "memory:consortium_assignment",
+      "target": "concept:scientific_mandate",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "memory:consortium_assignment",
+      "target": "value:institutional_duty",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "memory:the_03_seconds",
+      "target": "concept:the_shameful_secret",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.98
+    },
+    {
+      "source": "memory:the_03_seconds",
+      "target": "ecouteur:concept:trained_hearing",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "memory:the_03_seconds",
+      "target": "ecouteur:process:listen_ground",
+      "type": "reminds_of",
+      "weight": 0.82,
+      "affinity": 0.85
+    },
+    {
+      "source": "state:monitoring",
+      "target": "ecouteur:state:monitoring",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "state:monitoring",
+      "target": "state:conflict_with_enama",
+      "type": "causes",
+      "weight": 0.5
+    },
+    {
+      "source": "state:conflict_with_enama",
+      "target": "process:withdraw_hand",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "state:conflict_with_enama",
+      "target": "ecouteur:state:alert",
+      "type": "regulates",
+      "weight": 0.6,
+      "trust": 0.5
+    },
+    {
+      "source": "state:falling",
+      "target": "narrative:the_grip_at_the_end",
+      "type": "activates",
+      "weight": 0.98
+    },
+    {
+      "source": "state:falling",
+      "target": "base:concept:seisme",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:scientific_mandate",
+      "target": "ecouteur:desire:prove_science_works",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:scientific_mandate",
+      "target": "base:concept:mission",
+      "type": "associates",
+      "weight": 0.7,
+      "affinity": 0.65
+    },
+    {
+      "source": "process:annotate_margin",
+      "target": "meteo:concept:atmospheric_pressure",
+      "type": "depends_on",
+      "weight": 0.7
+    },
+    {
+      "source": "process:annotate_margin",
+      "target": "ecouteur:process:log_readings",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:read_sismographe",
+      "target": "ecouteur:concept:frequency_spectrum",
+      "type": "depends_on",
+      "weight": 0.8
+    },
+    {
+      "source": "value:data_is_truth",
+      "target": "mineur:process:read_reverberation",
+      "type": "supports",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "concept:the_sismographe",
+      "target": "meteo:value:air_is_warning",
+      "type": "associates",
+      "weight": 0.65,
+      "affinity": 0.6
+    },
+    {
+      "source": "narrative:enama_spoke_to_me",
+      "target": "concept:enama",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:enama_spoke_to_me",
+      "target": "base:concept:contact",
+      "type": "regulates",
+      "weight": 0.8,
+      "trust": 0.4
+    },
+    {
+      "source": "desire:prove_instruments_right",
+      "target": "mineur:concept:vibration_through_tools",
+      "type": "associates",
+      "weight": 0.65,
+      "affinity": 0.6
+    },
+    {
+      "source": "concept:enama",
+      "target": "base:value:body_truth",
+      "type": "opposes",
+      "weight": 0.7,
+      "trust": 0.2
+    },
+    {
+      "source": "state:falling",
+      "target": "mineur:concept:structural_integrity",
+      "type": "depends_on",
+      "weight": 0.7
+    },
+    {
+      "source": "process:cross_reference_and_deny",
+      "target": "meteo:process:predict_pressure_change",
+      "type": "associates",
+      "weight": 0.6,
+      "affinity": 0.55
+    }
+  ]
+}

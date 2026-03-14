@@ -1,0 +1,490 @@
+{
+  "cluster_id": "lore_figures",
+  "description": "Legendary figures and historical events of Contre-Terre -- extracted from LORE.md, linked to archipels and locations",
+  "nodes": [
+
+    {
+      "id": "actor_legendaire_bongani",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Premier aeromaitre. Goutait l'air avec sa langue au lieu du tissu -- a sauve des mineurs en criant 'Ca pue !' avant une fuite de H2S, puis est reste cinq minutes de plus pour gouter l'air d'apres.",
+      "synthesis": "Premier aeromaitre, goutait l'air a la langue, a sauve des mineurs dans les Chaudes",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "7-8 generations", "metier": "aeromaitre", "surnom": "l'Essayeur", "archipel": "space_archipel_centre_sud" }
+    },
+    {
+      "id": "actor_legendaire_nokubonga",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Specialiste des explosifs qui a decouvert que les intervalles entre repliques de magnitude 5 suivaient un schema cyclique. A compte pendant onze ans, revelant que les intervalles raccourcissaient globalement.",
+      "synthesis": "Compteuse obsessionnelle des Salines, a decouvert le schema cyclique des intervalles sismiques",
+      "weight": 0.75,
+      "properties": { "status": "dead", "epoque": "5 generations", "metier": "specialiste_explosifs", "surnom": "la Compteuse", "archipel": "space_archipel_est" }
+    },
+    {
+      "id": "actor_legendaire_dumisani",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Meilleur ecouteur de son epoque, devenu sourd progressivement. A continue d'ecouter avec le corps -- decouvreur involontaire du tremens d'Os, saint patron des predicteurs.",
+      "synthesis": "Ecouteur devenu sourd qui a decouvert le tremens d'Os en ecoutant par le squelette",
+      "weight": 0.8,
+      "properties": { "status": "dead", "epoque": "6 generations", "metier": "ecouteur", "surnom": "le Muet", "archipel": "space_archipel_nord" }
+    },
+    {
+      "id": "actor_legendaire_kwanele",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Tisserande de Ndaba, inventrice de la triple tresse -- troisieme brin en spirale inverse qui absorbe les vibrations laterales. A revolutionne le Contact-corde et les descentes souterraines.",
+      "synthesis": "Inventrice de la triple tresse de cordage a Ndaba, a rendu le Contact-corde fonctionnel en profondeur",
+      "weight": 0.75,
+      "properties": { "status": "dead", "epoque": "4 generations", "metier": "tisserande", "surnom": "de Ndaba", "archipel": "space_archipel_sud" }
+    },
+    {
+      "id": "actor_legendaire_sipho",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Predicteur qui a predit un seisme de magnitude 9 et l'a maintenu pendant trois ans. Devenu proverbe ('Sipho dit que ca vient'). Dix-sept ans apres, un 8.7 a frappe pres de l'endroit predit.",
+      "synthesis": "Predicteur silencieux dont la prediction ignoree s'est realisee 17 ans trop tard",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "3 generations", "metier": "predicteur", "surnom": "le Predicteur Silencieux", "archipel": "space_archipel_nord_est" }
+    },
+    {
+      "id": "actor_legendaire_lindani",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Specialiste des explosifs qui a fait sauter le mauvais mur et decouvert les premiers filaments bioluminescents. Le mur lui a repondu par un Contact de roche -- un pulse bleu sous la paume.",
+      "synthesis": "A decouvert la bioluminescence par erreur en explosant le mauvais mur de basalte",
+      "weight": 0.75,
+      "properties": { "status": "dead", "epoque": "5 generations", "metier": "specialiste_explosifs", "surnom": "l'Erreur", "archipel": "space_archipel_centre_sud" }
+    },
+    {
+      "id": "actor_legendaire_mkhize",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Cartographe d'Ingwe qui sentait la derive des blocs au dixieme de centimetre. A predit un mouvement de 30 cm qui s'est realise deux ans plus tard lors d'un seisme de magnitude 7.5.",
+      "synthesis": "Cartographe des Roulantes, inventeur du concept de 'decalage' -- le corps sait quoi mais pas quand",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "3 generations", "metier": "cartographe", "surnom": "le Cartographe des Roulantes", "archipel": "space_archipel_ouest" }
+    },
+    {
+      "id": "actor_legendaire_noma",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Ancienne du village des sourds qui a enseigne le Contact du village a un jeune speleo pendant trois semaines. Un geste par jour. A prouve que le Contact est un art, pas juste une necessite.",
+      "synthesis": "Ancienne du village des sourds, maitresse du Contact a trois doigts, 300 gestes uniques",
+      "weight": 0.75,
+      "properties": { "status": "dead", "epoque": "2 generations", "metier": "ancienne", "surnom": "la Grise", "archipel": "space_archipel_centre_sud" }
+    },
+    {
+      "id": "actor_legendaire_zenzele",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Pendant une famine dans les Froides, a decouvert que l'argile lavee des fumerolles est comestible. A failli mourir d'empoisonnement au soufre avant de trouver la bonne argile.",
+      "synthesis": "Cuisiniere de pierre, a decouvert les argiles comestibles pendant la famine des Froides",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "6 generations", "metier": "cuisiniere", "surnom": "la Cuisiniere de Pierre", "archipel": "space_archipel_nord" }
+    },
+    {
+      "id": "actor_legendaire_thulani",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Juge du pont d'Ingwe qui a choisi de renforcer au lieu de couper. Le pont a casse six mois plus tard -- trois morts. A passe le reste de sa vie debout sur le nouveau pont, nuit et jour.",
+      "synthesis": "Juge du pont dont la mauvaise decision a cause trois morts a Ingwe, devenu symbole de la responsabilite",
+      "weight": 0.75,
+      "properties": { "status": "dead", "epoque": "4 generations", "metier": "juge_du_pont", "surnom": "le Juge du Pont", "archipel": "space_archipel_ouest" }
+    },
+    {
+      "id": "actor_legendaire_ayanda",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Mineuse de Sibaya qui creusait la ou la roche etait forte. A 710m de profondeur, a perce une poche d'eau de subduction millenaire -- l'eau la plus calme du monde, jamais atteinte par les seismes.",
+      "synthesis": "Mineuse d'eau des Creuses, a decouvert la source d'eau de subduction a 710m",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "5 generations", "metier": "mineuse", "surnom": "la Mineuse d'Eau", "archipel": "space_archipel_sud_ouest" }
+    },
+    {
+      "id": "actor_legendaire_vusumuzi",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "A mene la deuxieme expedition vers le volcan, sans approbation du Consortium. Son ecouteur Amahle a subi un delire thermique et parle depuis un Contact non-humain -- mineral, fongique, ancien.",
+      "synthesis": "Expeditionnaire des Chaudes dont l'ecouteur a appris un Contact non-humain dans les profondeurs",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "4 generations", "metier": "chef_expedition", "surnom": "l'Expeditionnaire", "archipel": "space_archipel_centre_sud" }
+    },
+    {
+      "id": "actor_legendaire_khethiwe",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Meilleure caravaniere de sa generation, 37 traversees. Quand la Longue s'est fracturee, a cartographie seule une nouvelle route en 42 jours pieds nus -- la Tresse de Khethiwe.",
+      "synthesis": "Caravaniere qui a cartographie la Tresse, route alternative quand la Longue s'est fracturee",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "4 generations", "metier": "caravaniere", "surnom": "l'Encordeuse", "archipel": "space_archipel_sud" }
+    },
+    {
+      "id": "actor_legendaire_gugu",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Architecte des Chaudes qui a construit Themba en 20 tentatives sur 3 ans. A compris qu'il faut construire dans le sol, pas dessus -- la structure vibre avec la roche, pas contre elle.",
+      "synthesis": "Batisseuse de Themba, 20 tentatives, a invente l'architecture enracinee dans le basalte",
+      "weight": 0.75,
+      "properties": { "status": "dead", "epoque": "6 generations", "metier": "architecte", "surnom": "la Batisseuse de Themba", "archipel": "space_archipel_centre_sud" }
+    },
+    {
+      "id": "actor_legendaire_mandla",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Cordiste ne aveugle dont les mains sentaient la roche mieux que les yeux. A pose des cordes jusqu'a 450m de profondeur. Mort en tombant dans un puits a 500m -- corps jamais retrouve.",
+      "synthesis": "Cordiste aveugle, record de profondeur, mort en posant une corde a 500m",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "3 generations", "metier": "cordiste", "surnom": "le Cordiste Aveugle", "archipel": "space_archipel_sud" }
+    },
+    {
+      "id": "actor_legendaire_nomvula",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "A decouvert la reaction exothermique sel de gypse + argile volcanique + eau -- 20 minutes de chaleur, assez pour chauffer une ration. Seule source de chaleur dans un monde sans feu.",
+      "synthesis": "Inventrice de la reaction de Nomvula, seule source de chaleur controlee de Contre-Terre",
+      "weight": 0.7,
+      "properties": { "status": "dead", "epoque": "4 generations", "metier": "chimiste", "surnom": "des Salines", "archipel": "space_archipel_est" }
+    },
+    {
+      "id": "actor_legendaire_phila",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Caravanier qui n'a jamais perdu un seul message en 30 ans. 27 gestes transmis sans erreur apres 11 jours de traversee du desert. Ne repetait jamais les gestes en marchant -- comme graves dans ses os.",
+      "synthesis": "Le Relais, caravanier a la memoire parfaite, 30 ans sans un geste perdu",
+      "weight": 0.65,
+      "properties": { "status": "dead", "epoque": "5 generations", "metier": "caravanier", "surnom": "le Relais", "archipel": "space_archipel_est" }
+    },
+    {
+      "id": "actor_legendaire_zanele",
+      "node_type": "actor",
+      "type": "legendaire",
+      "content": "Predictrice qui n'a jamais rien predit. Sentait le tremens mieux que quiconque mais gardait le silence. Son silence avant un 7.8 a sauve Mhluzi -- une evacuation aurait tue plus de monde.",
+      "synthesis": "Predictrice du silence, a sauve Mhluzi en ne prevenant pas d'un seisme",
+      "weight": 0.75,
+      "properties": { "status": "dead", "epoque": "3 generations", "metier": "predictrice", "surnom": "du Silence", "archipel": "space_archipel_nord_est" }
+    },
+
+    {
+      "id": "moment_exploit_bongani",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A sauve une equipe de mineurs en criant 'Ca pue !' juste avant qu'une poche de H2S ne se libere, puis est reste cinq minutes de plus pour gouter l'air acide.",
+      "synthesis": "Sauvetage des mineurs par la langue, premier acte d'aeromaitrise",
+      "weight": 0.7,
+      "properties": { "epoque": "7-8 generations" }
+    },
+    {
+      "id": "moment_exploit_nokubonga",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A compte les intervalles entre repliques pendant onze ans et transmis ses comptages par chaine de relais jusqu'a Umzimkhulu, revelant que la terre se contracte.",
+      "synthesis": "Onze ans de comptage sismique, decouverte du raccourcissement des intervalles",
+      "weight": 0.75,
+      "properties": { "epoque": "5 generations" }
+    },
+    {
+      "id": "moment_exploit_dumisani",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "Devenu sourd, s'est assis au bord de la Faille de Khensi et a ecoute par le squelette -- decouvrant le tremens d'Os sans le nommer.",
+      "synthesis": "Decouverte du tremens d'Os par un ecouteur devenu sourd",
+      "weight": 0.8,
+      "properties": { "epoque": "6 generations" }
+    },
+    {
+      "id": "moment_exploit_kwanele",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "Invention de la triple tresse -- troisieme brin en spirale inverse -- qui a rendu le Contact-corde utilisable au-dela de la Peau Courte.",
+      "synthesis": "Invention de la triple tresse, revolution du cordage et du Contact-corde",
+      "weight": 0.75,
+      "properties": { "epoque": "4 generations" }
+    },
+    {
+      "id": "moment_exploit_sipho",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A maintenu une prediction de magnitude 9 pendant trois ans, transmettant 'Ca vient' chaque matin par Contact, jusqu'a ce que tout le monde cesse d'ecouter.",
+      "synthesis": "Trois ans de prediction ignoree, devenu proverbe des Seches",
+      "weight": 0.7,
+      "properties": { "epoque": "3 generations" }
+    },
+    {
+      "id": "moment_exploit_lindani",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A fait exploser le mauvais mur de basalte et decouvert le premier reseau de cavernes bioluminescentes -- le mur a pulse bleu sous sa paume.",
+      "synthesis": "Erreur feconde : explosion du mauvais mur, decouverte de la bioluminescence",
+      "weight": 0.75,
+      "properties": { "epoque": "5 generations" }
+    },
+    {
+      "id": "moment_exploit_mkhize",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A declare que le bloc central d'Ingwe avait bouge de 30 cm pendant la nuit. Personne ne l'a cru. Le bloc a bouge exactement comme predit, deux ans plus tard.",
+      "synthesis": "Le decalage de Mkhize : prediction correcte au mauvais moment",
+      "weight": 0.7,
+      "properties": { "epoque": "3 generations" }
+    },
+    {
+      "id": "moment_exploit_noma",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A enseigne le Contact du village des sourds a un jeune speleo en trois semaines, un geste par jour, creant le premier traducteur entre les deux mondes.",
+      "synthesis": "Transmission du Contact du village des sourds, creation du premier traducteur",
+      "weight": 0.75,
+      "properties": { "epoque": "2 generations" }
+    },
+    {
+      "id": "moment_exploit_zenzele",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A mache de la roche pendant la famine -- granite, calcaire, puis argile des fumerolles. A failli mourir empoisonnee avant de trouver l'argile lavee comestible.",
+      "synthesis": "Decouverte des argiles comestibles par desespoir pendant la famine du Nord",
+      "weight": 0.7,
+      "properties": { "epoque": "6 generations" }
+    },
+    {
+      "id": "moment_exploit_thulani",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A decide de renforcer le pont d'Ingwe au lieu de le couper. Le pont a casse six mois plus tard, tuant trois personnes tombees dans la faille.",
+      "synthesis": "Mauvaise decision du pont d'Ingwe, trois morts par chute dans la faille",
+      "weight": 0.75,
+      "properties": { "epoque": "4 generations" }
+    },
+    {
+      "id": "moment_exploit_ayanda",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A perce une poche d'eau de subduction a 710m en creusant la ou la roche etait forte. A failli se noyer dans le jet de deux metres qui en a jailli.",
+      "synthesis": "Decouverte de la source d'eau de subduction millenaire a 710m de profondeur",
+      "weight": 0.7,
+      "properties": { "epoque": "5 generations" }
+    },
+    {
+      "id": "moment_exploit_vusumuzi",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "Son ecouteur Amahle, en delire thermique, a passe deux jours seule dans le noir des profondeurs et en est revenue parlant un Contact non-humain que personne ne comprend.",
+      "synthesis": "Perte d'Amahle dans les profondeurs, retour avec un Contact mineral inconnu",
+      "weight": 0.7,
+      "properties": { "epoque": "4 generations" }
+    },
+    {
+      "id": "moment_exploit_khethiwe",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "42 jours seule pieds nus dans le desert sismique, cartographiant par le corps une nouvelle route entre les veines secondaires -- la Tresse de Khethiwe.",
+      "synthesis": "Cartographie corporelle de la Tresse en 42 jours de marche pieds nus",
+      "weight": 0.7,
+      "properties": { "epoque": "4 generations" }
+    },
+    {
+      "id": "moment_exploit_gugu",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "Vingt structures essayees en trois ans avant de comprendre qu'il faut construire dans le sol, pas dessus. La vingtieme est Themba, qui tient encore six generations plus tard.",
+      "synthesis": "Vingt tentatives pour batir Themba, invention de l'architecture enracinee",
+      "weight": 0.75,
+      "properties": { "epoque": "6 generations" }
+    },
+    {
+      "id": "moment_exploit_mandla",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A pose des cordes avec une precision inegalee jusqu'a 450m de profondeur, guidant Thembalihle sur ses propres ancrages. Mort en tombant a 500m.",
+      "synthesis": "Record de profondeur pour un cordiste aveugle, mort a 500m",
+      "weight": 0.7,
+      "properties": { "epoque": "3 generations" }
+    },
+    {
+      "id": "moment_exploit_nomvula",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A melange sel de gypse, argile volcanique et eau pour produire 20 minutes de chaleur -- inventant la seule source de chaleur controlee d'un monde sans feu.",
+      "synthesis": "Invention de la reaction exothermique, premiere chaleur controlee de Contre-Terre",
+      "weight": 0.7,
+      "properties": { "epoque": "4 generations" }
+    },
+    {
+      "id": "moment_exploit_phila",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "27 gestes transmis sans erreur apres 11 jours de traversee du desert en hiver, par des veines secondaires, seul -- exploit de fidelite absolue.",
+      "synthesis": "Transmission parfaite de 27 gestes apres 11 jours de desert",
+      "weight": 0.65,
+      "properties": { "epoque": "5 generations" }
+    },
+    {
+      "id": "moment_exploit_zanele",
+      "node_type": "moment",
+      "type": "exploit",
+      "content": "A garde le silence avant un seisme de magnitude 7.8. L'evacuation qu'une alerte aurait provoquee aurait tue plus de monde que le seisme lui-meme.",
+      "synthesis": "Silence calculee avant un 7.8 -- ne pas prevenir etait la meilleure prediction",
+      "weight": 0.75,
+      "properties": { "epoque": "3 generations" }
+    },
+
+    {
+      "id": "moment_evenement_grande_secousse_khaya",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Seisme le plus violent de la memoire du Contact -- magnitude estimee 9.2, 19 secondes. Le sol du desert s'est ouvert en failles de 8 metres. Les Dents du Desert se sont formees ce jour-la.",
+      "synthesis": "Magnitude 9.2, 7 generations, a forme les Dents du Desert et coupe les routes entre Nord et Nord-Est",
+      "weight": 0.85,
+      "properties": { "epoque": "7 generations", "magnitude": 9.2, "duree_secondes": 19, "geste_nom": "Claquement de Khaya" }
+    },
+    {
+      "id": "moment_evenement_longue_a_bouge",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "La Longue -- plus grande route caravaniere -- s'est deplacee de 800 metres d'un coup apres un seisme de magnitude 7.3. Trois mois sans commerce inter-archipels.",
+      "synthesis": "Fracture de la Longue, 800m de deplacement, trois mois d'isolement total des archipels",
+      "weight": 0.8,
+      "properties": { "epoque": "4 generations", "magnitude": 7.3, "geste_nom": "Virage de la Longue" }
+    },
+    {
+      "id": "moment_evenement_famine_salines",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Une extraction trop profonde a perce une nappe chargee en sulfates et metaux lourds. Eau empoisonnee bue sans le savoir -- 200 malades, 37 morts, un quart de la population perdu.",
+      "synthesis": "Empoisonnement de l'eau des Salines par extraction excessive, 37 morts",
+      "weight": 0.8,
+      "properties": { "epoque": "5 generations", "morts": 37, "geste_nom": "Sel dans la gorge" }
+    },
+    {
+      "id": "moment_evenement_pont_casse_ingwe",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Le pont renforce par Thulani a casse par fatigue six mois apres. Trois personnes tombees dans la faille. A force l'invention des ponts a triple ancrage et contribue a la creation du Consortium.",
+      "synthesis": "Rupture du pont d'Ingwe, 3 morts, naissance de la collaboration inter-archipels",
+      "weight": 0.75,
+      "properties": { "epoque": "3 generations", "morts": 3, "geste_nom": "Pont-casse" }
+    },
+    {
+      "id": "moment_evenement_silence_bhekisisa",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Pendant 9 jours, 800 personnes a Bhekisisa ont cesse tout Contact. Aucune explication connue. Quand le Contact a repris, le premier geste etait celui de Zinhle : 'Je suis la.'",
+      "synthesis": "9 jours de silence total du Contact a Bhekisisa, 800 personnes, cause inconnue",
+      "weight": 0.8,
+      "properties": { "epoque": "2 generations", "duree_jours": 9, "geste_nom": "Silence long" }
+    },
+    {
+      "id": "moment_evenement_decouverte_bioluminescence",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Lindani a touche les premiers filaments bioluminescents -- le bleu est devenu blanc sous sa paume. Le monde souterrain est passe du noir hostile au noir habite.",
+      "synthesis": "Premier contact humain avec les filaments bioluminescents, le mur qui repond au toucher",
+      "weight": 0.75,
+      "properties": { "epoque": "6 generations", "geste_nom": "Le filament" }
+    },
+    {
+      "id": "moment_evenement_fondation_consortium",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Un seisme de magnitude 8.1 a frappe le centre exact du desert, touchant les 7 archipels egalement. Les representants ont converge a Kahlamba et sont restes en Contact continu 3 jours -- le Consortium est ne de cette synchronisation.",
+      "synthesis": "Seisme central 8.1, convergence a Kahlamba, 3 jours de Contact continu, naissance du Consortium",
+      "weight": 0.85,
+      "properties": { "epoque": "5 generations", "magnitude": 8.1, "geste_nom": "Cercle des sept" }
+    },
+    {
+      "id": "moment_evenement_expedition_thembalihle",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Expedition de 12 personnes mandatee par le Consortium. Thembalihle a fait demi-tour dans les tubes de lave. Le seul echec officiel dans la memoire du Contact -- ou la decision la plus sage.",
+      "synthesis": "Demi-tour de Thembalihle dans les tubes de lave, question restee ouverte 4 generations",
+      "weight": 0.75,
+      "properties": { "epoque": "4 generations", "taille_equipe": 12, "geste_nom": "Le demi-tour" }
+    },
+    {
+      "id": "moment_evenement_reveil_village_sourds",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Un seisme de magnitude 7.2 a contourne les tranchees absorbantes du village des sourds. Pendant quelques minutes, les sourds ont entendu le sol -- puis le silence est revenu.",
+      "synthesis": "Seisme 7.2 qui a fait entendre les sourds pendant quelques minutes, puis le silence est revenu",
+      "weight": 0.75,
+      "properties": { "epoque": "1 generation", "magnitude": 7.2, "geste_nom": "Reveil du sourd" }
+    },
+    {
+      "id": "moment_evenement_separation_blocs_jumeaux",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Deux des cinq blocs d'Ingwe se sont separes lentement, centimetres par jour. Une enfant est tombee dans la faille en sautant. Le bloc parti derive encore quelque part avec ses habitants perdus.",
+      "synthesis": "Separation lente des Blocs Jumeaux, une enfant tombee, un bloc perdu dans le desert",
+      "weight": 0.75,
+      "properties": { "epoque": "6 generations", "geste_nom": "Les jumeaux" }
+    },
+    {
+      "id": "moment_evenement_premier_verdict_sismique",
+      "node_type": "moment",
+      "type": "evenement_historique",
+      "content": "Le Consortium a tranche que la magnitude 11 est possible. Non par preuve scientifique, mais parce que 7 predicteurs de 7 archipels tremblaient a l'unisson -- un consensus des os.",
+      "synthesis": "Premier verdict du Consortium sur la magnitude 11, consensus des predicteurs tremblant a l'unisson",
+      "weight": 0.8,
+      "properties": { "epoque": "2 generations", "geste_nom": "Le verdict" }
+    }
+  ],
+
+  "links": [
+
+    { "source": "actor_legendaire_bongani", "target": "moment_exploit_bongani", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_nokubonga", "target": "moment_exploit_nokubonga", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_dumisani", "target": "moment_exploit_dumisani", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_kwanele", "target": "moment_exploit_kwanele", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_sipho", "target": "moment_exploit_sipho", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_lindani", "target": "moment_exploit_lindani", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_mkhize", "target": "moment_exploit_mkhize", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_noma", "target": "moment_exploit_noma", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_zenzele", "target": "moment_exploit_zenzele", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_thulani", "target": "moment_exploit_thulani", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_ayanda", "target": "moment_exploit_ayanda", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_vusumuzi", "target": "moment_exploit_vusumuzi", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_khethiwe", "target": "moment_exploit_khethiwe", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_gugu", "target": "moment_exploit_gugu", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_mandla", "target": "moment_exploit_mandla", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_nomvula", "target": "moment_exploit_nomvula", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_phila", "target": "moment_exploit_phila", "type": "a_vecu", "weight": 0.8, "properties": {} },
+    { "source": "actor_legendaire_zanele", "target": "moment_exploit_zanele", "type": "a_vecu", "weight": 0.8, "properties": {} },
+
+    { "source": "moment_evenement_grande_secousse_khaya", "target": "moment_evenement_fondation_consortium", "type": "a_cause", "weight": 0.6, "properties": { "relation": "La Grande Secousse a coupe les routes, forcant les archipels a developper l'autarcie puis a converger" } },
+    { "source": "moment_evenement_famine_salines", "target": "moment_evenement_fondation_consortium", "type": "a_cause", "weight": 0.5, "properties": { "relation": "La famine a revele le besoin de coordination inter-archipels" } },
+    { "source": "moment_evenement_pont_casse_ingwe", "target": "moment_evenement_fondation_consortium", "type": "a_cause", "weight": 0.6, "properties": { "relation": "Le Pont-Casse a provoque la premiere collaboration inter-archipels sur un projet d'ingenierie" } },
+    { "source": "moment_evenement_fondation_consortium", "target": "moment_evenement_expedition_thembalihle", "type": "a_cause", "weight": 0.7, "properties": { "relation": "Le Consortium a mandate l'expedition de Thembalihle" } },
+    { "source": "moment_evenement_expedition_thembalihle", "target": "moment_evenement_premier_verdict_sismique", "type": "a_cause", "weight": 0.5, "properties": { "relation": "L'echec de Thembalihle a laisse la question ouverte jusqu'au verdict" } },
+
+    { "source": "moment_exploit_bongani", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Chaudes, mines du piemont" } },
+    { "source": "moment_exploit_nokubonga", "target": "space_archipel_est", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Nkosazana, Salines" } },
+    { "source": "moment_exploit_dumisani", "target": "space_archipel_nord", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Faille de Khensi, Froides" } },
+    { "source": "moment_exploit_kwanele", "target": "space_archipel_sud", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Ndaba, Basses-Terres" } },
+    { "source": "moment_exploit_sipho", "target": "space_archipel_nord_est", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Mhluzi, Seches" } },
+    { "source": "moment_exploit_lindani", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Piemont, Chaudes" } },
+    { "source": "moment_exploit_mkhize", "target": "space_archipel_ouest", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Ingwe, Roulantes" } },
+    { "source": "moment_exploit_noma", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Village des sourds, profondeurs" } },
+    { "source": "moment_exploit_zenzele", "target": "space_archipel_nord", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Froides, fumerolles du Nord" } },
+    { "source": "moment_exploit_thulani", "target": "space_archipel_ouest", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Ingwe, pont entre blocs" } },
+    { "source": "moment_exploit_ayanda", "target": "space_archipel_sud_ouest", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Sibaya, Creuses" } },
+    { "source": "moment_exploit_vusumuzi", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Tubes de lave, au-dela de Themba" } },
+    { "source": "moment_exploit_khethiwe", "target": "space_archipel_sud", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Desert entre Sud et Ouest, la Longue" } },
+    { "source": "moment_exploit_gugu", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Themba, entree du volcan" } },
+    { "source": "moment_exploit_mandla", "target": "space_archipel_sud_ouest", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Failles des Creuses, 500m de profondeur" } },
+    { "source": "moment_exploit_nomvula", "target": "space_archipel_est", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Salines, Nkosazana" } },
+    { "source": "moment_exploit_phila", "target": "space_archipel_nord", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Desert sismique, route vers Umzimkhulu" } },
+    { "source": "moment_exploit_zanele", "target": "space_archipel_nord_est", "type": "lieu_de", "weight": 0.6, "properties": { "lieu": "Mhluzi, la Table" } },
+    { "source": "moment_evenement_grande_secousse_khaya", "target": "space_archipel_nord", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Desert entre Froides et Seches" } },
+    { "source": "moment_evenement_longue_a_bouge", "target": "space_archipel_sud", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "La Longue, entre Sud et Ouest" } },
+    { "source": "moment_evenement_famine_salines", "target": "space_archipel_est", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Umsizi et Nkosazana, Salines" } },
+    { "source": "moment_evenement_pont_casse_ingwe", "target": "space_archipel_ouest", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Ingwe, Roulantes" } },
+    { "source": "moment_evenement_silence_bhekisisa", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Bhekisisa, Chaudes" } },
+    { "source": "moment_evenement_decouverte_bioluminescence", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Cavernes du piemont, Chaudes" } },
+    { "source": "moment_evenement_fondation_consortium", "target": "space_archipel_sud", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Kahlamba, Basses-Terres" } },
+    { "source": "moment_evenement_expedition_thembalihle", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Tubes de lave, volcan" } },
+    { "source": "moment_evenement_reveil_village_sourds", "target": "space_archipel_centre_sud", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Village des sourds, profondeurs" } },
+    { "source": "moment_evenement_separation_blocs_jumeaux", "target": "space_archipel_ouest", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Ingwe, Roulantes" } },
+    { "source": "moment_evenement_premier_verdict_sismique", "target": "space_archipel_sud", "type": "lieu_de", "weight": 0.7, "properties": { "lieu": "Kahlamba, siege du Consortium" } }
+  ]
+}

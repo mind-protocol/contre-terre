@@ -1,0 +1,1941 @@
+{
+  "cluster_id": "citizens_nordest_est_centresud",
+  "description": "Citizens of Nord-Est (Seches), Est (Salines), and Centre-Sud (Chaudes) archipelagos -- 35 citizens with residence, metier, guild, and social links",
+  "nodes": [
+    {
+      "id": "actor_citoyen_nombuso_nordest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nombuso forme les apprentis ecouteurs a Mhluzi. Elle entend les repliques 4 secondes avant les instruments -- et refuse de l'admettre, parce qu'admettre ca ferait d'elle une predictrice.",
+      "synthesis": "Formatrice d'ecouteurs a Mhluzi, entend avant les instruments mais refuse le titre de predictrice",
+      "weight": 0.7,
+      "properties": {
+        "age": 44,
+        "genre": "femme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_ville_mhluzi",
+        "metiers": [
+          "ecouteur",
+          "meteorologue"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "hautes frequences, saccade",
+        "calibration": "hautes",
+        "marche": "saccadee, oscillation laterale",
+        "trait_distinctif": "Refuse de dire qu'elle predit -- dit qu'elle 'ecoute tres vite'"
+      }
+    },
+    {
+      "id": "actor_citoyen_vusumuzi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Vusumuzi est le plus ancien predicteur de Mhluzi. Son tremens est devenu si constant que son corps ne cesse jamais de vibrer -- meme dans le sommeil, ses mains tremblent contre le hamac.",
+      "synthesis": "Doyen des predicteurs de Mhluzi, tremens permanent jusque dans le sommeil",
+      "weight": 0.7,
+      "properties": {
+        "age": 67,
+        "genre": "homme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_ville_mhluzi",
+        "metiers": [
+          "predicteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "continu, basses profondes malgre le schiste",
+        "calibration": "larges",
+        "marche": "lente pour un homme des Seches, pieds qui ne quittent plus le sol",
+        "trait_distinctif": "Tremens permanent -- son corps vibre meme quand le sol ne vibre pas"
+      }
+    },
+    {
+      "id": "actor_citoyen_zintle",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Zintle est apprentie ecouteuse, seize ans, revenue de six mois a la Faille de Khensi. Elle distingue neuf frequences la ou les instruments en lisent trois. Nombuso dit qu'elle est la meilleure depuis Sihle.",
+      "synthesis": "Apprentie ecouteuse de 16 ans a Mhluzi, talent exceptionnel forme a la Faille de Khensi",
+      "weight": 0.65,
+      "properties": {
+        "age": 16,
+        "genre": "femme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_ville_mhluzi",
+        "metiers": [
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "micro-saccades aux extremites, tres fin",
+        "calibration": "hautes",
+        "marche": "nerveuse, presque bondissante, marche d'oiseau",
+        "trait_distinctif": "Distingue neuf frequences dans le spectre du schiste"
+      }
+    },
+    {
+      "id": "actor_citoyen_bhekumuzi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Bhekumuzi enseigne la meteorologie aux ecouteurs de Mhluzi. Il lit les variations de pression atmospherique par le changement de resonance du schiste -- quand la pression baisse, les feuillets chantent plus aigu.",
+      "synthesis": "Meteorologue de Mhluzi, lit la pression atmospherique dans la resonance du schiste",
+      "weight": 0.65,
+      "properties": {
+        "age": 52,
+        "genre": "homme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_ville_mhluzi",
+        "metiers": [
+          "meteorologue",
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "irregulier, pics soudains",
+        "calibration": "hautes",
+        "marche": "saccadee classique des Seches, tete toujours penchee a gauche",
+        "trait_distinctif": "Tete penchee en permanence -- oreille dominante gauche, asymetrie du cou prononcee"
+      }
+    },
+    {
+      "id": "actor_citoyen_nomalanga_nordest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nomalanga est predictrice et cuisiniere a Mhluzi. Elle dose le sel dans la soupe claire en fonction de ce que son tremens lui dit du lendemain -- plus le tremens est aigu, plus elle sale.",
+      "synthesis": "Predictrice et cuisiniere a Mhluzi, dose le sel selon son tremens",
+      "weight": 0.65,
+      "properties": {
+        "age": 38,
+        "genre": "femme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_ville_mhluzi",
+        "metiers": [
+          "predicteur",
+          "cuisinier"
+        ],
+        "guildes": [
+          "sens",
+          "lien"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "hautes, localisees dans les mains",
+        "calibration": "hautes",
+        "marche": "rapide, gourdes attachees aux deux hanches",
+        "trait_distinctif": "Son sel predit -- quand elle surdose, les ecouteurs verifient les instruments"
+      }
+    },
+    {
+      "id": "actor_citoyen_khanyiso",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Khanyiso repare les passerelles de corde de Mhluzi. Il connait chaque noeud du reseau aerien par le toucher et detecte les cordes fatiguees avant qu'elles ne cassent. Survivaliste forme a Zama pendant une saison.",
+      "synthesis": "Reparateur de passerelles a Mhluzi, survivaliste forme aux Roulantes, connait le reseau aerien au toucher",
+      "weight": 0.6,
+      "properties": {
+        "age": 31,
+        "genre": "homme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_ville_mhluzi",
+        "metiers": [
+          "survivaliste",
+          "grimpeur"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "nordest_rapide avec traces de roulantes",
+        "tremens_signature": "faible, concentre dans les pieds",
+        "calibration": "hautes",
+        "marche": "saccadee mais avec un leger roulis emprunte aux Roulantes",
+        "trait_distinctif": "Seul homme de Mhluzi qui marche avec un roulis -- il a garde la derive de Zama"
+      }
+    },
+    {
+      "id": "actor_citoyen_lindelwa",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Lindelwa tient les registres du Consortium a Mhluzi. Ancienne ecouteuse dont l'audition sismique a decline a trente ans -- elle a reconverti sa precision en comptabilite tactile.",
+      "synthesis": "Registre du Consortium a Mhluzi, ancienne ecouteuse reconvertie en comptable tactile",
+      "weight": 0.6,
+      "properties": {
+        "age": 35,
+        "genre": "femme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_ville_mhluzi",
+        "metiers": [
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "residuel, presque eteint",
+        "calibration": "hautes",
+        "marche": "saccadee mais ralentie, pas d'ancienne ecouteuse",
+        "trait_distinctif": "Compte en Contact sur l'avant-bras -- chaque chiffre est une pression de phalange"
+      }
+    },
+    {
+      "id": "actor_citoyen_mthokozisi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mthokozisi est un jeune predicteur de dix-neuf ans, le plus violent vomisseur de Mhluzi. Son corps reagit aux changements de frequence avec une precision que Vusumuzi qualifie de 'trop rapide pour etre saine'.",
+      "synthesis": "Jeune predicteur a Mhluzi, reactions physiques d'une violence et d'une precision inhabituelles",
+      "weight": 0.65,
+      "properties": {
+        "age": 19,
+        "genre": "homme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_ville_mhluzi",
+        "metiers": [
+          "predicteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "explosif, nausees immediates",
+        "calibration": "hautes",
+        "marche": "nerveuse, arrets brusques quand la nausee monte",
+        "trait_distinctif": "Vomit avant chaque changement de frequence -- son corps reagit plus vite que sa conscience"
+      }
+    },
+    {
+      "id": "actor_citoyen_zoleka_nordest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Zoleka est la tante de Nandi a Iziphuku. Elle tient le village-tube quand les jeunes partent a Mhluzi. Son Contact est si rapide que les visiteurs croient qu'elle leur donne des ordres alors qu'elle dit bonjour.",
+      "synthesis": "Tante de Nandi a Iziphuku, gardienne du village-tube, Contact d'une rapidite incomprehensible pour les etrangers",
+      "weight": 0.65,
+      "properties": {
+        "age": 58,
+        "genre": "femme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_village_iziphuku",
+        "metiers": [
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nordest_rapide, variante iziphuku ultra-compacte",
+        "tremens_signature": "constant, bas, integre au rythme du village",
+        "calibration": "hautes",
+        "marche": "lineaire, pieds l'un devant l'autre, marche de funambule d'Iziphuku",
+        "trait_distinctif": "Contact si rapide que les gens du Sud croient qu'elle est en colere quand elle salue"
+      }
+    },
+    {
+      "id": "actor_citoyen_siphamandla_nordest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Siphamandla est le cousin de Nandi, ne a Iziphuku. Il fabrique des hamacs en cocon pour les predicteurs -- les seuls hamacs qui isolent assez le corps pour que le tremens ne se transmette pas aux cordes.",
+      "synthesis": "Cousin de Nandi a Iziphuku, fabricant de hamacs-cocons pour predicteurs",
+      "weight": 0.6,
+      "properties": {
+        "age": 26,
+        "genre": "homme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_village_iziphuku",
+        "metiers": [
+          "survivaliste"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "nordest_rapide, variante iziphuku",
+        "tremens_signature": "faible, main droite uniquement",
+        "calibration": "hautes",
+        "marche": "lineaire d'Iziphuku, pas de deviation",
+        "trait_distinctif": "Ses hamacs sont les seuls ou un predicteur peut dormir sans transmettre le tremens aux voisins"
+      }
+    },
+    {
+      "id": "actor_citoyen_ntombizodwa",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Ntombizodwa tisse les fibres vibrantes de Phakade en tissus d'aeromaitre. Elle reconnait la qualite d'une fibre en la frottant entre ses doigts -- une fibre qui vibre a la bonne frequence lui donne la chair de poule.",
+      "synthesis": "Tisserande de tissus d'aeromaitre a Phakade, juge la fibre par la chair de poule qu'elle provoque",
+      "weight": 0.6,
+      "properties": {
+        "age": 49,
+        "genre": "femme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_village_phakade",
+        "metiers": [
+          "survivaliste"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "localise dans les avant-bras, reaction aux fibres",
+        "calibration": "hautes",
+        "marche": "saccadee, mains toujours occupees a frotter du tissu",
+        "trait_distinctif": "Juge la qualite d'un tissu d'aeromaitre par la chair de poule -- si la fibre ne herisse pas, elle la jette"
+      }
+    },
+    {
+      "id": "actor_citoyen_mandlenkosi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mandlenkosi recolte les fibres vibrantes sur les pentes seches au-dessus de Phakade. Il connait chaque plante par l'angle de sa tige face au vent et selectionne les fibres selon la saison sismique.",
+      "synthesis": "Recolteur de fibres vibrantes a Phakade, selectionne les plantes par l'angle de la tige et la saison sismique",
+      "weight": 0.6,
+      "properties": {
+        "age": 33,
+        "genre": "homme",
+        "archipel": "space_archipel_nord_est",
+        "residence": "space_village_phakade",
+        "metiers": [
+          "biologiste"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nordest_rapide",
+        "tremens_signature": "faible, doigts seulement",
+        "calibration": "hautes",
+        "marche": "saccadee, arrets frequents pour toucher les plantes au sol",
+        "trait_distinctif": "Connait chaque plante vibrante de Phakade par le toucher -- les distingue les yeux fermes"
+      }
+    },
+    {
+      "id": "actor_citoyen_thandeka_est",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Thandeka dirige le commerce du sel a Umsizi. Ses doigts comptent les cristaux de sel par taille et purete -- elle fixe les prix en Contact, du bout des phalanges, sans qu'un mot soit prononce.",
+      "synthesis": "Marchande de sel a Umsizi, fixe les prix par Contact digital, autorite commerciale des Salines",
+      "weight": 0.7,
+      "properties": {
+        "age": 53,
+        "genre": "femme",
+        "archipel": "space_archipel_est",
+        "residence": "space_ville_umsizi",
+        "metiers": [
+          "leader"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "est_cristallin",
+        "tremens_signature": "phalanges, micro-vibrations pointues",
+        "calibration": "hautes",
+        "marche": "en pointe, gracieuse, pas de danseuse",
+        "trait_distinctif": "Fixe les prix par pression de phalange sur le poignet -- quatre pressions = quatre unites de sel"
+      }
+    },
+    {
+      "id": "actor_citoyen_bonginkosi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Bonginkosi est specialiste des explosifs a Umsizi. Il fabrique les charges a partir de cristaux de gypse broyes et de soufre des Chaudes. Ses mains sont couvertes de micro-cicatrices blanches.",
+      "synthesis": "Specialiste des explosifs a Umsizi, fabrique les charges avec gypse et soufre, mains marquees de cicatrices",
+      "weight": 0.7,
+      "properties": {
+        "age": 41,
+        "genre": "homme",
+        "archipel": "space_archipel_est",
+        "residence": "space_ville_umsizi",
+        "metiers": [
+          "explosifs"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "est_cristallin",
+        "tremens_signature": "doigts tres stables, presque aucun tremens",
+        "calibration": "hautes",
+        "marche": "en pointe, mesuree, chaque pas calcule",
+        "trait_distinctif": "Mains couvertes de cicatrices blanches de gypse -- les nouvelles recouvrent les anciennes comme des strates"
+      }
+    },
+    {
+      "id": "actor_citoyen_nomvula_est",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nomvula fabrique les voiles de protection contre la lumiere des cristaux. Elle teint les tissus avec des pigments mineraux qu'elle broie elle-meme, dosant l'opacite pour chaque client selon la sensibilite de ses yeux.",
+      "synthesis": "Fabricante de voiles de protection a Umsizi, teint les tissus selon la sensibilite oculaire de chaque client",
+      "weight": 0.6,
+      "properties": {
+        "age": 37,
+        "genre": "femme",
+        "archipel": "space_archipel_est",
+        "residence": "space_ville_umsizi",
+        "metiers": [
+          "survivaliste"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "est_cristallin",
+        "tremens_signature": "faible, regulier",
+        "calibration": "hautes",
+        "marche": "en pointe, legere, voile toujours parfaitement ajuste",
+        "trait_distinctif": "Dose l'opacite des voiles au toucher -- ses doigts sentent l'epaisseur du pigment au micron pres"
+      }
+    },
+    {
+      "id": "actor_citoyen_siyabonga_est",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Siyabonga est cristallier a Umsizi -- il sculpte le gypse en outils, en recipients, en lames. Il travaille les cristaux avec une precision de phalange que seul un enfant des Salines peut developper.",
+      "synthesis": "Cristallier a Umsizi, sculpte le gypse en outils et ustensiles avec une dexterite de phalange",
+      "weight": 0.6,
+      "properties": {
+        "age": 28,
+        "genre": "homme",
+        "archipel": "space_archipel_est",
+        "residence": "space_ville_umsizi",
+        "metiers": [
+          "mineur"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "est_cristallin",
+        "tremens_signature": "doigts, vibrations fines",
+        "calibration": "hautes",
+        "marche": "en pointe, tres silencieuse pour ne pas ecraser les cristaux",
+        "trait_distinctif": "Sculpte le gypse avec les ongles -- ses outils sont ses doigts"
+      }
+    },
+    {
+      "id": "actor_citoyen_lungile_est",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Lungile est ecouteuse de seismes a Umsizi, specialisee dans la lecture du gypse. Le gypse tinte, ne gronde pas -- elle a developpe une ecoute de cristal que les ecouteurs de Mhluzi ne comprennent pas.",
+      "synthesis": "Ecouteuse de seismes a Umsizi, specialiste de la lecture du tintement cristallin du gypse",
+      "weight": 0.65,
+      "properties": {
+        "age": 45,
+        "genre": "femme",
+        "archipel": "space_archipel_est",
+        "residence": "space_ville_umsizi",
+        "metiers": [
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "est_cristallin",
+        "tremens_signature": "hautes frequences, pointu, tintement",
+        "calibration": "hautes",
+        "marche": "en pointe, tete penchee vers le sol, ecoute permanente",
+        "trait_distinctif": "Ecoute le tintement du gypse comme d'autres ecoutent le grondement -- son spectre est inverse"
+      }
+    },
+    {
+      "id": "actor_citoyen_andile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Andile est caravanier entre Umsizi et le Nord via la Muette. Il transporte le sel et connait la route du silence mieux que quiconque -- six jours sans Contact tellurique, les pieds qui ne sentent rien.",
+      "synthesis": "Caravanier de la Muette a Umsizi, specialiste de la route silencieuse entre l'Est et le Nord",
+      "weight": 0.65,
+      "properties": {
+        "age": 34,
+        "genre": "homme",
+        "archipel": "space_archipel_est",
+        "residence": "space_ville_umsizi",
+        "metiers": [
+          "survivaliste",
+          "cartographe"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "est_cristallin avec traces du nord",
+        "tremens_signature": "irregulier, adapte aux routes",
+        "calibration": "larges",
+        "marche": "en pointe a Umsizi, pieds a plat dans le desert -- adapte sa marche au terrain",
+        "trait_distinctif": "Marche six jours sans Contact tellurique sur la Muette -- les pieds les plus adaptables des Salines"
+      }
+    },
+    {
+      "id": "actor_citoyen_zinhle",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Zinhle caramelise le sel a Umsizi. Elle chauffe les cristaux de gypse sur des roches du piemont jusqu'a obtenir les blocs ambres que les enfants sucent. Son sel caramelise est le seul produit de luxe des Salines.",
+      "synthesis": "Caramelisatrice de sel a Umsizi, produit les blocs ambres suces par les enfants -- seul luxe des Salines",
+      "weight": 0.55,
+      "properties": {
+        "age": 60,
+        "genre": "femme",
+        "archipel": "space_archipel_est",
+        "residence": "space_ville_umsizi",
+        "metiers": [
+          "cuisinier"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "est_cristallin",
+        "tremens_signature": "faible, mains stables pour le travail de precision",
+        "calibration": "hautes",
+        "marche": "en pointe, lente, pas de vieille femme des Salines",
+        "trait_distinctif": "Ses dents sont ambrees par quarante ans de sel caramelise -- elle goute chaque fournee"
+      }
+    },
+    {
+      "id": "actor_citoyen_nokwanda",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nokwanda descend dans les fissures de gypse a Nkosazana pour extraire le sel gris. Ses gants de cuir sont les plus epais du village -- elle les use en trois semaines. Ses mains nues sont intactes, jamais exposees.",
+      "synthesis": "Extractrice de sel a Nkosazana, gants les plus epais du village, mains nues jamais exposees au gypse",
+      "weight": 0.6,
+      "properties": {
+        "age": 29,
+        "genre": "femme",
+        "archipel": "space_archipel_est",
+        "residence": "space_village_nkosazana",
+        "metiers": [
+          "mineur",
+          "grimpeur"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "est_cristallin, variante nkosazana",
+        "tremens_signature": "mains protegees, lecture par les pieds",
+        "calibration": "hautes",
+        "marche": "en canard, pieds vers l'exterieur -- demarche de grimpeuse de fissure",
+        "trait_distinctif": "Ses mains nues n'ont jamais touche le gypse -- les seules mains douces de Nkosazana"
+      }
+    },
+    {
+      "id": "actor_citoyen_dumisile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Dumisile est la doyenne de Nkosazana, ancienne extractrice reconvertie en formatrice. Elle enseigne aux apprenties comment compter les cristaux par le son qu'ils font en tombant dans le sac.",
+      "synthesis": "Doyenne de Nkosazana, formatrice des extractrices de sel, enseigne le comptage au son des cristaux",
+      "weight": 0.6,
+      "properties": {
+        "age": 70,
+        "genre": "femme",
+        "archipel": "space_archipel_est",
+        "residence": "space_village_nkosazana",
+        "metiers": [
+          "mineur"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "est_cristallin, variante nkosazana",
+        "tremens_signature": "presque eteint, mains usees",
+        "calibration": "hautes",
+        "marche": "en canard prononce, genoux ecartes, incapable de marcher autrement",
+        "trait_distinctif": "Compte les cristaux de sel au bruit qu'ils font en tombant -- precision de 98%"
+      }
+    },
+    {
+      "id": "actor_citoyen_sizwe_est",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Sizwe est le seul homme extracteur de Nkosazana. Il a la demarche en canard la plus prononcee du village et fabrique les gants de cuir pour les autres extracteurs -- il connait la main de chacun par coeur.",
+      "synthesis": "Seul homme extracteur de Nkosazana, gantier du village, connait chaque main par le toucher",
+      "weight": 0.6,
+      "properties": {
+        "age": 42,
+        "genre": "homme",
+        "archipel": "space_archipel_est",
+        "residence": "space_village_nkosazana",
+        "metiers": [
+          "mineur",
+          "survivaliste"
+        ],
+        "guildes": [
+          "profondeurs",
+          "lien"
+        ],
+        "dialecte": "est_cristallin, variante nkosazana",
+        "tremens_signature": "faible, localise dans les poignets",
+        "calibration": "hautes",
+        "marche": "en canard, la plus prononcee de Nkosazana",
+        "trait_distinctif": "Fabrique les gants de cuir -- connait la forme de chaque main du village sans les voir"
+      }
+    },
+    {
+      "id": "actor_citoyen_mqondisi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mqondisi est geologue en chef a Bhekisisa. Il decide quand le camp bouge -- sa langue, couverte de cicatrices de roche lechee, lit le basalte jeune comme d'autres lisent un visage.",
+      "synthesis": "Geologue en chef a Bhekisisa, decide les deplacements du camp, lit le basalte a la langue",
+      "weight": 0.75,
+      "properties": {
+        "age": 55,
+        "genre": "homme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "geologue",
+          "leader"
+        ],
+        "guildes": [
+          "profondeurs",
+          "lien"
+        ],
+        "dialecte": "centresud_urgent",
+        "tremens_signature": "profond, machoire serree",
+        "calibration": "larges",
+        "marche": "en crabe, corps de cote, genoux flechis -- marche des Chaudes",
+        "trait_distinctif": "Langue couverte de cicatrices de roche lechee -- il goute le basalte chaque matin avant toute decision"
+      }
+    },
+    {
+      "id": "actor_citoyen_noxolo",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Noxolo est aeromaitre a Bhekisisa, formee aux Champs de Soufre. Son tissu est le plus noir du camp -- elle lit le soufre avec une precision qui permet de prevoir les emanations deux heures a l'avance.",
+      "synthesis": "Aeromaitre a Bhekisisa, formee aux Champs de Soufre, prevoit les emanations toxiques deux heures avant",
+      "weight": 0.7,
+      "properties": {
+        "age": 36,
+        "genre": "femme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "aeromaitre"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "centresud_urgent",
+        "tremens_signature": "regulier, synchronise avec la respiration",
+        "calibration": "larges",
+        "marche": "en crabe, tissu noirci toujours en main",
+        "trait_distinctif": "Son tissu est le plus noir de Bhekisisa -- sature de soufre, il ne sert plus qu'a elle"
+      }
+    },
+    {
+      "id": "actor_citoyen_anathi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Anathi est la responsable du demontage a Bhekisisa. Quand Mqondisi dit 'on bouge', Anathi transforme le camp en caravane en six heures. Elle connait chaque piquet, chaque chariot, chaque sangle par le toucher.",
+      "synthesis": "Responsable du demontage du camp a Bhekisisa, transforme 800 personnes en caravane en six heures",
+      "weight": 0.65,
+      "properties": {
+        "age": 43,
+        "genre": "femme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "survivaliste",
+          "leader"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "centresud_urgent",
+        "tremens_signature": "court, explosif lors des urgences",
+        "calibration": "larges",
+        "marche": "en crabe rapide, toujours en mouvement entre les domes",
+        "trait_distinctif": "Connait chaque piquet du camp par le toucher -- 200 piquets, pas un de plus, pas un de moins"
+      }
+    },
+    {
+      "id": "actor_citoyen_phiwokuhle",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Phiwokuhle est apprenti aeromaitre de vingt ans, ne a Bhekisisa. Il a passe son examen final aux Champs de Soufre le mois dernier. Son tissu est encore clair -- il n'a pas encore absorbe assez de soufre pour devenir fiable.",
+      "synthesis": "Apprenti aeromaitre de 20 ans a Bhekisisa, tissu encore clair, sorti des Champs de Soufre",
+      "weight": 0.6,
+      "properties": {
+        "age": 20,
+        "genre": "homme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "aeromaitre"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "centresud_urgent",
+        "tremens_signature": "naissant, irregulier",
+        "calibration": "larges",
+        "marche": "en crabe maladroite, pas encore fluide",
+        "trait_distinctif": "Son tissu est encore blanc -- Noxolo dit qu'un tissu clair est un tissu qui n'a rien vecu"
+      }
+    },
+    {
+      "id": "actor_citoyen_buyiswa",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Buyiswa est cuisiniere du camp de Bhekisisa. Elle prepare les rations liquides les plus denses de Contre-Terre -- sa mixture brune se mange a la cuillere. Les caravaniers des autres archipels la recrachent.",
+      "synthesis": "Cuisiniere de Bhekisisa, prepare les rations liquides les plus denses de Contre-Terre",
+      "weight": 0.6,
+      "properties": {
+        "age": 48,
+        "genre": "femme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "cuisinier"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "centresud_urgent",
+        "tremens_signature": "mains stables, pas de tremens apparent",
+        "calibration": "larges",
+        "marche": "en crabe, gourdes attachees au corps, toujours chargee",
+        "trait_distinctif": "Sa bouillie est si epaisse qu'elle tient la cuillere debout -- les gens du Sud la recrachent"
+      }
+    },
+    {
+      "id": "actor_citoyen_lindokuhle",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Lindokuhle est mineur et geologue a Bhekisisa, specialise dans les sondages de basalte avant les deplacements du camp. Il frappe le sol avec un outil de basalte et lit la reponse comme un ecouteur lit le sismographe.",
+      "synthesis": "Mineur-geologue a Bhekisisa, sonde le basalte avant chaque deplacement du camp",
+      "weight": 0.65,
+      "properties": {
+        "age": 39,
+        "genre": "homme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "mineur",
+          "geologue"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "centresud_urgent",
+        "tremens_signature": "mains, poing serre en permanence",
+        "calibration": "larges",
+        "marche": "en crabe, poing droit qui frappe le sol a intervalles reguliers",
+        "trait_distinctif": "Frappe le sol devant le camp avant chaque deplacement -- trois coups, ecoute, decision"
+      }
+    },
+    {
+      "id": "actor_citoyen_nosipho_centresud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nosipho est meteorologue du Consortium a Bhekisisa. Elle correlate les lectures de soufre de Noxolo avec les donnees sismiques pour prevoir les fenetres de passage vers le piemont.",
+      "synthesis": "Meteorologue du Consortium a Bhekisisa, calcule les fenetres de passage vers le piemont volcanique",
+      "weight": 0.65,
+      "properties": {
+        "age": 32,
+        "genre": "femme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "meteorologue"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "centresud_urgent avec precision du nord",
+        "tremens_signature": "regulier, synchronise aux cycles du volcan",
+        "calibration": "larges",
+        "marche": "en crabe, mais plus lente que les autres -- observe plus qu'elle ne se deplace",
+        "trait_distinctif": "A passe un an a Umzimkhulu pour apprendre les instruments du Nord -- son Contact melange urgence et methode"
+      }
+    },
+    {
+      "id": "actor_citoyen_thulani_centresud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Thulani est predicteur a Bhekisisa. Il a le tremens le plus precis du Centre-Sud mais refuse de quitter le camp -- il dit que son corps est calibre sur le volcan et que l'eloigner serait le rendre sourd.",
+      "synthesis": "Predicteur a Bhekisisa, calibre sur le volcan, refuse de quitter le camp de peur de perdre sa calibration",
+      "weight": 0.65,
+      "properties": {
+        "age": 51,
+        "genre": "homme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "predicteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "centresud_urgent",
+        "tremens_signature": "profond, basses, synchronise au volcan",
+        "calibration": "basses",
+        "marche": "en crabe, immobile de longs moments puis mouvements brusques",
+        "trait_distinctif": "Refuse de quitter Bhekisisa -- dit que son corps est accorde au volcan comme un instrument"
+      }
+    },
+    {
+      "id": "actor_citoyen_zanele_centresud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Zanele est biologiste a Bhekisisa. Elle etudie les lezards de basalte et les cactus sismiques qui survivent pres du piemont, cartographiant les especes qui reculent quand le soufre avance.",
+      "synthesis": "Biologiste a Bhekisisa, etudie la faune et flore du piemont volcanique, lit l'avancee du soufre dans le recul des especes",
+      "weight": 0.6,
+      "properties": {
+        "age": 27,
+        "genre": "femme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "biologiste"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "centresud_urgent",
+        "tremens_signature": "faible, doigts fins",
+        "calibration": "larges",
+        "marche": "en crabe, genoux bas, souvent accroupie pour observer le sol",
+        "trait_distinctif": "Quand les lezards de basalte reculent de cent metres, Zanele dit a Mqondisi qu'il est temps de bouger"
+      }
+    },
+    {
+      "id": "actor_citoyen_mfundo",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mfundo est cartographe du Consortium a Bhekisisa, charge de tenir a jour la carte des zones praticables entre le camp et le piemont. Chaque deplacement efface sa carte precedente.",
+      "synthesis": "Cartographe du Consortium a Bhekisisa, cartographie les zones praticables vers le piemont -- chaque deplacement remet a zero",
+      "weight": 0.6,
+      "properties": {
+        "age": 46,
+        "genre": "homme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_ville_bhekisisa",
+        "metiers": [
+          "cartographe"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "centresud_urgent avec traces des creuses",
+        "tremens_signature": "mains, mouvement circulaire de calibration",
+        "calibration": "larges",
+        "marche": "en crabe, mains effleurant le sol en marchant, reflexe de cartographe",
+        "trait_distinctif": "Forme a Mathamo puis installe a Bhekisisa -- seul cartographe dont la carte change chaque semaine"
+      }
+    },
+    {
+      "id": "actor_citoyen_nomathemba",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nomathemba est la gardienne en chef de Themba. Elle decide qui passe vers le piemont et qui ne passe pas. Son grip de verification est le plus fort du Centre-Sud -- quand elle serre l'avant-bras, on ne ment pas.",
+      "synthesis": "Gardienne en chef de Themba, controle l'acces au piemont, grip de verification incontournable",
+      "weight": 0.7,
+      "properties": {
+        "age": 47,
+        "genre": "femme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_village_themba",
+        "metiers": [
+          "grimpeur",
+          "survivaliste"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "centresud_urgent, variante themba -- plus lent, plus appuye",
+        "tremens_signature": "constant, mains puissantes",
+        "calibration": "larges",
+        "marche": "penchee en avant, centre de gravite bas, souvent a quatre pattes",
+        "trait_distinctif": "Son grip de verification serre l'avant-bras au point de laisser une marque -- personne ne passe sans sa permission"
+      }
+    },
+    {
+      "id": "actor_citoyen_sibusiso",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Sibusiso entretient les filaments bioluminescents a l'entree du reseau souterrain. Il connait chaque filament par la nuance de vert qu'il emet et sait quand un filament meurt avant qu'il ne s'eteigne.",
+      "synthesis": "Gardien des filaments bioluminescents a Themba, connait chaque filament par sa nuance de vert",
+      "weight": 0.6,
+      "properties": {
+        "age": 24,
+        "genre": "homme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_village_themba",
+        "metiers": [
+          "biologiste",
+          "speleo"
+        ],
+        "guildes": [
+          "sens",
+          "profondeurs"
+        ],
+        "dialecte": "centresud_urgent, variante themba",
+        "tremens_signature": "faible, yeux adaptes a la penombre",
+        "calibration": "larges",
+        "marche": "penchee en avant, mains sur les parois, marche de gardien de Themba",
+        "trait_distinctif": "Reconnait un filament mourant a sa nuance de vert -- le vert qui tire sur le jaune est un filament qui finit"
+      }
+    },
+    {
+      "id": "actor_citoyen_busisiwe_centresud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Busisiwe est la cartographe de Themba, specialisee dans la transition surface-souterrain. Elle dessine en Contact sur l'avant-bras les cartes de la zone ou la lumiere du jour cede la place aux filaments.",
+      "synthesis": "Cartographe de Themba, specialiste de la transition surface-souterrain, dessine les cartes en Contact",
+      "weight": 0.6,
+      "properties": {
+        "age": 40,
+        "genre": "femme",
+        "archipel": "space_archipel_centre_sud",
+        "residence": "space_village_themba",
+        "metiers": [
+          "cartographe",
+          "speleo"
+        ],
+        "guildes": [
+          "lien",
+          "profondeurs"
+        ],
+        "dialecte": "centresud_urgent, variante themba",
+        "tremens_signature": "doigts, micro-pressions de cartographe",
+        "calibration": "larges",
+        "marche": "penchee en avant, doigts effleurant les parois en permanence",
+        "trait_distinctif": "Ses cartes de Contact sur l'avant-bras sont les seules guides pour la descente -- chaque pression est un virage"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "space_ville_mhluzi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "formatrice"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusumuzi",
+      "target": "space_ville_mhluzi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "doyen predicteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_zintle",
+      "target": "space_ville_mhluzi",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "apprentie"
+      }
+    },
+    {
+      "source": "actor_citoyen_bhekumuzi",
+      "target": "space_ville_mhluzi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "enseignant meteorologie"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_nordest",
+      "target": "space_ville_mhluzi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "predictrice et cuisiniere"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanyiso",
+      "target": "space_ville_mhluzi",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "role": "reparateur de passerelles"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindelwa",
+      "target": "space_ville_mhluzi",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "registre du Consortium"
+      }
+    },
+    {
+      "source": "actor_citoyen_mthokozisi",
+      "target": "space_ville_mhluzi",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "role": "apprenti predicteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_nordest",
+      "target": "space_village_iziphuku",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "gardienne du village-tube"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphamandla_nordest",
+      "target": "space_village_iziphuku",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "fabricant de hamacs"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombizodwa",
+      "target": "space_village_phakade",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "tisserande"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandlenkosi",
+      "target": "space_village_phakade",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "recolteur de fibres"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "space_ville_umsizi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "marchande de sel"
+      }
+    },
+    {
+      "source": "actor_citoyen_bonginkosi",
+      "target": "space_ville_umsizi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "specialiste explosifs"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomvula_est",
+      "target": "space_ville_umsizi",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "fabricante de voiles"
+      }
+    },
+    {
+      "source": "actor_citoyen_siyabonga_est",
+      "target": "space_ville_umsizi",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "cristallier"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungile_est",
+      "target": "space_ville_umsizi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "ecouteuse"
+      }
+    },
+    {
+      "source": "actor_citoyen_andile",
+      "target": "space_ville_umsizi",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "role": "caravanier"
+      }
+    },
+    {
+      "source": "actor_citoyen_zinhle",
+      "target": "space_ville_umsizi",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "caramelisatrice"
+      }
+    },
+    {
+      "source": "actor_citoyen_nokwanda",
+      "target": "space_village_nkosazana",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "extractrice"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisile",
+      "target": "space_village_nkosazana",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "doyenne formatrice"
+      }
+    },
+    {
+      "source": "actor_citoyen_sizwe_est",
+      "target": "space_village_nkosazana",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "extracteur et gantier"
+      }
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.9,
+      "affinity": 0.95,
+      "properties": {
+        "role": "geologue en chef"
+      }
+    },
+    {
+      "source": "actor_citoyen_noxolo",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "aeromaitre"
+      }
+    },
+    {
+      "source": "actor_citoyen_anathi",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "responsable demontage"
+      }
+    },
+    {
+      "source": "actor_citoyen_phiwokuhle",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "role": "apprenti aeromaitre"
+      }
+    },
+    {
+      "source": "actor_citoyen_buyiswa",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "cuisiniere du camp"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindokuhle",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "mineur-geologue"
+      }
+    },
+    {
+      "source": "actor_citoyen_nosipho_centresud",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "meteorologue Consortium"
+      }
+    },
+    {
+      "source": "actor_citoyen_thulani_centresud",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "predicteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_zanele_centresud",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "role": "biologiste"
+      }
+    },
+    {
+      "source": "actor_citoyen_mfundo",
+      "target": "space_ville_bhekisisa",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "cartographe Consortium"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomathemba",
+      "target": "space_village_themba",
+      "type": "habite",
+      "weight": 0.9,
+      "affinity": 0.95,
+      "properties": {
+        "role": "gardienne en chef"
+      }
+    },
+    {
+      "source": "actor_citoyen_sibusiso",
+      "target": "space_village_themba",
+      "type": "habite",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "role": "gardien des filaments"
+      }
+    },
+    {
+      "source": "actor_citoyen_busisiwe_centresud",
+      "target": "space_village_themba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "role": "cartographe de la transition"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_vusumuzi",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zintle",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_bhekumuzi",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nomalanga_nordest",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nomalanga_nordest",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_khanyiso",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_lindelwa",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mthokozisi",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zoleka_nordest",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_siphamandla_nordest",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_ntombizodwa",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mandlenkosi",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_bonginkosi",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nomvula_est",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_siyabonga_est",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_lungile_est",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_andile",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zinhle",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nokwanda",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_dumisile",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sizwe_est",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sizwe_est",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_noxolo",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_anathi",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_phiwokuhle",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_buyiswa",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_lindokuhle",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nosipho_centresud",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_thulani_centresud",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zanele_centresud",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mfundo",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nomathemba",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sibusiso",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sibusiso",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_busisiwe_centresud",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_busisiwe_centresud",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "actor_citoyen_vusumuzi",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "tension ecouteur-predicteur, respect mutuel"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "actor_citoyen_zintle",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "formatrice et apprentie"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "actor_citoyen_bhekumuzi",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "collegues enseignants a Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusumuzi",
+      "target": "actor_citoyen_mthokozisi",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "doyen et apprenti, inquietude paternelle"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_nordest",
+      "target": "actor_citoyen_buyiswa",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "cuisinieres des Seches et des Chaudes, echanges de recettes"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanyiso",
+      "target": "actor_citoyen_lindelwa",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "lui repare les passerelles, elle tient les registres"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_nordest",
+      "target": "actor_citoyen_lindelwa",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "voisines a Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_zintle",
+      "target": "actor_citoyen_mthokozisi",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "apprentis du meme age, rivalite amicale ecouteur-predicteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_nordest",
+      "target": "actor_citoyen_siphamandla_nordest",
+      "type": "connait",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "relation": "tante et cousin de Nandi, famille Iziphuku"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombizodwa",
+      "target": "actor_citoyen_mandlenkosi",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "tisserande et recolteur, binome de travail a Phakade"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_nordest",
+      "target": "actor_citoyen_nombuso_nordest",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "ecouteuses des Seches, Iziphuku-Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "actor_citoyen_bonginkosi",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "marchande et fabricant, dependance commerciale"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "actor_citoyen_nomvula_est",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "marchande et fabricante de voiles, commerce local"
+      }
+    },
+    {
+      "source": "actor_citoyen_bonginkosi",
+      "target": "actor_citoyen_siyabonga_est",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "explosifs et cristallier, fournisseur de gypse broye"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungile_est",
+      "target": "actor_citoyen_andile",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "ecouteuse et caravanier, elle lui dit quand partir"
+      }
+    },
+    {
+      "source": "actor_citoyen_zinhle",
+      "target": "actor_citoyen_thandeka_est",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "caramelisatrice et marchande, son sel caramelise est le produit de luxe"
+      }
+    },
+    {
+      "source": "actor_citoyen_andile",
+      "target": "actor_citoyen_thandeka_est",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "caravanier et marchande, transporte le sel vers le Nord"
+      }
+    },
+    {
+      "source": "actor_citoyen_nokwanda",
+      "target": "actor_citoyen_dumisile",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "apprentie et formatrice a Nkosazana"
+      }
+    },
+    {
+      "source": "actor_citoyen_nokwanda",
+      "target": "actor_citoyen_sizwe_est",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "collegues extracteurs, il fabrique ses gants"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisile",
+      "target": "actor_citoyen_sizwe_est",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "doyenne et extracteur, elle l'a forme"
+      }
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "actor_citoyen_noxolo",
+      "type": "connait",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "geologue en chef et aeromaitre, decisions conjointes"
+      }
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "actor_citoyen_anathi",
+      "type": "connait",
+      "weight": 0.8,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "il decide, elle execute -- binome de commandement"
+      }
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "actor_citoyen_lindokuhle",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "geologues, sondages conjoints avant deplacement"
+      }
+    },
+    {
+      "source": "actor_citoyen_noxolo",
+      "target": "actor_citoyen_phiwokuhle",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "maitre et apprenti aeromaitre"
+      }
+    },
+    {
+      "source": "actor_citoyen_noxolo",
+      "target": "actor_citoyen_nosipho_centresud",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "aeromaitre et meteorologue, croisent leurs lectures"
+      }
+    },
+    {
+      "source": "actor_citoyen_anathi",
+      "target": "actor_citoyen_buyiswa",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "logistique et cuisine, coordonnent les deplacements"
+      }
+    },
+    {
+      "source": "actor_citoyen_thulani_centresud",
+      "target": "actor_citoyen_mqondisi",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "predicteur et geologue, tension science-intuition"
+      }
+    },
+    {
+      "source": "actor_citoyen_zanele_centresud",
+      "target": "actor_citoyen_mqondisi",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "biologiste et geologue, signaux complementaires"
+      }
+    },
+    {
+      "source": "actor_citoyen_mfundo",
+      "target": "actor_citoyen_anathi",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "cartographe et logisticienne, planification des routes"
+      }
+    },
+    {
+      "source": "actor_citoyen_mfundo",
+      "target": "actor_citoyen_busisiwe_centresud",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "cartographes, surface et souterrain, frontieres de leurs cartes"
+      }
+    },
+    {
+      "source": "actor_citoyen_nosipho_centresud",
+      "target": "actor_citoyen_thulani_centresud",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "meteorologue et predicteur, comparent instruments et tremens"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomathemba",
+      "target": "actor_citoyen_sibusiso",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "gardienne en chef et gardien des filaments, meme poste"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomathemba",
+      "target": "actor_citoyen_busisiwe_centresud",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "gardienne et cartographe, definissent les limites de passage"
+      }
+    },
+    {
+      "source": "actor_citoyen_sibusiso",
+      "target": "actor_citoyen_busisiwe_centresud",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "gardien et cartographe de Themba, travaillent ensemble a l'entree"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomathemba",
+      "target": "actor_citoyen_mqondisi",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "gardienne de Themba et geologue de Bhekisisa, coordonnent les expeditions"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanyiso",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "niveau": "praticien"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomathemba",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "niveau": "gardienne"
+      }
+    }
+  ]
+}

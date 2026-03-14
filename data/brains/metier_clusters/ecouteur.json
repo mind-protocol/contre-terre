@@ -1,0 +1,422 @@
+{
+  "cluster_id": "metier_ecouteur",
+  "description": "Écouteur de séismes — the scientific ear of Contre-Terre. The Écouteur uses instruments (sismographe) and trained hearing to detect earthquakes in real-time. They read the present, not the future. Their perception is acoustic: trained ears that distinguish seismic frequencies, cross-referenced against the sismographe's needle. The tension with the Prédicteur is existential: if the body can know what the instrument measures, the Écouteur's role dissolves. But the best Écouteurs know their ears sometimes outrun the needle — and they never speak of it.",
+  "skill_levels": {
+    "novice": "Can read a sismographe and identify basic magnitude ranges. Knows the difference between background tremens (magnitude 4) and an approaching event. Trusts the instrument completely — has not yet developed the ear.",
+    "practitioner": "Distinguishes frequencies by ear with ~80% accuracy against the sismographe. Can cross-reference personal hearing with instrument data and flag discrepancies. Begins to notice moments where the ear detects before the needle — but attributes it to instrument lag, not personal ability.",
+    "master": "The ear and the instrument are two channels of the same signal. The master Écouteur hears sub-frequencies the sismographe cannot register — deep harmonics in the rock, stress patterns in load-bearing walls, the silence before a cascade. They will never admit this publicly, because admitting it would validate the Prédicteur's claim that the body knows. Sihle is at this level and it torments him."
+  },
+  "nodes": [
+    {
+      "id": "concept:sismographe",
+      "type": "concept",
+      "content": "The sismographe: a mechanical instrument — a weighted needle suspended above a paper roll that turns slowly on a hand-cranked drum. Ink traces the needle's movement. The paper never lies. When the ground shakes, the needle swings; the amplitude of the swing corresponds to magnitude. The Écouteur reads the roll like a musician reads a score — not just the peaks, but the rhythm between them, the baseline drift, the micro-tremors that precede major events. The instrument is sacred to the scientific mind: it is perception without subjectivity. Or so they believe.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.7,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:trained_hearing",
+      "type": "concept",
+      "content": "Trained hearing: the Écouteur's primary biological instrument. Years of practice in the listening chambers — stone rooms carved to amplify ground vibrations. The student presses their ear to the rock and learns to separate the frequencies: the low hum of tectonic plates shifting (below 2 Hz), the sharp crack of fracture propagation (8-15 Hz), the rolling murmur of approaching wave-fronts (3-5 Hz). A trained ear can estimate magnitude within 0.3 points, distance within a few hundred meters, and direction by comparing pressure between both ears pressed to different surfaces. The training takes years and damages the ear for surface sounds — most veteran Écouteurs hear poorly in conversation but exquisitely through stone.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:frequency_spectrum",
+      "type": "concept",
+      "content": "The seismic frequency spectrum as the Écouteur understands it. Below 1 Hz: deep tectonic movement, continent-scale. 1-3 Hz: regional plate stress, the 'breathing' of the volcano. 3-5 Hz: approaching wave-fronts — this is where the Écouteur earns their keep. 5-8 Hz: local fracture, cave-ins beginning. 8-15 Hz: active cracking, immediate danger. Above 15 Hz: rockfall, debris, chaos — by then it's too late to warn, only to survive. The Écouteur lives in the 3-8 Hz range: the frequencies of warning, the space between detection and disaster.",
+      "weight": 0.82,
+      "stability": 0.88,
+      "energy": 0.6,
+      "self_relevance": 0.75,
+      "drive_affinity": 0.7,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "concept:present_vs_future",
+      "type": "concept",
+      "content": "The Écouteur reads the present. This is the fundamental philosophical distinction from the Prédicteur. The sismographe records what IS happening — the needle moves because the ground IS moving. The trained ear hears what IS vibrating. There is no prophecy, no intuition, no mysticism. Only measurement. Only now. The future is extrapolation from data, not revelation from the body. This is what Sihle tells himself. This is the wall he builds between himself and Nandi's tremens. But measurement of the present, done with enough precision, becomes indistinguishable from prediction — and that is the crack in the wall.",
+      "weight": 0.88,
+      "stability": 0.75,
+      "energy": 0.85,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "concept:instrument_trust",
+      "type": "concept",
+      "content": "Instrument trust: the epistemological foundation of the Écouteur. The sismographe does not feel. It does not hope. It does not fear. It measures. This makes it trustworthy in a way the body can never be. The body flinches, the body panics, the body interprets. The instrument only records. When Sihle places his two fingers on someone's forearm and transmits data, he is extending the instrument's objectivity through Contact — 'here is what the needle said, not what I felt.' Instrument trust is both the Écouteur's greatest strength and their deepest vulnerability: what happens when the instrument breaks, or when it simply cannot detect what the ear hears?",
+      "weight": 0.9,
+      "stability": 0.82,
+      "energy": 0.75,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:data_first",
+      "type": "value",
+      "content": "Measurements are truth. Not stories, not feelings, not hunches — numbers. A magnitude 5.2 is a magnitude 5.2 regardless of who measures it. The Écouteur's commitment to data-first is both professional ethics and personal identity: Sihle notes numbers in the margins of his sismographe roll not because he must, but because numbers are the language he trusts. When he withdraws his hand during disagreement, it is because the data says no and the data outranks the conversation.",
+      "weight": 0.88,
+      "stability": 0.9,
+      "energy": 0.65,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "value:reproducibility",
+      "type": "value",
+      "content": "If I can't reproduce it, it's not science. The Écouteur's test for any claim: can another Écouteur, with another sismographe, get the same reading? If yes — it's real. If no — it's noise, or worse, it's subjective. This is why the Prédicteur's tremens-based predictions infuriate the Écouteur: they cannot be reproduced by anyone without the tremens. They are inherently personal, inherently unverifiable, inherently unscientific. That they are also frequently correct is the part that keeps Sihle awake.",
+      "weight": 0.85,
+      "stability": 0.92,
+      "energy": 0.6,
+      "self_relevance": 0.78,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.72
+    },
+    {
+      "id": "value:instrument_integrity",
+      "type": "value",
+      "content": "The sismographe doesn't lie. This is not metaphor — it is article of faith. The needle, the ink, the paper: they are incapable of deception. When a reading seems wrong, the error is in the reader, not the instrument. Maintaining the sismographe — keeping the needle balanced, the paper taut, the ink flowing — is a ritual with the gravity of prayer. A poorly maintained instrument is worse than no instrument: it gives false confidence. The Écouteur maintains their sismographe the way Inyoni counts her sangles — with compulsive precision, because the alternative is death.",
+      "weight": 0.86,
+      "stability": 0.88,
+      "energy": 0.55,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.76
+    },
+    {
+      "id": "process:monitor_sismographe",
+      "type": "process",
+      "content": "Continuous monitoring of the sismographe. The Écouteur checks the paper roll at regular intervals — every few minutes during stable periods, continuously during elevated activity. The reading protocol: first, check the baseline (is the background tremens normal?). Second, check for drift (is the baseline rising or falling?). Third, check for spikes (any sudden amplitude increases?). Fourth, check the ink (is the trace continuous? gaps mean mechanical failure). The paper roll must be advanced by hand-crank; failing to advance it means overwriting recent data. Sihle's hands smell of ink. His fingertips are permanently stained.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.7,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:listen_ground",
+      "type": "process",
+      "content": "Press ear to rock, compare with instrument. The physical act: the Écouteur kneels, places their ear flat against a rock surface (ideally a load-bearing wall or floor), and listens. Both ears, different surfaces, to triangulate direction. The body becomes a receiving antenna. The ear picks up frequencies the sismographe needle is too heavy to trace — the sub-hertz rumble of deep plate movement, the ultra-high crackle of crystal stress in granite. The Écouteur's official position is that this supplements the instrument. The unofficial truth: sometimes the ear IS the better instrument. This is the secret the Écouteur carries and never discusses.",
+      "weight": 0.9,
+      "stability": 0.8,
+      "energy": 0.85,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "process:log_readings",
+      "type": "process",
+      "content": "Record everything numerically. The Écouteur keeps a margin log on the sismographe roll itself — small numbers written in ink beside the trace. Time estimates (no clocks underground — the Écouteur counts heartbeats), magnitude estimates, frequency observations, directional notes. The log is the Écouteur's proof: when someone asks 'how do you know?', the answer is 'look at the roll.' The numbers accumulate into a seismic history of the descent — a story told in magnitudes and frequencies that only another Écouteur could read.",
+      "weight": 0.78,
+      "stability": 0.85,
+      "energy": 0.55,
+      "self_relevance": 0.7,
+      "drive_affinity": 0.65,
+      "goal_relevance": 0.72
+    },
+    {
+      "id": "process:cross_reference",
+      "type": "process",
+      "content": "Compare personal hearing with instrument data. The most intellectually honest — and most dangerous — process in the Écouteur's repertoire. After each significant event, the Écouteur compares: what did the sismographe record? What did I hear? When discrepancies arise (and they always do), the Écouteur must decide: instrument error, or perception error? The trained Écouteur almost always sides with the instrument. But the discrepancies accumulate. The ear heard the 5.2 three seconds before the needle moved. The ear detected a sub-frequency the needle missed entirely. The ear knew the direction before the triangulation confirmed it. These discrepancies, logged honestly, tell a story the Écouteur does not want to read.",
+      "weight": 0.92,
+      "stability": 0.72,
+      "energy": 0.9,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:report_to_team",
+      "type": "process",
+      "content": "Translate readings into actionable Contact. The Écouteur's data must reach the team in tactile form. The protocol: two fingers on the forearm = data transmission (not emotion, not opinion — data). Specific patterns encode specific information: rapid tapping = elevated activity; sustained pressure = stable; two fingers then pull away = anomaly detected, attention needed. Sihle's Contact is the most technical in the team — he transmits numbers through touch. The irony: this is as subjective and bodily as the Prédicteur's tremens, but it passes through the legitimating ritual of having originated from an instrument.",
+      "weight": 0.82,
+      "stability": 0.8,
+      "energy": 0.7,
+      "self_relevance": 0.78,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "desire:prove_science_works",
+      "type": "desire",
+      "content": "Vindicate the instrument approach. Sihle was sent by the scientific wing of the Consortium. His mandate: prove that instruments can do what the Prédicteurs claim only the body can do. If his sismographe detects every event the Prédicteur predicts, then the Prédicteur is redundant. If the instrument is sufficient, then the body is unnecessary. This is not abstract — Sihle's entire professional identity rests on the instrument's supremacy. Every time his ear outperforms the needle, that identity cracks. Every time Nandi vomits before the sismographe moves, the crack widens.",
+      "weight": 0.88,
+      "stability": 0.65,
+      "energy": 0.92,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.95,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "desire:detect_before_it_hits",
+      "type": "desire",
+      "content": "Hear the earthquake coming. The practical, survival-level desire: detect the event in time to warn the team. Every second of warning is a second to brace, to move away from unstable walls, to grab the rope. The Écouteur's entire value to the expedition is measured in those seconds. When Sihle presses his ear to the rock, he is not doing science — he is buying time for seven lives. This desire transcends the intellectual tension with the Prédicteur: when the ground shakes, the only question is 'did you hear it in time?', not 'how did you hear it?'",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.88,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "narrative:the_secret",
+      "type": "narrative",
+      "content": "The needle moves before I hear it. But sometimes I hear it before the needle moves. I don't talk about those times. I log the discrepancy — instrument lag, probable mechanical delay, note to recalibrate. But the recalibration never changes anything. The needle is not slow. My ear is fast. Faster than paper and ink and weighted metal. Faster in ways that have no place in my reports, no column in my data, no word in the Contact I transmit to the team. Two fingers on the forearm: here is what the instrument says. Never: here is what I heard three seconds before the instrument said it. Those three seconds are mine. They are my shame.",
+      "weight": 0.95,
+      "stability": 0.6,
+      "energy": 0.95,
+      "self_relevance": 1.0,
+      "drive_affinity": 0.95,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "state:monitoring",
+      "type": "state",
+      "content": "Steady observation. The default state of the Écouteur during the descent. Eyes closed or half-lidded, one hand near the sismographe, body still. Breathing regulated to minimize interference. In this state, the Écouteur is a receiver: passive, absorptive, tuned. The background tremens (magnitude 4) is the baseline — the Écouteur hears it the way a sailor hears the sea: always present, only alarming when it changes. Monitoring is meditative, repetitive, and occasionally hypnotic. The danger is complacency — the Écouteur who falls asleep while monitoring has already died, even if the earthquake hasn't come yet.",
+      "weight": 0.75,
+      "stability": 0.9,
+      "energy": 0.5,
+      "self_relevance": 0.7,
+      "drive_affinity": 0.65,
+      "goal_relevance": 0.7
+    },
+    {
+      "id": "state:alert",
+      "type": "state",
+      "content": "Detecting anomaly. The baseline has shifted. The sismographe needle is swinging wider, or the ear has caught a new frequency. The Écouteur's body snaps into focus: both ears pressed to rock, eyes on the roll, breath held. Cross-referencing begins immediately — instrument vs. ear, current reading vs. recent history. The alert state demands a decision: warn the team (and risk a false alarm) or wait for confirmation (and risk being too late). Sihle's threshold is conservative — he waits for instrument confirmation, even when his ear is screaming. This conservatism will cost him nothing until the one time it costs him everything.",
+      "weight": 0.82,
+      "stability": 0.7,
+      "energy": 0.9,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "state:overwhelmed",
+      "type": "state",
+      "content": "Too many frequencies at once. When the seismic environment becomes chaotic — multiple events overlapping, aftershocks cascading, the rock itself groaning at every frequency simultaneously — the Écouteur's trained hearing becomes a liability. The ear cannot separate signal from noise when everything is signal. The sismographe needle swings wildly, tracing a thick black bar instead of a clean waveform. In this state, the Écouteur is effectively blind: too much information is the same as none. The trained response is to wait — press ear to rock, breathe, wait for the chaos to resolve into distinct frequencies again. But underground, in a volcano, chaos does not always resolve.",
+      "weight": 0.78,
+      "stability": 0.5,
+      "energy": 0.95,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.7,
+      "goal_relevance": 0.75
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:sismographe",
+      "target": "concept:trained_hearing",
+      "type": "associates",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:sismographe",
+      "target": "value:instrument_integrity",
+      "type": "supports",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:sismographe",
+      "target": "process:monitor_sismographe",
+      "type": "activates",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:trained_hearing",
+      "target": "process:listen_ground",
+      "type": "activates",
+      "weight": 0.93
+    },
+    {
+      "source": "concept:trained_hearing",
+      "target": "concept:frequency_spectrum",
+      "type": "depends_on",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:frequency_spectrum",
+      "target": "process:cross_reference",
+      "type": "supports",
+      "weight": 0.78
+    },
+    {
+      "source": "concept:present_vs_future",
+      "target": "value:data_first",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:present_vs_future",
+      "target": "desire:prove_science_works",
+      "type": "causes",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:instrument_trust",
+      "target": "concept:sismographe",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:instrument_trust",
+      "target": "value:reproducibility",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "value:data_first",
+      "target": "process:log_readings",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "value:data_first",
+      "target": "process:report_to_team",
+      "type": "regulates",
+      "weight": 0.8
+    },
+    {
+      "source": "value:reproducibility",
+      "target": "concept:present_vs_future",
+      "type": "supports",
+      "weight": 0.82
+    },
+    {
+      "source": "process:monitor_sismographe",
+      "target": "process:log_readings",
+      "type": "causes",
+      "weight": 0.88
+    },
+    {
+      "source": "process:listen_ground",
+      "target": "process:cross_reference",
+      "type": "causes",
+      "weight": 0.92
+    },
+    {
+      "source": "process:cross_reference",
+      "target": "narrative:the_secret",
+      "type": "causes",
+      "weight": 0.9,
+      "affinity": 0.95,
+      "trust": 0.3
+    },
+    {
+      "source": "process:cross_reference",
+      "target": "process:report_to_team",
+      "type": "causes",
+      "weight": 0.82
+    },
+    {
+      "source": "desire:prove_science_works",
+      "target": "value:data_first",
+      "type": "projects_toward",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:detect_before_it_hits",
+      "target": "process:listen_ground",
+      "type": "projects_toward",
+      "weight": 0.9
+    },
+    {
+      "source": "desire:detect_before_it_hits",
+      "target": "state:alert",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "narrative:the_secret",
+      "target": "desire:prove_science_works",
+      "type": "regulates",
+      "weight": 0.92,
+      "trust": 0.25
+    },
+    {
+      "source": "narrative:the_secret",
+      "target": "concept:present_vs_future",
+      "type": "regulates",
+      "weight": 0.88
+    },
+    {
+      "source": "state:monitoring",
+      "target": "process:monitor_sismographe",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "state:monitoring",
+      "target": "state:alert",
+      "type": "causes",
+      "weight": 0.7
+    },
+    {
+      "source": "state:alert",
+      "target": "process:cross_reference",
+      "type": "activates",
+      "weight": 0.92
+    },
+    {
+      "source": "state:alert",
+      "target": "process:report_to_team",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "state:alert",
+      "target": "state:overwhelmed",
+      "type": "causes",
+      "weight": 0.55
+    },
+    {
+      "source": "state:overwhelmed",
+      "target": "concept:trained_hearing",
+      "type": "regulates",
+      "weight": 0.85,
+      "trust": 0.4
+    },
+    {
+      "source": "value:instrument_integrity",
+      "target": "process:monitor_sismographe",
+      "type": "regulates",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:prove_science_works",
+      "target": "concept:instrument_trust",
+      "type": "projects_toward",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:log_readings",
+      "target": "process:cross_reference",
+      "type": "supports",
+      "weight": 0.75
+    },
+    {
+      "source": "concept:present_vs_future",
+      "target": "narrative:the_secret",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.92
+    }
+  ]
+}

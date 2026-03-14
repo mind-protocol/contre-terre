@@ -1,0 +1,1900 @@
+{
+  "cluster_id": "citizens_sud_nord_ouest",
+  "description": "Citizens of Sud (Basses-Terres), Nord (Froides), and Ouest (Roulantes) archipelagos -- 35 living inhabitants",
+  "nodes": [
+    {
+      "id": "actor_citoyen_bongiwe",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Bongiwe tient le comptoir principal du marche de Kahlamba depuis vingt-deux ans. Ses mains sentent le cuir tanne et le sel — elle negocie en Contact si vite que les caravaniers du Nord n'arrivent pas a suivre.",
+      "synthesis": "Marchande principale de Kahlamba, negociatrice en Contact rapide",
+      "weight": 0.7,
+      "properties": {
+        "age": 47,
+        "genre": "femme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "leader",
+          "cuisinier"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses lentes, etalement de paume",
+        "calibration": "basses",
+        "marche": "pieds a plat, foulee pesante de commercante",
+        "trait_distinctif": "Pese chaque poignee de sel avec les yeux fermes — ses mains ne se trompent jamais d'un gramme"
+      }
+    },
+    {
+      "id": "actor_citoyen_vusi",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Vusi est caravanier sur La Longue depuis qu'il a seize ans. Il connait chaque veine de roche stable entre Kahlamba et Ingwe par la frequence qu'elle envoie dans ses talons.",
+      "synthesis": "Caravanier veteran de La Longue, lit les veines par les pieds",
+      "weight": 0.7,
+      "properties": {
+        "age": 34,
+        "genre": "homme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "cartographe",
+          "specialiste_survie"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond_emprunts_ouest",
+        "tremens_signature": "basses regulieres, pulsation de marche",
+        "calibration": "basses",
+        "marche": "pieds a plat, rythme metronomique de caravanier",
+        "trait_distinctif": "Parle aux gens de l'Ouest avec le balancement de roulis — le seul du Sud qui le fait sans avoir l'air ridicule"
+      }
+    },
+    {
+      "id": "actor_citoyen_nosipho_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nosipho gere les archives tactiles du Consortium — les sequences de Contact qui encodent les decisions entre archipels. Elle reproduit de memoire quarante ans de deliberations.",
+      "synthesis": "Archiviste tactile du Consortium, memoire vivante des deliberations inter-archipels",
+      "weight": 0.75,
+      "properties": {
+        "age": 61,
+        "genre": "femme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "leader"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond_formel",
+        "tremens_signature": "basses profondes, precision diplomatique",
+        "calibration": "basses",
+        "marche": "pieds a plat, pas mesure d'ancienne",
+        "trait_distinctif": "N'a jamais quitte Kahlamba — dit que le monde vient a elle, et il vient"
+      }
+    },
+    {
+      "id": "actor_citoyen_siphelele",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Siphelele est cuisinier au marche — sa bouillie de Kahlamba est la reference. Il dose le sel de Nkosazana a l'instinct et n'a jamais surdose, ce qui inquiete les superstitieux.",
+      "synthesis": "Cuisinier du marche de Kahlamba, doseur instinctif de sel",
+      "weight": 0.65,
+      "properties": {
+        "age": 29,
+        "genre": "homme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "cuisinier"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses douces, legere ondulation",
+        "calibration": "basses",
+        "marche": "pieds a plat, pas rapide pour un homme du Sud",
+        "trait_distinctif": "Gonfle les joues quand il goute — les enfants l'imitent dans tout le marche"
+      }
+    },
+    {
+      "id": "actor_citoyen_zanele_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Zanele organise les departs d'expedition depuis le dome du Consortium. Deux de ses fils sont morts dans le desert sismique — elle prepare chaque expedition comme si c'etait la derniere.",
+      "synthesis": "Organisatrice des expeditions du Consortium, meticuleuse par le deuil",
+      "weight": 0.7,
+      "properties": {
+        "age": 52,
+        "genre": "femme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "leader",
+          "cartographe"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses tendues, pression constante",
+        "calibration": "basses",
+        "marche": "pieds a plat, lourd, chaque pas delibere",
+        "trait_distinctif": "Verifie les cordes trois fois — toujours trois, jamais deux, jamais quatre"
+      }
+    },
+    {
+      "id": "actor_citoyen_buhle_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Buhle fait la navette entre Kahlamba et Ndaba avec les commandes de cordage. A dix-sept ans, elle connait chaque tisserand de Ndaba par l'odeur de ses mains.",
+      "synthesis": "Messagere entre Kahlamba et Ndaba, reconnait les tisserands a l'odeur",
+      "weight": 0.6,
+      "properties": {
+        "age": 17,
+        "genre": "femme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "cartographe"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses legeres, vibration de jeunesse",
+        "calibration": "basses",
+        "marche": "pieds a plat mais rapide, pas encore la pesanteur des anciens",
+        "trait_distinctif": "Court au lieu de marcher — les vieux de Kahlamba secouent la tete mais lui donnent les commandes urgentes"
+      }
+    },
+    {
+      "id": "actor_citoyen_mandla_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mandla est forgeron de caissons amortisseurs — les boitiers de basalte qui protegent les instruments fragiles pendant le transport. Chaque caisson est calibre a la main pour une frequence de resonance precise.",
+      "synthesis": "Forgeron de caissons amortisseurs a Kahlamba, calibration manuelle",
+      "weight": 0.65,
+      "properties": {
+        "age": 41,
+        "genre": "homme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "mineur",
+          "specialiste_roche"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses sourdes, resonance d'atelier",
+        "calibration": "basses",
+        "marche": "pieds a plat, pieds ecartes de forgeron",
+        "trait_distinctif": "Ses ongles sont noirs de poussiere de basalte — il dit qu'ils sentent mieux le grain de la roche comme ca"
+      }
+    },
+    {
+      "id": "actor_citoyen_thandeka_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Thandeka est l'ainee des fabricants de reservoirs souterrains de Kahlamba. Elle connait le reseau de nappes phreatiques mieux que les pecheurs de Lesedi et refuse de partager ses cartes mentales.",
+      "synthesis": "Ainee des reservoirs souterrains, gardienne des nappes de Kahlamba",
+      "weight": 0.7,
+      "properties": {
+        "age": 68,
+        "genre": "femme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "specialiste_oceans",
+          "speleologue"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "sud_profond_archaique",
+        "tremens_signature": "basses tres profondes, presque infra-basses",
+        "calibration": "basses",
+        "marche": "pieds a plat, tres lente, canne de basalte",
+        "trait_distinctif": "Dit qu'elle 'entend l'eau rever' — personne ne sait si c'est une metaphore"
+      }
+    },
+    {
+      "id": "actor_citoyen_mzamo",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mzamo tient l'echoppe de reparation de hamacs au marche. Il tresse, coud et remplace les cordes d'ancrage usees. Son Contact de diagnostic — une paume posee sur le hamac — dit l'usure en trois secondes.",
+      "synthesis": "Reparateur de hamacs au marche de Kahlamba, diagnostic tactile",
+      "weight": 0.6,
+      "properties": {
+        "age": 36,
+        "genre": "homme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "specialiste_escalade"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses moyennes, doigts toujours en mouvement",
+        "calibration": "basses",
+        "marche": "pieds a plat, orteils legerement en dedans comme les gens de Ndaba",
+        "trait_distinctif": "Ses mains ne s'arretent jamais — quand il parle en Contact, il tresse de l'autre main"
+      }
+    },
+    {
+      "id": "actor_citoyen_ayanda",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Ayanda est ecouteur au service du Consortium — il passe ses journees pieds nus sur le basalte a lire les signaux de fond et transmettre les alertes sismiques aux marchands du marche.",
+      "synthesis": "Ecouteur du Consortium a Kahlamba, veille sismique du marche",
+      "weight": 0.7,
+      "properties": {
+        "age": 25,
+        "genre": "homme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_ville_kahlamba",
+        "metiers": [
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses fines, sensibilite elevee",
+        "calibration": "basses",
+        "marche": "pieds a plat, pieds nus meme hors service",
+        "trait_distinctif": "Dort les pieds hors du hamac, contre le sol — dit que les seismes nocturnes sont les plus honnetes"
+      }
+    },
+    {
+      "id": "actor_citoyen_nomalanga_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nomalanga est maitresse-tisserande a Ndaba — elle tresse la triple tresse de Kwanele les yeux fermes. Elle forme les apprentis en leur faisant defaire et refaire la meme corde jusqu'a ce que leurs mains sachent sans leurs yeux.",
+      "synthesis": "Maitresse-tisserande de Ndaba, gardienne de la triple tresse de Kwanele",
+      "weight": 0.7,
+      "properties": {
+        "age": 55,
+        "genre": "femme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_village_ndaba",
+        "metiers": [
+          "specialiste_escalade"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses circulaires, rotation des poignets",
+        "calibration": "basses",
+        "marche": "pieds en dedans, marche pigeonne des tisserands",
+        "trait_distinctif": "Commence chaque matin par le geste de la troisieme main — pouce au centre de la paume — en memoire de Kwanele"
+      }
+    },
+    {
+      "id": "actor_citoyen_siyabonga_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Siyabonga est le plus jeune cordier de Ndaba — il n'a pas encore la marche pigeonne mais ses mains sont deja celles d'un tresseur. Il reve de partir en caravane avec les cordes qu'il fabrique.",
+      "synthesis": "Jeune cordier de Ndaba, mains de tresseur, reve de caravane",
+      "weight": 0.6,
+      "properties": {
+        "age": 19,
+        "genre": "homme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_village_ndaba",
+        "metiers": [
+          "specialiste_escalade"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses nerveuses, jeunesse",
+        "calibration": "basses",
+        "marche": "pieds a plat, pas encore pigeonne",
+        "trait_distinctif": "Garde un bout de corde a la ceinture en permanence — ses doigts tressent dans le vide quand il s'ennuie"
+      }
+    },
+    {
+      "id": "actor_citoyen_lindiwe_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Lindiwe est apprentie-cordiere a Ndaba. Elle est la petite-fille de la petite-fille de Nobanzi — celle qui a defait les cordes de Kwanele. Lindiwe tresse comme pour racheter quelque chose, disent les anciens.",
+      "synthesis": "Apprentie-cordiere de Ndaba, descendante de Nobanzi, tresse avec une intensite de rachat",
+      "weight": 0.6,
+      "properties": {
+        "age": 22,
+        "genre": "femme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_village_ndaba",
+        "metiers": [
+          "specialiste_escalade"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses serrees, tension des poignets",
+        "calibration": "basses",
+        "marche": "pieds en dedans, marche pigeonne prononcee",
+        "trait_distinctif": "Ne defait jamais une corde — meme ratee, elle la finit, puis en tresse une nouvelle"
+      }
+    },
+    {
+      "id": "actor_citoyen_thulani_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Thulani est pecheur d'eau a Lesedi — il descend dans les fissures phreatiques avec une gourde de cuir et remonte l'eau froide et bleutee que tout le Sud boit en fermant les yeux.",
+      "synthesis": "Pecheur d'eau de Lesedi, plongeur des fissures phreatiques",
+      "weight": 0.65,
+      "properties": {
+        "age": 33,
+        "genre": "homme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_village_lesedi",
+        "metiers": [
+          "specialiste_oceans",
+          "specialiste_escalade"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "sud_profond",
+        "tremens_signature": "basses humides, resonance de fissure",
+        "calibration": "basses",
+        "marche": "pieds a plat, pas prudent de pecheur — teste le sol avant de poser le poids",
+        "trait_distinctif": "Ses mains sont toujours froides — l'eau des nappes les a refroidies pour toujours, disent les vieux"
+      }
+    },
+    {
+      "id": "actor_citoyen_nomvula_sud",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nomvula est la doyenne de Lesedi. Elle ne descend plus dans les fissures mais elle sent l'eau monter ou descendre rien qu'en posant la paume sur le basalte au-dessus de la nappe.",
+      "synthesis": "Doyenne de Lesedi, sent les nappes par le basalte",
+      "weight": 0.65,
+      "properties": {
+        "age": 70,
+        "genre": "femme",
+        "archipel": "space_archipel_sud",
+        "residence": "space_village_lesedi",
+        "metiers": [
+          "specialiste_oceans"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "sud_profond_archaique",
+        "tremens_signature": "basses tres lentes, ondulation de nappe",
+        "calibration": "basses",
+        "marche": "pieds a plat, tres lente, pieds qui ne quittent presque jamais le sol",
+        "trait_distinctif": "Dit que l'eau a un battement de coeur — et que celui de la nappe sud ralentit depuis dix ans"
+      }
+    },
+    {
+      "id": "actor_citoyen_lungile_nord",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Lungile taille des essieux de basalte a Umzimkhulu depuis quarante ans. Ses mains sont si calleuses que son Contact ressemble a du morse — sec, precis, sans nuance. Il dit que la nuance est pour les gens du Sud.",
+      "synthesis": "Tailleur d'essieux veteran d'Umzimkhulu, Contact dur et sans nuance",
+      "weight": 0.7,
+      "properties": {
+        "age": 58,
+        "genre": "homme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "mineur",
+          "specialiste_roche"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses profondes, resonance osseuse",
+        "calibration": "basses",
+        "marche": "talon-pointe, frappe lourde",
+        "trait_distinctif": "Ne sourit jamais, mais son Contact du matin dure 10 secondes de plus que necessaire"
+      }
+    },
+    {
+      "id": "actor_citoyen_ntombi_nord",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Ntombi construit des sismographes au troisieme niveau d'Umzimkhulu. Chaque instrument est une sculpture de granite et de fibre — elle les calibre en les ecoutant vibrer, l'oreille collee a la roche.",
+      "synthesis": "Luthiere de sismographes a Umzimkhulu, calibre a l'oreille",
+      "weight": 0.75,
+      "properties": {
+        "age": 44,
+        "genre": "femme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "ecouteur",
+          "specialiste_roche"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses profondes, spectre etroit, precision instrumentale",
+        "calibration": "basses",
+        "marche": "talon-pointe, pas mesure, s'arrete souvent pour ecouter les murs",
+        "trait_distinctif": "Frappe chaque mur qu'elle croise en passant — et sait a quel niveau elle se trouve par le son"
+      }
+    },
+    {
+      "id": "actor_citoyen_gugu",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Gugu vit au cinquieme niveau d'Umzimkhulu — la ou le granite est le plus froid et le plus dense. Elle est la plus ancienne habitante du niveau, et sa peau est si froide qu'on dit qu'elle a le sang de la roche.",
+      "synthesis": "Ancienne du cinquieme niveau d'Umzimkhulu, peau froide comme le granite",
+      "weight": 0.7,
+      "properties": {
+        "age": 67,
+        "genre": "femme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "mineur"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "nord_lourd_profond",
+        "tremens_signature": "basses quasi-immobiles, vibration de fond",
+        "calibration": "basses",
+        "marche": "talon-pointe, lente, chaque pas resonne dans les couloirs de granite",
+        "trait_distinctif": "Sa poignee de poing fait frissonner les gens du Sud — pas par la force, par le froid"
+      }
+    },
+    {
+      "id": "actor_citoyen_bhekani",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Bhekani est meteorologue a Umzimkhulu — il lit les variations de pression atmospherique a travers les courants d'air qui traversent les cinq niveaux. Quand l'air du cinquieme niveau remonte, il sait que le granite se rechauffe.",
+      "synthesis": "Meteorologue d'Umzimkhulu, lit les courants d'air entre les niveaux",
+      "weight": 0.7,
+      "properties": {
+        "age": 38,
+        "genre": "homme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "meteorologue",
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses moyennes, sensibilite aux courants",
+        "calibration": "basses",
+        "marche": "talon-pointe, pas regulier, s'arrete quand l'air change",
+        "trait_distinctif": "Mouille son doigt et le leve en permanence — meme a l'interieur, meme au cinquieme niveau"
+      }
+    },
+    {
+      "id": "actor_citoyen_zandile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Zandile est l'ecouteur en chef d'Umzimkhulu. Elle a etudie les techniques de Dumisani telles que les porteurs les ont transmises. Son corps capte les infra-basses que les sismographes de Ntombi ne detectent pas.",
+      "synthesis": "Ecouteur en chef d'Umzimkhulu, heritiere des techniques de Dumisani",
+      "weight": 0.75,
+      "properties": {
+        "age": 50,
+        "genre": "femme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses infra-perceptibles, resonance de bassin et colonne",
+        "calibration": "basses",
+        "marche": "talon-pointe, tres lente, pieds nus sur le granite",
+        "trait_distinctif": "S'assoit au bord du vide comme Dumisani — les pieds au-dessus du rien, le corps a l'ecoute"
+      }
+    },
+    {
+      "id": "actor_citoyen_mbuso",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mbuso est mineur au deuxieme niveau. Il place les coins de basalte dans les fissures avec une patience que les gens du Sud trouvent insupportable — il attend parfois trois jours qu'un seisme de la bonne magnitude fasse le travail.",
+      "synthesis": "Mineur patient d'Umzimkhulu, placeur de coins, attend le bon seisme",
+      "weight": 0.65,
+      "properties": {
+        "age": 31,
+        "genre": "homme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "mineur"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses profondes, patience tellurique",
+        "calibration": "basses",
+        "marche": "talon-pointe, frappe mesuree",
+        "trait_distinctif": "Dort a cote de ses coins — dit qu'il faut etre la quand la roche decide de se fendre"
+      }
+    },
+    {
+      "id": "actor_citoyen_sindiswa",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Sindiswa est la juge du conseil d'Umzimkhulu. Ses poings sur les epaules des plaignants disent le verdict — la pression dit le tort, la duree dit la peine. Personne ne conteste un poing de Sindiswa.",
+      "synthesis": "Juge du conseil d'Umzimkhulu, rend ses verdicts par la pression du poing",
+      "weight": 0.7,
+      "properties": {
+        "age": 63,
+        "genre": "femme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "leader"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "nord_lourd_formel",
+        "tremens_signature": "basses autoritaires, pression calibree",
+        "calibration": "basses",
+        "marche": "talon-pointe, pas lourd d'autorite",
+        "trait_distinctif": "Ses poings sont asymetriques — le droit pour la justice, le gauche pour la clemence, et personne ne sait lequel est lequel"
+      }
+    },
+    {
+      "id": "actor_citoyen_dumisa_nord",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Dumisa brasse la bouillie grise du Nord au premier niveau. Il y ajoute la poudre de granite qui use les dents et la pate d'essieu de Mantolo que les gens des autres archipels refusent de gouter.",
+      "synthesis": "Cuisinier du Nord, specialiste de la bouillie grise a la poudre de granite",
+      "weight": 0.6,
+      "properties": {
+        "age": 42,
+        "genre": "homme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "cuisinier"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses sourdes, rythme de brassage",
+        "calibration": "basses",
+        "marche": "talon-pointe, pas de cuisinier qui porte lourd",
+        "trait_distinctif": "Goute la pate d'essieu de Mantolo en fermant les yeux avec un air de beatitude qui ecœure les visiteurs"
+      }
+    },
+    {
+      "id": "actor_citoyen_khanyisile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Khanyisile est apprentie ecouteur — elle a seize ans et passe ses journees assise sur le granite du troisieme niveau, les paumes a plat, a apprendre la difference entre une replique de magnitude 3.8 et une de 3.9.",
+      "synthesis": "Apprentie ecouteur de seize ans a Umzimkhulu, en formation sur le granite",
+      "weight": 0.6,
+      "properties": {
+        "age": 16,
+        "genre": "femme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_ville_umzimkhulu",
+        "metiers": [
+          "ecouteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses naissantes, corps en calibration",
+        "calibration": "basses",
+        "marche": "talon-pointe, hesitante, encore en train d'apprendre la frappe",
+        "trait_distinctif": "Pose les deux mains sur chaque surface qu'elle touche — murs, sol, gens — comme si le monde entier etait un instrument"
+      }
+    },
+    {
+      "id": "actor_citoyen_nqobile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nqobile est maitre-tailleur a Mantolo. Il sait ou poser un coin pour que le granite se fende en eclats impairs — les eclats sains. On dit que ses mains lisent les fissures internes de la roche comme d'autres lisent le Contact.",
+      "synthesis": "Maitre-tailleur de Mantolo, lit les fissures internes du granite",
+      "weight": 0.7,
+      "properties": {
+        "age": 56,
+        "genre": "homme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_village_mantolo",
+        "metiers": [
+          "specialiste_roche",
+          "mineur"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses percussives, eclats de granite",
+        "calibration": "basses",
+        "marche": "talon-pointe, frappe les murs de ses poings en passant",
+        "trait_distinctif": "Compte les eclats a voix haute — un des rares usages de la voix au Nord, et personne ne le lui reproche"
+      }
+    },
+    {
+      "id": "actor_citoyen_thembekile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Thembekile est tailleuse de niches funeraires a Mantolo. Elle sculpte les tombes dans le granite en une journee, utilisant les seismes eux-memes pour fendre la roche dans la bonne direction.",
+      "synthesis": "Tailleuse de niches funeraires a Mantolo, sculpte avec les seismes",
+      "weight": 0.65,
+      "properties": {
+        "age": 45,
+        "genre": "femme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_village_mantolo",
+        "metiers": [
+          "specialiste_roche"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses graves, resonance funeraire",
+        "calibration": "basses",
+        "marche": "talon-pointe, pas solennel",
+        "trait_distinctif": "Parle aux morts qu'elle enterre — en Contact, les mains sur le granite de la niche, comme si la roche transmettait"
+      }
+    },
+    {
+      "id": "actor_citoyen_phila",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Phila est le plus jeune tailleur de Mantolo. Il a les mains deja calleuses a vingt ans et frappe les murs en marchant, comme tous les gens de Mantolo, mais plus fort — il n'a pas encore appris a doser.",
+      "synthesis": "Jeune tailleur de Mantolo, frappe les murs trop fort",
+      "weight": 0.6,
+      "properties": {
+        "age": 20,
+        "genre": "homme",
+        "archipel": "space_archipel_nord",
+        "residence": "space_village_mantolo",
+        "metiers": [
+          "specialiste_roche",
+          "mineur"
+        ],
+        "guildes": [
+          "profondeurs"
+        ],
+        "dialecte": "nord_lourd",
+        "tremens_signature": "basses brutes, pas encore controlees",
+        "calibration": "basses",
+        "marche": "talon-pointe, frappe lourde, poings sur les murs",
+        "trait_distinctif": "A casse trois murs en un mois — Nqobile dit que c'est bon signe, que la force viendra avant le controle"
+      }
+    },
+    {
+      "id": "actor_citoyen_sizwe_ouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Sizwe est maitre des ponts d'Ingwe — premier debout chaque matin, il teste la tension des cordes entre les trois blocs avant que quiconque ne traverse. Ses mains lisent la derive de la nuit en trois secondes.",
+      "synthesis": "Maitre des ponts d'Ingwe, lit la derive nocturne par la tension des cordes",
+      "weight": 0.75,
+      "properties": {
+        "age": 48,
+        "genre": "homme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_ville_ingwe",
+        "metiers": [
+          "cartographe",
+          "specialiste_escalade"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "ouest_contextuel",
+        "tremens_signature": "variable selon la derive, adaptatif",
+        "calibration": "larges",
+        "marche": "roulis compensatoire, genoux flechis, centre de gravite bas",
+        "trait_distinctif": "Ses mains tremblent quand les blocs sont stables — c'est le calme qui l'inquiete, pas le mouvement"
+      }
+    },
+    {
+      "id": "actor_citoyen_nolwazi_ouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Nolwazi est cartographe corporelle a Ingwe. Elle encode la position relative des trois blocs par Contact sur l'avant-bras — chaque pression represente une distance, chaque angle de doigt une direction de derive.",
+      "synthesis": "Cartographe corporelle d'Ingwe, encode la derive en Contact sur l'avant-bras",
+      "weight": 0.7,
+      "properties": {
+        "age": 35,
+        "genre": "femme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_ville_ingwe",
+        "metiers": [
+          "cartographe"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "ouest_contextuel",
+        "tremens_signature": "variable, se recalibre quotidiennement",
+        "calibration": "larges",
+        "marche": "roulis marque, epaules mobiles",
+        "trait_distinctif": "Dessine la carte des blocs sur son propre bras avec de la pate de lichen — la carte change chaque jour"
+      }
+    },
+    {
+      "id": "actor_citoyen_velile",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Velile est juge des litiges de pont a Ingwe — quand un pont casse et qu'un tiers de la population doit choisir, c'est Velile qui tranche. Son Contact de verdict est un geste de derive : tirer-repousser, comme le salut, mais une seule fois.",
+      "synthesis": "Juge des litiges de pont a Ingwe, tranche les choix de derive",
+      "weight": 0.7,
+      "properties": {
+        "age": 59,
+        "genre": "homme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_ville_ingwe",
+        "metiers": [
+          "leader"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "ouest_contextuel_solennel",
+        "tremens_signature": "variable, pression de decision",
+        "calibration": "larges",
+        "marche": "roulis lent, delibere, comme un bloc qui choisit sa direction",
+        "trait_distinctif": "Prend ses decisions les yeux fermes, les pieds nus sur le gres — dit qu'il ecoute la direction que le bloc veut prendre"
+      }
+    },
+    {
+      "id": "actor_citoyen_zoleka_ouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Zoleka est ajusteuse de ponts a Ingwe — elle retend, relache et remplace les cordes des ponts entre les blocs chaque matin. Ses bras sont les plus forts de l'Ouest, et son Contact a la douceur paradoxale des gens tres puissants.",
+      "synthesis": "Ajusteuse de ponts d'Ingwe, bras les plus forts de l'Ouest",
+      "weight": 0.65,
+      "properties": {
+        "age": 27,
+        "genre": "femme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_ville_ingwe",
+        "metiers": [
+          "specialiste_escalade"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "ouest_contextuel",
+        "tremens_signature": "variable, tension musculaire de corde",
+        "calibration": "larges",
+        "marche": "roulis prononce, pieds ecartes, equilibre de funambule",
+        "trait_distinctif": "Dort a deux, comme tous les gens de l'Ouest, mais son partenaire dit qu'elle ajuste les cordes dans son sommeil"
+      }
+    },
+    {
+      "id": "actor_citoyen_luthando",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Luthando est cuisinier a Ingwe — il prepare la bouillie froide du soir et la pate de lichen qu'il recolte lui-meme dans les micro-fissures du gres. Ses dents sont vertes du lichen qu'il mache pour liberer les enzymes.",
+      "synthesis": "Cuisinier d'Ingwe, recolteur de lichen, dents vertes",
+      "weight": 0.6,
+      "properties": {
+        "age": 40,
+        "genre": "homme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_ville_ingwe",
+        "metiers": [
+          "cuisinier",
+          "biologiste"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "ouest_contextuel",
+        "tremens_signature": "variable, rythme de machoire",
+        "calibration": "larges",
+        "marche": "roulis leger, pas de cueilleur accroupi",
+        "trait_distinctif": "Sourit les dents fermees — les dents vertes de lichen effraient les enfants des autres archipels"
+      }
+    },
+    {
+      "id": "actor_citoyen_anele",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Anele est la doyenne des Roulantes — nee sur le bloc central d'Ingwe il y a soixante-neuf ans, elle a vu les trois blocs deriver de onze metres depuis sa naissance. Elle dit que les blocs s'eloignent et que ses petits-enfants verront le premier pont casser.",
+      "synthesis": "Doyenne d'Ingwe, temoin de onze metres de derive, predit la cassure",
+      "weight": 0.7,
+      "properties": {
+        "age": 69,
+        "genre": "femme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_ville_ingwe",
+        "metiers": [
+          "predicteur"
+        ],
+        "guildes": [
+          "sens"
+        ],
+        "dialecte": "ouest_contextuel_ancien",
+        "tremens_signature": "variable, derive lente dans les os",
+        "calibration": "larges",
+        "marche": "roulis lent, presque immobile — son corps a integre la derive si profondement qu'il ne compense presque plus",
+        "trait_distinctif": "Mesure la derive chaque matin en posant ses pieds a un endroit marque d'un trait de lichen — onze metres en soixante-neuf ans"
+      }
+    },
+    {
+      "id": "actor_citoyen_sandile_ouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Sandile est le seul caravanier natif de l'Ouest. Il guide les caravanes sur La Longue entre Ingwe et Kahlamba, son roulis de marche deroutant les caravaniers du Sud qui ne comprennent pas comment on peut marcher de travers et arriver droit.",
+      "synthesis": "Caravanier de l'Ouest, guide La Longue, marche de travers et arrive droit",
+      "weight": 0.65,
+      "properties": {
+        "age": 32,
+        "genre": "homme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_ville_ingwe",
+        "metiers": [
+          "cartographe",
+          "specialiste_survie"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "ouest_contextuel_emprunts_sud",
+        "tremens_signature": "variable, rythme de longue marche",
+        "calibration": "larges",
+        "marche": "roulis de marin, meme sur le basalte stable du Sud",
+        "trait_distinctif": "Parle le dialecte du Sud avec l'accent de roulis — les marchands de Kahlamba disent qu'il a l'air de negocier en marchant sur un bateau"
+      }
+    },
+    {
+      "id": "actor_citoyen_mbalenhle",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Mbalenhle est survivaliste a Zama — elle sait extraire l'eau d'un cactus sismique, dormir sur une pente de vingt degres, et reperer les tubercules par la texture du sol sous ses pieds nus.",
+      "synthesis": "Survivaliste de Zama, extraction d'eau et lecture du sol",
+      "weight": 0.65,
+      "properties": {
+        "age": 37,
+        "genre": "femme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_village_zama",
+        "metiers": [
+          "specialiste_survie",
+          "biologiste"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "ouest_contextuel_zama",
+        "tremens_signature": "variable extreme, recalibration permanente",
+        "calibration": "larges",
+        "marche": "pieds ecartes, orteils agrippes au gres, marche de corniche",
+        "trait_distinctif": "Dort sur des pentes que les gens d'Ingwe trouvent impossibles — dit que la gravite est une couverture"
+      }
+    },
+    {
+      "id": "actor_citoyen_xolani_ouest",
+      "node_type": "actor",
+      "type": "citoyen",
+      "content": "Xolani est l'ancien de Zama — le bloc solitaire. Il a forme Enama pendant ses deux saisons ici. Il dit qu'on n'apprend la survie qu'en oubliant le confort, et que le confort est tout ce qui ne bouge pas.",
+      "synthesis": "Ancien de Zama, a forme Enama, philosophe de l'inconfort",
+      "weight": 0.7,
+      "properties": {
+        "age": 64,
+        "genre": "homme",
+        "archipel": "space_archipel_ouest",
+        "residence": "space_village_zama",
+        "metiers": [
+          "specialiste_survie",
+          "leader"
+        ],
+        "guildes": [
+          "lien"
+        ],
+        "dialecte": "ouest_contextuel_zama_ancien",
+        "tremens_signature": "variable, calme dans le chaos",
+        "calibration": "larges",
+        "marche": "pieds ecartes, agrippes, lente marche d'ancien sur un bloc qui derive",
+        "trait_distinctif": "A forme Enama — et quand on lui demande si elle etait douee, il repond qu'elle etait terrifiee, ce qui est mieux"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "actor_citoyen_bongiwe",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nosipho_sud",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_siphelele",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zanele_sud",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_buhle_sud",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mandla_sud",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_thandeka_sud",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mzamo",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_ayanda",
+      "target": "space_ville_kahlamba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "space_village_ndaba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_siyabonga_sud",
+      "target": "space_village_ndaba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sud",
+      "target": "space_village_ndaba",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_thulani_sud",
+      "target": "space_village_lesedi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nomvula_sud",
+      "target": "space_village_lesedi",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_lungile_nord",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_ntombi_nord",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_gugu",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_bhekani",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zandile",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mbuso",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sindiswa",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_dumisa_nord",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_khanyisile",
+      "target": "space_ville_umzimkhulu",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nqobile",
+      "target": "space_village_mantolo",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_thembekile",
+      "target": "space_village_mantolo",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_phila",
+      "target": "space_village_mantolo",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sizwe_ouest",
+      "target": "space_ville_ingwe",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nolwazi_ouest",
+      "target": "space_ville_ingwe",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_velile",
+      "target": "space_ville_ingwe",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zoleka_ouest",
+      "target": "space_ville_ingwe",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_luthando",
+      "target": "space_ville_ingwe",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_anele",
+      "target": "space_ville_ingwe",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sandile_ouest",
+      "target": "space_ville_ingwe",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mbalenhle",
+      "target": "space_village_zama",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_xolani_ouest",
+      "target": "space_village_zama",
+      "type": "habite",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_bongiwe",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nosipho_sud",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_siphelele",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zanele_sud",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_buhle_sud",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mandla_sud",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_thandeka_sud",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mzamo",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_ayanda",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_siyabonga_sud",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sud",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_thulani_sud",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nomvula_sud",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_lungile_nord",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_ntombi_nord",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_gugu",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_bhekani",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zandile",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mbuso",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sindiswa",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_dumisa_nord",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_khanyisile",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nqobile",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_thembekile",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_phila",
+      "target": "narrative_guilde_profondeurs",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sizwe_ouest",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_nolwazi_ouest",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_velile",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_zoleka_ouest",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_luthando",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_anele",
+      "target": "narrative_guilde_sens",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_sandile_ouest",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_mbalenhle",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_xolani_ouest",
+      "target": "narrative_guilde_lien",
+      "type": "membre_de",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "actor_citoyen_bongiwe",
+      "target": "actor_citoyen_siphelele",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "collegue du marche, elle achete ses epices"
+      }
+    },
+    {
+      "source": "actor_citoyen_bongiwe",
+      "target": "actor_citoyen_nosipho_sud",
+      "type": "connait",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "bongiwe consulte nosipho pour les precedents du Consortium"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "actor_citoyen_zanele_sud",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "zanele organise les expeditions que vusi accompagne"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "actor_citoyen_sandile_ouest",
+      "type": "connait",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "caravaniers sur La Longue, se croisent a mi-chemin"
+      }
+    },
+    {
+      "source": "actor_citoyen_nosipho_sud",
+      "target": "actor_citoyen_zanele_sud",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "collegues du Consortium, archiviste et organisatrice"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphelele",
+      "target": "actor_citoyen_mzamo",
+      "type": "connait",
+      "weight": 0.65,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "voisins du marche, cuisinier et reparateur"
+      }
+    },
+    {
+      "source": "actor_citoyen_buhle_sud",
+      "target": "actor_citoyen_nomalanga_sud",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "buhle livre les commandes de cordage de nomalanga"
+      }
+    },
+    {
+      "source": "actor_citoyen_buhle_sud",
+      "target": "actor_citoyen_siyabonga_sud",
+      "type": "connait",
+      "weight": 0.65,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "meme age, buhle lui apporte les nouvelles de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandla_sud",
+      "target": "actor_citoyen_lungile_nord",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "mandla achete les essieux de lungile pour ses caissons"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sud",
+      "target": "actor_citoyen_nomvula_sud",
+      "type": "connait",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "les deux anciennes de l'eau, se respectent mutuellement"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sud",
+      "target": "actor_citoyen_thulani_sud",
+      "type": "connait",
+      "weight": 0.65,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "thulani remonte l'eau que thandeka stocke"
+      }
+    },
+    {
+      "source": "actor_citoyen_ayanda",
+      "target": "actor_citoyen_bongiwe",
+      "type": "connait",
+      "weight": 0.65,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "ayanda donne l'alerte sismique au marche, bongiwe est sa premiere interlocutrice"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_lindiwe_sud",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "maitresse et apprentie, nomalanga sait que lindiwe est descendante de Nobanzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_siyabonga_sud",
+      "target": "actor_citoyen_lindiwe_sud",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "apprentis cordiers du meme village"
+      }
+    },
+    {
+      "source": "actor_citoyen_thulani_sud",
+      "target": "actor_citoyen_nomvula_sud",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "nomvula est la doyenne de thulani, elle lui a appris a sentir les nappes"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungile_nord",
+      "target": "actor_citoyen_ntombi_nord",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "elle calibre les sismographes, il taille les essieux — meme granite, memes mains"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungile_nord",
+      "target": "actor_citoyen_nqobile",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "fournisseur de blocs de Mantolo pour les essieux d'Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombi_nord",
+      "target": "actor_citoyen_zandile",
+      "type": "connait",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "les instruments de ntombi servent l'ecoute de zandile"
+      }
+    },
+    {
+      "source": "actor_citoyen_gugu",
+      "target": "actor_citoyen_mbuso",
+      "type": "connait",
+      "weight": 0.65,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "gugu vit au cinquieme, mbuso au deuxieme — ils se croisent dans les escaliers de granite"
+      }
+    },
+    {
+      "source": "actor_citoyen_bhekani",
+      "target": "actor_citoyen_zandile",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "meteorologue et ecouteur en chef, collaborent sur les alertes"
+      }
+    },
+    {
+      "source": "actor_citoyen_bhekani",
+      "target": "actor_citoyen_khanyisile",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "il repere le talent de l'apprentie, lui montre les courants d'air"
+      }
+    },
+    {
+      "source": "actor_citoyen_sindiswa",
+      "target": "actor_citoyen_gugu",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "les deux anciennes d'Umzimkhulu, respect mutuel forge sur des decennies"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisa_nord",
+      "target": "actor_citoyen_nqobile",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "dumisa achete la pate d'essieu de Mantolo pour sa cuisine"
+      }
+    },
+    {
+      "source": "actor_citoyen_nqobile",
+      "target": "actor_citoyen_thembekile",
+      "type": "connait",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "maitre-tailleur et tailleuse de niches, meme granite, metiers complementaires"
+      }
+    },
+    {
+      "source": "actor_citoyen_nqobile",
+      "target": "actor_citoyen_phila",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "maitre et apprenti, nqobile forme phila a la taille"
+      }
+    },
+    {
+      "source": "actor_citoyen_thembekile",
+      "target": "actor_citoyen_phila",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "collegues de Mantolo, phila l'aide parfois a deplacer les blocs pour les niches"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanyisile",
+      "target": "actor_citoyen_zandile",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "apprentie et maitresse ecouteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_mbuso",
+      "target": "actor_citoyen_lungile_nord",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "mineurs du meme granite, generations differentes"
+      }
+    },
+    {
+      "source": "actor_citoyen_sizwe_ouest",
+      "target": "actor_citoyen_zoleka_ouest",
+      "type": "connait",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "maitre des ponts et ajusteuse — ils travaillent ensemble chaque matin avant l'aube"
+      }
+    },
+    {
+      "source": "actor_citoyen_sizwe_ouest",
+      "target": "actor_citoyen_nolwazi_ouest",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "il lit les ponts, elle cartographie la derive — information complementaire"
+      }
+    },
+    {
+      "source": "actor_citoyen_nolwazi_ouest",
+      "target": "actor_citoyen_anele",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "nolwazi utilise les mesures de derive d'anele pour ses cartes"
+      }
+    },
+    {
+      "source": "actor_citoyen_velile",
+      "target": "actor_citoyen_sizwe_ouest",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "le juge consulte le maitre des ponts avant chaque decision de derive"
+      }
+    },
+    {
+      "source": "actor_citoyen_velile",
+      "target": "actor_citoyen_anele",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "velile ecoute la doyenne — elle a vu plus de derive que quiconque"
+      }
+    },
+    {
+      "source": "actor_citoyen_luthando",
+      "target": "actor_citoyen_zoleka_ouest",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "voisins du bloc central, luthando lui garde de la pate de lichen"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_ouest",
+      "target": "actor_citoyen_vusi",
+      "type": "connait",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "caravaniers de La Longue, se connaissent par les pieds avant les mains"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_ouest",
+      "target": "actor_citoyen_sizwe_ouest",
+      "type": "connait",
+      "weight": 0.65,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "sandile part d'Ingwe, sizwe verifie ses ponts avant le depart"
+      }
+    },
+    {
+      "source": "actor_citoyen_mbalenhle",
+      "target": "actor_citoyen_xolani_ouest",
+      "type": "connait",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "xolani l'a formee, elle est sa meilleure eleve"
+      }
+    },
+    {
+      "source": "actor_citoyen_mbalenhle",
+      "target": "actor_citoyen_luthando",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "mbalenhle vient a Ingwe echanger des tubercules contre du lichen"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_ouest",
+      "target": "actor_citoyen_velile",
+      "type": "connait",
+      "weight": 0.65,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "deux anciens de l'Ouest, des generations de decisions partagees"
+      }
+    },
+    {
+      "source": "actor_citoyen_anele",
+      "target": "actor_citoyen_sizwe_ouest",
+      "type": "connait",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "la doyenne surveille les ponts depuis 69 ans, sizwe est son successeur de fait"
+      }
+    }
+  ]
+}

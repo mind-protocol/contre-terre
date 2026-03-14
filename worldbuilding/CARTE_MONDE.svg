@@ -1,0 +1,324 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" font-family="Georgia, serif">
+  <defs>
+    <radialGradient id="volcano" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a0a00"/>
+      <stop offset="40%" stop-color="#2d1500"/>
+      <stop offset="100%" stop-color="#3d2000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="desert" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3d2000"/>
+      <stop offset="100%" stop-color="#4a3520"/>
+    </radialGradient>
+    <pattern id="fissures" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="20" x2="40" y2="22" stroke="#2a1a10" stroke-width="0.5" opacity="0.3"/>
+      <line x1="10" y1="0" x2="12" y2="40" stroke="#2a1a10" stroke-width="0.3" opacity="0.2"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tremor">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="42"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+
+  <!-- Background: desert -->
+  <rect width="1200" height="1200" fill="#4a3520"/>
+  <rect width="1200" height="1200" fill="url(#fissures)"/>
+
+  <!-- Title -->
+  <text x="600" y="45" text-anchor="middle" font-size="28" fill="#d4b896" font-weight="bold">CONTRE-TERRE — Carte du Monde de Surface</text>
+  <text x="600" y="70" text-anchor="middle" font-size="14" fill="#a08060" font-style="italic">Le sol vibre. Il a toujours vibré. Il vibrera toujours.</text>
+
+  <!-- Caravan routes (drawn first, behind everything) -->
+  <!-- La Longue: Sud → Ouest -->
+  <path d="M 480 820 Q 350 750 280 600" stroke="#8a7050" stroke-width="2" stroke-dasharray="8,4" fill="none" opacity="0.6"/>
+  <text x="350" y="730" font-size="11" fill="#a08060" font-style="italic" transform="rotate(-40, 350, 730)">La Longue</text>
+
+  <!-- La Nerveuse: Nord-Est → Centre-Sud -->
+  <path d="M 830 340 Q 700 500 620 680" stroke="#8a7050" stroke-width="2" stroke-dasharray="8,4" fill="none" opacity="0.6"/>
+  <text x="740" y="480" font-size="11" fill="#a08060" font-style="italic" transform="rotate(60, 740, 480)">La Nerveuse</text>
+
+  <!-- La Muette: Est → Nord -->
+  <path d="M 900 560 Q 750 400 580 280" stroke="#8a7050" stroke-width="2" stroke-dasharray="8,4" fill="none" opacity="0.6"/>
+  <text x="780" y="390" font-size="11" fill="#a08060" font-style="italic" transform="rotate(-40, 780, 390)">La Muette</text>
+
+  <!-- Additional routes -->
+  <path d="M 580 820 Q 650 750 620 680" stroke="#8a7050" stroke-width="1.5" stroke-dasharray="6,4" fill="none" opacity="0.4"/>
+  <path d="M 380 900 Q 450 850 520 830" stroke="#8a7050" stroke-width="1.5" stroke-dasharray="6,4" fill="none" opacity="0.4"/>
+
+  <!-- Volcano center -->
+  <circle cx="600" cy="520" r="120" fill="url(#volcano)" opacity="0.8"/>
+  <circle cx="600" cy="520" r="80" fill="#1a0a00" opacity="0.6"/>
+  <circle cx="600" cy="520" r="40" fill="#0d0500" opacity="0.8"/>
+  <circle cx="600" cy="520" r="15" fill="#ff3300" opacity="0.3"/>
+  <text x="600" y="525" text-anchor="middle" font-size="16" fill="#ff6633" font-weight="bold">LE VOLCAN</text>
+  <text x="600" y="545" text-anchor="middle" font-size="10" fill="#cc4422" font-style="italic">La Bouche · Le Creux · L'Embouchure</text>
+
+  <!-- Piémont volcanique ring -->
+  <circle cx="600" cy="520" r="160" fill="none" stroke="#5a3a20" stroke-width="1" stroke-dasharray="4,8" opacity="0.5"/>
+  <text x="760" y="440" font-size="9" fill="#7a5a40" font-style="italic">piémont volcanique</text>
+
+  <!-- Champs de Soufre -->
+  <ellipse cx="610" cy="640" rx="40" ry="20" fill="#8a8030" opacity="0.3"/>
+  <text x="610" y="645" text-anchor="middle" font-size="9" fill="#aaa040">Champs de Soufre</text>
+
+  <!-- Faille de Khensi -->
+  <line x1="540" y1="720" x2="570" y2="770" stroke="#1a0a00" stroke-width="3"/>
+  <text x="505" y="750" font-size="9" fill="#a08060">Faille de Khensi</text>
+
+  <!-- Dents du Désert -->
+  <g transform="translate(420, 480)">
+    <line x1="0" y1="0" x2="0" y2="-15" stroke="#6a5040" stroke-width="2"/>
+    <line x1="8" y1="0" x2="8" y2="-20" stroke="#6a5040" stroke-width="2"/>
+    <line x1="16" y1="0" x2="16" y2="-12" stroke="#6a5040" stroke-width="2"/>
+    <line x1="24" y1="0" x2="24" y2="-18" stroke="#6a5040" stroke-width="2"/>
+    <text x="12" y="12" text-anchor="middle" font-size="8" fill="#8a7060">Dents du Désert</text>
+  </g>
+
+  <!-- Dent Noire -->
+  <g transform="translate(460, 420)">
+    <line x1="0" y1="0" x2="0" y2="-25" stroke="#2a1a10" stroke-width="3"/>
+    <line x1="0" y1="-25" x2="2" y2="-25" stroke="#2a1a10" stroke-width="1"/>
+    <text x="0" y="10" text-anchor="middle" font-size="7" fill="#6a5040" font-style="italic">Dent Noire</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- ARCHIPELAGO 1: SUD / BASSES-TERRES (south, largest) -->
+  <!-- ============================================================ -->
+  <g id="archipel-sud">
+    <ellipse cx="540" cy="880" rx="130" ry="60" fill="#5a4a3a" opacity="0.6" stroke="#7a6a5a" stroke-width="1"/>
+    <text x="540" y="860" text-anchor="middle" font-size="14" fill="#d4b896" font-weight="bold">ARCHIPEL DU SUD</text>
+    <text x="540" y="875" text-anchor="middle" font-size="10" fill="#a08868">Les Basses-Terres · Basalte · mag 3.5</text>
+
+    <!-- Kahlamba -->
+    <circle cx="540" cy="900" r="12" fill="#8a7060" stroke="#d4b896" stroke-width="1.5"/>
+    <text x="540" y="904" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">K</text>
+    <text x="560" y="918" font-size="10" fill="#d4b896">Kahlamba ~4000</text>
+    <text x="560" y="928" font-size="8" fill="#a08060" font-style="italic">Siège Consortium · Marché</text>
+
+    <!-- Ndaba -->
+    <circle cx="440" cy="895" r="6" fill="#6a5a4a" stroke="#a09080" stroke-width="1"/>
+    <text x="425" y="910" font-size="9" fill="#b09878">Ndaba</text>
+    <text x="425" y="919" font-size="7" fill="#8a7060">cordage · 200</text>
+
+    <!-- Lesedi -->
+    <circle cx="630" cy="910" r="4" fill="#6a5a4a" stroke="#a09080" stroke-width="1"/>
+    <text x="640" y="914" font-size="9" fill="#b09878">Lesedi</text>
+    <text x="640" y="923" font-size="7" fill="#8a7060">pêcheurs d'eau · 50</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- ARCHIPELAGO 2: NORD-EST / SÈCHES (northeast) -->
+  <!-- ============================================================ -->
+  <g id="archipel-nordest">
+    <ellipse cx="850" cy="300" rx="120" ry="55" fill="#5a4535" opacity="0.6" stroke="#7a6555" stroke-width="1"/>
+    <text x="850" y="275" text-anchor="middle" font-size="14" fill="#d4b896" font-weight="bold">ARCHIPEL DU NORD-EST</text>
+    <text x="850" y="290" text-anchor="middle" font-size="10" fill="#a08868">Les Sèches · Schiste · mag 4.5</text>
+
+    <!-- Mhluzi -->
+    <circle cx="850" cy="315" r="10" fill="#7a6555" stroke="#d4b896" stroke-width="1.5"/>
+    <text x="850" y="319" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">M</text>
+    <text x="870" y="330" font-size="10" fill="#d4b896">Mhluzi ~2000</text>
+    <text x="870" y="340" font-size="8" fill="#a08060" font-style="italic">écouteurs · prédicteurs</text>
+
+    <!-- Iziphuku -->
+    <circle cx="770" cy="310" r="5" fill="#6a5545" stroke="#a09070" stroke-width="1"/>
+    <text x="745" y="300" font-size="9" fill="#b09878">Iziphuku</text>
+    <text x="745" y="309" font-size="7" fill="#8a7060">Nandi · 60</text>
+
+    <!-- Phakade -->
+    <circle cx="930" cy="320" r="4" fill="#6a5545" stroke="#a09070" stroke-width="1"/>
+    <text x="940" y="324" font-size="9" fill="#b09878">Phakade</text>
+    <text x="940" y="333" font-size="7" fill="#8a7060">tissus aéromaître · 80</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- ARCHIPELAGO 3: OUEST / ROULANTES (west) -->
+  <!-- ============================================================ -->
+  <g id="archipel-ouest">
+    <ellipse cx="240" cy="560" rx="100" ry="50" fill="#5a4a38" opacity="0.6" stroke="#7a6a58" stroke-width="1"/>
+    <!-- Migration arrows -->
+    <line x1="190" y1="555" x2="175" y2="570" stroke="#8a7a60" stroke-width="1" marker-end="none" opacity="0.4"/>
+    <line x1="260" y1="545" x2="245" y2="560" stroke="#8a7a60" stroke-width="1" opacity="0.4"/>
+    <text x="240" y="540" text-anchor="middle" font-size="14" fill="#d4b896" font-weight="bold">ARCHIPEL DE L'OUEST</text>
+    <text x="240" y="555" text-anchor="middle" font-size="10" fill="#a08868">Les Roulantes · Grès migrant</text>
+
+    <!-- Ingwe (3 blocks) -->
+    <rect x="220" y="568" width="12" height="10" rx="2" fill="#7a6a58" stroke="#d4b896" stroke-width="1" transform="rotate(5, 226, 573)"/>
+    <rect x="236" y="570" width="11" height="9" rx="2" fill="#7a6a58" stroke="#d4b896" stroke-width="1" transform="rotate(-3, 241, 574)"/>
+    <rect x="250" y="567" width="10" height="10" rx="2" fill="#7a6a58" stroke="#d4b896" stroke-width="1"/>
+    <text x="260" y="590" font-size="10" fill="#d4b896">Ingwe ~1500</text>
+    <text x="260" y="600" font-size="8" fill="#a08060" font-style="italic">3 blocs dérivants</text>
+
+    <!-- Zama -->
+    <circle cx="180" cy="580" r="5" fill="#6a5a48" stroke="#a09070" stroke-width="1"/>
+    <text x="150" y="595" font-size="9" fill="#b09878">Zama</text>
+    <text x="150" y="604" font-size="7" fill="#8a7060">survivalistes · 120</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- ARCHIPELAGO 4: NORD / FROIDES (north) -->
+  <!-- ============================================================ -->
+  <g id="archipel-nord">
+    <ellipse cx="550" cy="220" rx="110" ry="55" fill="#4a4a50" opacity="0.6" stroke="#6a6a70" stroke-width="1"/>
+    <text x="550" y="200" text-anchor="middle" font-size="14" fill="#d4b896" font-weight="bold">ARCHIPEL DU NORD</text>
+    <text x="550" y="215" text-anchor="middle" font-size="10" fill="#a08868">Les Froides · Granite · mag 4 basses</text>
+
+    <!-- Umzimkhulu -->
+    <circle cx="550" cy="240" r="10" fill="#5a5a60" stroke="#d4b896" stroke-width="1.5"/>
+    <text x="550" y="244" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">U</text>
+    <text x="570" y="255" font-size="10" fill="#d4b896">Umzimkhulu ~3000</text>
+    <text x="570" y="265" font-size="8" fill="#a08060" font-style="italic">plus ancienne · 5 niveaux · mineurs</text>
+
+    <!-- Mantolo -->
+    <circle cx="470" cy="245" r="5" fill="#5a5a58" stroke="#a09090" stroke-width="1"/>
+    <text x="440" y="258" font-size="9" fill="#b09878">Mantolo</text>
+    <text x="440" y="267" font-size="7" fill="#8a7060">tailleurs de roche · 80</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- ARCHIPELAGO 5: CENTRE-SUD / CHAUDES (center-south, near volcano) -->
+  <!-- ============================================================ -->
+  <g id="archipel-centresud">
+    <ellipse cx="610" cy="680" rx="80" ry="40" fill="#5a3a2a" opacity="0.6" stroke="#8a5a3a" stroke-width="1"/>
+    <text x="610" y="665" text-anchor="middle" font-size="12" fill="#d4b896" font-weight="bold">CENTRE-SUD</text>
+    <text x="610" y="678" text-anchor="middle" font-size="9" fill="#a08868">Les Chaudes · mag 4.5-5.5</text>
+
+    <!-- Bhekisisa -->
+    <circle cx="600" cy="698" r="8" fill="#7a4a30" stroke="#d4b896" stroke-width="1"/>
+    <text x="600" y="702" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">B</text>
+    <text x="620" y="710" font-size="9" fill="#d4b896">Bhekisisa ~800</text>
+    <text x="620" y="719" font-size="7" fill="#a08060">mobile · poste avancé</text>
+
+    <!-- Themba -->
+    <circle cx="640" cy="660" r="4" fill="#6a4a30" stroke="#a08060" stroke-width="1"/>
+    <text x="650" y="655" font-size="9" fill="#b09878">Themba</text>
+    <text x="650" y="664" font-size="7" fill="#8a7060">gardiens · 40</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- ARCHIPELAGO 6: EST / SALINES (east) -->
+  <!-- ============================================================ -->
+  <g id="archipel-est">
+    <ellipse cx="920" cy="560" rx="100" ry="50" fill="#5a5550" opacity="0.6" stroke="#8a8580" stroke-width="1"/>
+    <text x="920" y="540" text-anchor="middle" font-size="14" fill="#d4b896" font-weight="bold">ARCHIPEL DE L'EST</text>
+    <text x="920" y="555" text-anchor="middle" font-size="10" fill="#a08868">Les Salines · Gypse · cristaux</text>
+
+    <!-- Umsizi -->
+    <circle cx="920" cy="575" r="8" fill="#7a7570" stroke="#d4b896" stroke-width="1"/>
+    <text x="920" y="579" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">Um</text>
+    <text x="940" y="590" font-size="10" fill="#d4b896">Umsizi ~1200</text>
+    <text x="940" y="600" font-size="8" fill="#a08060" font-style="italic">sel · explosifs · lumière</text>
+
+    <!-- Nkosazana -->
+    <circle cx="860" cy="590" r="4" fill="#6a6560" stroke="#a09a90" stroke-width="1"/>
+    <text x="830" y="605" font-size="9" fill="#b09878">Nkosazana</text>
+    <text x="830" y="614" font-size="7" fill="#8a7060">sel · 60</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- ARCHIPELAGO 7: SUD-OUEST / CREUSES (southwest) -->
+  <!-- ============================================================ -->
+  <g id="archipel-sudouest">
+    <ellipse cx="310" cy="830" rx="100" ry="50" fill="#4a4a40" opacity="0.6" stroke="#6a6a60" stroke-width="1"/>
+    <text x="310" y="810" text-anchor="middle" font-size="14" fill="#d4b896" font-weight="bold">ARCHIPEL DU SUD-OUEST</text>
+    <text x="310" y="825" text-anchor="middle" font-size="10" fill="#a08868">Les Creuses · Karst · semi-souterrain</text>
+
+    <!-- Sibaya -->
+    <circle cx="310" cy="845" r="8" fill="#5a5a50" stroke="#d4b896" stroke-width="1"/>
+    <text x="310" y="849" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">S</text>
+    <text x="325" y="860" font-size="10" fill="#d4b896">Sibaya ~900</text>
+    <text x="325" y="870" font-size="8" fill="#a08060" font-style="italic">spéléologues · 37 grottes</text>
+
+    <!-- Mathamo -->
+    <circle cx="250" cy="860" r="4" fill="#5a5a48" stroke="#a09a88" stroke-width="1"/>
+    <text x="220" y="875" font-size="9" fill="#b09878">Mathamo</text>
+    <text x="220" y="884" font-size="7" fill="#8a7060">cartographes tactiles · 50</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- VILLAGE DES SOURDS (underground, shown as special marker) -->
+  <!-- ============================================================ -->
+  <g id="village-sourds" filter="url(#glow)">
+    <circle cx="600" cy="580" r="10" fill="none" stroke="#4488cc" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="600" cy="580" r="5" fill="#4488cc" opacity="0.4"/>
+    <text x="600" y="584" text-anchor="middle" font-size="6" fill="#88bbee">●</text>
+    <text x="618" y="578" font-size="9" fill="#88bbee" font-style="italic">Village des Sourds</text>
+    <text x="618" y="588" font-size="7" fill="#6699bb">souterrain · ~200 · Contact 3 doigts</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- CHARACTER ORIGINS (small markers) -->
+  <!-- ============================================================ -->
+  <!-- Senzo: Kahlamba (Sud) -->
+  <circle cx="525" cy="895" r="3" fill="#ff8844"/>
+  <text x="515" y="890" font-size="7" fill="#ff8844" font-weight="bold">Senzo</text>
+
+  <!-- Nandi: Iziphuku (Nord-Est) -->
+  <circle cx="770" cy="305" r="3" fill="#ff8844"/>
+
+  <!-- Sihle: Umzimkhulu (Nord) / Faille de Khensi -->
+  <circle cx="545" cy="235" r="3" fill="#ff8844"/>
+  <text x="530" y="230" font-size="7" fill="#ff8844" font-weight="bold">Sihle</text>
+
+  <!-- Enama: Bhekisisa (Centre-Sud) / Zama -->
+  <circle cx="595" cy="693" r="3" fill="#ff8844"/>
+  <text x="575" y="690" font-size="7" fill="#ff8844" font-weight="bold">Enama</text>
+
+  <!-- Thabo: Bhekisisa (Centre-Sud) -->
+  <circle cx="605" cy="703" r="3" fill="#ff8844"/>
+  <text x="585" y="718" font-size="7" fill="#ff8844" font-weight="bold">Thabo</text>
+
+  <!-- Inyoni: Nkosazana (Est) -->
+  <circle cx="855" cy="585" r="3" fill="#ff8844"/>
+  <text x="840" y="582" font-size="7" fill="#ff8844" font-weight="bold">Inyoni</text>
+
+  <!-- Jabu: Sibaya (Sud-Ouest) -->
+  <circle cx="305" cy="840" r="3" fill="#ff8844"/>
+  <text x="285" y="838" font-size="7" fill="#ff8844" font-weight="bold">Jabu</text>
+
+  <!-- ============================================================ -->
+  <!-- LEGEND -->
+  <!-- ============================================================ -->
+  <g transform="translate(30, 1050)">
+    <rect x="0" y="0" width="350" height="130" rx="5" fill="#3a2a1a" opacity="0.8" stroke="#6a5a4a"/>
+    <text x="15" y="20" font-size="12" fill="#d4b896" font-weight="bold">LÉGENDE</text>
+
+    <circle cx="25" cy="40" r="8" fill="#7a6a58" stroke="#d4b896" stroke-width="1"/>
+    <text x="40" y="44" font-size="10" fill="#b09878">Ville principale (>800 hab.)</text>
+
+    <circle cx="25" cy="60" r="4" fill="#6a5a4a" stroke="#a09080" stroke-width="1"/>
+    <text x="40" y="64" font-size="10" fill="#b09878">Village (<200 hab.)</text>
+
+    <circle cx="25" cy="80" r="3" fill="#ff8844"/>
+    <text x="40" y="84" font-size="10" fill="#ff8844">Origine d'un des Sept</text>
+
+    <line x1="15" y1="97" x2="45" y2="97" stroke="#8a7050" stroke-width="2" stroke-dasharray="8,4"/>
+    <text x="55" y="101" font-size="10" fill="#b09878">Route caravanière (veine stable)</text>
+
+    <circle cx="25" cy="117" r="5" fill="#4488cc" opacity="0.4" stroke="#4488cc" stroke-dasharray="3,3"/>
+    <text x="40" y="121" font-size="10" fill="#88bbee">Lieu souterrain</text>
+  </g>
+
+  <!-- Scale and compass -->
+  <g transform="translate(1050, 1080)">
+    <text x="0" y="0" font-size="10" fill="#8a7060">N</text>
+    <line x1="5" y1="8" x2="5" y2="35" stroke="#8a7060" stroke-width="1.5"/>
+    <polygon points="5,8 0,18 10,18" fill="#8a7060"/>
+    <line x1="-10" y1="25" x2="20" y2="25" stroke="#8a7060" stroke-width="1"/>
+    <text x="-5" y="50" font-size="8" fill="#6a5040">~jours de</text>
+    <text x="-5" y="60" font-size="8" fill="#6a5040">caravane</text>
+  </g>
+
+  <!-- Population total -->
+  <g transform="translate(820, 1060)">
+    <rect x="0" y="0" width="200" height="50" rx="5" fill="#3a2a1a" opacity="0.8" stroke="#6a5a4a"/>
+    <text x="100" y="20" text-anchor="middle" font-size="11" fill="#d4b896" font-weight="bold">Population totale: ~14 700</text>
+    <text x="100" y="36" text-anchor="middle" font-size="9" fill="#a08060">7 archipels · ~25 lieux nommés</text>
+  </g>
+
+  <!-- Magnitude indicators around border -->
+  <text x="600" y="1190" text-anchor="middle" font-size="9" fill="#6a5040">Magnitude de fond du désert: 4-5 (Sommeil) · Le sol ne cesse jamais de vibrer</text>
+</svg>

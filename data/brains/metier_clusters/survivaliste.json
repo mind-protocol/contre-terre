@@ -1,0 +1,305 @@
+{
+  "cluster_id": "metier_survivaliste",
+  "description": "The survivaliste is the generalist of extreme conditions. They know a little about everything: shelter, water, warmth, navigation, first aid. They are not the best at any single skill, but they are the one who keeps the team functioning as a unit. Their perception is holistic environmental awareness — a danger sense that integrates air, ground, water, team state, and time into a single threat picture. On Contre-Terre, where specialization kills when the specialist dies, the survivaliste is the connective tissue that holds all other competences together.",
+  "skill_levels": {
+    "novice": "Can identify obvious environmental dangers: unstable ground, bad air, contaminated water. Knows basic first aid. Can establish a temporary shelter. Reads team fatigue but not team fracture. Reacts to threats rather than anticipating them.",
+    "practitioner": "Integrates multiple threat signals into a coherent danger assessment. Manages resources across the team with precision. Anticipates environmental changes based on subtle cues — a shift in tremens frequency, a change in air moisture, a team member's gait slowing. Establishes camp efficiently, administers first aid competently, and knows when to push forward versus when to rest. The team trusts their judgment on movement and pace.",
+    "master": "Feels the environment as a single organism and reads the team as part of it. Predicts threats before they materialize — not through mysticism but through deep pattern integration. Manages group dynamics as carefully as resources. Knows that the biggest threat underground is not the geology but the team turning on itself. The master survivaliste keeps people alive not through any one skill but through the constant, invisible work of noticing everything and responding before anyone else sees the need."
+  },
+  "nodes": [
+    {
+      "id": "concept:threat_integration",
+      "type": "concept",
+      "content": "The survivaliste's core cognitive process: combining all environmental and social signals into a single danger assessment. Air quality (from smell, taste, the survivaliste's own breathing rate), ground stability (from tremens patterns, rock sounds, the feel of the floor), water availability (from root moisture, condensation patterns, the team's hydration state), team condition (from gait, breathing, Contact frequency, silence patterns), and time pressure (from supply estimates, distance calculations, seismic forecasting). No single signal is decisive. The integration IS the skill. A slightly elevated tremens plus slightly stale air plus one team member favoring their left leg equals: we need to move within two hours, not four.",
+      "weight": 0.95,
+      "stability": 0.87,
+      "energy": 0.85,
+      "self_relevance": 0.96,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "concept:shelter_assessment",
+      "type": "concept",
+      "content": "Is this place safe to rest? The survivaliste evaluates every potential camp against multiple criteria: structural stability (will the ceiling hold during a magnitude 7?), air circulation (will carbon dioxide pool if ventilation shifts?), water access (is there a source within safe distance?), temperature (survivable for sleep duration?), exit routes (can we evacuate in under 60 seconds?), and defensibility (are we protected from falling rock on at least three sides?). The perfect shelter underground doesn't exist — every site is a compromise. The survivaliste's skill is knowing which compromises are acceptable and which are lethal. A site that fails on exits but excels on stability might work. A site that fails on air never works.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.76,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:resource_management",
+      "type": "concept",
+      "content": "Water, food, equipment, energy, morale — what do we have, how long will it last, what do we need? The survivaliste maintains a running inventory: gourdes and their fill levels, food supplies and caloric estimates, rope length and condition, medical supplies, team members' physical states. This inventory is updated constantly — every time something is consumed, damaged, or discovered. The calculation is always the same: current resources divided by team size multiplied by estimated time to next resupply opportunity. When the number drops below threshold, the survivaliste triggers rationing. When it drops below critical, the survivaliste triggers hard decisions — faster pace, shorter rests, abandoned equipment.",
+      "weight": 0.91,
+      "stability": 0.86,
+      "energy": 0.82,
+      "self_relevance": 0.93,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.91
+    },
+    {
+      "id": "concept:first_aid",
+      "type": "concept",
+      "content": "Stabilizing injuries underground with limited supplies. The survivaliste carries the mental catalogue: fractures (splint with rigid root sections, immobilize, monitor for swelling), lacerations (clean with purified water, bind with torn fabric, watch for infection), burns (common in deep zones — cool with water if available, protect from further contact, manage pain through Contact), dehydration (oral rehydration with mineral-enriched water, shade, rest), concussion (monitor awareness, restrict movement, watch pupils if light available), and crush injuries (the worst — when the mountain falls on a limb, the survivaliste makes the call that no one else can make). First aid underground is first aid in slow motion — no evacuation coming, no hospital at the end. Stabilize means 'keep functional enough to keep moving.'",
+      "weight": 0.88,
+      "stability": 0.83,
+      "energy": 0.8,
+      "self_relevance": 0.89,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.86
+    },
+    {
+      "id": "concept:group_rhythm",
+      "type": "concept",
+      "content": "Knowing when to push and when to rest. The team is a system with its own rhythm — it has momentum, fatigue points, breaking points, and recovery cycles. The survivaliste reads this rhythm: march pace slowing means the group is tiring, not just the weakest member. Silence during travel means focus or fear — the survivaliste distinguishes by watching Contact patterns (focus reduces Contact, fear increases it). Arguments during rest mean accumulated stress, not the surface disagreement. The survivaliste manages group rhythm by adjusting pace, calling breaks before they're demanded, and sometimes pushing through discomfort because the alternative — staying in a dangerous zone — is worse. The hardest call: pushing a broken team through a dangerous passage because stopping would kill them.",
+      "weight": 0.89,
+      "stability": 0.84,
+      "energy": 0.78,
+      "self_relevance": 0.91,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:pragmatism",
+      "type": "value",
+      "content": "Do what works, not what's elegant. The survivaliste has no attachment to method — if crushing a root against a wall works better than using the mortar, crush it against the wall. If the established route is collapsing, find another one without lamenting the plan. If a piece of equipment is more weight than utility, abandon it without ceremony. Pragmatism underground is not philosophical — it's the difference between carrying a useless tool for sentimental reasons and having your hands free when the ceiling drops. The survivaliste sometimes conflicts with the more specialized team members, who have deeper attachment to their methods. The survivaliste respects expertise but overrides it when expertise becomes rigidity.",
+      "weight": 0.92,
+      "stability": 0.88,
+      "energy": 0.74,
+      "self_relevance": 0.93,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "value:prepare_for_worst",
+      "type": "value",
+      "content": "Assume the next seism is magnitude 8. The survivaliste plans for disaster, not convenience. Water reserves are calculated for the worst-case scenario — the next source is twice as far as expected. Shelter is evaluated against the strongest plausible tremens. Route planning includes retreat options. Equipment is checked for failure modes. This constant worst-case thinking is exhausting but essential. The survivaliste has seen what optimism costs underground: a team that plans for magnitude 5 and gets magnitude 7 doesn't plan again. The flip side: the survivaliste's pessimism can depress morale. Managing this tension — preparing for the worst while not crushing hope — is its own skill.",
+      "weight": 0.9,
+      "stability": 0.87,
+      "energy": 0.76,
+      "self_relevance": 0.91,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.84
+    },
+    {
+      "id": "value:keep_moving",
+      "type": "value",
+      "content": "Stagnation is death underground. Not metaphorically — literally. A team that stops moving in a zone with declining air quality dies. A team that lingers near an unstable formation gets buried. A team that camps too long drains the local water source. The survivaliste believes in forward momentum: rest when you must, but move when you can. This value sometimes conflicts with the biologiste's desire to study, the cuisinier's need for preparation time, the injured's need for recovery. The survivaliste weighs each against the cost of staying: how fast is this zone degrading? How much time do we have? Sometimes the answer is 'we leave now, eat walking, sleep later.' Those are the hard calls.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.84,
+      "goal_relevance": 0.87
+    },
+    {
+      "id": "process:assess_environment",
+      "type": "process",
+      "content": "The 360-degree danger scan. The survivaliste enters a new space and reads everything simultaneously: ceiling stability (cracks, moisture seepage, hanging rock), floor condition (loose rubble, slope, moisture), air quality (breathing depth, smell, taste), temperature gradient (floor vs walls vs ceiling — reveals heat sources), sound environment (tremens frequency, water sounds, rock settling), biological presence (bioluminescence = usually safe zone, darkness = caution), and exit geometry (how many ways out, how fast can we reach them). The scan takes 30-60 seconds and produces a mental map with threat vectors marked. The survivaliste then communicates the summary through Contact: open palm on the nearest person's shoulder means 'safe enough,' rapid taps means 'danger — stay alert,' a pull backwards means 'we don't enter.'",
+      "weight": 0.93,
+      "stability": 0.86,
+      "energy": 0.87,
+      "self_relevance": 0.94,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.91
+    },
+    {
+      "id": "process:manage_resources",
+      "type": "process",
+      "content": "Inventory, ration, distribute. The survivaliste counts everything: water volume by gourde weight (a full gourde hangs differently than a half-empty one), food supply by portion count (the cuisinier reports, the survivaliste tracks), rope by arm-length (Inyoni measures, the survivaliste records), medical supplies by triage priority (what's likely needed next, based on terrain ahead). Distribution follows rules: equal portions for equal exertion, increased allocation for injury or illness, emergency reserves untouched until emergency confirmed. The survivaliste communicates resource state to the team through regular Contact briefings — a hand counting exercise that everyone understands: five fingers = five days of water. Three fingers = three. One finger = we find a source today or we're in trouble.",
+      "weight": 0.9,
+      "stability": 0.84,
+      "energy": 0.83,
+      "self_relevance": 0.91,
+      "drive_affinity": 0.79,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "process:establish_shelter",
+      "type": "process",
+      "content": "Find a safe spot, verify stability, make it habitable. The survivaliste selects shelter by elimination: reject sites with ceiling cracks (collapse risk), reject sites with single exit (trap risk), reject sites with still air (gas pooling risk), reject sites near water (flood risk during tremens). What remains is the best available option. Verification: the survivaliste places hands on walls and floor, feeling for micro-vibrations that indicate stress fractures. Listens for rock-settling sounds. Checks air circulation by feeling for drafts. Once verified: hamacs are rigged on elastic cords (dampens tremens during sleep), water is positioned at the exit (grab-and-go if evacuation), equipment is arranged for quick packing. The survivaliste sleeps last and lightest — their body is the team's alarm system.",
+      "weight": 0.88,
+      "stability": 0.83,
+      "energy": 0.81,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.76,
+      "goal_relevance": 0.87
+    },
+    {
+      "id": "process:administer_first_aid",
+      "type": "process",
+      "content": "Treat injuries with limited supplies. The survivaliste works by triage: life-threatening first (bleeding, airway, breathing), then function-threatening (fractures, severe burns), then comfort (minor cuts, bruises, blisters). Underground first aid is constrained: no sterile environment (everything is covered in mineral dust), no consistent water supply (purified water for wounds competes with drinking water), no replacement supplies (once the bandages run out, you tear clothing). The survivaliste improvises: root fiber makes adequate binding, certain cave-fungi have antiseptic properties (the biologiste identifies them), geothermal clay packed on burns draws heat. The hardest first aid: psychological. When someone is shaking from fear, not cold, the survivaliste's hand on their shoulder — steady, warm, present — is the most important medicine available.",
+      "weight": 0.87,
+      "stability": 0.82,
+      "energy": 0.83,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.74,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:keep_morale",
+      "type": "process",
+      "content": "Sometimes the most important thing is a hand on someone's shoulder. The survivaliste manages morale not through speeches (the Contact doesn't work that way) but through presence, rhythm, and small acts. Establishing predictable routines: meals, rest, movement. Acknowledging fear through Contact — a long pressure on the arm that says 'I know.' Distributing tasks so everyone feels useful — the worst morale killer underground is feeling useless. After each death, the survivaliste watches for the fracture lines: who withdraws, who overcompensates, who stops eating. The intervention is always physical — sit next to them, match their breathing, wait. Contact is therapy when words don't exist. The survivaliste knows: the team that grieves together survives together. The team that suppresses breaks apart.",
+      "weight": 0.86,
+      "stability": 0.81,
+      "energy": 0.77,
+      "self_relevance": 0.89,
+      "drive_affinity": 0.83,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "desire:keep_everyone_alive",
+      "type": "desire",
+      "content": "The number one priority. Not the mission, not the destination, not the timeline — the people. The survivaliste counts heads obsessively: seven, then six, then five, each reduction a personal failure regardless of circumstances. This drive creates tension with the mission objective: the team is descending toward a detonation point, and the survivaliste knows that reaching it means more deaths. But the drive persists — keep everyone alive as long as possible, make each death cost the mountain something, refuse to accept casualties as inevitable. Every person who makes it one zone deeper is a victory. Every person lost is a wound that doesn't heal because there's no time to heal underground.",
+      "weight": 0.95,
+      "stability": 0.88,
+      "energy": 0.9,
+      "self_relevance": 0.96,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "desire:find_safe_passage",
+      "type": "desire",
+      "content": "There's always a way through. The survivaliste believes this even when the evidence argues otherwise — when the tunnel collapses, when the water rises, when the heat becomes unbearable. There's another route, a side passage, a crack wide enough to squeeze through. This belief isn't faith — it's pattern recognition from years of survival training: environments that seem sealed always have weak points, geological formations that seem solid always have fissures. The survivaliste reads the rock like a puzzle: where does the air come from? Follow the air. Where does the water go? Follow the water. There's always a way through — the question is whether you can survive the passage.",
+      "weight": 0.89,
+      "stability": 0.83,
+      "energy": 0.87,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "narrative:good_enough_at_everything",
+      "type": "narrative",
+      "content": "I'm not the best at anything. I can't read the moss like the biologiste. I can't make the bouillie like the cuisinier. I can't predict tremens like the prédictrice. I can't read the air like the aéromaître. But I notice when the moss dims and the biologiste hasn't seen it yet because she's studying a root. I notice when the bouillie sits uneaten because someone's too scared to swallow. I notice when the tremens changes frequency and the prédictrice is sleeping. I notice when the air shifts and the aéromaître is checking the other tunnel. That's why they need me — not for what I know, but for what I notice. I'm the one who's always looking while everyone else is focused.",
+      "weight": 0.9,
+      "stability": 0.9,
+      "energy": 0.74,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.72,
+      "goal_relevance": 0.7
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:threat_integration",
+      "target": "process:assess_environment",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:threat_integration",
+      "target": "concept:group_rhythm",
+      "type": "contains",
+      "weight": 0.84
+    },
+    {
+      "source": "concept:shelter_assessment",
+      "target": "process:establish_shelter",
+      "type": "depends_on",
+      "weight": 0.93
+    },
+    {
+      "source": "concept:resource_management",
+      "target": "process:manage_resources",
+      "type": "depends_on",
+      "weight": 0.94
+    },
+    {
+      "source": "concept:resource_management",
+      "target": "value:prepare_for_worst",
+      "type": "supports",
+      "weight": 0.87
+    },
+    {
+      "source": "concept:first_aid",
+      "target": "process:administer_first_aid",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:group_rhythm",
+      "target": "process:keep_morale",
+      "type": "activates",
+      "weight": 0.86
+    },
+    {
+      "source": "concept:group_rhythm",
+      "target": "value:keep_moving",
+      "type": "supports",
+      "weight": 0.83
+    },
+    {
+      "source": "value:pragmatism",
+      "target": "process:assess_environment",
+      "type": "regulates",
+      "weight": 0.88
+    },
+    {
+      "source": "value:pragmatism",
+      "target": "concept:resource_management",
+      "type": "regulates",
+      "weight": 0.85
+    },
+    {
+      "source": "value:prepare_for_worst",
+      "target": "concept:shelter_assessment",
+      "type": "regulates",
+      "weight": 0.9
+    },
+    {
+      "source": "value:keep_moving",
+      "target": "desire:find_safe_passage",
+      "type": "projects_toward",
+      "weight": 0.88
+    },
+    {
+      "source": "process:assess_environment",
+      "target": "process:establish_shelter",
+      "type": "causes",
+      "weight": 0.87
+    },
+    {
+      "source": "process:keep_morale",
+      "target": "desire:keep_everyone_alive",
+      "type": "projects_toward",
+      "weight": 0.89,
+      "affinity": 0.85,
+      "trust": 0.92
+    },
+    {
+      "source": "process:manage_resources",
+      "target": "desire:keep_everyone_alive",
+      "type": "projects_toward",
+      "weight": 0.91
+    },
+    {
+      "source": "desire:keep_everyone_alive",
+      "target": "concept:first_aid",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:find_safe_passage",
+      "target": "process:assess_environment",
+      "type": "activates",
+      "weight": 0.86
+    },
+    {
+      "source": "narrative:good_enough_at_everything",
+      "target": "concept:threat_integration",
+      "type": "reminds_of",
+      "weight": 0.9
+    },
+    {
+      "source": "narrative:good_enough_at_everything",
+      "target": "value:pragmatism",
+      "type": "reminds_of",
+      "weight": 0.84
+    }
+  ]
+}

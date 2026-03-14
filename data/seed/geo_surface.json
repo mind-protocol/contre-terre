@@ -1,0 +1,1322 @@
+{
+  "cluster_id": "geo_surface",
+  "description": "Surface geography: archipelagos, settlements, zones, routes",
+  "nodes": [
+    {
+      "id": "space_archipel_sud",
+      "node_type": "space",
+      "type": "archipel",
+      "content": "L'archipel le plus etendu et le plus ancien, etire le long d'une crete de basalte dense plongeant a 300m. L'amortissement naturel y reduit la magnitude a 3.5 -- les gens du Sud dorment mieux que partout ailleurs. Le Contact y est lent, profond, etire : le dialecte le plus ancien.",
+      "synthesis": "Basses-Terres : archipel le plus ancien, basalte dense, magnitude 3.5, Contact lent et profond, centre du commerce.",
+      "weight": 0.9,
+      "properties": {
+        "roche": "basalte dense (crete profonde 300m)",
+        "magnitude_fond": 3.5,
+        "population": 4250,
+        "coordinates": {
+          "x": 0,
+          "y": 400
+        },
+        "dialecte_contact": "lent, profond, etire -- le plus ancien",
+        "specialisation": [
+          "commerce",
+          "cordage",
+          "eau",
+          "Consortium"
+        ]
+      }
+    },
+    {
+      "id": "space_archipel_nord_est",
+      "node_type": "space",
+      "type": "archipel",
+      "content": "Schiste feuillete qui amplifie les ondes sismiques au lieu de les amortir. Le sol vibre a 4.5, un demi-degre au-dessus du desert. Le Contact y est rapide, nerveux : rafales de 3-5 pressions en 2 secondes, le dialecte le plus econome en gestes mais le plus riche en vitesse.",
+      "synthesis": "Les Seches : schiste amplificateur, magnitude 4.5, Contact rapide et nerveux, formation des ecouteurs et predicteurs.",
+      "weight": 0.9,
+      "properties": {
+        "roche": "schiste feuillete (amplifie les ondes)",
+        "magnitude_fond": 4.5,
+        "population": 2140,
+        "coordinates": {
+          "x": 350,
+          "y": -300
+        },
+        "dialecte_contact": "rapide, bref, nerveux -- rafales de pressions",
+        "specialisation": [
+          "ecouteurs",
+          "predicteurs",
+          "tissus d'aeromaître"
+        ]
+      }
+    },
+    {
+      "id": "space_archipel_ouest",
+      "node_type": "space",
+      "type": "archipel",
+      "content": "Le seul archipel mobile. Blocs de gres migrant de quelques centimetres par jour le long d'une faille tectonique oblique. Pas de cartes dessinables -- la cartographie est corporelle. Le Contact y change de sens selon la direction de derive : dialecte le plus contextuel et le plus sophistique.",
+      "synthesis": "Les Roulantes : blocs de gres migrant, cartographie corporelle, Contact contextuel dependant de la derive.",
+      "weight": 0.9,
+      "properties": {
+        "roche": "gres migrant (derive cm/jour)",
+        "magnitude_fond": 4.0,
+        "population": 1620,
+        "coordinates": {
+          "x": -400,
+          "y": 50
+        },
+        "dialecte_contact": "contextuel, depend de la direction de derive -- le plus sophistique",
+        "specialisation": [
+          "cartographie corporelle",
+          "survie",
+          "adaptation"
+        ]
+      }
+    },
+    {
+      "id": "space_archipel_nord",
+      "node_type": "space",
+      "type": "archipel",
+      "content": "Seul archipel ou la temperature descend sous 30 degres. Granite dense, froid, silencieux qui amortit les hautes frequences et transmet les basses avec fidelite. Le sol vibre a magnitude 4 sur un spectre etroit de basses profondes -- les gens du Nord ne tremblent pas, ils resonnent.",
+      "synthesis": "Les Froides : granite dense et froid, basses profondes, Contact lourd et physique, plus ancienne colonie.",
+      "weight": 0.9,
+      "properties": {
+        "roche": "granite dense, froid, silencieux",
+        "magnitude_fond": 4.0,
+        "population": 3080,
+        "coordinates": {
+          "x": 0,
+          "y": -350
+        },
+        "dialecte_contact": "lourd, appuye, presque martial -- pression intense",
+        "specialisation": [
+          "taille de roche",
+          "mineurs",
+          "instruments de mesure"
+        ]
+      }
+    },
+    {
+      "id": "space_archipel_centre_sud",
+      "node_type": "space",
+      "type": "archipel",
+      "content": "Le plus proche du volcan, accroche aux premieres pentes. Basalte jeune, coupant, noir. Magnitude 4.5-5.5, le bas de l'Eveil. Contact urgent, reactif, geste de verification constant ('tu es la ?'). Point de depart des expeditions souterraines.",
+      "synthesis": "Les Chaudes : basalte jeune au bord du volcan, magnitude elevee, Contact urgent, acces au piemont volcanique.",
+      "weight": 0.9,
+      "properties": {
+        "roche": "basalte jeune, coupant, noir",
+        "magnitude_fond": 5.0,
+        "population": 840,
+        "coordinates": {
+          "x": 50,
+          "y": 200
+        },
+        "dialecte_contact": "urgent, reactif, verification constante",
+        "specialisation": [
+          "geologie",
+          "aeromaîtres",
+          "avant-poste Consortium"
+        ]
+      }
+    },
+    {
+      "id": "space_archipel_est",
+      "node_type": "space",
+      "type": "archipel",
+      "content": "Depression de cristaux de gypse reflechissants -- la ville la plus lumineuse de Contre-Terre. Le gypse est friable, se dissout et se recompose avec les seismes. Contact cristallin, pointu, au bout des phalanges, pas la paume. Seul archipel ou les gens portent des gants.",
+      "synthesis": "Les Salines : gypse cristallin, lumiere reflechie, Contact du bout des doigts, production de sel et explosifs.",
+      "weight": 0.9,
+      "properties": {
+        "roche": "gypse cristallin (friable, se dissout/recompose)",
+        "magnitude_fond": 4.5,
+        "population": 1260,
+        "coordinates": {
+          "x": 400,
+          "y": 50
+        },
+        "dialecte_contact": "cristallin, pointu -- bout des phalanges, abrasif",
+        "specialisation": [
+          "sel",
+          "explosifs",
+          "dexterite",
+          "lumiere"
+        ]
+      }
+    },
+    {
+      "id": "space_archipel_sud_ouest",
+      "node_type": "space",
+      "type": "archipel",
+      "content": "Calcaire karstique poreux, cavites naturelles. Architecture iceberg : un tiers en surface, deux tiers souterrains. 37 grottes connectees sous une plateforme calcaire. Contact hydraulique -- les variations de debit dans les cavites encodent les messages. Les enfants grimpent avant de marcher.",
+      "synthesis": "Les Creuses : calcaire karstique, vie souterraine, Contact hydraulique vertical, expertise speleo.",
+      "weight": 0.9,
+      "properties": {
+        "roche": "calcaire karstique (poreuse, cavites naturelles)",
+        "magnitude_fond": 4.5,
+        "population": 950,
+        "coordinates": {
+          "x": -300,
+          "y": 350
+        },
+        "dialecte_contact": "hydraulique -- variations de debit = messages, vertical",
+        "specialisation": [
+          "speleologie",
+          "cartographie souterraine",
+          "eau"
+        ]
+      }
+    },
+    {
+      "id": "space_ville_kahlamba",
+      "node_type": "space",
+      "type": "ville",
+      "content": "Ville principale du Sud, quatre mille habitants. Centre de la crete de basalte, amortissement maximal. Domes si serres qu'on se touche en passant -- la ville entiere est une conversation. Marche le plus grand, siege du Consortium, depart des expeditions.",
+      "synthesis": "Kahlamba : capitale du Sud, 4000 hab, marche principal, siege du Consortium des Archipels.",
+      "weight": 0.8,
+      "properties": {
+        "population": 4000,
+        "coordinates": {
+          "x": 0,
+          "y": 390
+        },
+        "architecture_style": "domes aplatis cuir/basalte, reservoirs souterrains",
+        "specialisation": [
+          "commerce",
+          "Consortium",
+          "expeditions"
+        ],
+        "archipel_parent": "space_archipel_sud"
+      }
+    },
+    {
+      "id": "space_village_ndaba",
+      "node_type": "space",
+      "type": "village",
+      "content": "Deux cents tisserands de cordage au bord oriental de la crete. Fibres de racines profondes tressees en cordes souples, resistantes aux vibrations, capables de transmettre le Contact-corde sans distorsion. Meilleures cordes du monde.",
+      "synthesis": "Ndaba : village de tisserands de cordage, 200 hab, fournisseur de cordes pour tout Contre-Terre.",
+      "weight": 0.7,
+      "properties": {
+        "population": 200,
+        "coordinates": {
+          "x": 20,
+          "y": 410
+        },
+        "architecture_style": "domes aplatis, ateliers de tressage",
+        "specialisation": [
+          "cordage",
+          "Contact-corde"
+        ],
+        "archipel_parent": "space_archipel_sud"
+      }
+    },
+    {
+      "id": "space_village_lesedi",
+      "node_type": "space",
+      "type": "village",
+      "content": "Hameau de cinquante pecheurs d'eau a l'extreme sud de la crete. Ils descendent dans les fissures phreatiques pour remonter l'eau pure, non sulfureuse, des couches les plus profondes. Metier dangereux -- les fissures se referment sans prevenir.",
+      "synthesis": "Lesedi : village de pecheurs d'eau, 50 hab, eau pure des profondeurs.",
+      "weight": 0.7,
+      "properties": {
+        "population": 50,
+        "coordinates": {
+          "x": -10,
+          "y": 420
+        },
+        "architecture_style": "domes bas pres des fissures phreatiques",
+        "specialisation": [
+          "peche d'eau",
+          "exploration phreatique"
+        ],
+        "archipel_parent": "space_archipel_sud"
+      }
+    },
+    {
+      "id": "space_ville_mhluzi",
+      "node_type": "space",
+      "type": "ville",
+      "content": "Deux mille personnes sur la Table, plateau de schiste. Reseau aerien de passerelles de corde -- seule ville ou l'on circule en hauteur. Le sol est trop instable pour marcher. Formation des ecouteurs et predicteurs : le schiste amplifie chaque micro-secousse en signal lisible.",
+      "synthesis": "Mhluzi : ville principale du Nord-Est, 2000 hab, passerelles aeriennes, ecole des ecouteurs et predicteurs.",
+      "weight": 0.8,
+      "properties": {
+        "population": 2000,
+        "coordinates": {
+          "x": 340,
+          "y": -310
+        },
+        "architecture_style": "tours hautes, planchers suspendus, passerelles de corde",
+        "specialisation": [
+          "ecouteurs",
+          "predicteurs",
+          "formation"
+        ],
+        "archipel_parent": "space_archipel_nord_est"
+      }
+    },
+    {
+      "id": "space_village_iziphuku",
+      "node_type": "space",
+      "type": "village",
+      "content": "Soixante personnes sur une lame de schiste si etroite qu'on ne construit qu'en longueur. Village-tube : 300m de long, 8m de large. Maisons cylindriques de cuir sur armature flexible. Contact permanent -- impossible de se mouvoir sans toucher quelqu'un. Origine de Nandi.",
+      "synthesis": "Iziphuku : village-tube de 60 hab sur lame de schiste, Contact permanent, origine de Nandi.",
+      "weight": 0.7,
+      "properties": {
+        "population": 60,
+        "coordinates": {
+          "x": 365,
+          "y": -290
+        },
+        "architecture_style": "tubes cylindriques cuir/armature flexible, 300m x 8m",
+        "specialisation": [
+          "Contact permanent",
+          "lecture du sol"
+        ],
+        "archipel_parent": "space_archipel_nord_est"
+      }
+    },
+    {
+      "id": "space_village_phakade",
+      "node_type": "space",
+      "type": "village",
+      "content": "Hameau de tisserands de tissu pour aeromaîtres. Fibres de plantes vibrantes dont les feuilles changent de frequence selon la composition de l'air. Le tissu de Thabo vient d'ici -- son haleine porte encore la signature chimique du soufre sec de Phakade.",
+      "synthesis": "Phakade : village de 80 hab, tissus d'aeromaître en fibres vibrantes, fournisseur de Thabo.",
+      "weight": 0.7,
+      "properties": {
+        "population": 80,
+        "coordinates": {
+          "x": 355,
+          "y": -320
+        },
+        "architecture_style": "ateliers ouverts, sechoirs a fibres",
+        "specialisation": [
+          "tissus d'aeromaître",
+          "fibres vibrantes"
+        ],
+        "archipel_parent": "space_archipel_nord_est"
+      }
+    },
+    {
+      "id": "space_ville_ingwe",
+      "node_type": "space",
+      "type": "ville",
+      "content": "Mille cinq cents personnes reparties sur trois blocs de gres derivant ensemble depuis quatre generations. Ponts de corde ajustes quotidiennement entre les blocs. Le jour ou deux blocs s'ecarteront trop, un pont cassera et un tiers de la population devra choisir.",
+      "synthesis": "Ingwe : ville de 1500 hab sur 3 blocs de gres derivants, ponts de corde quotidiens, cartographes corporels.",
+      "weight": 0.8,
+      "properties": {
+        "population": 1500,
+        "coordinates": {
+          "x": -390,
+          "y": 40
+        },
+        "architecture_style": "ponts de corde entre blocs, ajustement quotidien",
+        "specialisation": [
+          "cartographie corporelle",
+          "ponts de corde"
+        ],
+        "archipel_parent": "space_archipel_ouest"
+      }
+    },
+    {
+      "id": "space_village_zama",
+      "node_type": "space",
+      "type": "village",
+      "content": "Cent vingt survivalistes sur un bloc solitaire. Le gres est trop poreux pour l'eau, trop mobile pour les racines. Caravanes une fois par saison. Savent extraire l'eau d'un cactus sismique, reperer les tubercules par la texture du sol, dormir sur une pente de 20 degres. Enama y a passe deux saisons.",
+      "synthesis": "Zama : village survivaliste de 120 hab sur bloc solitaire, formation d'Enama.",
+      "weight": 0.7,
+      "properties": {
+        "population": 120,
+        "coordinates": {
+          "x": -410,
+          "y": 65
+        },
+        "architecture_style": "abris minimaux, nomadisme sur bloc",
+        "specialisation": [
+          "survie",
+          "extraction d'eau",
+          "adaptation extreme"
+        ],
+        "archipel_parent": "space_archipel_ouest"
+      }
+    },
+    {
+      "id": "space_ville_umzimkhulu",
+      "node_type": "space",
+      "type": "ville",
+      "content": "Plus ancienne colonie humaine connue. Trois mille personnes dans un dedale de cubes de granite a 5 niveaux de profondeur. Les plus vieux vivent en bas (vibrations amorties), les jeunes en haut (face au vent). Hierarchie sans mots, construite par sedimentation. Sismographes, essieux de chariots.",
+      "synthesis": "Umzimkhulu : plus ancienne colonie, 3000 hab, 5 niveaux de granite, hierarchie par sedimentation.",
+      "weight": 0.8,
+      "properties": {
+        "population": 3000,
+        "coordinates": {
+          "x": -10,
+          "y": -360
+        },
+        "architecture_style": "cubes arrondis de granite massif, 0.5m epaisseur, 5 niveaux",
+        "specialisation": [
+          "taille de roche",
+          "sismographes",
+          "essieux"
+        ],
+        "archipel_parent": "space_archipel_nord"
+      }
+    },
+    {
+      "id": "space_village_mantolo",
+      "node_type": "space",
+      "type": "village",
+      "content": "Quatre-vingts tailleurs de roche. N'utilisent pas d'outils de coupe -- ils utilisent les seismes. Placent un coin de basalte dans une fissure naturelle et attendent la replique de magnitude 5 pour que le granite se fende exactement. Sihle y a appris la mecanique de la roche.",
+      "synthesis": "Mantolo : village de 80 tailleurs de roche, fendage par seisme, formation de Sihle.",
+      "weight": 0.7,
+      "properties": {
+        "population": 80,
+        "coordinates": {
+          "x": 10,
+          "y": -340
+        },
+        "architecture_style": "cubes de granite, ateliers de fendage",
+        "specialisation": [
+          "taille de roche",
+          "fendage sismique"
+        ],
+        "archipel_parent": "space_archipel_nord"
+      }
+    },
+    {
+      "id": "space_ville_bhekisisa",
+      "node_type": "space",
+      "type": "ville",
+      "content": "Camp semi-permanent de 800 personnes a la jonction desert/piemont. Se deplace activement quand le soufre ou les coulees menacent -- demontage en 6h. Domes sur chariots, reservoirs pliables, puits temporaires. Respire au rythme du volcan. Origine d'Enama et Thabo.",
+      "synthesis": "Bhekisisa : camp mobile de 800 hab, dernier avant-poste avant le volcan, origine d'Enama et Thabo.",
+      "weight": 0.8,
+      "properties": {
+        "population": 800,
+        "coordinates": {
+          "x": 45,
+          "y": 190
+        },
+        "architecture_style": "camp semi-mobile, domes sur chariots, demontage 6h",
+        "specialisation": [
+          "geologie",
+          "aeromaîtres",
+          "reconnaissance volcanique"
+        ],
+        "archipel_parent": "space_archipel_centre_sud"
+      }
+    },
+    {
+      "id": "space_village_themba",
+      "node_type": "space",
+      "type": "village",
+      "content": "Quarante gardiens de l'entree souterraine. Cartographes de l'entre-deux -- la zone ou la surface cede la place au souterrain. Entretiennent les filaments bioluminescents qui marquent le debut du monde d'en bas.",
+      "synthesis": "Themba : 40 gardiens de l'entree souterraine, cartographes de la transition surface/profondeur.",
+      "weight": 0.7,
+      "properties": {
+        "population": 40,
+        "coordinates": {
+          "x": 55,
+          "y": 180
+        },
+        "architecture_style": "postes de garde semi-enterres",
+        "specialisation": [
+          "gardiennage",
+          "cartographie souterraine",
+          "bioluminescence"
+        ],
+        "archipel_parent": "space_archipel_centre_sud"
+      }
+    },
+    {
+      "id": "space_ville_umsizi",
+      "node_type": "space",
+      "type": "ville",
+      "content": "Ville la plus lumineuse de Contre-Terre. Cristaux de gypse reflechissants tapissent une depression naturelle -- la lumiere y rebondit en tous sens. Marchands de voiles de protection. Contact au bout des phalanges uniquement, pas la paume -- le gypse est trop abrasif.",
+      "synthesis": "Umsizi : ville de 1200 hab, cristaux reflechissants, lumiere eclatante, Contact digital.",
+      "weight": 0.8,
+      "properties": {
+        "population": 1200,
+        "coordinates": {
+          "x": 390,
+          "y": 40
+        },
+        "architecture_style": "depression de cristaux, voiles de protection",
+        "specialisation": [
+          "sel",
+          "lumiere",
+          "commerce de voiles"
+        ],
+        "archipel_parent": "space_archipel_est"
+      }
+    },
+    {
+      "id": "space_village_nkosazana",
+      "node_type": "space",
+      "type": "village",
+      "content": "Soixante extracteurs de sel. Seules personnes de Contre-Terre a porter des gants -- le gypse detruit les mains nues. Inyoni y a passe un an d'apprentissage. Comptage precis, dexterite au bout des doigts.",
+      "synthesis": "Nkosazana : village d'extraction du sel, 60 hab, port de gants obligatoire, formation d'Inyoni.",
+      "weight": 0.7,
+      "properties": {
+        "population": 60,
+        "coordinates": {
+          "x": 410,
+          "y": 60
+        },
+        "architecture_style": "ateliers d'extraction, hangars de sechage",
+        "specialisation": [
+          "extraction de sel",
+          "explosifs",
+          "dexterite"
+        ],
+        "archipel_parent": "space_archipel_est"
+      }
+    },
+    {
+      "id": "space_ville_sibaya",
+      "node_type": "space",
+      "type": "ville",
+      "content": "Neuf cents personnes dans 37 grottes connectees sous une plateforme calcaire. Va-et-vient permanent surface/souterrain. Les enfants grimpent avant de marcher. Contact hydraulique : les variations de debit dans les cavites encodent les messages. Origine de Jabu.",
+      "synthesis": "Sibaya : 900 hab en 37 grottes connectees, vie verticale, Contact hydraulique, origine de Jabu.",
+      "weight": 0.8,
+      "properties": {
+        "population": 900,
+        "coordinates": {
+          "x": -290,
+          "y": 340
+        },
+        "architecture_style": "iceberg -- 1/3 surface, 2/3 souterrain",
+        "specialisation": [
+          "speleologie",
+          "cartographie souterraine"
+        ],
+        "archipel_parent": "space_archipel_sud_ouest"
+      }
+    },
+    {
+      "id": "space_village_mathamo",
+      "node_type": "space",
+      "type": "village",
+      "content": "Cinquante cartographes tactiles. Cartographie du corps : la topologie d'un reseau de grottes se transmet par Contact sur l'avant-bras, chaque pression representant un embranchement. Senzo y a ete forme.",
+      "synthesis": "Mathamo : 50 cartographes tactiles, cartographie par Contact sur le corps, formation de Senzo.",
+      "weight": 0.7,
+      "properties": {
+        "population": 50,
+        "coordinates": {
+          "x": -310,
+          "y": 360
+        },
+        "architecture_style": "grottes amenagees, salles de transmission",
+        "specialisation": [
+          "cartographie tactile",
+          "transmission corporelle"
+        ],
+        "archipel_parent": "space_archipel_sud_ouest"
+      }
+    },
+    {
+      "id": "space_village_sourds",
+      "node_type": "space",
+      "type": "village",
+      "content": "Deux cents habitants sourds sous le volcan. Amortissement -40%, Contact a 3 doigts, bioluminescence domestiquee, cycle de 6h. Contact hydraulique. Le geste inconnu -- le dernier lieu humain avant la roche pure.",
+      "synthesis": "Village des Sourds : 200 hab sourds sous le volcan, Contact a 3 doigts, bioluminescence, le geste inconnu.",
+      "weight": 0.8,
+      "properties": {
+        "population": 200,
+        "coordinates": {
+          "x": 10,
+          "y": 120
+        },
+        "architecture_style": "cavernes amenagees, bioluminescence domestiquee",
+        "specialisation": [
+          "Contact a 3 doigts",
+          "geste inconnu",
+          "vie souterraine"
+        ],
+        "luminosite": "bioluminescence",
+        "cycle": "6h"
+      }
+    },
+    {
+      "id": "space_zone_desert_sismique",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Etendue immense entre tous les archipels. Dalles de basalte fissurees, sable fin, gravier volcanique. Magnitude 4-5 permanente -- le Sommeil, le rythme de fond du monde. Les caravanes suivent les veines de roche stable, ces lignes de densite ou le tremblement s'attenue juste assez.",
+      "synthesis": "Desert sismique : espace entre les archipels, magnitude 4-5 permanente, traverse par les veines de roche stable.",
+      "weight": 0.8,
+      "properties": {
+        "magnitude_fond": 4.5,
+        "coordinates": {
+          "x": 0,
+          "y": 0
+        },
+        "luminosite": "soleil",
+        "traversable": true,
+        "danger": "seismes permanents, failles, chaleur"
+      }
+    },
+    {
+      "id": "space_zone_dents_desert",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Colonnes de basalte de 5 a 20m, vestiges d'une subduction ancienne, visibles depuis trois archipels. Reperes caravaniers -- les caravanes s'orientent par les Dents quand les pieds ne suffisent plus. La Dent Noire, fendue, est la plus grande.",
+      "synthesis": "Dents du Desert : colonnes de basalte (5-20m), reperes caravaniers visibles de loin.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": 100,
+          "y": 150
+        },
+        "hauteur_max": "20m",
+        "luminosite": "soleil",
+        "fonction": "repere caravanier"
+      }
+    },
+    {
+      "id": "space_zone_dent_noire",
+      "node_type": "space",
+      "type": "zone",
+      "content": "La plus grande des Dents du Desert, fendue en deux par un seisme ancien. Visible de tres loin, elle sert de point de reference absolu pour les caravanes. Sa fente resonne quand les basses frequences la traversent -- les caravaniers l'entendent dans les pieds.",
+      "synthesis": "Dent Noire : plus grande colonne de basalte, fendue, point de reference absolu pour les caravanes.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": 110,
+          "y": 160
+        },
+        "hauteur": "20m",
+        "luminosite": "soleil",
+        "fonction": "repere caravanier principal"
+      }
+    },
+    {
+      "id": "space_zone_faille_khensi",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Dechirure de 30m de large sur 200m de long entre le Sud et le Centre-Sud. Fond invisible. Emet des infra-basses a 0.3 Hz que le corps ne sent pas avec les mains mais avec les os. Lieu de formation des ecouteurs -- Sihle y a passe 6 mois.",
+      "synthesis": "Faille de Khensi : gouffre 30x200m, infra-basses 0.3 Hz, lieu de formation des ecouteurs.",
+      "weight": 0.8,
+      "properties": {
+        "coordinates": {
+          "x": 25,
+          "y": 300
+        },
+        "dimensions": "30m x 200m",
+        "frequence": "0.3 Hz infra-basses",
+        "fonction": "formation ecouteurs"
+      }
+    },
+    {
+      "id": "space_zone_champs_soufre",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Sol jaune et crouteux entre les Chaudes et le piemont. Emanations de H2S et SO2. Examen final des aeromaîtres -- Thabo y a passe son dernier mois de formation. L'air y change de composition toutes les heures.",
+      "synthesis": "Champs de Soufre : sol jaune toxique, examen final des aeromaîtres, formation de Thabo.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": 40,
+          "y": 150
+        },
+        "gaz": [
+          "H2S",
+          "SO2"
+        ],
+        "danger": "toxicite atmospherique",
+        "fonction": "examen final aeromaîtres"
+      }
+    },
+    {
+      "id": "space_zone_piemont_volcanique",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Flancs du volcan. Gravier de basalte tranchant, ravines, temperature +5-10 degres au-dessus de la normale, soufre permanent. Fin de la lumiere naturelle. Transition entre le monde de surface et le monde souterrain.",
+      "synthesis": "Piemont volcanique : flancs du volcan, gravier tranchant, chaleur croissante, transition vers le souterrain.",
+      "weight": 0.8,
+      "properties": {
+        "coordinates": {
+          "x": 20,
+          "y": 100
+        },
+        "temperature": "+5-10 C au-dessus de la normale",
+        "luminosite": "soleil declinant",
+        "danger": "gravier tranchant, soufre, chaleur"
+      }
+    },
+    {
+      "id": "space_zone_entree_reseau",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Faille de 3m de large sur 1m de haut, pente de 30 degres. Premiers filaments bioluminescents. Le debut du monde souterrain -- apres cette ouverture, plus de soleil, plus de vent, plus rien de familier.",
+      "synthesis": "Entree du reseau souterrain : faille 3x1m a 30 degres, premiers filaments bioluminescents.",
+      "weight": 0.8,
+      "properties": {
+        "coordinates": {
+          "x": 15,
+          "y": 110
+        },
+        "dimensions": "3m x 1m, pente 30 degres",
+        "luminosite": "bioluminescence naissante",
+        "fonction": "acces au monde souterrain"
+      }
+    },
+    {
+      "id": "space_zone_volcan",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Le centre du monde. La Bouche (Sud), le Creux (Nord-Est), l'Embouchure (Ouest) -- sept noms pour la meme chose. Massif volcanique noir dont le sommet se perd dans la poussiere permanente. Source de toute l'activite sismique, de la chaleur, des gaz. Point de reference absolu.",
+      "synthesis": "Le Volcan : centre du monde, source de toute activite sismique, sept noms selon les archipels.",
+      "weight": 0.9,
+      "properties": {
+        "coordinates": {
+          "x": 0,
+          "y": 0
+        },
+        "noms": [
+          "La Bouche (Sud)",
+          "Le Creux (Nord-Est)",
+          "L'Embouchure (Ouest)"
+        ],
+        "luminosite": "poussiere permanente",
+        "danger": "activite volcanique, seismes majeurs, gaz"
+      }
+    },
+    {
+      "id": "space_zone_la_longue",
+      "node_type": "space",
+      "type": "zone",
+      "content": "La plus longue route caravaniere. Veine de basalte stable reliant le Sud a l'Ouest a travers le desert sismique. Plusieurs jours de marche. Les caravaniers la reconnaissent a la frequence reguliere du sol sous les pieds.",
+      "synthesis": "La Longue : route caravaniere Sud-Ouest, veine de basalte stable, la plus longue du monde.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": -200,
+          "y": 225
+        },
+        "relie_de": "space_archipel_sud",
+        "relie_a": "space_archipel_ouest",
+        "type_roche": "basalte stable"
+      }
+    },
+    {
+      "id": "space_zone_la_nerveuse",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Route caravaniere entre le Nord-Est et le Centre-Sud. Frequences changeantes tout au long du trajet -- les caravaniers y souffrent de nausees et de desorientation. La route la plus eprouvante, celle ou le corps ne trouve jamais de rythme stable.",
+      "synthesis": "La Nerveuse : route Nord-Est/Centre-Sud, frequences changeantes, caravaniers nauseeux.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": 200,
+          "y": -50
+        },
+        "relie_de": "space_archipel_nord_est",
+        "relie_a": "space_archipel_centre_sud",
+        "danger": "nausees, desorientation"
+      }
+    },
+    {
+      "id": "space_zone_la_muette",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Route caravaniere entre l'Est et le Nord. Vibrations sous le seuil tactile des mains -- on ne sent rien. Les pieds percoivent a peine. Route de silence, ou le Contact se reduit a la corde et au toucher direct. La plus angoissante des trois.",
+      "synthesis": "La Muette : route Est/Nord, vibrations sous le seuil tactile, route de silence angoissant.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": 200,
+          "y": -150
+        },
+        "relie_de": "space_archipel_est",
+        "relie_a": "space_archipel_nord",
+        "danger": "perte de Contact tellurique"
+      }
+    },
+    {
+      "id": "space_zone_ceinture_fumerolles",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Anneau de fumerolles encerclant le volcan entre le piemont et le desert. Colonnes de vapeur chaude et de gaz montant des fissures du sol. Les aeromaîtres y lisent la composition de l'air avec leurs tissus noircis. Frontiere naturelle entre le monde habitable et le volcan.",
+      "synthesis": "Ceinture de fumerolles : anneau de vapeur et gaz autour du volcan, terrain de lecture des aeromaîtres.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": -30,
+          "y": 80
+        },
+        "gaz": [
+          "vapeur",
+          "soufre",
+          "CO2"
+        ],
+        "danger": "toxicite, brulures, visibilite nulle",
+        "fonction": "lecture atmospherique"
+      }
+    },
+    {
+      "id": "space_zone_veines_stables",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Reseau de lignes de densite dans le desert sismique ou le tremblement s'attenue. Chaque veine a sa frequence propre, chaque frequence a son nom en Contact. Les caravaniers les connaissent par les pieds. Les routes du monde.",
+      "synthesis": "Veines de roche stable : lignes de densite a travers le desert, nommees par leur frequence, routes des caravanes.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": -100,
+          "y": 100
+        },
+        "fonction": "routes caravanieres",
+        "type_roche": "densite superieure au desert environnant"
+      }
+    },
+    {
+      "id": "space_zone_seuil_eveil",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Zone annulaire autour du volcan ou la magnitude passe de 4.5 a 5.5 -- le seuil de l'Eveil. Au-dela de cette ligne, le sol ne dort plus. Les objets bougent seuls, les liquides se renversent, le corps ne s'habitue jamais. Limite psychologique autant que physique.",
+      "synthesis": "Seuil de l'Eveil : zone annulaire ou la magnitude passe a 5.5+, limite du monde habitable.",
+      "weight": 0.7,
+      "properties": {
+        "coordinates": {
+          "x": 30,
+          "y": 130
+        },
+        "magnitude_fond": 5.5,
+        "fonction": "frontiere du monde habitable",
+        "danger": "seismes permanents au-dessus du seuil d'habitabilite"
+      }
+    },
+    {
+      "id": "space_zone_la_table",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Plateau de schiste feuillete sur lequel Mhluzi est construite. Surface relativement plane mais instable -- le schiste se fissure en lames, les repliques laterales projettent les gens d'un metre sans avertissement. C'est pour cela que Mhluzi vit en hauteur, sur les passerelles.",
+      "synthesis": "La Table : plateau de schiste du Nord-Est, sol instable qui a force Mhluzi vers les airs.",
+      "weight": 0.6,
+      "properties": {
+        "coordinates": {
+          "x": 335,
+          "y": -305
+        },
+        "roche": "schiste feuillete",
+        "magnitude_fond": 4.5,
+        "fonction": "socle de Mhluzi"
+      }
+    },
+    {
+      "id": "space_zone_nappes_phreatiques_sud",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Nappes d'eau profondes alimentees par le volcan, remontant par des fissures naturelles elargies en puits. Eau tiede, legerement sulfureuse, gout de pierre chaude. Richesse du Sud -- seul archipel avec acces a l'eau en abondance. Les pecheurs d'eau de Lesedi y descendent.",
+      "synthesis": "Nappes phreatiques du Sud : eau tiede sulfureuse remontant du volcan, richesse principale de l'archipel.",
+      "weight": 0.6,
+      "properties": {
+        "coordinates": {
+          "x": -5,
+          "y": 415
+        },
+        "eau": "abondante, tiede, sulfureuse",
+        "danger": "fissures qui se referment",
+        "fonction": "source d'eau principale"
+      }
+    },
+    {
+      "id": "space_zone_gravier_noir",
+      "node_type": "space",
+      "type": "zone",
+      "content": "Etendue de basalte jeune entre les Chaudes et le piemont, sol noir et coupant herisse de cretes qui entaillent les pieds nus. Temperature au sol de 45 degres. Les enfants des Chaudes y grandissent pieds nus -- pour eux, c'est la normalite. Premier signe que le volcan est proche.",
+      "synthesis": "Gravier noir : basalte jeune coupant entre les Chaudes et le piemont, 45 degres au sol.",
+      "weight": 0.6,
+      "properties": {
+        "coordinates": {
+          "x": 35,
+          "y": 170
+        },
+        "roche": "basalte jeune, coupant",
+        "temperature": "45 C au sol",
+        "danger": "entailles aux pieds, chaleur"
+      }
+    },
+    {
+      "id": "narrative_guilde_profondeurs",
+      "node_type": "narrative",
+      "type": "guilde",
+      "content": "La Guilde des Profondeurs regroupe speleologues, geologues, mineurs et aeromaitres — les metiers qui descendent.",
+      "synthesis": "Guilde des metiers de la profondeur",
+      "weight": 0.7
+    },
+    {
+      "id": "narrative_guilde_sens",
+      "node_type": "narrative",
+      "type": "guilde",
+      "content": "La Guilde du Sens regroupe predicteurs, ecouteurs, meteorologues et biologistes — les metiers qui percoivent.",
+      "synthesis": "Guilde des metiers de perception",
+      "weight": 0.7
+    },
+    {
+      "id": "narrative_guilde_lien",
+      "node_type": "narrative",
+      "type": "guilde",
+      "content": "La Guilde du Lien regroupe cartographes, survivalistes, cuisiniers, oceanologues, explosivistes et chefs — les metiers qui relient.",
+      "synthesis": "Guilde des metiers de liaison",
+      "weight": 0.7
+    }
+  ],
+  "links": [
+    {
+      "source": "space_archipel_sud",
+      "target": "space_ville_kahlamba",
+      "type": "contient",
+      "weight": 0.9,
+      "affinity": 0.9,
+      "properties": {
+        "role": "ville principale"
+      }
+    },
+    {
+      "source": "space_archipel_sud",
+      "target": "space_village_ndaba",
+      "type": "contient",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "village de cordage"
+      }
+    },
+    {
+      "source": "space_archipel_sud",
+      "target": "space_village_lesedi",
+      "type": "contient",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "role": "hameau de pecheurs d'eau"
+      }
+    },
+    {
+      "source": "space_archipel_nord_est",
+      "target": "space_ville_mhluzi",
+      "type": "contient",
+      "weight": 0.9,
+      "affinity": 0.9,
+      "properties": {
+        "role": "ville principale"
+      }
+    },
+    {
+      "source": "space_archipel_nord_est",
+      "target": "space_village_iziphuku",
+      "type": "contient",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "village-tube, origine de Nandi"
+      }
+    },
+    {
+      "source": "space_archipel_nord_est",
+      "target": "space_village_phakade",
+      "type": "contient",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "role": "tisserands de tissu"
+      }
+    },
+    {
+      "source": "space_archipel_ouest",
+      "target": "space_ville_ingwe",
+      "type": "contient",
+      "weight": 0.9,
+      "affinity": 0.9,
+      "properties": {
+        "role": "ville principale, 3 blocs"
+      }
+    },
+    {
+      "source": "space_archipel_ouest",
+      "target": "space_village_zama",
+      "type": "contient",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "bloc solitaire, survivalistes"
+      }
+    },
+    {
+      "source": "space_archipel_nord",
+      "target": "space_ville_umzimkhulu",
+      "type": "contient",
+      "weight": 0.9,
+      "affinity": 0.9,
+      "properties": {
+        "role": "ville principale, plus ancienne"
+      }
+    },
+    {
+      "source": "space_archipel_nord",
+      "target": "space_village_mantolo",
+      "type": "contient",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "tailleurs de roche"
+      }
+    },
+    {
+      "source": "space_archipel_centre_sud",
+      "target": "space_ville_bhekisisa",
+      "type": "contient",
+      "weight": 0.9,
+      "affinity": 0.9,
+      "properties": {
+        "role": "camp mobile, avant-poste"
+      }
+    },
+    {
+      "source": "space_archipel_centre_sud",
+      "target": "space_village_themba",
+      "type": "contient",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "gardiens entree souterraine"
+      }
+    },
+    {
+      "source": "space_archipel_est",
+      "target": "space_ville_umsizi",
+      "type": "contient",
+      "weight": 0.9,
+      "affinity": 0.9,
+      "properties": {
+        "role": "ville principale, lumineuse"
+      }
+    },
+    {
+      "source": "space_archipel_est",
+      "target": "space_village_nkosazana",
+      "type": "contient",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "extraction de sel"
+      }
+    },
+    {
+      "source": "space_archipel_sud_ouest",
+      "target": "space_ville_sibaya",
+      "type": "contient",
+      "weight": 0.9,
+      "affinity": 0.9,
+      "properties": {
+        "role": "ville principale, 37 grottes"
+      }
+    },
+    {
+      "source": "space_archipel_sud_ouest",
+      "target": "space_village_mathamo",
+      "type": "contient",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "role": "cartographes tactiles"
+      }
+    },
+    {
+      "source": "space_zone_la_longue",
+      "target": "space_archipel_sud",
+      "type": "relie",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "direction": "terminus sud"
+      }
+    },
+    {
+      "source": "space_zone_la_longue",
+      "target": "space_archipel_ouest",
+      "type": "relie",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "direction": "terminus ouest"
+      }
+    },
+    {
+      "source": "space_zone_la_nerveuse",
+      "target": "space_archipel_nord_est",
+      "type": "relie",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "direction": "terminus nord-est"
+      }
+    },
+    {
+      "source": "space_zone_la_nerveuse",
+      "target": "space_archipel_centre_sud",
+      "type": "relie",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "direction": "terminus centre-sud"
+      }
+    },
+    {
+      "source": "space_zone_la_muette",
+      "target": "space_archipel_est",
+      "type": "relie",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "direction": "terminus est"
+      }
+    },
+    {
+      "source": "space_zone_la_muette",
+      "target": "space_archipel_nord",
+      "type": "relie",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "direction": "terminus nord"
+      }
+    },
+    {
+      "source": "space_archipel_sud",
+      "target": "space_zone_desert_sismique",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "frontiere": "sud du desert"
+      }
+    },
+    {
+      "source": "space_archipel_nord_est",
+      "target": "space_zone_desert_sismique",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "frontiere": "nord-est du desert"
+      }
+    },
+    {
+      "source": "space_archipel_ouest",
+      "target": "space_zone_desert_sismique",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "frontiere": "ouest du desert"
+      }
+    },
+    {
+      "source": "space_archipel_nord",
+      "target": "space_zone_desert_sismique",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "frontiere": "nord du desert"
+      }
+    },
+    {
+      "source": "space_archipel_centre_sud",
+      "target": "space_zone_desert_sismique",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "frontiere": "centre-sud du desert"
+      }
+    },
+    {
+      "source": "space_archipel_est",
+      "target": "space_zone_desert_sismique",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "frontiere": "est du desert"
+      }
+    },
+    {
+      "source": "space_archipel_sud_ouest",
+      "target": "space_zone_desert_sismique",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "frontiere": "sud-ouest du desert"
+      }
+    },
+    {
+      "source": "space_zone_desert_sismique",
+      "target": "space_zone_dents_desert",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "colonnes dans le desert"
+      }
+    },
+    {
+      "source": "space_zone_dents_desert",
+      "target": "space_zone_dent_noire",
+      "type": "adjacent_a",
+      "weight": 0.7,
+      "affinity": 0.9,
+      "properties": {
+        "relation": "plus grande des Dents"
+      }
+    },
+    {
+      "source": "space_zone_desert_sismique",
+      "target": "space_zone_veines_stables",
+      "type": "adjacent_a",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "reseau de routes dans le desert"
+      }
+    },
+    {
+      "source": "space_archipel_sud",
+      "target": "space_zone_faille_khensi",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.6,
+      "properties": {
+        "direction": "entre Sud et Centre-Sud"
+      }
+    },
+    {
+      "source": "space_archipel_centre_sud",
+      "target": "space_zone_faille_khensi",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.6,
+      "properties": {
+        "direction": "entre Centre-Sud et Sud"
+      }
+    },
+    {
+      "source": "space_zone_champs_soufre",
+      "target": "space_zone_piemont_volcanique",
+      "type": "adjacent_a",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "transition": "soufre vers piemont"
+      }
+    },
+    {
+      "source": "space_archipel_centre_sud",
+      "target": "space_zone_champs_soufre",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "direction": "au-dela des Chaudes"
+      }
+    },
+    {
+      "source": "space_zone_volcan",
+      "target": "space_zone_piemont_volcanique",
+      "type": "adjacent_a",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "transition": "volcan vers piemont"
+      }
+    },
+    {
+      "source": "space_zone_volcan",
+      "target": "space_zone_ceinture_fumerolles",
+      "type": "adjacent_a",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "anneau de fumerolles autour du volcan"
+      }
+    },
+    {
+      "source": "space_zone_piemont_volcanique",
+      "target": "space_zone_seuil_eveil",
+      "type": "adjacent_a",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "transition": "limite de l'Eveil"
+      }
+    },
+    {
+      "source": "space_zone_piemont_volcanique",
+      "target": "space_zone_entree_reseau",
+      "type": "mene_a",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "transition": "surface vers souterrain"
+      }
+    },
+    {
+      "source": "space_zone_entree_reseau",
+      "target": "space_village_sourds",
+      "type": "mene_a",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "transition": "descente vers le Village des Sourds"
+      }
+    },
+    {
+      "source": "space_village_themba",
+      "target": "space_zone_piemont_volcanique",
+      "type": "mene_a",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "role": "gardiens de l'acces au piemont"
+      }
+    },
+    {
+      "source": "space_zone_la_table",
+      "target": "space_ville_mhluzi",
+      "type": "adjacent_a",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "relation": "Mhluzi construite sur la Table"
+      }
+    },
+    {
+      "source": "space_zone_nappes_phreatiques_sud",
+      "target": "space_village_lesedi",
+      "type": "adjacent_a",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "pecheurs d'eau descendent dans les nappes"
+      }
+    },
+    {
+      "source": "space_zone_gravier_noir",
+      "target": "space_archipel_centre_sud",
+      "type": "adjacent_a",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "transition": "basalte coupant vers les Chaudes"
+      }
+    },
+    {
+      "source": "space_zone_gravier_noir",
+      "target": "space_zone_piemont_volcanique",
+      "type": "adjacent_a",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "transition": "gravier noir vers piemont"
+      }
+    }
+  ]
+}

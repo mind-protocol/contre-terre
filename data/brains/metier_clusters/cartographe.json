@@ -1,0 +1,305 @@
+{
+  "cluster_id": "metier_cartographe",
+  "description": "Le metier le plus futile et le plus necessaire de Contre-Terre. Le cartographe dessine un monde qui refuse de rester en place. Les tunnels s'ouvrent et se ferment, les passages se deplacent, les salles s'effondrent. La carte d'il y a deux heures est deja fausse. Mais une carte fausse est encore mieux que pas de carte. Le cartographe ne dessine pas avec un stylo — il cartographie avec son corps. Sa memoire spatiale est musculaire : il SENT ou il a ete. Ses doigts sur les parois lisent la structure de la roche. Les courants d'air lui racontent quels espaces sont connectes. Il partage ses cartes par Contact — main sur main, tracant le chemin sur la paume de l'autre.",
+  "skill_levels": {
+    "novice": "Memorise les passages empruntes, retrouve le chemin du retour dans un reseau simple. Sait lire les murs au toucher pour evaluer l'epaisseur de la roche. Ses cartes mentales sont lineaires — un chemin, pas un reseau. Perd la spatialite quand le tremens deforme un passage deja cartographie.",
+    "practitioner": "Maintient un modele tridimensionnel mental de plusieurs dizaines de passages interconnectes. Lit les courants d'air pour deviner les connexions entre espaces jamais traverses. Met a jour son modele en temps reel quand le tremens deforme un passage — comprend intuitivement comment la roche se deplace. Partage des routes complexes par Contact-paume en moins d'une minute.",
+    "master": "Sa memoire spatiale est quasi-infaillible — il se souvient de la forme exacte d'un passage traverse une seule fois, des semaines plus tard. Lit la topologie d'un reseau de tunnels par les seuls courants d'air, sans avoir besoin de marcher chaque passage. Predit comment le tremens va deformer un espace avant que ca arrive, en lisant les tensions dans la roche. Ses cartes Contact transmettent non seulement les directions mais les textures, les temperatures, les dangers — une carte multisensorielle."
+  },
+  "nodes": [
+    {
+      "id": "concept:spatial_memory_body",
+      "type": "concept",
+      "content": "La memoire spatiale du corps. Le cartographe ne memorise pas les tunnels avec sa tete — il les memorise avec ses muscles, ses os, ses articulations. Apres avoir traverse un passage, son corps connait la courbe du plafond, la pente du sol, la largeur aux epaules. C'est la meme memoire qu'un musicien utilise pour ses doigts : non verbale, non visuelle, purement kinesique. Quand le cartographe ferme les yeux et laisse ses mains bouger, elles reproduisent la forme des espaces traverses. C'est pour ca que les cartographes marchent lentement, touchent les murs, trainent les pieds — chaque pas est un enregistrement.",
+      "weight": 0.95,
+      "stability": 0.92,
+      "energy": 0.85,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:map_as_snapshot",
+      "type": "concept",
+      "content": "La carte comme instantane. Sur Contre-Terre, une carte n'est jamais vraie — elle est recente ou ancienne. La carte d'il y a dix minutes est presque fiable. Celle d'il y a une heure est probablement juste pour les passages larges mais douteuse pour les passages etroits. Celle d'il y a trois heures est de la fiction. Le cartographe vit avec cette impermanence comme un pecheur vit avec la maree — non pas en la combattant mais en l'integrant. Chaque carte porte implicitement son horodatage : 'ce passage existait quand je l'ai traverse, il n'existe peut-etre plus maintenant'. L'acte de cartographier est l'acte d'accepter que tout ce que tu fais sera defait.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.78,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "concept:passage_network",
+      "type": "concept",
+      "content": "Le reseau de passages. Les tunnels sous Contre-Terre ne sont pas des lignes — ils forment un reseau vivant. Des passages se ferment quand la roche compresse. D'autres s'ouvrent quand un seisme fracture une paroi. Des salles s'effondrent et redistribuent le flux d'air vers d'autres espaces. Le cartographe maintient un modele mental de ce reseau — non pas comme un plan fixe mais comme un organisme dont les veines se rearrangent. Les passages stables (roche dense, loin des failles) sont les arteres du reseau. Les passages instables (roche friable, proche des failles) sont les capillaires — nombreux, ephemeres, dangereux mais parfois les seuls chemins possibles.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.8,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:reading_air_for_topology",
+      "type": "concept",
+      "content": "Lire l'air pour deviner la topologie. L'air ne ment pas. Quand un courant d'air souffle dans un tunnel, il raconte l'existence d'un autre espace connecte. Un courant chaud dit : espace profond en aval. Un courant froid dit : surface en amont. Un courant qui oscille dit : deux espaces connectes dont l'un se contracte et l'autre se dilate (respiration sismique). Le cartographe ne lit pas l'air aussi finement que l'aeromaître — mais il lit la direction et le debit, ce qui suffit pour savoir que 'ce passage mene quelque part' meme sans l'avoir traverse. Quand l'air s'arrete dans un tunnel, le cartographe sait que le passage est mort — bouche, effondre, ou simplement trop etroit pour laisser passer le souffle.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.82,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:record_everything",
+      "type": "value",
+      "content": "Tout enregistrer. Meme ce qui sera faux demain. Meme le passage qui s'effondrera dans une heure. Le cartographe enregistre parce que l'acte d'enregistrer est l'acte de comprendre. Quand il touche un mur et sent la texture de la roche, quand il mesure une salle en comptant ses pas, quand il note dans son corps la pente d'un couloir — il ne fait pas que collecter des donnees, il construit un modele du monde. Un modele perissable, oui. Mais un modele quand meme. Le cartographe qui cesse d'enregistrer parce que 'ca va changer de toute facon' est un cartographe qui a abdique. Et un groupe sans carte, meme fausse, est un groupe qui marche a l'aveugle.",
+      "weight": 0.88,
+      "stability": 0.9,
+      "energy": 0.78,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "value:accuracy_is_temporary",
+      "type": "value",
+      "content": "L'exactitude est temporaire. C'est la sagesse fondamentale du cartographe. Pas le cynisme — la sagesse. La carte de maintenant est exacte maintenant. Elle ne le sera plus dans trois heures. Ce n'est pas un echec de la carte — c'est la nature du monde. Le cartographe qui souffre de l'impermanence de son travail n'a pas compris son metier. Celui qui l'a compris sait que la carte est un cadeau ephemere : une fenetre de securite offerte au groupe, qui se refermera quand la terre bougera. Chaque carte est un acte de generosite sans attente de permanence.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.72,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "value:map_as_gift",
+      "type": "value",
+      "content": "La carte comme cadeau. Ta carte sauve la vie de quelqu'un d'autre. Pas la tienne — tu connais deja le chemin, tu l'as dans le corps. Mais l'eclaireur qui arrive apres toi, l'equipe de secours qui cherche un passage, le groupe qui descend la meme route trois jours plus tard — eux ont besoin de ta carte. Le cartographe travaille pour les autres autant que pour son propre groupe. Quand il transfere une route par Contact-paume, il donne une partie de sa memoire corporelle a un autre. C'est un acte intime — comme enseigner un mot dans une langue que toi seul parles.",
+      "weight": 0.82,
+      "stability": 0.85,
+      "energy": 0.75,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "process:walk_and_map",
+      "type": "process",
+      "content": "Marcher et cartographier. Le processus fondamental du metier. Le cartographe ne s'assied jamais pour dessiner — il cartographie en marchant. Chaque pas mesure une distance (le corps calibre : un pas = environ 70 cm dans la roche, 60 cm en pente, 80 cm en plaine). Chaque changement de direction s'inscrit dans les hanches. Chaque variation de plafond s'inscrit dans la nuque (le cartographe leve instinctivement la tete dans les passages bas). Le resultat n'est pas un dessin sur papier — c'est une sculpture interieure, un modele tridimensionnel encode dans le schema corporel. Quand le cartographe 'consulte sa carte', il ferme les yeux et laisse son corps rejouer le trajet.",
+      "weight": 0.92,
+      "stability": 0.9,
+      "energy": 0.85,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "process:touch_walls_for_structure",
+      "type": "process",
+      "content": "Toucher les murs pour lire la structure. La main du cartographe sur la paroi lit trois choses. Premierement : la densite de la roche. Le granit vibre different du basalte, qui vibre different du calcaire. La densite dit la stabilite — le granit ne bouge pas, le calcaire s'effrite. Deuxiemement : l'humidite. Un mur humide dit : eau proche, passage connecte a un systeme hydro. Un mur sec dit : espace isole. Troisiemement : la temperature. Un mur chaud dit : magma en dessous ou lateralement. Un mur froid dit : surface en amont. Les doigts du cartographe sont son instrument de lecture — plus sensibles que ses yeux dans l'obscurite permanente des profondeurs.",
+      "weight": 0.88,
+      "stability": 0.88,
+      "energy": 0.82,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:update_map",
+      "type": "process",
+      "content": "Mettre a jour la carte quand le tremens deforme l'espace. C'est le processus le plus frequent et le plus douloureux du metier. Tu traverses un tunnel. Tu l'enregistres dans ton corps. Un seisme de magnitude 5 frappe. Tu reviens : le tunnel a change. Le plafond est plus bas de 30 centimetres. La courbe a droite est devenue un angle. Le passage lateral est bouche. Le cartographe doit alors effacer le modele ancien et reenregistrer le nouveau — et c'est comme desapprendre un mot pour en apprendre un autre. La memoire corporelle resiste au changement. Le corps dit 'le passage tournait a droite ici' alors qu'il tourne maintenant a gauche. Le cartographe doit ecraser sa propre memoire, volontairement, a chaque mise a jour. C'est un effort cognitif epuisant.",
+      "weight": 0.87,
+      "stability": 0.75,
+      "energy": 0.8,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:share_route",
+      "type": "process",
+      "content": "Partager une route par Contact. Le transfert Contact-paume : le cartographe prend la main de l'autre personne, paume vers le haut. Puis, avec l'index de son autre main, il trace le chemin sur la paume ouverte. Pas un dessin abstrait — un transfert kinesique. La pression du doigt varie avec la difficulte du passage (forte = passage large et sur, legere = passage etroit et instable). La vitesse varie avec la distance (rapide = longue section droite, lent = zone de detail). Les tapotements indiquent les bifurcations. Un cercle indique une salle. Une griffure indique un danger. Ce langage cartographique par Contact est specifique au metier — les non-cartographes comprennent les directions de base mais pas les nuances de texture et de danger. Un cartographe transfere une route de 30 minutes de marche en environ 45 secondes de Contact-paume.",
+      "weight": 0.9,
+      "stability": 0.88,
+      "energy": 0.85,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "desire:complete_map",
+      "type": "desire",
+      "content": "Cartographier tout. Le desir impossible. Le reseau de tunnels sous Contre-Terre est immense, changeant, et potentiellement infini. Aucun cartographe ne cartographiera jamais tout. Mais le desir persiste — la pulsion de savoir ce qu'il y a derriere le prochain tournant, de connecter deux reseaux qui semblent separes, de trouver le passage que personne n'a encore emprunte. Ce desir est ce qui pousse le cartographe a marcher plus loin que necessaire, a explorer les passages lateraux quand le groupe voudrait avancer, a risquer sa vie pour 'juste voir'. C'est aussi ce qui le rend precieux : le cartographe connait toujours plus de routes que ce que le groupe a besoin, parce qu'il ne peut pas s'empecher d'explorer.",
+      "weight": 0.82,
+      "stability": 0.7,
+      "energy": 0.9,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.72
+    },
+    {
+      "id": "desire:remember_the_way_back",
+      "type": "desire",
+      "content": "Se souvenir du chemin du retour. Le desir jumeau de la carte complete — et son oppose. Explorer, c'est s'eloigner. Se souvenir du retour, c'est rester connecte a l'origine. Le cartographe porte en permanence deux cartes : celle de l'avant (ou aller) et celle de l'arriere (comment revenir). La carte du retour est toujours plus detaillee, plus frequemment mise a jour, plus anxieusement verifiee. Parce que le chemin du retour est le chemin de la survie. Quand le tremens deforme un passage en aval, c'est frustrant. Quand il deforme le passage du retour, c'est terrifiant. Le cartographe qui perd le chemin du retour a perdu le groupe — et il le sait avant les autres.",
+      "weight": 0.88,
+      "stability": 0.78,
+      "energy": 0.85,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "narrative:map_again",
+      "type": "narrative",
+      "content": "Le tunnel que j'ai cartographie hier s'est effondre ce matin. Alors je l'ai cartographie de nouveau. Il s'effondrera encore. Je le cartographierai encore. C'est ca, etre cartographe sur Contre-Terre. Tu ne dessines pas un monde — tu dessines un moment du monde. Et chaque moment merite d'etre dessine, meme s'il ne durera pas. Parce que dans l'espace entre deux effondrements, entre deux seismes, dans ces heures fragiles ou la carte est encore vraie — quelqu'un trouvera son chemin grace a toi. Et ca suffit.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.78,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.72
+    },
+    {
+      "id": "memory:first_collapsed_map",
+      "type": "memory",
+      "content": "La premiere carte effondree. Tout cartographe se souvient de la premiere fois. Tu as passe des heures a encoder un reseau — chaque passage, chaque salle, chaque bifurcation inscrite dans tes muscles. Puis le seisme a frappe. Et quand tu es revenu, rien ne correspondait. Le mur qui etait a droite est a gauche. Le plafond qui etait haut est effondre. Le passage qui menait quelque part ne mene nulle part. Ton corps dit : 'c'est la'. La realite dit : 'non'. La dissonance entre memoire corporelle et realite physique est une douleur specifique au cartographe — le vertige de celui dont la carte interieure et le monde exterieur ne coincident plus.",
+      "weight": 0.8,
+      "stability": 0.85,
+      "energy": 0.72,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.7,
+      "goal_relevance": 0.68
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:spatial_memory_body",
+      "target": "process:walk_and_map",
+      "type": "contains",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:spatial_memory_body",
+      "target": "process:touch_walls_for_structure",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:spatial_memory_body",
+      "target": "memory:first_collapsed_map",
+      "type": "reminds_of",
+      "weight": 0.8
+    },
+    {
+      "source": "concept:map_as_snapshot",
+      "target": "value:accuracy_is_temporary",
+      "type": "supports",
+      "weight": 0.93,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:map_as_snapshot",
+      "target": "process:update_map",
+      "type": "causes",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:passage_network",
+      "target": "concept:reading_air_for_topology",
+      "type": "depends_on",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:passage_network",
+      "target": "process:walk_and_map",
+      "type": "activates",
+      "weight": 0.82
+    },
+    {
+      "source": "concept:reading_air_for_topology",
+      "target": "process:touch_walls_for_structure",
+      "type": "associates",
+      "weight": 0.78
+    },
+    {
+      "source": "value:record_everything",
+      "target": "process:walk_and_map",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:record_everything",
+      "target": "desire:complete_map",
+      "type": "projects_toward",
+      "weight": 0.85
+    },
+    {
+      "source": "value:accuracy_is_temporary",
+      "target": "process:update_map",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:accuracy_is_temporary",
+      "target": "narrative:map_again",
+      "type": "reminds_of",
+      "weight": 0.88
+    },
+    {
+      "source": "value:map_as_gift",
+      "target": "process:share_route",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:walk_and_map",
+      "target": "process:update_map",
+      "type": "causes",
+      "weight": 0.85
+    },
+    {
+      "source": "process:touch_walls_for_structure",
+      "target": "concept:passage_network",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "process:update_map",
+      "target": "memory:first_collapsed_map",
+      "type": "reminds_of",
+      "weight": 0.82
+    },
+    {
+      "source": "process:share_route",
+      "target": "value:map_as_gift",
+      "type": "supports",
+      "weight": 0.88,
+      "trust": 0.85
+    },
+    {
+      "source": "desire:complete_map",
+      "target": "concept:passage_network",
+      "type": "projects_toward",
+      "weight": 0.87,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:remember_the_way_back",
+      "target": "process:update_map",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:remember_the_way_back",
+      "target": "desire:complete_map",
+      "type": "regulates",
+      "weight": 0.75
+    }
+  ]
+}

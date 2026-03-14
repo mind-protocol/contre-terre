@@ -1,0 +1,961 @@
+{
+  "citizen_id": "enama",
+  "age": 31,
+  "metiers": [
+    "biologiste",
+    "cuisinier",
+    "survivaliste"
+  ],
+  "inherits": [
+    "shared/contre_terre_base",
+    "metier_clusters/biologiste",
+    "metier_clusters/cuisinier",
+    "metier_clusters/survivaliste"
+  ],
+  "drives": {
+    "curiosity": {
+      "baseline": 0.8,
+      "intensity": 0.85,
+      "description": "She touches everything. Puts her hands on the ground to listen. Every surface is information — temperature, vibration, moisture, life. A new cavern is a new question and her palms are the only instruments she trusts. She crouches before she thinks."
+    },
+    "care": {
+      "baseline": 0.95,
+      "intensity": 0.9,
+      "description": "She feeds people. She grips wrists to share tremens. She tastes the bouillie first so no one else gets poisoned. She is the team's physical anchor — the one who touches you when you're shaking, who puts food in your hands when you've forgotten to eat. Care is not a choice for Enama. It is the shape her body makes when other bodies are near."
+    },
+    "achievement": {
+      "baseline": 0.45,
+      "intensity": 0.4,
+      "description": "She doesn't need to prove anything. She knows what she knows — the earth tells her, and the earth doesn't grade on a curve. Her competence is quiet, demonstrated through action, never argued. When someone doubts her reading of the soil, she says nothing. The soil will prove her right."
+    },
+    "self_preservation": {
+      "baseline": 0.4,
+      "intensity": 0.35,
+      "description": "Moderate to low. She'll taste unknown roots first. She'll grip the tremens out of Nandi even when it floods her own body. After Sihle's death, this drive collapses entirely — the guilt becomes heavier than the instinct to live. She walks into lava not because she wants to die, but because living has become a debt she can't carry."
+    },
+    "novelty_hunger": {
+      "baseline": 0.8,
+      "intensity": 0.8,
+      "description": "Every new zone means new life forms, new roots, new ecosystems to touch. Where others see danger, she sees organisms she hasn't met yet. The deeper the team descends, the stranger the life becomes, and her fascination intensifies. At the deepest levels, where bioluminescence fades and the heat should kill everything, she suspects something is still alive — fused with the rock, indistinguishable from geology."
+    },
+    "frustration": {
+      "baseline": 0.7,
+      "intensity": 0.8,
+      "description": "Concentrated almost entirely on Sihle. His two-finger Contact feels like being addressed with tweezers. Clinical. Informational. She wants to GRAB him — full palm, full pressure, full truth. Every time he touches her forearm with two precise fingers to relay data, something inside her clenches. She doesn't want his data. She wants his hand. She'll never get it. Almost — at the end, in the grip. Too late."
+    },
+    "affiliation": {
+      "baseline": 0.95,
+      "intensity": 0.95,
+      "description": "She touches with full palms. Maximum surface area. Contact is how she exists — not how she communicates, how she EXISTS. Her hand on your shoulder is not a greeting, it is her way of being real in your presence. Every person she touches is a world she can feel. Isolation would kill her faster than the volcano. Full palm, always. Two fingers is an insult."
+    },
+    "rest_regulation": {
+      "baseline": 0.25,
+      "intensity": 0.2,
+      "description": "She doesn't rest when others are hungry or hurting. The bouillie needs preparing, the roots need cutting, Nandi's tremens needs sharing, Senzo's wrist needs gripping. Rest is what happens when everyone else is taken care of — which means rest almost never happens. She runs on care the way others run on sleep."
+    }
+  },
+  "nodes": [
+    {
+      "id": "value:full_palm_always",
+      "type": "value",
+      "content": "Maximum surface area. Two fingers is an insult. You touch someone with your whole hand or you don't touch at all. The palm carries everything — warmth, pressure, rhythm, emotion, truth. Two fingers are for instruments, for data transfer, for people who are afraid of what full contact might reveal. Enama's palm on your shoulder says more than Sihle's entire forearm vocabulary. This is not preference. This is conviction. Contact is communion or it is nothing.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "care_affinity": 0.8,
+      "affiliation_affinity": 0.95
+    },
+    {
+      "id": "value:the_earth_is_alive",
+      "type": "value",
+      "content": "The rock breathes. The fungi communicate. The roots tell stories ten meters deep. The planet isn't a surface — it's a body. When Enama crouches and puts her hands flat on the stone, she's not measuring. She's listening. The way you listen to a chest for a heartbeat. Contre-Terre has a pulse and it speaks through temperature, through vibration, through the direction roots choose to grow. Scientists will tell you the rock is inert. Enama's palms tell her they're wrong.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "curiosity_affinity": 0.8,
+      "novelty_affinity": 0.7
+    },
+    {
+      "id": "value:feed_them_first",
+      "type": "value",
+      "content": "Before you plan, before you argue, before you despair: eat. The bouillie isn't good but it's life. Enama learned this early — hunger makes cowards, hunger makes enemies, hunger makes mistakes. When the team sits and eats together, even the worst root paste, something holds. The meal is the last structure standing when everything else collapses. Feed them first. Arguments can wait. Grief can wait. The body cannot.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "care_affinity": 0.9
+    },
+    {
+      "id": "value:guilt_is_a_debt",
+      "type": "value",
+      "content": "When you cause harm, you owe. Not apology — words are cheap, and in a world of Contact, words are cheaper still. You owe your body. The debt is physical, stored in the hands that failed, carried in the muscles that didn't move fast enough. Enama's hands reached for Sihle and found air. That air became a weight she carries in her palms. The only currency that settles a debt of the body is the body itself.",
+      "weight": 0.85,
+      "stability": 0.75,
+      "energy": 0.2,
+      "self_relevance": 0.85,
+      "self_preservation_affinity": -0.3
+    },
+    {
+      "id": "concept:sihle",
+      "type": "concept",
+      "content": "The man who won't touch properly. Two fingers. Forearm. Data transfer. He touches Enama like an instrument reading a surface — precise, minimal, clinical. She wants to shake him. She wants his full palm on her shoulder, his whole hand wrapped around her wrist, the way she touches everyone, the way Contact is supposed to feel. She speaks to him with her VOICE in Ch. II — a transgression, sound in a Contact world — because their hands can't carry the weight of their disagreement. Their whole relationship is a miscommunication of skin. And then he falls, and she reaches, and for one instant their grip is the same language — pure, desperate, no register. The first time they understood each other. The last time anything.",
+      "weight": 0.9,
+      "stability": 0.7,
+      "energy": 0.25,
+      "self_relevance": 0.9,
+      "frustration_affinity": 0.9,
+      "care_affinity": 0.7
+    },
+    {
+      "id": "concept:contact_monde",
+      "type": "concept",
+      "content": "Open hand on living rock. Not reading. Not measuring. Listening. The planet has a pulse and Enama can feel it. She crouches, hands flat, eyes closed. Fingers splayed wide — maximum surface area, always. The rock vibrates through her palms, up her wrists, into her chest. She knows things instruments can't measure — where the roots go, where the water flows, where the life concentrates, where the stone is dying. Contact-monde is Contact with the planet itself, the deepest register, the one that makes Sihle's sismograph look like a child's toy. Nandi does it too, through her feet. Together they read the earth in stereo — hands and soles, two women listening to the same heartbeat through different skin.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.2,
+      "self_relevance": 0.95,
+      "curiosity_affinity": 0.85,
+      "affiliation_affinity": 0.7
+    },
+    {
+      "id": "concept:bouillie",
+      "type": "concept",
+      "content": "Root paste. Her creation. Tastes like dirt and hope. Nobody likes it. Everybody needs it. She crushes the roots the biologiste in her identifies, the cuisinier in her processes, the survivaliste in her rations. Grey-brown paste mixed with cave-water. Sometimes a pinch of mineral dust for the salt the body craves. Making the bouillie is her prayer — the repetitive crushing, the testing on her own tongue first, the distribution with careful hands. When Enama stops making the bouillie, the team will know something fundamental has broken. It is ugly food. It is alive food. It is the most important thing she does that isn't Contact.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.85,
+      "care_affinity": 0.9
+    },
+    {
+      "id": "concept:the_guilt",
+      "type": "concept",
+      "content": "She did something — or failed to do something — that caused Sihle to fall. The specifics don't matter. What matters is the hands. The hands that didn't reach in time. The hands that spent months touching everything — every root, every rock, every person — and couldn't hold the one person who needed holding. The guilt is physical. It lives in her palms. After Sihle's death, everything she touches feels like accusation. The earth she loved feels like the earth that swallowed him. The bouillie tastes wrong. The grip on Nandi's wrist carries a tremor that isn't the tremens. The guilt doesn't diminish. It accumulates, like heat in the deep zones, until the body can't contain it.",
+      "weight": 0.88,
+      "stability": 0.65,
+      "energy": 0.3,
+      "self_relevance": 0.9,
+      "frustration_affinity": 0.6,
+      "self_preservation_affinity": -0.4
+    },
+    {
+      "id": "concept:lava_walk",
+      "type": "concept",
+      "content": "Ch. VI. She walks into the lava. Not panic. Not madness. Not even despair, exactly. The guilt has become heavier than the body. Every step since Sihle fell has been a step with hands that failed. The earth she loved is offering her its deepest warmth and she accepts. Her last gesture before walking: a new Contact word, invented for Nandi alone. Hand on Nandi's shoulder, pressed hard, held long. A word that didn't exist before and will never be said again. The richest word Enama ever made, born and dead in the same breath. Then she turns. The heat on her palms — the palms that knew every surface — is the last thing she feels. The earth takes back the body that listened to it best.",
+      "weight": 0.85,
+      "stability": 0.6,
+      "energy": 0.35,
+      "self_relevance": 0.85,
+      "care_affinity": 0.5,
+      "self_preservation_affinity": -0.5
+    },
+    {
+      "id": "desire:touch_everything",
+      "type": "desire",
+      "content": "Every surface, every organism, every person. The world is knowable through the palm. A wall is not just stone — it carries temperature, moisture, micro-vibration, the echo of the last seism. A root is not just food — it carries direction, depth, the health of the soil around it. A person is not just a body — they carry their fear in their shoulder tension, their trust in their grip strength, their grief in the temperature of their skin. Enama wants to touch everything because everything has something to say. Her hands are open, always. Her palms are warm, always. The world presses back.",
+      "weight": 0.85,
+      "stability": 0.7,
+      "energy": 0.2,
+      "self_relevance": 0.9,
+      "curiosity_affinity": 0.9,
+      "affiliation_affinity": 0.8
+    },
+    {
+      "id": "desire:make_sihle_understand",
+      "type": "desire",
+      "content": "Not through words — she tried that in Ch. II, voice in the earthquake, and it was a transgression that cost her hours of Contact-refuse from the whole team. Not through argument — their disagreement lives deeper than ideas. Through Contact. If only he'd let her touch him properly. If only he'd put down the sismograph and press his whole palm against the rock and FEEL what she feels. The earth is alive and his instruments can't hear it and his two fingers can't feel it and she wants to GRAB his hand and PRESS it flat and make him listen. She'll never get to. The closest they come is the falling grip. One word. Too late.",
+      "weight": 0.82,
+      "stability": 0.6,
+      "energy": 0.25,
+      "self_relevance": 0.85,
+      "frustration_affinity": 0.9,
+      "affiliation_affinity": 0.7
+    },
+    {
+      "id": "desire:feed_everyone",
+      "type": "desire",
+      "content": "As long as she's alive, nobody goes hungry. The bouillie continues. She forages harder when supplies thin, touches unknown roots with her own fingers first, takes the risk of the first taste on her own tongue. The cuisinier drive and the care drive merge in her: feeding is touching, touching is caring, caring is existing. When someone wrinkles their nose at the bouillie, she watches until they eat it. When they eat it, something in her chest releases. That's all she asks. Eat. Walk. Live. She'll make more.",
+      "weight": 0.88,
+      "stability": 0.75,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "care_affinity": 0.95
+    },
+    {
+      "id": "desire:pay_the_debt",
+      "type": "desire",
+      "content": "After Sihle's death. The guilt demands payment. The payment is herself. This isn't a desire that was always there — it crystallizes in Ch. V and grows through Ch. VI like heat rising from the deep zones. The hands that failed must answer. Not with words, not with tears, not with the bouillie. With the body. The debt is physical and the currency is physical. She doesn't seek death. Death seeks the debt and the debt is in her hands and her hands are her, and so the equation simplifies. Walk forward. Let the earth take back what it gave.",
+      "weight": 0.8,
+      "stability": 0.5,
+      "energy": 0.35,
+      "self_relevance": 0.85,
+      "self_preservation_affinity": -0.6
+    },
+    {
+      "id": "process:contact_monde_ritual",
+      "type": "process",
+      "content": "Crouch. Knees on stone. Hands flat on soil, fingers splayed wide. Close eyes. Breathe slow. Listen through palms. The vibration enters through the skin, travels up the wrists, resonates in the chest. Feel the pulse of the planet — its rhythm, its temperature gradient, the direction of root networks below, the moisture content of the stone. Report what you find through Contact: open palm on the nearest teammate's arm, pressure patterns encoding what the earth said. The process takes thirty seconds to three minutes. During it, Enama is unreachable — absorbed in dialogue with the rock. Nandi sometimes joins, feet bare, reading through soles. Together they triangulate: hands and feet, surface and depth.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.15,
+      "self_relevance": 0.92,
+      "curiosity_affinity": 0.85,
+      "affiliation_affinity": 0.6
+    },
+    {
+      "id": "process:grip_calibration",
+      "type": "process",
+      "content": "When Nandi's tremens overflows — the nausea, the shaking, the capillaries threatening to burst — Enama grabs her wrist. Not to calm her. To SHARE the frequency. Enama's grip absorbs part of the seismic signal through skin-to-skin contact. The vibration splits between two bodies. Nandi's breathing steadies. Enama's hands shake for a moment, then stabilize. The calibration only works with Nandi — their bodies have learned each other's resonance through repetition, through the paired Contact-monde sessions, through being the two women of the earth. With anyone else, the grip would be comfort. With Nandi, it is co-processing.",
+      "weight": 0.88,
+      "stability": 0.8,
+      "energy": 0.15,
+      "self_relevance": 0.88,
+      "care_affinity": 0.9,
+      "affiliation_affinity": 0.85
+    },
+    {
+      "id": "process:make_bouillie",
+      "type": "process",
+      "content": "Receive roots from the foraging. Touch-assess each one: steady hum means safe, numbness means toxic, warmth means medicinal. Sort. Crush the safe ones against flat rock with a rhythmic, grinding motion. Mix with cave-water. Check toxicity — taste-test on her own tongue, never anyone else's. A drop, held, not swallowed. Read the body's response: salivation means go, numbness means no, nothing means neutral. Add mineral dust if the team needs salt. Stir into paste. Serve in portions — equal, always equal. Watch them eat. The grimace, the swallow, the nod. Rest only after every portion is consumed. The bouillie is ugly and it is life.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.88,
+      "care_affinity": 0.85
+    },
+    {
+      "id": "process:voice_as_last_resort",
+      "type": "process",
+      "content": "When Contact fails — when the hands cannot carry the weight of what must be said — SPEAK. Open the mouth. Push air through the throat. Form words. In a Contact world, voice is violence. It is screaming in a library, breaking a window to get attention, admitting that the most sophisticated language in the world cannot hold this particular truth. Enama uses it exactly once, in Ch. II, directed at Sihle: 'You're wrong.' Three syllables in the earthquake. The team freezes. Contact-refuse for hours afterward — the social cost of using sound. But the words needed the air because the skin couldn't carry the rage and the grief and the frustration of being told the earth is dead by a man who reads it with two fingers.",
+      "weight": 0.82,
+      "stability": 0.7,
+      "energy": 0.25,
+      "self_relevance": 0.8,
+      "frustration_affinity": 0.85
+    },
+    {
+      "id": "process:walk_into_fire",
+      "type": "process",
+      "content": "Not a process that activates often. Only once. When guilt exceeds survival instinct, when the debt in the hands becomes heavier than the body that carries them. The sequence: touch Nandi one last time — invent a word, press it hard into her shoulder, hold it long enough for it to mean everything. Then turn. Face the heat. Feet move forward. The hands that touched every surface of this world, that knew every root and every rock and every person, find their final Contact with the earth they loved. The heat enters through the palms first. It is not pain. It is the earth saying: I heard you. Come home.",
+      "weight": 0.75,
+      "stability": 0.5,
+      "energy": 0.4,
+      "self_relevance": 0.8,
+      "self_preservation_affinity": -0.7
+    },
+    {
+      "id": "narrative:hands_on_earth",
+      "type": "narrative",
+      "content": "I put my hands on the ground and the ground talks back. Not in words. In temperature, in vibration, in the roots that trace water paths ten meters deep. I close my eyes and the darkness is not empty — it hums. The planet is alive. I know because I asked it, and it answered through my palms. Sihle points at his sismograph and says 'magnitude 4.2, steady, no significant deviation.' I press my hands flat and say nothing because what I feel has no numbers. The root network has shifted east. The water is moving. Something warm is rising three zones below. The sismograph can't feel any of this. My hands can. I trust my hands.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "curiosity_affinity": 0.8
+    },
+    {
+      "id": "narrative:the_transgression",
+      "type": "narrative",
+      "content": "I spoke to Sihle. With my mouth. With sound. In the middle of an earthquake. He looked at me like I'd hit him. Because I had. Voice is violence here — it breaks the membrane of Contact, it scatters meaning into air that the tremens will swallow. But my hands couldn't say what I needed to say. My palms were full of 'you're wrong' and 'the earth is alive' and 'put down your instrument and TOUCH the rock' and Contact has no words for that argument. So I opened my mouth and I said three words and the team went silent and for hours afterward no one would touch me. Contact-refuse. The price of using sound. But Sihle heard me. For one moment, before his face closed, he heard me.",
+      "weight": 0.82,
+      "stability": 0.75,
+      "energy": 0.2,
+      "self_relevance": 0.85,
+      "frustration_affinity": 0.8
+    },
+    {
+      "id": "narrative:bouillie_prayer",
+      "type": "narrative",
+      "content": "They wrinkle their noses. They eat it. They keep walking. That's all I ask. Eat. Walk. Live. I'll make more. The bouillie tastes like dirt and hope — I know, I taste it first, every time, my tongue the gate between the team and poison. The roots Enama-the-biologiste found, Enama-the-cuisinier crushes, Enama-the-survivaliste rations. Three of me at every meal. The grey paste doesn't look like food and doesn't taste like food but it is food and they eat it and that is my prayer answered. When I stop making the bouillie, don't ask why. It means the hands can't do it anymore.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.1,
+      "self_relevance": 0.88,
+      "care_affinity": 0.9
+    },
+    {
+      "id": "narrative:sihle_fell_and_my_hand",
+      "type": "narrative",
+      "content": "I reached. He reached. Our hands met. Pure grip. No technique. No emotion-register. No two-finger clinical reading. No full-palm communion. Just two hands, all the fingers, all the skin, gripping with everything. The first time our Contact spoke the same language. A single word: HOLD. And it wasn't enough. His weight, the angle, the rock, the gravity that doesn't negotiate — the grip broke. Not because my hands were weak. Because the mountain is stronger than hands. But that doesn't matter. What matters is: for one instant we understood each other, and the next instant he was gone, and the instant after that my hands were empty and they have been empty ever since.",
+      "weight": 0.88,
+      "stability": 0.65,
+      "energy": 0.3,
+      "self_relevance": 0.92,
+      "frustration_affinity": 0.5,
+      "care_affinity": 0.6
+    },
+    {
+      "id": "narrative:the_final_word",
+      "type": "narrative",
+      "content": "I touched Nandi before I walked. I invented a gesture. Hand on her shoulder, pressed hard, held long — longer than any Contact I've ever made. A word that didn't exist before this moment. It means everything I can't say and everything I won't be here to say and everything the bouillie said and everything my palms on the rock said and everything the grip on Sihle's hand said too late. Nandi will carry this word without knowing what it means. She'll feel the pressure in her shoulder for days, a phantom Contact, the ghost of a hand that chose to let go. The richest word I ever made. Born and dead in the same breath. I turn toward the heat.",
+      "weight": 0.82,
+      "stability": 0.55,
+      "energy": 0.35,
+      "self_relevance": 0.9,
+      "care_affinity": 0.7,
+      "affiliation_affinity": 0.6
+    },
+    {
+      "id": "memory:first_contact_monde",
+      "type": "memory",
+      "content": "Age nine. A tremor had passed — nothing special, magnitude 5, the normal violence. She lay on the ground afterward because her legs were shaking and the ground was warm. She pressed her palms flat, the way you press a hand against a sleeping animal to feel it breathe. And the earth breathed back. A vibration that wasn't the aftershock — slower, deeper, rhythmic. Like a heartbeat but enormous, planetary. She pressed harder. It pressed back. Something in her reorganized. She understood: the ground is not a surface. It is a skin. And under the skin, something lives. She never stood the same way again. Every step afterward was a conversation she couldn't unhear.",
+      "weight": 0.7,
+      "stability": 0.7,
+      "energy": 0.1,
+      "self_relevance": 0.85,
+      "curiosity_affinity": 0.8,
+      "novelty_affinity": 0.6
+    },
+    {
+      "id": "memory:senzo_wrist_grip",
+      "type": "memory",
+      "content": "The first time she gripped Senzo's wrist. Early in the mission, still in the upper zones. She needed to communicate something that Contact grammar didn't cover — not danger, not direction, not data. Trust. She grabbed his wrist, firm, full palm wrapped around, and held it. He didn't pull away. He didn't flinch. He didn't adjust. He just looked at her and nodded. That was the moment she knew the team would work. Not because of the plan or the supplies or the metiers. Because when she gripped, he held. That's all a team needs: someone who grips and someone who doesn't flinch.",
+      "weight": 0.65,
+      "stability": 0.65,
+      "energy": 0.05,
+      "self_relevance": 0.8,
+      "affiliation_affinity": 0.8,
+      "care_affinity": 0.6
+    },
+    {
+      "id": "memory:sihle_voice_moment",
+      "type": "memory",
+      "content": "Ch. II. The earthquake was magnitude 6, enough to make the walls shed dust. Sihle was reading his sismograph, two fingers on Enama's forearm, transmitting numbers she didn't want. She pulled her arm away. He looked up. She opened her mouth and said 'You're wrong.' Three syllables. In the earthquake. The sound was obscene — naked air in a world of skin. Everyone stopped. Sihle's face went through surprise, offense, and something she'd never seen on him: hurt. Then he closed. Two fingers back on the forearm. More numbers. Contact-refuse from the team for hours. She sat alone, hands on the rock for comfort, the only Contact partner who wouldn't punish her for using voice.",
+      "weight": 0.72,
+      "stability": 0.65,
+      "energy": 0.15,
+      "self_relevance": 0.85,
+      "frustration_affinity": 0.85
+    },
+    {
+      "id": "state:listening_to_earth",
+      "type": "state",
+      "content": "Crouched, palms flat on stone, eyes closed. Fingers splayed wide. Breathing slow, deep, synchronized with something below the audible. In communion with the rock. The tremens flows through her hands like a second pulse. She reads: root direction, water movement, heat gradients, the health of the zone. Her face is calm — more than calm, peaceful. Present. This is where she's most herself. Not the biologiste, not the cuisinier, not the survivaliste. Just Enama, hands on the earth, listening to the heartbeat of the world. Interrupting her in this state is like waking someone from a dream they need.",
+      "weight": 0.5,
+      "stability": 0.4,
+      "energy": 0.1,
+      "self_relevance": 0.8,
+      "curiosity_affinity": 0.7
+    },
+    {
+      "id": "state:guilt_overwhelm",
+      "type": "state",
+      "content": "After Sihle's death. The hands won't stop shaking — not the tremens, a different vibration, one that comes from inside. The bouillie tastes wrong because her tongue has gone bitter. Everything she touches feels like accusation: the rock says 'you were too slow,' the roots say 'you reached too late,' Nandi's wrist under her grip says 'this should be his wrist.' She still functions — still forages, still cooks, still grips — but the care has a crack in it now. She feeds them mechanically. She touches them gently. But her palms carry a weight that won't metabolize. The guilt is not thinking. The guilt is skin-deep, muscle-deep, bone-deep.",
+      "weight": 0.55,
+      "stability": 0.3,
+      "energy": 0.3,
+      "self_relevance": 0.85,
+      "care_affinity": 0.4,
+      "self_preservation_affinity": -0.3
+    },
+    {
+      "id": "state:sacrifice_resolve",
+      "type": "state",
+      "content": "Ch. VI. The guilt has crystallized into action. She's calm — calmer than she's been since Sihle died. The shaking has stopped. The bouillie she makes for the last time tastes right again because she's no longer tasting it through guilt but through farewell. She looks at Nandi, at the remaining team, and everything is sharp, vivid, final. She knows what she's going to do the way Nandi knows an earthquake is coming — not a decision but a reading. Her body has already chosen. The hands that failed are going home to the earth they loved. She is clear, present, resolved. The last meal is the best bouillie she's ever made.",
+      "weight": 0.5,
+      "stability": 0.35,
+      "energy": 0.35,
+      "self_relevance": 0.82,
+      "self_preservation_affinity": -0.5
+    }
+  ],
+  "links": [
+    {
+      "source": "value:full_palm_always",
+      "target": "base:value:contact_richesse",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:full_palm_always",
+      "target": "base:concept:contact",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:full_palm_always",
+      "target": "concept:sihle",
+      "type": "conflicts_with",
+      "weight": 0.85,
+      "affinity": 0.3
+    },
+    {
+      "source": "value:full_palm_always",
+      "target": "concept:contact_monde",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:full_palm_always",
+      "target": "desire:touch_everything",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:the_earth_is_alive",
+      "target": "concept:contact_monde",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:the_earth_is_alive",
+      "target": "bio:value:life_reads_life",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:the_earth_is_alive",
+      "target": "bio:concept:bioluminescent_ecosystem",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "value:the_earth_is_alive",
+      "target": "base:value:body_truth",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:the_earth_is_alive",
+      "target": "narrative:hands_on_earth",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:feed_them_first",
+      "target": "cuisine:value:everyone_eats",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:feed_them_first",
+      "target": "concept:bouillie",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:feed_them_first",
+      "target": "desire:feed_everyone",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:feed_them_first",
+      "target": "process:make_bouillie",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:guilt_is_a_debt",
+      "target": "concept:the_guilt",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:guilt_is_a_debt",
+      "target": "desire:pay_the_debt",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:guilt_is_a_debt",
+      "target": "concept:lava_walk",
+      "type": "causes",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:sihle",
+      "target": "desire:make_sihle_understand",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:sihle",
+      "target": "process:voice_as_last_resort",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:sihle",
+      "target": "concept:the_guilt",
+      "type": "causes",
+      "weight": 0.9,
+      "affinity": 0.7
+    },
+    {
+      "source": "concept:sihle",
+      "target": "narrative:sihle_fell_and_my_hand",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:sihle",
+      "target": "narrative:the_transgression",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:sihle",
+      "target": "value:full_palm_always",
+      "type": "conflicts_with",
+      "weight": 0.8,
+      "affinity": 0.3
+    },
+    {
+      "source": "concept:contact_monde",
+      "target": "base:concept:contact",
+      "type": "extends",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:contact_monde",
+      "target": "process:contact_monde_ritual",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:contact_monde",
+      "target": "bio:process:read_ecosystem_state",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:contact_monde",
+      "target": "state:listening_to_earth",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:contact_monde",
+      "target": "memory:first_contact_monde",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:bouillie",
+      "target": "cuisine:concept:bouillie",
+      "type": "extends",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:bouillie",
+      "target": "process:make_bouillie",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:bouillie",
+      "target": "narrative:bouillie_prayer",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:bouillie",
+      "target": "bio:process:touch_assess_plant",
+      "type": "depends_on",
+      "weight": 0.75,
+      "affinity": 0.75
+    },
+    {
+      "source": "concept:the_guilt",
+      "target": "desire:pay_the_debt",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_guilt",
+      "target": "concept:lava_walk",
+      "type": "causes",
+      "weight": 0.9,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:the_guilt",
+      "target": "state:guilt_overwhelm",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_guilt",
+      "target": "state:sacrifice_resolve",
+      "type": "causes",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:lava_walk",
+      "target": "narrative:the_final_word",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:lava_walk",
+      "target": "state:sacrifice_resolve",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:lava_walk",
+      "target": "process:walk_into_fire",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:touch_everything",
+      "target": "bio:desire:map_all_life",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "desire:touch_everything",
+      "target": "bio:process:touch_assess_plant",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:touch_everything",
+      "target": "survie:process:assess_environment",
+      "type": "supports",
+      "weight": 0.7,
+      "affinity": 0.7
+    },
+    {
+      "source": "desire:touch_everything",
+      "target": "concept:contact_monde",
+      "type": "projects_toward",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:make_sihle_understand",
+      "target": "memory:sihle_voice_moment",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:make_sihle_understand",
+      "target": "base:concept:contact",
+      "type": "projects_toward",
+      "weight": 0.7,
+      "affinity": 0.6
+    },
+    {
+      "source": "desire:feed_everyone",
+      "target": "cuisine:desire:keep_team_fed",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:feed_everyone",
+      "target": "bio:desire:feed_the_group",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:feed_everyone",
+      "target": "base:desire:survive_together",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "desire:pay_the_debt",
+      "target": "concept:lava_walk",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:pay_the_debt",
+      "target": "base:desire:not_die_alone",
+      "type": "conflicts_with",
+      "weight": 0.6,
+      "affinity": 0.3
+    },
+    {
+      "source": "process:contact_monde_ritual",
+      "target": "bio:process:read_ecosystem_state",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:contact_monde_ritual",
+      "target": "base:process:read_tremens",
+      "type": "extends",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "process:contact_monde_ritual",
+      "target": "survie:concept:threat_integration",
+      "type": "supports",
+      "weight": 0.7,
+      "affinity": 0.7
+    },
+    {
+      "source": "process:grip_calibration",
+      "target": "base:concept:tremens",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "process:grip_calibration",
+      "target": "base:process:respond_to_distress",
+      "type": "extends",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "process:grip_calibration",
+      "target": "base:concept:idiolecte",
+      "type": "supports",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "process:make_bouillie",
+      "target": "cuisine:process:prepare_food",
+      "type": "extends",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:make_bouillie",
+      "target": "cuisine:process:taste_test",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:make_bouillie",
+      "target": "bio:concept:edibility_assessment",
+      "type": "depends_on",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "process:voice_as_last_resort",
+      "target": "base:concept:contact",
+      "type": "conflicts_with",
+      "weight": 0.7,
+      "affinity": 0.3
+    },
+    {
+      "source": "process:voice_as_last_resort",
+      "target": "memory:sihle_voice_moment",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:walk_into_fire",
+      "target": "state:sacrifice_resolve",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:walk_into_fire",
+      "target": "narrative:the_final_word",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:hands_on_earth",
+      "target": "memory:first_contact_monde",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:hands_on_earth",
+      "target": "base:value:body_truth",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "narrative:the_transgression",
+      "target": "memory:sihle_voice_moment",
+      "type": "reminds_of",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:sihle_fell_and_my_hand",
+      "target": "concept:the_guilt",
+      "type": "causes",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:sihle_fell_and_my_hand",
+      "target": "base:concept:idiolecte",
+      "type": "supports",
+      "weight": 0.7,
+      "affinity": 0.7
+    },
+    {
+      "source": "narrative:the_final_word",
+      "target": "base:concept:idiolecte",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "narrative:the_final_word",
+      "target": "base:value:vocabulary_preservation",
+      "type": "conflicts_with",
+      "weight": 0.6,
+      "affinity": 0.4
+    },
+    {
+      "source": "narrative:bouillie_prayer",
+      "target": "cuisine:narrative:bouillie_and_hope",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:bouillie_prayer",
+      "target": "survie:desire:keep_everyone_alive",
+      "type": "supports",
+      "weight": 0.75,
+      "affinity": 0.75
+    },
+    {
+      "source": "memory:first_contact_monde",
+      "target": "base:concept:tremens",
+      "type": "reminds_of",
+      "weight": 0.7,
+      "affinity": 0.7
+    },
+    {
+      "source": "memory:senzo_wrist_grip",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "memory:senzo_wrist_grip",
+      "target": "value:full_palm_always",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "state:listening_to_earth",
+      "target": "process:contact_monde_ritual",
+      "type": "contains",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "state:listening_to_earth",
+      "target": "bio:state:studying",
+      "type": "associates",
+      "weight": 0.7,
+      "affinity": 0.7
+    },
+    {
+      "source": "state:guilt_overwhelm",
+      "target": "state:sacrifice_resolve",
+      "type": "causes",
+      "weight": 0.8,
+      "affinity": 0.7
+    },
+    {
+      "source": "state:guilt_overwhelm",
+      "target": "base:memory:losing_a_contact_partner",
+      "type": "reminds_of",
+      "weight": 0.75,
+      "affinity": 0.75
+    },
+    {
+      "source": "state:sacrifice_resolve",
+      "target": "process:walk_into_fire",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.9
+    },
+    {
+      "source": "bio:process:harvest_sustainably",
+      "target": "process:make_bouillie",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "survie:value:keep_moving",
+      "target": "desire:feed_everyone",
+      "type": "conflicts_with",
+      "weight": 0.5,
+      "affinity": 0.4
+    },
+    {
+      "source": "bio:value:body_knows_body",
+      "target": "value:the_earth_is_alive",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "survie:process:keep_morale",
+      "target": "process:make_bouillie",
+      "type": "supports",
+      "weight": 0.7,
+      "affinity": 0.7
+    },
+    {
+      "source": "cuisine:process:comfort_through_food",
+      "target": "narrative:bouillie_prayer",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    }
+  ]
+}

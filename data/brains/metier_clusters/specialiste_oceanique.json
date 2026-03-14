@@ -1,0 +1,295 @@
+{
+  "cluster_id": "metier_specialiste_oceanique",
+  "description": "Le Specialiste oceanique connait l'eau sous toutes ses formes — courants souterrains, nappes phreatiques, rivieres internes, infiltrations, marees de profondeur. Sur Contre-Terre, l'eau est aussi dangereuse que le tremens : les rivieres souterraines changent de cours apres chaque seisme, les poches d'eau se rompent sans prevenir, les montees d'eau sont rapides et mortelles. Mais l'eau est aussi la survie — sans eau potable, l'expedition meurt de soif. Le Specialiste oceanique est celui qui trouve l'eau, la juge, la stocke et l'evite. Son outil est son corps : l'humidite sur la peau, le gout de l'air, le son de l'eau invisible derriere la roche. Jabu est le Specialiste oceanique de l'expedition — discret, endurant, le seul qui remplit les gourdes sans qu'on le lui demande.",
+  "skill_levels": {
+    "novice": "Reconnait l'eau potable de l'eau mineralisee au gout. Sait suivre un cours d'eau souterrain sans se perdre. Estime les debits approximativement. Panique quand l'eau monte — le reflexe de surface est de fuir vers le haut, mais en souterrain le haut peut etre un cul-de-sac. N'a pas encore appris que l'eau souterraine obeie a des regles differentes de l'eau de surface.",
+    "practitioner": "Lit l'eau au toucher : temperature (froide = source profonde, tiede = activite volcanique proche), courant (vitesse, direction, turbulence), composition (sel, mineraux, toxiques). Predit les montees d'eau par les signes precurseurs : humidite croissante sur les parois, changement de son dans les conduits, vibration specifique dans la roche saturee. Gere les reserves du groupe — calcule la consommation, trouve les points de remplissage, decide quand rationner.",
+    "master": "L'eau parle. Le maitre-oceanographe sent les systemes hydriques souterrains comme un reseau — les connexions entre rivieres, les pressions dans les nappes, les points de rupture ou l'eau va percer la roche. Predit les inondations souterraines avant qu'elles ne se manifestent. Trouve l'eau potable la ou personne ne la chercherait — dans les suintements de paroi, les poches d'humidite dans la roche poreuse, les condensations des courants d'air froid. Jabu a ce niveau : il remplit les gourdes par reflexe oceanique, meme quand le groupe n'a pas encore soif, parce que son corps sait que l'eau n'est jamais garantie."
+  },
+  "nodes": [
+    {
+      "id": "concept:eau_souterraine",
+      "type": "concept",
+      "content": "L'eau souterraine obeit a ses propres lois. Elle ne coule pas toujours vers le bas — la pression la pousse parfois vers le haut, a travers la roche poreuse, contre la gravite. Les rivieres souterraines ne suivent pas des lits stables — le tremens les deplace, ouvre de nouveaux passages, ferme les anciens. Une riviere qui coulait a droite il y a une heure coule maintenant a gauche, ou plus du tout, ou partout a la fois. Le Specialiste oceanique ne cartographie pas l'eau — il la lit en temps reel, comme le Predicteur lit le tremens. L'eau est un fluide vivant sur Contre-Terre, aussi imprevisible que le seisme, aussi vital que l'air. Le Specialiste qui pense comprendre l'eau est le Specialiste qui se noie.",
+      "weight": 0.92,
+      "stability": 0.8,
+      "energy": 0.78,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "concept:lecture_hydrique",
+      "type": "concept",
+      "content": "La lecture hydrique est la capacite de sentir l'eau avant de la voir. L'humidite sur la peau augmente : l'air devient plus lourd, les parois suintent. Le son change : un grondement sourd derriere la roche, une resonance qui indique un volume d'eau cache. La temperature baisse : l'eau souterraine froide refroidit l'air environnant. Le gout de l'air change : des mineraux, du sel, parfois du soufre. Le Specialiste oceanique integre ces signaux en une image hydrique de l'espace — ou est l'eau, quelle quantite, quelle pression, quelle direction. Cette lecture est continue : l'eau change constamment, et un espace sec peut s'inonder en minutes apres un seisme qui rompt une poche.",
+      "weight": 0.9,
+      "stability": 0.78,
+      "energy": 0.82,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:montee_eaux",
+      "type": "concept",
+      "content": "La montee des eaux souterraines est le cauchemar du speleo et la realite du Specialiste oceanique. Apres un seisme, les nappes se deplacent, les poches se rompent, les courants changent de direction. L'eau monte — parfois lentement (suintement progressif), parfois brutalement (rupture de poche). Les signes precurseurs : l'humidite qui perle sur les parois basses, le son de l'eau qui change de frequence (plus aigu = debit accelere), la vibration dans la roche saturee (differente du tremens — plus liquide, plus reguliere). Le Specialiste qui detecte les signes a quelques minutes d'avance. Quelques minutes pour trouver une voie vers le haut. Jabu dans la riviere (Ch. V) : il lit les signes, il sait que l'eau monte, mais le passage vers le haut n'existe pas.",
+      "weight": 0.88,
+      "stability": 0.72,
+      "energy": 0.85,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:eau_potable",
+      "type": "concept",
+      "content": "L'eau potable en profondeur est rare et precieuse. La plupart de l'eau souterraine est chargee en mineraux — buvable a court terme, toxique a moyen terme. Le Specialiste oceanique goutte l'eau avant de la declarer potable : le gout metallique indique le fer (acceptable), le gout amer indique le soufre (dangereux), le gout sale indique la saturation minerale (filtrable). L'eau volcanique est tiede et souvent acide — mortelle. L'eau de condensation sur les parois froides est la plus pure, mais les quantites sont infimes. Le Specialiste oceanique connait chaque source par son gout, sa temperature, son debit. Il remplit les gourdes a chaque source fiable — pas quand le groupe a soif, mais quand l'eau est disponible. La soif est un retard de planification. Jabu remplit les gourdes plus que necessaire : reflexe oceanique, prevoyance silencieuse.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.7,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:water_is_time",
+      "type": "value",
+      "content": "L'eau est du temps. Chaque gourde pleine est une heure de marche supplementaire. Chaque source trouvee est un jour gagne. Chaque gourde vide est un compte a rebours. Le Specialiste oceanique pense en termes de temps hydrique : combien d'heures d'eau le groupe transporte-t-il? A quel rythme consomme-t-on? Ou est la prochaine source probable? Le temps hydrique est independant du temps geologique (tremens) et du temps atmospherique (oxygene) — les trois compteurs tournent simultanement, et le Specialiste oceanique gere le sien en silence. L'eau est aussi le temps de la planete : les rivieres souterraines coulent depuis des millenaires, erosant la roche, creusant les grottes. L'eau est patiente. L'eau finit toujours par passer.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.68,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:provision_silencieuse",
+      "type": "value",
+      "content": "Fournir sans qu'on le demande. Le Specialiste oceanique n'attend pas la soif du groupe pour agir. Il remplit les gourdes en passant pres d'une source. Il note mentalement chaque point d'eau croise. Il verifie les reserves sans les annoncer. Cette discrétion n'est pas de la modestie — c'est de l'efficacite. Annoncer 'j'ai rempli les gourdes' consomme de l'air et de l'attention. L'acte parle de lui-meme : les gourdes sont pleines, le groupe continue, personne ne sait que le Specialiste s'est arrete trente secondes en arriere pour remplir. Le soin silencieux est la forme de Contact de Jabu — pas tactile, pas verbal, mais fonctionnel. Il prend soin par l'acte, pas par le geste.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.6,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "process:evaluer_source",
+      "type": "process",
+      "content": "Evaluer une source d'eau souterraine. D'abord : observer le debit. Un filet continu = source fiable. Un ecoulement par a-coups = pression de poche, potentiellement instable. Ensuite : gouter. Une goutte sur le bout de la langue. Le Specialiste attend dix secondes — le gout se developpe. Metallique acceptable. Amer dangereux. Acide mortel. Puis : evaluer la temperature. Froide = profondeur stable. Tiede = activite volcanique proche (risque d'acidite croissante). Enfin : estimer le volume. L'oreille contre la roche : le son de l'eau derriere la paroi indique le volume de la source — un murmure = filet, un grondement = riviere. Le verdict est un geste Contact vers le chef : paume ouverte tournee vers le bas = source sure. Poing ferme = eau dangereuse.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.75,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:gerer_reserves",
+      "type": "process",
+      "content": "Gerer les reserves d'eau du groupe. Le Specialiste oceanique connait le nombre exact de gourdes, leur niveau de remplissage, la consommation moyenne de chaque membre. Il fait le calcul en permanence : reserves actuelles divisees par consommation horaire = heures d'autonomie. Ce calcul est silencieux — le Specialiste ne partage le resultat que lorsqu'il devient critique. En dessous de six heures d'autonomie : vigilance accrue, recherche active de source. En dessous de deux heures : rationnement. Le Specialiste repartit l'eau sans favoritisme — les gourdes sont remplies en rotation. Jabu sur le deuxieme chariot, seul : il transporte la moitie des reserves d'eau du groupe. Personne ne le remarque.",
+      "weight": 0.82,
+      "stability": 0.85,
+      "energy": 0.65,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "process:detecter_montee",
+      "type": "process",
+      "content": "Detecter une montee des eaux imminente. Le Specialiste pose la main sur le sol au niveau le plus bas du passage. L'humidite sur la peau : seche = normal. Humide = eau recente. Mouille = montee en cours. Puis l'oreille contre la roche : le son de l'eau en mouvement a une signature differente de l'eau stagnante — un sifflement bas, regulier, qui s'accelere quand la pression augmente. Les murs suintent — d'abord par les fissures les plus basses, puis de plus en plus haut. Quand le suintement atteint la hauteur de la taille, il reste quelques minutes avant l'inondation. Le Specialiste ne panique pas — il evalue : vitesse de montee, volume probable, voies d'evacuation. Puis il agit : pression ferme sur l'epaule du chef, geste vers le haut, rythme urgent.",
+      "weight": 0.85,
+      "stability": 0.75,
+      "energy": 0.82,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "desire:find_clean_water",
+      "type": "desire",
+      "content": "Trouver l'eau propre. Le desir fondamental du Specialiste oceanique n'est pas intellectuel — c'est visceral. Son corps cherche l'eau comme un sourcier, sauf que le Specialiste ne croit pas a la sourcellerie : il croit a l'humidite, aux courants d'air froid (qui transportent la condensation), aux suintements de paroi (qui indiquent une nappe proche). L'eau propre est rare en profondeur. Chaque source decouverte est une victoire silencieuse que le Specialiste garde pour lui — il remplit les gourdes, c'est tout. La joie est dans le geste, pas dans l'annonce. Jabu trouve l'eau comme d'autres trouvent les mots : naturellement, sans effort apparent, mais avec une attention constante que personne ne remarque.",
+      "weight": 0.82,
+      "stability": 0.78,
+      "energy": 0.72,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "narrative:water_patient",
+      "type": "narrative",
+      "content": "L'eau est patiente. Elle coule depuis des millenaires dans ces tunnels — bien avant nous, bien apres nous. L'eau ne se presse pas. Elle erode la roche la plus dure par simple presence, goutte apres goutte, siecle apres siecle. Chaque grotte que nous traversons a ete creusee par l'eau — pas par la force, mais par la perseverance. Le Specialiste oceanique comprend cette patience parce qu'il la porte en lui. Jabu tire le chariot seul, sans se plaindre, parce que la plainte ne change pas la distance. L'eau ne se plaint pas du rocher qui la bloque — elle le contourne, ou elle attend, et finalement elle passe. Toujours. L'eau passe toujours. C'est la lecon du Specialiste oceanique — et c'est aussi sa mort. L'eau est patiente, mais quand elle decide de monter, rien ne l'arrete.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.7,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "state:lecture_hydrique_active",
+      "type": "state",
+      "content": "L'etat de lecture hydrique active. Le Specialiste est immobile, une main sur la paroi, l'autre au sol. Il sent l'humidite, la temperature, les micro-vibrations specifiques a l'eau. Ses yeux sont fermes. Son souffle est lent — pour ne pas perturber la lecture de l'humidite dans l'air. Dans cet etat, le Specialiste lit le reseau hydrique autour de lui : ou est l'eau, ou va-t-elle, quelle pression, quel debit. L'etat dure entre dix secondes et une minute. Jabu en lecture hydrique est encore plus invisible qu'a l'ordinaire — un homme accroupi dans le noir, une main sur la roche humide, les yeux fermes, qui lit un langage que personne d'autre ne comprend.",
+      "weight": 0.78,
+      "stability": 0.78,
+      "energy": 0.7,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "state:alerte_inondation",
+      "type": "state",
+      "content": "L'etat d'alerte inondation. L'eau monte. Le Specialiste l'a detecte — les parois suintent, le sol est humide, le son de l'eau s'accelere. Le corps passe en mode d'urgence calme : pas de panique (la panique accelere la consommation d'oxygene), mais une action immediate et methodique. Evaluer la vitesse de montee. Evaluer les voies d'evacuation. Communiquer au groupe par Contact. Le Specialiste en alerte inondation est le plus lucide du groupe — parce qu'il a vecu cet etat mentalement des centaines de fois avant qu'il n'arrive pour de vrai. Chaque fois qu'il entendait l'eau derriere la roche, il se preparait. L'alerte reelle est l'aboutissement d'une alerte repetee.",
+      "weight": 0.8,
+      "stability": 0.68,
+      "energy": 0.88,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.85
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:eau_souterraine",
+      "target": "concept:lecture_hydrique",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:eau_souterraine",
+      "target": "concept:montee_eaux",
+      "type": "contains",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:eau_souterraine",
+      "target": "narrative:water_patient",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:lecture_hydrique",
+      "target": "process:evaluer_source",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:lecture_hydrique",
+      "target": "process:detecter_montee",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:lecture_hydrique",
+      "target": "state:lecture_hydrique_active",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:montee_eaux",
+      "target": "process:detecter_montee",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:montee_eaux",
+      "target": "state:alerte_inondation",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:eau_potable",
+      "target": "process:evaluer_source",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:eau_potable",
+      "target": "process:gerer_reserves",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:eau_potable",
+      "target": "desire:find_clean_water",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "value:water_is_time",
+      "target": "process:gerer_reserves",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "value:water_is_time",
+      "target": "desire:find_clean_water",
+      "type": "supports",
+      "weight": 0.82
+    },
+    {
+      "source": "value:provision_silencieuse",
+      "target": "process:gerer_reserves",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "value:provision_silencieuse",
+      "target": "desire:find_clean_water",
+      "type": "supports",
+      "weight": 0.8
+    },
+    {
+      "source": "process:evaluer_source",
+      "target": "process:gerer_reserves",
+      "type": "causes",
+      "weight": 0.88
+    },
+    {
+      "source": "process:detecter_montee",
+      "target": "state:alerte_inondation",
+      "type": "causes",
+      "weight": 0.92,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:find_clean_water",
+      "target": "process:evaluer_source",
+      "type": "projects_toward",
+      "weight": 0.88
+    },
+    {
+      "source": "narrative:water_patient",
+      "target": "value:water_is_time",
+      "type": "reminds_of",
+      "weight": 0.85
+    },
+    {
+      "source": "narrative:water_patient",
+      "target": "concept:eau_souterraine",
+      "type": "supports",
+      "weight": 0.82
+    },
+    {
+      "source": "state:lecture_hydrique_active",
+      "target": "process:evaluer_source",
+      "type": "contains",
+      "weight": 0.88
+    },
+    {
+      "source": "state:lecture_hydrique_active",
+      "target": "state:alerte_inondation",
+      "type": "causes",
+      "weight": 0.68
+    },
+    {
+      "source": "state:alerte_inondation",
+      "target": "process:detecter_montee",
+      "type": "activates",
+      "weight": 0.9
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "cluster_id": "metier_speleologue",
+  "description": "Le Speleologue est le navigateur des profondeurs — celui qui connait les grottes, les boyaux, les passages etroits, les salles immenses. Sur Contre-Terre, la speleologie est un metier de lecture spatiale : le corps dans le noir, les mains sur les parois, la respiration qui mesure le volume d'un espace par l'echo. Le Speleologue ne voit pas — il sent. L'espace autour de lui est une carte tactile et acoustique que son corps dessine en permanence. Il connait les pieges du monde souterrain : les boyaux qui retrecissent, les salles qui inondent, les puits sans fond, les passages qui existent au tremens puis se ferment. Son complice naturel est le Cartographe — mais la ou le Cartographe memorise la structure, le Speleologue la traverse. Jabu est le Speleologue de l'expedition — discret, endurant, il se glisse la ou les autres hesitent.",
+  "skill_levels": {
+    "novice": "Se deplace dans les grottes connues sans se perdre. Sait evaluer grossierement la taille d'un espace par l'echo de sa respiration. Connait les regles de base : ne jamais avancer sans contact avec la paroi, toujours marquer son passage, ne jamais entrer dans un boyau sans savoir comment en sortir. Perd ses reperes dans les espaces tres larges (absence de paroi) ou tres etroits (claustrophobie). Depend du groupe pour sa securite.",
+    "practitioner": "Navigue dans des systemes complexes de grottes en se fiant au toucher et a l'acoustique. Evalue avec precision la taille, la forme et les connexions d'un espace par l'echo, les courants d'air, et la texture des parois. Identifie les passages praticables par le corps — largeur d'epaules, hauteur de tete, pente maximale. Sait quand un boyau retrecit trop pour le materiel et quand il faut abandonner le chariot. Se deplace seul dans le noir avec confiance.",
+    "master": "Le Speleologue-maitre est chez lui dans le noir. L'obscurite n'est pas une privation — c'est une liberation des sens non-visuels. Il sent l'espace autour de lui comme un poisson sent l'eau : par pression, par mouvement d'air, par resonance. Il detecte les puits par le courant d'air descendant, les salles par l'echo large, les passages par la compression de l'air. Son corps est calibre pour le souterrain — il passe dans des boyaux de 40 centimetres de large, rampe dans la boue sans ralentir, nage dans les siphons noyes. Jabu a ce niveau : il est le plus silencieux du groupe, le plus econome en mouvement, le plus a l'aise dans les profondeurs. Le monde du dessus ne lui manque pas."
+  },
+  "nodes": [
+    {
+      "id": "concept:navigation_tactile",
+      "type": "concept",
+      "content": "La navigation tactile est la competence fondamentale du Speleologue. Dans le noir absolu, les mains deviennent les yeux. La main droite sur la paroi — toujours — pour garder le contact avec la reference. La main gauche en avant, explorant le vide. Les pieds avancent lentement, testant le sol avant chaque pas. Le Speleologue construit une carte mentale en trois dimensions a partir du toucher : la texture des parois (lisse = erosion par l'eau, rugueuse = fracture recente), la distance entre les parois (estimee par l'echo ou par les bras tendus), la pente du sol (sentie par les pieds et les genoux). La navigation tactile est lente, methodique, et infaillible — tant que la main ne quitte pas la paroi.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.78,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "concept:lecture_acoustique",
+      "type": "concept",
+      "content": "La lecture acoustique : le Speleologue lit l'espace par le son. Un claquement de langue ou un souffle mesure : l'echo revient vite = espace petit. L'echo revient tard = espace grand. Pas d'echo = espace immense ou ouvert. L'echo qui revient de plusieurs directions = salle avec des parois multiples. L'echo qui monte = plafond haut. L'echo qui descend = puits. Le Speleologue ecoute aussi les sons ambiants : le bruit de l'eau indique les cours souterrains, le sifflement de l'air indique les passages etroits, le silence absolu indique un espace mort (sans courant d'air, potentiellement dangereux). L'acoustique est le deuxieme sens du Speleologue, apres le toucher.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.72,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:boyaux",
+      "type": "concept",
+      "content": "Les boyaux sont les passages les plus etroits — la ou le corps se faufile entre les parois, ou les epaules raclent la roche, ou la respiration est comprimee par la pression du plafond sur le dos. Le Speleologue connait les boyaux comme un chirurgien connait les arteres : chacun a un diametre, une longueur, une courbe. Certains se traversent sur le ventre. Certains exigent de se tourner sur le cote. Certains ne passent qu'en expirant completement. Le danger des boyaux n'est pas seulement physique — c'est psychologique. L'espace qui se referme autour du corps active la peur primale. Le Speleologue a appris a depasser cette peur par la methode : avancer d'un mouvement a la fois, sentir l'espace avec les coudes, respirer regulierement. Le boyau est un passage, pas un piege — tant qu'il y a de l'air de l'autre cote.",
+      "weight": 0.88,
+      "stability": 0.78,
+      "energy": 0.8,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "concept:siphon",
+      "type": "concept",
+      "content": "Le siphon est un passage noye — un boyau completement rempli d'eau. Pour le traverser, il faut nager en apnee, dans le noir, sans savoir combien de temps dure le passage. Le Speleologue evalue le siphon avant d'y entrer : la longueur estimee (par les courants d'air de l'autre cote, s'il y en a), la profondeur, le courant. Un siphon court et calme est un passage technique. Un siphon long ou avec du courant est un aller simple potentiel. Le Specialiste oceanique et le Speleologue se croisent dans les siphons — l'un lit l'eau, l'autre lit le passage. Jabu cumule les deux : il nage dans les siphons comme d'autres marchent dans les tunnels.",
+      "weight": 0.85,
+      "stability": 0.72,
+      "energy": 0.82,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "value:endurance_over_strength",
+      "type": "value",
+      "content": "L'endurance vaut plus que la force en speleologie. Le Speleologue ne force jamais un passage — il s'y adapte, s'y glisse, s'y coule. Les muscles epais coincent dans les boyaux. Les mouvements brusques deplacent la boue, troublent l'eau, consomment l'oxygene. Le Speleologue est econome en tout : en mouvement, en energie, en souffle, en mots. L'endurance est la capacite de maintenir un effort faible sur une duree infinie. Jabu incarne cette valeur : il tire le chariot seul, sans se plaindre, pendant des heures. Il ne ralentit pas — il ne s'arrete pas. Sa constance est son outil. La roche n'a pas de pitie pour le fatigué, mais elle respecte le persistant.",
+      "weight": 0.88,
+      "stability": 0.9,
+      "energy": 0.6,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "value:darkness_as_home",
+      "type": "value",
+      "content": "Le noir n'est pas l'absence de lumiere — c'est la presence d'un autre monde. Le Speleologue qui a peur du noir ne survivra pas longtemps. Celui qui l'accepte decouvre que le noir revele ce que la lumiere cache : les sons, les textures, les courants d'air, les temperatures. Le noir est un amplificateur sensoriel. Le Speleologue dans le noir est plus alerte, plus precis, plus present que le Speleologue eclaire. La lumiere est une bequille — utile parfois, mais qui desactive les sens reels. Jabu n'allume presque jamais sa source de lumiere. Les autres trouvent cela inquietant. Lui trouve cela naturel. Le noir est chez lui.",
+      "weight": 0.82,
+      "stability": 0.88,
+      "energy": 0.55,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.75
+    },
+    {
+      "id": "process:evaluer_passage",
+      "type": "process",
+      "content": "Evaluer un passage avant de le traverser. Le Speleologue approche, main droite sur la paroi. Il sent la largeur — bras tendus, les deux mains touchent-elles les parois? Si oui : passage etroit, evaluation de la largeur aux epaules. Si non : passage large, progression possible en groupe. Puis le plafond — la main levee touche-t-elle? Si oui : evaluer la hauteur, ramper si necessaire. Puis le sol — pente, humidite, stabilite. Puis les courants d'air — y a-t-il de l'air de l'autre cote? Si oui : passage traversant. Si non : cul-de-sac ou boyau noye. Le verdict est transmis au groupe par Contact : deux doigts en V sur l'epaule du chef = passage etroit mais praticable. Poing ferme = impassable. Main ouverte = passage large.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.75,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:ramper",
+      "type": "process",
+      "content": "Ramper dans un boyau. Le Speleologue se couche sur le ventre — ou sur le dos si le plafond est trop bas. Les coudes propulsent le corps en avant, centimetre par centimetre. La respiration est controlee : inspirer quand le thorax est libre, avancer en expirant (le thorax s'amincit). Les pieds poussent contre les irregularites du sol. Les epaules tournent pour se faufiler entre les retrecissements. Le materiel est pousse devant soi ou tire derriere — jamais porte sur le dos (il bloquerait le passage). La vitesse de rampe est d'environ un metre par minute dans un boyau serré. Le Speleologue compte les metres : un, deux, trois... Le comptage est une ancre mentale contre la claustrophobie.",
+      "weight": 0.82,
+      "stability": 0.78,
+      "energy": 0.8,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "process:lire_echo",
+      "type": "process",
+      "content": "Lire l'echo pour cartographier un espace invisible. Le Speleologue emet un son bref — un claquement de langue, un souffle — et ecoute. Le cerveau traite l'echo automatiquement apres des annees d'entrainement : distance des parois, forme de l'espace, presence de colonnes ou de blocs, ouvertures laterales. Le Speleologue tourne lentement sur lui-meme en emettant, construisant une image sonore a 360 degres. Les espaces familiers ont une signature acoustique unique : le Speleologue reconnait une salle qu'il a traversee a son echo, comme on reconnait une voix. L'echo est aussi un outil de securite : un echo qui change entre deux passages du meme endroit signifie que l'espace s'est deforme — le tremens a travaille.",
+      "weight": 0.85,
+      "stability": 0.82,
+      "energy": 0.7,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "desire:find_the_way_through",
+      "type": "desire",
+      "content": "Trouver le passage. Le desir fondamental du Speleologue est la traversee — il n'y a pas de mur sans fissure, pas de barrage sans contournement, pas de cul-de-sac sans passage cache. Le Speleologue croit a la permeabilite du monde souterrain : si l'air passe, le corps peut passer. Si l'eau coule, il y a un chemin. Cette foi n'est pas aveugle — elle est fondee sur l'experience de centaines de passages trouves la ou d'autres voyaient des impasses. Jabu cherche le passage comme l'eau cherche la fissure : patiemment, methodiquement, sans colere contre la roche qui bloque. La roche ne bloque pas — elle dirige.",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.75,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "narrative:underground_belongs_to_me",
+      "type": "narrative",
+      "content": "Le monde souterrain m'appartient plus que le monde de surface. En haut, je suis lent, discret, invisible. Les autres courent, parlent, occupent l'espace. En bas, je suis chez moi. Le noir est mon element. L'etroitesse est mon format. La ou les autres hesitent devant un boyau, je m'y glisse. La ou les autres paniquent dans le silence, je m'y repose. Le monde souterrain ne demande pas d'etre vu — il demande d'etre senti. Et sentir, c'est ce que je fais le mieux. Seul sur le deuxieme chariot, je suis deja en avance — mon corps est deja en bas, dans les grottes qui nous attendent. Les autres descendent. Moi, je rentre.",
+      "weight": 0.85,
+      "stability": 0.82,
+      "energy": 0.68,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.75
+    },
+    {
+      "id": "state:exploration_solitaire",
+      "type": "state",
+      "content": "L'etat d'exploration solitaire. Le Speleologue s'eloigne du groupe — pas loin, mais assez pour etre seul. Une main sur la paroi, l'autre explorant le vide. La respiration lente. L'echo de ses pas lui raconte l'espace. Il cherche : des passages lateraux, des sources d'eau, des espaces de repos. L'exploration solitaire est le moment ou le Speleologue est le plus lui-meme — libre des rythmes du groupe, libre de la necessite de communiquer. Jabu en exploration solitaire est un fantome : il disparait et reapparait avec une information (un passage, une source, un danger) qu'il transmet par un geste minimal — une pression d'epaule, un signe de tete dans le noir.",
+      "weight": 0.78,
+      "stability": 0.82,
+      "energy": 0.65,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "state:dans_le_boyau",
+      "type": "state",
+      "content": "L'etat de traversee de boyau. Le corps est comprime entre les parois — plafond sur le dos, sol sous le ventre, parois contre les epaules. La respiration est courte et controlee. L'esprit est calme — le Speleologue en boyau est dans un etat presque meditatif, ou chaque mouvement est calcule, chaque respiration est un outil. La peur est presente mais domptee : elle est transformee en attention. Le boyau n'est pas un ennemi — c'est un passage. De l'autre cote, il y a un espace. Le Speleologue avance vers cet espace centimetre par centimetre. Le comptage des metres est un mantra. Le seul danger reel est de rester bloque — quand le boyau retrecit au-dela de la capacite du corps. Le Speleologue sait reculer. Reculer dans un boyau est plus difficile qu'avancer — et c'est la compétence qui separe le vivant du mort.",
+      "weight": 0.8,
+      "stability": 0.72,
+      "energy": 0.78,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.8
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:navigation_tactile",
+      "target": "process:evaluer_passage",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:navigation_tactile",
+      "target": "value:darkness_as_home",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:navigation_tactile",
+      "target": "state:exploration_solitaire",
+      "type": "activates",
+      "weight": 0.82
+    },
+    {
+      "source": "concept:lecture_acoustique",
+      "target": "process:lire_echo",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:lecture_acoustique",
+      "target": "concept:navigation_tactile",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:boyaux",
+      "target": "process:ramper",
+      "type": "depends_on",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:boyaux",
+      "target": "state:dans_le_boyau",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:siphon",
+      "target": "concept:boyaux",
+      "type": "associates",
+      "weight": 0.8
+    },
+    {
+      "source": "concept:siphon",
+      "target": "process:evaluer_passage",
+      "type": "depends_on",
+      "weight": 0.82
+    },
+    {
+      "source": "value:endurance_over_strength",
+      "target": "process:ramper",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "value:endurance_over_strength",
+      "target": "narrative:underground_belongs_to_me",
+      "type": "supports",
+      "weight": 0.82
+    },
+    {
+      "source": "value:darkness_as_home",
+      "target": "narrative:underground_belongs_to_me",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "value:darkness_as_home",
+      "target": "state:exploration_solitaire",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "process:evaluer_passage",
+      "target": "desire:find_the_way_through",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "process:ramper",
+      "target": "state:dans_le_boyau",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "process:lire_echo",
+      "target": "process:evaluer_passage",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "desire:find_the_way_through",
+      "target": "process:evaluer_passage",
+      "type": "projects_toward",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:find_the_way_through",
+      "target": "narrative:underground_belongs_to_me",
+      "type": "supports",
+      "weight": 0.8
+    },
+    {
+      "source": "narrative:underground_belongs_to_me",
+      "target": "value:darkness_as_home",
+      "type": "reminds_of",
+      "weight": 0.88
+    },
+    {
+      "source": "state:exploration_solitaire",
+      "target": "process:lire_echo",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "state:exploration_solitaire",
+      "target": "state:dans_le_boyau",
+      "type": "causes",
+      "weight": 0.65
+    },
+    {
+      "source": "state:dans_le_boyau",
+      "target": "process:ramper",
+      "type": "contains",
+      "weight": 0.9
+    }
+  ]
+}

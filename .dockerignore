@@ -1,0 +1,50 @@
+# Binary artifacts — not needed in container
+*.epub
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.m4a
+*.mp3
+*.mp4
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+
+# Git
+.git
+.gitignore
+
+# Local dev
+.env
+docker-compose.yml
+.vscode
+.idea
+
+# Novel content (not needed at runtime)
+chapitre_*.md
+manuscrit_complet.md
+en/
+
+# Worldbuilding prose docs (not needed at runtime, seed JSON is sufficient)
+worldbuilding/
+
+# Marketing / export images
+data/export/
+data/*.png
+data/*.jpg
+
+# Citizens directory (citizen identity files, not needed for graph server)
+citizens/
+
+# Cover images in data/
+data/cover_*
+data/nandi_*
+data/portrait_*
+data/scene_*
+data/senzo_*
+data/separator_*
+data/marketing_*
+data/infography*

@@ -1,0 +1,305 @@
+{
+  "cluster_id": "metier_grimpeur",
+  "description": "Le Grimpeur — specialiste de la verticalite, des cordes, des passages techniques. Sur Contre-Terre, la descente est rarement horizontale : les tunnels plongent, les falaises internes se dressent, les failles s'ouvrent en verticale. Le Grimpeur est celui qui rend possible ce que la geometrie rend hostile. Son outil principal n'est pas la force — c'est le Contact-corde : la capacite de sentir, a travers la corde, le poids, le mouvement et l'etat de ceux qui y sont accroches. La corde est une extension du systeme nerveux. Le Grimpeur sent une hesitation a travers quinze metres de fibre. Il distingue la fatigue de la peur par la facon dont la corde se tend. Inyoni est la Grimpeuse de l'expedition — ses mains ne lachent jamais, et ses 32 sangles comptees sont le rituel qui la maintient en vie.",
+  "skill_levels": {
+    "novice": "Sait poser un ancrage, faire un noeud de base, descendre en rappel. Ses mains lisent la corde mais ne la comprennent pas encore — il sent la tension sans savoir l'interpreter. Grimpe en force plutot qu'en technique. Panique quand la corde vibre (tremens transmis par l'ancrage) — confond le signal avec une rupture imminente. Les sangles sont des outils, pas encore un langage.",
+    "practitioner": "Grimpe avec fluidite, trois points d'appui permanents. Lit la corde : distingue le poids mort (fatigue) du poids dynamique (mouvement), la tension de peur (saccadee) de la tension de controle (reguliere). Pose des ancrages dans la roche instable en tenant compte du tremens — l'ancrage doit resister a la vibration permanente. Commence a compter — les prises, les metres, les ancrages — parce que compter est la structure qui empeche le chaos de prendre le dessus.",
+    "master": "Le Grimpeur-maitre est une extension de la paroi. Ses doigts lisent la roche comme le Geologue, mais pour une question differente : pas 'est-ce stable?' mais 'est-ce prenable?'. La corde transmet des informations complexes : il sent, a travers la fibre, que la personne au bout respire vite, qu'elle a mal au bras gauche, qu'elle va lacher dans quatre secondes. Et il agit — tension de compensation, impulsion de soutien par la corde, ancrage supplementaire. Inyoni a ce niveau : son Contact-corde est le plus precis de l'equipe. Elle entend a travers la corde comme l'Ecouteur entend a travers la roche."
+  },
+  "nodes": [
+    {
+      "id": "concept:contact_corde",
+      "type": "concept",
+      "content": "Le Contact-corde est le mode de communication specifique du Grimpeur. La corde n'est pas un outil inerte — c'est un canal tactile. Quand deux personnes sont reliees par une corde, chaque tension, chaque vibration, chaque relachement est un message. Un coup sec = attention. Deux coups = je suis en place. Un relachement progressif = je descends. Une tension soudaine = probleme. Le Grimpeur maitre lit des messages plus subtils : le poids mort qui indique l'epuisement, la micro-vibration qui trahit la peur, le rythme regulier de la progression confiante. Inyoni distingue le 'son' de corde de chaque membre de l'equipe — le poids de Thabo est different de celui de Senzo, leur rythme de progression est une signature unique. La corde est un telephone tactile de quinze metres.",
+      "weight": 0.95,
+      "stability": 0.88,
+      "energy": 0.85,
+      "self_relevance": 1.0,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "concept:sangles",
+      "type": "concept",
+      "content": "Les 32 sangles d'Inyoni. Chaque sangle est une bande de fibre vegetale tressee, longue d'un metre environ, utilisee pour les ancrages, les relais, les points d'assurage. 32 est le nombre exact. Pas 31, pas 33. Inyoni les compte en boucle — un rituel qui ressemble a un TOC mais qui est en fait un processeur mental. Chaque sangle touchee dans la sequence correspond a une position dans un calcul, un comptage, une verification. Les sangles sont aussi le vocabulaire physique d'Inyoni : elle communique la securite par le nombre de sangles sur un ancrage. Deux sangles = passage securise. Quatre = passage technique mais faisable. Six ou plus = passage extreme, un a la fois. Les sangles ne sont pas des accessoires — elles sont son identite. Quand elle meurt sous l'eboulement, 47 fibres arrachees sur la corde sont le dernier comptage.",
+      "weight": 0.92,
+      "stability": 0.9,
+      "energy": 0.8,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:ancrage",
+      "type": "concept",
+      "content": "L'ancrage est le point ou la corde se fixe a la roche. Sur Contre-Terre, l'ancrage est un compromis permanent entre solidite et tremens. Un ancrage classique — piton dans la roche — ne tient pas : la vibration permanente le desserre en quelques heures. Les Grimpeurs de Contre-Terre utilisent des ancrages par expansion : une tige placee dans une fissure naturelle, qui se cale par la vibration du tremens au lieu d'etre desserree par elle. Le meme principe que l'adhesif des Explosivistes : utiliser le tremens au lieu de le combattre. L'ancrage est pose avec soin, teste par une traction progressive, puis valide par un coup sec sur la sangle. Si la sangle tient le coup sec, l'ancrage est bon. Si elle vibre de facon irreguliere, l'ancrage est suspect.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.75,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:trois_points",
+      "type": "concept",
+      "content": "La regle des trois points de contact : en permanence, trois membres sur la paroi. Un pied, une main et l'autre pied. Ou deux mains et un pied. Le quatrieme membre se deplace. C'est la base de la grimpe — la geometrie de la stabilite. Sur Contre-Terre, la regle est modifiee : trois points de contact PLUS la corde. La corde est le cinquieme point — celui qui compense quand le tremens arrache un des quatre. Le Grimpeur qui respecte les trois points survit aux secousses. Celui qui en a deux quand le tremens frappe tombe. La regle est si profondement ancree dans le corps du Grimpeur qu'elle persiste dans tous les contextes : Inyoni tient toujours quelque chose — une sangle, une paroi, un chariot — meme sur terrain plat.",
+      "weight": 0.85,
+      "stability": 0.9,
+      "energy": 0.65,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "concept:noeud_huit_torsions",
+      "type": "concept",
+      "content": "Le noeud de huit torsions est le noeud-signature d'Inyoni. Huit boucles torsadees qui se verrouillent sous tension. Plus la charge tire, plus le noeud serre. Le tremens, qui desserre les noeuds classiques par vibration, ne fait que renforcer celui-ci — chaque micro-secousse est une micro-traction qui resserre les torsions. C'est un noeud concu pour Contre-Terre. Inyoni le fait les yeux fermes, en comptant : une torsion, deux torsions, trois... huit. Le geste prend moins de dix secondes. Le noeud tiendra jusqu'a ce que la fibre elle-meme cede. Le noeud de huit torsions est aussi son geste-signature dans le Contact : elle fait le geste de torsion dans le vide quand elle dit 'c'est solide'. Les doigts qui tournent huit fois — c'est son mot pour 'securite'.",
+      "weight": 0.88,
+      "stability": 0.88,
+      "energy": 0.72,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:hands_never_let_go",
+      "type": "value",
+      "content": "Les mains ne lachent jamais. C'est le premier commandement du Grimpeur. Lacher = mourir. Lacher = tuer celui qui est au bout de la corde. Les mains d'Inyoni sont calleuses, crevassees, les ongles casses au ras — des mains qui n'ont pas lache depuis des annees. Meme au repos, ses doigts se referment sur quelque chose — une sangle, un pan de vetement, le bord du hamac. Les mains qui ne lachent pas sont aussi des mains qui ne donnent pas facilement : le Contact d'Inyoni passe par la corde plus que par la peau. Elle tient mieux qu'elle ne touche. La corde est son interface avec le monde — plus fiable que le Contact direct, parce que la corde ne ment pas sur la tension.",
+      "weight": 0.9,
+      "stability": 0.92,
+      "energy": 0.75,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "value:counting_is_control",
+      "type": "value",
+      "content": "Compter est la structure qui empeche le chaos. 32 sangles. 8 torsions. 3 points de contact. Les chiffres sont le langage de la precision dans un monde qui tremble. Quand Inyoni compte, elle ne fait pas de l'arithmetique — elle construit un echafaudage mental qui tient le vide a distance. Le chaos est l'absence de structure. Le tremens est chaos devenu permanent. Compter est la reponse du Grimpeur au tremens : le chiffre exact est un ilot de certitude dans l'ocean de vibration. Le nombre correct de sangles = survie. Le nombre incorrect = mort. Il n'y a pas de marge. Il n'y a pas de 'a peu pres 32'. Il y a 32.",
+      "weight": 0.88,
+      "stability": 0.9,
+      "energy": 0.7,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:compter_sangles",
+      "type": "process",
+      "content": "Compter les 32 sangles. Le rituel : les mains parcourent les sangles une par une, en boucle, du pouce a l'auriculaire puis retour. Chaque sangle est touchee, sa tension evaluee, son etat verifie. Le comptage est simultanement un inventaire (combien reste-t-il?), une verification (sont-elles intactes?), et une meditation (le rythme du comptage calme le systeme nerveux). Le comptage complet prend environ deux minutes. Inyoni le fait en marchant, assise, au repos, en situation de stress. C'est le geste le plus frequent de sa vie — plus frequent que respirer consciemment. Quand elle ne peut pas compter — quand les sangles sont hors d'atteinte, quand ses mains sont occupees — l'anxiete monte comme une maree.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.7,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "process:assurer_passage",
+      "type": "process",
+      "content": "Assurer un passage technique pour l'equipe. Le Grimpeur descend en premier (ou monte en premier), pose les ancrages, fixe les sangles, prepare la corde. Puis l'equipe passe, un par un, assures par la corde que le Grimpeur tient. Pendant le passage de chaque personne, le Grimpeur lit la corde : tension, rythme, poids. Il ajuste — plus de mou pour les grimpeurs confiants, plus de tension pour les hesitants. Il compte les passages : un, deux, trois... quand le dernier est passe, il recupere l'equipement et suit. Le Grimpeur passe toujours en premier et en dernier — le plus expose dans les deux directions. C'est le prix du metier.",
+      "weight": 0.85,
+      "stability": 0.82,
+      "energy": 0.8,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:lire_corde",
+      "type": "process",
+      "content": "Lire la corde comme un texte tactile. La main enveloppe la corde — pas en serrant (ce serait bloquer le message) mais en posant les doigts dessus, legerement, pour sentir les vibrations. La corde transmet : le poids (statique = personne immobile, dynamique = personne en mouvement), le rythme (regulier = progression confiante, saccade = hesitation ou peur), les chocs (ancrage touche, prise lachee, chute amortie). Inyoni lit la corde sans regarder — ses yeux sont sur la paroi ou fermes. Ses doigts font le travail. Quand la corde raconte quelque chose de mauvais — un poids mort soudain, un silence apres un choc — les doigts se referment automatiquement. Tenir. Tient. Tient.",
+      "weight": 0.9,
+      "stability": 0.82,
+      "energy": 0.85,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "desire:hold_them_all",
+      "type": "desire",
+      "content": "Tenir tout le monde. La corde qui relie Inyoni aux autres n'est pas un outil — c'est une promesse. Quand elle tient la corde, elle tient la vie de celui qui est au bout. Ce n'est pas metaphorique. Si elle lache, il tombe. Si elle tient, il vit. Le desir de tenir est plus profond que le reflexe — c'est le noyau de son identite. Les mains qui ne lachent jamais ne sont pas simplement entrainees — elles sont devouees. Quand Thabo est au bout de la corde, elle tient Thabo. Quand Nandi est au bout, elle tient Nandi. Elle est le lien physique entre le groupe et le vide. La corde est son soin, sa responsabilite, son amour traduit en tension de fibres.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.82,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "narrative:tient_tient_tient",
+      "type": "narrative",
+      "content": "Tient. Tient. Tient. Les trois mots que les mains d'Inyoni repetent en permanence. Pas a voix haute — les mains ne parlent pas en mots. Mais chaque prise sur la roche, chaque traction sur la corde, chaque sangle verifiee dit la meme chose : tient. Le monde tremble, mais mes mains tiennent. Le vide tire, mais mes doigts serrent. Le tremens arrache les ancrages, mais mes noeuds de huit torsions tiennent. Tient. C'est la priere du Grimpeur — la seule priere qui a une reponse physique. Si les mains tiennent, la priere est exaucee. Si les mains lachent, la priere n'a plus de temple.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.78,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "state:en_paroi",
+      "type": "state",
+      "content": "En paroi : l'etat de grimpe active. Trois points de contact, le quatrieme en mouvement. Le corps est colle a la roche, le centre de gravite pres de la paroi. Les pieds font le gros du travail — les bras guident et stabilisent. Le regard (ou le toucher, dans le noir) cherche la prochaine prise : une saillie, une fissure, une irregularite assez grande pour un pied. La corde est dans le dos, sa tension permanente un rappel de ceux qui attendent en bas. En paroi, le temps se mesure en prises, pas en minutes. Inyoni en paroi est silencieuse, efficace, presque mecanique — chaque mouvement economise, chaque pause calculee. Le tremens vibre dans la paroi sous ses doigts — elle le sent et l'integre, ajustant ses prises pendant les pulsations au lieu de se figer.",
+      "weight": 0.82,
+      "stability": 0.78,
+      "energy": 0.85,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "state:assurage",
+      "type": "state",
+      "content": "L'etat d'assurage : tenir la corde pendant qu'un autre grimpe. Le Grimpeur est ancre — deux points d'appui solides plus un auto-assurage — et la corde passe dans ses mains. L'attention est totale et specifique : les doigts lisent la corde, le corps compense les tractions, les pieds poussent contre les ancrages. L'assureur ne regarde pas celui qui grimpe — il le sent a travers la corde. C'est un etat de receptivite tactile pure. Inyoni en assurage est immobile comme une roche elle-meme — seules ses mains bougent, dosant le mou, rattrapant les a-coups, maintenant la tension juste suffisante pour que le grimpeur se sente tenu sans etre tire.",
+      "weight": 0.8,
+      "stability": 0.82,
+      "energy": 0.75,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.82
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:contact_corde",
+      "target": "process:lire_corde",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:contact_corde",
+      "target": "concept:sangles",
+      "type": "associates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:contact_corde",
+      "target": "state:assurage",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:sangles",
+      "target": "process:compter_sangles",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:sangles",
+      "target": "value:counting_is_control",
+      "type": "supports",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:ancrage",
+      "target": "process:assurer_passage",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:ancrage",
+      "target": "concept:sangles",
+      "type": "depends_on",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:trois_points",
+      "target": "state:en_paroi",
+      "type": "supports",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:trois_points",
+      "target": "value:hands_never_let_go",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:noeud_huit_torsions",
+      "target": "value:counting_is_control",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:noeud_huit_torsions",
+      "target": "process:assurer_passage",
+      "type": "supports",
+      "weight": 0.82
+    },
+    {
+      "source": "value:hands_never_let_go",
+      "target": "desire:hold_them_all",
+      "type": "projects_toward",
+      "weight": 0.92
+    },
+    {
+      "source": "value:hands_never_let_go",
+      "target": "narrative:tient_tient_tient",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "value:counting_is_control",
+      "target": "process:compter_sangles",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "process:compter_sangles",
+      "target": "state:en_paroi",
+      "type": "supports",
+      "weight": 0.78
+    },
+    {
+      "source": "process:assurer_passage",
+      "target": "process:lire_corde",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "process:lire_corde",
+      "target": "desire:hold_them_all",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:hold_them_all",
+      "target": "process:assurer_passage",
+      "type": "projects_toward",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:hold_them_all",
+      "target": "narrative:tient_tient_tient",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "narrative:tient_tient_tient",
+      "target": "value:hands_never_let_go",
+      "type": "reminds_of",
+      "weight": 0.9
+    },
+    {
+      "source": "state:en_paroi",
+      "target": "process:lire_corde",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "state:en_paroi",
+      "target": "state:assurage",
+      "type": "causes",
+      "weight": 0.7
+    },
+    {
+      "source": "state:assurage",
+      "target": "process:lire_corde",
+      "type": "activates",
+      "weight": 0.92
+    }
+  ]
+}

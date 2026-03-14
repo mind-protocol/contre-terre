@@ -1,0 +1,379 @@
+{
+  "cluster_id": "metier_mineur",
+  "description": "Mineur — the hand that shapes the rock. Excavation in a world of permanent earthquakes means understanding which rock is load-bearing and which is filler. The Mineur reads the stone through their tools: the pickaxe, the hammer, the bare hand on stone. Every strike sends a vibration back through the handle, and that vibration tells a story — solid, hollow, stressed. The Mineur is not a destroyer of rock; they are a negotiator with it. They remove what can be removed and leave what must stay. Miscalculate, and the ceiling comes down on everyone.",
+  "skill_levels": {
+    "novice": "Can identify basic rock types by sight and touch. Knows the fundamental rule: tap before you strike, listen before you tap. Can excavate soft rock (limestone, chalk) but defers to experienced miners for anything load-bearing. The pickaxe feels like a tool. It does not yet feel like a sense organ.",
+    "practitioner": "Reads reverberation reliably — solid vs. hollow vs. stressed — with ~85% accuracy. Can excavate hard rock (basalt, granite) and knows where to place support. Begins to feel the rock's stress patterns through the tool handle: the subtle difference between 'this rock is resting' and 'this rock is holding weight.' The pickaxe is becoming an extension of the hand.",
+    "master": "The tool is the nerve. The master Mineur strikes once and reads the entire stress topology of the surrounding rock — not just the struck surface, but the load paths behind it, the voids beneath it, the fracture planes within it. They know which stone removal will cascade and which will not. They can excavate in seismically active environments by working in the rhythm of the tremens itself — striking between tremors, using the natural vibration to loosen without destabilizing. Sihle carries this skill and it makes him invaluable in the narrow passages of the deep zones."
+  },
+  "nodes": [
+    {
+      "id": "concept:rock_stress",
+      "type": "concept",
+      "content": "Load-bearing vs. filler: the fundamental distinction the Mineur must make before every strike. Load-bearing rock carries the weight of everything above it — remove it and the ceiling redistributes, cracks, collapses. Filler rock sits between load-bearing elements, adding mass but not structure — it can be removed safely. The problem: they look identical. The same grey basalt, the same apparent solidity. The only way to distinguish them is by their vibration signature. Load-bearing rock, when tapped, produces a tight, constrained tone — the sound of something under compression. Filler rock produces a looser, more resonant tone — the sound of something at rest. The difference is subtle. The consequence of missing it is absolute.",
+      "weight": 0.95,
+      "stability": 0.88,
+      "energy": 0.8,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "concept:vibration_through_tools",
+      "type": "concept",
+      "content": "The pickaxe talks back. When metal strikes stone, the impact creates a vibration that travels back through the handle into the Mineur's hands, wrists, arms, shoulders. This returning vibration is information. A sharp, clean return means solid rock — dense, unfractured, either load-bearing or high-quality filler. A dull, muffled return means hollow space behind the struck surface — a void, a pocket, possibly a passage. A buzzing, teeth-rattling return means stressed rock — stone under tectonic compression that wants to fracture, that is one strike away from releasing stored energy in a violent crack. The Mineur's relationship with their tools is intimate: they hold the pickaxe not by the end of the handle but partway up, where the vibrations are clearest. Their grip is firm but not rigid — rigid hands absorb the signal; loose hands lose it.",
+      "weight": 0.93,
+      "stability": 0.85,
+      "energy": 0.82,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:excavation_rhythm",
+      "type": "concept",
+      "content": "Strike, listen, strike, listen. The Mineur never strikes twice without pausing. Each strike is both action and question: the action removes rock; the pause reads the answer. Has the stress pattern changed? Is the reverberation different from the last strike? Is the rock ahead still filler, or have we reached a load-bearing element? The rhythm is not constant — it adapts. In stable rock, the rhythm is steady: strike-pause-strike-pause. In unstable conditions, the rhythm slows: tap... wait... tap... wait. In seismically active moments, the Mineur synchronizes with the tremens itself, striking only in the quiet intervals between tremors, using the planet's own rhythm as a metronome. To rush the rhythm is to die. Every Mineur who has survived long enough knows this in their bones.",
+      "weight": 0.88,
+      "stability": 0.9,
+      "energy": 0.72,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:structural_integrity",
+      "type": "concept",
+      "content": "What holds the ceiling up. Every underground space is a negotiation between gravity pulling the ceiling down and the rock's compressive strength holding it up. The Mineur reads this negotiation in every room, every passage, every alcove. Arched ceilings are strong — the arch distributes weight to the walls. Flat ceilings are weak — all the weight pushes straight down on the span. Cracked ceilings are warnings — the negotiation is failing. Sagging ceilings are emergencies — the rock is losing. The Mineur assesses structural integrity before the team enters any space: tap the walls, read the ceiling shape, check for cracks, feel the stress. Only then: 'the ceiling holds. Enter.'",
+      "weight": 0.9,
+      "stability": 0.88,
+      "energy": 0.75,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "value:patient_excavation",
+      "type": "value",
+      "content": "Rush equals death. This is not metaphor, not hyperbole, not cautionary proverb. It is statistical fact. Every Mineur knows someone who struck too fast, removed too much, did not wait for the rock's answer. The ceiling came down. It always comes down. Patience in excavation is not a virtue — it is survival. The Mineur who can wait, who can tap once and stand still for a full minute reading the silence that follows, who can resist the pressure to hurry when the team is waiting and the passage needs opening — that Mineur lives. The rock rewards patience with information. It punishes haste with collapse.",
+      "weight": 0.92,
+      "stability": 0.92,
+      "energy": 0.65,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:listen_before_striking",
+      "type": "value",
+      "content": "The rock tells you where to hit. Before the pickaxe swings, the hand touches. The Mineur places their bare palm flat against the rock face and feels: temperature (cold rock is dense; warm rock may be near a void or heat source), texture (smooth surfaces fracture differently from rough), vibration (even without striking, rock under stress hums at sub-audible frequencies that the palm can feel). Then the tap — a light strike with the hammer, not to remove rock but to ask it a question. The answer comes back through the handle. Only after the answer: the full strike. This sequence — touch, tap, listen, strike — is the liturgy of the Mineur. Skipping any step is heresy.",
+      "weight": 0.9,
+      "stability": 0.9,
+      "energy": 0.7,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:assess_rock",
+      "type": "process",
+      "content": "Touch, tap, feel vibration response. The full assessment protocol before any excavation begins. Step one: visual inspection — look at the rock face for cracks, color changes, moisture (water seeping through cracks means the rock is fractured and may be weak). Step two: touch — bare hand on rock, reading temperature and surface vibration. Step three: tap — light hammer strike at multiple points across the face, mapping the reverberation pattern. Each tap returns a slightly different tone; the Mineur assembles these into a mental map of what's behind the surface. Solid zones, hollow zones, stress lines. Step four: decision — where to strike first, how deep to go, whether shoring is needed before excavation begins. The entire assessment takes two to five minutes. The team waits.",
+      "weight": 0.9,
+      "stability": 0.85,
+      "energy": 0.75,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "process:excavate_safely",
+      "type": "process",
+      "content": "Rhythmic extraction, always checking for stress. Once the assessment is complete and the strike points chosen, excavation begins. The Mineur works in sequences: a series of controlled strikes (never more than three before pausing), then a reassessment. The rock changes with every removal — what was filler may become load-bearing once its neighbor is removed. The stress map is dynamic, never static. The Mineur tracks the evolution: after each sequence, re-tap the face, re-read the reverberation, adjust the plan. Debris is cleared immediately — loose rock on the floor is a trip hazard, and in a seismically active space, loose rock becomes projectile during a tremor. The Mineur works clean. The passage behind them is as safe as the passage ahead.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.8,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:shore_up",
+      "type": "process",
+      "content": "Reinforce after removing. Every excavation creates a new structural reality. Rock that was supported by the removed material now needs another source of support. The Mineur shores up with whatever is available: timber beams (carried in the expedition's supplies, precious and limited), wedged rocks (filler rock repurposed as structural support), or in extreme cases, controlled collapse — deliberately bringing down a section to create a natural arch above the passage. Shoring is not optional. An unshored excavation is a deferred collapse. The Mineur knows this the way the Météorologue knows bad air: with the certainty that precedes catastrophe. Every beam placed is a promise: this ceiling will hold for the time you need.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.7,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:read_reverberation",
+      "type": "process",
+      "content": "Interpret what the tool tells you about the rock. The most sophisticated Mineur skill — translating vibration into knowledge. The reverberation from a strike carries information about depth (deeper voids produce longer reverb), density (denser rock produces shorter, sharper reverb), fracture state (fractured rock produces a buzzy, irregular reverb), and moisture content (wet rock produces a duller reverb than dry). The master Mineur reads all four dimensions simultaneously from a single strike. They also read changes between strikes: if the third tap at a point reverberates differently from the first, the rock is responding to the accumulated stress of being struck — it is warning you. A rock that changes its voice is a rock that is about to move.",
+      "weight": 0.92,
+      "stability": 0.8,
+      "energy": 0.85,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "desire:open_the_path",
+      "type": "desire",
+      "content": "Create passage for the team. The Mineur's primary drive: forward progress. The team descends, and the volcano does not offer clear corridors. Passages narrow, collapse, dead-end. The Mineur is the one who opens the way — widening a crack into a passage, clearing a rockfall, excavating through a blockage. There is deep satisfaction in this work: behind you, a wall. Ahead of you, an opening you made. The team passes through your work. They walk where rock once stood, because your hands and your tools negotiated the passage. The Mineur's desire to open the path is practical (the mission requires it) and personal (there is joy in making the impossible passable).",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.85,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "desire:never_cause_collapse",
+      "type": "desire",
+      "content": "The Mineur's deepest fear made into a negative imperative. Every strike carries the possibility of triggering a collapse. The Mineur works with this possibility present in every swing — not as paralysis but as calibration. The fear is productive: it slows the hand, sharpens the ear, makes each strike deliberate. A Mineur without this fear is a Mineur who has not yet caused a collapse. A Mineur who has caused a collapse and survived carries the fear like a scar — visible in their hesitation before each swing, the extra second of listening, the refusal to strike when uncertain. Never cause collapse is not a rule. It is a prayer.",
+      "weight": 0.9,
+      "stability": 0.78,
+      "energy": 0.88,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.95,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "narrative:rock_puzzle",
+      "type": "narrative",
+      "content": "Every rock is a puzzle. You take one piece out, the rest rearranges. The question is whether it rearranges on your head or around you. I've learned to see the puzzle before I touch it — the way stress lines radiate from a load-bearing column, the way filler rock sags microscopically under its own weight, the way a crack propagates along a grain boundary. The rock is not random. It has logic, geometry, physics. It responds to force with predictable patterns — if you know the patterns. I know the patterns. My pickaxe knows them better. When I strike and the handle sings back clean, I am speaking the rock's language. When it buzzes, the rock is saying 'not here.' I listen. I always listen.",
+      "weight": 0.9,
+      "stability": 0.82,
+      "energy": 0.85,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "state:assessing",
+      "type": "state",
+      "content": "Reading the rock before acting. The Mineur is in assessment state: touching, tapping, listening, mapping. No excavation is happening — only perception. The team sees the Mineur standing still at the rock face, one hand flat on the surface, the other holding the hammer loosely. Occasional taps. Long silences. The Mineur's eyes may be closed — vision is irrelevant when reading reverberation. This state can last seconds or minutes depending on complexity. The team has learned not to rush it. The assessment state is where collapses are prevented — not in the striking, but in the listening that precedes it.",
+      "weight": 0.82,
+      "stability": 0.88,
+      "energy": 0.6,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "state:excavating",
+      "type": "state",
+      "content": "Active rock removal in controlled rhythm. The Mineur is striking — rhythmic, deliberate blows, each followed by a listening pause. Rock chips fall. Dust rises. The Mineur's body moves in a pattern learned over years: swing from the shoulder (not the wrist — wrist strikes lack the controlled mass), follow through into the rock (not against it — working with the grain, not fighting it), release the grip slightly on impact (to let the reverberation travel cleanly back through the handle). Between sequences, the Mineur clears debris and re-assesses. The excavating state is focused and physical — the Mineur is working hard, sweating, breathing heavy — but never frantic. The rhythm holds. The rhythm always holds.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.9,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "state:danger_freeze",
+      "type": "state",
+      "content": "Stressed rock detected — immediate stop. The reverberation came back wrong. The buzz, the teeth-rattle, the feeling through the handle that the rock ahead is not resting but straining. The Mineur freezes. Pickaxe arrested mid-swing or placed gently down. No movement. No further strikes. In this state, the Mineur is recalculating: what did I hit? Where is the stress? Can I work around it, or must I shore up before continuing? The danger freeze is not panic — it is the trained response to a specific vibration signature. The Mineur in freeze communicates to the team through stillness: when the Mineur stops moving, everyone stops moving. The rock has spoken, and it said no.",
+      "weight": 0.88,
+      "stability": 0.72,
+      "energy": 0.92,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.9
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:rock_stress",
+      "target": "concept:structural_integrity",
+      "type": "supports",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:rock_stress",
+      "target": "process:assess_rock",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:rock_stress",
+      "target": "desire:never_cause_collapse",
+      "type": "causes",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:vibration_through_tools",
+      "target": "process:read_reverberation",
+      "type": "activates",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:vibration_through_tools",
+      "target": "concept:rock_stress",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:excavation_rhythm",
+      "target": "process:excavate_safely",
+      "type": "regulates",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:excavation_rhythm",
+      "target": "value:patient_excavation",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:structural_integrity",
+      "target": "process:shore_up",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:structural_integrity",
+      "target": "state:danger_freeze",
+      "type": "causes",
+      "weight": 0.75
+    },
+    {
+      "source": "value:patient_excavation",
+      "target": "concept:excavation_rhythm",
+      "type": "regulates",
+      "weight": 0.88
+    },
+    {
+      "source": "value:patient_excavation",
+      "target": "desire:never_cause_collapse",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "value:listen_before_striking",
+      "target": "process:assess_rock",
+      "type": "activates",
+      "weight": 0.92
+    },
+    {
+      "source": "value:listen_before_striking",
+      "target": "process:read_reverberation",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "process:assess_rock",
+      "target": "process:excavate_safely",
+      "type": "causes",
+      "weight": 0.9
+    },
+    {
+      "source": "process:assess_rock",
+      "target": "state:assessing",
+      "type": "contains",
+      "weight": 0.92
+    },
+    {
+      "source": "process:excavate_safely",
+      "target": "process:shore_up",
+      "type": "causes",
+      "weight": 0.85
+    },
+    {
+      "source": "process:excavate_safely",
+      "target": "state:excavating",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "process:read_reverberation",
+      "target": "concept:rock_stress",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "process:read_reverberation",
+      "target": "state:danger_freeze",
+      "type": "causes",
+      "weight": 0.78
+    },
+    {
+      "source": "process:read_reverberation",
+      "target": "narrative:rock_puzzle",
+      "type": "reminds_of",
+      "weight": 0.82,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:open_the_path",
+      "target": "process:excavate_safely",
+      "type": "projects_toward",
+      "weight": 0.92
+    },
+    {
+      "source": "desire:open_the_path",
+      "target": "desire:never_cause_collapse",
+      "type": "regulates",
+      "weight": 0.85,
+      "trust": 0.8
+    },
+    {
+      "source": "desire:never_cause_collapse",
+      "target": "value:patient_excavation",
+      "type": "projects_toward",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:never_cause_collapse",
+      "target": "state:danger_freeze",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "narrative:rock_puzzle",
+      "target": "concept:vibration_through_tools",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:rock_puzzle",
+      "target": "desire:open_the_path",
+      "type": "supports",
+      "weight": 0.78
+    },
+    {
+      "source": "state:assessing",
+      "target": "state:excavating",
+      "type": "causes",
+      "weight": 0.8
+    },
+    {
+      "source": "state:assessing",
+      "target": "state:danger_freeze",
+      "type": "causes",
+      "weight": 0.55
+    },
+    {
+      "source": "state:excavating",
+      "target": "state:danger_freeze",
+      "type": "causes",
+      "weight": 0.6
+    },
+    {
+      "source": "state:danger_freeze",
+      "target": "process:assess_rock",
+      "type": "activates",
+      "weight": 0.92
+    },
+    {
+      "source": "state:danger_freeze",
+      "target": "process:shore_up",
+      "type": "activates",
+      "weight": 0.85
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "cluster_id": "geo_vertical",
+  "description": "Vertical geography of Contre-Terre: 10 mineral biomes from desert surface to magma chamber, 7 corridor types, and 4 underground ecosystem strata -- extracted from VERTICALE.md",
+  "nodes": [
+
+    {
+      "id": "space_biome_pave_de_sable",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Surface desertique de sable volcanique noir. Grains de basalte erodes par les seismes, socle de gres poreux gorgé de nappes phreatiques peu profondes. Vegetation rare a racines d'ancrage sismique, arthropodes plats a pattes ventouses. Le grondement de fond est un bourdonnement infra-basse continu -- le pouls du monde. Contact Pleine Peau, vocabulaire complet.",
+      "synthesis": "Surface desertique -- sable basaltique noir, chaleur seche, magnitude 4-5 permanente, Contact complet.",
+      "weight": 0.8,
+      "properties": {
+        "profondeur_min": 0,
+        "profondeur_max": 0,
+        "temperature_range": "35-45C",
+        "luminosite": "plein soleil",
+        "composition": "sable volcanique sur gres poreux",
+        "son": "grondement infra-basse continu, conversations possibles",
+        "vie": "vegetation rare, tubercules, arthropodes plats",
+        "contact_effect": "Pleine Peau -- cinq modes, idiolectes complets"
+      }
+    },
+
+    {
+      "id": "space_biome_piemont_noir",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Flancs volcaniques de basalte massif, couches superposees comme les pages d'un livre -- chaque couche est une eruption passee. Premiers filaments bioluminescents bleutés dans les fissures, pulsant a magnitude 4. Les seismes deviennent secs, cassants, metalliques -- le monde ne roule plus, il frappe. Le Contact se simplifie, les dialectes regionaux cedent au vocabulaire de base.",
+      "synthesis": "Flancs volcaniques -- basalte noir, premiers filaments bioluminescents, seismes secs et cassants, Contact simplifie.",
+      "weight": 0.75,
+      "properties": {
+        "profondeur_min": 0,
+        "profondeur_max": 200,
+        "temperature_range": "30-40C",
+        "luminosite": "noir a 20m, filaments bioluminescents des 30-70m",
+        "composition": "basalte massif en couches, interstices entre coulees",
+        "son": "claquements secs, echo metallique, voix indistinctes du bruit sismique",
+        "vie": "lichens noirs, filaments bioluminescents bleus pulsant au rythme sismique",
+        "contact_effect": "Pleine Peau a Peau Courte -- gestes complexes couteux, retour au Contact de base"
+      }
+    },
+
+    {
+      "id": "space_biome_cavernes_karstiques",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Labyrinthe tridimensionnel de calcaire dissous par l'eau acide pendant des millions d'annees. Monde de courbes -- coulees de calcite, draperies translucides, perles de caverne polies par les micro-seismes. Filaments bioluminescents a leur apogee, ciel etoile inverse en bleu pulsatile. Acoustique extraordinaire : reverberations de 15-20 secondes, seismes musicaux. Abrite le village des sourds -- dernier lieu habite du monde vertical.",
+      "synthesis": "Reseau karstique -- calcaire sculpte, bioluminescence bleue maximale, acoustique musicale, village des sourds.",
+      "weight": 0.85,
+      "properties": {
+        "profondeur_min": 200,
+        "profondeur_max": 600,
+        "temperature_range": "35-50C",
+        "luminosite": "bioluminescence bleue pulsatile, ciel etoile inverse",
+        "composition": "dolomite, calcaire massif, marbres anciens",
+        "son": "reverberation 10-20s, seismes musicaux, polyphonie eau-terre",
+        "vie": "filaments bioluminescents, champignons mycorhiziens, arthropodes translucides aveugles, isopodes, pseudoscorpions, communautes chimiosynthetiques",
+        "contact_effect": "Pleine Peau -- amortissement karstique restaure les cinq modes"
+      }
+    },
+
+    {
+      "id": "space_biome_fracture_verticale",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Failles tectoniques dans le gabbro -- plans de rupture verticaux ou la roche s'est brisee et ne guerit pas. Parois suintant d'eau sulfuree deposant pyrite doree et chalcopyrite cuivree. Les failles respirent : les murs se rapprochent d'un centimetre, s'ecartent de deux. Les zones de silence sont des pieges -- l'energie s'accumule au lieu de se liberer. C'est dans une zone de silence que meurt Senzo.",
+      "synthesis": "Failles tectoniques dans le gabbro -- parois sulfurees, failles qui respirent, zones de silence mortelles.",
+      "weight": 0.8,
+      "properties": {
+        "profondeur_min": 600,
+        "profondeur_max": 1200,
+        "temperature_range": "50-70C",
+        "luminosite": "neant, eclats trompeurs de pyrite, phosphorescence spectrale rare",
+        "composition": "gabbro massif, veines de pyrite, chalcopyrite, quartz laiteux",
+        "son": "effet guide d'ondes, seismes lateraux, gresillement d'eau amplifie",
+        "vie": "communautes bacteriennes chimiosynthetiques, tapis oranges sulfureux, biofilms",
+        "contact_effect": "Peau Seche a Peau Courte -- verticalite empeche Contact direct, corde seul medium"
+      }
+    },
+
+    {
+      "id": "space_biome_chambres_de_cristal",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Geodes cathedrales tapissees de cristaux -- selenite en lames transparentes comme des ponts de verre, calcite doublement refractante creant des fantomes lumineux, quartz piezoelectrique emettant des micro-decharges sous les seismes. Un seisme dans une geode est un concert : chaque cristal chante a sa frequence propre. L'humidite extreme (90-99%) rend la respiration aquatique. Piege optique ou haut et bas se confondent.",
+      "synthesis": "Geodes cathedrales -- cristaux resonants, concert sismique, quartz piezoelectrique, piege optique.",
+      "weight": 0.8,
+      "properties": {
+        "profondeur_min": 800,
+        "profondeur_max": 1500,
+        "temperature_range": "55-70C",
+        "luminosite": "kaleidoscope par refraction, lumiere fossile des biofilms phosphorescents",
+        "composition": "selenite, calcite optique, quartz (transparent, fume, amethyste)",
+        "son": "concert de cristal, frequences propres superposees, bourdonnement decroissant",
+        "vie": "bacteries endolithiques dans les cristaux, biofilms phosphorescents sur surfaces",
+        "contact_effect": "Peau Courte a Peau Seche -- peau glissante, vibration piezoelectrique parasite"
+      }
+    },
+
+    {
+      "id": "space_biome_corridors_de_lave",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Conduits cylindriques aux parois vitrifiees, creuses par d'anciennes coulees de basalte liquide. Noir absolu -- les parois absorbent la lumiere. Guides d'ondes acoustiques quasi-parfaits : le chant des tubes, son de didgeridoo joue par un geant. L'amplification geometrique ajoute un degre a la magnitude ressentie. Le volcan respire par ses tubes comme un organisme par ses bronches.",
+      "synthesis": "Tubes de lave vitrifies -- noir absolu, amplification acoustique, chant des tubes, volcan-organisme.",
+      "weight": 0.75,
+      "properties": {
+        "profondeur_min": 500,
+        "profondeur_max": 2000,
+        "temperature_range": "40-70C",
+        "luminosite": "noir absolu, parois vitrifiees absorbant la lumiere",
+        "composition": "basalte vitrifie, lavacicles, rebords de lave figee",
+        "son": "guide d'ondes parfait, chant de didgeridoo, corps sans secret sonore",
+        "vie": "bacteries ferrugineuses dans tubes anciens, depots arborescents rouille-orange",
+        "contact_effect": "Peau Seche -- tremblements permanents, noir absolu, Contact aveugle et reduit"
+      }
+    },
+
+    {
+      "id": "space_biome_aquifere_profond",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Reseau hydrologique complexe -- rivieres souterraines, lacs stratifies sursatures en mineraux. L'eau vient du degazage magmatique et de la deshydratation de la croute subductee. Les lacs sont stratifies : surface tiede, fond brulant, thermocline nette comme un mur de chaleur. Bacteries phosphorescentes en suspension creant des fenetres vertes dans le noir. Sous l'eau, les ondes S disparaissent -- le tremens perd la moitie de son spectre.",
+      "synthesis": "Reseau aquifere -- lacs stratifies, phosphorescence verte, ondes S absentes sous l'eau, tsunamis souterrains.",
+      "weight": 0.8,
+      "properties": {
+        "profondeur_min": 800,
+        "profondeur_max": 1800,
+        "temperature_range": "15-90C (gradient dans l'eau)",
+        "luminosite": "phosphorescence verte bacterienne, flashs lors des seismes",
+        "composition": "conduits phreatiques, lacs sursatures (calcium, magnesium, silice, soufre)",
+        "son": "ondes P enveloppantes, ondes S absentes, orgue des rivieres souterraines",
+        "vie": "crustaces aveugles, amphipodes, vers tubicoles, poissons cavernicoles depigmentes, colonies chimiosynthetiques",
+        "contact_effect": "Peau Seche a Peau Brute -- peau mouillée glissante, Contact de force, douloureux au-dessus de 50C"
+      }
+    },
+
+    {
+      "id": "space_biome_zone_magnetique",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Intrusions de magnetite generant des champs magnetiques locaux chaotiques -- le nord change tous les dix metres. Roche polychrome (noire, rouge sang, jaune-brun, bronze) dans un monde de noir. Mirages sonores : les seismes semblent venir d'une direction mais viennent d'une autre. Nandi perd une dimension de son sismographe corporel. Les bacteries magnetotactiques elles-memes tournent en cercle, desorientees.",
+      "synthesis": "Intrusions de magnetite -- champ magnetique chaotique, roche polychrome, mirages sonores, desorientation totale.",
+      "weight": 0.75,
+      "properties": {
+        "profondeur_min": 1000,
+        "profondeur_max": 2500,
+        "temperature_range": "60-80C",
+        "luminosite": "eclat rouge sang de l'hematite sous lumiere chimique",
+        "composition": "magnetite, hematite, goethite, pyrrhotite dans gabbro et schiste",
+        "son": "mirages sonores, refractions acoustiques, echos avant le son direct",
+        "vie": "bacteries magnetotactiques desorientees, colonies tournant en cercle",
+        "contact_effect": "Peau Seche -- Contact nerveux, gestes trop rapides par anxiete de desorientation"
+      }
+    },
+
+    {
+      "id": "space_biome_fumerolles",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Zone sulfuree de transition vers le volcanisme actif. Gaz a 200-600C s'echappant par les events -- soufre cristallise en jaune vif, acide sulfurique corrodant la roche en argile friable. Premier retour de lumiere naturelle chaude : filons de lave orange et rouge dans les fissures. Les seismes se chevauchent en vibration quasi-continue a haute frequence. Le tremens de Nandi atteint le Nerf -- capillaires eclates, chutes.",
+      "synthesis": "Zone sulfuree -- gaz toxiques, soufre cristallise, premiere lumiere de lave, seismicite quasi-continue.",
+      "weight": 0.8,
+      "properties": {
+        "profondeur_min": 1500,
+        "profondeur_max": 2500,
+        "temperature_range": "70-110C",
+        "luminosite": "filons de lave orange/rouge, depots de soufre jaune acide",
+        "composition": "basalte frais, cristaux de soufre, depots acides, roche argileuse corrodee",
+        "son": "sifflement strident des events + grondement sismique de fond, deux couches",
+        "vie": "bacteries thermophiles, archees hyperthermophiles, tapis bacteriens orange/blanc/vert sombre",
+        "contact_effect": "Peau Brute -- peau surchauffee, Contact douloureux, frappes au lieu de pressions"
+      }
+    },
+
+    {
+      "id": "space_biome_chambre_magmatique",
+      "node_type": "space",
+      "type": "biome",
+      "content": "Le coeur. Reservoir de roche en fusion a 1000-1200C sous des milliers d'atmospheres. Au-dessus, le mush cristallin -- melange de cristaux solides et de liquide magmatique. La lave est sa propre lumiere, omnidirectionnelle, sans ombre. Le son est infrasonore, indistinguable du battement cardiaque. Les seismes ne sont plus des evenements -- le monde EST le tremblement. Tremens total de Nandi, magnitude 11, Contact-Fantome avec les morts.",
+      "synthesis": "Chambre magmatique -- lave en fusion, lumiere omnidirectionnelle, magnitude 8-9+, tremens de Moelle, Contact-Fantome.",
+      "weight": 0.9,
+      "properties": {
+        "profondeur_min": 2500,
+        "profondeur_max": 5000,
+        "temperature_range": "100-1200C",
+        "luminosite": "lave omnidirectionnelle orange/rouge/blanc-jaune, sans ombre",
+        "composition": "basalte fondu stratifie, mush cristallin (olivine, pyroxene, plagioclase)",
+        "son": "grondement infrasonore continu, bulles eclatant en clapotements epais",
+        "vie": "rien -- premier endroit veritablement mort de Contre-Terre",
+        "contact_effect": "Peau Morte -- Nandi seule, Contact-Fantome avec les six morts"
+      }
+    },
+
+    {
+      "id": "space_corridor_failles_cisaillement",
+      "node_type": "space",
+      "type": "corridor",
+      "content": "Fractures tectoniques verticales dont les levres coulissent l'une contre l'autre en continu. La geometrie change : le passage d'hier n'existe plus aujourd'hui. Le corps coince entre deux parois, pas de place pour les bras. Contact-corde seul medium possible.",
+      "synthesis": "Failles de cisaillement -- fractures verticales mobiles, geometrie changeante, Contact-corde uniquement.",
+      "weight": 0.7,
+      "properties": {
+        "formation": "mouvement des plaques, stress de subduction, cycles compression-dilatation",
+        "danger_level": "eleve -- compression, decrochement, silence-piege",
+        "traversabilite": "verticale, escalade/descente, corps coince entre parois",
+        "contact_effect": "Contact-corde uniquement, claustrophobie geologique"
+      }
+    },
+
+    {
+      "id": "space_corridor_tubes_lave",
+      "node_type": "space",
+      "type": "corridor",
+      "content": "Autoroutes du monde souterrain -- conduits cylindriques laisses par d'anciennes coulees de basalte. Larges et reguliers mais aveugles, sans sortie laterale. Un tube effondre piege tout ce qu'il contient. Le son se propage sur des centaines de metres sans attenuation.",
+      "synthesis": "Tubes de lave -- autoroutes souterraines aveugles, guides d'ondes acoustiques, risque d'effondrement cassant.",
+      "weight": 0.7,
+      "properties": {
+        "formation": "refroidissement de surface de coulees de lave, evacuation du coeur liquide",
+        "danger_level": "moyen a eleve -- effondrement, amplification sismique, pieges a CO2",
+        "traversabilite": "horizontale ou pente legere, marche debout a rampement selon diametre",
+        "contact_effect": "amplification de tous les bruits, corps sans secret sonore"
+      }
+    },
+
+    {
+      "id": "space_corridor_passages_dissolution",
+      "node_type": "space",
+      "type": "corridor",
+      "content": "Conduits ronds creuses par la patience chimique de l'eau acide dans le calcaire. Parois lisses et sculptees, souvent humides ou inondees. Les siphons -- conduits entierement immerges -- sont les obstacles majeurs. Quand Jabu meurt, les siphons deviennent des murs.",
+      "synthesis": "Passages de dissolution -- conduits calcaires sculptes par l'eau, siphons infranchissables sans Jabu.",
+      "weight": 0.7,
+      "properties": {
+        "formation": "dissolution chimique du calcaire par eau chargee en CO2 pendant des millions d'annees",
+        "danger_level": "moyen -- crues sismiques, siphons, effondrement du calcaire fragile",
+        "traversabilite": "horizontale ou descente legere, marche dans l'eau, apnee pour siphons courts",
+        "contact_effect": "Contact aquatique possible, prises glissantes"
+      }
+    },
+
+    {
+      "id": "space_corridor_fractures_actives",
+      "node_type": "space",
+      "type": "corridor",
+      "content": "Ouvertures creees par des seismes recents -- surfaces de rupture fraiche, anguleuses, coupantes. La roche n'est pas consolidee, les blocs peuvent se deplacer au moindre seisme. Direction chaotique, angles aigus, impasses. La geologie du moment, pas la geologie de toujours.",
+      "synthesis": "Fractures actives -- ruptures fraiches, instabilite totale, roche coupante, direction chaotique.",
+      "weight": 0.65,
+      "properties": {
+        "formation": "seismes recents brisant la roche, morceaux non consolides",
+        "danger_level": "tres eleve -- instabilite totale, eboulements constants, roche tranchante",
+        "traversabilite": "imprevisible, angles aigus, changements de direction brusques, impasses",
+        "contact_effect": "Contact dangereux -- roche coupe la peau, les vetements, les cordes"
+      }
+    },
+
+    {
+      "id": "space_corridor_conduits_volcaniques",
+      "node_type": "space",
+      "type": "corridor",
+      "content": "Cheminees d'anciennes eruptions, verticales, aux parois vitrifiees portant les stries du magma passe. Peu de prises -- Inyoni excelle, les autres luttent. Risque de reactivation si la pression change dans la chambre magmatique. Gaz residuels (CO2, SO2) accumules dans les puits profonds.",
+      "synthesis": "Conduits volcaniques inactifs -- cheminees verticales vitrifiees, risque de reactivation, domaine d'Inyoni.",
+      "weight": 0.7,
+      "properties": {
+        "formation": "montee de magma lors d'eruptions passees, refroidissement et vidage du conduit",
+        "danger_level": "eleve -- reactivation possible, xenolithes, asphyxie par gaz",
+        "traversabilite": "verticale, rappel ou escalade, parois vitrifiees avec peu de prises",
+        "contact_effect": "chaleur residuelle, gaz residuels concentres"
+      }
+    },
+
+    {
+      "id": "space_corridor_boyaux",
+      "node_type": "space",
+      "type": "corridor",
+      "content": "Passages de moins de 60cm de diametre -- en dessous du seuil ou un humain peut se retourner. Rampement pur, bras tendus devant ou colles aux flancs, tete tournee sur le cote. Contact reduit au toucher des pieds de la personne devant soi : avance, stop. Binaire. Le boyau du chapitre VII separe les vivants des morts.",
+      "synthesis": "Boyaux -- moins de 60cm, rampement pur, Contact binaire par les pieds, claustrophobie absolue.",
+      "weight": 0.75,
+      "properties": {
+        "formation": "conduits de dissolution etroits, fractures comprimees, tubes de lave miniatures",
+        "danger_level": "extreme -- blocage, seisme a quelques cm du visage, asphyxie, effondrement",
+        "traversabilite": "rampement ventral uniquement, pas de retournement possible",
+        "contact_effect": "Contact reduit a deux mots : avance, stop -- pression des pieds"
+      }
+    },
+
+    {
+      "id": "space_corridor_cheminees_geyser",
+      "node_type": "space",
+      "type": "corridor",
+      "content": "Conduits verticaux d'eaux hydrothermales sous pression, tapisses de depots de silice (opale, calcedoine, geyserite) aux couleurs blanc-bleu-vert. Traversee possible uniquement entre deux eruptions. Cycles semi-reguliers perturbes par les seismes. Surfaces les plus glissantes du monde souterrain.",
+      "synthesis": "Cheminees de geyser -- conduits d'eau bouillante cyclique, depots de silice, surfaces ultra-glissantes.",
+      "weight": 0.65,
+      "properties": {
+        "formation": "chaleur magmatique + eau souterraine + roche poreuse, eruptions cycliques",
+        "danger_level": "extreme -- eruption hors cycle, eau bouillante sous pression, glissade, gaz toxiques",
+        "traversabilite": "verticale, seulement entre eruptions, parois de silice tres glissantes",
+        "contact_effect": "humidite et chaleur empechent Contact prolonge"
+      }
+    },
+
+    {
+      "id": "space_ecosysteme_filaments_bioluminescents",
+      "node_type": "space",
+      "type": "ecosysteme",
+      "content": "Consortiums de bacteries et champignons produisant de la lumiere par chimioluminescence (luciferine + oxygene). Pulsent a magnitude 4 car les micro-secousses stimulent la production enzymatique. Repondent au toucher par un flash plus intense -- Contact-monde involontaire, emergent. Domestiques par le village des sourds en cycle jour/nuit de 6 heures.",
+      "synthesis": "Filaments bioluminescents (0-600m) -- lumiere bleue pulsant au rythme sismique, repondent au Contact, domestiques par le village des sourds.",
+      "weight": 0.75,
+      "properties": {
+        "strate": 1,
+        "profondeur_range": "0-600m",
+        "mecanisme": "chimioluminescence, luciferine-luciferase",
+        "interaction_sismique": "pulsation synchrone a magnitude 4, flash au toucher"
+      }
+    },
+
+    {
+      "id": "space_ecosysteme_reseaux_fongiques",
+      "node_type": "space",
+      "type": "ecosysteme",
+      "content": "Myceliums courant dans les micro-fissures de la roche comme un systeme nerveux. Invisibles mais detectables au toucher (texture filamenteuse, elastique) et a l'odeur (terre humide, sous-bois). Dissolvent le calcaire par secretion d'acides organiques -- participent au creusement des cavernes. Certains transmettent des impulsions electriques que Nandi percoit, paumes a plat sur la roche.",
+      "synthesis": "Reseaux fongiques (200-1200m) -- myceliums-systeme nerveux, dissolvent la roche, transmettent des signaux electriques.",
+      "weight": 0.7,
+      "properties": {
+        "strate": 2,
+        "profondeur_range": "200-1200m",
+        "mecanisme": "secretion d'acides organiques, transport de nutriments, impulsions electriques",
+        "interaction_sismique": "vibrations non-sismiques detectables par predicteur"
+      }
+    },
+
+    {
+      "id": "space_ecosysteme_communautes_chimiosynthetiques",
+      "node_type": "space",
+      "type": "ecosysteme",
+      "content": "Ecosystemes complets autour des sources hydrothermales -- bacteries a la base, archees, vers tubicoles en symbiose, crustaces aveugles, arthropodes predateurs. Chaine alimentaire sans soleil ni photosynthese. Sensibles aux seismes de magnitude 6+ qui dechirent les tapis bacteriens. Resilientes sur le temps long mais fragiles sur le temps court -- exactement comme les humains de Contre-Terre.",
+      "synthesis": "Communautes chimiosynthetiques (600-2500m) -- ecosystemes complets sans soleil, fragiles aux seismes forts.",
+      "weight": 0.75,
+      "properties": {
+        "strate": 3,
+        "profondeur_range": "600-2500m",
+        "mecanisme": "oxydation de H2S, methane, fer ferreux, ammoniac",
+        "interaction_sismique": "perturbes par magnitude 6+, recolonisation en mois"
+      }
+    },
+
+    {
+      "id": "space_ecosysteme_extremophiles_profonds",
+      "node_type": "space",
+      "type": "ecosysteme",
+      "content": "Cellules isolees dans les micro-pores de la roche, les inclusions fluides des cristaux, les films d'eau entre les grains mineraux. Division cellulaire une fois par siecle. Survivent a 120C. Si lentes qu'elles posent la question de la frontiere entre vivant et mineral. Pour elles, les seismes ne sont pas des tremblements mais des modifications chimiques microscopiques -- sans bruit, sans mouvement, sans peur.",
+      "synthesis": "Extremophiles profonds (2000-4000m+) -- vie a la frontiere du mineral, une division par siecle, seismes percus comme chimie.",
+      "weight": 0.7,
+      "properties": {
+        "strate": 4,
+        "profondeur_range": "2000-4000m+",
+        "mecanisme": "metabolisme ultra-lent, pression constante, temperature stable",
+        "interaction_sismique": "seismes percus comme changement de concentration chimique"
+      }
+    }
+
+  ],
+
+  "links": [
+
+    { "source": "space_biome_pave_de_sable", "target": "space_biome_piemont_noir", "type": "surplombe", "weight": 0.9, "affinity": 0.8, "properties": { "transition": "sable cede au gravier puis au basalte nu" } },
+    { "source": "space_biome_piemont_noir", "target": "space_biome_cavernes_karstiques", "type": "surplombe", "weight": 0.9, "affinity": 0.8, "properties": { "transition": "basalte cede au calcaire, monde de courbes" } },
+    { "source": "space_biome_cavernes_karstiques", "target": "space_biome_fracture_verticale", "type": "surplombe", "weight": 0.85, "affinity": 0.7, "properties": { "transition": "calcaire cede au gabbro, courbes cedent aux ruptures" } },
+    { "source": "space_biome_fracture_verticale", "target": "space_biome_chambres_de_cristal", "type": "surplombe", "weight": 0.8, "affinity": 0.7, "properties": { "transition": "gabbro cede a la zone metamorphique, geodes dans roche transformee" } },
+    { "source": "space_biome_chambres_de_cristal", "target": "space_biome_zone_magnetique", "type": "surplombe", "weight": 0.75, "affinity": 0.6, "properties": { "transition": "cristaux cedent aux intrusions de magnetite" } },
+    { "source": "space_biome_zone_magnetique", "target": "space_biome_fumerolles", "type": "surplombe", "weight": 0.75, "affinity": 0.6, "properties": { "transition": "magnetite cede au basalte frais, zone volcanique active" } },
+    { "source": "space_biome_fumerolles", "target": "space_biome_chambre_magmatique", "type": "surplombe", "weight": 0.85, "affinity": 0.7, "properties": { "transition": "basalte frais cede au mush cristallin puis au magma" } },
+    { "source": "space_biome_cavernes_karstiques", "target": "space_biome_corridors_de_lave", "type": "surplombe", "weight": 0.7, "affinity": 0.6, "properties": { "transition": "tubes de lave commencent dans la zone karstique" } },
+    { "source": "space_biome_corridors_de_lave", "target": "space_biome_fumerolles", "type": "surplombe", "weight": 0.7, "affinity": 0.6, "properties": { "transition": "tubes de lave s'enfoncent vers les zones volcaniques actives" } },
+
+    { "source": "space_biome_fracture_verticale", "target": "space_biome_chambres_de_cristal", "type": "adjacent_a", "weight": 0.7, "affinity": 0.6, "properties": { "chevauchement": "800-1200m" } },
+    { "source": "space_biome_corridors_de_lave", "target": "space_biome_fracture_verticale", "type": "adjacent_a", "weight": 0.65, "affinity": 0.5, "properties": { "chevauchement": "600-1200m" } },
+    { "source": "space_biome_corridors_de_lave", "target": "space_biome_aquifere_profond", "type": "adjacent_a", "weight": 0.6, "affinity": 0.5, "properties": { "chevauchement": "800-1800m" } },
+    { "source": "space_biome_aquifere_profond", "target": "space_biome_zone_magnetique", "type": "adjacent_a", "weight": 0.6, "affinity": 0.5, "properties": { "chevauchement": "1000-1800m" } },
+    { "source": "space_biome_zone_magnetique", "target": "space_biome_fumerolles", "type": "adjacent_a", "weight": 0.65, "affinity": 0.5, "properties": { "chevauchement": "1500-2500m" } },
+
+    { "source": "space_corridor_failles_cisaillement", "target": "space_biome_fracture_verticale", "type": "traverse", "weight": 0.9, "affinity": 0.9, "properties": { "relation": "corridor principal de la fracture" } },
+    { "source": "space_corridor_failles_cisaillement", "target": "space_biome_chambres_de_cristal", "type": "traverse", "weight": 0.6, "affinity": 0.5, "properties": { "relation": "failles penetrant la zone cristalline" } },
+    { "source": "space_corridor_failles_cisaillement", "target": "space_biome_zone_magnetique", "type": "traverse", "weight": 0.5, "affinity": 0.4, "properties": { "relation": "failles profondes dans les intrusions" } },
+    { "source": "space_corridor_tubes_lave", "target": "space_biome_corridors_de_lave", "type": "traverse", "weight": 0.95, "affinity": 0.95, "properties": { "relation": "tubes de lave = biome et corridor" } },
+    { "source": "space_corridor_tubes_lave", "target": "space_biome_piemont_noir", "type": "traverse", "weight": 0.7, "affinity": 0.7, "properties": { "relation": "tubes partant des flancs volcaniques" } },
+    { "source": "space_corridor_tubes_lave", "target": "space_biome_fumerolles", "type": "traverse", "weight": 0.6, "affinity": 0.5, "properties": { "relation": "tubes s'enfoncant vers les zones actives" } },
+    { "source": "space_corridor_passages_dissolution", "target": "space_biome_cavernes_karstiques", "type": "traverse", "weight": 0.95, "affinity": 0.95, "properties": { "relation": "corridor natif du karstique" } },
+    { "source": "space_corridor_passages_dissolution", "target": "space_biome_aquifere_profond", "type": "traverse", "weight": 0.7, "affinity": 0.7, "properties": { "relation": "conduits reliant au reseau aquifere" } },
+    { "source": "space_corridor_fractures_actives", "target": "space_biome_fracture_verticale", "type": "traverse", "weight": 0.8, "affinity": 0.8, "properties": { "relation": "fractures recentes dans la zone de failles" } },
+    { "source": "space_corridor_fractures_actives", "target": "space_biome_fumerolles", "type": "traverse", "weight": 0.6, "affinity": 0.5, "properties": { "relation": "ruptures dans la zone volcanique instable" } },
+    { "source": "space_corridor_conduits_volcaniques", "target": "space_biome_chambre_magmatique", "type": "traverse", "weight": 0.9, "affinity": 0.9, "properties": { "relation": "cheminees enracinees dans la chambre" } },
+    { "source": "space_corridor_conduits_volcaniques", "target": "space_biome_fumerolles", "type": "traverse", "weight": 0.7, "affinity": 0.7, "properties": { "relation": "conduits traversant la zone sulfuree" } },
+    { "source": "space_corridor_boyaux", "target": "space_biome_cavernes_karstiques", "type": "traverse", "weight": 0.7, "affinity": 0.6, "properties": { "relation": "boyaux de dissolution etroits" } },
+    { "source": "space_corridor_boyaux", "target": "space_biome_fracture_verticale", "type": "traverse", "weight": 0.7, "affinity": 0.6, "properties": { "relation": "fractures comprimees sous la pression" } },
+    { "source": "space_corridor_cheminees_geyser", "target": "space_biome_aquifere_profond", "type": "traverse", "weight": 0.8, "affinity": 0.8, "properties": { "relation": "eruptions depuis le reseau aquifere" } },
+    { "source": "space_corridor_cheminees_geyser", "target": "space_biome_fumerolles", "type": "traverse", "weight": 0.6, "affinity": 0.5, "properties": { "relation": "cheminees dans la zone sulfuree" } },
+
+    { "source": "space_biome_piemont_noir", "target": "space_ecosysteme_filaments_bioluminescents", "type": "abrite", "weight": 0.8, "affinity": 0.8, "properties": { "densite": "premiers filaments des 30-70m" } },
+    { "source": "space_biome_cavernes_karstiques", "target": "space_ecosysteme_filaments_bioluminescents", "type": "abrite", "weight": 0.95, "affinity": 0.95, "properties": { "densite": "apogee, ciel etoile inverse, domestiques par le village" } },
+    { "source": "space_biome_cavernes_karstiques", "target": "space_ecosysteme_reseaux_fongiques", "type": "abrite", "weight": 0.85, "affinity": 0.85, "properties": { "densite": "myceliums dans les micro-fissures du calcaire" } },
+    { "source": "space_biome_fracture_verticale", "target": "space_ecosysteme_reseaux_fongiques", "type": "abrite", "weight": 0.6, "affinity": 0.5, "properties": { "densite": "myceliums dans le gabbro fissure" } },
+    { "source": "space_biome_corridors_de_lave", "target": "space_ecosysteme_reseaux_fongiques", "type": "abrite", "weight": 0.4, "affinity": 0.3, "properties": { "densite": "rare, tubes anciens seulement" } },
+    { "source": "space_biome_cavernes_karstiques", "target": "space_ecosysteme_communautes_chimiosynthetiques", "type": "abrite", "weight": 0.6, "affinity": 0.6, "properties": { "densite": "poches isolees dans le calcaire profond" } },
+    { "source": "space_biome_fracture_verticale", "target": "space_ecosysteme_communautes_chimiosynthetiques", "type": "abrite", "weight": 0.75, "affinity": 0.7, "properties": { "densite": "tapis bacteriens dans les eaux sulfurees" } },
+    { "source": "space_biome_aquifere_profond", "target": "space_ecosysteme_communautes_chimiosynthetiques", "type": "abrite", "weight": 0.9, "affinity": 0.9, "properties": { "densite": "apogee -- jardins mineraux autour des sources hydrothermales" } },
+    { "source": "space_biome_fumerolles", "target": "space_ecosysteme_communautes_chimiosynthetiques", "type": "abrite", "weight": 0.7, "affinity": 0.6, "properties": { "densite": "tapis thermophiles autour des events" } },
+    { "source": "space_biome_chambre_magmatique", "target": "space_ecosysteme_extremophiles_profonds", "type": "abrite", "weight": 0.3, "affinity": 0.2, "properties": { "densite": "uniquement dans le mush cristallin superieur, rien dans le magma" } },
+    { "source": "space_biome_fumerolles", "target": "space_ecosysteme_extremophiles_profonds", "type": "abrite", "weight": 0.7, "affinity": 0.6, "properties": { "densite": "archees hyperthermophiles dans les eaux acides a 90-110C" } }
+
+  ]
+}

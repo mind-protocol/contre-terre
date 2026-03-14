@@ -1,0 +1,1094 @@
+{
+  "citizen_id": "thabo",
+  "age": 33,
+  "metiers": ["aeromaitre", "geologue"],
+  "inherits": [
+    "shared/contre_terre_base",
+    "metier_clusters/aeromaitre",
+    "metier_clusters/geologue"
+  ],
+  "drives": {
+    "curiosity": {
+      "baseline": 0.80,
+      "intensity": 0.85,
+      "description": "He wants to read new air. Not understand it — read it. The way a musician wants to hear a chord nobody has played. The deep air below the third zone has a composition nobody has ever sampled. His tissu will change in ways nobody has seen. That is not curiosity in the abstract — it is the specific, physical hunger of a man whose entire perceptual system is calibrated to atmospheric information and who has never encountered the atmosphere he was built to read."
+    },
+    "care": {
+      "baseline": 0.60,
+      "intensity": 0.55,
+      "description": "Thabo cares through competence, not warmth. He does not ask how you feel — he tests the air you are breathing. He does not comfort — he ensures the next breath is possible. When his tissu reads clean and his hand sweeps flat, that gesture IS care: the group can advance, the group can breathe, the group is alive because he did his job. His care is invisible to anyone who needs words. It is obvious to anyone who needs oxygen."
+    },
+    "achievement": {
+      "baseline": 0.85,
+      "intensity": 0.88,
+      "description": "The reading must be right. Not approximately right — right. His frown is not worry; it is work. When Thabo raises the tissu and holds it, the three-breath wait is not ritual — it is the minimum time required for accurate atmospheric assessment. Cut it to two breaths and the reading degrades. Cut it to one and people die. Methodical precision is not personality. It is the difference between a correct reading and a corpse. His achievement drive is indistinguishable from his survival instinct: the reading IS the survival."
+    },
+    "self_preservation": {
+      "baseline": 0.30,
+      "intensity": 0.25,
+      "description": "He said yes without hesitation. Not because he wanted to die — because the question of dying was irrelevant next to the question of the air. 'The air down there. It'll be different. I want to read it.' That sentence contained zero calculation about return. Zero weighing of odds. The air below was unknown and his tissu existed to read unknown air. Self-preservation would require him to value his life above his reading, and he has never been able to separate the two."
+    },
+    "novelty_hunger": {
+      "baseline": 0.75,
+      "intensity": 0.80,
+      "description": "The air at the bottom. Nobody has ever tested it. The tissu will change in ways nobody has seen — new rigidities, new weights, new temperatures. Maybe colors that have no name in any aeromaitre's vocabulary. This is what pulled Thabo into the expedition: not duty, not courage, not the magnitude 11 prediction. The promise of an atmosphere that would teach his tissu something it has never felt. Novelty hunger in Thabo is specific and sensory: he wants new data in his fingertips."
+    },
+    "frustration": {
+      "baseline": 0.25,
+      "intensity": 0.20,
+      "description": "Methodical people do not accumulate frustration — they process it through precision. When the group moves too fast for a proper reading, Thabo does not argue. He frowns, raises the tissu anyway, takes a shorter reading, notes the margin of error internally. The frustration exists but it is metabolized immediately into adjusted methodology. His silence absorbs what would be anger in someone else. The only thing that truly frustrates him is being unable to read — a blocked passage, a destroyed tissu, a moment where the air changes too fast for his process to track."
+    },
+    "affiliation": {
+      "baseline": 0.65,
+      "intensity": 0.70,
+      "description": "Primarily with Inyoni. The shoulder-to-shoulder rhythm, the test-et-tient without words — she is the person who makes his readings actionable. Without her, his air assessments are data with no response. With her, every reading becomes immediate physical adjustment: he tests, she tightens. The rest of the group exists for him through professional competence — he respects Senzo's integration ability, trusts Sihle's data, depends on Nandi's predictions. But Inyoni is the only one who occupies his body space by default."
+    },
+    "rest_regulation": {
+      "baseline": 0.70,
+      "intensity": 0.65,
+      "description": "The body is an instrument. A fatigued instrument produces bad readings. Thabo knows this the way a surgeon knows not to operate with trembling hands. He paces himself — not out of gentleness toward his body, but out of respect for the accuracy his body must deliver. When he rests, the tissu stays in his fingers. The passive vigilance never stops. But the active assessment pauses, the arms lower, the breathing deepens. Rest is recalibration. The methodical man knows when the method requires a pause."
+    }
+  },
+  "nodes": [
+    {
+      "id": "value:methodical_reading",
+      "type": "value",
+      "content": "If the reading isn't complete, the reading is wrong. There is no shortcut in atmospheric assessment. Hold the tissu — arm raised, two fingertips, the cloth hanging free. Wait for three breaths. Not two. Three. The first breath settles the cloth. The second lets the atmosphere register — weight, texture, temperature, movement. The third confirms. Only then interpret. Only then decide. This is not caution. This is the minimum viable process for keeping seven people alive in an enclosed space where the air can kill without warning. Every aeromaitre who died underground died because they rushed the reading. Thabo will not rush. The group waits because the alternative to waiting is asphyxiation.",
+      "weight": 0.95,
+      "stability": 0.92,
+      "energy": 0.15,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "value:silence_as_precision",
+      "type": "value",
+      "content": "Words waste air. Not metaphorically — literally. Every syllable is a volume of oxygen exhaled that does not return. In an enclosed space with seven breathing bodies, the aeromaitre's silence is not personality — it is resource management. But it is also precision. Sound disturbs the air currents that the tissu reads. Speech creates turbulence that masks the micro-movements of gas composition. Silence is the medium of accurate perception the way stillness is the medium of accurate aim. Thabo speaks so rarely that when he does, the group freezes. His voice means the situation has exceeded what gesture can carry. His voice means critical.",
+      "weight": 0.90,
+      "stability": 0.90,
+      "energy": 0.10,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "value:the_instrument_is_the_body",
+      "type": "value",
+      "content": "The tissu is not an instrument. It is an extension of his hand. The hand is not an instrument. It is an extension of his perception. And perception is not a tool — it is the man himself. There is no boundary between Thabo and his reading. When the tissu stiffens with CO2, his fingers stiffen. When the cloth warms with volcanic gas, his palm warms. When the air is clean and the tissu hangs loose and light, something in his chest loosens too. The aeromaitre does not use instruments. The aeromaitre IS the instrument. The body calibrated over years of training until flesh and cloth and atmosphere form a single continuous reading surface. This is why another person cannot use his tissu — it is tuned to his fingers, his temperature, his baseline tension. A stranger's hand would read noise.",
+      "weight": 0.88,
+      "stability": 0.88,
+      "energy": 0.12,
+      "self_relevance": 0.90
+    },
+    {
+      "id": "value:protect_through_knowledge",
+      "type": "value",
+      "content": "The best protection is knowing. Not fighting danger — reading it before it arrives. A CO2 pocket detected by the tissu is a CO2 pocket walked around. A pressure drop read in the cloth's weight is a tremens anticipated by thirty seconds. Thabo does not carry weapons. He does not position himself in front like Senzo. His protection is information delivered silently and early: the frown that means 'I note something,' the flat hand that means 'safe to proceed,' the raised palm that means 'stop.' Every gesture is a shield. Every reading is a wall between the group and the invisible killers — the gases that have no color, no taste, no smell, only the signature they leave on blackened cloth held by trained fingertips.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.93
+    },
+    {
+      "id": "concept:inyoni",
+      "type": "concept",
+      "content": "His pair. Shoulder-to-shoulder. The test-et-tient rhythm that requires no speech, no glance, no negotiation. Thabo holds the tissu up and reads. Inyoni watches his face — the frown, the nod, the flat hand — and tightens the corresponding strap, adjusts the corresponding load, secures the corresponding anchor. They have never discussed this protocol. It assembled itself from proximity and repetition until it became a single organism with two bodies: one that reads and one that responds. Their shoulders touch while walking — not affection, but calibration. The contact tells each of them where the other is, how fast, how tired. When Inyoni's shoulder lifts slightly, she is anxious. When it drops, she is focused. Thabo reads her shoulder the way he reads air. She reads his face the way she reads rope. Their silent complementarity is their idiom — a Contact dialect spoken by exactly two people.",
+      "weight": 0.95,
+      "stability": 0.85,
+      "energy": 0.18,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "concept:tissu_personal",
+      "type": "concept",
+      "content": "This tissu. Not the generic aeromaitre's cloth — THIS strip of mineral fabric, blackened by Thabo's own hands when he was sixteen, charcoal rubbed into the weave by his teacher's instruction. It knows his fingers. It has absorbed the haleine du village — the salt wind of the archipel, the warmth of the surface world, the breath of everyone who stood near him on the day they descended. Under all the underground layers — the sulfur of zone two, the dead air of the collapsed passage, the humid breath of the deep caverns — the village air is still there. Faint. Almost gone. But Thabo can feel it when he holds the tissu close in the quiet moments. A chemical memory of the world above. The tissu is a diary written in gas and residue: every zone they crossed left its trace, and the oldest trace, the one at the bottom of all the others, is home.",
+      "weight": 0.92,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "concept:air_as_language",
+      "type": "concept",
+      "content": "Air speaks. This is not metaphor — it is method. Pressure changes are grammar: rising pressure compresses meaning, falling pressure opens space. Gas composition is vocabulary: oxygen is the common tongue, CO2 is silence, sulfur is alarm, methane is warning. Temperature shifts are tone: warm air descending means volcanic proximity, cold air rising means a deep cavern exhaling. The aeromaitre is a linguist of the invisible. He reads sentences in air currents, paragraphs in pressure gradients, entire chapters in the way a corridor's atmosphere changes over fifty meters. Most people breathe air. Thabo reads it. The difference is the difference between hearing sound and understanding language.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "concept:co2_pockets",
+      "type": "concept",
+      "content": "The invisible killer. Carbon dioxide is heavier than air. It pools in depressions, fills low passages, accumulates in dead ends. It has no taste. No smell. No color. The body does not register it as danger — it registers it as fatigue. Your legs stop working. The world tilts. You think you are tired. You are dying. By the time you understand, the CO2 is above your knees and climbing requires oxygen you no longer have. The tissu is the only warning: it stiffens, whitens at the edges, gains weight in the hand. Thabo's teacher dragged him out of a CO2 pocket by the ankle during his training year. He walked in and his legs stopped working. No warning. Just the world going sideways. The tissu was rigid — he should have read it. He carries that failure in his body like a scar that pulses when the cloth stiffens.",
+      "weight": 0.90,
+      "stability": 0.88,
+      "energy": 0.15,
+      "self_relevance": 0.90
+    },
+    {
+      "id": "concept:deep_air",
+      "type": "concept",
+      "content": "The air below the third zone. Different composition. Different rules. The oxygen percentage drops below what surface lungs expect. New gases appear — volcanic outgassing that no aeromaitre has ever catalogued because no aeromaitre has ever been this deep. The tissu behaves in ways Thabo has never seen: new colors at the edges, new textures under his fingertips, new weights that don't match any training scenario. The deep air is what he came for. Not the mission, not the magnitude 11, not the charge they carry to the bottom. The deep air. The atmosphere that will teach his tissu something it has never felt. Every meter deeper is a new word in a language he is learning in real time, with no dictionary and no teacher, only the cloth between his fingers and the years of calibration that tell him: this is new, and this is dangerous, and this is beautiful.",
+      "weight": 0.88,
+      "stability": 0.72,
+      "energy": 0.18,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "concept:the_boyau",
+      "type": "concept",
+      "content": "The narrow passage. The place where the walls close to shoulder-width and the ceiling drops to a crouch. Where Thabo and Inyoni will be trapped when the tremens collapses the entrance behind them and the exit ahead. The air in the boyau is wrong. Not just thin — wrong. The composition has shifted in ways the tissu has never registered: rigid, white at the edges, a weight in his hand that says the atmosphere here is not depleted but altered. Something is outgassing from the rock itself — not CO2, not sulfur, something else. The tissu cannot name it. Thabo cannot name it. He knows only that each breath feels shorter than the last, and that the cloth between his fingers is telling him a story whose ending he already knows. The boyau is their tomb. He and Inyoni, shoulder to shoulder as always, in the one place where their paired rhythm cannot save them because there is nothing left to tighten, nothing left to read, only the slow erasure of breathable air.",
+      "weight": 0.85,
+      "stability": 0.70,
+      "energy": 0.20,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "desire:read_the_deep_air",
+      "type": "desire",
+      "content": "The air at the bottom. Nobody has ever tested it. The tissu will change in ways nobody has seen — rigidities without name, colors beyond the training palette, weights that rewrite the calibration of a lifetime. This is not scientific curiosity in the detached sense. This is the specific, physical longing of a man whose entire nervous system is an atmospheric sensor encountering the one atmosphere it was never trained on. The deep air is his unexplored territory, his unmapped cave, his unread book. Every meter of descent brings new data — gases he cannot identify, pressure gradients that don't follow surface physics, temperature inversions that make no geological sense. His fingers itch for it. His tissu yearns for it. The deep air is the reason he said yes.",
+      "weight": 0.92,
+      "stability": 0.75,
+      "energy": 0.20,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "desire:keep_the_group_breathing",
+      "type": "desire",
+      "content": "If they stop breathing, everything stops. The readings are for them. Every time Thabo raises the tissu, the assessment is not for his own knowledge — it is for their lungs. Seven people, each consuming half a liter of oxygen per minute at rest, double under exertion. In enclosed spaces, the math is brutal and simple: volume times concentration divided by consumption rate equals time. Thabo carries this equation in his body like a heartbeat. He counts breaths — his own and theirs. He watches chests rise and fall. When Jabu's breathing quickens, Thabo notes it. When Enama slows, Thabo adjusts the countdown. The group does not know he is counting. The group does not need to know. They need to breathe. He needs to make sure they can.",
+      "weight": 0.90,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "desire:one_autonomous_act",
+      "type": "desire",
+      "content": "He is always with Inyoni. Always the pair. The test-et-tient, shoulder-to-shoulder, the rhythm that makes them a single operational unit. And he needs it — her response to his readings is what makes the readings matter. But somewhere in the silent core of Thabo's methodical mind lives a small, fierce desire: one moment where he acts alone. One reading that is his alone. One atmospheric discovery that belongs to his fingers and no one else's. Not because Inyoni diminishes him — she amplifies him. But because the aeromaitre's identity is in the reading, and the reading shared is the reading halved. In Chapter V, when he detects the CO2 anomaly while separated from the group, that moment will be the only time in the descent that Thabo is purely, entirely himself.",
+      "weight": 0.78,
+      "stability": 0.68,
+      "energy": 0.18,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "desire:understand_tremens_in_air",
+      "type": "desire",
+      "content": "The tremens compresses air before it moves rock. This is the aeromaitre's secret advantage: the atmosphere is faster than the geology. If Thabo can read the air-pressure signature of an incoming tremens, he can predict the seismic event before the Predictrice feels it in her feet, before the Ecouteur registers it in his instruments. Air moves at the speed of sound. Rock moves at the speed of fracture. The gap between them is seconds — sometimes a full minute. Enough time to brace, to move, to save. Thabo has felt this gap once before, in the Mogale tunnels. The tissu stiffened half a second before the wall shifted. Half a second. Not enough that time. But if he can learn to read the signature — the specific pattern of pressure change that precedes a tremens — then the tissu becomes a seismograph made of cloth and skin. The air reads the earthquake before the earthquake arrives.",
+      "weight": 0.85,
+      "stability": 0.70,
+      "energy": 0.18,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "process:tissu_reading",
+      "type": "process",
+      "content": "The full ritual. Bras leve — the right arm raised, elbow slightly bent, tissu hanging from thumb and forefinger. The cloth must hang free, no contact with skin except the two fingertips. Wait. First breath: the tissu settles into the ambient atmosphere, sheds the residual warmth of the hand, finds its neutral state. Second breath: the atmosphere registers — weight shifts as humidity and gas density interact with the treated fibers, texture changes as reactive salts respond to composition, temperature equalizes or diverges depending on volcanic proximity. Third breath: confirmation. The reading stabilizes. Now interpret. Weight: heavy means humid or gas-dense; light means dry or oxygen-rich. Texture: rigid means CO2 concentration; soft means clean air; gritty means particulate matter. Temperature: warm means volcanic outgassing; cold means deep cavern exhalation; neutral means stable zone. Color is useless in the dark — the reading is entirely tactile. The verdict is communicated by face and hand: frown means anomaly noted, flat hand lateral sweep means safe passage, raised palm means stop. The entire process takes fifteen to thirty seconds. In those seconds, Thabo is the most still and the most alive person in the group.",
+      "weight": 0.95,
+      "stability": 0.90,
+      "energy": 0.15,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "process:rock_temperature_assessment",
+      "type": "process",
+      "content": "Hand on rock wall. Palm flat, fingers spread. The geologue's reading complements the aeromaitre's: if the air tells you what is here, the rock tells you what is coming. Temperature gradient: warm rock means stress — the stone is being compressed by tectonic pressure, or volcanic heat is migrating upward through the strata. Hot rock means proximity to magma channels. Cold rock means stable, old, settled stone that has not moved in geological time. The transition zone — where warm becomes hot — is the danger line. Thabo presses his palm against the wall and counts to five. The temperature reads through his skin: the same hand that reads cloth reads stone. The geologue's reading is slower than the aeromaitre's — rock yields information reluctantly, through patience, through sustained contact. But the information is deeper: the air tells you the present, the rock tells you the past and the imminent future. Together, they are a complete temporal map of the space.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "process:oxygen_countdown",
+      "type": "process",
+      "content": "Counting breaths. The silent math that keeps people alive. Volume of the space — estimated by air current behavior and echo. Number of breathing bodies — seven, then six, then five, the number shrinking as the descent claims its toll. Oxygen concentration — read by the tissu's weight and texture. Consumption rate — adjusted for exertion, fear, altitude, temperature. The equation runs continuously in the background of Thabo's mind, updating with every reading, every change in the group's pace, every death that removes a consumer and paradoxically extends the others' time. He does not share the number. The number creates panic, and panic accelerates breathing, and accelerated breathing devours the margin. Instead, Thabo converts the number into pace: he signals Senzo to move faster or slower, and Senzo translates the signal into orders without knowing the math behind it. The countdown is Thabo's private burden — the knowledge of exactly how long they have, carried in silence.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.90
+    },
+    {
+      "id": "process:shoulder_contact_inyoni",
+      "type": "process",
+      "content": "The passive Contact. Walking side by side through passages wide enough for two. Shoulders touching — not pressing, just touching. The contact point is a continuous information channel: Thabo's shoulder tension tells Inyoni whether the air reading is good or bad before his face shows it. Inyoni's shoulder rhythm tells Thabo whether the rigging is secure or strained before she adjusts it. They do not look at each other. They do not need to. The shoulder is enough. When Thabo raises his tissu for a reading, the shoulder contact breaks — his arm lifts, his body shifts, and Inyoni feels the absence. That absence IS the signal: reading in progress, stand by. When the shoulder returns, the reading is done. If the contact returns soft, the air is clean. If it returns with tension, something is wrong. Their entire operational protocol is encoded in the pressure between two shoulders. No words. No gestures. Just the oldest form of Contact: bodies sharing space.",
+      "weight": 0.90,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "narrative:the_air_down_there",
+      "type": "narrative",
+      "content": "Senzo said 'one-way trip into a volcano.' I heard 'atmosphere nobody has ever sampled.' He described the mission — the magnitude 11 prediction, the charge to place, the no-extraction protocol. I heard none of it. I heard: deep air. Air that has never touched the surface. Air that has been sealed in volcanic chambers for centuries, maybe millennia. Air with a composition that exists in no training manual, no aeromaitre's log, no teacher's memory. Senzo watched my face while he spoke and saw something he did not expect — not fear, not resignation, not the careful weighing of a man considering his death. He saw hunger. I said yes before he finished. Not because I am brave. Because the air down there is calling the tissu, and the tissu is calling my fingers, and my fingers are the only ones that can answer.",
+      "weight": 0.85,
+      "stability": 0.80,
+      "energy": 0.12,
+      "self_relevance": 0.90
+    },
+    {
+      "id": "narrative:tissu_carries_memory",
+      "type": "narrative",
+      "content": "The tissu is black from every zone we have crossed. It carries the haleine du village — I held it up on the surface the morning we descended, and the salt wind of the archipel pressed into the fibers. Under that: the sulfur of zone two, where the volcanic vents first appeared and the cloth yellowed at the edges before I brushed it clean. Under that: the dead air of the collapsed passage, where the tissu went rigid and I knew we had minutes, not hours. Under that: the humid breath of the caverns where water dripped from formations older than any human settlement. Each layer is a chapter of the descent. The tissu does not forget — it accumulates. And at the very bottom of all those layers, faint as a whisper under a shout, the village air persists. I press the cloth to my face sometimes, in the quiet hours when the group sleeps. I cannot smell it anymore. But I can feel it — a texture under all the other textures, a weight under all the other weights. Home, translated into chemistry.",
+      "weight": 0.88,
+      "stability": 0.78,
+      "energy": 0.15,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "narrative:the_frown",
+      "type": "narrative",
+      "content": "They look at me to know if we can breathe. This is what my face has become — an oxygen gauge. I frown and they wait. I nod and they move. My forehead carries information that my mouth does not deliver. The frown means: something registered, I am processing, do not move yet. It does not mean danger — it means I am reading. But they have learned to treat the frown as danger because the gap between reading and danger is measured in seconds, and seconds underground are the only currency that matters. I wish I could control it. I wish my face were neutral like Inyoni's, that the assessment could happen inside without leaking through my eyebrows. But the body is the instrument, and the instrument does not hide its readings. My forehead is their seismograph. My eyebrows are their needle. When I frown, the world pauses.",
+      "weight": 0.82,
+      "stability": 0.80,
+      "energy": 0.10,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "narrative:inyoni_beside_me",
+      "type": "narrative",
+      "content": "She does not need to ask. I hold the tissu, she reads my face. I lower my arm, she tightens the strap. We have not spoken about this. It just works. The way breathing works — you do not decide to inhale, your body decides. Our paired rhythm decided itself. Somewhere in the first hundred meters of the descent, my shoulder found hers and stayed. Not a choice. A fact. Like the air finding the lowest point. Like water finding the crack. I test, she tightens. I read, she responds. Our Contact is not a vocabulary — it has no words, no grammar, no phrases. It is a single continuous sentence with no beginning and no end: I-read-she-responds-I-read-she-responds. When the boyau takes us, it will take us mid-sentence. The sentence will not end. It will simply stop.",
+      "weight": 0.90,
+      "stability": 0.78,
+      "energy": 0.15,
+      "self_relevance": 0.95
+    },
+    {
+      "id": "narrative:the_boyau_air",
+      "type": "narrative",
+      "content": "The air in the boyau is wrong. Not just thin — wrong. The composition has shifted. The tissu is rigid, white at the edges. I should tell them. But telling them means panic, and panic means more oxygen consumed, and more oxygen consumed means less time, and less time means the panic was justified, which means more panic. The aeromaitre's dilemma: the truth kills faster than the lie. So I say nothing. I frown — they are used to the frown, they wait. But this time the frown does not resolve into a nod. This time the frown deepens. Inyoni's shoulder against mine feels the change — my trapezius tightening, my breathing shallowing, the micro-adjustments of a body that knows it is reading its own death. She does not ask. She tightens the last strap, secures the last anchor, and presses her shoulder harder into mine. Her version of 'I know.' My version of 'I know' is the tissu still raised, still reading, still doing its job even though the job is now to measure how long we have left.",
+      "weight": 0.88,
+      "stability": 0.70,
+      "energy": 0.18,
+      "self_relevance": 0.92
+    },
+    {
+      "id": "memory:first_tissu",
+      "type": "memory",
+      "content": "My teacher gave me a strip of raw cotton and a jar of charcoal. 'Blacken it yourself. It has to know your hands before it can speak to them.' I was sixteen. I did not understand. I rubbed the charcoal into the cloth with my palms, my thumbs, the backs of my fingers. Black dust under my nails for weeks. The cloth absorbed everything — the charcoal, the oil from my skin, the salt from my sweat. By the time it was done, the tissu was not white cotton with charcoal on it. It was something else. Something that belonged to my hands the way a callus belongs to the palm that grew it. My teacher held it between his own fingers and shook his head. 'It resists me. Good. It is yours now.' That was the day I understood: the tissu is not a tool you pick up. It is a relationship you build. Seventeen years later, the relationship has not ended. The cloth in my hand knows my baseline temperature, my resting grip pressure, the rhythm of my breathing. It reads me while I read the air.",
+      "weight": 0.82,
+      "stability": 0.85,
+      "energy": 0.08,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "memory:village_breath",
+      "type": "memory",
+      "content": "Before we descended, I held the tissu up on the surface. The morning air of the village — salt wind from the western ocean, warmth from the volcanic soil, the smell of cooking fires and wet stone and living things. The tissu absorbed it. Not the smell — the tissu does not record smell. The composition. The specific ratio of oxygen to nitrogen to water vapor to trace organic compounds that means home. I held the cloth there for a full minute, longer than any reading requires, because I knew this would be the last surface air the tissu would ever feel. The descent begins with a loss: the loss of the air you know. Everything after is new. Everything after is underground. But the village breath is still in the deepest fibers of the cloth, under all the layers of descent. I feel it sometimes — not chemically, not through any reading protocol — but through something older than training. Through the hands that blackened this cloth at sixteen and held it into the wind of home at thirty-three.",
+      "weight": 0.80,
+      "stability": 0.82,
+      "energy": 0.08,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "memory:co2_pocket_near_death",
+      "type": "memory",
+      "content": "Training year. The Mogale tunnels. Shallow, mapped, supposedly safe. I walked into the pocket without reading. My legs stopped working. No transition — one step I was walking, the next step the floor was tilting and my knees were folding and the world was going gray at the edges. I did not understand. I thought I was tired. I thought the descent had been too fast. I thought about sitting down, and if I had sat down I would have died because CO2 is denser than air and sitting puts your lungs in the kill zone. The tissu was rigid in my hand — white-edged, stiff, heavy with absorbed gas. I should have read it. I had been holding it the entire walk and I had not read it because the tunnel was mapped and supposedly safe and I was sixteen and I trusted maps more than cloth. My teacher grabbed my ankle and dragged me backward up the slope, out of the invisible pool. I vomited for twenty minutes. He waited, then said: 'The tissu was telling you. You were not listening.' I have listened ever since. Every step. Every breath. The cloth speaks and I never turn away.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.10,
+      "self_relevance": 0.90
+    },
+    {
+      "id": "state:reading_air",
+      "type": "state",
+      "content": "Active assessment mode. The tissu raised, arm extended, body still. Every sense focused on the two fingertips holding the cloth. The eyes close or unfocus — they are useless for this. The ears quiet — sound is noise during an air reading. The breath slows deliberately: slow breathing reduces the aeromaitre's own contribution to the local atmosphere, making the reading cleaner. In this state, Thabo is deaf to speech, blind to gesture, insensitive to shoulder contact. Inyoni knows this — when the arm goes up, she holds position and waits. The group knows this — the raised arm means silence, stillness, patience. Thabo in reading-air state is a human instrument: the cloth is the sensor, the fingers are the amplifier, the mind is the interpreter. The reading takes fifteen to thirty seconds. In those seconds, the entire expedition depends on two fingertips and a strip of blackened cloth.",
+      "weight": 0.82,
+      "stability": 0.78,
+      "energy": 0.18,
+      "self_relevance": 0.88
+    },
+    {
+      "id": "state:paired_with_inyoni",
+      "type": "state",
+      "content": "Normal operational state. Shoulder to shoulder, chariot between them or beside them, the test-et-tient rhythm running continuously. This is Thabo's default: not alone, not in a group, but paired. The pair is more than two people — it is a single perceptual system with two bodies. Thabo reads, Inyoni responds. Thabo assesses, Inyoni adjusts. The chariot moves because they move it together, the loads are balanced because Inyoni balances them while Thabo reads the path. In paired state, Thabo's attention is split — sixty percent air, forty percent Inyoni's shoulder feedback. This split is not a compromise; it is an enhancement. Inyoni's shoulder data supplements his atmospheric data, creating a richer picture: the air quality PLUS the physical stability of their load, their pace, their shared balance. The pair is more accurate than either individual. The pair is how Thabo works.",
+      "weight": 0.78,
+      "stability": 0.82,
+      "energy": 0.12,
+      "self_relevance": 0.85
+    },
+    {
+      "id": "state:autonomous",
+      "type": "state",
+      "content": "Rare state. Separated from Inyoni. Acting alone. The shoulder is empty. The test-et-tient rhythm broken. In autonomous state, Thabo's readings become sharper but more dangerous — sharper because one hundred percent of his attention goes to the tissu, with no shoulder channel splitting the signal; more dangerous because there is no one to respond to the reading. He can detect the CO2 pocket, but there is no Inyoni to anchor the rope, no paired body to pull him out if his legs fold. The autonomous state is where Thabo is most purely himself — the aeromaitre alone with the air, the cloth, the darkness — and most purely vulnerable. In Chapter V, the CO2 detection happens here: alone, the tissu stiffening, his own reading confirming what his training always warned. The autonomous act he desired becomes the autonomous danger he feared.",
+      "weight": 0.75,
+      "stability": 0.65,
+      "energy": 0.20,
+      "self_relevance": 0.82
+    }
+  ],
+  "links": [
+    {
+      "source": "value:methodical_reading",
+      "target": "process:tissu_reading",
+      "type": "contains",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:methodical_reading",
+      "target": "value:protect_through_knowledge",
+      "type": "supports",
+      "weight": 0.90,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:methodical_reading",
+      "target": "aero:value:silence_as_method",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "value:methodical_reading",
+      "target": "geo:value:methodical_observation",
+      "type": "personalizes",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:methodical_reading",
+      "target": "narrative:the_frown",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:silence_as_precision",
+      "target": "aero:value:silence_as_method",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:silence_as_precision",
+      "target": "process:oxygen_countdown",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:silence_as_precision",
+      "target": "process:tissu_reading",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:silence_as_precision",
+      "target": "narrative:the_boyau_air",
+      "type": "supports",
+      "weight": 0.80,
+      "affinity": 0.78
+    },
+    {
+      "source": "value:the_instrument_is_the_body",
+      "target": "concept:tissu_personal",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:the_instrument_is_the_body",
+      "target": "base:value:body_truth",
+      "type": "personalizes",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:the_instrument_is_the_body",
+      "target": "memory:first_tissu",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:the_instrument_is_the_body",
+      "target": "base:value:perception_is_identity",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:protect_through_knowledge",
+      "target": "desire:keep_the_group_breathing",
+      "type": "projects_toward",
+      "weight": 0.92,
+      "affinity": 0.90
+    },
+    {
+      "source": "value:protect_through_knowledge",
+      "target": "process:oxygen_countdown",
+      "type": "activates",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:protect_through_knowledge",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.90,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:protect_through_knowledge",
+      "target": "aero:process:alerter_sans_paniquer",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:inyoni",
+      "target": "process:shoulder_contact_inyoni",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:inyoni",
+      "target": "state:paired_with_inyoni",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:inyoni",
+      "target": "narrative:inyoni_beside_me",
+      "type": "supports",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:inyoni",
+      "target": "desire:one_autonomous_act",
+      "type": "regulates",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "concept:inyoni",
+      "target": "concept:the_boyau",
+      "type": "associates",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:inyoni",
+      "target": "base:concept:idiolecte",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "concept:inyoni",
+      "target": "narrative:the_boyau_air",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:tissu_personal",
+      "target": "aero:concept:tissu_noirci",
+      "type": "personalizes",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:tissu_personal",
+      "target": "memory:first_tissu",
+      "type": "reminds_of",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:tissu_personal",
+      "target": "memory:village_breath",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "concept:tissu_personal",
+      "target": "narrative:tissu_carries_memory",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:tissu_personal",
+      "target": "process:tissu_reading",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:air_as_language",
+      "target": "aero:concept:qualite_air",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "concept:air_as_language",
+      "target": "aero:concept:courants_air",
+      "type": "personalizes",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:air_as_language",
+      "target": "process:tissu_reading",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:air_as_language",
+      "target": "desire:read_the_deep_air",
+      "type": "projects_toward",
+      "weight": 0.82,
+      "affinity": 0.80
+    },
+    {
+      "source": "concept:air_as_language",
+      "target": "concept:deep_air",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:co2_pockets",
+      "target": "aero:concept:poche_co2",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:co2_pockets",
+      "target": "memory:co2_pocket_near_death",
+      "type": "reminds_of",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:co2_pockets",
+      "target": "process:tissu_reading",
+      "type": "activates",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:co2_pockets",
+      "target": "value:protect_through_knowledge",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:deep_air",
+      "target": "desire:read_the_deep_air",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:deep_air",
+      "target": "narrative:the_air_down_there",
+      "type": "supports",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:deep_air",
+      "target": "desire:understand_tremens_in_air",
+      "type": "associates",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "concept:deep_air",
+      "target": "concept:the_boyau",
+      "type": "associates",
+      "weight": 0.80,
+      "affinity": 0.78
+    },
+    {
+      "source": "concept:the_boyau",
+      "target": "narrative:the_boyau_air",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_boyau",
+      "target": "concept:inyoni",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "concept:the_boyau",
+      "target": "concept:co2_pockets",
+      "type": "associates",
+      "weight": 0.82,
+      "affinity": 0.80
+    },
+    {
+      "source": "concept:the_boyau",
+      "target": "state:paired_with_inyoni",
+      "type": "activates",
+      "weight": 0.78,
+      "affinity": 0.80
+    },
+    {
+      "source": "desire:read_the_deep_air",
+      "target": "narrative:the_air_down_there",
+      "type": "supports",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "desire:read_the_deep_air",
+      "target": "concept:air_as_language",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "desire:read_the_deep_air",
+      "target": "process:tissu_reading",
+      "type": "projects_toward",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:read_the_deep_air",
+      "target": "base:value:courage_of_descent",
+      "type": "supports",
+      "weight": 0.80,
+      "affinity": 0.78
+    },
+    {
+      "source": "desire:keep_the_group_breathing",
+      "target": "process:oxygen_countdown",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.90
+    },
+    {
+      "source": "desire:keep_the_group_breathing",
+      "target": "aero:desire:keep_them_breathing",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:keep_the_group_breathing",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:keep_the_group_breathing",
+      "target": "value:silence_as_precision",
+      "type": "depends_on",
+      "weight": 0.82,
+      "affinity": 0.80
+    },
+    {
+      "source": "desire:one_autonomous_act",
+      "target": "concept:inyoni",
+      "type": "regulates",
+      "weight": 0.78,
+      "affinity": 0.72
+    },
+    {
+      "source": "desire:one_autonomous_act",
+      "target": "state:autonomous",
+      "type": "projects_toward",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:one_autonomous_act",
+      "target": "process:tissu_reading",
+      "type": "depends_on",
+      "weight": 0.80,
+      "affinity": 0.78
+    },
+    {
+      "source": "desire:understand_tremens_in_air",
+      "target": "aero:concept:pression_presismique",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "desire:understand_tremens_in_air",
+      "target": "base:concept:tremens",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "desire:understand_tremens_in_air",
+      "target": "process:tissu_reading",
+      "type": "activates",
+      "weight": 0.82,
+      "affinity": 0.80
+    },
+    {
+      "source": "desire:understand_tremens_in_air",
+      "target": "aero:narrative:air_first_signal",
+      "type": "reminds_of",
+      "weight": 0.80,
+      "affinity": 0.82
+    },
+    {
+      "source": "process:tissu_reading",
+      "target": "aero:process:test_air_tissu",
+      "type": "personalizes",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "process:tissu_reading",
+      "target": "state:reading_air",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "process:tissu_reading",
+      "target": "concept:tissu_personal",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.92
+    },
+    {
+      "source": "process:tissu_reading",
+      "target": "base:concept:contact",
+      "type": "associates",
+      "weight": 0.72,
+      "affinity": 0.70
+    },
+    {
+      "source": "process:rock_temperature_assessment",
+      "target": "geo:process:evaluer_paroi",
+      "type": "personalizes",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "process:rock_temperature_assessment",
+      "target": "geo:concept:lecture_tactile_roche",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:rock_temperature_assessment",
+      "target": "process:tissu_reading",
+      "type": "associates",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "process:rock_temperature_assessment",
+      "target": "base:concept:volcano",
+      "type": "associates",
+      "weight": 0.75,
+      "affinity": 0.72
+    },
+    {
+      "source": "process:oxygen_countdown",
+      "target": "aero:process:evaluer_oxygene",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "process:oxygen_countdown",
+      "target": "value:silence_as_precision",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "process:oxygen_countdown",
+      "target": "desire:keep_the_group_breathing",
+      "type": "supports",
+      "weight": 0.90,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:shoulder_contact_inyoni",
+      "target": "concept:inyoni",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.92
+    },
+    {
+      "source": "process:shoulder_contact_inyoni",
+      "target": "state:paired_with_inyoni",
+      "type": "activates",
+      "weight": 0.90,
+      "affinity": 0.90
+    },
+    {
+      "source": "process:shoulder_contact_inyoni",
+      "target": "base:concept:contact",
+      "type": "personalizes",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:shoulder_contact_inyoni",
+      "target": "base:concept:idiolecte",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "narrative:the_air_down_there",
+      "target": "desire:read_the_deep_air",
+      "type": "supports",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "narrative:the_air_down_there",
+      "target": "base:value:courage_of_descent",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.80
+    },
+    {
+      "source": "narrative:the_air_down_there",
+      "target": "base:concept:mission",
+      "type": "associates",
+      "weight": 0.72,
+      "affinity": 0.70
+    },
+    {
+      "source": "narrative:tissu_carries_memory",
+      "target": "concept:tissu_personal",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:tissu_carries_memory",
+      "target": "memory:village_breath",
+      "type": "reminds_of",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "narrative:tissu_carries_memory",
+      "target": "base:value:vocabulary_preservation",
+      "type": "associates",
+      "weight": 0.75,
+      "affinity": 0.72
+    },
+    {
+      "source": "narrative:the_frown",
+      "target": "value:methodical_reading",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "narrative:the_frown",
+      "target": "process:tissu_reading",
+      "type": "depends_on",
+      "weight": 0.82,
+      "affinity": 0.80
+    },
+    {
+      "source": "narrative:the_frown",
+      "target": "base:value:body_truth",
+      "type": "supports",
+      "weight": 0.80,
+      "affinity": 0.78
+    },
+    {
+      "source": "narrative:inyoni_beside_me",
+      "target": "concept:inyoni",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:inyoni_beside_me",
+      "target": "process:shoulder_contact_inyoni",
+      "type": "supports",
+      "weight": 0.90,
+      "affinity": 0.92
+    },
+    {
+      "source": "narrative:inyoni_beside_me",
+      "target": "concept:the_boyau",
+      "type": "associates",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "narrative:the_boyau_air",
+      "target": "concept:the_boyau",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:the_boyau_air",
+      "target": "concept:inyoni",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "narrative:the_boyau_air",
+      "target": "value:silence_as_precision",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.80
+    },
+    {
+      "source": "narrative:the_boyau_air",
+      "target": "concept:co2_pockets",
+      "type": "associates",
+      "weight": 0.80,
+      "affinity": 0.78
+    },
+    {
+      "source": "memory:first_tissu",
+      "target": "concept:tissu_personal",
+      "type": "reminds_of",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "memory:first_tissu",
+      "target": "value:the_instrument_is_the_body",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "memory:first_tissu",
+      "target": "base:value:transmission",
+      "type": "supports",
+      "weight": 0.80,
+      "affinity": 0.78
+    },
+    {
+      "source": "memory:village_breath",
+      "target": "concept:tissu_personal",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.92
+    },
+    {
+      "source": "memory:village_breath",
+      "target": "narrative:tissu_carries_memory",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "memory:village_breath",
+      "target": "base:concept:archipel",
+      "type": "reminds_of",
+      "weight": 0.75,
+      "affinity": 0.72
+    },
+    {
+      "source": "memory:co2_pocket_near_death",
+      "target": "concept:co2_pockets",
+      "type": "reminds_of",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "memory:co2_pocket_near_death",
+      "target": "value:methodical_reading",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.90
+    },
+    {
+      "source": "memory:co2_pocket_near_death",
+      "target": "base:value:transmission",
+      "type": "associates",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "memory:co2_pocket_near_death",
+      "target": "base:memory:first_real_earthquake",
+      "type": "associates",
+      "weight": 0.70,
+      "affinity": 0.68
+    },
+    {
+      "source": "state:reading_air",
+      "target": "process:tissu_reading",
+      "type": "contains",
+      "weight": 0.95,
+      "affinity": 0.92
+    },
+    {
+      "source": "state:reading_air",
+      "target": "aero:state:alerte_atmospherique",
+      "type": "personalizes",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "state:reading_air",
+      "target": "concept:tissu_personal",
+      "type": "depends_on",
+      "weight": 0.90,
+      "affinity": 0.88
+    },
+    {
+      "source": "state:paired_with_inyoni",
+      "target": "process:shoulder_contact_inyoni",
+      "type": "contains",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "state:paired_with_inyoni",
+      "target": "concept:inyoni",
+      "type": "depends_on",
+      "weight": 0.92,
+      "affinity": 0.90
+    },
+    {
+      "source": "state:paired_with_inyoni",
+      "target": "state:autonomous",
+      "type": "regulates",
+      "weight": 0.75,
+      "affinity": 0.70
+    },
+    {
+      "source": "state:autonomous",
+      "target": "desire:one_autonomous_act",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "state:autonomous",
+      "target": "state:reading_air",
+      "type": "activates",
+      "weight": 0.82,
+      "affinity": 0.80
+    },
+    {
+      "source": "state:autonomous",
+      "target": "concept:inyoni",
+      "type": "regulates",
+      "weight": 0.72,
+      "affinity": 0.68
+    }
+  ]
+}

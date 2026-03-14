@@ -1,0 +1,1883 @@
+{
+  "cluster_id": "things_world",
+  "description": "All objects, tools, instruments, materials, and crafted goods of Contre-Terre",
+  "nodes": [
+    {
+      "id": "thing:corde_encordement",
+      "type": "outil",
+      "content": "Corde d'encordement triple-tresse Ndaba. Cinquante metres de fibre de racine profonde, torsadee en trois brins par les tisserandes de Ndaba. Souple sous la main, dense au toucher, elle vibre a la frequence du Sommeil sans se deformer. Les quarante-sept fibres de chaque brin transmettent le Contact-corde sans distorsion — une secousse longue pour avancer, deux courtes pour compris, trois pour stop. La corde est un medium linguistique autant qu'un outil de securite. Elle sent la terre humide et le sel de sueur. En surface, elle est blanche creme. Au chapitre VI, elle est grise, raidie, dessechee par la chaleur. Au chapitre VIII, il en reste dix metres — un moignon que Nandi utilise pour trainer la Charge dans les decombres.",
+      "weight": 0.9,
+      "stability": 0.7,
+      "energy": 0.1,
+      "self_relevance": 0.85,
+      "properties": {
+        "weight_kg": 4.5,
+        "durability": "haute — resiste aux vibrations magnitude 7, se fragilise a la chaleur au-dela de 70C",
+        "origin_archipel": "Ndaba, Archipel du Sud",
+        "who_uses_it": "grimpeuse, tous les membres de l'expedition",
+        "length_m": 50,
+        "degradation_curve": "Ch.I-III: 200m neuves | Ch.IV: 140m etirees | Ch.V: 80m humides | Ch.VI: 50m dessechees | Ch.VII: 10m tranchees | Ch.VIII: 10m moignon"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:corde_standard",
+      "type": "outil",
+      "content": "Corde standard a brin simple. Fibre de racine profonde torsadee en un seul brin, sans la complexite de la triple-tresse. Utilisee pour les sangles, les fixations, les hamacs, le transport. Moins precise pour le Contact-corde — elle transmet le signal mais avec du bruit, comme une voix dans le vent. Les caravanes en transportent des centaines de metres. Les villages en produisent couramment. Elle est le materiau de base de toute construction sur Contre-Terre : rien n'est rigide, tout est attache, sangle, suspendu.",
+      "weight": 0.6,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 0.8,
+        "durability": "moyenne — s'use aux frottements, le sel la fragilise",
+        "origin_archipel": "tous les archipels, meilleure qualite a Ndaba",
+        "who_uses_it": "tous",
+        "variations": "longueurs de 5m a 100m, epaisseurs variables"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:pitons_basalte",
+      "type": "outil",
+      "content": "Pitons de basalte. Pointes taillees dans du basalte dense, effilees par les tailleurs de Mantolo selon la technique du coin sismique — on place la preforme dans une fissure naturelle du granite et on attend la prochaine replique de magnitude 5 pour que la roche se fende exactement ou on veut. Le piton qui en resulte est un clou mineral, noir, brillant, a la pointe aussi fine qu'une aiguille d'obsidienne. On l'enfonce dans les fissures des parois pour ancrer les cordes. Il ne rouille pas. Il ne fond pas. Il casse net a magnitude 8 — c'est sa seule faiblesse.",
+      "weight": 0.7,
+      "stability": 0.8,
+      "energy": 0.05,
+      "self_relevance": 0.6,
+      "properties": {
+        "weight_kg": 0.3,
+        "durability": "haute — casse net au-dela de magnitude 8",
+        "origin_archipel": "Mantolo, Archipel du Nord",
+        "who_uses_it": "grimpeuse, speleologue, mineur"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:marteaux_roche",
+      "type": "outil",
+      "content": "Marteaux de roche de Mantolo. Un bloc de granite poli, ovale, de la taille d'un poing, emmanche sur un manche de basalte lie par des sangles de fibre. Le marteau ne sert pas a frapper — il sert a placer. On positionne un coin dans une fissure, on pose le marteau dessus, et on attend le seisme. La terre frappe pour vous. Le mineur n'est pas un briseur de roche — c'est un placeur de coins. Le marteau est son instrument de precision, pas sa force brute. Le poids du granite dans la main a un equilibre parfait — les tailleurs de Mantolo passent des jours a polir chaque tete jusqu'a ce qu'elle tienne en equilibre sur un doigt.",
+      "weight": 0.7,
+      "stability": 0.85,
+      "energy": 0.05,
+      "self_relevance": 0.55,
+      "properties": {
+        "weight_kg": 1.8,
+        "durability": "tres haute — le granite survit a tout sauf au magma",
+        "origin_archipel": "Mantolo, Archipel du Nord",
+        "who_uses_it": "mineur, geologue"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:coins_basalte",
+      "type": "outil",
+      "content": "Coins de basalte. Petits prismes triangulaires de basalte dense, tailles avec une precision millimetrique. On les insere dans les fissures naturelles de la roche et on attend que le seisme suivant fasse le travail. Un tailleur de Mantolo sait ou placer un coin pour que la roche se fende exactement la ou il veut — c'est un art de la patience tectonique. Les coins sont consommables : chaque fracture les use, les emousse, les reduit. Un mineur emporte des dizaines de coins pour une expedition. Au chapitre V, il n'en reste plus — Sihle est mort avec la connaissance de ou les placer.",
+      "weight": 0.65,
+      "stability": 0.8,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 0.15,
+        "durability": "moyenne — consommable, s'emousse a chaque usage",
+        "origin_archipel": "Mantolo, Archipel du Nord",
+        "who_uses_it": "mineur, geologue"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:lames_obsidienne",
+      "type": "outil",
+      "content": "Lames d'obsidienne. Eclats de verre volcanique, noirs, translucides sur les bords, tranchants comme rien d'autre dans ce monde. L'obsidienne vient des zones volcaniques du piemont — la ou la lave a refroidi si vite qu'elle n'a pas eu le temps de cristalliser. Les lames sont taillees par percussion — un coup sec sur le bord d'un nodule, et un eclat se detache avec un tranchant de quelques molecules d'epaisseur. On coupe le cuir, la fibre, la chair. On ne coupe pas la roche. La lame est fragile — un choc sur du basalte la brise en tessons. On la porte dans un etui de cuir plie, contre la hanche, toujours accessible, toujours protegee.",
+      "weight": 0.65,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 0.08,
+        "durability": "basse — tranchant extreme mais fragile aux chocs",
+        "origin_archipel": "Bhekisisa, Archipel du Centre-Sud",
+        "who_uses_it": "tous — outil universel de coupe"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:aiguilles_suture",
+      "type": "outil",
+      "content": "Aiguilles de suture. Fines pointes d'os ou de basalte poli, percees d'un chas minuscule ou la fibre de racine s'enfile. On recoud le cuir des gourdes, le tissu des hamacs, les sangles des harnais. On recoud aussi la peau — Enama sait suturer une plaie dans le noir, au toucher, pendant un seisme de magnitude 5. L'aiguille est si petite qu'on la perd facilement dans les vibrations. On la garde piquee dans un morceau de cuir epais, attache au poignet par un fil.",
+      "weight": 0.5,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 0.005,
+        "durability": "moyenne — cassante si mal orientee",
+        "origin_archipel": "tous les archipels",
+        "who_uses_it": "cuisiniere, survivaliste, biologiste"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:crochets_speleo",
+      "type": "outil",
+      "content": "Crochets de speleo. Pieces de basalte courbe, polies, en forme de griffe, que l'on accroche aux saillies de la roche pour ancrer une corde ou suspendre un corps. Plus legers que les pitons, plus rapides a poser, moins fiables dans la duree. Les speleologues des Creuses les utilisent pour les descentes rapides dans les puits karstiques — on accroche, on descend, on recupere en tirant. Le crochet ne s'enfonce pas dans la roche — il s'agrippe. La difference est fondamentale : le piton resiste par friction, le crochet par geometrie. Un seisme peut deloger un crochet si l'angle change.",
+      "weight": 0.6,
+      "stability": 0.65,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 0.4,
+        "durability": "moyenne — depend de la geometrie de l'ancrage",
+        "origin_archipel": "Sibaya, Archipel du Sud-Ouest (Les Creuses)",
+        "who_uses_it": "speleologue, grimpeuse"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:leviers_pierre",
+      "type": "outil",
+      "content": "Leviers de pierre. Barres de basalte allongees, de la longueur d'un bras, polies pour la prise. On les utilise pour deplacer les blocs qui obstruent un passage apres un effondrement, pour ecarter les levres d'une fissure, pour caler une roche instable. Le levier est l'outil le plus simple et le plus ancien de Contre-Terre — un prolongement du bras dans un monde ou le bras seul ne suffit pas. Les mineurs du Nord les taillent dans le granite. Les speleologues des Creuses preferent le calcaire, plus leger mais plus fragile.",
+      "weight": 0.55,
+      "stability": 0.8,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 3.0,
+        "durability": "haute — casse uniquement sous contrainte extreme",
+        "origin_archipel": "Mantolo ou Sibaya",
+        "who_uses_it": "mineur, speleologue"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:filets_capture",
+      "type": "outil",
+      "content": "Filets de capture. Mailles de fibre de racine tressees en losanges, assez fines pour capturer les arthropodes translucides des cavernes karstiques, assez solides pour resister aux vibrations de fond. Enama les deploie dans les bassins de gours, dans les films d'eau qui couvrent les surfaces horizontales des cavernes. Les isopodes blancs, les pseudoscorpions, les collemboles — tout ce qui vit par le toucher dans le monde karstique — finit dans le filet. Pas pour manger — pour observer. Enama etudie ce qui bouge avant de decider ce qui se mange.",
+      "weight": 0.5,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 0.3,
+        "durability": "basse — l'humidite et le sel degradent les mailles",
+        "origin_archipel": "Sibaya, Archipel du Sud-Ouest",
+        "who_uses_it": "biologiste, survivaliste"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:poulies_corde",
+      "type": "outil",
+      "content": "Poulies de corde. Un disque de basalte poli, creuse d'une gorge, monte sur un axe de pierre fixe par des sangles a un point d'ancrage. La corde passe dans la gorge. La poulie transforme un effort vertical en effort horizontal, un effort de traction en effort de levage. Les grimpeuses l'utilisent pour monter les charges dans les failles verticales — la Charge de trente-cinq kilos ne se hisse pas a bras : elle se hisse par poulie. Le basalte poli sur basalte poli offre un frottement faible mais non nul. La poulie ne tourne pas librement — elle grogne, elle resiste, elle demande de la force. Rien n'est gratuit dans le monde vertical.",
+      "weight": 0.6,
+      "stability": 0.75,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 1.2,
+        "durability": "haute — basalte poli, pas de pieces mobiles fragiles",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "grimpeuse, mineur"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:sangles_fixation",
+      "type": "outil",
+      "content": "Sangles de fixation. Bandes de fibre de racine, larges de trois doigts, tissees a plat pour repartir la pression. Inyoni en porte trente-deux — comptees chaque soir, verifiees chaque matin, comme une priere mecanique. Les sangles servent a tout : fixer la Charge au chariot, sangler un corps dans un harnais d'escalade, suspendre un hamac, attacher un caisson. Chaque sangle a sa place, son role, son numero dans la sequence d'Inyoni. Elle les compte comme on egraine un chapelet. Tient. Tient. Tient. Les sangles sont le tissu conjonctif de l'expedition — sans elles, tout se defait.",
+      "weight": 0.8,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.7,
+      "properties": {
+        "weight_kg": 0.15,
+        "durability": "moyenne-haute — les entailles de l'escalade marquent les epaules",
+        "origin_archipel": "Ndaba et Nkosazana",
+        "who_uses_it": "grimpeuse, tous",
+        "count_expedition": 32
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:batons_sondage",
+      "type": "outil",
+      "content": "Batons de sondage. Tiges de basalte longues d'un metre, effilees a une extremite. On les plante dans le sol devant soi pour tester la stabilite — un sol karstique peut ceder sous le pied, un sol fumeroilien peut s'effriter comme de la craie humide. Le baton enfonce : sol instable. Le baton resiste : sol porteur. Le baton vibre : sol charge, tension accumulee, attention. Les speleologues des Creuses les utilisent comme extension des pieds — un pied supplementaire qui teste le sol que les pieds nus ne peuvent pas encore toucher. Apres la mort de Jabu, plus personne ne sonde les fonds d'eau.",
+      "weight": 0.55,
+      "stability": 0.75,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 0.8,
+        "durability": "haute",
+        "origin_archipel": "Sibaya, Archipel du Sud-Ouest",
+        "who_uses_it": "speleologue, cartographe"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:grattoirs_sel",
+      "type": "outil",
+      "content": "Grattoirs de sel. Lames plates de basalte, emoussees volontairement — pas pour couper, mais pour racler. Les femmes de Nkosazana les utilisent pour gratter le sel cristallise sur les parois des fissures de gypse. Le geste est repetitif, precis, rythmique — on gratte au rythme du Sommeil, et le sel tombe en paillettes grises dans un sac de cuir. Les grattoiristes de Nkosazana sont les seules personnes de Contre-Terre a porter des gants de cuir pendant le travail — le sel ronge la peau. Quand elles retirent les gants, leurs paumes sont lisses, preservees, d'une sensibilite que les autres leur envient.",
+      "weight": 0.5,
+      "stability": 0.75,
+      "energy": 0.05,
+      "self_relevance": 0.35,
+      "properties": {
+        "weight_kg": 0.4,
+        "durability": "haute — le basalte s'emousse lentement",
+        "origin_archipel": "Nkosazana, Archipel de l'Est (Les Salines)",
+        "who_uses_it": "specialiste du sel"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:outils_taille",
+      "type": "outil",
+      "content": "Outils de taille de Mantolo. Un ensemble de coins, de burins et de percuteurs de granite, chacun calibre pour un type de roche et un type de fracture. Le tailleur de Mantolo n'utilise pas la force — il utilise les seismes. Il place ses coins dans les fissures naturelles de la roche, calcule le seuil de rupture, et attend la prochaine replique de magnitude 5 pour que la terre fasse le travail. L'outil n'est pas un prolongement du bras — c'est un intermediaire entre la volonte humaine et la force de la planete. Sihle y a appris la mecanique de la roche. Son oeil de mineur vient de ces heures passees a regarder la terre fendre le granite a travers un coin de basalte.",
+      "weight": 0.65,
+      "stability": 0.85,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 3.5,
+        "durability": "tres haute",
+        "origin_archipel": "Mantolo, Archipel du Nord",
+        "who_uses_it": "mineur, tailleur de roche"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:sismographe_portable",
+      "type": "instrument",
+      "content": "Sismographe portable d'Umzimkhulu. Un boitier de bois dur et de cuir, de la taille de deux mains jointes, contenant un rouleau de papier qui se deroule a vitesse constante sous une aiguille de basalte suspendue a un fil de fibre. Le fil est calibre pour vibrer a la frequence du Sommeil sans marquer — seules les deviations par rapport au fond sismique permanent laissent une trace. L'aiguille dessine des courbes sur le papier. Sihle lit ces courbes comme un aeromaitre lit l'air : chaque pic est une magnitude, chaque intervalle est une prediction. Il porte le sismographe dans un harnais de poitrine, contre le sternum, et ne s'en separe jamais. Les courbes qu'il dessine sont des chiffres que personne d'autre ne sait lire. Quand Sihle meurt au chapitre V, les rouleaux continuent d'exister — mais plus personne ne sait les interpreter.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.1,
+      "self_relevance": 0.85,
+      "properties": {
+        "weight_kg": 2.5,
+        "durability": "moyenne — fragile aux chocs, l'eau endommage le papier",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "ecouteur de seismes, meteorologue"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:tissu_aeromaitre",
+      "type": "instrument",
+      "content": "Tissu d'aeromaitre de Phakade. Carre de fibres noircies, large comme deux paumes, tisse a partir de feuilles de plantes de surface si sensibles aux vibrations qu'elles vibrent a des frequences differentes selon la composition de l'atmosphere. Thabo le tend entre ses doigts, face au vent souterrain, et lit l'air. L'humidite alourdit les fibres. Le CO2 les plaque au sol — le tissu ne se souleve pas dans l'air mort. Le soufre les jaunit. L'oxygene les fait vibrer legerement. Le tissu est un instrument a lecture continue — il ne mesure pas, il montre. Au chapitre III, le vieux du village souffle sur le tissu. L'haleine du village s'y depose. Le tissu porte alors la signature chimique de deux mondes : la surface et le souterrain. Apres la mort de Thabo, le tissu reste — un mot dans une langue morte.",
+      "weight": 0.9,
+      "stability": 0.65,
+      "energy": 0.1,
+      "self_relevance": 0.85,
+      "properties": {
+        "weight_kg": 0.05,
+        "durability": "basse — les fibres s'usent, l'humidite les degrade, la chaleur les detruit",
+        "origin_archipel": "Phakade, Archipel du Nord-Est (Les Seches)",
+        "who_uses_it": "aeromaitre"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:carte_tactile",
+      "type": "instrument",
+      "content": "Carte tactile de Mathamo. Pas un objet — un savoir-faire. Les cartographes de Mathamo ne dessinent rien. Ils portent en eux la memoire des positions, des trajectoires, des topologies. Un cartographe de Mathamo peut reproduire, par une sequence de gestes Contact sur le bras d'un interlocuteur, la topologie complete d'un reseau de grottes : les embranchements en pressions successives, les distances en durees de contact, les pentes en inclinaisons du poignet. Senzo porte cette carte dans ses mains — quand il touche une paroi, il en deduit la direction, la profondeur, la stabilite. Sa carte est son corps. Quand Senzo meurt au chapitre IV, la carte meurt avec lui.",
+      "weight": 0.8,
+      "stability": 0.6,
+      "energy": 0.1,
+      "self_relevance": 0.7,
+      "properties": {
+        "weight_kg": 0,
+        "durability": "liee a la vie du porteur",
+        "origin_archipel": "Mathamo, Archipel du Sud-Ouest (Les Creuses)",
+        "who_uses_it": "cartographe"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:carte_senzo",
+      "type": "instrument",
+      "content": "Carte de Senzo. Un rouleau de tissu sur lequel Senzo a trace les lignes de descente connues — les corridors, les failles, les tubes de lave, les cavernes karstiques, les points d'eau. Les lignes sont des tracages a l'encre minerale, instables, que les vibrations font bouger sur la surface du tissu. La carte est un mensonge necessaire — un objet de surface applique au monde souterrain, ou rien n'est fixe, ou les failles bougent et les passages se ferment. Apres le village des sourds, la carte devient obsolete. Le monde en dessous n'a jamais ete cartographie sur tissu. Les lignes tracees ne correspondent plus a rien.",
+      "weight": 0.7,
+      "stability": 0.5,
+      "energy": 0.1,
+      "self_relevance": 0.6,
+      "properties": {
+        "weight_kg": 0.2,
+        "durability": "basse — l'humidite dissout l'encre, les vibrations brouillent les lignes",
+        "origin_archipel": "Kahlamba, Archipel du Sud",
+        "who_uses_it": "cartographe, chef d'expedition"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:thermometre_roche",
+      "type": "instrument",
+      "content": "Thermometre de roche. Pas un instrument fabrique — un savoir transmis par Thabo. La couleur de la roche dit sa temperature. Les roches claires sont refroidies par l'air — passages respirables, sols marchables. Les roches sombres sont chauffees par le magma — surfaces brulantes, passages dangereux. Thabo enseigne cette lecture a Nandi avant de mourir : regarde la couleur, marche les chemins clairs. Le thermometre est dans les yeux, pas dans la main. C'est le dernier cadeau de Thabo — un instrument qui ne pese rien, ne se casse pas, ne se perd pas. Un instrument qui transforme le regard en mesure.",
+      "weight": 0.75,
+      "stability": 0.7,
+      "energy": 0.1,
+      "self_relevance": 0.7,
+      "properties": {
+        "weight_kg": 0,
+        "durability": "permanente — savoir incorpore",
+        "origin_archipel": "Bhekisisa, Archipel du Centre-Sud (Les Chaudes)",
+        "who_uses_it": "aeromaitre, geologue, predictrice"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:pendule_magnitude",
+      "type": "instrument",
+      "content": "Pendule de magnitude. Un poids de basalte poli — un caillou rond, de la taille d'un pouce — suspendu a un fil de fibre de racine. On le tient au bout du bras, immobile. Le pendule oscille. L'amplitude de l'oscillation dit la magnitude locale. La direction de l'oscillation dit la direction de la source sismique. Le pendule est l'instrument le plus simple du monde — un caillou au bout d'un fil — et le plus ancien. Les enfants de Contre-Terre apprennent a lire le pendule avant d'apprendre a compter. C'est le premier mot sismique : combien tremble-t-il ?",
+      "weight": 0.55,
+      "stability": 0.75,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 0.1,
+        "durability": "haute — rien a casser",
+        "origin_archipel": "tous les archipels",
+        "who_uses_it": "ecouteur de seismes, tous"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:cloches_resonance",
+      "type": "instrument",
+      "content": "Cloches de resonance. Plaques de basalte taillees a des epaisseurs precises, suspendues par des cordes a des points d'ancrage dans les cavernes. Chaque plaque a sa frequence propre — elle vibre et chante quand un seisme de cette frequence passe. Un ensemble de cloches accordees couvre un spectre de frequences : si la cloche grave chante et la cloche aigue se tait, le seisme est profond et lointain. Si toutes chantent, il est proche et violent. Les ecouteurs de Mhluzi les installent dans les cavernes d'entrée du volcan comme un systeme d'alerte — les cloches previennent avant les instruments. Avant les pieds.",
+      "weight": 0.6,
+      "stability": 0.8,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 2.0,
+        "durability": "haute — le basalte ne se degrade pas",
+        "origin_archipel": "Mhluzi, Archipel du Nord-Est (Les Seches)",
+        "who_uses_it": "ecouteur de seismes"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:batons_chimiques",
+      "type": "instrument",
+      "content": "Batons chimiques. Tiges de cuivre recouvertes d'une resine organique qui, une fois activee par friction, emet une lumiere verdatre, froide, insuffisante. Le vert des batons chimiques est la couleur de l'humain dans le monde souterrain — il tranche avec le bleu organique des filaments bioluminescents. Les deux lumieres cohabitent dans les cavernes karstiques : le vert de l'homme, le bleu de la terre. Un baton dure quatre a six heures. L'expedition en emporte des dizaines. Au chapitre VI, ils sont inutiles — l'orange de la lave avale le vert. Au chapitre VIII, il n'en reste plus. La derniere lumiere de Nandi est celle du magma.",
+      "weight": 0.75,
+      "stability": 0.65,
+      "energy": 0.1,
+      "self_relevance": 0.7,
+      "properties": {
+        "weight_kg": 0.1,
+        "durability": "consommable — 4 a 6 heures par baton",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "tous",
+        "composition": "cuivre + resine organique"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:la_charge",
+      "type": "dispositif",
+      "content": "La Charge. Le resonateur sismique. Pas une bombe — un instrument de synchronisation geologique. Cylindrique, arrondi aux extremites pour ne rien accrocher dans les passages etroits. Quarante-cinq centimetres de long, vingt-deux de diametre. Trente kilos de noyau plus cinq kilos de caisson amortisseur. Un unique cadran rotatif sur la face superieure regle la frequence de resonance. Trois verrous rotatifs pour l'armement — horaire, horaire, antihoraire. Quatre-vingt-dix secondes de delai. Irreversible. Le resonateur n'explose pas : il entre en resonance avec la roche, amplifie les frequences de fond, et provoque un effondrement en cascade des contraintes accumulees dans la chambre magmatique. La detonation est geologique, pas chimique. Inyoni la porte, la verifie, la compte. Vingt-quatre sangles de fixation. Quand Inyoni meurt, Nandi la traine avec dix metres de corde. Le cadran de calibration, concu pour les instruments de Sihle, est finalement accorde par le tremens de Nandi — ses mains posees sur le metal, son tremblement volontaire cherchant la frequence de la montagne. Le dernier Contact de Nandi n'est pas avec un humain. C'est avec la Terre.",
+      "weight": 1.0,
+      "stability": 0.9,
+      "energy": 0.2,
+      "self_relevance": 0.95,
+      "properties": {
+        "weight_kg": 35,
+        "durability": "tres haute — enveloppe ceramique et metal refractaire, supporte les zones volcaniques mais pas le contact direct avec la lave",
+        "origin_archipel": "Consortium des Archipels",
+        "who_uses_it": "explosiviste, explosiviste backup (Nandi)",
+        "dimensions": "45cm x 22cm diametre",
+        "activation": "3 verrous rotatifs, cadran de frequence, delai 90 secondes, irreversible",
+        "transport_chapters": "Ch.I-III chariot | Ch.IV harnais | Ch.V-VI dos Inyoni | Ch.VII poussee dans le Boyau | Ch.VIII trainee par Nandi"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:hamac_triple_suspension",
+      "type": "equipement",
+      "content": "Hamac a triple suspension. Le lit de Contre-Terre. Toile de cuir souple tendue entre trois points d'ancrage par des cordes elastiques qui absorbent les vibrations nocturnes. Le hamac oscille au rythme du Sommeil — magnitude 4, trois secondes d'intervalle — et le corps s'endort dans le mouvement comme un enfant dans un berceau. Dormir immobile est impossible sur Contre-Terre : l'immobilite est une anomalie, un presage, un silence-piege. Le hamac bouge, donc le hamac rassure. Les trois points d'ancrage sont disposes en triangle pour que l'oscillation soit omnidirectionnelle — quelle que soit la direction du seisme, le hamac oscille sans se retourner. Un enfant de cinq ans sait installer un hamac. Un adulte le fait les yeux fermes.",
+      "weight": 0.65,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.55,
+      "properties": {
+        "weight_kg": 2.0,
+        "durability": "moyenne — le sel de l'eau souterraine raidit les fibres",
+        "origin_archipel": "tous les archipels",
+        "who_uses_it": "tous"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:caisson_amortisseur",
+      "type": "equipement",
+      "content": "Caisson amortisseur de Kahlamba. Container de transport a triple suspension interne, concu pour absorber les secousses jusqu'a magnitude 8. Vingt-quatre sangles de fixation maintiennent le contenu — la Charge — en suspension a l'interieur d'une coque de cuir epais sur armature de basalte. La triple suspension a ete recalculee par Sihle au village des sourds. Le caisson est l'oeuvre de la raison : concu avec des DONNEES, calibre par des CHIFFRES, valide par des TESTS. Quand le caisson est abandonne dans le Boyau au chapitre VII — trop large pour les soixante centimetres du tube — la Charge voyage nue. La protection de la raison a ete arrachee. La Charge ne tient plus que par les mains d'Inyoni, puis par celles de Nandi.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.1,
+      "self_relevance": 0.75,
+      "properties": {
+        "weight_kg": 5,
+        "durability": "haute — absorbe magnitude 8",
+        "origin_archipel": "Kahlamba, Archipel du Sud",
+        "who_uses_it": "explosiviste, ecouteur",
+        "sangles_count": 24,
+        "abandonne_chapitre": "VII — trop large pour le Boyau"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:gourde_cuir_scelle",
+      "type": "equipement",
+      "content": "Gourde en cuir scelle. Recipient d'eau en cuir tanne, cousu avec du fil de fibre de racine, scelle avec de la resine de cuivre pour empecher l'evaporation. La gourde est souple — elle ne casse pas dans les vibrations, ne se fend pas dans les chutes. Elle epouse le corps, se porte contre la hanche ou dans le sac de transport. L'eau a l'interieur a toujours un gout de cuir et de soufre — le gout de Contre-Terre. Jabu remplit les gourdes des autres avant les siennes, instinct oceanique, reflexe de lest. Apres sa mort au chapitre V, plus personne ne gere l'eau avec cette competence. Les gourdes suintent dans la chaleur du chapitre VI. Au chapitre VIII, Nandi a peut-etre une demi-gourde. Peut-etre rien.",
+      "weight": 0.75,
+      "stability": 0.65,
+      "energy": 0.05,
+      "self_relevance": 0.65,
+      "properties": {
+        "weight_kg": 0.3,
+        "durability": "moyenne — la chaleur fait suinter la resine, le sel la fragilise",
+        "origin_archipel": "tous les archipels",
+        "who_uses_it": "tous",
+        "capacity_litres": 2
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:ration_liquide",
+      "type": "equipement",
+      "content": "Ration liquide. Bouillie nutritive en poche de cuir scelle, salee au sel gris de Nkosazana. Pas de morceaux — tout est liquide sur Contre-Terre. Pas d'assiettes, pas de couverts, pas de table stable. On boit sa nourriture. La ration est un melange de tubercules broyes, de racines, de minerals comestibles, prepare par Enama avec un savoir-faire de survivaliste de Zama. La bouillie est epaisse, terreuse, nutritive. Elle a le gout de la roche et du sel. On la boit tiede — la chaleur ambiante la rechauffe. On la boit froide quand on en a encore. On ne la boit plus apres le chapitre VI.",
+      "weight": 0.7,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.6,
+      "properties": {
+        "weight_kg": 0.5,
+        "durability": "basse — conservation limitee malgre le sel, la chaleur accelere la degradation",
+        "origin_archipel": "preparation Kahlamba, sel de Nkosazana",
+        "who_uses_it": "cuisiniere, tous"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:protection_thermique",
+      "type": "equipement",
+      "content": "Protection thermique. Couches superposees de cuir tanne et de poudre minerale — un sandwich de cuir, de poussiere de granite, de cuir, repete trois fois. La poussiere minerale isole. Le cuir protege. L'ensemble est lourd, raide, et ne protege que le torse et les epaules. Les bras restent nus — on a besoin des mains pour le Contact. Les pieds restent nus — Nandi a besoin de ses pieds pour lire le sol. La protection thermique est un compromis : proteger le corps principal tout en laissant les organes de perception exposes. Au chapitre VI, les coutures cedent. Les couches se decollent. Le cuir se racornit. La protection devient un lambeau qu'on maintient par des sangles recuperees.",
+      "weight": 0.6,
+      "stability": 0.55,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 3.0,
+        "durability": "moyenne — la chaleur au-dela de 70C degrade le cuir",
+        "origin_archipel": "Bhekisisa, Archipel du Centre-Sud",
+        "who_uses_it": "tous en zone volcanique"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:voile_protection",
+      "type": "equipement",
+      "content": "Voile de protection d'Umsizi. Tissu epais teint dans des pigments mineraux qui filtrent la lumiere sans bloquer le Contact. Les marchands d'Umsizi les vendent pour proteger les yeux et la peau de l'eclat des cristaux de gypse — la ville la plus lumineuse du monde, ou les murs scintillent et les corps sont eclaires de feux blancs. Le voile couvre le visage, les epaules, le dos. Les mains restent nues. Toujours. Dans le monde souterrain, le voile sert a filtrer la lumiere des geodes — les eclats de selenite et de calcite optique qui desorientent l'oeil en dedoublant les sources lumineuses.",
+      "weight": 0.5,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 0.4,
+        "durability": "moyenne — les pigments s'effacent a l'humidite",
+        "origin_archipel": "Umsizi, Archipel de l'Est (Les Salines)",
+        "who_uses_it": "tous en zones cristallines"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:gants_cuir",
+      "type": "equipement",
+      "content": "Gants de cuir de Nkosazana. Les seuls gants du monde. Les seules personnes qui couvrent leurs mains. Les femmes de Nkosazana les portent pour gratter le sel cristallise dans les fissures de gypse — le sel ronge la peau, creuse les sillons des empreintes, detruit le Contact a petit feu. Les gants sont en cuir tanne, epais, rigides. Ils ne transmettent rien. Quand une femme de Nkosazana retire ses gants pour le Contact, la peau de ses paumes est lisse, preservee, d'une sensibilite que les autres leur envient. Le Contact d'une femme de Nkosazana est comme un murmure — doux, precis, presque intime. Les gants sont le seul objet de Contre-Terre qui EMPECHE le Contact. C'est pourquoi ils sont si rares, si specialises, si troublants.",
+      "weight": 0.6,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 0.2,
+        "durability": "moyenne — le sel use le cuir",
+        "origin_archipel": "Nkosazana, Archipel de l'Est (Les Salines)",
+        "who_uses_it": "specialistes du sel uniquement"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:sac_transport",
+      "type": "equipement",
+      "content": "Sac de transport. Structure souple de cuir et de sangles, sans armature rigide, qui epouse le dos du porteur. Pas de cadre — un cadre rigide transmettrait les vibrations du sol directement a la colonne vertebrale. Le sac est une enveloppe flottante, tenue par des sangles elastiques, qui absorbe les secousses par sa propre oscillation. Il contient les rations, les cordes de reserve, les outils, les batons chimiques. Au chapitre IV, quand les chariots sont abandonnes dans la fissure, tout passe dans les sacs. Le pack de Senzo reste sous la roche. Celui d'Enama porte le poids de la nourriture. Celui d'Inyoni porte les sangles et les pitons.",
+      "weight": 0.6,
+      "stability": 0.65,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 1.5,
+        "durability": "moyenne — les coutures cedent dans la chaleur",
+        "origin_archipel": "Kahlamba, Archipel du Sud",
+        "who_uses_it": "tous"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:ceinture_sangles",
+      "type": "equipement",
+      "content": "Ceinture de sangles — harnais d'escalade. Un reseau de sangles de fibre de racine qui enveloppe le bassin, les cuisses, le torse. Le harnais repartit le poids du corps suspendu sur les os du bassin — pas sur les epaules, pas sur le ventre. Inyoni l'enfile comme un vetement. Elle connaît chaque boucle, chaque noeud, chaque point de friction. Le harnais d'Inyoni est un vetement de travail : elle s'y suspend, elle y accroche ses outils, elle y fixe la Charge pendant l'escalade de la faille verticale. Les sangles entaillent les epaules au chapitre IV. Au chapitre VII, elles sont tout ce qui reste des vetements — des lambeaux de sangle maintenus ensemble par l'habitude.",
+      "weight": 0.7,
+      "stability": 0.65,
+      "energy": 0.05,
+      "self_relevance": 0.6,
+      "properties": {
+        "weight_kg": 1.0,
+        "durability": "moyenne-haute — les fibres resistent mais les noeuds se desserrent",
+        "origin_archipel": "Ndaba, Archipel du Sud",
+        "who_uses_it": "grimpeuse"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:tablier_mineur",
+      "type": "equipement",
+      "content": "Tablier de mineur. Epais plastron de cuir double qui couvre le torse du sternum aux genoux. Protege de la poussiere de granite — cette poudre grise, fine, abrasive, que chaque coup dans la roche libere et que les poumons ne pardonnent pas. Le tablier est raide, lourd, incommode. Les mineurs du Nord le portent comme une armure et l'enlèvent comme un fardeau. Enama improvise un tablier au chapitre I — pas contre la poussiere, mais contre les eclats de roche. Son tablier n'est pas un equipement de mineur — c'est un geste de survivaliste.",
+      "weight": 0.5,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 1.5,
+        "durability": "haute — le cuir double resiste aux abrasions",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "mineur"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:capuche_aeromaitre",
+      "type": "equipement",
+      "content": "Capuche d'aeromaitre. Piece de tissu de Phakade plie en cone, attachee sur le nez et la bouche par des sangles. Filtre le soufre, le SO2, les particules de roche en suspension. Ne filtre pas le CO2 — rien ne filtre le CO2, il faut le contourner. La capuche laisse les yeux libres et les mains libres. Thabo la porte dans les Champs de Soufre, dans les zones fumeroliennes, dans les corridors ou l'air est acide. Sans la capuche, les voies respiratoires brulent. Avec la capuche, elles brulent moins. La capuche n'est pas une protection — c'est un delai. Elle achete des minutes dans un air qui tue en secondes.",
+      "weight": 0.55,
+      "stability": 0.55,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 0.08,
+        "durability": "basse — les fibres saturent en soufre et cessent de filtrer",
+        "origin_archipel": "Phakade, Archipel du Nord-Est",
+        "who_uses_it": "aeromaitre"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:harnais_sismographe",
+      "type": "equipement",
+      "content": "Harnais de poitrine pour sismographe. Ensemble de sangles qui maintient le sismographe portable contre le sternum de l'ecouteur. Le boitier repose sur le plexus solaire — le point du corps ou les vibrations sismiques se ressentent le mieux. Sihle porte le harnais par-dessus tout : par-dessus les vetements, par-dessus le tablier, par-dessus les sangles d'escalade. Le sismographe est toujours la, toujours en contact avec le coeur. Il ne s'en separe jamais. Quand Sihle tombe au chapitre V, le harnais l'accompagne dans le vide.",
+      "weight": 0.6,
+      "stability": 0.65,
+      "energy": 0.05,
+      "self_relevance": 0.55,
+      "properties": {
+        "weight_kg": 0.3,
+        "durability": "moyenne",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "ecouteur de seismes"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:basalte",
+      "type": "materiau",
+      "content": "Basalte. La roche de Contre-Terre. Noire, dense, finement cristalline, nee du refroidissement rapide de coulees de lave anciennes. Le basalte est partout — il est le sol du desert, les murs des habitations, la matiere des outils, les roues des chariots, les pitons d'escalade, les marteaux de mineur. Il transmet les ondes sismiques sans les amortir : les secousses dans le basalte sont seches, courtes, cassantes, comme des claquements. Le basalte ne ment pas — il transmet fidelement. C'est pourquoi on construit avec, on taille dedans, on marche dessus. Le sol de basalte est le sol de verite.",
+      "weight": 0.7,
+      "stability": 0.9,
+      "energy": 0.05,
+      "self_relevance": 0.6,
+      "properties": {
+        "weight_kg": 2.9,
+        "durability": "tres haute — resiste a tout sauf au magma",
+        "origin_archipel": "ubiquitaire",
+        "who_uses_it": "tous",
+        "densite_kg_m3": 2900,
+        "proprietes_sismiques": "conducteur fidele, pas d'amortissement"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:granite",
+      "type": "materiau",
+      "content": "Granite. La roche du Nord. Dense, froide, silencieuse. Le granite amortit les frequences hautes et transmet les basses avec une fidelite deconcertante. Les maisons du Nord sont des cubes arrondis, epais d'un demi-metre de granite, qui chantent a chaque replique — un bourdonnement grave et continu. Les tailleurs de Mantolo preferent le granite pour les outils de precision : marteaux, meules, surfaces de travail. Le granite absorbe les vibrations superficielles et ne laisse passer que le signal profond — c'est un filtre naturel. Les gens du Nord resonnent avec le granite. Leur Contact est lourd comme la roche qui les porte.",
+      "weight": 0.65,
+      "stability": 0.9,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 2.7,
+        "durability": "tres haute",
+        "origin_archipel": "Archipel du Nord (Les Froides)",
+        "who_uses_it": "mineur, tailleur, constructeur",
+        "densite_kg_m3": 2700,
+        "proprietes_sismiques": "amortit les hautes frequences, transmet les basses"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:schiste",
+      "type": "materiau",
+      "content": "Schiste. La roche des Seches. Feuilletee, cassante, amplificatrice. Le schiste transmet les ondes sismiques en les multipliant — le sol des Seches vibre a magnitude 4.5 de fond, un demi-degre de plus que le desert, assez pour que le corps ne s'y habitue jamais. Le schiste est anisotrope : les ondes se propagent plus vite dans la direction des feuillets que perpendiculairement. Il ment sur la direction des seismes. En profondeur, le schiste cede a des metamorphismes plus intenses — schiste a grenat, gneiss, amphibolite. La roche se transforme sous la pression et la chaleur. Le schiste est la premiere roche a changer de nature dans la descente.",
+      "weight": 0.6,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 2.7,
+        "durability": "moyenne — se delite en feuillets sous contrainte",
+        "origin_archipel": "Archipel du Nord-Est (Les Seches)",
+        "who_uses_it": "geologue, ecouteur",
+        "densite_kg_m3": 2700,
+        "proprietes_sismiques": "amplificateur, anisotrope, ment sur la direction"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:gres",
+      "type": "materiau",
+      "content": "Gres. La roche des Roulantes. Poreuse, migrante, instable. Les blocs de gres de l'Ouest bougent de quelques centimetres par jour le long d'une faille tectonique oblique. Le gres est trop poreux pour retenir l'eau, trop mobile pour les racines profondes. Il ne sert pas a construire — on vit dessus, pas dedans. Le gres est la roche du mouvement : il derive, il glisse, il porte les villages des Roulantes comme des radeaux sur une mer de sable. En profondeur, sous les coulees basaltiques, le gres compacte forme le socle des nappes phreatiques superficielles.",
+      "weight": 0.5,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.35,
+      "properties": {
+        "weight_kg": 2.3,
+        "durability": "basse — poreux, s'erode aux vibrations",
+        "origin_archipel": "Archipel de l'Ouest (Les Roulantes)",
+        "who_uses_it": "cartographe des Roulantes",
+        "densite_kg_m3": 2300,
+        "proprietes_sismiques": "absorbe et disperse, pas de signal net"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:gypse",
+      "type": "materiau",
+      "content": "Gypse. La roche des Salines. Cristalline, blanche, friable, qui se dissout dans l'eau et se recompose quand elle seche. Les falaises de gypse s'effritent sous les seismes, liberant des cristaux blancs qui recouvrent tout d'une fine poussiere salee. L'air des Salines a un gout de sel. La peau seche et craquelle. Les cordes s'effilochent. Le Contact aux Salines est abrasif — les mains glissent, les pressions rapent, les verrous marquent la peau de traces blanches. Cristallise en lames transparentes, le gypse devient de la selenite — les cristaux geants des geodes profondes.",
+      "weight": 0.55,
+      "stability": 0.5,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 2.3,
+        "durability": "basse — friable, se dissout dans l'eau",
+        "origin_archipel": "Archipel de l'Est (Les Salines)",
+        "who_uses_it": "specialiste du sel",
+        "densite_kg_m3": 2300,
+        "proprietes_sismiques": "reflechit la lumiere, fragile aux secousses"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:calcaire_karstique",
+      "type": "materiau",
+      "content": "Calcaire karstique. La roche des Creuses et des cavernes profondes. Poreuse, perforee de cavites naturelles, sculptee par des millions d'annees de dissolution. L'eau acide a creuse un labyrinthe tridimensionnel — salles, galeries, siphons, puits, rivieres souterraines. Les formes sont rondes. Pas d'angles. Le calcaire est un amortisseur naturel — ses cavites internes absorbent l'energie sismique comme une eponge. Les vibrations dans le calcaire sont plus douces, plus longues, plus basses que dans le basalte. Le corps se detend. Le tremens s'apaise. C'est un piege : l'energie n'a pas disparu, elle s'est accumulee.",
+      "weight": 0.6,
+      "stability": 0.65,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 2.7,
+        "durability": "moyenne — eclate sous les seismes, se dissout dans l'eau acide",
+        "origin_archipel": "Archipel du Sud-Ouest (Les Creuses), cavernes profondes",
+        "who_uses_it": "speleologue, geologue",
+        "densite_kg_m3": 2700,
+        "proprietes_sismiques": "amortisseur naturel, absorbe l'energie — piege sismique"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:obsidienne",
+      "type": "materiau",
+      "content": "Obsidienne. Verre volcanique. Noire, translucide sur les bords, nee du refroidissement si rapide de la lave qu'elle n'a pas cristallise. Le tranchant d'un eclat d'obsidienne est de quelques molecules d'epaisseur — plus fin qu'aucune lame de metal. On la trouve dans les zones du piemont volcanique, en nodules dans les coulees anciennes. L'obsidienne est fragile : un choc la brise en tessons. Mais ce qu'elle coupe, elle le coupe net, sans effort, sans bruit. Les chirurgiens de Contre-Terre — s'il en existait — utiliseraient l'obsidienne. Les survivalistes l'utilisent. Les bouchers l'utilisent. Le monde la casse et la retaille sans fin.",
+      "weight": 0.6,
+      "stability": 0.5,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 2.4,
+        "durability": "tres basse comme outil — le tranchant est ephemere",
+        "origin_archipel": "piemont volcanique, Archipel du Centre-Sud",
+        "who_uses_it": "tous — matiere premiere des lames",
+        "densite_kg_m3": 2400
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:soufre",
+      "type": "materiau",
+      "content": "Soufre. Cristaux jaune vif, aciculaires, fragiles, qui se brisent sous le doigt et liberent une odeur d'oeuf pourri si concentree qu'elle sature l'odorat en quelques secondes. Le soufre se depose autour des events fumeroiliens en croutes, en monticules, en formations bizarres — jaune citron, orange, blanc. L'acide sulfurique qu'il forme attaque la roche, creuse ses propres cavernes. La roche autour d'un event est une roche morte — transformee en argile par l'acide. On marche dessus comme sur de la craie humide. Chaque pas enfonce. Chaque appui est incertain. Les Champs de Soufre sont le terrain d'examen des aeromaitres.",
+      "weight": 0.55,
+      "stability": 0.4,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 2.0,
+        "durability": "basse — friable, reactif, corrosif",
+        "origin_archipel": "Champs de Soufre, piemont volcanique",
+        "who_uses_it": "aeromaitre (lecture), personne ne le travaille",
+        "densite_kg_m3": 2000
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:selenite",
+      "type": "materiau",
+      "content": "Selenite. Gypse cristallise en lames transparentes, certaines de la taille d'un bras, d'autres de la taille d'un arbre. Les geodes de Contre-Terre abritent des cristaux de selenite qui traversent l'espace comme des ponts de verre. Fragiles — un seisme de magnitude 6 peut les briser, et leurs fragments tombent en une pluie de verre tranchant. Resonantes — frappee par une onde sismique, une lame de selenite vibre a une frequence propre, claire, musicale. Un seisme dans une geode de selenite est un concert. Les cristaux chantent chacun a leur frequence, les harmoniques se superposent, et le son est le plus beau et le plus terrifiant de Contre-Terre.",
+      "weight": 0.6,
+      "stability": 0.45,
+      "energy": 0.1,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 2.3,
+        "durability": "tres basse — brise a magnitude 6+",
+        "origin_archipel": "geodes profondes (Biome 5), Umsizi en surface",
+        "who_uses_it": "geologue (observation)",
+        "densite_kg_m3": 2300,
+        "proprietes_sismiques": "resonateur cristallin — chante aux seismes"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:magnetite",
+      "type": "materiau",
+      "content": "Magnetite. Oxyde de fer cristallise dans le systeme cubique, le mineral le plus magnetique de la nature. Les intrusions de magnetite forment des lentilles dans le gabbro profond — des poches de roche noire, dense, lourde, qui attirent les outils metalliques et desorientent tout sens de la direction. Le magnetisme n'est pas constant : il varie d'une poche a l'autre, creant un paysage magnetique chaotique ou le nord change tous les dix metres. Pour Nandi, les zones magnetiques sont des zones de confusion sismique — son tremens se deregle, non par changement de frequence, mais parce que la direction des frequences est brouillee. Son corps, sismographe directionnel, perd une dimension.",
+      "weight": 0.55,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 5.2,
+        "durability": "tres haute",
+        "origin_archipel": "zones profondes (Biome 8), pas en surface",
+        "who_uses_it": "geologue (observation, danger)",
+        "densite_kg_m3": 5200,
+        "proprietes_sismiques": "desorientation directionnelle, mirages sonores"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:sel_gris",
+      "type": "materiau",
+      "content": "Sel gris de Nkosazana. Sel terreux, mineral, gratte sur les parois des fissures de gypse par les femmes gantees de Nkosazana. Le sel gris n'est pas un condiment — c'est un conservateur. Les rations liquides de l'expedition sont salees au sel gris. Il prolonge la duree de conservation des bouillies et des mixtures nutritives dans un monde ou rien ne reste frais longtemps, ou la chaleur accelere la decomposition et les vibrations agitent les fermentations. Le sel gris a un gout de terre, de gypse et de sueur. C'est le gout de la survie sur Contre-Terre — pas agreable, mais necessaire.",
+      "weight": 0.55,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 1.0,
+        "durability": "haute — le sel ne se degrade pas",
+        "origin_archipel": "Nkosazana, Archipel de l'Est (Les Salines)",
+        "who_uses_it": "cuisiniere, survivaliste"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:fibre_racine_profonde",
+      "type": "materiau",
+      "content": "Fibre de racine profonde. La matiere premiere de Contre-Terre. Les plantes du desert enfoncent leurs racines a dix metres sous le sable pour resister aux secousses — un ancrage sismique, pas une quete d'eau. Ces racines sont longues, souples, resistantes aux vibrations, capables de transmettre les signaux sans distorsion. Les tisserandes de Ndaba les recoltent, les sechent, les tressent en cordes, en sangles, en fils de suture, en mailles de filet. La fibre de racine est le cuir vegetal de Contre-Terre — on en fait tout ce qui doit etre souple, solide et capable de vibrer sans casser. La fibre sent la terre seche et le vegetal ancien. Elle blanchit au soleil, grise a l'humidite, noircit a la chaleur.",
+      "weight": 0.7,
+      "stability": 0.75,
+      "energy": 0.05,
+      "self_relevance": 0.55,
+      "properties": {
+        "weight_kg": 0.5,
+        "durability": "haute — concue par l'evolution pour resister aux vibrations",
+        "origin_archipel": "Ndaba, tous les archipels en moindre qualite",
+        "who_uses_it": "tisserandes, cordiers, tous"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:eau_sulfureuse",
+      "type": "aliment",
+      "content": "Eau sulfureuse. L'eau standard de Contre-Terre. Tiede, legerement minerale, avec un gout de pierre chaude que les gens du Sud reconnaîtraient entre mille. Elle monte des nappes phreatiques profondes par les fissures naturelles elargies en puits. L'eau est partout sous la surface — mais toujours chaude, toujours soufree, toujours marquee par la geologie. On la boit sans y penser en surface. En profondeur, elle devient plus chaude, plus acide, plus dangereuse. Les eaux hydrothermales a 60-80C sont imbuvables. L'eau des geysers est bouillante. L'eau des lacs stratifies est epaisse, huileuse, sursaturee en mineraux. Plus on descend, moins l'eau est de l'eau.",
+      "weight": 0.65,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.55,
+      "properties": {
+        "weight_kg": 1.0,
+        "durability": "n/a — s'evapore dans la chaleur",
+        "origin_archipel": "tous les archipels, meilleure au Sud",
+        "who_uses_it": "tous",
+        "temperature": "tiede en surface (25-35C), chaude en profondeur (50-90C)"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:eau_pure",
+      "type": "aliment",
+      "content": "Eau pure de Lesedi. Froide, non sulfureuse, remontee des couches les plus profondes des nappes phreatiques par les pecheurs d'eau de Lesedi. Les pecheurs descendent dans les fissures pour remonter cette eau — un metier dangereux, les fissures se referment sans prevenir. L'eau pure de Lesedi est prisee dans tous les archipels — c'est la seule eau qui n'a pas de gout. Pas de soufre, pas de sel, pas de mineral. De l'eau qui a le gout de rien. Sur Contre-Terre, le gout de rien est un luxe. Jabu est passe par Lesedi avant l'expedition. Il remplissait les gourdes des autres sans qu'on le lui demande.",
+      "weight": 0.6,
+      "stability": 0.55,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 1.0,
+        "durability": "n/a",
+        "origin_archipel": "Lesedi, Archipel du Sud",
+        "who_uses_it": "tous — bien de luxe",
+        "temperature": "froide (15-20C)"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:bouillies_nutritives",
+      "type": "aliment",
+      "content": "Bouillies nutritives. La nourriture de Contre-Terre. Pas de morceaux, pas d'assiettes, pas de couverts — tout est liquide dans un monde ou les tables vibrent et les plats glissent. La bouillie est un melange de tubercules broyes, de racines, de champignons mycorhiziens comestibles, de mineraux dissous, le tout ecrase et dilue dans l'eau sulfureuse. Enama la prepare avec un savoir-faire de cuisiniere et de survivaliste — elle sait maximiser l'hydratation, ajouter les mineraux qui manquent, eviter les champignons toxiques. Apres sa mort au chapitre VI, c'est de l'eau brute, mal geree, sans preparation. La bouillie se boit tiede, directement a la gourde. Elle a le gout de la roche et du sel.",
+      "weight": 0.65,
+      "stability": 0.55,
+      "energy": 0.05,
+      "self_relevance": 0.55,
+      "properties": {
+        "weight_kg": 0.5,
+        "durability": "basse — fermente vite dans la chaleur",
+        "origin_archipel": "preparation locale, ingredients de tous les archipels",
+        "who_uses_it": "cuisiniere, tous"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:mineraux_comestibles",
+      "type": "aliment",
+      "content": "Mineraux comestibles. Calcium, magnesium, silice dissoute — les mineraux que le corps perd dans la sueur et la deshydratation permanente de la descente. Enama a decouvert pendant ses saisons a Zama que certaines couches de roche liberent des mineraux solubles que le corps peut absorber : on lache la roche, on boit l'eau qui suinte des parois calcaires, on mache les depots blancs dans les gours. Ce n'est pas de la nourriture — c'est du combustible mineral. Le corps de Contre-Terre est un corps qui mange de la roche, indirectement, par les eaux qui traversent la roche. La frontiere entre la geologie et la nutrition est une frontiere floue.",
+      "weight": 0.5,
+      "stability": 0.5,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 0,
+        "durability": "n/a — presents dans l'environnement",
+        "origin_archipel": "cavernes karstiques, gours, parois calcaires",
+        "who_uses_it": "biologiste, survivaliste"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:tubercules_sismiques",
+      "type": "aliment",
+      "content": "Tubercules sismiques. Plantes du desert, entre le cactus et la racine, qui stockent l'eau dans leurs fibres pour survivre aux vibrations permanentes. Les gens de Zama savent les trouver par la texture du sol — un sol legerement plus souple, un grain de sable plus fin, une vibration legerement amortie par la masse d'eau stockee sous la surface. Enama, qui a passe deux saisons a Zama, retrouve ce geste : elle s'accroupit, les mains au sol, les doigts ecartes, comme quelqu'un qui cherche un pouls. Elle ne parle jamais de Zama. Mais ses mains en portent le savoir. Les tubercules sont fibreux, terreux, pleins d'eau. On les presse dans la bouillie. On ne les mange pas solides.",
+      "weight": 0.55,
+      "stability": 0.55,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 0.3,
+        "durability": "basse — perissable",
+        "origin_archipel": "Zama, Archipel de l'Ouest (Les Roulantes)",
+        "who_uses_it": "survivaliste, cuisiniere"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:sel_conservation",
+      "type": "aliment",
+      "content": "Sel de conservation. Le sel gris de Nkosazana utilise specifiquement comme agent de preservation alimentaire. Dissous dans les rations liquides, il ralentit la fermentation, inhibe les bacteries, prolonge de quelques jours la duree de vie des bouillies dans la chaleur croissante de la descente. Le sel est la seule technologie de conservation de Contre-Terre — pas de froid, pas de sechage (trop humide en profondeur), pas de fumage (pas de feu controlable dans un monde sismique). Le sel et le temps. Et le temps gagne toujours.",
+      "weight": 0.5,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.35,
+      "properties": {
+        "weight_kg": 0.5,
+        "durability": "haute — le sel ne se degrade pas",
+        "origin_archipel": "Nkosazana, Archipel de l'Est",
+        "who_uses_it": "cuisiniere"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:ration_expedition",
+      "type": "aliment",
+      "content": "Ration d'expedition. Concentre nutritif en poche de cuir scelle — un mois de survie dans un volume de deux poings. La ration est preparee a Kahlamba avant le depart : tubercules deshydrates, mineraux broyes, sel gris, le tout compacte et scelle. On la dilue dans l'eau avant consommation. L'expedition part avec des rations pour soixante jours selon les calculs de Senzo, quarante-cinq selon ceux de Sihle. La difference entre les deux calculs est la marge d'erreur. Il n'y a pas de marge d'erreur dans le volcan.",
+      "weight": 0.6,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 0.8,
+        "durability": "moyenne — le scelle tient tant que la chaleur ne fait pas fondre la resine",
+        "origin_archipel": "Kahlamba, Archipel du Sud",
+        "who_uses_it": "tous",
+        "autonomie_jours": 30
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:resine_cuivre",
+      "type": "aliment",
+      "content": "Resine de cuivre. PAS un aliment — un combustible chimique. La resine organique qui recouvre les tiges de cuivre des batons chimiques et qui, activee par friction, produit la lumiere verdatre. La resine sent l'acide et le metal. Elle colle aux doigts, tache la peau en vert. Elle est toxique — Enama le precise a chaque fois qu'un membre de l'expedition s'en approche de trop pres. La resine est la frontiere entre l'utile et le dangereux : elle eclaire, mais elle empoisonne. On la porte dans des poches de cuir separees, loin de la nourriture, loin de l'eau. La lumiere a un prix chimique.",
+      "weight": 0.5,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.35,
+      "properties": {
+        "weight_kg": 0.05,
+        "durability": "consommable — chaque activation epuise une dose",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "tous — composant des batons chimiques",
+        "toxicite": "oui — ne pas ingerer, ne pas laisser au contact de la peau prolonge"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:cordage_ndaba",
+      "type": "artisanat",
+      "content": "Cordage de Ndaba. La marque de reference. Triple-tresse de fibre de racine profonde, tissee par les femmes de Ndaba dans un village de deux cents ames au bord oriental de la crete de basalte du Sud. Chaque corde est verifiee fibre par fibre avant expedition. Le tressage est un art transmis de mere en fille — les doigts apprennent la tension juste, la torsion juste, l'equilibre entre souplesse et resistance. Le cordage de Ndaba transmet le Contact-corde sans distorsion : quarante-sept fibres par brin sont quarante-sept capteurs qui transmettent le message d'Inyoni ET le pouls de la terre. Les passerelles de Mhluzi en font un point d'honneur. Les trente-deux sangles d'Inyoni en sont le prestige.",
+      "weight": 0.75,
+      "stability": 0.75,
+      "energy": 0.05,
+      "self_relevance": 0.6,
+      "properties": {
+        "weight_kg": 4.5,
+        "durability": "haute — la meilleure fibre du monde",
+        "origin_archipel": "Ndaba, Archipel du Sud",
+        "who_uses_it": "grimpeuse, tous les expeditionnaires"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:tissus_phakade",
+      "type": "artisanat",
+      "content": "Tissus de Phakade. Fibres cultivees a partir de plantes de surface dont les feuilles vibrent a des frequences differentes selon la composition de l'atmosphere. Les tisserands de Phakade — hommes et femmes — travaillent ces fibres en carres de tissu que les aeromaitres utilisent pour lire l'air. Le tissu de Phakade est noirci par le processus de preparation — trempe dans les fumerolles du piemont, sechage au vent sulfure, vieillissement a l'air libre. Le tissu porte la signature chimique de son lieu de naissance — un soufre sec, presque sucre. Le tissu de Thabo vient de Phakade. Son haleine porte encore ce soufre.",
+      "weight": 0.65,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 0.05,
+        "durability": "basse — les fibres s'usent, l'humidite les degrade",
+        "origin_archipel": "Phakade, Archipel du Nord-Est (Les Seches)",
+        "who_uses_it": "aeromaitre"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:essieux_umzimkhulu",
+      "type": "artisanat",
+      "content": "Essieux flexibles d'Umzimkhulu. Triple articulation, conception unique du Nord. Les essieux des chariots de Contre-Terre ne sont pas rigides — ils sont articules en trois points, relies par des sangles de fibre, ce qui permet aux roues de vibrer independamment du chassis. Un seisme de magnitude 5 secoue le chariot mais ne casse pas l'essieu : les trois articulations absorbent le mouvement, le redistribuent, le dissipent. Les essieux d'Umzimkhulu sont les seuls essieux qui survivent aux traversees du desert entre les archipels. Ils grincent, ils oscillent, ils semblent sur le point de se rompre — mais ils tiennent. Tient. Tient. Tient.",
+      "weight": 0.65,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 8.0,
+        "durability": "haute — concu pour les vibrations permanentes",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "caravaniers, expeditionnaires"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:chariot_caravanier",
+      "type": "artisanat",
+      "content": "Chariot caravanier. Plateforme de bois et de cuir sur roues larges de basalte, suspension a cordes elastiques, essieux flexibles a triple articulation. Le chariot est le moyen de transport principal de Contre-Terre — pas d'animaux de trait (aucun animal de surface ne supporte les vibrations permanentes), tout est tire par des humains, attaches par des sangles, marchant au rythme du Sommeil. Les roues larges repartissent le poids sur le sable instable. Les cordes de suspension absorbent les secousses. L'expedition part avec quatre chariots. Au chapitre IV, les chariots sont abandonnes dans la fissure verticale. Tout passe a dos d'homme. Le chariot est un objet de surface — il n'a pas sa place dans le monde vertical.",
+      "weight": 0.7,
+      "stability": 0.65,
+      "energy": 0.05,
+      "self_relevance": 0.55,
+      "properties": {
+        "weight_kg": 80,
+        "durability": "moyenne — les essieux tiennent, le chassis s'use",
+        "origin_archipel": "Kahlamba et Umzimkhulu",
+        "who_uses_it": "caravaniers, expeditionnaires",
+        "abandonne_chapitre": "IV — impossible dans la faille verticale",
+        "count_expedition": 4
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:dome_habitation",
+      "type": "artisanat",
+      "content": "Dome d'habitation standard. Structure basse — le point le plus haut ne depasse pas la taille d'un homme debout. Armature de basalte poli formant une coupole, recouverte de cuir tanne cousu et tendu. Le dome plie sous les secousses au lieu de resister — la philosophie architecturale de Contre-Terre tient en un geste Contact : main ouverte qui se ferme lentement puis se rouvre — absorber, pas combattre. Les domes sont si bas que les chemins entre eux ne laissent passer qu'une personne a la fois — deux si l'on se touche. Et l'on se touche, bien sur. A Bhekisisa, les domes sont sur chariots : le camp entier se demonte en six heures quand le volcan menace.",
+      "weight": 0.6,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 150,
+        "durability": "moyenne — le cuir vieillit, l'armature tient",
+        "origin_archipel": "tous les archipels, style variable",
+        "who_uses_it": "tous — habitation universelle"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:caissons_kahlamba",
+      "type": "artisanat",
+      "content": "Caissons de Kahlamba. Containers de transport pour marchandises fragiles, vendus au marche de Kahlamba. Le principe est le meme que le caisson amortisseur de la Charge, en plus simple : une coque de cuir sur armature de basalte, une suspension interne de cordes elastiques, un contenu qui flotte a l'interieur au lieu de reposer sur une surface rigide. Les caissons protegent les rouleaux de papier du sismographe, les batons chimiques, les rations liquides — tout ce qui ne doit pas etre secoue. Les marchands de Kahlamba les vendent dans des rigoles creusees dans le sol, remplies de sable humide. Un seisme de magnitude 6 n'y renverserait rien.",
+      "weight": 0.55,
+      "stability": 0.7,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 3.0,
+        "durability": "haute",
+        "origin_archipel": "Kahlamba, Archipel du Sud",
+        "who_uses_it": "caravaniers, marchands"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:sismographe_umzimkhulu",
+      "type": "artisanat",
+      "content": "Sismographe d'Umzimkhulu. L'instrument est fabrique dans la ville du Nord, par des artisans qui taillent le boitier dans du bois dur et du cuir, calibrent l'aiguille de basalte, preparent les rouleaux de papier. Chaque sismographe est un objet unique — l'aiguille est suspendue a un fil de fibre dont la longueur exacte determine la sensibilite. Trop court : l'aiguille vibre trop, tout est bruit. Trop long : l'aiguille ne reagit qu'aux grosses secousses, les subtilites disparaissent. Le calibrage du fil est un art — les artisans d'Umzimkhulu y passent des jours, ajustant au dixieme de millimetre, testant contre le Sommeil de fond, cherchant le point exact ou l'instrument distingue le signal du bruit.",
+      "weight": 0.7,
+      "stability": 0.75,
+      "energy": 0.05,
+      "self_relevance": 0.5,
+      "properties": {
+        "weight_kg": 2.5,
+        "durability": "moyenne — le papier craint l'eau, l'aiguille craint les chocs",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "ecouteur de seismes"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:cristaux_umsizi",
+      "type": "artisanat",
+      "content": "Cristaux tailles d'Umsizi. Les artisans d'Umsizi taillent les cristaux de gypse en filtres de lumiere — des plaques minces, polies, translucides, qui laissent passer certaines longueurs d'onde et en bloquent d'autres. Les voiles de protection sont teints avec des pigments mineraux, mais les filtres de cristal sont un travail plus fin : on taille le gypse selon l'angle de ses plans cristallographiques pour obtenir une polarisation specifique de la lumiere. Dans les geodes profondes, ces filtres permettent de voir a travers les dedoublements optiques de la calcite — la ou l'oeil nu voit des fantomes, le filtre de cristal montre la realite. Les cristaux d'Umsizi sont petits, fragiles, precieux. On les porte dans des etuis de cuir double.",
+      "weight": 0.55,
+      "stability": 0.55,
+      "energy": 0.05,
+      "self_relevance": 0.4,
+      "properties": {
+        "weight_kg": 0.1,
+        "durability": "basse — le gypse est friable, les vibrations brisent les tailles fines",
+        "origin_archipel": "Umsizi, Archipel de l'Est (Les Salines)",
+        "who_uses_it": "geologue, expeditionnaires en zones cristallines"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:rouleaux_papier",
+      "type": "equipement",
+      "content": "Rouleaux de papier pour sismographe. Bandes de papier fin, enroulees sur des cylindres de bois, preparees a Umzimkhulu pour les instruments de mesure sismique. Le papier est fait de fibres vegetales broyees et pressees — un materiau rare et precieux sur Contre-Terre, ou le papier ne tient pas dans un monde qui secoue les tables. Les rouleaux sont transportes dans des caissons amortisseurs. L'encre saute hors des encriers a chaque replique — les artisans d'Umzimkhulu ont developpe une encre minerale epaisse, presque pateuse, qui colle au papier au lieu de couler. Sihle noircit ses rouleaux de chiffres que personne d'autre ne sait lire. Apres sa mort, les rouleaux sont des pages dans une langue morte.",
+      "weight": 0.6,
+      "stability": 0.5,
+      "energy": 0.05,
+      "self_relevance": 0.45,
+      "properties": {
+        "weight_kg": 0.3,
+        "durability": "basse — l'eau dissout le papier, l'humidite le deforme",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "ecouteur de seismes"
+      },
+      "node_type": "thing"
+    },
+    {
+      "id": "thing:encre_minerale",
+      "type": "artisanat",
+      "content": "Encre minerale d'Umzimkhulu. Pate epaisse de pigments mineraux — oxydes de fer, charbon de basalte, resine — concue pour coller au papier au lieu de couler. L'encre ordinaire sauterait hors de l'encrier a la premiere replique. L'encre minerale d'Umzimkhulu est si epaisse qu'elle colle aux doigts, aux aiguilles, aux surfaces. Elle seche lentement, en couches successives, chaque couche portant la trace de la vibration qui l'a deposee. Les courbes du sismographe sont dessinees par cette encre — chaque ligne est un mot mineral ecrit par l'aiguille de basalte sur le papier en mouvement. L'encre est la memoire du seisme.",
+      "weight": 0.5,
+      "stability": 0.6,
+      "energy": 0.05,
+      "self_relevance": 0.35,
+      "properties": {
+        "weight_kg": 0.2,
+        "durability": "moyenne — seche bien mais l'eau la dissout avant sechage",
+        "origin_archipel": "Umzimkhulu, Archipel du Nord",
+        "who_uses_it": "ecouteur de seismes, cartographe"
+      },
+      "node_type": "thing"
+    }
+  ],
+  "links": [
+    {
+      "source": "thing:corde_encordement",
+      "target": "thing:fibre_racine_profonde",
+      "type": "compose_de",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:corde_standard",
+      "target": "thing:fibre_racine_profonde",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:sangles_fixation",
+      "target": "thing:fibre_racine_profonde",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:ceinture_sangles",
+      "target": "thing:fibre_racine_profonde",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:hamac_triple_suspension",
+      "target": "thing:fibre_racine_profonde",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:pitons_basalte",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:marteaux_roche",
+      "target": "thing:granite",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:coins_basalte",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:lames_obsidienne",
+      "target": "thing:obsidienne",
+      "type": "compose_de",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:batons_chimiques",
+      "target": "thing:resine_cuivre",
+      "type": "compose_de",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:cloches_resonance",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:poulies_corde",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:pendule_magnitude",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:leviers_pierre",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:batons_sondage",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:grattoirs_sel",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:chariot_caravanier",
+      "target": "thing:essieux_umzimkhulu",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:chariot_caravanier",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.7,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:chariot_caravanier",
+      "target": "thing:corde_standard",
+      "type": "compose_de",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:caisson_amortisseur",
+      "target": "thing:sangles_fixation",
+      "type": "compose_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:dome_habitation",
+      "target": "thing:basalte",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:sismographe_portable",
+      "target": "thing:rouleaux_papier",
+      "type": "compose_de",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:sismographe_portable",
+      "target": "thing:encre_minerale",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:tissu_aeromaitre",
+      "target": "thing:tissus_phakade",
+      "type": "compose_de",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:ration_liquide",
+      "target": "thing:sel_gris",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:ration_expedition",
+      "target": "thing:sel_gris",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:bouillies_nutritives",
+      "target": "thing:tubercules_sismiques",
+      "type": "compose_de",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:bouillies_nutritives",
+      "target": "thing:eau_sulfureuse",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:bouillies_nutritives",
+      "target": "thing:sel_conservation",
+      "type": "compose_de",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:voile_protection",
+      "target": "thing:cristaux_umsizi",
+      "type": "compose_de",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:cordage_ndaba",
+      "target": "thing:fibre_racine_profonde",
+      "type": "compose_de",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:corde_encordement",
+      "target": "thing:cordage_ndaba",
+      "type": "fabrique_par",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:pitons_basalte",
+      "target": "thing:outils_taille",
+      "type": "fabrique_avec",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:marteaux_roche",
+      "target": "thing:outils_taille",
+      "type": "fabrique_avec",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:la_charge",
+      "target": "thing:caisson_amortisseur",
+      "type": "transporte_dans",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:la_charge",
+      "target": "thing:sangles_fixation",
+      "type": "fixe_par",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:la_charge",
+      "target": "thing:corde_encordement",
+      "type": "transporte_par",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:sismographe_portable",
+      "target": "thing:harnais_sismographe",
+      "type": "transporte_dans",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:sismographe_portable",
+      "target": "thing:la_charge",
+      "type": "calibre",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:tissu_aeromaitre",
+      "target": "thing:capuche_aeromaitre",
+      "type": "meme_materiau",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:corde_encordement",
+      "target": "thing:corde_standard",
+      "type": "variante_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:caisson_amortisseur",
+      "target": "thing:caissons_kahlamba",
+      "type": "variante_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:sismographe_portable",
+      "target": "thing:sismographe_umzimkhulu",
+      "type": "instance_de",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:tissu_aeromaitre",
+      "target": "thing:tissus_phakade",
+      "type": "instance_de",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:sel_conservation",
+      "target": "thing:sel_gris",
+      "type": "usage_de",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:eau_pure",
+      "target": "thing:eau_sulfureuse",
+      "type": "variante_de",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:selenite",
+      "target": "thing:gypse",
+      "type": "forme_cristalline_de",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:obsidienne",
+      "target": "thing:basalte",
+      "type": "variante_de",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:lames_obsidienne",
+      "target": "thing:aiguilles_suture",
+      "type": "meme_usage",
+      "weight": 0.6,
+      "affinity": 0.65
+    },
+    {
+      "source": "thing:corde_encordement",
+      "target": "thing:sangles_fixation",
+      "type": "complementaire",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:pitons_basalte",
+      "target": "thing:crochets_speleo",
+      "type": "complementaire",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:marteaux_roche",
+      "target": "thing:coins_basalte",
+      "type": "complementaire",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:sismographe_portable",
+      "target": "thing:pendule_magnitude",
+      "type": "remplace",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:tissu_aeromaitre",
+      "target": "thing:thermometre_roche",
+      "type": "complementaire",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:gourde_cuir_scelle",
+      "target": "thing:eau_sulfureuse",
+      "type": "contient",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:ration_liquide",
+      "target": "thing:bouillies_nutritives",
+      "type": "contient",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:sac_transport",
+      "target": "thing:batons_chimiques",
+      "type": "contient",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:sac_transport",
+      "target": "thing:ration_expedition",
+      "type": "contient",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:chariot_caravanier",
+      "target": "thing:la_charge",
+      "type": "transporte",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:chariot_caravanier",
+      "target": "thing:hamac_triple_suspension",
+      "type": "transporte",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:corde_encordement",
+      "target": "thing:poulies_corde",
+      "type": "utilise_avec",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:ceinture_sangles",
+      "target": "thing:pitons_basalte",
+      "type": "utilise_avec",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:ceinture_sangles",
+      "target": "thing:corde_encordement",
+      "type": "utilise_avec",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:filets_capture",
+      "target": "thing:fibre_racine_profonde",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:gourde_cuir_scelle",
+      "target": "thing:resine_cuivre",
+      "type": "scelle_avec",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:la_charge",
+      "target": "thing:sismographe_portable",
+      "type": "calibre_par",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:cloches_resonance",
+      "target": "thing:sismographe_portable",
+      "type": "complementaire",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:batons_chimiques",
+      "target": "thing:selenite",
+      "type": "eclaire",
+      "weight": 0.65,
+      "affinity": 0.7
+    },
+    {
+      "source": "thing:carte_senzo",
+      "target": "thing:encre_minerale",
+      "type": "compose_de",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:carte_senzo",
+      "target": "thing:carte_tactile",
+      "type": "complementaire",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:protection_thermique",
+      "target": "thing:granite",
+      "type": "compose_de",
+      "weight": 0.6,
+      "affinity": 0.65
+    },
+    {
+      "source": "thing:tablier_mineur",
+      "target": "thing:marteaux_roche",
+      "type": "utilise_avec",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:gants_cuir",
+      "target": "thing:grattoirs_sel",
+      "type": "utilise_avec",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:gants_cuir",
+      "target": "thing:sel_gris",
+      "type": "protege_de",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:capuche_aeromaitre",
+      "target": "thing:soufre",
+      "type": "protege_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:voile_protection",
+      "target": "thing:gypse",
+      "type": "protege_de",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:caisson_amortisseur",
+      "target": "thing:la_charge",
+      "type": "protege",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "thing:basalte",
+      "target": "thing:granite",
+      "type": "contraste_avec",
+      "weight": 0.6,
+      "affinity": 0.65
+    },
+    {
+      "source": "thing:basalte",
+      "target": "thing:calcaire_karstique",
+      "type": "contraste_avec",
+      "weight": 0.65,
+      "affinity": 0.7
+    },
+    {
+      "source": "thing:schiste",
+      "target": "thing:calcaire_karstique",
+      "type": "contraste_avec",
+      "weight": 0.6,
+      "affinity": 0.65
+    },
+    {
+      "source": "thing:eau_sulfureuse",
+      "target": "thing:eau_pure",
+      "type": "contraste_avec",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:sismographe_portable",
+      "target": "thing:cloches_resonance",
+      "type": "contraste_avec",
+      "weight": 0.6,
+      "affinity": 0.65
+    },
+    {
+      "source": "thing:carte_tactile",
+      "target": "thing:carte_senzo",
+      "type": "contraste_avec",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:thermometre_roche",
+      "target": "thing:sismographe_portable",
+      "type": "contraste_avec",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:outils_taille",
+      "target": "thing:coins_basalte",
+      "type": "produit",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:outils_taille",
+      "target": "thing:pitons_basalte",
+      "type": "produit",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:mineraux_comestibles",
+      "target": "thing:calcaire_karstique",
+      "type": "extrait_de",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:sel_gris",
+      "target": "thing:gypse",
+      "type": "extrait_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:obsidienne",
+      "target": "thing:soufre",
+      "type": "meme_origine",
+      "weight": 0.6,
+      "affinity": 0.65
+    },
+    {
+      "source": "thing:magnetite",
+      "target": "thing:basalte",
+      "type": "intrusion_dans",
+      "weight": 0.65,
+      "affinity": 0.7
+    },
+    {
+      "source": "thing:ration_liquide",
+      "target": "thing:ration_expedition",
+      "type": "variante_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:gourde_cuir_scelle",
+      "target": "thing:eau_pure",
+      "type": "contient",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:harnais_sismographe",
+      "target": "thing:sangles_fixation",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:dome_habitation",
+      "target": "thing:corde_standard",
+      "type": "compose_de",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:hamac_triple_suspension",
+      "target": "thing:corde_standard",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:essieux_umzimkhulu",
+      "target": "thing:sangles_fixation",
+      "type": "compose_de",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:rouleaux_papier",
+      "target": "thing:fibre_racine_profonde",
+      "type": "compose_de",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:encre_minerale",
+      "target": "thing:magnetite",
+      "type": "compose_de",
+      "weight": 0.6,
+      "affinity": 0.65
+    },
+    {
+      "source": "thing:resine_cuivre",
+      "target": "thing:batons_chimiques",
+      "type": "compose",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:tubercules_sismiques",
+      "target": "thing:gres",
+      "type": "pousse_dans",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:fibre_racine_profonde",
+      "target": "thing:basalte",
+      "type": "pousse_dans",
+      "weight": 0.65,
+      "affinity": 0.7
+    },
+    {
+      "source": "thing:cristaux_umsizi",
+      "target": "thing:gypse",
+      "type": "taille_dans",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:cristaux_umsizi",
+      "target": "thing:selenite",
+      "type": "taille_dans",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:la_charge",
+      "target": "thing:chariot_caravanier",
+      "type": "transporte_par",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "thing:la_charge",
+      "target": "thing:ceinture_sangles",
+      "type": "transporte_par",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "thing:sismographe_portable",
+      "target": "thing:caissons_kahlamba",
+      "type": "protege_par",
+      "weight": 0.7,
+      "affinity": 0.75
+    },
+    {
+      "source": "thing:rouleaux_papier",
+      "target": "thing:caissons_kahlamba",
+      "type": "protege_par",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:batons_chimiques",
+      "target": "thing:caissons_kahlamba",
+      "type": "protege_par",
+      "weight": 0.65,
+      "affinity": 0.7
+    },
+    {
+      "source": "thing:ration_liquide",
+      "target": "thing:caissons_kahlamba",
+      "type": "protege_par",
+      "weight": 0.6,
+      "affinity": 0.65
+    },
+    {
+      "source": "thing:calcaire_karstique",
+      "target": "thing:selenite",
+      "type": "contient",
+      "weight": 0.65,
+      "affinity": 0.7
+    },
+    {
+      "source": "thing:gypse",
+      "target": "thing:sel_gris",
+      "type": "contient",
+      "weight": 0.75,
+      "affinity": 0.8
+    },
+    {
+      "source": "thing:soufre",
+      "target": "thing:basalte",
+      "type": "se_depose_sur",
+      "weight": 0.6,
+      "affinity": 0.65
+    }
+  ]
+}

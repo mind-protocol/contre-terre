@@ -1,0 +1,378 @@
+{
+  "cluster_id": "metier_biologiste",
+  "description": "The biologiste reads life underground. Through touch, they perceive the vitality, toxicity, and health of subterranean organisms — bioluminescent flora, extremophile fauna, root networks, toxic fungi. Their fingers are diagnostic instruments: a healthy root vibrates differently than a dying one, a dimming moss signals a zone becoming uninhabitable. On Contre-Terre, where the underground biosphere is the only biosphere, the biologiste is the one who knows what lives, what feeds, and what warns.",
+  "skill_levels": {
+    "novice": "Can distinguish obviously toxic organisms from safe ones by touch. Recognizes common bioluminescent species. Knows not to eat what burns the fingertips. Reads ecosystem health only in extreme cases — dead zones, obvious decay.",
+    "practitioner": "Reads vitality gradients through sustained contact. Catalogues dozens of species across multiple zones. Can assess edibility of unfamiliar organisms with reasonable confidence. Detects ecosystem stress before visible signs appear. Teaches others basic edibility through guided Contact.",
+    "master": "Feels the entire ecosystem as a single organism. Detects zone death days before it happens through micro-vibration changes in root networks. Can identify medicinal properties by touch alone. Reads the deep biosphere — organisms that exist only at extreme depth. Their body has become an extension of the underground world's nervous system."
+  },
+  "nodes": [
+    {
+      "id": "concept:bioluminescent_ecosystem",
+      "type": "concept",
+      "content": "The underground world glows. Bioluminescent mosses, fungi, and root-tips produce light in the permanent darkness — not for the team's benefit, but as metabolic byproduct, mating signal, territorial marker. The biologiste reads this light like a language: intensity means health, color means species, flickering means stress. A cavern that glows steady blue-green is thriving. One that pulses orange is dying. One that's gone dark is already dead — and you should leave before you understand why.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.7,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "concept:edibility_assessment",
+      "type": "concept",
+      "content": "Touch-based determination of whether an organism is safe to consume. The biologiste's fingers read the surface texture, internal vibration, and moisture response of roots, fungi, and cave-flora. Safe organisms have a steady micro-vibration — life recognizing life. Toxic organisms feel wrong: a faint numbness in the fingertips, a slight recoil in the flesh, as if your body is already rejecting what your mind hasn't yet identified. Medicinal organisms produce a third sensation — warmth that spreads up the hand, a drawing-out feeling. The body knows before the mind names it.",
+      "weight": 0.95,
+      "stability": 0.88,
+      "energy": 0.85,
+      "self_relevance": 0.93,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:extremophile_fauna",
+      "type": "concept",
+      "content": "Creatures that thrive where nothing should survive. Heat-loving worms in geothermal vents. Vibration-feeding organisms that grow denser during tremens, their cellular structure resonating with the planet's constant shaking. Pale, eyeless things that navigate by seismic pulse. The biologiste catalogs them not for science but for survival: some are edible, some produce useful secretions, some are territorial and must be avoided. The deep fauna becomes stranger with each zone — at the bottom, the biologiste suspects, the organisms are no longer separate from the rock.",
+      "weight": 0.82,
+      "stability": 0.75,
+      "energy": 0.78,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.65,
+      "goal_relevance": 0.7
+    },
+    {
+      "id": "concept:root_network",
+      "type": "concept",
+      "content": "Underground plant systems that follow water like veins follow the heart. Root networks connect zones — a root touched in one cavern may extend kilometers to a water source three zones below. The biologiste reads root direction to find water, reads root density to assess soil quality, reads root death to detect toxic seepage. The roots are the underground world's circulatory system. When the roots go silent — no vibration, no moisture, no life-hum under the fingers — the zone is dying from below.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.76,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.72,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "concept:ecosystem_health",
+      "type": "concept",
+      "content": "The underground world breathes. Healthy zones have a rhythm — bioluminescence steady, roots hydrated, fauna active, air circulating. The biologiste reads this rhythm holistically: if the moss dims, the roots may be drying. If the roots are drying, the water source may be shifting. If the water shifts, the zone will die within days. Ecosystem health is a cascade — the biologiste reads the first domino and predicts the rest. When the moss dies, you should already be walking.",
+      "weight": 0.9,
+      "stability": 0.84,
+      "energy": 0.82,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "value:life_reads_life",
+      "type": "value",
+      "content": "Living things tell you about their environment. A thriving moss colony means stable ground, clean water nearby, breathable air. A dying root network means the zone is poisoned or drying. The biologiste's core conviction: you don't need instruments to read the underground — you need a living body and the willingness to listen through your skin. Life recognizes life. Your flesh knows what flesh can survive. This is not mysticism — it's millions of years of evolutionary sensitivity compressed into fingertips.",
+      "weight": 0.93,
+      "stability": 0.9,
+      "energy": 0.7,
+      "self_relevance": 0.96,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "value:respect_the_ecosystem",
+      "type": "value",
+      "content": "Don't strip-mine the roots. The underground biosphere is fragile — a single over-harvested cavern may take years to recover, and in a world of constant seismic upheaval, recovery is never guaranteed. The biologiste takes what the group needs and leaves the rest. Not from sentiment — from pragmatism. The team that eats everything today starves tomorrow. Sustainability underground is not a luxury; it is the difference between passing through a zone and destroying the path for anyone who follows.",
+      "weight": 0.87,
+      "stability": 0.88,
+      "energy": 0.65,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.7,
+      "goal_relevance": 0.72
+    },
+    {
+      "id": "value:body_knows_body",
+      "type": "value",
+      "content": "Your flesh recognizes what flesh can eat. This is the biologiste's deepest conviction — that the tactile assessment of organisms is not learned technique but awakened instinct. The numbness that signals toxicity, the warmth that signals medicine, the steady hum that signals nourishment: these are the body's own vocabulary, older than language, older than Contact. On Contre-Terre, where touch is communication, the biologiste extends this principle: your body communicates with other living bodies through touch. You read them. They read you. The conversation is mutual.",
+      "weight": 0.91,
+      "stability": 0.86,
+      "energy": 0.75,
+      "self_relevance": 0.94,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.76
+    },
+    {
+      "id": "process:touch_assess_plant",
+      "type": "process",
+      "content": "Fingers on root or moss. Sustained contact — not a brush, but a hold. Three to five seconds of still attention. The biologiste feels for: vibration frequency (healthy organisms hum at a consistent micro-frequency), moisture response (does it pull moisture from your skin or release moisture to it?), surface texture (smooth = young growth, rough = mature, crumbling = dying), and the body's own reaction (numbness = toxin, warmth = medicinal, steadiness = edible). The assessment is not binary — it's a spectrum. 'Probably safe, slightly bitter, low nutrition' is a typical reading.",
+      "weight": 0.94,
+      "stability": 0.87,
+      "energy": 0.88,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.91
+    },
+    {
+      "id": "process:identify_species",
+      "type": "process",
+      "content": "The biologiste maintains a mental catalogue of underground species — not by sight (there is little light) but by touch-signature. Each species has a distinct tactile profile: the slick, cool surface of edible cave-lichen versus the granular, warm surface of toxic fire-moss. The rubbery resistance of deep-root versus the brittle snap of surface-root. Over time, the catalogue grows. New zones bring new species — the biologiste's first act in any cavern is a systematic touch-survey: walls, floor, ceiling, any organic material. Unknown species are approached with caution, assessed slowly, catalogued by feel.",
+      "weight": 0.86,
+      "stability": 0.8,
+      "energy": 0.82,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.68,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "process:read_ecosystem_state",
+      "type": "process",
+      "content": "A holistic assessment that combines multiple signals. The biologiste crouches, hands flat on the ground, and reads: root vibration (active or fading?), bioluminescence intensity (steady or flickering?), air moisture (the ecosystem breathes — dry air means dying vegetation), fauna activity (silence means predators or death), and ground temperature gradient (rising heat kills surface organisms first). The assessment produces a simple verdict: this zone is healthy (stay, harvest), stressed (harvest quickly and move), dying (move now), or dead (you're already too late). Each state has a time horizon — a stressed zone might last days, a dying zone might last hours.",
+      "weight": 0.91,
+      "stability": 0.85,
+      "energy": 0.84,
+      "self_relevance": 0.93,
+      "drive_affinity": 0.76,
+      "goal_relevance": 0.87
+    },
+    {
+      "id": "process:harvest_sustainably",
+      "type": "process",
+      "content": "Take what you need, leave the rest. The biologiste harvests edible roots by cutting — never pulling — leaving the root network intact to regrow. Fungi are taken from the colony edge, never the center. Bioluminescent moss is left entirely — it's the zone's health indicator and light source. Water-rich organisms are squeezed gently, excess returned to the soil. The cuisinier receives the harvest and the biologiste's assessment: 'These three roots are edible, this fungus needs cooking to neutralize, this moss-water is drinkable if filtered.' Harvesting is a negotiation with the ecosystem — you take enough to survive, not enough to kill.",
+      "weight": 0.88,
+      "stability": 0.83,
+      "energy": 0.79,
+      "self_relevance": 0.87,
+      "drive_affinity": 0.73,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:detect_toxic_zone",
+      "type": "process",
+      "content": "Dead organisms are the first warning. When the biologiste finds wilted moss, blackened roots, or curled-up fauna, the reading is immediate: something is killing life here. The next step is determining what — gas seepage (sulfur compounds that kill vegetation first), water contamination (acid from deeper volcanic activity), heat rise (magma migration that cooks organisms from below), or seismic damage (tremens intensity that shatters delicate root networks). Each cause has a different urgency. Gas seepage: leave immediately. Heat rise: hours to evacuate. Water contamination: the water is unsafe but the air might be fine. The biologiste's job is not just to detect the toxicity but to diagnose its cause and communicate the urgency.",
+      "weight": 0.89,
+      "stability": 0.84,
+      "energy": 0.86,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.74,
+      "goal_relevance": 0.86
+    },
+    {
+      "id": "process:teach_edibility",
+      "type": "process",
+      "content": "The biologiste teaches through Contact. To show someone what's safe: take their hand, place it on the root, hold it there. Let them feel the steady hum. Then move their hand to a toxic organism — let them feel the numbness creep into their fingertips. The difference is unmistakable once you've felt it. Teaching edibility is a Contact act — the biologiste's hand over the student's hand, guiding them through the tactile vocabulary of the underground. 'Feel this? That's safe. Feel this? That's death. Your body already knew — I'm just reminding it.' The best students are the ones who trust their own nausea.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.83,
+      "self_relevance": 0.86,
+      "drive_affinity": 0.79,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "desire:map_all_life",
+      "type": "desire",
+      "content": "The biologiste wants to know everything that lives below. Not for a scientific paper — for the pure compulsion to catalogue, to understand, to know the shape of life in the dark. Every new zone is a new chapter. Every unknown species is a question that demands an answer. The deeper the team descends, the stranger the organisms become, and the biologiste's fascination intensifies even as the danger grows. At the deepest zones, where life should be impossible, the biologiste suspects something is still living — adapted beyond recognition, fused with the geology itself.",
+      "weight": 0.84,
+      "stability": 0.78,
+      "energy": 0.88,
+      "self_relevance": 0.87,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.7
+    },
+    {
+      "id": "desire:feed_the_group",
+      "type": "desire",
+      "content": "Find food in the dark. The biologiste's most practical drive — the team needs to eat, and the underground doesn't offer its nourishment willingly. Every cavern entered is scanned for edible organisms. Every rest stop includes a foraging expedition. The biologiste works in tandem with the cuisinier: one finds, the other prepares. When food is scarce, the biologiste pushes deeper into unexplored passages, takes risks, touches unknown organisms. The drive to feed the group overrides personal caution — the biologiste tastes first, always.",
+      "weight": 0.9,
+      "stability": 0.83,
+      "energy": 0.87,
+      "self_relevance": 0.91,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "desire:understand_deep_ecosystem",
+      "type": "desire",
+      "content": "What lives at the bottom? The question that haunts the biologiste. Each zone deeper reveals organisms more extreme — heat-loving, pressure-adapted, vibration-dependent. The pattern suggests something: life doesn't thin out with depth, it transforms. The biologiste theorizes that the deepest zones host organisms that have crossed a threshold — no longer separate from the geological substrate, but continuous with it. Living rock. The desire to understand this drives the biologiste forward even when the practical mission is all that matters. The curiosity is its own gravity.",
+      "weight": 0.8,
+      "stability": 0.72,
+      "energy": 0.85,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.6
+    },
+    {
+      "id": "narrative:breathing_with_the_underground",
+      "type": "narrative",
+      "content": "The moss glows brighter when the tremens calms. It dims when danger comes. I learned this in the third zone, when the blue light pulsed once and went dark, and the ground shook hard enough to crack the ceiling. We ran. When we found the next cavern, the moss was steady, bright, alive. I put my hands on it and felt it hum — the same frequency as my own heartbeat, slowed, calm. The underground world breathes, and I learned to breathe with it. My hands learned before my mind did. They always do.",
+      "weight": 0.88,
+      "stability": 0.9,
+      "energy": 0.72,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.68,
+      "goal_relevance": 0.65
+    },
+    {
+      "id": "state:studying",
+      "type": "state",
+      "content": "Examining an organism. The biologiste is crouched or kneeling, hands in sustained contact with a root, moss, or fungus. Eyes may be closed — touch is the primary sense. Breathing is slow, deliberate. The rest of the team waits or continues setting camp while the biologiste reads. This state can last seconds (quick assessment of known species) or minutes (unknown organism requiring careful evaluation). The biologiste in this state is absorbed, difficult to interrupt, communicating through Contact only if the assessment reveals danger.",
+      "weight": 0.82,
+      "stability": 0.78,
+      "energy": 0.7,
+      "self_relevance": 0.84,
+      "drive_affinity": 0.6,
+      "goal_relevance": 0.72
+    },
+    {
+      "id": "state:harvesting",
+      "type": "state",
+      "content": "Collecting edible or useful material. The biologiste works quickly but carefully — cutting roots at the right point, selecting fungi from colony edges, collecting moss-water into containers. This state is practical, focused, purposeful. The biologiste communicates actively with the cuisinier during harvesting, passing materials with tactile instructions: a firm grip means 'this needs processing,' a gentle handoff means 'ready to eat,' a tap on the cuisinier's wrist means 'careful — mildly toxic until cooked.'",
+      "weight": 0.8,
+      "stability": 0.76,
+      "energy": 0.78,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.65,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "state:alarmed",
+      "type": "state",
+      "content": "Ecosystem distress detected. The biologiste has read something wrong — dimming bioluminescence, dead organisms, root silence, toxic air indicators. This state triggers immediate Contact communication: urgent hand on the nearest team member's arm, pressure pattern that means 'danger — move.' The biologiste's body language shifts visibly — from absorbed calm to taut alertness. They may press their ear to the ground, touch multiple surfaces rapidly, trying to determine the scope and speed of the threat. In this state, the biologiste overrides normal group hierarchy — ecosystem death doesn't wait for committee decisions.",
+      "weight": 0.86,
+      "stability": 0.74,
+      "energy": 0.92,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.72,
+      "goal_relevance": 0.84
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:bioluminescent_ecosystem",
+      "target": "concept:ecosystem_health",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:edibility_assessment",
+      "target": "process:touch_assess_plant",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:root_network",
+      "target": "concept:ecosystem_health",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:root_network",
+      "target": "process:harvest_sustainably",
+      "type": "regulates",
+      "weight": 0.82
+    },
+    {
+      "source": "value:life_reads_life",
+      "target": "process:touch_assess_plant",
+      "type": "supports",
+      "weight": 0.93
+    },
+    {
+      "source": "value:life_reads_life",
+      "target": "value:body_knows_body",
+      "type": "associates",
+      "weight": 0.88
+    },
+    {
+      "source": "value:respect_the_ecosystem",
+      "target": "process:harvest_sustainably",
+      "type": "regulates",
+      "weight": 0.92
+    },
+    {
+      "source": "value:body_knows_body",
+      "target": "concept:edibility_assessment",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "value:body_knows_body",
+      "target": "process:teach_edibility",
+      "type": "supports",
+      "weight": 0.86
+    },
+    {
+      "source": "process:touch_assess_plant",
+      "target": "process:identify_species",
+      "type": "activates",
+      "weight": 0.84
+    },
+    {
+      "source": "process:read_ecosystem_state",
+      "target": "process:detect_toxic_zone",
+      "type": "causes",
+      "weight": 0.88
+    },
+    {
+      "source": "process:read_ecosystem_state",
+      "target": "state:alarmed",
+      "type": "activates",
+      "weight": 0.87
+    },
+    {
+      "source": "process:identify_species",
+      "target": "desire:map_all_life",
+      "type": "projects_toward",
+      "weight": 0.82
+    },
+    {
+      "source": "process:harvest_sustainably",
+      "target": "desire:feed_the_group",
+      "type": "projects_toward",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:extremophile_fauna",
+      "target": "desire:understand_deep_ecosystem",
+      "type": "projects_toward",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:ecosystem_health",
+      "target": "state:alarmed",
+      "type": "activates",
+      "weight": 0.84,
+      "affinity": 0.7,
+      "trust": 0.9
+    },
+    {
+      "source": "desire:feed_the_group",
+      "target": "concept:edibility_assessment",
+      "type": "depends_on",
+      "weight": 0.91
+    },
+    {
+      "source": "process:detect_toxic_zone",
+      "target": "concept:bioluminescent_ecosystem",
+      "type": "depends_on",
+      "weight": 0.83
+    },
+    {
+      "source": "narrative:breathing_with_the_underground",
+      "target": "value:life_reads_life",
+      "type": "reminds_of",
+      "weight": 0.88
+    },
+    {
+      "source": "narrative:breathing_with_the_underground",
+      "target": "concept:ecosystem_health",
+      "type": "reminds_of",
+      "weight": 0.82
+    },
+    {
+      "source": "state:studying",
+      "target": "process:touch_assess_plant",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "state:harvesting",
+      "target": "process:harvest_sustainably",
+      "type": "contains",
+      "weight": 0.88
+    }
+  ]
+}

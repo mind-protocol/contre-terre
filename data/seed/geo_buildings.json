@@ -1,0 +1,690 @@
+{
+  "cluster_id": "geo_buildings",
+  "description": "Buildings and rooms of Contre-Terre -- physical structures within settlements, their interior spaces, functions, and spatial relationships",
+  "nodes": [
+
+    {
+      "id": "space_batiment_siege_consortium",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Dome plus large que les autres, sans ornement, marque par un cercle grave dans le sol au-dessus de l'entree -- le signe Contact pour 'descente'. C'est la que les conseils se reunissent quand la terre parle plus fort qu'a l'habitude, et la que Senzo a ete nomme chef de l'expedition.",
+      "synthesis": "Siege du Consortium a Kahlamba. Grand dome sobre, cercle grave au-dessus de l'entree. Lieu des conseils inter-archipels et des decisions d'expedition.",
+      "weight": 0.85,
+      "properties": {
+        "settlement": "space_ville_kahlamba",
+        "coordinates": { "x": 0, "y": 0 },
+        "orientation": 0,
+        "function": "gouvernance_inter_archipels",
+        "capacity": 30
+      }
+    },
+    {
+      "id": "space_batiment_marche_kahlamba",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Le plus grand marche des sept archipels. Les etals ne sont pas poses sur des tables -- ils sont creuses dans le sol, des rigoles larges et peu profondes ou les marchandises reposent dans du sable humide. Un seisme de magnitude 6 n'y renverserait rien. On y vend cordes, caissons amortisseurs, rations liquides, hamacs a triple suspension, batons chimiques.",
+      "synthesis": "Marche de Kahlamba -- plus grand des sept archipels. Etals creuses dans le sol en rigoles de sable humide, antisismiques par conception.",
+      "weight": 0.8,
+      "properties": {
+        "settlement": "space_ville_kahlamba",
+        "coordinates": { "x": 50, "y": -30 },
+        "orientation": 180,
+        "function": "commerce",
+        "capacity": 500
+      }
+    },
+    {
+      "id": "space_batiment_atelier_cordage_ndaba",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Atelier ou les tisserandes de Ndaba tressent des cordes a partir de fibres de racines profondes -- ces plantes qui s'enfoncent a dix metres sous le sable. Accroupies sur le sol, pieds tournes vers l'interieur, elles torsadent les fibres en triple-tresse. L'atelier sent la terre humide et la fibre chaude.",
+      "synthesis": "Atelier de cordage de Ndaba. Tisserandes accroupies tressant la triple-tresse en fibre de racine profonde -- meilleures cordes du monde.",
+      "weight": 0.7,
+      "properties": {
+        "settlement": "space_village_ndaba",
+        "coordinates": { "x": 0, "y": -10 },
+        "orientation": 90,
+        "function": "artisanat_cordage",
+        "capacity": 40
+      }
+    },
+    {
+      "id": "space_batiment_centre_formation_mhluzi",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Salle de formation des ecouteurs et des predicteurs sur la Table de Mhluzi. Le schiste feuillete amplifie chaque micro-secousse en signal lisible. Les apprentis s'y exposent aux vibrations pendant des heures, apprenant a distinguer les frequences que leurs corps devront lire toute leur vie.",
+      "synthesis": "Centre de formation ecouteurs/predicteurs a Mhluzi. Sur la Table de schiste, les apprentis apprennent a lire les vibrations amplifiees.",
+      "weight": 0.75,
+      "properties": {
+        "settlement": "space_ville_mhluzi",
+        "coordinates": { "x": 20, "y": 0 },
+        "orientation": 45,
+        "function": "formation_ecouteurs_predicteurs",
+        "capacity": 60
+      }
+    },
+    {
+      "id": "space_batiment_pont_principal_ingwe",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Pont de corde principal reliant les trois blocs de gres d'Ingwe. Ajuste quotidiennement par des cordiers specialises a mesure que les blocs derivent. Le pont oscille en permanence, les planches de basalte suspendues par des sangles de Ndaba. Le jour ou deux blocs s'ecarteront trop, un pont cassera.",
+      "synthesis": "Pont principal d'Ingwe -- cordes ajustees chaque jour entre trois blocs de gres derivants. Infrastructure vitale des Roulantes.",
+      "weight": 0.75,
+      "properties": {
+        "settlement": "space_ville_ingwe",
+        "coordinates": { "x": 0, "y": 0 },
+        "orientation": 270,
+        "function": "passage_inter_blocs",
+        "capacity": 20
+      }
+    },
+    {
+      "id": "space_batiment_niveaux_umzimkhulu",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Structure a cinq niveaux de cubes de granite interconnectes, construite par sedimentation sur des generations. Les etages inferieurs, a moitie enfouis par l'accumulation de gravats sismiques, abritent les anciens. Les plus jeunes vivent en surface, face au vent de sable. Hierarchie sans mots, construite comme les couches geologiques.",
+      "synthesis": "Niveaux d'Umzimkhulu -- cinq etages de granite, les anciens en bas, les jeunes en haut. Plus ancienne colonie de Contre-Terre.",
+      "weight": 0.8,
+      "properties": {
+        "settlement": "space_ville_umzimkhulu",
+        "coordinates": { "x": 0, "y": 0 },
+        "orientation": 0,
+        "function": "habitation_gouvernance",
+        "capacity": 800
+      }
+    },
+    {
+      "id": "space_batiment_atelier_taille_mantolo",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Atelier des tailleurs de roche de Mantolo. Pas d'outils de coupe -- les tailleurs placent des coins de basalte dans les fissures naturelles du granite et attendent la prochaine replique de magnitude 5. La roche se fend exactement la ou ils veulent. Les murs sont marques de percussions : les gens de Mantolo frappent les parois en passant, reflexe de tailleur.",
+      "synthesis": "Atelier de taille de Mantolo. Les tailleurs utilisent les seismes pour fendre le granite -- des coins places avec precision, la terre frappe pour eux.",
+      "weight": 0.7,
+      "properties": {
+        "settlement": "space_village_mantolo",
+        "coordinates": { "x": 10, "y": 5 },
+        "orientation": 315,
+        "function": "artisanat_taille_roche",
+        "capacity": 30
+      }
+    },
+    {
+      "id": "space_batiment_poste_consortium_bhekisisa",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Dome mobile du Consortium a Bhekisisa, monte sur chariot comme toutes les structures du camp. C'est la que les derniers releves sismiques sont effectues avant une descente. Demontable en six heures. Sihle y a passe deux semaines avant l'expedition, ses instruments branches sur le sol du piemont.",
+      "synthesis": "Poste avance du Consortium a Bhekisisa. Dome mobile sur chariot -- dernier releve sismique avant la descente vers le volcan.",
+      "weight": 0.7,
+      "properties": {
+        "settlement": "space_ville_bhekisisa",
+        "coordinates": { "x": -15, "y": 10 },
+        "orientation": 135,
+        "function": "releve_sismique_consortium",
+        "capacity": 15
+      }
+    },
+    {
+      "id": "space_batiment_seuil_themba",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Poste de garde a l'entree du reseau souterrain principal. Les quarante habitants de Themba y veillent a la frontiere entre surface et profondeur. Ils entretiennent les filaments bioluminescents des premieres galeries et creusent des passages alternatifs quand un seisme bouche une galerie.",
+      "synthesis": "Seuil de Themba -- poste de garde a l'entree des cavernes. Gardiens de la frontiere entre surface et monde souterrain.",
+      "weight": 0.75,
+      "properties": {
+        "settlement": "space_village_themba",
+        "coordinates": { "x": 0, "y": -5 },
+        "orientation": 180,
+        "function": "garde_entree_souterraine",
+        "capacity": 10
+      }
+    },
+    {
+      "id": "space_batiment_depression_cristalline_umsizi",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Depression de gypse cristallise dont les parois reflechissent la lumiere du soleil en eclats aveuglants. Le coeur d'Umsizi -- la ville la plus lumineuse du monde. Les cristaux concentrent les rayons dans des angles qui font etinceler les murs, le sol, les corps. Les marchands y vendent des voiles de protection teints de pigments mineraux.",
+      "synthesis": "Depression cristalline d'Umsizi. Gypse reflechissant transformant la ville en eclats de lumiere blanche -- la plus lumineuse de Contre-Terre.",
+      "weight": 0.75,
+      "properties": {
+        "settlement": "space_ville_umsizi",
+        "coordinates": { "x": 0, "y": 0 },
+        "orientation": 0,
+        "function": "place_centrale_commerce",
+        "capacity": 300
+      }
+    },
+    {
+      "id": "space_batiment_grottes_sibaya",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Trente-sept grottes connectees sous une plateforme de calcaire karstique. Neuf cents personnes vivent entre la surface et le premier niveau souterrain, dans un va-et-vient permanent. Les passages entre niveaux sont des puits naturels elargis, equipes de cordes et de sangles. Un enfant de Sibaya descend et remonte dix fois par jour.",
+      "synthesis": "Grottes de Sibaya -- 37 cavites connectees sous le calcaire. Village iceberg : un tiers visible, deux tiers souterrain.",
+      "weight": 0.8,
+      "properties": {
+        "settlement": "space_ville_sibaya",
+        "coordinates": { "x": 0, "y": 0 },
+        "orientation": 0,
+        "function": "habitation_stockage_ateliers",
+        "capacity": 900
+      }
+    },
+    {
+      "id": "space_batiment_atelier_cartographie_mathamo",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Atelier des cartographes tactiles de Mathamo. Ni papier ni instrument -- les cartographes reproduisent par Contact sur le bras d'un interlocuteur la topologie complete d'un reseau de grottes : embranchements en pressions successives, distances en durees de contact, pentes en inclinaisons du poignet.",
+      "synthesis": "Atelier de cartographie tactile de Mathamo. Cartographie par Contact sur le corps -- la memoire des souterrains transmise de bras a bras.",
+      "weight": 0.7,
+      "properties": {
+        "settlement": "space_village_mathamo",
+        "coordinates": { "x": 5, "y": 0 },
+        "orientation": 225,
+        "function": "cartographie_souterraine",
+        "capacity": 20
+      }
+    },
+    {
+      "id": "space_batiment_habitations_village_sourds",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Domes bas, arrondis, sans angles, de toile et de cuir tanne sur armatures de basalte, ancres au sol par des cordages profonds. Tout plie, rien ne resiste. L'ingenierie sismique reduit les vibrations de quarante pour cent. Des sillons creuses dans la roche canalisent les filaments bioluminescents -- la lumiere coule le long des parois comme de l'eau, suivant un cycle de six heures.",
+      "synthesis": "Habitations du Village des Sourds. Domes souples a amortissement -40%, eclaires par des filaments bioluminescents canalises en cycle de 6 heures.",
+      "weight": 0.8,
+      "properties": {
+        "settlement": "space_village_sourds",
+        "coordinates": { "x": 0, "y": 0 },
+        "orientation": 0,
+        "function": "habitation",
+        "capacity": 200
+      }
+    },
+    {
+      "id": "space_batiment_atelier_tissus_phakade",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Atelier ou l'on produit les tissus noircis des aeromaitres. Les fibres sont cultivees a partir de plantes de surface dont les feuilles vibrent a des frequences differentes selon la composition atmospherique. L'air sent le soufre sec, presque sucre. Le tissu de Thabo vient d'ici.",
+      "synthesis": "Atelier de tissus de Phakade. Fibres de plantes vibrantes transformees en tissus de lecture atmospherique pour les aeromaitres.",
+      "weight": 0.65,
+      "properties": {
+        "settlement": "space_village_phakade",
+        "coordinates": { "x": 0, "y": -5 },
+        "orientation": 90,
+        "function": "artisanat_tissus_aeromaitre",
+        "capacity": 25
+      }
+    },
+    {
+      "id": "space_batiment_puits_lesedi",
+      "node_type": "space",
+      "type": "batiment",
+      "content": "Fissures phreatiques elargies en puits profonds par les pecheurs d'eau de Lesedi. Ils descendent dans les failles pour remonter de l'eau pure, non sulfureuse, celle qui monte des couches les plus profondes. Metier dangereux -- les fissures se referment sans prevenir. L'eau de Lesedi est bleutee, minerale, froide : la seule eau froide de Contre-Terre.",
+      "synthesis": "Puits de Lesedi -- fissures phreatiques ou les pecheurs d'eau descendent extraire l'eau pure, bleutee et froide, la seule du monde.",
+      "weight": 0.7,
+      "properties": {
+        "settlement": "space_village_lesedi",
+        "coordinates": { "x": 0, "y": 5 },
+        "orientation": 0,
+        "function": "extraction_eau",
+        "capacity": 10
+      }
+    },
+
+    {
+      "id": "space_salle_reunion_consortium",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle circulaire ou les representants des sept archipels se touchent epaule contre epaule, formant le cercle de Contact pour les decisions par consensus. Quinze sieges disposes en cercle, le sol poli par des generations de pieds nus. Le consensus emerge quand tous les bras font le meme mouvement, la meme pression, au meme rythme.",
+      "synthesis": "Salle de reunion du Consortium. Cercle de 15 sieges pour le consensus par Contact -- les corps s'alignent jusqu'a ce que les gestes se synchronisent.",
+      "weight": 0.8,
+      "properties": {
+        "building": "space_batiment_siege_consortium",
+        "dimensions": { "largeur": 10, "longueur": 10, "hauteur": 3.5 },
+        "function": "conseil_consensus"
+      }
+    },
+    {
+      "id": "space_salle_archives_consortium",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle des archives tactiles du Consortium. Pas de papier -- les archives sont des surfaces de basalte poli sur lesquelles des motifs graves encodent les decisions passees en symboles Contact. Les mains lisent les murs. Chaque paroi est un chapitre d'histoire touche, pas lu.",
+      "synthesis": "Archives tactiles du Consortium. Murs de basalte graves de motifs Contact -- l'histoire se lit avec les mains, pas les yeux.",
+      "weight": 0.7,
+      "properties": {
+        "building": "space_batiment_siege_consortium",
+        "dimensions": { "largeur": 6, "longueur": 8, "hauteur": 2.5 },
+        "function": "archivage_tactile"
+      }
+    },
+    {
+      "id": "space_salle_entrepot_cordes",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Rigoles profondes remplies de sable humide ou reposent les cordes de Ndaba en bobines serrees. L'humidite preserve la souplesse des fibres de racine. L'air sent la terre mouille et la fibre chaude.",
+      "synthesis": "Entrepot de cordes du marche. Rigoles de sable humide preservant la souplesse des triple-tresses de Ndaba.",
+      "weight": 0.55,
+      "properties": {
+        "building": "space_batiment_marche_kahlamba",
+        "dimensions": { "largeur": 8, "longueur": 12, "hauteur": 2 },
+        "function": "stockage_cordes"
+      }
+    },
+    {
+      "id": "space_salle_entrepot_sel",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Tranchee seche, tapissee de cuir tanne pour isoler le sel de l'humidite du basalte. Le sel gris de Nkosazana y est empile en blocs compacts. L'air pique les narines.",
+      "synthesis": "Entrepot de sel du marche. Tranchee seche en cuir tanne, sel gris de Nkosazana en blocs compacts.",
+      "weight": 0.5,
+      "properties": {
+        "building": "space_batiment_marche_kahlamba",
+        "dimensions": { "largeur": 5, "longueur": 8, "hauteur": 1.5 },
+        "function": "stockage_sel"
+      }
+    },
+    {
+      "id": "space_salle_entrepot_caissons",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Zone de stockage des caissons amortisseurs -- boites de cuir et de corde suspendues qui protegent les marchandises fragiles pendant le transport caravane. Chaque caisson est teste en le laissant tomber d'un metre sur le basalte.",
+      "synthesis": "Entrepot de caissons amortisseurs du marche. Boites de cuir-corde pour le transport caravanier, testees par chute.",
+      "weight": 0.5,
+      "properties": {
+        "building": "space_batiment_marche_kahlamba",
+        "dimensions": { "largeur": 6, "longueur": 10, "hauteur": 2 },
+        "function": "stockage_caissons"
+      }
+    },
+    {
+      "id": "space_salle_zone_negociation",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Espace circulaire au centre du marche ou les marchands negocient par Contact. Pas de cris, pas de gestes visibles a distance -- les prix se discutent main dans la main, pression contre pression. Un observateur ne voit que des gens immobiles qui se tiennent les poignets.",
+      "synthesis": "Zone de negociation du marche. Commerce par Contact silencieux -- les prix se negocient main dans la main, par pressions codees.",
+      "weight": 0.65,
+      "properties": {
+        "building": "space_batiment_marche_kahlamba",
+        "dimensions": { "largeur": 12, "longueur": 12, "hauteur": 0 },
+        "function": "negociation_commerciale"
+      }
+    },
+    {
+      "id": "space_salle_ecoute_mhluzi",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle de silence absolu au coeur du centre de formation. Les murs sont doubles, l'air immobile. Les apprentis ecouteurs s'y assoient pieds nus sur le schiste nu, apprenant a isoler les micro-frequences du sol de leur propre rythme cardiaque. On y reste des heures sans bouger.",
+      "synthesis": "Salle d'ecoute de Mhluzi. Silence absolu, schiste nu -- les apprentis apprennent a isoler les micro-frequences du sol de leur propre corps.",
+      "weight": 0.7,
+      "properties": {
+        "building": "space_batiment_centre_formation_mhluzi",
+        "dimensions": { "largeur": 8, "longueur": 8, "hauteur": 3 },
+        "function": "formation_ecoute"
+      }
+    },
+    {
+      "id": "space_salle_tremens_mhluzi",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle d'exposition aux vibrations. Le plancher est suspendu a des sangles qui oscillent independamment des murs, amplifiant les repliques du schiste. Les apprentis y passent des jours, le corps soumis a des frequences croissantes. Le tremens s'y declare ou ne se declare pas -- l'epreuve qui separe les ecouteurs des predicteurs.",
+      "synthesis": "Salle des tremens a Mhluzi. Plancher suspendu amplifiant le schiste -- l'epreuve qui revele si le corps sera ecouteur ou predicteur.",
+      "weight": 0.7,
+      "properties": {
+        "building": "space_batiment_centre_formation_mhluzi",
+        "dimensions": { "largeur": 6, "longueur": 10, "hauteur": 4 },
+        "function": "formation_exposition_vibrations"
+      }
+    },
+    {
+      "id": "space_salle_niveau_1_profond",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Premier niveau d'Umzimkhulu, le plus profond, a moitie enfoui sous des generations de gravats sismiques. Les anciens y vivent dans un bourdonnement grave et continu -- le granite chante a chaque replique. Les ouvertures ovales ne laissent passer qu'une personne a la fois. L'air est frais, dense, mineral.",
+      "synthesis": "Niveau 1 profond d'Umzimkhulu. Domaine des anciens -- granite chantant, ouvertures ovales, amorti par des generations de sedimentation.",
+      "weight": 0.7,
+      "properties": {
+        "building": "space_batiment_niveaux_umzimkhulu",
+        "dimensions": { "largeur": 30, "longueur": 40, "hauteur": 2.5 },
+        "function": "habitation_anciens"
+      }
+    },
+    {
+      "id": "space_salle_niveau_5_surface",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Cinquieme niveau, le plus haut, face au vent de sable et a la lumiere. Les jeunes y vivent, les corps secoues par les vibrations non amorties du granite de surface. Les hamacs sont accroches directement dans la pierre. L'horizon du desert est visible par les ouvertures ovales.",
+      "synthesis": "Niveau 5 surface d'Umzimkhulu. Domaine des jeunes -- vent de sable, vibrations brutes, vue sur le desert.",
+      "weight": 0.65,
+      "properties": {
+        "building": "space_batiment_niveaux_umzimkhulu",
+        "dimensions": { "largeur": 25, "longueur": 35, "hauteur": 2.5 },
+        "function": "habitation_jeunes"
+      }
+    },
+    {
+      "id": "space_salle_atelier_essieux",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Atelier ou les artisans d'Umzimkhulu fabriquent les essieux de chariot -- les seuls axes de rotation fiables de Contre-Terre. Granite poli en cylindres parfaits, montes sur paliers de cuir. Les essieux d'Umzimkhulu ne cassent pas aux seismes de magnitude 6. C'est leur fierete et leur monnaie d'echange.",
+      "synthesis": "Atelier des essieux d'Umzimkhulu. Granite poli en cylindres parfaits -- seuls axes de rotation fiables du monde.",
+      "weight": 0.65,
+      "properties": {
+        "building": "space_batiment_niveaux_umzimkhulu",
+        "dimensions": { "largeur": 8, "longueur": 12, "hauteur": 3 },
+        "function": "artisanat_essieux"
+      }
+    },
+    {
+      "id": "space_salle_commune_sourds",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Grande caverne elargie par des generations de travail patient. Le plafond est assez haut pour qu'on ne le touche pas en levant la main. Les villageois s'y retrouvent en Contact permanent -- le Contact a trois doigts, le plus fin du monde. La bioluminescence canalisee y suit le cycle de six heures.",
+      "synthesis": "Salle commune du Village des Sourds. Caverne elargie, Contact a trois doigts, bioluminescence canalisee en cycle de 6 heures.",
+      "weight": 0.75,
+      "properties": {
+        "building": "space_batiment_habitations_village_sourds",
+        "dimensions": { "largeur": 20, "longueur": 25, "hauteur": 5 },
+        "function": "rassemblement_communautaire"
+      }
+    },
+    {
+      "id": "space_salle_geste_inconnu",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Alcove reculee ou la vieille femme transmet a Nandi le geste que personne ne connait. Un geste de trois doigts, un tremblement volontaire envoye par les mains -- pas une reaction du corps au sol, mais une action du corps sur le sol. Contact inverse. L'air y est immobile, le silence mineral.",
+      "synthesis": "Salle du Geste Inconnu. Alcove ou se transmet le Contact inverse -- tremblement volontaire du corps vers le sol, pas du sol vers le corps.",
+      "weight": 0.9,
+      "properties": {
+        "building": "space_batiment_habitations_village_sourds",
+        "dimensions": { "largeur": 4, "longueur": 5, "hauteur": 3 },
+        "function": "transmission_geste_inconnu"
+      }
+    },
+    {
+      "id": "space_salle_rigole_centrale",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Canal central ou serpente la rigole d'eau tiede qui alimente le village. Source souterraine canalisee, elle sert de moyen de communication a longue distance -- les variations de debit transmettent des alertes. Les villageois s'accroupissent le long de la rigole pour boire et pour ecouter l'eau parler.",
+      "synthesis": "Rigole centrale du Village des Sourds. Canal d'eau tiede servant a la fois d'alimentation et de communication hydraulique a distance.",
+      "weight": 0.7,
+      "properties": {
+        "building": "space_batiment_habitations_village_sourds",
+        "dimensions": { "largeur": 3, "longueur": 30, "hauteur": 2.5 },
+        "function": "alimentation_eau_communication_hydraulique"
+      }
+    },
+    {
+      "id": "space_salle_grotte_principale_sibaya",
+      "node_type": "space",
+      "type": "salle",
+      "content": "La plus grande des trente-sept grottes, servant de place centrale souterraine. Le calcaire y forme une voute naturelle, les stalactites coupees a hauteur de tete par des generations d'habitants. L'air est frais, humide, les pieds nus des habitants ont poli le sol en miroir.",
+      "synthesis": "Grotte principale de Sibaya. Voute de calcaire naturel, sol poli par des generations de pieds nus -- place centrale souterraine.",
+      "weight": 0.7,
+      "properties": {
+        "building": "space_batiment_grottes_sibaya",
+        "dimensions": { "largeur": 15, "longueur": 20, "hauteur": 6 },
+        "function": "place_centrale_souterraine"
+      }
+    },
+    {
+      "id": "space_salle_grotte_cartographie",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Grotte ou les cartographes de Sibaya tracent sur les parois de calcaire humide les topologies des reseaux souterrains. Les traces s'effacent en sechant -- la carte est temporaire, le corps du cartographe est la memoire permanente.",
+      "synthesis": "Grotte de cartographie de Sibaya. Traces ephemeres sur calcaire humide -- la carte s'efface, le corps du cartographe retient.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_grottes_sibaya",
+        "dimensions": { "largeur": 8, "longueur": 10, "hauteur": 4 },
+        "function": "cartographie_souterraine"
+      }
+    },
+    {
+      "id": "space_salle_grotte_stockage",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Grotte de stockage naturellement fraiche et seche, ou les habitants de Sibaya conservent les rations, les cordes, et les materiaux. Les parois de calcaire absorbent l'humidite. Les reserves y tiennent deux saisons.",
+      "synthesis": "Grotte de stockage de Sibaya. Calcaire absorbant, temperature stable -- reserves pour deux saisons.",
+      "weight": 0.5,
+      "properties": {
+        "building": "space_batiment_grottes_sibaya",
+        "dimensions": { "largeur": 6, "longueur": 8, "hauteur": 3.5 },
+        "function": "stockage_reserves"
+      }
+    },
+    {
+      "id": "space_salle_sismographe_bhekisisa",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Piece du poste avance ou Sihle a branche ses instruments sur le sol du piemont. Les rouleaux de papier noircis de chiffres couvrent les murs. Le sol vibre a magnitude 5.2 de fond -- les instruments tremblent en permanence. L'ecouteur doit s'asseoir immobile pour que ses mesures ne soient pas polluees par son propre corps.",
+      "synthesis": "Salle de mesure sismique du poste Consortium a Bhekisisa. Instruments branches sur le piemont, magnitude 5.2 de fond.",
+      "weight": 0.65,
+      "properties": {
+        "building": "space_batiment_poste_consortium_bhekisisa",
+        "dimensions": { "largeur": 4, "longueur": 5, "hauteur": 2.5 },
+        "function": "mesure_sismique"
+      }
+    },
+    {
+      "id": "space_salle_galerie_entree_themba",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Faille de trois metres de large et un metre de haut -- on y entre penche, les epaules rasant les parois de basalte humide. Descente en biais a trente degres. Les premiers filaments bioluminescents apparaissent ici, des lignes bleues qui pulsent au rythme de la magnitude de fond.",
+      "synthesis": "Galerie d'entree de Themba. Faille etroite a 30 degres, premiers filaments bioluminescents bleus pulsant avec le sol.",
+      "weight": 0.7,
+      "properties": {
+        "building": "space_batiment_seuil_themba",
+        "dimensions": { "largeur": 3, "longueur": 15, "hauteur": 1 },
+        "function": "passage_surface_souterrain"
+      }
+    },
+    {
+      "id": "space_salle_voiles_umsizi",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Zone du marche d'Umsizi ou les marchands vendent les voiles de protection -- tissus epais teints dans des pigments mineraux qui filtrent la lumiere des cristaux de gypse sans bloquer le Contact. Les mains restent nues, toujours. Les voiles sont suspendues aux parois cristallines, projetant des ombres colorees.",
+      "synthesis": "Marche aux voiles d'Umsizi. Tissus filtrant la lumiere du gypse, pigments mineraux -- les mains restent toujours nues.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_depression_cristalline_umsizi",
+        "dimensions": { "largeur": 10, "longueur": 15, "hauteur": 0 },
+        "function": "commerce_voiles"
+      }
+    },
+    {
+      "id": "space_salle_tressage_ndaba",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle de tressage principale ou les tisserandes s'accroupissent en rangees, pieds tournes vers l'interieur, torsadant les fibres de racine profonde en triple-tresse. Le sol est couvert de fibres seches. Le rythme des mains qui tressent ressemble a un battement de coeur collectif.",
+      "synthesis": "Salle de tressage de Ndaba. Tisserandes accroupies en rangees, pieds pigeons, rythme collectif de la triple-tresse.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_atelier_cordage_ndaba",
+        "dimensions": { "largeur": 8, "longueur": 15, "hauteur": 2.5 },
+        "function": "tressage_cordes"
+      }
+    },
+    {
+      "id": "space_salle_atelier_fibres_phakade",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle de traitement des fibres ou les feuilles de plantes vibrantes sont sechees, ecrasees et tissees en bandes noircies. L'air est sature de soufre sec, presque sucre. Les doigts des tisserands sont noirs en permanence -- la teinture ne part jamais.",
+      "synthesis": "Atelier de fibres de Phakade. Feuilles vibrantes sechees et tissees en bandes d'aeromaitre -- doigts noirs permanents, air de soufre sucre.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_atelier_tissus_phakade",
+        "dimensions": { "largeur": 6, "longueur": 10, "hauteur": 2.5 },
+        "function": "traitement_fibres_aeromaitre"
+      }
+    },
+    {
+      "id": "space_salle_fissure_puits_lesedi",
+      "node_type": "space",
+      "type": "salle",
+      "content": "La fissure principale par laquelle les pecheurs d'eau descendent vers les nappes phreatiques profondes. Deux metres de large, profondeur inconnue. La paroi est humide, les prises sont lisses. Le Contact se reduit au Contact-corde. Les fissures se referment sans prevenir.",
+      "synthesis": "Fissure principale de Lesedi. Descente vers les nappes profondes -- deux metres de large, prises lisses, Contact-corde uniquement.",
+      "weight": 0.65,
+      "properties": {
+        "building": "space_batiment_puits_lesedi",
+        "dimensions": { "largeur": 2, "longueur": 2, "hauteur": 50 },
+        "function": "extraction_eau_profonde"
+      }
+    },
+    {
+      "id": "space_salle_cartographie_tactile_mathamo",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle ou les maitres cartographes de Mathamo transmettent la topologie des souterrains par Contact sur le bras des apprentis. Embranchements en pressions successives, distances en durees de contact, pentes en inclinaisons du poignet. Le corps devient la carte.",
+      "synthesis": "Salle de transmission de Mathamo. Maitres cartographes enseignant la topologie par Contact bras-a-bras -- le corps memorise le reseau.",
+      "weight": 0.65,
+      "properties": {
+        "building": "space_batiment_atelier_cartographie_mathamo",
+        "dimensions": { "largeur": 5, "longueur": 7, "hauteur": 3 },
+        "function": "enseignement_cartographie_tactile"
+      }
+    },
+    {
+      "id": "space_salle_taille_mantolo",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle principale de l'atelier ou les tailleurs placent les coins de basalte dans les fissures du granite. Le sol est couvert d'eclats de roche. Les murs portent les marques de milliers de percussions -- tests de densite, reflexe de tailleur. L'air sent la poussiere de granite, seche et froide.",
+      "synthesis": "Salle de taille de Mantolo. Coins de basalte places dans les fissures -- les murs portent les marques de milliers de percussions.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_atelier_taille_mantolo",
+        "dimensions": { "largeur": 8, "longueur": 10, "hauteur": 3 },
+        "function": "taille_placement_coins"
+      }
+    },
+    {
+      "id": "space_salle_poste_cordiers_ingwe",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Plate-forme d'ancrage du pont principal ou les cordiers specialises ajustent quotidiennement les sangles. Les cordes de Ndaba y sont stockees en reserves. On y sent le gres sous les pieds deriver imperceptiblement -- les cordiers le sentent dans leurs genoux.",
+      "synthesis": "Poste des cordiers d'Ingwe. Plate-forme d'ancrage du pont principal, ajustement quotidien des sangles entre les blocs derivants.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_pont_principal_ingwe",
+        "dimensions": { "largeur": 4, "longueur": 6, "hauteur": 2.5 },
+        "function": "entretien_pont"
+      }
+    },
+    {
+      "id": "space_salle_veille_themba",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Salle de veille des gardiens de Themba, juste au-dessus de la galerie d'entree. Les gardiens y dorment par roulement, les pieds nus poses sur le sol pour sentir les variations de magnitude qui annoncent un effondrement ou l'arrivee de visiteurs depuis les profondeurs.",
+      "synthesis": "Salle de veille de Themba. Gardiens dormant pieds nus sur la roche -- sentant les variations sismiques et les visiteurs en approche.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_seuil_themba",
+        "dimensions": { "largeur": 5, "longueur": 6, "hauteur": 2 },
+        "function": "surveillance_passage"
+      }
+    },
+    {
+      "id": "space_salle_stockage_fibres_ndaba",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Reserve ou les fibres de racines profondes sont stockees avant tressage. Les racines pendent en faisceaux depuis le plafond pour eviter l'humidite du sol. L'air est epais de poussiere vegetale. Les apprenties y apprennent a reconnaitre la qualite des fibres au toucher.",
+      "synthesis": "Reserve de fibres de Ndaba. Racines profondes suspendues en faisceaux, triees au toucher par les apprenties.",
+      "weight": 0.5,
+      "properties": {
+        "building": "space_batiment_atelier_cordage_ndaba",
+        "dimensions": { "largeur": 5, "longueur": 8, "hauteur": 2.5 },
+        "function": "stockage_matieres_premieres"
+      }
+    },
+    {
+      "id": "space_salle_sel_extraction_umsizi",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Zone d'extraction ou les mineurs de sel grattent les cristaux de gypse des parois de la depression. Le sol est blanc, poudreux, abrasif. Les mains des mineurs sont protegees par des gants de cuir -- seul endroit de Contre-Terre ou l'on couvre ses mains pour travailler.",
+      "synthesis": "Zone d'extraction de sel d'Umsizi. Cristaux de gypse grattes des parois -- seul lieu ou les mains sont gantees pour travailler.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_depression_cristalline_umsizi",
+        "dimensions": { "largeur": 8, "longueur": 12, "hauteur": 3 },
+        "function": "extraction_sel"
+      }
+    },
+    {
+      "id": "space_salle_reunion_bhekisisa",
+      "node_type": "space",
+      "type": "salle",
+      "content": "Petite salle de briefing dans le dome mobile du Consortium. C'est ici que les chefs d'expedition recueillent les derniers releves avant la descente. La table est une peau de cuir posee sur le sol, les releves graves dans des tablettes de basalte.",
+      "synthesis": "Salle de briefing du poste Consortium a Bhekisisa. Derniers releves avant la descente, tablettes de basalte gravees.",
+      "weight": 0.6,
+      "properties": {
+        "building": "space_batiment_poste_consortium_bhekisisa",
+        "dimensions": { "largeur": 3, "longueur": 4, "hauteur": 2.5 },
+        "function": "briefing_expedition"
+      }
+    }
+  ],
+
+  "links": [
+
+    { "source": "space_batiment_siege_consortium", "target": "space_salle_reunion_consortium", "type": "contient", "weight": 0.9, "affinity": 0.95 },
+    { "source": "space_batiment_siege_consortium", "target": "space_salle_archives_consortium", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_marche_kahlamba", "target": "space_salle_entrepot_cordes", "type": "contient", "weight": 0.8, "affinity": 0.9 },
+    { "source": "space_batiment_marche_kahlamba", "target": "space_salle_entrepot_sel", "type": "contient", "weight": 0.75, "affinity": 0.85 },
+    { "source": "space_batiment_marche_kahlamba", "target": "space_salle_entrepot_caissons", "type": "contient", "weight": 0.75, "affinity": 0.85 },
+    { "source": "space_batiment_marche_kahlamba", "target": "space_salle_zone_negociation", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_atelier_cordage_ndaba", "target": "space_salle_tressage_ndaba", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_centre_formation_mhluzi", "target": "space_salle_ecoute_mhluzi", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_centre_formation_mhluzi", "target": "space_salle_tremens_mhluzi", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_niveaux_umzimkhulu", "target": "space_salle_niveau_1_profond", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_niveaux_umzimkhulu", "target": "space_salle_niveau_5_surface", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_niveaux_umzimkhulu", "target": "space_salle_atelier_essieux", "type": "contient", "weight": 0.8, "affinity": 0.85 },
+    { "source": "space_batiment_poste_consortium_bhekisisa", "target": "space_salle_sismographe_bhekisisa", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_seuil_themba", "target": "space_salle_galerie_entree_themba", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_depression_cristalline_umsizi", "target": "space_salle_voiles_umsizi", "type": "contient", "weight": 0.8, "affinity": 0.85 },
+    { "source": "space_batiment_grottes_sibaya", "target": "space_salle_grotte_principale_sibaya", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_grottes_sibaya", "target": "space_salle_grotte_cartographie", "type": "contient", "weight": 0.8, "affinity": 0.85 },
+    { "source": "space_batiment_grottes_sibaya", "target": "space_salle_grotte_stockage", "type": "contient", "weight": 0.75, "affinity": 0.85 },
+    { "source": "space_batiment_atelier_cartographie_mathamo", "target": "space_salle_cartographie_tactile_mathamo", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_habitations_village_sourds", "target": "space_salle_commune_sourds", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_habitations_village_sourds", "target": "space_salle_geste_inconnu", "type": "contient", "weight": 0.9, "affinity": 0.95 },
+    { "source": "space_batiment_habitations_village_sourds", "target": "space_salle_rigole_centrale", "type": "contient", "weight": 0.8, "affinity": 0.85 },
+    { "source": "space_batiment_atelier_tissus_phakade", "target": "space_salle_atelier_fibres_phakade", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_puits_lesedi", "target": "space_salle_fissure_puits_lesedi", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_atelier_taille_mantolo", "target": "space_salle_taille_mantolo", "type": "contient", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_pont_principal_ingwe", "target": "space_salle_poste_cordiers_ingwe", "type": "contient", "weight": 0.8, "affinity": 0.85 },
+    { "source": "space_batiment_seuil_themba", "target": "space_salle_veille_themba", "type": "contient", "weight": 0.8, "affinity": 0.85 },
+    { "source": "space_batiment_atelier_cordage_ndaba", "target": "space_salle_stockage_fibres_ndaba", "type": "contient", "weight": 0.75, "affinity": 0.85 },
+    { "source": "space_batiment_depression_cristalline_umsizi", "target": "space_salle_sel_extraction_umsizi", "type": "contient", "weight": 0.8, "affinity": 0.85 },
+    { "source": "space_batiment_poste_consortium_bhekisisa", "target": "space_salle_reunion_bhekisisa", "type": "contient", "weight": 0.8, "affinity": 0.85 },
+
+    { "source": "space_batiment_siege_consortium", "target": "space_ville_kahlamba", "type": "situe_dans", "weight": 0.9, "affinity": 0.95 },
+    { "source": "space_batiment_marche_kahlamba", "target": "space_ville_kahlamba", "type": "situe_dans", "weight": 0.9, "affinity": 0.95 },
+    { "source": "space_batiment_atelier_cordage_ndaba", "target": "space_village_ndaba", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_centre_formation_mhluzi", "target": "space_ville_mhluzi", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_pont_principal_ingwe", "target": "space_ville_ingwe", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_niveaux_umzimkhulu", "target": "space_ville_umzimkhulu", "type": "situe_dans", "weight": 0.9, "affinity": 0.95 },
+    { "source": "space_batiment_atelier_taille_mantolo", "target": "space_village_mantolo", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_poste_consortium_bhekisisa", "target": "space_ville_bhekisisa", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_seuil_themba", "target": "space_village_themba", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_depression_cristalline_umsizi", "target": "space_ville_umsizi", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_grottes_sibaya", "target": "space_ville_sibaya", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_atelier_cartographie_mathamo", "target": "space_village_mathamo", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_habitations_village_sourds", "target": "space_village_sourds", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_atelier_tissus_phakade", "target": "space_village_phakade", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+    { "source": "space_batiment_puits_lesedi", "target": "space_village_lesedi", "type": "situe_dans", "weight": 0.85, "affinity": 0.9 },
+
+    { "source": "space_salle_reunion_consortium", "target": "space_salle_archives_consortium", "type": "adjacent_a", "weight": 0.7, "affinity": 0.8 },
+    { "source": "space_salle_entrepot_cordes", "target": "space_salle_entrepot_sel", "type": "adjacent_a", "weight": 0.6, "affinity": 0.7 },
+    { "source": "space_salle_entrepot_sel", "target": "space_salle_entrepot_caissons", "type": "adjacent_a", "weight": 0.6, "affinity": 0.7 },
+    { "source": "space_salle_entrepot_caissons", "target": "space_salle_zone_negociation", "type": "adjacent_a", "weight": 0.65, "affinity": 0.75 },
+    { "source": "space_salle_entrepot_cordes", "target": "space_salle_zone_negociation", "type": "adjacent_a", "weight": 0.65, "affinity": 0.75 },
+    { "source": "space_salle_ecoute_mhluzi", "target": "space_salle_tremens_mhluzi", "type": "adjacent_a", "weight": 0.75, "affinity": 0.85 },
+    { "source": "space_salle_niveau_1_profond", "target": "space_salle_niveau_5_surface", "type": "adjacent_a", "weight": 0.6, "affinity": 0.7, "properties": { "traversal": "vertical_5_niveaux" } },
+    { "source": "space_salle_niveau_1_profond", "target": "space_salle_atelier_essieux", "type": "adjacent_a", "weight": 0.65, "affinity": 0.75 },
+    { "source": "space_salle_commune_sourds", "target": "space_salle_geste_inconnu", "type": "adjacent_a", "weight": 0.7, "affinity": 0.8 },
+    { "source": "space_salle_commune_sourds", "target": "space_salle_rigole_centrale", "type": "adjacent_a", "weight": 0.7, "affinity": 0.8 },
+    { "source": "space_salle_grotte_principale_sibaya", "target": "space_salle_grotte_cartographie", "type": "adjacent_a", "weight": 0.7, "affinity": 0.8 },
+    { "source": "space_salle_grotte_principale_sibaya", "target": "space_salle_grotte_stockage", "type": "adjacent_a", "weight": 0.65, "affinity": 0.75 },
+    { "source": "space_salle_galerie_entree_themba", "target": "space_salle_veille_themba", "type": "adjacent_a", "weight": 0.7, "affinity": 0.8 },
+    { "source": "space_salle_tressage_ndaba", "target": "space_salle_stockage_fibres_ndaba", "type": "adjacent_a", "weight": 0.7, "affinity": 0.8 },
+    { "source": "space_salle_voiles_umsizi", "target": "space_salle_sel_extraction_umsizi", "type": "adjacent_a", "weight": 0.6, "affinity": 0.7 },
+    { "source": "space_salle_sismographe_bhekisisa", "target": "space_salle_reunion_bhekisisa", "type": "adjacent_a", "weight": 0.7, "affinity": 0.8 }
+  ]
+}

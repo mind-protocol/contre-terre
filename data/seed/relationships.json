@@ -1,0 +1,3228 @@
+{
+  "cluster_id": "relationships",
+  "description": "Social bonds, conflicts, and tensions between citizens -- maitre/apprenti, marriages, rivalries, debts, friendships, and active conflicts",
+  "nodes": [
+    {
+      "id": "narrative_relation_nombuso_vuyelwa_speleo",
+      "node_type": "narrative",
+      "type": "maitre_apprenti",
+      "content": "Nombuso a forme Vuyelwa a la speleologie dans les grottes inferieures de Sibaya. Vuyelwa est allee plus profond que sa maitre -- et Nombuso en est fiere.",
+      "synthesis": "Nombuso forme Vuyelwa, l'apprentie depasse la maitre en profondeur",
+      "weight": 0.6,
+      "properties": {
+        "maitre": "actor_citoyen_nombuso_sudouest",
+        "apprenti": "actor_citoyen_vuyelwa",
+        "lieu": "space_ville_sibaya",
+        "archipel": "sud_ouest"
+      }
+    },
+    {
+      "id": "narrative_relation_nomalanga_lindiwe_cordage",
+      "node_type": "narrative",
+      "type": "maitre_apprenti",
+      "content": "Nomalanga enseigne la triple tresse a Lindiwe -- la descendante de Nobanzi. Chaque matin, Lindiwe defait et refait la meme corde sous le regard de Nomalanga, qui voit dans ses gestes un rachat que personne n'a demande.",
+      "synthesis": "Nomalanga forme Lindiwe la descendante de Nobanzi a la triple tresse de Kwanele",
+      "weight": 0.65,
+      "properties": {
+        "maitre": "actor_citoyen_nomalanga_sud",
+        "apprenti": "actor_citoyen_lindiwe_sud",
+        "lieu": "space_village_ndaba",
+        "archipel": "sud"
+      }
+    },
+    {
+      "id": "narrative_relation_nqobile_phila_taille",
+      "node_type": "narrative",
+      "type": "maitre_apprenti",
+      "content": "Nqobile forme Phila a la taille du granite. Phila frappe trop fort -- il a casse trois murs en un mois. Nqobile dit que c'est bon signe : la force est la, le controle viendra.",
+      "synthesis": "Nqobile forme Phila a la taille, la brutalite de l'apprenti est un signe de potentiel",
+      "weight": 0.6,
+      "properties": {
+        "maitre": "actor_citoyen_nqobile",
+        "apprenti": "actor_citoyen_phila",
+        "lieu": "space_village_mantolo",
+        "archipel": "nord"
+      }
+    },
+    {
+      "id": "narrative_relation_zandile_khanyisile_ecoute",
+      "node_type": "narrative",
+      "type": "maitre_apprenti",
+      "content": "Zandile forme Khanyisile a l'ecoute des infra-basses sur le granite du troisieme niveau. L'apprentie pose les deux mains sur chaque surface qu'elle touche -- Zandile reconnait en elle la devotion de Dumisani.",
+      "synthesis": "Zandile forme Khanyisile, apprentie ecouteur qui touche le monde comme un instrument",
+      "weight": 0.6,
+      "properties": {
+        "maitre": "actor_citoyen_zandile",
+        "apprenti": "actor_citoyen_khanyisile",
+        "lieu": "space_ville_umzimkhulu",
+        "archipel": "nord"
+      }
+    },
+    {
+      "id": "narrative_relation_nombuso_zintle_ecouteur",
+      "node_type": "narrative",
+      "type": "maitre_apprenti",
+      "content": "Nombuso forme Zintle a l'ecoute a Mhluzi. Elle dit que Zintle est la meilleure depuis Sihle -- neuf frequences la ou les instruments en lisent trois. Mais Nombuso refuse de l'admettre en public.",
+      "synthesis": "Nombuso forme Zintle, talent exceptionnel, formatrice qui minimise les eloges",
+      "weight": 0.65,
+      "properties": {
+        "maitre": "actor_citoyen_nombuso_nordest",
+        "apprenti": "actor_citoyen_zintle",
+        "lieu": "space_ville_mhluzi",
+        "archipel": "nord_est"
+      }
+    },
+    {
+      "id": "narrative_relation_thandeka_gcina_cartographie",
+      "node_type": "narrative",
+      "type": "maitre_apprenti",
+      "content": "Thandeka forme Gcina au tracage tactile a Mathamo. Elle dit que ses mains sont plus precises que les siennes au meme age -- ce qui est le plus grand compliment qu'une cartographe des Creuses puisse faire.",
+      "synthesis": "Thandeka forme Gcina a la cartographie tactile, apprenti d'un talent rare",
+      "weight": 0.6,
+      "properties": {
+        "maitre": "actor_citoyen_thandeka_sudouest",
+        "apprenti": "actor_citoyen_gcina",
+        "lieu": "space_village_mathamo",
+        "archipel": "sud_ouest"
+      }
+    },
+    {
+      "id": "narrative_relation_noxolo_phiwokuhle_aeromaitre",
+      "node_type": "narrative",
+      "type": "maitre_apprenti",
+      "content": "Noxolo forme Phiwokuhle a la lecture de l'air a Bhekisisa. Son tissu est encore clair -- Noxolo dit qu'un tissu clair est un tissu qui n'a rien vecu. La patience est la premiere lecon.",
+      "synthesis": "Noxolo forme Phiwokuhle, apprenti aeromaitre au tissu encore vierge",
+      "weight": 0.55,
+      "properties": {
+        "maitre": "actor_citoyen_noxolo",
+        "apprenti": "actor_citoyen_phiwokuhle",
+        "lieu": "space_ville_bhekisisa",
+        "archipel": "centre_sud"
+      }
+    },
+    {
+      "id": "narrative_relation_qhawe_siphamandla_caravane",
+      "node_type": "narrative",
+      "type": "maitre_apprenti",
+      "content": "Qhawe forme Siphamandla aux routes caravanieres -- son premier apprenti. Le gamin est metis sismique, son seuil de tremens est anormalement haut. Qhawe dit que le desert l'a choisi avant lui.",
+      "synthesis": "Qhawe forme Siphamandla, apprenti caravanier metis sismique au seuil eleve",
+      "weight": 0.55,
+      "properties": {
+        "maitre": "actor_citoyen_qhawe",
+        "apprenti": "actor_citoyen_siphamandla_sud",
+        "lieu": "space_zone_desert_sismique",
+        "archipel": "nomade"
+      }
+    },
+    {
+      "id": "narrative_relation_mariage_vusi_mbalenhle",
+      "node_type": "narrative",
+      "type": "mariage",
+      "content": "Vusi du Sud a epouse Mbalenhle de Zama. Il a du recalibrer son corps des basses du basalte aux derives du gres. Deux semaines de nausees. Leur idiolecte de paire melange la foulee pesante du Sud et le roulis de l'Ouest.",
+      "synthesis": "Mariage inter-archipel Sud-Ouest, Vusi recalibre des basses aux derives, idiolecte de compromis",
+      "weight": 0.6,
+      "properties": {
+        "epoux": "actor_citoyen_vusi",
+        "epouse": "actor_citoyen_mbalenhle",
+        "lieu_residence": "space_ville_ingwe",
+        "defi": "recalibration basses vers larges"
+      }
+    },
+    {
+      "id": "narrative_relation_mariage_andile_nomalanga_nordest",
+      "node_type": "narrative",
+      "type": "mariage",
+      "content": "Andile des Salines et Nomalanga de Mhluzi -- caravanier et predictrice-cuisiniere. Ils se sont rencontres sur la Muette. Leur Contact de couple est un paradoxe : le cristallin des phalanges d'Andile contre les pressions rapides de Nomalanga.",
+      "synthesis": "Mariage Salines-Nord-Est, rencontre sur la Muette, Contact cristallin contre rafale",
+      "weight": 0.55,
+      "properties": {
+        "epoux": "actor_citoyen_andile",
+        "epouse": "actor_citoyen_nomalanga_nordest",
+        "lieu_residence": "space_ville_mhluzi",
+        "defi": "dialectes cristallin et rapide incompatibles"
+      }
+    },
+    {
+      "id": "narrative_relation_mariage_lungile_ntombi_nord",
+      "node_type": "narrative",
+      "type": "mariage",
+      "content": "Lungile le tailleur d'essieux et Ntombi la luthiere de sismographes a Umzimkhulu. Meme granite, memes mains calleuses. Leur hamac est le seul du Nord ou deux corps dorment dos a dos sans qu'on sache qui est qui.",
+      "synthesis": "Mariage intra-archipel Nord, essieux et sismographes, deux artisans de granite",
+      "weight": 0.55,
+      "properties": {
+        "epoux": "actor_citoyen_lungile_nord",
+        "epouse": "actor_citoyen_ntombi_nord",
+        "lieu_residence": "space_ville_umzimkhulu",
+        "defi": "aucun -- meme calibration, meme roche"
+      }
+    },
+    {
+      "id": "narrative_relation_mariage_buhle_mthunzi_sibaya",
+      "node_type": "narrative",
+      "type": "mariage",
+      "content": "Buhle le mineur-speleo et Zoleka la cuisiniere de Sibaya. Lui descend chaque jour dans le calcaire, elle descend chaque matin cueillir les champignons. Ils se croisent dans la troisieme grotte et partagent un Contact de cheville bref.",
+      "synthesis": "Mariage intra-Creuses, mineur et cuisiniere, Contact de cheville dans les grottes",
+      "weight": 0.5,
+      "properties": {
+        "epoux": "actor_citoyen_buhle_sud",
+        "epouse": "actor_citoyen_zoleka_sudouest",
+        "lieu_residence": "space_ville_sibaya",
+        "archipel": "sud_ouest"
+      }
+    },
+    {
+      "id": "narrative_relation_mariage_bhekani_nomvula_umsizi",
+      "node_type": "narrative",
+      "type": "mariage",
+      "content": "Bhekani le meteorologue du Nord a epouse Nomvula la fabricante de voiles des Salines. Il a quitte le granite pour le gypse. Les courants d'air du Nord n'existent pas aux Salines -- il a du tout reapprendre. Ses doigts mouilles font rire les gens d'Umsizi.",
+      "synthesis": "Mariage Nord-Est, meteorologue recalibre du granite au gypse, depayse mais heureux",
+      "weight": 0.55,
+      "properties": {
+        "epoux": "actor_citoyen_bhekani",
+        "epouse": "actor_citoyen_nomvula_est",
+        "lieu_residence": "space_ville_umsizi",
+        "defi": "recalibration granite vers gypse, perte des courants d'air familiers"
+      }
+    },
+    {
+      "id": "narrative_relation_rivalite_nombuso_vusumuzi",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Nombuso et Vusumuzi a Mhluzi -- elle dit qu'elle ecoute tres vite, il dit qu'elle predit sans l'admettre. Trente ans de tension sur la frontiere entre ecouter et predire.",
+      "synthesis": "Rivalite ecouteur-predicteur a Mhluzi, trente ans de tension sur la frontiere des metiers",
+      "weight": 0.6,
+      "properties": {
+        "personne_1": "actor_citoyen_nombuso_nordest",
+        "personne_2": "actor_citoyen_vusumuzi",
+        "lieu": "space_ville_mhluzi",
+        "nature": "professionnelle, definitionnelle"
+      }
+    },
+    {
+      "id": "narrative_relation_rivalite_bongiwe_thandeka_sel",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Bongiwe de Kahlamba et Thandeka d'Umsizi -- les deux negociatrices de sel. Bongiwe achete, Thandeka vend. Le prix du sel est une guerre de phalanges menee en Contact si rapide que les caravaniers ne suivent pas.",
+      "synthesis": "Rivalite commerciale sur le prix du sel entre Kahlamba et Umsizi",
+      "weight": 0.6,
+      "properties": {
+        "personne_1": "actor_citoyen_bongiwe",
+        "personne_2": "actor_citoyen_thandeka_est",
+        "nature": "commerciale, prix du sel",
+        "note": "bongiwe = Kahlamba, thandeka = Umsizi"
+      }
+    },
+    {
+      "id": "narrative_relation_rivalite_zintle_mthokozisi",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Zintle et Mthokozisi -- apprentis du meme age a Mhluzi. Elle ecoute neuf frequences, il vomit avant chaque changement. Ecouteuse contre predicteur, seize et dix-neuf ans, la rivalite de la prochaine generation.",
+      "synthesis": "Rivalite generationnelle ecouteur-predicteur, deux apprentis de Mhluzi, la prochaine tension Sihle-Nandi",
+      "weight": 0.55,
+      "properties": {
+        "personne_1": "actor_citoyen_zintle",
+        "personne_2": "actor_citoyen_mthokozisi",
+        "lieu": "space_ville_mhluzi",
+        "nature": "professionnelle, generationnelle"
+      }
+    },
+    {
+      "id": "narrative_relation_rivalite_mqondisi_thulani_volcan",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Mqondisi le geologue et Thulani le predicteur a Bhekisisa -- quand faut-il bouger le camp ? La langue de Mqondisi dit oui, le tremens de Thulani dit pas encore. Le camp attend entre la science et l'intuition.",
+      "synthesis": "Rivalite geologue-predicteur a Bhekisisa, tension science-intuition sur les deplacements du camp",
+      "weight": 0.6,
+      "properties": {
+        "personne_1": "actor_citoyen_mqondisi",
+        "personne_2": "actor_citoyen_thulani_centresud",
+        "lieu": "space_ville_bhekisisa",
+        "nature": "professionnelle, decisionnelle",
+        "note": "thulani de Bhekisisa"
+      }
+    },
+    {
+      "id": "narrative_relation_rivalite_sizwe_velile_pont",
+      "node_type": "narrative",
+      "type": "rivalite",
+      "content": "Sizwe le maitre des ponts et Velile le juge a Ingwe -- Sizwe lit la derive, Velile tranche. Quand Sizwe dit que le pont tient et que Velile ordonne de le couper, c'est l'ombre de Thulani le Juge du Pont qui pese sur la decision.",
+      "synthesis": "Tension maitre des ponts et juge a Ingwe, ombre de Thulani le Juge dans chaque decision",
+      "weight": 0.55,
+      "properties": {
+        "personne_1": "actor_citoyen_sizwe_ouest",
+        "personne_2": "actor_citoyen_velile",
+        "lieu": "space_ville_ingwe",
+        "nature": "decisionnelle, poids de l'histoire",
+        "note": "sizwe et velile d'Ingwe"
+      }
+    },
+    {
+      "id": "narrative_relation_dette_lungelo_nomalanga_corde",
+      "node_type": "narrative",
+      "type": "dette",
+      "content": "Lungelo l'exilee a coupe une corde a Ndaba pour sauver Siyabonga qui tombait. L'interdit absolu des grimpeurs -- mais Siyabonga est vivant. Il lui doit la vie et ne peut meme pas la remercier : elle est bannie.",
+      "synthesis": "Lungelo bannie pour avoir coupe une corde, Siyabonga lui doit la vie sans pouvoir rembourser",
+      "weight": 0.55,
+      "properties": {
+        "debiteur": "actor_citoyen_siyabonga_sud",
+        "crediteur": "actor_citoyen_lungelo",
+        "nature": "vie sauvee, dette impossible a rembourser",
+        "note": "siyabonga de Ndaba, lungelo exilee"
+      }
+    },
+    {
+      "id": "narrative_relation_dette_qhawe_thokozile_lectures",
+      "node_type": "narrative",
+      "type": "dette",
+      "content": "Qhawe s'arrete a la Dent Noire a chaque traversee. Thokozile lui donne ses lectures atmospheriques gratuitement -- mais Qhawe lui apporte de la nourriture et des nouvelles. C'est un echange si ancien qu'aucun des deux ne sait qui doit a l'autre.",
+      "synthesis": "Echange ancien entre Qhawe et Thokozile, dette reciproque devenue rituel",
+      "weight": 0.5,
+      "properties": {
+        "personne_1": "actor_citoyen_qhawe",
+        "personne_2": "actor_citoyen_thokozile",
+        "nature": "reciproque, devenue rituel"
+      }
+    },
+    {
+      "id": "narrative_relation_dette_zanele_fils_desert",
+      "node_type": "narrative",
+      "type": "dette",
+      "content": "Zanele a perdu deux fils dans le desert sismique. Qhawe a ramene le corps du second. Zanele prepare chaque expedition de Qhawe comme si c'etait la derniere -- pas par dette, par terreur qu'un autre corps ne revienne pas.",
+      "synthesis": "Zanele doit a Qhawe le retour du corps de son fils, dette transformee en obsession",
+      "weight": 0.6,
+      "properties": {
+        "debiteur": "actor_citoyen_zanele_sud",
+        "crediteur": "actor_citoyen_qhawe",
+        "nature": "corps ramene du desert, dette de deuil"
+      }
+    },
+    {
+      "id": "narrative_relation_amitie_sandile_vusi_longue",
+      "node_type": "narrative",
+      "type": "amitie",
+      "content": "Sandile de l'Ouest et Vusi du Sud -- caravaniers de La Longue. Ils se croisent a mi-chemin et partagent un Contact de pieds avant de repartir chacun dans sa direction. Le seul du Sud qui marche avec le roulis et le seul de l'Ouest qui connait les basses.",
+      "synthesis": "Amitie inter-archipel entre caravaniers, Contact de pieds a mi-chemin de La Longue",
+      "weight": 0.6,
+      "properties": {
+        "ami_1": "actor_citoyen_sandile_ouest",
+        "ami_2": "actor_citoyen_vusi",
+        "lieu": "space_zone_la_longue",
+        "nature": "amitie de route, respect mutuel",
+        "note": "sandile d'Ingwe, vusi de Kahlamba"
+      }
+    },
+    {
+      "id": "narrative_relation_amitie_gugu_sindiswa_anciennes",
+      "node_type": "narrative",
+      "type": "amitie",
+      "content": "Gugu du cinquieme niveau et Sindiswa la juge -- les deux anciennes d'Umzimkhulu. Elles ne parlent pas souvent mais quand Sindiswa monte au cinquieme, elle pose son poing sur l'epaule de Gugu dix secondes de plus que pour quiconque.",
+      "synthesis": "Amitie entre anciennes d'Umzimkhulu, respect forge sur des decennies de granite",
+      "weight": 0.55,
+      "properties": {
+        "ami_1": "actor_citoyen_gugu",
+        "ami_2": "actor_citoyen_sindiswa",
+        "lieu": "space_ville_umzimkhulu"
+      }
+    },
+    {
+      "id": "narrative_relation_amitie_thandeka_nomvula_eau",
+      "node_type": "narrative",
+      "type": "amitie",
+      "content": "Thandeka des reservoirs et Nomvula de Lesedi -- les deux anciennes de l'eau au Sud. L'une stocke, l'autre sent. Quand Nomvula dit que le battement de coeur de la nappe sud ralentit, Thandeka la croit sans verifier.",
+      "synthesis": "Amitie entre les deux anciennes de l'eau du Sud, confiance absolue",
+      "weight": 0.55,
+      "properties": {
+        "ami_1": "actor_citoyen_thandeka_sud",
+        "ami_2": "actor_citoyen_nomvula_sud",
+        "lieu": "space_archipel_sud",
+        "note": "thandeka et nomvula de Kahlamba/Lesedi"
+      }
+    },
+    {
+      "id": "narrative_relation_amitie_dumisa_wakhile_ermites",
+      "node_type": "narrative",
+      "type": "amitie",
+      "content": "Dumisa le predicteur ignore et Wakhile le mineur aveugle -- deux ermites qui ne se voient presque jamais mais qui se comprennent. L'un a eu raison trop tot, l'autre a perdu les yeux trop tard.",
+      "synthesis": "Amitie entre deux ermites, le predicteur ignore et l'aveugle clairvoyant",
+      "weight": 0.5,
+      "properties": {
+        "ami_1": "actor_citoyen_dumisa_nordest",
+        "ami_2": "actor_citoyen_wakhile",
+        "lieu": "space_zone_desert_sismique",
+        "note": "dumisa ermite, wakhile de Khensi"
+      }
+    },
+    {
+      "id": "narrative_conflit_prix_sel",
+      "node_type": "narrative",
+      "type": "conflit_commercial",
+      "content": "Le prix du sel de Nkosazana est fixe par Thandeka d'Umsizi. Bongiwe de Kahlamba le conteste chaque saison. Les caravaniers portent les contre-offres entre les deux villes -- le voyage dure des jours, la negociation des semaines.",
+      "synthesis": "Conflit commercial recurrent sur le prix du sel entre Umsizi et Kahlamba",
+      "weight": 0.6,
+      "properties": {
+        "partie_1": "space_ville_umsizi",
+        "partie_2": "space_ville_kahlamba",
+        "objet": "prix du sel de Nkosazana"
+      }
+    },
+    {
+      "id": "narrative_conflit_faille_khensi",
+      "node_type": "narrative",
+      "type": "conflit_territorial",
+      "content": "La Faille de Khensi -- qui la controle ? Les ecouteurs du Nord-Est la considerent comme leur site de formation. Le Consortium du Sud la classe comme ressource commune. Wakhile y vit seul et ne repond a personne.",
+      "synthesis": "Conflit territorial sur la Faille de Khensi entre Nord-Est, Consortium, et l'ermite Wakhile",
+      "weight": 0.6,
+      "properties": {
+        "lieu": "space_zone_faille_khensi",
+        "parties": [
+          "space_archipel_nord_est",
+          "space_archipel_sud",
+          "actor_citoyen_wakhile"
+        ]
+      }
+    },
+    {
+      "id": "narrative_conflit_lungelo_ndaba",
+      "node_type": "narrative",
+      "type": "conflit_moral",
+      "content": "Lungelo a coupe une corde a Ndaba -- l'interdit absolu. Elle a sauve Siyabonga. Le village l'a bannie. Nomalanga refuse d'en parler. Lindiwe, qui tresse pour racheter Nobanzi, comprend le paradoxe sans le dire.",
+      "synthesis": "L'exil de Lungelo de Ndaba, corde coupee pour sauver une vie, interdit absolu viole par necessite",
+      "weight": 0.6,
+      "properties": {
+        "exilee": "actor_citoyen_lungelo",
+        "sauve": "actor_citoyen_siyabonga_sud",
+        "lieu": "space_village_ndaba",
+        "note": "siyabonga de Ndaba"
+      }
+    },
+    {
+      "id": "narrative_conflit_expedition_volcan",
+      "node_type": "narrative",
+      "type": "conflit_politique",
+      "content": "Faut-il une autre expedition au volcan ? Le Consortium hesite. Zanele a perdu deux fils. Mqondisi dit que les donnees manquent. Nosipho dit que les fenetres de passage se ferment. Dumisa l'ermite avait predit tout ca.",
+      "synthesis": "Debat politique sur une nouvelle expedition volcanique, le traumatisme des pertes pese contre la necessite scientifique",
+      "weight": 0.65,
+      "properties": {
+        "pour": [
+          "actor_citoyen_mqondisi",
+          "actor_citoyen_nosipho"
+        ],
+        "contre": [
+          "actor_citoyen_zanele"
+        ],
+        "ignoree": [
+          "actor_citoyen_dumisa"
+        ],
+        "lieu": "space_ville_kahlamba",
+        "note": "nosipho et zanele de Kahlamba"
+      }
+    },
+    {
+      "id": "narrative_conflit_predicteurs_ecouteurs",
+      "node_type": "narrative",
+      "type": "conflit_professionnel",
+      "content": "Les predicteurs sentent. Les ecouteurs mesurent. Le mepris coule dans les deux sens. Vusumuzi dit que les instruments retardent. Zandile dit que le tremens hallucine. La frontiere entre les deux metiers est la faille de tout Contre-Terre.",
+      "synthesis": "Tension structurelle predicteurs-ecouteurs, sentir vs mesurer, la faille metaphorique de Contre-Terre",
+      "weight": 0.65,
+      "properties": {
+        "camp_1": "predicteurs",
+        "camp_2": "ecouteurs",
+        "figures": [
+          "actor_citoyen_vusumuzi",
+          "actor_citoyen_zandile"
+        ]
+      }
+    },
+    {
+      "id": "narrative_conflit_dumisa_consortium",
+      "node_type": "narrative",
+      "type": "conflit_personnel",
+      "content": "Dumisa a predit trois seismes de magnitude 7+. Les trois fois, le Consortium l'a ignore. La troisieme prediction s'est realisee. Il est parti. Il vit seul sur son promontoire. Qhawe lui laisse des rations. Personne d'autre ne vient.",
+      "synthesis": "Rupture entre Dumisa et le Consortium apres trois predictions ignorees, la troisieme justifiee",
+      "weight": 0.55,
+      "properties": {
+        "personne": "actor_citoyen_dumisa_nordest",
+        "institution": "Consortium",
+        "note": "dumisa ermite, ancien de Mhluzi"
+      }
+    },
+    {
+      "id": "narrative_conflit_generationnel_mantolo",
+      "node_type": "narrative",
+      "type": "conflit_generationnel",
+      "content": "Phila frappe les murs trop fort. Nqobile dit patience. Thembekile dit que les jeunes ne respectent plus la roche. Phila dit que la roche ne se plaint pas -- ce sont les vieux qui se plaignent.",
+      "synthesis": "Tension generationnelle a Mantolo, les anciens tailleurs contre la brutalite des jeunes",
+      "weight": 0.5,
+      "properties": {
+        "ancien": "actor_citoyen_thembekile",
+        "jeune": "actor_citoyen_phila",
+        "mediateur": "actor_citoyen_nqobile",
+        "lieu": "space_village_mantolo"
+      }
+    },
+    {
+      "id": "narrative_conflit_recalibration_bhekani",
+      "node_type": "narrative",
+      "type": "conflit_intime",
+      "content": "Bhekani a quitte le granite d'Umzimkhulu pour le gypse d'Umsizi par amour pour Nomvula. Ses collegues meteorologues du Nord ne lui pardonnent pas. Son doigt mouille leve dans l'air sec des Salines est un geste deplace -- la meteorologie du Nord ne fonctionne pas ici.",
+      "synthesis": "Bhekani deracine du Nord vers les Salines, ses competences ne se transferent pas, ses anciens collegues le meprisent",
+      "weight": 0.5,
+      "properties": {
+        "personne": "actor_citoyen_bhekani",
+        "origine": "space_ville_umzimkhulu",
+        "destination": "space_ville_umsizi",
+        "note": "bhekani du Nord"
+      }
+    },
+    {
+      "id": "narrative_conflit_sourds_surface",
+      "node_type": "narrative",
+      "type": "conflit_culturel",
+      "content": "Le Village des Sourds parle un Contact que la surface ne comprend pas. Trois doigts au lieu de la paume. Trois cents gestes uniques. Fundiswa est le seul bilingue, le pont entre deux mondes qui ne se font pas confiance.",
+      "synthesis": "Fossé culturel entre le Village des Sourds et la surface, Contact incomprehensible, Fundiswa comme seul traducteur",
+      "weight": 0.6,
+      "properties": {
+        "village": "space_village_sourds",
+        "traducteur": "actor_citoyen_fundiswa"
+      }
+    },
+    {
+      "id": "narrative_conflit_caravane_route",
+      "node_type": "narrative",
+      "type": "conflit_logistique",
+      "content": "Lethiwe choisit les routes par la frequence, pas par la distance. Qhawe choisit par l'experience. Quand les deux ne sont pas d'accord, la caravane s'arrete et attend que le sol tranche.",
+      "synthesis": "Tension entre navigation par frequence et navigation par experience dans les caravanes",
+      "weight": 0.5,
+      "properties": {
+        "personne_1": "actor_citoyen_lethiwe",
+        "personne_2": "actor_citoyen_qhawe",
+        "lieu": "space_zone_desert_sismique"
+      }
+    },
+    {
+      "id": "narrative_conflit_soufre_deplacement",
+      "node_type": "narrative",
+      "type": "conflit_survie",
+      "content": "Le soufre avance. Zanele la biologiste de Bhekisisa dit que les lezards ont recule de deux cents metres en six mois. Mqondisi refuse de bouger le camp -- les sondages ne confirment pas. Anathi prepare le demontage en secret, au cas ou.",
+      "synthesis": "Desaccord a Bhekisisa sur l'avancee du soufre, biologie contre geologie, Anathi se prepare dans l'ombre",
+      "weight": 0.55,
+      "properties": {
+        "pour_deplacement": [
+          "actor_citoyen_zanele",
+          "actor_citoyen_anathi"
+        ],
+        "contre": [
+          "actor_citoyen_mqondisi"
+        ],
+        "lieu": "space_ville_bhekisisa",
+        "note": "zanele biologiste de Bhekisisa"
+      }
+    },
+    {
+      "id": "narrative_conflit_derive_ingwe",
+      "node_type": "narrative",
+      "type": "conflit_existentiel",
+      "content": "Anele dit que les blocs s'eloignent. Onze metres en soixante-neuf ans. Un jour le pont central cassera et ne sera pas remplacable. Sizwe dit qu'il tiendra. Velile prepare un plan pour si Sizwe a tort.",
+      "synthesis": "Menace existentielle a Ingwe, la derive des blocs menace de separer la communaute",
+      "weight": 0.6,
+      "properties": {
+        "lanceuse_alerte": "actor_citoyen_anele",
+        "optimiste": "actor_citoyen_sizwe_ouest",
+        "pragmatique": "actor_citoyen_velile",
+        "lieu": "space_ville_ingwe",
+        "note": "anele doyenne, sizwe maitre des ponts, velile juge d'Ingwe"
+      }
+    },
+    {
+      "id": "narrative_conflit_khanyiso_identite",
+      "node_type": "narrative",
+      "type": "conflit_identitaire",
+      "content": "Khanyiso est revenu de Zama avec le roulis de l'Ouest dans sa marche. A Mhluzi, la marche saccadee est la norme. Son corps ne sait plus d'ou il vient. Les gens des Seches disent qu'il marche comme un etranger.",
+      "synthesis": "Crise d'identite de Khanyiso, marche hybride Seches-Roulantes, etranger partout",
+      "weight": 0.5,
+      "properties": {
+        "personne": "actor_citoyen_khanyiso",
+        "archipel_1": "space_archipel_nord_est",
+        "archipel_2": "space_archipel_ouest"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_vuyelwa",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "speleologie grottes inferieures",
+        "lieu": "Sibaya",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_lindiwe_sud",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "triple tresse de Kwanele",
+        "lieu": "Ndaba",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_nqobile",
+      "target": "actor_citoyen_phila",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "taille du granite",
+        "lieu": "Mantolo"
+      }
+    },
+    {
+      "source": "actor_citoyen_zandile",
+      "target": "actor_citoyen_khanyisile",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "ecoute infra-basses",
+        "lieu": "Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "actor_citoyen_zintle",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "ecoute sismique",
+        "lieu": "Mhluzi",
+        "note": "nordest"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "actor_citoyen_gcina",
+      "type": "forme_par",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "cartographie tactile",
+        "lieu": "Mathamo",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_noxolo",
+      "target": "actor_citoyen_phiwokuhle",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.75,
+      "properties": {
+        "domaine": "aeromaitre",
+        "lieu": "Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_siphamandla_sud",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "routes caravanieres",
+        "lieu": "desert sismique",
+        "note": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusumuzi",
+      "target": "actor_citoyen_mthokozisi",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.7,
+      "properties": {
+        "domaine": "prediction sismique",
+        "lieu": "Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomvula_sud",
+      "target": "actor_citoyen_thulani_sud",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "lecture des nappes",
+        "lieu": "Lesedi",
+        "note": "sud, thulani = pecheur de Lesedi"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisile",
+      "target": "actor_citoyen_nokwanda",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "extraction de sel",
+        "lieu": "Nkosazana"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisile",
+      "target": "actor_citoyen_sizwe_est",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "extraction et ganterie",
+        "lieu": "Nkosazana",
+        "note": "sizwe de Nkosazana"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "actor_citoyen_ntombi_centresud",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "tremens d'Os",
+        "lieu": "Village des Sourds",
+        "note": "ntombi des sourds"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_ouest",
+      "target": "actor_citoyen_mbalenhle",
+      "type": "forme_par",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "survie sur Zama",
+        "lieu": "Zama",
+        "note": "xolani ancien de Zama"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "actor_citoyen_senzo",
+      "type": "forme_par",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "cartographie tactile",
+        "lieu": "Mathamo",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "actor_citoyen_mbalenhle",
+      "type": "marie_a",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "type_mariage": "inter-archipel Sud-Ouest"
+      }
+    },
+    {
+      "source": "actor_citoyen_mbalenhle",
+      "target": "actor_citoyen_vusi",
+      "type": "marie_a",
+      "weight": 0.8,
+      "affinity": 0.9,
+      "properties": {
+        "type_mariage": "inter-archipel Ouest-Sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_andile",
+      "target": "actor_citoyen_nomalanga_nordest",
+      "type": "marie_a",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "type_mariage": "inter-archipel Est-Nord-Est",
+        "note": "nomalanga predictrice de Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_nordest",
+      "target": "actor_citoyen_andile",
+      "type": "marie_a",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "type_mariage": "inter-archipel Nord-Est-Est",
+        "note": "nomalanga predictrice de Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungile_nord",
+      "target": "actor_citoyen_ntombi_nord",
+      "type": "marie_a",
+      "weight": 0.75,
+      "affinity": 0.9,
+      "properties": {
+        "type_mariage": "intra-archipel Nord",
+        "note": "lungile essieux, ntombi sismographes Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombi_nord",
+      "target": "actor_citoyen_lungile_nord",
+      "type": "marie_a",
+      "weight": 0.75,
+      "affinity": 0.9,
+      "properties": {
+        "type_mariage": "intra-archipel Nord"
+      }
+    },
+    {
+      "source": "actor_citoyen_buhle_sudouest",
+      "target": "actor_citoyen_zoleka_sudouest",
+      "type": "marie_a",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "type_mariage": "intra-Creuses",
+        "note": "buhle mineur, zoleka cuisiniere de Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_sudouest",
+      "target": "actor_citoyen_buhle_sudouest",
+      "type": "marie_a",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "type_mariage": "intra-Creuses",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_bhekani",
+      "target": "actor_citoyen_nomvula_est",
+      "type": "marie_a",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "type_mariage": "inter-archipel Nord-Est",
+        "note": "bhekani du Nord, nomvula d'Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomvula_est",
+      "target": "actor_citoyen_bhekani",
+      "type": "marie_a",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "type_mariage": "inter-archipel Est-Nord"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "actor_citoyen_vusumuzi",
+      "type": "rival_de",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "nature": "ecouteur vs predicteur",
+        "lieu": "Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusumuzi",
+      "target": "actor_citoyen_nombuso_nordest",
+      "type": "rival_de",
+      "weight": 0.6,
+      "affinity": 0.5,
+      "properties": {
+        "nature": "predicteur vs ecouteur",
+        "lieu": "Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_bongiwe",
+      "target": "actor_citoyen_thandeka_est",
+      "type": "rival_de",
+      "weight": 0.6,
+      "affinity": 0.55,
+      "properties": {
+        "nature": "negociation du sel",
+        "note": "bongiwe Kahlamba, thandeka Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "actor_citoyen_bongiwe",
+      "type": "rival_de",
+      "weight": 0.6,
+      "affinity": 0.55,
+      "properties": {
+        "nature": "negociation du sel",
+        "note": "thandeka Umsizi, bongiwe Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_zintle",
+      "target": "actor_citoyen_mthokozisi",
+      "type": "rival_de",
+      "weight": 0.55,
+      "affinity": 0.6,
+      "properties": {
+        "nature": "rivalite amicale ecouteur-predicteur, generationnelle"
+      }
+    },
+    {
+      "source": "actor_citoyen_mthokozisi",
+      "target": "actor_citoyen_zintle",
+      "type": "rival_de",
+      "weight": 0.55,
+      "affinity": 0.6,
+      "properties": {
+        "nature": "rivalite amicale predicteur-ecouteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "actor_citoyen_thulani_centresud",
+      "type": "rival_de",
+      "weight": 0.6,
+      "affinity": 0.6,
+      "properties": {
+        "nature": "science vs intuition",
+        "lieu": "Bhekisisa",
+        "note": "thulani predicteur de Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_thulani_centresud",
+      "target": "actor_citoyen_mqondisi",
+      "type": "rival_de",
+      "weight": 0.6,
+      "affinity": 0.6,
+      "properties": {
+        "nature": "intuition vs science",
+        "lieu": "Bhekisisa",
+        "note": "thulani predicteur de Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_sizwe_ouest",
+      "target": "actor_citoyen_velile",
+      "type": "rival_de",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "nature": "technique vs autorite",
+        "lieu": "Ingwe",
+        "note": "sizwe et velile d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_siyabonga_sud",
+      "target": "actor_citoyen_lungelo",
+      "type": "doit_a",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "vie sauvee par corde coupee",
+        "note": "siyabonga de Ndaba"
+      }
+    },
+    {
+      "source": "actor_citoyen_zanele_sud",
+      "target": "actor_citoyen_qhawe",
+      "type": "doit_a",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "nature": "corps du fils ramene du desert",
+        "note": "zanele de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_thokozile",
+      "type": "doit_a",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "lectures atmospheriques gratuites, reciproque"
+      }
+    },
+    {
+      "source": "actor_citoyen_thokozile",
+      "target": "actor_citoyen_qhawe",
+      "type": "doit_a",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "nourriture et nouvelles du monde, reciproque"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanyiso",
+      "target": "actor_citoyen_xolani_ouest",
+      "type": "doit_a",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "formation a Zama, roulis dans la marche",
+        "note": "xolani ancien de Zama"
+      }
+    },
+    {
+      "source": "actor_citoyen_nosipho_centresud",
+      "target": "actor_citoyen_ntombi_nord",
+      "type": "doit_a",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "formation aux instruments du Nord a Umzimkhulu",
+        "note": "nosipho meteo Bhekisisa, ntombi sismographes Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_ouest",
+      "target": "actor_citoyen_vusi",
+      "type": "ami_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "caravaniers de La Longue",
+        "note": "sandile d'Ingwe, vusi de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "actor_citoyen_sandile_ouest",
+      "type": "ami_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "caravaniers de La Longue"
+      }
+    },
+    {
+      "source": "actor_citoyen_gugu",
+      "target": "actor_citoyen_sindiswa",
+      "type": "ami_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "nature": "deux anciennes d'Umzimkhulu",
+        "lieu": "Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_sindiswa",
+      "target": "actor_citoyen_gugu",
+      "type": "ami_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "nature": "respect forge sur des decennies"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisa_nordest",
+      "target": "actor_citoyen_wakhile",
+      "type": "ami_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "deux ermites qui se comprennent",
+        "note": "dumisa ermite, wakhile a Khensi"
+      }
+    },
+    {
+      "source": "actor_citoyen_wakhile",
+      "target": "actor_citoyen_dumisa_nordest",
+      "type": "ami_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "le predicteur ignore et l'aveugle"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_busisiwe_ouest",
+      "type": "ami_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "12 ans de caravane ensemble",
+        "note": "nomades"
+      }
+    },
+    {
+      "source": "actor_citoyen_busisiwe_ouest",
+      "target": "actor_citoyen_qhawe",
+      "type": "ami_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "12 ans de caravane ensemble"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_busisiwe_ouest",
+      "type": "ami_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "deux femmes de caravane, quarts de nuit partages"
+      }
+    },
+    {
+      "source": "actor_citoyen_buhle_sud",
+      "target": "actor_citoyen_siyabonga_sud",
+      "type": "ami_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "nature": "meme age, buhle messagere apporte les nouvelles",
+        "note": "buhle de Kahlamba, siyabonga de Ndaba"
+      }
+    },
+    {
+      "source": "actor_citoyen_siyabonga_sud",
+      "target": "actor_citoyen_buhle_sud",
+      "type": "ami_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "nature": "il reve de caravane, elle court entre les villes"
+      }
+    },
+    {
+      "source": "actor_citoyen_zodwa",
+      "target": "actor_citoyen_nolwazi_sourds",
+      "type": "ami_de",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "nature": "biologiste et cuisiniere, champignons du village",
+        "lieu": "Village des Sourds",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_nolwazi_sourds",
+      "target": "actor_citoyen_zodwa",
+      "type": "ami_de",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "nature": "l'une cultive, l'autre cuisine"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "ami_de",
+      "weight": 0.55,
+      "affinity": 0.75,
+      "properties": {
+        "nature": "tante et niece, lien familial malgre le nomadisme",
+        "note": "nonhle nomade, nombuso de Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "parent_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "Nombuso est la tante de Nonhle",
+        "note": "nombuso de Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_nordest",
+      "target": "actor_citoyen_siphamandla_nordest",
+      "type": "parent_de",
+      "weight": 0.6,
+      "affinity": 0.85,
+      "properties": {
+        "relation": "Zoleka est la tante de Nandi et de Siphamandla",
+        "lieu": "Iziphuku",
+        "note": "nordest"
+      }
+    },
+    {
+      "source": "actor_citoyen_zanele_sud",
+      "target": "actor_citoyen_vusi",
+      "type": "parent_de",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "Zanele a perdu deux fils dans le desert, Vusi est de la generation suivante qu'elle protege",
+        "note": "zanele de Kahlamba, lien quasi-maternel"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sud",
+      "target": "actor_citoyen_nomvula_sud",
+      "type": "parent_de",
+      "weight": 0.55,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "Thandeka est la grand-tante de Nomvula a Lesedi",
+        "note": "thandeka et nomvula du Sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_siyabonga_sud",
+      "type": "parent_de",
+      "weight": 0.55,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "Nomalanga est la mere de Siyabonga",
+        "lieu": "Ndaba",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungile_nord",
+      "target": "actor_citoyen_mbuso",
+      "type": "parent_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "Lungile est le pere de Mbuso, mineurs du meme granite",
+        "lieu": "Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_sindiswa",
+      "target": "actor_citoyen_khanyisile",
+      "type": "parent_de",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "Sindiswa est la grand-mere de Khanyisile -- la juge a engendre une ecouteuse"
+      }
+    },
+    {
+      "source": "actor_citoyen_anele",
+      "target": "actor_citoyen_sizwe_ouest",
+      "type": "parent_de",
+      "weight": 0.55,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "Anele a forme Sizwe comme successeur aux ponts, quasi-filial",
+        "lieu": "Ingwe",
+        "note": "sizwe d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "actor_citoyen_lindokuhle",
+      "type": "parent_de",
+      "weight": 0.5,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "Mqondisi est le pere de Lindokuhle, geologues tous les deux"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "actor_citoyen_ayize",
+      "type": "parent_de",
+      "weight": 0.55,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "Khanya est l'arriere-grand-mere d'Ayize au Village des Sourds"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphelele",
+      "target": "actor_citoyen_mzamo",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "marche de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_mzamo",
+      "target": "actor_citoyen_siphelele",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "marche de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_nosipho_sud",
+      "target": "actor_citoyen_zanele_sud",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "Consortium de Kahlamba",
+        "note": "nosipho et zanele de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungile_nord",
+      "target": "actor_citoyen_nqobile",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "Nord, fournisseur de blocs"
+      }
+    },
+    {
+      "source": "actor_citoyen_nqobile",
+      "target": "actor_citoyen_thembekile",
+      "type": "collegue_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "lieu": "Mantolo, metiers complementaires"
+      }
+    },
+    {
+      "source": "actor_citoyen_thembekile",
+      "target": "actor_citoyen_nqobile",
+      "type": "collegue_de",
+      "weight": 0.7,
+      "affinity": 0.85,
+      "properties": {
+        "lieu": "Mantolo"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombizodwa",
+      "target": "actor_citoyen_mandlenkosi",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "lieu": "Phakade, binome tisserande-recolteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandlenkosi",
+      "target": "actor_citoyen_ntombizodwa",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "lieu": "Phakade"
+      }
+    },
+    {
+      "source": "actor_citoyen_bonginkosi",
+      "target": "actor_citoyen_siyabonga_est",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Umsizi, gypse broye pour explosifs",
+        "note": "siyabonga d'Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_nokwanda",
+      "target": "actor_citoyen_sizwe_est",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "Nkosazana, extracteurs",
+        "note": "sizwe de Nkosazana"
+      }
+    },
+    {
+      "source": "actor_citoyen_sizwe_est",
+      "target": "actor_citoyen_nokwanda",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "Nkosazana",
+        "note": "sizwe de Nkosazana"
+      }
+    },
+    {
+      "source": "actor_citoyen_mqondisi",
+      "target": "actor_citoyen_anathi",
+      "type": "collegue_de",
+      "weight": 0.75,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "Bhekisisa, binome de commandement"
+      }
+    },
+    {
+      "source": "actor_citoyen_anathi",
+      "target": "actor_citoyen_mqondisi",
+      "type": "collegue_de",
+      "weight": 0.75,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomathemba",
+      "target": "actor_citoyen_sibusiso",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "lieu": "Themba, gardiens"
+      }
+    },
+    {
+      "source": "actor_citoyen_sibusiso",
+      "target": "actor_citoyen_nomathemba",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "lieu": "Themba"
+      }
+    },
+    {
+      "source": "actor_citoyen_noxolo",
+      "target": "actor_citoyen_nosipho_centresud",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "Bhekisisa, aeromaitre et meteorologue",
+        "note": "nosipho meteo de Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_mfundo",
+      "target": "actor_citoyen_busisiwe_centresud",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "Bhekisisa-Themba, cartographes surface et souterrain",
+        "note": "busisiwe de Themba"
+      }
+    },
+    {
+      "source": "actor_citoyen_bhekumuzi",
+      "target": "actor_citoyen_nombuso_nordest",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "Mhluzi, enseignants",
+        "note": "nordest"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindelwa",
+      "target": "actor_citoyen_nomalanga_nordest",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "Mhluzi, voisines",
+        "note": "nomalanga predictrice de Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_sizwe_ouest",
+      "type": "fournit",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "cordes de Ndaba pour les ponts",
+        "note": "nomalanga de Ndaba, sizwe d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandla_sud",
+      "target": "actor_citoyen_sizwe_ouest",
+      "type": "fournit",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "caissons amortisseurs pour instruments",
+        "note": "mandla de Kahlamba, sizwe d'Ingwe via caravane"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "actor_citoyen_bongiwe",
+      "type": "fournit",
+      "weight": 0.65,
+      "affinity": 0.6,
+      "properties": {
+        "produit": "sel de Nkosazana",
+        "note": "thandeka Umsizi, bongiwe Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "actor_citoyen_siphelele",
+      "type": "fournit",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "sel pour la cuisine de Kahlamba",
+        "note": "thandeka Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombizodwa",
+      "target": "actor_citoyen_noxolo",
+      "type": "fournit",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "produit": "tissus d'aeromaitre de Phakade"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombizodwa",
+      "target": "actor_citoyen_thabo",
+      "type": "fournit",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "tissus d'aeromaitre commandes sur mesure"
+      }
+    },
+    {
+      "source": "actor_citoyen_nqobile",
+      "target": "actor_citoyen_lungile_nord",
+      "type": "fournit",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "produit": "blocs de granite tailles de Mantolo pour essieux",
+        "note": "lungile d'Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisa_nord",
+      "target": "actor_citoyen_ntombi_nord",
+      "type": "fournit",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "pate d'essieu de Mantolo pour sismographes",
+        "note": "dumisa cuisinier Nord, ntombi sismographes Nord"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphelele",
+      "target": "actor_citoyen_buyiswa",
+      "type": "fournit",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "produit": "recettes de bouillie du Sud adaptees pour les Chaudes"
+      }
+    },
+    {
+      "source": "actor_citoyen_zinhle",
+      "target": "actor_citoyen_bongiwe",
+      "type": "fournit",
+      "weight": 0.55,
+      "affinity": 0.75,
+      "properties": {
+        "produit": "sel caramelise d'Umsizi pour le marche de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_nokwanda",
+      "target": "actor_citoyen_thandeka_est",
+      "type": "fournit",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "produit": "sel gris brut de Nkosazana",
+        "note": "thandeka Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandlenkosi",
+      "target": "actor_citoyen_ntombizodwa",
+      "type": "fournit",
+      "weight": 0.6,
+      "affinity": 0.85,
+      "properties": {
+        "produit": "fibres vibrantes brutes pour tissage"
+      }
+    },
+    {
+      "source": "actor_citoyen_luthando",
+      "target": "actor_citoyen_mbalenhle",
+      "type": "fournit",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "lichen de gres contre tubercules de Zama"
+      }
+    },
+    {
+      "source": "actor_citoyen_thulani_sud",
+      "target": "actor_citoyen_siphelele",
+      "type": "fournit",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "eau froide de Lesedi pour la cuisine de Kahlamba",
+        "note": "thulani pecheur de Lesedi"
+      }
+    },
+    {
+      "source": "actor_citoyen_sizwe_est",
+      "target": "actor_citoyen_nokwanda",
+      "type": "fournit",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "produit": "gants de cuir pour extraction",
+        "note": "sizwe gantier de Nkosazana"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusumuzi",
+      "target": "actor_citoyen_mthokozisi",
+      "type": "enseigne",
+      "weight": 0.65,
+      "affinity": 0.7,
+      "properties": {
+        "domaine": "prediction sismique, gestion du tremens"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "actor_citoyen_zintle",
+      "type": "enseigne",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "ecoute sismique, Faille de Khensi",
+        "note": "nordest"
+      }
+    },
+    {
+      "source": "actor_citoyen_zandile",
+      "target": "actor_citoyen_khanyisile",
+      "type": "enseigne",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "infra-basses du granite"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_lindiwe_sud",
+      "type": "enseigne",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "triple tresse de Kwanele",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_siyabonga_sud",
+      "type": "enseigne",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "domaine": "cordage de base",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanya",
+      "target": "actor_citoyen_ayize",
+      "type": "enseigne",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "domaine": "geste inconnu, Contact a 3 doigts"
+      }
+    },
+    {
+      "source": "actor_citoyen_vuyelwa",
+      "target": "actor_citoyen_mthunzi",
+      "type": "enseigne",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "domaine": "descentes dans les grottes",
+        "lieu": "Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sudouest",
+      "target": "actor_citoyen_gcina",
+      "type": "enseigne",
+      "weight": 0.75,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "tracage tactile sur avant-bras",
+        "lieu": "Mathamo",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_noxolo",
+      "target": "actor_citoyen_phiwokuhle",
+      "type": "enseigne",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "domaine": "lecture de l'air, Champs de Soufre"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisile",
+      "target": "actor_citoyen_nokwanda",
+      "type": "enseigne",
+      "weight": 0.6,
+      "affinity": 0.85,
+      "properties": {
+        "domaine": "extraction de sel, comptage au son"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungelo",
+      "target": "actor_citoyen_nomalanga_sud",
+      "type": "en_conflit_avec",
+      "weight": 0.5,
+      "affinity": 0.3,
+      "properties": {
+        "nature": "Lungelo bannie, Nomalanga refuse d'en parler",
+        "note": "nomalanga de Ndaba"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_lungelo",
+      "type": "en_conflit_avec",
+      "weight": 0.5,
+      "affinity": 0.3,
+      "properties": {
+        "nature": "le village a banni Lungelo, Nomalanga l'a laissee partir",
+        "note": "nomalanga de Ndaba"
+      }
+    },
+    {
+      "source": "actor_citoyen_dumisa_nordest",
+      "target": "actor_citoyen_nosipho_sud",
+      "type": "en_conflit_avec",
+      "weight": 0.5,
+      "affinity": 0.4,
+      "properties": {
+        "nature": "Dumisa parti apres que le Consortium l'a ignore, Nosipho represente le Consortium",
+        "note": "dumisa ermite, nosipho de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_zanele_sud",
+      "target": "actor_citoyen_mqondisi",
+      "type": "en_conflit_avec",
+      "weight": 0.5,
+      "affinity": 0.5,
+      "properties": {
+        "nature": "Zanele veut avancer prudemment apres la perte de ses fils, Mqondisi pousse pour plus de donnees",
+        "note": "zanele Kahlamba vs mqondisi Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_thembekile",
+      "target": "actor_citoyen_phila",
+      "type": "en_conflit_avec",
+      "weight": 0.45,
+      "affinity": 0.55,
+      "properties": {
+        "nature": "generationnel -- Thembekile dit que les jeunes brisent sans comprendre"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "actor_citoyen_qhawe",
+      "type": "en_conflit_avec",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "nature": "desaccord sur le choix des routes, frequence vs experience"
+      }
+    },
+    {
+      "source": "actor_citoyen_anathi",
+      "target": "actor_citoyen_mqondisi",
+      "type": "en_conflit_avec",
+      "weight": 0.45,
+      "affinity": 0.65,
+      "properties": {
+        "nature": "Anathi prepare le demontage quand Mqondisi refuse de bouger -- insubordination silencieuse"
+      }
+    },
+    {
+      "source": "actor_citoyen_bhekani",
+      "target": "actor_citoyen_zandile",
+      "type": "en_conflit_avec",
+      "weight": 0.45,
+      "affinity": 0.5,
+      "properties": {
+        "nature": "Bhekani parti d'Umzimkhulu, Zandile considere son depart comme une desertion",
+        "note": "bhekani ex-Nord parti aux Salines"
+      }
+    },
+    {
+      "source": "actor_citoyen_fundiswa",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "en_conflit_avec",
+      "weight": 0.4,
+      "affinity": 0.55,
+      "properties": {
+        "nature": "Fundiswa veut plus de contact avec la surface, Nombuso protege l'isolement du village",
+        "note": "fundiswa des sourds, nombuso de Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_anele",
+      "target": "actor_citoyen_sizwe_ouest",
+      "type": "en_conflit_avec",
+      "weight": 0.4,
+      "affinity": 0.6,
+      "properties": {
+        "nature": "Anele predit la rupture des ponts, Sizwe dit qu'ils tiendront -- tension mere-fils adoptif",
+        "note": "Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_phila",
+      "target": "actor_citoyen_nqobile",
+      "type": "respecte",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "nature": "apprenti envers maitre, admiration malgre l'impatience"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanyisile",
+      "target": "actor_citoyen_zandile",
+      "type": "respecte",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "devotion d'apprentie, Zandile comme figure de Dumisani"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphamandla_sud",
+      "target": "actor_citoyen_qhawe",
+      "type": "respecte",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "nature": "premier apprenti, respect du doyen des routes",
+        "note": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_zintle",
+      "target": "actor_citoyen_nombuso_nordest",
+      "type": "respecte",
+      "weight": 0.6,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "apprentie envers formatrice",
+        "note": "nordest"
+      }
+    },
+    {
+      "source": "actor_citoyen_mthokozisi",
+      "target": "actor_citoyen_vusumuzi",
+      "type": "respecte",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "inquietude paternelle reciproque, le doyen veille"
+      }
+    },
+    {
+      "source": "actor_citoyen_mbuso",
+      "target": "actor_citoyen_lungile_nord",
+      "type": "respecte",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "nature": "fils envers pere, meme granite, memes mains"
+      }
+    },
+    {
+      "source": "actor_citoyen_gcina",
+      "target": "actor_citoyen_thandeka_sudouest",
+      "type": "respecte",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "apprenti en admiration, toucher superieur a la maitresse au meme age",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_phiwokuhle",
+      "target": "actor_citoyen_noxolo",
+      "type": "respecte",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "nature": "apprenti aeromaitre, tissu encore blanc, patience de la maitresse"
+      }
+    },
+    {
+      "source": "actor_citoyen_nokwanda",
+      "target": "actor_citoyen_dumisile",
+      "type": "respecte",
+      "weight": 0.6,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "apprentie envers doyenne de Nkosazana"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sud",
+      "target": "actor_citoyen_nomalanga_sud",
+      "type": "respecte",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "nature": "apprentie descendante de Nobanzi envers la gardienne de Kwanele",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_ayanda",
+      "target": "actor_citoyen_bongiwe",
+      "type": "respecte",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "ecouteur envers marchande, premiere interlocutrice de ses alertes"
+      }
+    },
+    {
+      "source": "actor_citoyen_mthunzi",
+      "target": "actor_citoyen_vuyelwa",
+      "type": "respecte",
+      "weight": 0.55,
+      "affinity": 0.75,
+      "properties": {
+        "nature": "jeune speleo qui admire la specialiste des profondeurs"
+      }
+    },
+    {
+      "source": "actor_citoyen_siyabonga_sud",
+      "target": "actor_citoyen_lungelo",
+      "type": "respecte",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "nature": "dette de vie, respect interdit -- elle est bannie",
+        "note": "siyabonga de Ndaba"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombi_centresud",
+      "target": "actor_citoyen_khanya",
+      "type": "respecte",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "nature": "predictrice envers ancienne, tremens d'Os transmis",
+        "note": "sourds"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "actor_citoyen_wakhile",
+      "type": "respecte",
+      "weight": 0.55,
+      "affinity": 0.75,
+      "properties": {
+        "nature": "caravanier-ecouteur consulte l'aveugle a chaque passage pres de Khensi"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_bongiwe",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "le doyen des caravanes negocie avec la marchande de Kahlamba a chaque arrivee"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_sandile_sudouest",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "caravane et speleo, Sibaya est une etape de Qhawe",
+        "note": "sandile des eaux de Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_sizwe_ouest",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "Qhawe passe par Ingwe, Sizwe verifie les ponts avant son depart",
+        "note": "sizwe d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_thandeka_est",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le doyen achete du sel a Umsizi a chaque traversee est",
+        "note": "thandeka Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_nosipho_sud",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "la messagere transmet les messages du Consortium entre archipels",
+        "note": "nosipho de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_lindelwa",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "la messagere et la registre du Consortium a Mhluzi, memes messages differents mains"
+      }
+    },
+    {
+      "source": "actor_citoyen_andile",
+      "target": "actor_citoyen_lungile_nord",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "caravanier de la Muette et tailleur d'essieux, Andile apporte le sel au Nord",
+        "note": "lungile d'Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_andile",
+      "target": "actor_citoyen_dumisa_nord",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "Andile passe par Umzimkhulu, croise Dumisa le cuisinier du Nord",
+        "note": "dumisa cuisinier d'Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_ouest",
+      "target": "actor_citoyen_bongiwe",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "caravanier de l'Ouest arrive a Kahlamba, Bongiwe est sa premiere interlocutrice au marche",
+        "note": "sandile d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_est",
+      "target": "actor_citoyen_bonginkosi",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "deux explosivistes, Xolani transporte les charges que Bonginkosi fabrique",
+        "note": "xolani nomade, bonginkosi Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_busisiwe_ouest",
+      "target": "actor_citoyen_luthando",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "cuisiniers de mondes differents, echangent recettes a Ingwe",
+        "note": "busisiwe nomade, luthando d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "actor_citoyen_thandeka_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "la caravaniere nee a Sibaya echange des cartes avec la maitresse de Mathamo",
+        "note": "thandeka de Mathamo"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandiwe",
+      "target": "actor_citoyen_zanele_centresud",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "deux biologistes, Thandiwe nomade apporte des echantillons de surface a Zanele de Bhekisisa",
+        "note": "zanele biologiste de Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_zoleka_nordest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "la messagere passe par Iziphuku, la tante de Nandi lui donne un repas",
+        "note": "zoleka d'Iziphuku"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "actor_citoyen_zandile",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "caravanier-ecouteur du Nord croise l'ecouteur en chef d'Umzimkhulu a chaque passage"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_est",
+      "target": "actor_citoyen_dumisile",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le caravanier des Salines s'approvisionne aupres de la doyenne de Nkosazana",
+        "note": "xolani nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_anele",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "le doyen des caravanes et la doyenne d'Ingwe, deux anciens qui regardent le monde se deplacer"
+      }
+    },
+    {
+      "source": "actor_citoyen_buyiswa",
+      "target": "actor_citoyen_siphelele",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "cuisinieres des Chaudes et du Sud, echangent recettes quand les caravanes arrivent"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "le caravanier s'arrete a Sibaya, la doyenne des speleos le guide vers les bons champignons",
+        "note": "nombuso de Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphamandla_sud",
+      "target": "actor_citoyen_bongiwe",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "l'apprenti caravanier fait sa premiere livraison a Kahlamba, Bongiwe l'accueille",
+        "note": "nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_mqondisi",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le doyen des caravanes porte les rapports de Bhekisisa au Consortium"
+      }
+    },
+    {
+      "source": "actor_citoyen_fundiswa",
+      "target": "actor_citoyen_nomalanga_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le traducteur du Village des Sourds echange des cartes tactiles avec la cartographe de Sibaya",
+        "note": "nomalanga de Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_nomathemba",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "la messagere passe par Themba, le grip de Nomathemba verifie chaque visiteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "actor_citoyen_nolwazi_ouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "la caravaniere cartographe et la cartographe d'Ingwe, echangent methodes de tracage",
+        "note": "nolwazi d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "actor_citoyen_bhekumuzi",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "ecouteurs du Nord et du Nord-Est, echangent lectures quand les caravanes passent par Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandiwe",
+      "target": "actor_citoyen_sibusiso",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "deux specialistes des filaments bioluminescents, surface et souterrain"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sudouest",
+      "target": "actor_citoyen_nomalanga_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "geologue de Mathamo et cartographe de Sibaya, collaborent sur les galeries karstiques",
+        "note": "lindiwe et nomalanga des Creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_ayanda",
+      "target": "actor_citoyen_lungile_est",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "ecouteur de Kahlamba et ecouteuse d'Umsizi, echangent par caravane",
+        "note": "lungile ecouteuse d'Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_wakhile",
+      "target": "actor_citoyen_zandile",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "le vieil aveugle de Khensi et l'ecouteuse en chef d'Umzimkhulu, respect entre ecoute et silence"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_nosipho_sud",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le doyen porte les archives tactiles entre archipels, Nosipho les recoit a Kahlamba",
+        "note": "nosipho de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_busisiwe_centresud",
+      "target": "actor_citoyen_buyiswa",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "cuisiniere de caravane et cuisiniere de Bhekisisa, echangent quand la caravane passe",
+        "note": "busisiwe nomade, buyiswa Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_lindelwa",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "Qhawe livre les registres comptables entre archipels, Lindelwa les tient a Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphamandla_sud",
+      "target": "actor_citoyen_siyabonga_sud",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "jeunes du meme age, le caravanier metis et le cordier reveur, se croisent au marche de Kahlamba",
+        "note": "siphamandla nomade, siyabonga de Ndaba"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "actor_citoyen_busisiwe_ouest",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "deux anciennes des Creuses en caravane, se reconnaissent a l'odeur de calcaire humide",
+        "note": "busisiwe et nonhle nomades"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_xolani_est",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "messagere et transporteur d'explosifs, meme caravane roles differents",
+        "note": "nomades"
+      }
+    },
+    {
+      "source": "actor_citoyen_andile",
+      "target": "actor_citoyen_bongiwe",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "caravanier de la Muette livre le sel du Nord-Est au marche de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_ouest",
+      "target": "actor_citoyen_luthando",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "caravanier et cuisinier d'Ingwe, Sandile part avec les rations que Luthando prepare",
+        "note": "Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "actor_citoyen_anele",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le caravanier du Sud et la doyenne d'Ingwe, elle le reconnait a sa foulee pesante depuis vingt ans"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_ouest",
+      "target": "actor_citoyen_mandla_sud",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le caravanier de l'Ouest et le forgeron de Kahlamba, transporte les caissons",
+        "note": "mandla de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "actor_citoyen_bongiwe",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "le caravanier ramene les nouvelles de l'Ouest, la marchande les integre dans ses prix"
+      }
+    },
+    {
+      "source": "actor_citoyen_vusi",
+      "target": "actor_citoyen_luthando",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "Vusi mange la bouillie froide de Luthando a chaque arrivee a Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_nosipho_sud",
+      "target": "actor_citoyen_sindiswa",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "l'archiviste du Consortium et la juge du Nord, echangent precedents juridiques par caravane",
+        "note": "nosipho de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_bongiwe",
+      "target": "actor_citoyen_dumisile",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "la marchande de Kahlamba negocie avec la doyenne de Nkosazana par intermediaire"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandla_sud",
+      "target": "actor_citoyen_nqobile",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "forgeron de Kahlamba et maitre-tailleur de Mantolo, meme granite, metiers complementaires"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphelele",
+      "target": "actor_citoyen_luthando",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "cuisiniers du Sud et de l'Ouest, la bouillie chaude contre la bouillie froide"
+      }
+    },
+    {
+      "source": "actor_citoyen_buyiswa",
+      "target": "actor_citoyen_dumisa_nord",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.55,
+      "properties": {
+        "relation": "cuisiniere des Chaudes et cuisinier du Nord, Dumisa trouve sa bouillie immangeable",
+        "note": "dumisa cuisinier d'Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_zanele_sud",
+      "target": "actor_citoyen_anathi",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "l'organisatrice d'expeditions du Consortium et la responsable du demontage des Chaudes, coordonnent la logistique",
+        "note": "zanele de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_mfundo",
+      "target": "actor_citoyen_nolwazi_ouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "cartographes de Bhekisisa et d'Ingwe, comparent methodes lors des reunions du Consortium",
+        "note": "nolwazi d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombizodwa",
+      "target": "actor_citoyen_siphamandla_nordest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "tisserande de Phakade et fabricant de hamacs d'Iziphuku, fibres et cocons pour les memes predicteurs",
+        "note": "siphamandla d'Iziphuku"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "actor_citoyen_nomalanga_sudouest",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "marchande de sel d'Umsizi et cartographe de Sibaya, echangent par caravane",
+        "note": "thandeka Umsizi, nomalanga Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_zandile",
+      "target": "actor_citoyen_nombuso_nordest",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "ecouteuse en chef du Nord et formatrice du Nord-Est, respectent leurs methodes sans les comprendre",
+        "note": "nombuso de Mhluzi"
+      }
+    },
+    {
+      "source": "actor_citoyen_velile",
+      "target": "actor_citoyen_sindiswa",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "juges de l'Ouest et du Nord, se rencontrent au Consortium, approches radicalement differentes"
+      }
+    },
+    {
+      "source": "actor_citoyen_gugu",
+      "target": "actor_citoyen_lungile_nord",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "l'ancienne du cinquieme niveau et le tailleur d'essieux, decades de cohabitation dans le granite",
+        "note": "Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_anele",
+      "target": "actor_citoyen_velile",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.8,
+      "properties": {
+        "relation": "la doyenne et le juge d'Ingwe, elle a vu plus de derive que quiconque, il ecoute",
+        "note": "Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_bhekumuzi",
+      "target": "actor_citoyen_bhekani",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "meteorologues du Nord-Est et ex-Nord, Bhekumuzi ne comprend pas pourquoi Bhekani est parti aux Salines"
+      }
+    },
+    {
+      "source": "actor_citoyen_zinhle",
+      "target": "actor_citoyen_dumisile",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "la caramelisatrice d'Umsizi et la doyenne de Nkosazana, le sel passe de l'une a l'autre"
+      }
+    },
+    {
+      "source": "actor_citoyen_bonginkosi",
+      "target": "actor_citoyen_lindokuhle",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "explosiviste des Salines et mineur-geologue des Chaudes, echangent des charges par caravane"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomathemba",
+      "target": "actor_citoyen_noxolo",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "gardienne de Themba et aeromaitre de Bhekisisa, definissent ensemble les limites du piemont"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphelele",
+      "target": "actor_citoyen_bongiwe",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "marche de Kahlamba, cuisinier et marchande"
+      }
+    },
+    {
+      "source": "actor_citoyen_bongiwe",
+      "target": "actor_citoyen_siphelele",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "marche de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_siyabonga_sud",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Ndaba, cordiers",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_siyabonga_sud",
+      "target": "actor_citoyen_lindiwe_sud",
+      "type": "collegue_de",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "lieu": "Ndaba, apprentis cordiers",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sud",
+      "target": "actor_citoyen_siyabonga_sud",
+      "type": "collegue_de",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "lieu": "Ndaba",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_sud",
+      "target": "actor_citoyen_thulani_sud",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "eaux de Kahlamba-Lesedi",
+        "note": "thandeka reservoirs, thulani pecheur"
+      }
+    },
+    {
+      "source": "actor_citoyen_thulani_sud",
+      "target": "actor_citoyen_thandeka_sud",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Lesedi-Kahlamba",
+        "note": "sud"
+      }
+    },
+    {
+      "source": "actor_citoyen_mbuso",
+      "target": "actor_citoyen_gugu",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Umzimkhulu, mineurs de niveaux differents"
+      }
+    },
+    {
+      "source": "actor_citoyen_gugu",
+      "target": "actor_citoyen_mbuso",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombi_nord",
+      "target": "actor_citoyen_zandile",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "lieu": "Umzimkhulu, sismographes et ecoute",
+        "note": "ntombi luthiere"
+      }
+    },
+    {
+      "source": "actor_citoyen_zandile",
+      "target": "actor_citoyen_ntombi_nord",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.85,
+      "properties": {
+        "lieu": "Umzimkhulu",
+        "note": "ntombi luthiere"
+      }
+    },
+    {
+      "source": "actor_citoyen_nosipho_centresud",
+      "target": "actor_citoyen_noxolo",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "Bhekisisa, croisent lectures soufre et meteo",
+        "note": "nosipho meteo de Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_zanele_centresud",
+      "target": "actor_citoyen_lindokuhle",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Bhekisisa, biologie et geologie du piemont",
+        "note": "zanele biologiste Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_fikile",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "caravane, doyen et messagere"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_qhawe",
+      "type": "collegue_de",
+      "weight": 0.65,
+      "affinity": 0.8,
+      "properties": {
+        "lieu": "caravane"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_lethiwe",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "caravane, navigateur et ecouteur"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "actor_citoyen_qhawe",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "caravane"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_est",
+      "target": "actor_citoyen_nonhle",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.65,
+      "properties": {
+        "lieu": "caravane, explosifs et cartographie",
+        "note": "nomades"
+      }
+    },
+    {
+      "source": "actor_citoyen_nonhle",
+      "target": "actor_citoyen_xolani_est",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.65,
+      "properties": {
+        "lieu": "caravane",
+        "note": "nomades"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_sudouest",
+      "target": "actor_citoyen_buhle_sudouest",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Sibaya, speleos",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_buhle_sudouest",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Sibaya",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sudouest",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "Sibaya, cartographe et speleo",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandla_sourds",
+      "target": "actor_citoyen_zodwa",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "Village des Sourds, canaux et filaments"
+      }
+    },
+    {
+      "source": "actor_citoyen_zodwa",
+      "target": "actor_citoyen_mandla_sourds",
+      "type": "collegue_de",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "lieu": "Village des Sourds"
+      }
+    },
+    {
+      "source": "actor_citoyen_ntombi_centresud",
+      "target": "actor_citoyen_fundiswa",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Village des Sourds, predictrice et cartographe",
+        "note": "ntombi sourds"
+      }
+    },
+    {
+      "source": "actor_citoyen_fundiswa",
+      "target": "actor_citoyen_ntombi_centresud",
+      "type": "collegue_de",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "lieu": "Village des Sourds",
+        "note": "ntombi sourds"
+      }
+    },
+    {
+      "source": "actor_citoyen_buhle_sud",
+      "target": "actor_citoyen_nomalanga_sud",
+      "type": "fournit",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "produit": "commandes de cordage de Ndaba a Kahlamba",
+        "note": "buhle messagere de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_sudouest",
+      "target": "actor_citoyen_buyiswa",
+      "type": "fournit",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "produit": "champignons souterrains de Sibaya pour les rations des Chaudes",
+        "note": "zoleka cuisiniere de Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_luthando",
+      "target": "actor_citoyen_sandile_ouest",
+      "type": "fournit",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "rations de bouillie froide pour les caravanes",
+        "note": "Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomvula_est",
+      "target": "actor_citoyen_nosipho_centresud",
+      "type": "fournit",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "produit": "voiles de protection pour le Consortium",
+        "note": "nomvula Umsizi, nosipho meteo Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphamandla_nordest",
+      "target": "actor_citoyen_vusumuzi",
+      "type": "fournit",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "produit": "hamacs-cocons pour predicteurs",
+        "note": "siphamandla d'Iziphuku"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandlenkosi",
+      "target": "actor_citoyen_noxolo",
+      "type": "fournit",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "produit": "fibres vibrantes brutes de Phakade pour aeromaitres"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sud",
+      "target": "actor_citoyen_zoleka_ouest",
+      "type": "fournit",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "produit": "cordes de Ndaba pour les ponts de l'Ouest",
+        "note": "nomalanga de Ndaba, zoleka d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphelele",
+      "target": "actor_citoyen_dumisa_nord",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "cuisiniers du Sud et du Nord, goutent les bouillies de l'autre avec perplexite",
+        "note": "dumisa cuisinier Nord"
+      }
+    },
+    {
+      "source": "actor_citoyen_ayanda",
+      "target": "actor_citoyen_zandile",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "ecouteurs du Sud et du Nord, partagent alertes par caravane"
+      }
+    },
+    {
+      "source": "actor_citoyen_thulani_centresud",
+      "target": "actor_citoyen_nosipho_centresud",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "predicteur de Bhekisisa et meteorologue, comparent instruments et tremens",
+        "note": "thulani predicteur Bhekisisa, nosipho meteo Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_nolwazi_ouest",
+      "target": "actor_citoyen_mfundo",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "cartographes de l'Ouest et des Chaudes, systemes de tracage differents",
+        "note": "nolwazi d'Ingwe, mfundo de Bhekisisa"
+      }
+    },
+    {
+      "source": "actor_citoyen_mbalenhle",
+      "target": "actor_citoyen_xolani_ouest",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "deux anciens de Zama, elle reste lui part en caravane",
+        "note": "mbalenhle Zama, xolani ancien de Zama"
+      }
+    },
+    {
+      "source": "actor_citoyen_khanyiso",
+      "target": "actor_citoyen_zoleka_ouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "reparateur de passerelles croise l'ajusteuse de ponts, techniques similaires roches differentes",
+        "note": "khanyiso Mhluzi, zoleka d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandeka_est",
+      "target": "actor_citoyen_nosipho_sud",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "marchande de sel et archiviste du Consortium, les prix sont aussi des precedents",
+        "note": "thandeka Umsizi, nosipho Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_anathi",
+      "target": "actor_citoyen_zanele_sud",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "logisticiennes des Chaudes et du Sud, coordonnent quand les caravanes portent du materiel",
+        "note": "anathi Bhekisisa, zanele Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_lungile_est",
+      "target": "actor_citoyen_bhekumuzi",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.55,
+      "properties": {
+        "relation": "ecouteuse d'Umsizi et meteorologue de Mhluzi, echangent par Andile quand il passe",
+        "note": "lungile ecouteuse Umsizi"
+      }
+    },
+    {
+      "source": "actor_citoyen_nombuso_nordest",
+      "target": "actor_citoyen_nomalanga_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "la formatrice de Mhluzi et la cartographe de Sibaya ne se sont jamais rencontrees mais se connaissent par Qhawe",
+        "note": "nombuso Mhluzi, nomalanga Sibaya"
+      }
+    },
+    {
+      "source": "actor_citoyen_gcina",
+      "target": "actor_citoyen_vuyelwa",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "le cartographe de Mathamo et la speleo de Sibaya, elle descend la ou il cartographie"
+      }
+    },
+    {
+      "source": "actor_citoyen_lindiwe_sudouest",
+      "target": "actor_citoyen_gcina",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "geologue et cartographe de Mathamo, elle identifie la roche qu'il trace",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_sandile_sudouest",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "le gardien des eaux et la doyenne des speleos de Sibaya, ses rigoles passent dans ses grottes",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_mthunzi",
+      "target": "actor_citoyen_buhle_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le jeune speleo apprend la percussion du calcaire aupres du mineur",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_ayize",
+      "target": "actor_citoyen_sisanda",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "les deux enfants du Village des Sourds, grandissent ensemble dans la bioluminescence"
+      }
+    },
+    {
+      "source": "actor_citoyen_nolwazi_sourds",
+      "target": "actor_citoyen_khanya",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "la cuisiniere adapte les bouillies aux mains tremblantes de l'ancienne",
+        "note": "sourds, nolwazi cuisiniere"
+      }
+    },
+    {
+      "source": "actor_citoyen_mandla_sourds",
+      "target": "actor_citoyen_fundiswa",
+      "type": "connait",
+      "weight": 0.55,
+      "affinity": 0.7,
+      "properties": {
+        "relation": "le gardien des canaux et le cartographe, les canaux longent les galeries",
+        "note": "sourds"
+      }
+    },
+    {
+      "source": "actor_citoyen_zoleka_sudouest",
+      "target": "actor_citoyen_nombuso_sudouest",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "cuisiniere et doyenne des speleos de Sibaya, Zoleka cueille dans les grottes de Nombuso",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_nomalanga_sudouest",
+      "target": "actor_citoyen_thandeka_sudouest",
+      "type": "connait",
+      "weight": 0.6,
+      "affinity": 0.75,
+      "properties": {
+        "relation": "cartographe de corde de Sibaya et maitresse cartographe de Mathamo, deux systemes complementaires",
+        "note": "creuses"
+      }
+    },
+    {
+      "source": "actor_citoyen_qhawe",
+      "target": "actor_citoyen_velile",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "le doyen des caravanes consulte le juge quand un pont est douteux",
+        "note": "velile d'Ingwe"
+      }
+    },
+    {
+      "source": "actor_citoyen_fikile",
+      "target": "actor_citoyen_bongiwe",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "la messagere delivre les offres de prix a la marchande de Kahlamba"
+      }
+    },
+    {
+      "source": "actor_citoyen_lethiwe",
+      "target": "actor_citoyen_lungile_nord",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "ecouteur-caravanier du Nord et tailleur d'essieux d'Umzimkhulu, se croisent a chaque passage",
+        "note": "lungile Umzimkhulu"
+      }
+    },
+    {
+      "source": "actor_citoyen_xolani_est",
+      "target": "actor_citoyen_mqondisi",
+      "type": "connait",
+      "weight": 0.5,
+      "affinity": 0.65,
+      "properties": {
+        "relation": "caravanier explosiviste livre des charges au geologue en chef des Chaudes",
+        "note": "xolani nomade"
+      }
+    },
+    {
+      "source": "actor_citoyen_siphamandla_sud",
+      "target": "actor_citoyen_buhle_sud",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "l'apprenti caravanier rencontre la messagere de Kahlamba sur sa premiere route",
+        "note": "siphamandla nomade, buhle messagere"
+      }
+    },
+    {
+      "source": "actor_citoyen_thandiwe",
+      "target": "actor_citoyen_buyiswa",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "la biologiste nomade et la cuisiniere des Chaudes, echangent sur les especes du piemont"
+      }
+    },
+    {
+      "source": "actor_citoyen_wakhile",
+      "target": "actor_citoyen_zintle",
+      "type": "connait",
+      "weight": 0.45,
+      "affinity": 0.6,
+      "properties": {
+        "relation": "le vieil aveugle de Khensi reconnait le talent de l'apprentie ecouteuse venue s'entrainer"
+      }
+    }
+  ]
+}

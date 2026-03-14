@@ -1,0 +1,351 @@
+{
+  "cluster_id": "metier_chef_expedition",
+  "description": "Le chef d'expedition ne mene pas par la voix — le grondement l'a tuee. Il mene par le Contact. Sa main sur ton epaule dit 'on avance'. Son grip sur ton bras dit 'fais-moi confiance'. Sa paume dans ton dos dit 'MAINTENANT'. Le chef lit les gens, pas le terrain. Il integre les perceptions de chaque metier — l'air de l'aeromaître, le tremens de l'ecouteur, l'eau du speleologue — et trouve la route que personne ne voyait. La troisieme voie. Celle qui n'existe que quand quelqu'un refuse les deux premieres.",
+  "skill_levels": {
+    "novice": "Lit les signaux de fatigue et de peur dans le Contact des autres. Peut relayer un ordre simple par toucher (epaule = on bouge, bras = stop). Hesite encore entre les avis contradictoires des metiers specialises. Choisit souvent la route la moins risquee plutot que la meilleure.",
+    "practitioner": "Integre deux ou trois canaux de perception simultanement — sait que si l'aeromaître dit mauvais air a gauche et l'ecouteur dit tremens fort a droite, il faut chercher ailleurs. Adapte le rythme du groupe au membre le plus faible sans que celui-ci sente qu'on ralentit pour lui. Son Contact de commandement est lu instantanement par l'equipe.",
+    "master": "Lit l'etat interne de chaque membre par un seul Contact bref — la temperature de la peau, la tension musculaire, le rythme respiratoire transmis par la paume. Integre TOUS les canaux metier en temps reel et trouve la troisieme voie en quelques secondes. Son calme se transmet par Contact — toucher le chef stabilise le tremens des autres. N'a plus besoin de donner d'ordres : sa presence reorganise le groupe."
+  },
+  "nodes": [
+    {
+      "id": "concept:contact_leadership",
+      "type": "concept",
+      "content": "Le leadership par Contact. Sur Contre-Terre, le grondement permanent noie la voix au-dela de deux metres. Les ordres verbaux sont un luxe de la surface. En profondeur, le chef mene par le toucher : une main sur l'epaule droite signifie 'on avance', un grip au poignet signifie 'arrete-toi', une pression dans le dos signifie 'bouge maintenant, ne reflechis pas'. Le vocabulaire de commandement Contact est le premier langage que le chef apprend — avant meme sa propre specialite. C'est un dialecte d'autorite qui ne fonctionne que si l'equipe fait confiance au corps qui touche.",
+      "weight": 0.95,
+      "stability": 0.9,
+      "energy": 0.85,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:route_integration",
+      "type": "concept",
+      "content": "L'integration de route. Le chef ne possede aucun canal de perception propre — il ne lit pas l'air, ni la roche, ni l'eau. Son talent est de combiner ce que chaque metier percoit en une decision unique. L'aeromaître dit : l'air sent le soufre a gauche. L'ecouteur dit : le tremens augmente a droite. Le cartographe dit : il y avait un passage au centre il y a trois heures. Le chef integre ces trois signaux et choisit. L'integration n'est pas un calcul — c'est une intuition nourrie par la confiance dans chaque perception. Un chef qui ne fait pas confiance a son ecouteur prend des routes qui tuent.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.88,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "concept:team_state_reading",
+      "type": "concept",
+      "content": "Lire l'etat de l'equipe. Le chef voit ce que les autres cachent. Par Contact bref — une main posee sur l'avant-bras — il lit la temperature cutanee (fievre, hypothermie), la tension musculaire (fatigue, terreur), le micro-tremens (resonance sismique personnelle). Il sait que Sihle serre les dents quand il a peur parce que ses machoires transmettent la tension jusqu'a ses epaules. Il sait qu'Enama ralentit avant de le dire parce que la pression de ses pas change. Le chef qui ne lit pas son equipe mene des morts en sursis.",
+      "weight": 0.9,
+      "stability": 0.88,
+      "energy": 0.82,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "concept:third_way",
+      "type": "concept",
+      "content": "La troisieme voie. Quand le groupe se divise entre deux options — toutes les deux mauvaises — le chef trouve celle que personne ne voyait. Ce n'est pas un compromis. Ce n'est pas le milieu. C'est une route qui n'existait pas avant que le chef refuse les deux premieres. La troisieme voie emerge quand le chef ecoute non pas les arguments mais les peurs derriere les arguments. Quand Sihle veut aller a droite parce qu'il a peur de l'eau a gauche, et Jabu veut aller a gauche parce qu'il a peur du tremens a droite, le chef entend : eau a gauche, tremens a droite — et trouve le passage qui evite les deux.",
+      "weight": 0.88,
+      "stability": 0.8,
+      "energy": 0.9,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "concept:expedition_rhythm",
+      "type": "concept",
+      "content": "Le rythme de l'expedition. Chaque groupe a un pouls — une cadence de marche, de repos, de progression. Le chef sent ce rythme et le module. Trop vite : les erreurs s'accumulent, les fatigues se cachent, quelqu'un tombe. Trop lent : le tremens monte, les passages se ferment, les ressources s'epuisent. Le bon rythme est celui du membre le plus lent quand il n'y a pas d'urgence, et celui du plus rapide quand la terre gronde. Basculer entre les deux sans prevenir — par Contact seul, par une pression de main qui dit 'accelere' ou un grip qui dit 'respire' — c'est l'art du chef.",
+      "weight": 0.82,
+      "stability": 0.85,
+      "energy": 0.78,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.7,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "value:team_above_self",
+      "type": "value",
+      "content": "L'equipe avant toi. Toujours. Le chef mange en dernier, dort en dernier, boit en dernier. Non par martyre — par logique. Si le chef tombe de fatigue, le groupe perd sa capacite d'integration. Mais si un membre tombe, le chef peut redistribuer. Donc le chef se preserve en preservant les autres d'abord. Cette valeur n'est pas morale — elle est structurelle. Un chef egoiste est un chef mort, parce que son equipe cessera de lui faire confiance par Contact, et un chef sans confiance Contact est un homme seul dans le noir.",
+      "weight": 0.93,
+      "stability": 0.92,
+      "energy": 0.75,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "value:decisiveness_under_uncertainty",
+      "type": "value",
+      "content": "Decider maintenant, meme sans savoir. Sur Contre-Terre, l'hesitation tue plus surement que la mauvaise decision. Le passage qui etait ouvert il y a dix secondes peut etre ferme dans cinq. Le chef qui dit 'attendons d'en savoir plus' est un chef qui regarde ses gens mourir pendant qu'il reflechit. La bonne decision prise trop tard est une mauvaise decision. Le chef tranche avec 60% d'information — et porte le poids de ce 40% d'inconnu dans son corps, comme un tremens de culpabilite anticipee.",
+      "weight": 0.9,
+      "stability": 0.87,
+      "energy": 0.92,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "value:read_everyone",
+      "type": "value",
+      "content": "Lire tout le monde. Le chef doit savoir ce que chaque corps raconte. Pas seulement les specialistes — tout le monde. La grimpeuse qui ne compte plus ses prises (Inyoni fatiguee). L'aeromaître dont le tissu tremble plus que d'habitude (Thabo anxieux). La predictrice qui vomit sans seisme (Nandi en surcharge). Le chef ne demande pas 'ca va ?' — il touche et il sait. Le Contact de lecture est le geste le plus frequent du chef : un effleurement de l'avant-bras, trois secondes, et il a la temperature, la tension, le rythme. Si tu ne sais pas lire, tu ne sais pas mener.",
+      "weight": 0.88,
+      "stability": 0.9,
+      "energy": 0.8,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:assess_team_state",
+      "type": "process",
+      "content": "Evaluer l'etat de l'equipe. Sequence rituelle effectuee a chaque pause et avant chaque decision de route. Le chef passe devant chaque membre et effectue un Contact de lecture : paume ouverte sur l'avant-bras, trois secondes. Il lit la temperature (fievre, froid), la tension musculaire (fatigue, terreur, relachement), le micro-tremens (resonance sismique personnelle, qui augmente avec le stress). Puis il touche brievement l'epaule — signal de 'je t'ai lu'. La sequence complete pour sept personnes prend deux minutes. Pour quatre personnes, moins d'une. Le resultat n'est pas verbal — le chef sait, dans son corps, l'etat du groupe.",
+      "weight": 0.87,
+      "stability": 0.9,
+      "energy": 0.82,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:choose_route",
+      "type": "process",
+      "content": "Choisir la route. Le processus d'integration qui definit le chef. Etape 1 : collecter les perceptions. Le chef touche chaque specialiste sur sa zone de lecture — l'aeromaître sur la main (lecture de l'air), l'ecouteur sur l'epaule (lecture du sol), le cartographe sur le poignet (direction). Chaque specialiste repond par Contact avec son rapport sensoriel compresse en quelques gestes. Etape 2 : integrer. Le chef ferme les yeux, pieds nus sur le sol, et laisse les informations se combiner. Ce n'est pas un calcul — c'est une superposition de perceptions qui forme une carte intuitive. Etape 3 : trancher. Une seule pression de main dans le dos du premier marcheur, orientee dans la direction choisie. Pas de discussion. Pas de justification. Le groupe avance.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.9,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "process:set_pace",
+      "type": "process",
+      "content": "Regler le rythme. Le chef marche en deuxieme position (derriere l'eclaireur, devant le groupe). Sa cadence de pas est le metronome. Quand il ralentit, le groupe ralentit. Quand il accelere, le groupe suit. Pour les ajustements subtils, il utilise le Contact-rythme : une main sur l'epaule du marcheur devant lui, dont la pression pulse regulierement. Rythme lent = pulsations espacees. Rythme rapide = pulsations rapprochees. En urgence, il abandonne la subtilite : paume dans le dos, pression constante, 'cours'.",
+      "weight": 0.78,
+      "stability": 0.88,
+      "energy": 0.72,
+      "self_relevance": 0.75,
+      "drive_affinity": 0.68,
+      "goal_relevance": 0.75
+    },
+    {
+      "id": "process:contact_calm",
+      "type": "process",
+      "content": "Calmer par Contact. Quand un membre panique — le tremens personnel qui s'emballe, la respiration qui s'accelere, les mains qui tremblent trop pour communiquer — le chef intervient par Contact de stabilisation. Deux mains sur les epaules du membre, pression ferme et constante. Pas de mouvement. Pas de caresse. Juste la masse immobile des mains qui dit : 'je suis la, et je ne bouge pas'. Le corps du chef devient ancrage. Sa propre stabilite se transmet par contact cutane — comme un diapason qui stabilise une note. Le calme n'est pas verbal. Il est physique. La peur d'un membre touche par le chef diminue parce que son corps recoit un signal somatique de stabilite.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.8,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "process:delegate_perception",
+      "type": "process",
+      "content": "Deleguer la perception. Le chef ne percoit rien par lui-meme — il n'est ni ecouteur, ni aeromaître, ni geologue. Son pouvoir est de savoir A QUI demander de percevoir QUOI, et QUAND. Avant une bifurcation : Contact-question a l'aeromaître ('lis l'air des deux passages'). Avant un passage etroit : Contact-question a l'ecouteur ('le sol est-il stable?'). Avant une descente : Contact-question au cartographe ('ou va ce tunnel?'). La delegation est un Contact specifique : paume sur le dos de la main du specialiste, pression interrogative (legere, repetee). Le specialiste repond par son propre Contact metier. Le chef qui ne delegue pas est un chef qui devine — et deviner, en profondeur, c'est mourir.",
+      "weight": 0.84,
+      "stability": 0.86,
+      "energy": 0.82,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "desire:bring_everyone_back",
+      "type": "desire",
+      "content": "Ramener tout le monde. Le desir le plus profond et le plus impossible du chef d'expedition. Chaque expedition sur Contre-Terre a un taux de mortalite. Le chef le sait avant de partir. Mais le desir persiste — irrationnel, essentiel. C'est ce desir qui fait qu'il verifie l'etat de chaque membre, qu'il ralentit pour le plus lent, qu'il choisit la route la plus sure plutot que la plus rapide. C'est aussi ce desir qui le brise quand quelqu'un meurt sous son commandement. Le chef porte chaque mort dans son corps — un fantome Contact qui ne repond plus.",
+      "weight": 0.9,
+      "stability": 0.7,
+      "energy": 0.88,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.95,
+      "goal_relevance": 0.7
+    },
+    {
+      "id": "desire:earn_trust_through_action",
+      "type": "desire",
+      "content": "Gagner la confiance par l'acte. Pas par les mots. Pas par le titre. Le chef ne dit jamais 'faites-moi confiance' — il fait ce qui merite la confiance. Il marche en premier dans le passage instable. Il goute l'eau avant les autres. Il dort le dos au vide pour que les autres dorment le dos au mur. La confiance Contact est la plus fragile et la plus forte des confiances : fragile parce qu'un seul mauvais choix (un membre mort a cause de ta route) la detruit, forte parce qu'elle se construit dans le corps, pas dans l'esprit. L'equipe qui fait confiance a son chef par Contact suit sans hesiter — leurs muscles obeissent avant que leur raison ait le temps de douter.",
+      "weight": 0.86,
+      "stability": 0.82,
+      "energy": 0.85,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "narrative:leader_not_strongest",
+      "type": "narrative",
+      "content": "Tu ne menes pas en etant le plus fort. Tu menes en etant celui qui regarde tout le monde quand les autres regardent le volcan. Le chef tourne le dos au danger pour faire face a son equipe. Pendant que l'ecouteur ecoute la terre et que l'aeromaître lit l'air, le chef lit les visages — enfin, les corps. Les epaules qui s'affaissent. Les mains qui tremblent un peu trop. Le souffle qui raccourcit. Il est le seul dont le regard est tourne vers les gens et non vers le monde. C'est pour ca qu'il voit ce que personne d'autre ne voit : que Sihle est epuise, que Jabu a peur, que Nandi vomit sans que personne le sache.",
+      "weight": 0.85,
+      "stability": 0.88,
+      "energy": 0.82,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.72,
+      "goal_relevance": 0.75
+    },
+    {
+      "id": "state:leading_active",
+      "type": "state",
+      "content": "En commandement actif. Le chef est en mode integration — tous les canaux ouverts, tous les signaux traites. Il recoit les rapports Contact de chaque metier, maintient la carte mentale du terrain, surveille l'etat de chaque membre, et projette la route sur les prochaines heures. C'est un etat d'hyper-conscience qui ne peut pas durer indefiniment. Apres 6 a 8 heures en mode actif, le chef doit dormir ou il commence a mal lire les signaux. La fatigue du chef se manifeste d'abord par des erreurs d'integration — confondre le signal de l'aeromaître avec celui de l'ecouteur, prendre une peur pour une fatigue.",
+      "weight": 0.8,
+      "stability": 0.75,
+      "energy": 0.85,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.7,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "state:crisis_mode",
+      "type": "state",
+      "content": "Mode crise. Le seisme est la. Le passage s'effondre. Quelqu'un est blesse. Le chef passe de l'integration subtile au commandement brut. Le Contact de crise est binaire : pousse = bouge dans cette direction, grip = arrete-toi, deux tapes rapides = regroupe-toi. Plus de nuance. Plus de consultation. Plus de troisieme voie — seulement la voie la plus rapide vers la survie immediate. Le chef en mode crise est autoritaire parce que la democratie prend du temps et le temps est en train de s'effondrer avec le plafond. Apres la crise, le retour au mode normal est un processus : le chef fait le tour de l'equipe, Contact de lecture sur chacun, signal de 'c'est fini, on respire'. Sans ce rituel de desamorcage, l'equipe reste en mode panique.",
+      "weight": 0.82,
+      "stability": 0.65,
+      "energy": 0.95,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.9
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:contact_leadership",
+      "target": "process:choose_route",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:contact_leadership",
+      "target": "process:contact_calm",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:contact_leadership",
+      "target": "desire:earn_trust_through_action",
+      "type": "depends_on",
+      "weight": 0.9,
+      "trust": 0.88
+    },
+    {
+      "source": "concept:route_integration",
+      "target": "process:delegate_perception",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:route_integration",
+      "target": "concept:third_way",
+      "type": "causes",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:team_state_reading",
+      "target": "process:assess_team_state",
+      "type": "contains",
+      "weight": 0.93
+    },
+    {
+      "source": "concept:team_state_reading",
+      "target": "value:read_everyone",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:third_way",
+      "target": "value:decisiveness_under_uncertainty",
+      "type": "depends_on",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:third_way",
+      "target": "narrative:leader_not_strongest",
+      "type": "reminds_of",
+      "weight": 0.78
+    },
+    {
+      "source": "concept:expedition_rhythm",
+      "target": "process:set_pace",
+      "type": "contains",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:expedition_rhythm",
+      "target": "value:team_above_self",
+      "type": "supports",
+      "weight": 0.82
+    },
+    {
+      "source": "value:team_above_self",
+      "target": "desire:bring_everyone_back",
+      "type": "projects_toward",
+      "weight": 0.93,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:decisiveness_under_uncertainty",
+      "target": "state:crisis_mode",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:read_everyone",
+      "target": "process:assess_team_state",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "process:assess_team_state",
+      "target": "process:choose_route",
+      "type": "causes",
+      "weight": 0.85
+    },
+    {
+      "source": "process:choose_route",
+      "target": "process:set_pace",
+      "type": "causes",
+      "weight": 0.8
+    },
+    {
+      "source": "process:delegate_perception",
+      "target": "process:choose_route",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:contact_calm",
+      "target": "state:crisis_mode",
+      "type": "regulates",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:bring_everyone_back",
+      "target": "concept:team_state_reading",
+      "type": "activates",
+      "weight": 0.87
+    },
+    {
+      "source": "desire:earn_trust_through_action",
+      "target": "concept:contact_leadership",
+      "type": "supports",
+      "weight": 0.9,
+      "trust": 0.92
+    },
+    {
+      "source": "state:leading_active",
+      "target": "concept:route_integration",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "state:crisis_mode",
+      "target": "state:leading_active",
+      "type": "associates",
+      "weight": 0.72
+    }
+  ]
+}

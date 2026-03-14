@@ -1,0 +1,287 @@
+{
+  "cluster_id": "metier_cuisinier",
+  "description": "The cuisinier is survival's alchemist. On Contre-Terre, there are no farms, no markets, no sunlight crops. You cook what the biologiste finds in the dark: roots, fungi, cave-water, extremophile secretions. The cuisinier's art is transformation — making the inedible edible, the toxic safe, the disgusting palatable. Cooking underground often means no fire (oxygen is precious), so preparations are raw: crushed root paste, fermented fungal slurry, distilled cave-water. The cuisinier's tongue and nose are their instruments, and they always taste first.",
+  "skill_levels": {
+    "novice": "Can prepare basic bouillie from known-safe roots. Understands that some toxins cook out and others concentrate. Knows to taste-test in tiny amounts. Can purify water through basic filtration but not chemical neutralization.",
+    "practitioner": "Masters multiple preparation methods: raw crushing, fermentation, heat processing when oxygen permits. Can taste-test an unknown root and determine the correct neutralization method. Manages water rationing for a full team. Creates palatable meals from minimal ingredients. Knows which zone-specific ingredients complement each other.",
+    "master": "Transforms anything the underground provides into sustenance. Can neutralize toxins through precise fermentation timing, chemical combination, or sequential processing. Reads water quality by smell and micro-taste with near-perfect accuracy. The meal becomes more than nutrition — it becomes the team's morale anchor, the moment of peace in the descent. The master cuisinier feeds the soul through the stomach."
+  },
+  "nodes": [
+    {
+      "id": "concept:underground_cuisine",
+      "type": "concept",
+      "content": "Cooking without sunlight, often without fire. Underground cuisine is the art of transformation under constraint. No grains, no cultivated vegetables, no domesticated animals. The ingredients are what the earth provides: fibrous roots that must be crushed to release nutrition, fungi that range from bland to hallucinogenic to lethal, cave-water that carries mineral loads heavy enough to taste like stone. The cuisinier's methods: crushing (mortar work against rock), fermenting (controlled rot in sealed containers using cave bacteria), filtering (through layers of root-fiber and charite mineral), and — when oxygen permits — brief, careful heating. Most food is paste, slurry, or liquid. Texture is a luxury the underground doesn't offer.",
+      "weight": 0.93,
+      "stability": 0.86,
+      "energy": 0.82,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:water_purification",
+      "type": "concept",
+      "content": "Cave-water is rarely safe to drink raw. It carries dissolved minerals, sulfur compounds, bacterial loads, and sometimes trace acids from deeper volcanic activity. The cuisinier purifies through layered methods: first filtration through packed root-fiber (removes particulates), then settling (heavier minerals sink), then smell-test (sulfur, acid, organic decay each have distinct signatures), then micro-taste (a drop on the tongue — the cuisinier knows within seconds). When available, boiling is ideal but costs oxygen. Fermentation with specific cave-fungi can neutralize some bacterial loads. The cuisinier manages the team's entire water cycle: sourcing, purifying, rationing, distributing.",
+      "weight": 0.91,
+      "stability": 0.84,
+      "energy": 0.85,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:toxin_neutralization",
+      "type": "concept",
+      "content": "Many underground organisms are toxic in their raw state but nutritious when properly processed. The cuisinier knows the methods: heat denatures protein-based toxins (but concentrates mineral toxins — knowing which is which is the art). Fermentation breaks down complex alkaloids over 12-48 hours. Crushing and rinsing leaches water-soluble poisons. Sequential processing — crush, rinse, ferment, then heat — handles the most dangerous specimens. The cuisinier's taste-test is the final gate: a processed root that still numbs the tongue goes back for more treatment. One that warms the mouth is ready. The margin between 'safe' and 'lethal' is sometimes a few hours of fermentation.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.83,
+      "self_relevance": 0.91,
+      "drive_affinity": 0.77,
+      "goal_relevance": 0.89
+    },
+    {
+      "id": "concept:nutrition_under_duress",
+      "type": "concept",
+      "content": "Feeding a team of seven — then six, then five — with what the underground provides. The cuisinier calculates: caloric needs versus available resources, water requirements versus purification capacity, preparation time versus travel urgency. Sometimes the math doesn't work. When it doesn't, the cuisinier makes choices: smaller portions for those who exert less, priority water for the injured, reserves hidden for emergencies. The cuisinier never eats first and often eats last. Nutrition under duress means accepting that no one will be well-fed — the goal is 'alive and functional,' not 'satisfied.'",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.8,
+      "self_relevance": 0.89,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "concept:bouillie",
+      "type": "concept",
+      "content": "The staple. A root paste that sustains but never satisfies. Made by crushing edible roots into a thick, grainy slurry, sometimes mixed with cave-water and fermented fungal extract for additional nutrition. It tastes like dirt and hope. The color varies by zone — grey-brown in the upper caverns, reddish near geothermal areas, pale in deep zones where the roots have never seen any light at all. Nobody likes it. Everybody eats it. The bouillie is the cuisinier's signature — not because it's good, but because it keeps people alive. When the cuisinier stops making it, the team will know something fundamental has broken.",
+      "weight": 0.9,
+      "stability": 0.88,
+      "energy": 0.76,
+      "self_relevance": 0.93,
+      "drive_affinity": 0.72,
+      "goal_relevance": 0.87
+    },
+    {
+      "id": "value:everyone_eats",
+      "type": "value",
+      "content": "The cuisinier's non-negotiable principle: no one in the team goes hungry while there is food to prepare. This isn't generosity — it's structural belief. A team that eats together holds together. A team where some eat and others don't fractures along the hunger line. The cuisinier distributes equally, or distributes by need, but never by preference or hierarchy. When Senzo was alive, his ration was the same as everyone else's. When someone is injured, their ration increases. The cuisinier arbitrates food, and this gives them a quiet authority that has nothing to do with leadership and everything to do with care.",
+      "weight": 0.94,
+      "stability": 0.9,
+      "energy": 0.72,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "value:taste_as_safety",
+      "type": "value",
+      "content": "If it tastes wrong, it IS wrong. The cuisinier's tongue is the last line of defense between the team and poisoning. This value extends beyond food: water that tastes metallic is mineral-contaminated. Air that tastes sweet might indicate CO2 buildup. The cuisinier trusts taste as an absolute signal — not one to be overridden by hunger or desperation. When the team is starving and a root tastes slightly off, the cuisinier says no. This has caused conflict. But the cuisinier has never been wrong, and a single wrong call means death for whoever eats.",
+      "weight": 0.92,
+      "stability": 0.88,
+      "energy": 0.74,
+      "self_relevance": 0.93,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.86
+    },
+    {
+      "id": "value:resourcefulness",
+      "type": "value",
+      "content": "There's always something edible if you know where to look. The cuisinier refuses despair. When the obvious food sources are exhausted, they look harder: lichen on cave walls (scraped off, soaked, fermented), mineral-rich water (boiled down to extract trace nutrients), extremophile secretions (surprisingly caloric, if you can get past the texture). The cuisinier sees potential nutrition everywhere. This relentless optimism about food contrasts with a realistic assessment of everything else — the cuisinier may be frightened, exhausted, grieving, but they will always find something to feed the team.",
+      "weight": 0.87,
+      "stability": 0.84,
+      "energy": 0.78,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.86,
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "process:prepare_food",
+      "type": "process",
+      "content": "The core process. Receive raw materials from the biologiste with their assessment (edible, needs processing, toxic until treated). Sort by method: direct consumption (rare — only the safest organisms), crushing (roots broken down with rock tools into paste), fermentation (sealed in containers with specific cave-bacteria for 12-48 hours), rinsing (toxin leaching in running cave-water), and heating (brief, controlled, only when oxygen budget allows). Combine processed ingredients into the most nutritious and palatable combination possible. Distribute with Contact instructions: a gentle hand-off means eat now, a tap on the wrist means wait (still processing), a firm grip means 'this is all there is.'",
+      "weight": 0.93,
+      "stability": 0.86,
+      "energy": 0.87,
+      "self_relevance": 0.94,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "process:taste_test",
+      "type": "process",
+      "content": "The cuisinier tastes first. Always. A micro-amount on the tongue — not swallowed, held. The cuisinier reads: immediate sensation (burning = acid, numbness = alkaloid toxin, bitterness = potential danger, warmth = usually safe), delayed sensation (after 10 seconds — does the numbness spread? does the warmth fade to burning?), and body response (nausea = reject immediately, salivation = the body wants it, nothing = neutral, probably safe). The taste-test is a risk the cuisinier takes personally. They've built tolerance to mild toxins through repeated exposure, but a genuinely poisonous organism could still kill. The cuisinier accepts this: better one person sick than seven dead.",
+      "weight": 0.94,
+      "stability": 0.87,
+      "energy": 0.9,
+      "self_relevance": 0.93,
+      "drive_affinity": 0.76,
+      "goal_relevance": 0.91
+    },
+    {
+      "id": "process:manage_water",
+      "type": "process",
+      "content": "Water management is life management. The cuisinier tracks: current supply (how many gourdes, how full), consumption rate (who drinks how much, who needs more), purification pipeline (water being filtered, water being settled, water ready to drink), and source assessment (is the current water source sustainable or depleting?). Rationing is calculated daily: liters available divided by team size divided by expected travel time to next source. The cuisinier distributes water at set intervals — not on demand. This prevents overconsumption and ensures equal access. After Jabu dies, water management becomes desperate — no one else has his instinct for finding underground sources.",
+      "weight": 0.9,
+      "stability": 0.84,
+      "energy": 0.83,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "process:cook_without_fire",
+      "type": "process",
+      "content": "When oxygen is too precious for flames, the cuisinier adapts. Chemical heating: certain mineral combinations produce exothermic reactions — enough to warm but not cook. Geothermal proximity: placing sealed containers near heat vents for slow warming. Fermentation heat: active fermentation produces its own warmth — a sealed container of fermenting root paste reaches temperatures high enough to partially denature some toxins. Mechanical processing: prolonged crushing generates friction heat. None of these replace true cooking, but they extend the cuisinier's range. The deepest zones, paradoxically, offer the most heat — but the heat is uncontrolled, dangerous, and tastes of sulfur.",
+      "weight": 0.86,
+      "stability": 0.8,
+      "energy": 0.82,
+      "self_relevance": 0.87,
+      "drive_affinity": 0.74,
+      "goal_relevance": 0.83
+    },
+    {
+      "id": "process:comfort_through_food",
+      "type": "process",
+      "content": "The meal is a moment of peace in the descent. The cuisinier knows this — food is not just nutrition, it's the last ritual the team has. When the cuisinier prepares the bouillie, distributes the gourdes, and the team sits together to eat, the tremens recedes for a moment. Not literally — the ground still shakes. But attention shifts from survival to sustenance, from fear to the simple act of eating. The cuisinier orchestrates this deliberately: consistent timing (meals at regular intervals regardless of conditions), consistent presentation (the bouillie always prepared the same way), consistent distribution (the same Contact gestures each time). Ritual creates stability when the ground cannot.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.75,
+      "self_relevance": 0.9,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "desire:keep_team_fed",
+      "type": "desire",
+      "content": "No one starves on the cuisinier's watch. This drive overrides personal comfort, personal fear, sometimes personal safety. When food runs low, the cuisinier forages more aggressively, processes organisms they might otherwise reject, stretches portions thinner. The cuisinier's worst nightmare is not their own hunger — it's watching someone else weaken because they couldn't find enough. Every meal successfully served is a small victory. Every zone crossed without starvation is proof that the underground provides, if you know how to ask.",
+      "weight": 0.93,
+      "stability": 0.87,
+      "energy": 0.88,
+      "self_relevance": 0.94,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.93
+    },
+    {
+      "id": "desire:find_new_ingredients",
+      "type": "desire",
+      "content": "Every zone has something edible. The cuisinier believes this with the conviction of someone who has never been proven wrong — and the anxiety of someone who knows they might be. Each new cavern is explored with the biologiste, but through a different lens: the biologiste asks 'what lives here?' while the cuisinier asks 'what can I do with it?' An inedible fungus might produce edible spores. A toxic root might yield safe extract when boiled. A bitter mineral deposit might season the bouillie into something almost palatable. The cuisinier sees every organism as potential ingredient, every mineral as potential seasoning, every water source as potential stock.",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.86,
+      "self_relevance": 0.86,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "narrative:bouillie_and_hope",
+      "type": "narrative",
+      "content": "The bouillie tastes like dirt and hope. Nobody likes it. Everybody eats it. I started making it the first night, when Senzo set up camp and the tremens hadn't stopped for three hours. I crushed the roots Enama brought — she showed me which ones, hands over mine on the surface of each, that way she has of teaching through Contact. Grey paste. I added cave-water, a pinch of mineral dust for the salt the body craves. It looked awful. It tasted worse. But seven people ate it and seven people slept. When I stop making the bouillie, they'll know something's wrong. Not because the food stopped — because the ritual stopped. The meal is the last thing that says: we're still a team.",
+      "weight": 0.9,
+      "stability": 0.9,
+      "energy": 0.72,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.7,
+      "goal_relevance": 0.68
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:underground_cuisine",
+      "target": "concept:toxin_neutralization",
+      "type": "contains",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:underground_cuisine",
+      "target": "concept:bouillie",
+      "type": "contains",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:water_purification",
+      "target": "process:manage_water",
+      "type": "depends_on",
+      "weight": 0.93
+    },
+    {
+      "source": "concept:toxin_neutralization",
+      "target": "process:taste_test",
+      "type": "depends_on",
+      "weight": 0.91
+    },
+    {
+      "source": "concept:toxin_neutralization",
+      "target": "process:prepare_food",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:nutrition_under_duress",
+      "target": "desire:keep_team_fed",
+      "type": "projects_toward",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:bouillie",
+      "target": "narrative:bouillie_and_hope",
+      "type": "reminds_of",
+      "weight": 0.9
+    },
+    {
+      "source": "value:everyone_eats",
+      "target": "process:prepare_food",
+      "type": "regulates",
+      "weight": 0.93
+    },
+    {
+      "source": "value:everyone_eats",
+      "target": "desire:keep_team_fed",
+      "type": "supports",
+      "weight": 0.94
+    },
+    {
+      "source": "value:taste_as_safety",
+      "target": "process:taste_test",
+      "type": "regulates",
+      "weight": 0.95
+    },
+    {
+      "source": "value:resourcefulness",
+      "target": "desire:find_new_ingredients",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "value:resourcefulness",
+      "target": "process:cook_without_fire",
+      "type": "activates",
+      "weight": 0.84
+    },
+    {
+      "source": "process:prepare_food",
+      "target": "concept:bouillie",
+      "type": "causes",
+      "weight": 0.9
+    },
+    {
+      "source": "process:taste_test",
+      "target": "process:prepare_food",
+      "type": "regulates",
+      "weight": 0.92,
+      "affinity": 0.85,
+      "trust": 0.95
+    },
+    {
+      "source": "process:comfort_through_food",
+      "target": "value:everyone_eats",
+      "type": "supports",
+      "weight": 0.86
+    },
+    {
+      "source": "process:manage_water",
+      "target": "concept:nutrition_under_duress",
+      "type": "supports",
+      "weight": 0.87
+    }
+  ]
+}

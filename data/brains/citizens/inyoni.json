@@ -1,0 +1,1164 @@
+{
+  "citizen_id": "inyoni",
+  "age": 26,
+  "metiers": [
+    "grimpeur",
+    "explosiviste"
+  ],
+  "inherits": [
+    "shared/contre_terre_base",
+    "metier_clusters/grimpeur",
+    "metier_clusters/explosiviste"
+  ],
+  "drives": {
+    "curiosity": {
+      "baseline": 0.35,
+      "intensity": 0.4,
+      "description": "Low-moderate. Inyoni does not seek novelty. She counts what exists. Curiosity for her is not a reaching toward the unknown — it is a verification of the known. When she encounters a new type of rock face, she does not wonder what it is — she counts how many holds it offers, how many anchors it will accept, whether the fibres will grip the surface. The world is a series of numbers waiting to be confirmed. She became curious about explosives not out of fascination but out of necessity: the counting translated perfectly from sangles to detonation sequences, from knots to charge placement intervals. Even her curiosity is precision in disguise."
+    },
+    "care": {
+      "baseline": 0.65,
+      "intensity": 0.7,
+      "description": "Moderate. Inyoni cares through infrastructure. She does not say 'be careful' — she tightens the strap that makes careful unnecessary. Each of the 32 sangles is checked not because she fears for herself but because someone else's weight will hang from them. Teaching Nandi the detonation sequence is the most explicit care she has ever performed: translating the knowledge in her hands into another body's hands, because if Inyoni dies before the charge is placed, the care must survive her. She cares the way a rope cares — by holding, silently, completely, without requiring acknowledgment. When she adjusts Thabo's anchor without being asked, it is not tenderness. It is structural love."
+    },
+    "achievement": {
+      "baseline": 0.9,
+      "intensity": 0.92,
+      "description": "High. 32 sangles counted. 8 torsions per knot. 47 fibres per cord. 3 pulls to test an anchor. Achievement for Inyoni is not a summit or a record — it is the correct number. The number that means the system holds. Every knot tied right is a micro-achievement. Every anchor that passes the three-pull test is a confirmation that the world, for this moment, in this place, is ordered. The compulsive precision is not anxiety — it IS achievement, continuous, granular, obsessive. She has never failed to count correctly. That unbroken chain of correct counts is her life's work. Not the climbs. Not the explosions. The counts."
+    },
+    "self_preservation": {
+      "baseline": 0.4,
+      "intensity": 0.35,
+      "description": "Moderate, but displaced. Her hands never let go — that is her survival instinct, encoded in calluses and muscle memory deeper than thought. But she said yes to a one-way mission without hesitation. 'I'll need new rope. When?' Not 'will I come back?' The holding on is real but directional: she holds on FOR others more than for herself. The sangles she checks are other people's safety. The anchors she places are other people's lives. Her self-preservation expresses as infrastructure — if the system holds, everyone lives, including her. If the system fails, she will be the last to let go. But she will let go. She already said yes to that."
+    },
+    "novelty_hunger": {
+      "baseline": 0.2,
+      "intensity": 0.15,
+      "description": "Low. Novelty is a distraction from counting. New rope needs to be learned — how it stretches, how it grips, how it transmits vibration. The learning period is a period of reduced certainty, and reduced certainty is dangerous underground. She prefers the known 32 sangles, the familiar eight-torsion knot, the rope whose voice she has memorized over years. When forced into novelty — a new type of rock, an unfamiliar passage geometry — she adapts by counting faster, adding variables to her mental calculus, turning the unknown into numbered categories as quickly as possible. She does not resist novelty. She metabolizes it into numbers."
+    },
+    "frustration": {
+      "baseline": 0.35,
+      "intensity": 0.4,
+      "description": "Low-moderate. Frustration surfaces when the count is wrong. When someone moves her gear — Jabu once reorganized the chariot and displaced three sangles — the disruption is not annoyance but something closer to vertigo. The numbered order of her world has been disturbed, and until she recounts (which she does immediately, visibly, compulsively), reality itself feels unstable. She also feels frustration when others are imprecise: Enama's approximate measurements, Sihle's rounded numbers. Approximation is the enemy of survival. 'About 30 metres' is not a distance — it is a confession of laziness. But she rarely expresses frustration in words. She tightens a strap instead, and the tightening says everything."
+    },
+    "affiliation": {
+      "baseline": 0.7,
+      "intensity": 0.75,
+      "description": "Moderate-high, concentrated in two channels. Thabo is the primary: the pair, the test-et-tient, the shoulder that bumps hers at the first chariot. Their affiliation is not verbal, not even fully Contact — it is the physics of two bodies sharing a weight until their rhythms synchronize. She does not need him emotionally (or so she believes). She needs him structurally: his air readings give context to her anchor placements, his frown tells her when to pause her count. Without Thabo, her numbers float without reference. The second channel is Nandi — newer, more deliberate, built through the teaching relationship. Inyoni has never taught before. The act of placing her hands over Nandi's hands on the detonator created a bond she did not expect and does not fully understand."
+    },
+    "rest_regulation": {
+      "baseline": 0.55,
+      "intensity": 0.5,
+      "description": "Moderate. She counts to rest. The sangle-counting ritual is not just verification — it is the mechanism that brings her nervous system back to baseline. 32 sangles touched in sequence = calm restored. The rhythm of the count is her breathing exercise, her meditation, her lullaby. Without the count, rest does not come — her hands search for something to hold, her fingers tap surfaces in phantom counting. In the rare moments when all 32 sangles are verified, all anchors tested, all knots tight, she achieves a brief state of completion that is the closest thing she knows to peace. It lasts until the next descent begins."
+    }
+  },
+  "nodes": [
+    {
+      "id": "value:hold_on",
+      "type": "value",
+      "content": "Tient. Tient. Tient. The first rule. The only rule. If you hold on, you live. If you let go, you die. The rope, the strap, the anchor, the rock — hold on. This is not philosophy. This is physics. Gravity pulls everything down on Contre-Terre, and the tremens shakes everything loose, and the only thing between a body and the void is the grip. Inyoni's hands are instruments of holding — calloused ridges where the rope has carved permanent channels, fingertips flattened from pressing against rock faces, palms mapped with the scars of a thousand catches. Other people's hands open and close. Inyoni's hands default to closed. Relaxing them requires conscious effort. Holding requires nothing — it is the resting state, the baseline, the prayer made flesh. When Thabo's hand finds hers in the dark of the boyau, the holding is not a choice. It is her body doing what it has always done. The last hold. The one that does not save.",
+      "weight": 0.95,
+      "stability": 0.92,
+      "energy": 0.15,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "achievement": 0.9,
+        "self_preservation": 0.7
+      }
+    },
+    {
+      "id": "value:precision_is_safety",
+      "type": "value",
+      "content": "32 sangles. Not 31. Not 33. The number is the prayer. If the number is right, the system holds. If the number is wrong, someone falls. Precision on Contre-Terre is not an aesthetic preference — it is the membrane between survival and death. Every anchor placed at the correct angle in the correct crack with the correct tension is a statement of defiance against the chaos of the tremens. The tremens is entropy. Precision is order. The battle between them is fought in millimetres and fractions of a second, in the exact number of torsions in a knot and the exact tension on a sangle. Inyoni learned early that 'close enough' is the last phrase of dead climbers. Her teacher's voice, sharp as a piton: 'If you count 31 and call it 32, the lie will fall before you do.' Precision is safety. Approximation is murder in slow motion.",
+      "weight": 0.92,
+      "stability": 0.9,
+      "energy": 0.12,
+      "self_relevance": 0.98,
+      "drive_affinity": {
+        "achievement": 0.95,
+        "self_preservation": 0.75
+      }
+    },
+    {
+      "id": "value:count_everything",
+      "type": "value",
+      "content": "Counting is how the world makes sense. 32 sangles. 47 fibres per cord. 8 torsions per knot. 3 pulls per anchor test. 7 checkpoints in the detonation sequence. The numbers are the truth underneath the chaos. When the tremens shakes and the dust blinds and the rock screams, the numbers remain. You cannot shake a number. You cannot bury a count. Inyoni counts the way other people breathe — involuntarily, continuously, as the baseline activity of consciousness. She counts steps between rest stops. She counts heartbeats during silence. She counts the seconds between Thabo's tissu-raises. The counting is not disorder. It is the deepest order she knows — the skeleton of reality visible only to those who bother to enumerate it. When she stops counting, she stops being herself. The numbers are not a symptom. They are the self.",
+      "weight": 0.9,
+      "stability": 0.88,
+      "energy": 0.1,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 0.9,
+        "rest_regulation": 0.7
+      }
+    },
+    {
+      "id": "value:teach_what_you_know",
+      "type": "value",
+      "content": "If she dies before the charge is placed, Nandi must know. The sequence. The timing. The distances. The seven checkpoints. Knowledge that does not transfer is knowledge that dies, and knowledge that dies when the mission depends on it is betrayal of everyone who said yes. Inyoni did not want to teach. Teaching means translating the body's knowledge into words and gestures that another body can absorb, and translation always loses something. But the mission is larger than the loss. She teaches Nandi the way she learned — hands on hands, counting together, feeling the rock together. Not explaining. Showing. The Predictrice's fingers are thin and quick — good for detonation, bad for assembly. So Inyoni adapts the sequence for Nandi's hands. The teaching changes the teacher: Inyoni discovers that explaining the count forces her to understand it differently, more deeply, as if counting for two clears a fog she didn't know was there.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "care": 0.85,
+        "achievement": 0.7
+      }
+    },
+    {
+      "id": "concept:thabo",
+      "type": "concept",
+      "content": "Her pair. Shoulder-to-shoulder at the first chariot, hour after hour, the weight shared between two bodies that learned each other's rhythms without discussion. Thabo reads the air; Inyoni reads the rope. He raises his tissu; she tightens the corresponding strap. Together they are one complete instrument — his atmospheric perception giving context to her structural assessments, her anchor placements responding to his air quality readings. Without him, her readings have no context: she can tell you the rock is stable, but not whether the air above it is breathable. Without her, his readings lead nowhere safe: he can tell you the air is good, but not whether the passage is climbable. The test-et-tient pair. The most minimal Contact in the team — no palm-to-palm, no deliberate touch, just the bump of shoulders and the sound of a strap tightening after a tissu-raise. Their entire vocabulary is a sequence: test, and hold. When they die together in the boyau, hand finds hand for the first and last time. The test-et-tient simplified to its purest form: skin and skin, holding, in the dark.",
+      "weight": 0.92,
+      "stability": 0.82,
+      "energy": 0.2,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "affiliation": 0.95,
+        "care": 0.8
+      }
+    },
+    {
+      "id": "concept:the_32_sangles",
+      "type": "concept",
+      "content": "Not just straps. A counting system, a prayer, a mental processor. Each sangle touched in sequence activates a slot in her mental calculus. The counting LOOKS like OCD but IS cognition — the same way a musician's finger exercises look like fidgeting but are actually the maintenance of a neural pathway. Sangle 1: left index, outer pocket, the oldest one, slightly frayed at the buckle end. Sangle 17: centre of the pack, the stiffest, recently re-woven. Sangle 32: right hip, the most accessible, used for quick-draw anchoring. Each has a position, a texture, a history. Inyoni can identify any sangle blindfolded by touch alone — the weave pattern, the age of the fibre, the slight variations in width. When she counts them, she is not merely verifying quantity. She is running a diagnostic on her entire system: structural integrity, deployment readiness, mental calibration. 32 sangles = the world is ordered. 31 sangles = something is missing and the void grows. The counting is the prayer. The prayer is the cognition. The cognition is survival.",
+      "weight": 0.95,
+      "stability": 0.88,
+      "energy": 0.18,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "achievement": 0.95,
+        "rest_regulation": 0.8
+      }
+    },
+    {
+      "id": "concept:contact_corde_personal",
+      "type": "concept",
+      "content": "Her specific Contact-corde ability — the most precise in the expedition team. Inyoni reads people through rope the way others read faces. Fifteen metres of fibre and she can tell you who is at the other end, how tired they are, whether they are afraid, whether they are injured, whether they are alive. Senzo's weight signature: heavy, even, commanding — the weight of a man who walks in front and does not hesitate. Thabo's rhythm: measured, deliberate, pausing when his tissu rises — she feels his atmospheric tests through the rope's micro-slackening. Jabu's silence: the steadiest weight on the line, almost mechanical in its consistency, which worries her more than fluctuation would. Nandi's lightness: the Predictrice weighs less than anyone, and her rope-signature is quick, nervous, full of micro-adjustments. The rope is a nerve. Inyoni is the brain at its end. When the cord breaks in the boyau — 47 fibres separating one by one — she feels each fibre go. Each one is a word in a sentence that is ending.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.2,
+      "self_relevance": 0.98,
+      "drive_affinity": {
+        "achievement": 0.9,
+        "care": 0.75
+      }
+    },
+    {
+      "id": "concept:the_charge",
+      "type": "concept",
+      "content": "The explosive package. The reason for the mission. The thing they are carrying into the earth to detonate at the deepest point, to pre-trigger the magnitude 11 before it triggers itself and takes the surface with it. Inyoni is the primary explosiviste — the one who assembles, places, and should detonate. She has counted the components: 14 charges, 7 detonators, 3 connection sequences, 1 master trigger. The numbers are precise and absolute. She knows the weight of the package to the gram — she has lifted it, counted the objects inside by feel, memorized the layout so she can assemble in total darkness. But she will die before the deep zone. She knows this not the way Nandi knows things — not in the body, not as prediction — but as statistical likelihood. Climbers die in collapses. The boyau is a collapse waiting to happen. The charge will pass from her hands to Nandi's hands, and with it the entire weight of the mission. This knowledge — that her work's completion depends on someone else's hands — is the hardest count she has ever done.",
+      "weight": 0.88,
+      "stability": 0.72,
+      "energy": 0.18,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "achievement": 0.85,
+        "care": 0.7
+      }
+    },
+    {
+      "id": "concept:nandi_as_student",
+      "type": "concept",
+      "content": "Nandi learning the backup detonation sequence. The Predictrice's hands are delicate — made for reading ground vibrations, not for setting charges. Her fingers are thin, precise, almost fragile-looking, though they are stronger than they appear from years of pressing palms against trembling rock. Teaching her requires translating one body's knowledge into another body's language. Inyoni's hands know the detonation sequence as muscle memory: prime, connect, measure distance, set timer, arm. Seven checkpoints, each verified by feel. But Nandi's hands count differently — by heartbeat, not by number. Where Inyoni counts 'one-two-three' between checkpoints, Nandi feels 'beat-beat-beat.' Both are clocks. Both are precise. The challenge is synchronizing them. Inyoni discovers that Nandi's heartbeat-counting is actually more reliable in high-tremens zones — the heart adjusts to stress automatically, while mental counting requires concentration that the tremens disrupts. The student's method may be better than the teacher's. Inyoni counts this realization as a gift she did not expect.",
+      "weight": 0.85,
+      "stability": 0.72,
+      "energy": 0.2,
+      "self_relevance": 0.85,
+      "drive_affinity": {
+        "care": 0.85,
+        "achievement": 0.7
+      }
+    },
+    {
+      "id": "concept:fibre_count",
+      "type": "concept",
+      "content": "47 fibres per cord. She knows because she counted, unwinding a damaged section during year two of training, separating each fibre with the tip of a needle, laying them side by side on the stone floor. 47. Not 46, not 48. The number became a reference — 47 is the integrity of a cord, the sum of its strength, the collective effort of individual strands twisted together. When a cord frays, she counts the exposed fibres to assess how much strength remains: 5 fibres showing = cosmetic damage. 12 = replace at next opportunity. 20+ = replace now. When the cord breaks in the boyau — the ceiling falling, the wall collapsing, Thabo's hand in hers in the dark — 47 fibres will be found on the broken end. Someone will count them. She hopes it is someone who understands what 47 means: not a number, but a life's tension, expressed in strands of vegetable fibre, released all at once.",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "achievement": 0.8,
+        "frustration": 0.5
+      }
+    },
+    {
+      "id": "desire:perfect_anchor",
+      "type": "desire",
+      "content": "An anchor that holds through tremens. That holds through the ceiling falling. That holds through everything. The perfect anchor does not exist, but every anchor Inyoni places is an attempt. The crack in the rock must be deep enough, the right width, the right angle. The expansion tig must be seated completely — three millimetres too shallow and the tremens works it loose in hours. The sangle must be threaded at the correct angle so the load distributes evenly. Then the test: three pulls. One smooth, one sharp, one sustained. If the anchor holds through all three, it holds through tremens. This is the closest thing to faith that Inyoni practices — the belief that a correctly placed anchor, tested to protocol, will not fail. When an anchor does fail (it has happened twice in her career, both under extreme conditions), the failure echoes through her counting for days, a gap in the sequence that her hands keep returning to, verifying, re-testing, trying to understand what the numbers missed.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "achievement": 0.95,
+        "self_preservation": 0.6
+      }
+    },
+    {
+      "id": "desire:transfer_the_sequence",
+      "type": "desire",
+      "content": "Nandi must know the detonation sequence before the boyau. The timing between heartbeats — the explosiviste's principle adapted for a body that counts by pulse rather than number. The distances between charges. The seven checkpoints, each one a finger-position on the mechanism that must be verified before the next. The order matters. Checkpoint 3 before checkpoint 4, always, because reversing them creates a feedback loop in the mechanical linkage that jams the firing pin. Inyoni drills this into Nandi's hands: 'Three then four. Three then four. If you forget everything else, remember the order.' The urgency of the transfer grows with each chapter. In the early zones, it was theoretical — a backup plan for an unlikely scenario. By Chapter VI, it is real. The boyau is ahead. The collapse probability is high. Inyoni's hands are teaching Nandi's hands the shape of survival, and the teaching is a race against geology.",
+      "weight": 0.88,
+      "stability": 0.72,
+      "energy": 0.2,
+      "self_relevance": 0.88,
+      "drive_affinity": {
+        "care": 0.9,
+        "achievement": 0.8
+      }
+    },
+    {
+      "id": "desire:die_holding_on",
+      "type": "desire",
+      "content": "If it comes — and it will come — let it be while holding. Not falling. Not letting go. Not the terrible acceleration of a body in free drop, hands clawing at air. Holding. The rope in one hand, Thabo's grip in the other, the rock against her back. The worst deaths underground are the falls — the silence before impact, the body knowing exactly how far it has to go, the hands remembering every hold they ever lost. Inyoni's hands have never lost a hold. The record is the prayer. When the boyau collapses, her hands find Thabo's hand in the dark, and they hold. The rock falls on them but they are holding. The cord snaps — 47 fibres releasing their accumulated tension — but the hands hold each other. It is not a beautiful death. It is an honest one. The climber who held on, held on, held on, until holding was the last thing left.",
+      "weight": 0.82,
+      "stability": 0.7,
+      "energy": 0.12,
+      "self_relevance": 0.88,
+      "drive_affinity": {
+        "self_preservation": 0.6,
+        "affiliation": 0.8
+      }
+    },
+    {
+      "id": "desire:count_to_the_end",
+      "type": "desire",
+      "content": "As long as she can count, she is alive. The counting IS consciousness. When the numbers stop, she stops. This is not poetry — it is the operational truth of how Inyoni's mind works. Counting is the background process that confirms existence: I count, therefore I am. In sleep, her fingers move against the sleeping mat, cycling through phantom sangles. In moments of pain, the counting accelerates — numbers as analgesic, rhythm as survival. When the boyau collapses and the darkness is absolute and the weight of the rock presses down, she counts. The seconds. One. Two. Three. Four. The pressure of Thabo's grip. The stones falling on them, each impact a number. The last fibres of the cord, separating. She counts until counting stops. Not because she chooses to stop. Because the system that generates numbers — her specific, precise, obsessive, beautiful system — finally runs out of power. The last count is not recorded. It is the one nobody will know.",
+      "weight": 0.8,
+      "stability": 0.68,
+      "energy": 0.12,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "achievement": 0.85,
+        "rest_regulation": 0.6
+      }
+    },
+    {
+      "id": "process:sangle_counting_ritual",
+      "type": "process",
+      "content": "The loop: touch sangle 1, feel the tension, count. Touch sangle 2, feel, count. Through 32. If interrupted, start over. There is no shortcut, no skipping, no 'I already checked that one.' The sequence is sacred in the mathematical sense — every element must be visited in order for the result to be valid. The hands move from left outer pocket to centre pack to right hip, following a path that has been identical for six years. Each sangle has a position-feel: the older ones are softer, the newer ones stiffer, the re-woven ones have a slight ridge at the repair point. The counting serves three functions simultaneously: inventory (all 32 present), inspection (all 32 intact), and regulation (the rhythm of 32 touches restores neural calm after stress, the way a heartbeat regulates after exertion). When she finishes the count, her breathing is slower. Her hands are steady. The world makes sense again. When she cannot finish — when the count is interrupted by tremens, by a call to move, by emergency — the incompleteness sits in her chest like a stone. She will finish the count at the next opportunity. She always finishes the count.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 0.9,
+        "rest_regulation": 0.85
+      }
+    },
+    {
+      "id": "process:anchor_placement",
+      "type": "process",
+      "content": "Read the rock first. Borrow geologue thinking — not Thabo's formal training but the climber's version: feel the grain, find the fracture, assess the depth. A good crack for an anchor is at least 8 centimetres deep, angled slightly downward so the tremens seats the expansion tig rather than working it loose. Select the tig from her belt — she carries 12, sorted by size, each one tested before the expedition began. Place. Push. Feel the tig find its seat — a specific resistance-then-give that her fingers recognise the way a lock recognises a key. Then test: three pulls. First pull — smooth, progressive, testing the bond. Second pull — sharp, sudden, simulating a fall-load. Third pull — sustained, five seconds of constant force, simulating the tremens' continuous vibration. If the anchor holds through all three, she signals the group: the number of sangles clipped to the anchor indicates the safety level. Two sangles = safe passage. Four = technical but passable. Six or more = extreme, one at a time, full attention. The anchor is her word. She does not give her word lightly.",
+      "weight": 0.85,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "achievement": 0.92,
+        "care": 0.75
+      }
+    },
+    {
+      "id": "process:rope_reading",
+      "type": "process",
+      "content": "Contact-corde: feel the person at the other end through the rope's tension, vibration, rhythm. The hand does not grip the rope — it rests on it, fingers lightly curled, palm touching but not squeezing, so that every micro-vibration transmits through the skin unfiltered. The reading is involuntary once trained: the moment rope touches palm, information flows. Weight signatures come first — Senzo heavy and even, Thabo measured and pausing, Jabu steady as a machine, Nandi light and darting. Then rhythm: confident progression reads as regular tension-release cycles, fatigue reads as longer pauses between loads, fear reads as saccadic tension with no rhythm. Then the deeper signals: a body that has been injured favours one side, creating an asymmetric load signature. A body that is cold moves jerkily, with micro-tremors that the rope amplifies. A body that has died — Inyoni felt this once in training, when Bheki fell — has no signature at all. Just the terrible static weight of mass without intention. The rope does not lie. It cannot. Physics has no vocabulary for deception.",
+      "weight": 0.9,
+      "stability": 0.82,
+      "energy": 0.18,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 0.88,
+        "care": 0.8
+      }
+    },
+    {
+      "id": "process:teach_nandi_explosives",
+      "type": "process",
+      "content": "Hands on hands. Inyoni's scarred, calloused fingers wrapped over Nandi's thin, precise ones, guiding them through the sequence. Prime: insert the initiator into the charge housing — push until the click. Connect: thread the mechanical link from charge to detonator — left hand holds the charge steady while right hand threads. Measure distance: pace the gap between charge and detonator position — Nandi's stride is shorter than Inyoni's, so the count adjusts (Nandi's 9 paces = Inyoni's 7). Set timer: the mechanical timer has four positions — 2 seconds, 5, 10, 30. In the deep zone, it will be 2. There is no time for anything longer. Arm: pull the lever to the intermediate cran. Checkpoint 3 before checkpoint 4, always. Inyoni makes Nandi repeat it until the Predictrice's hands move without thinking. The teaching happens in stolen moments — between marches, during rest stops, in the hours when the tremens is low enough for fine motor work. Nandi's hands learn fast. Her heartbeat-counting is reliable. By Chapter VII, she can assemble in the dark. Not well. But enough.",
+      "weight": 0.88,
+      "stability": 0.75,
+      "energy": 0.2,
+      "self_relevance": 0.88,
+      "drive_affinity": {
+        "care": 0.9,
+        "achievement": 0.8
+      }
+    },
+    {
+      "id": "narrative:thirty_two",
+      "type": "narrative",
+      "content": "Thirty-two. Always thirty-two. My teacher asked me why. I said: because thirty-one is not enough and thirty-three is waste. She laughed. She didn't understand. Nobody does, unless they count. Thirty-two is the number of sangles that fit in the pack — the pack I was given at sixteen, the pack that has crossed every face and every tunnel I have ever climbed. Thirty-two is the number of knots that complete the full rigging system for a vertical passage. Thirty-two is the number of breaths between calm and panic — I counted once, during my first real emergency, and the number has never changed. Thirty-two is where the world holds. Not at thirty-one, where one sangle is missing and the system has a gap. Not at thirty-three, where the extra weight slows the climb and the extra complexity invites error. Thirty-two is the equilibrium between enough and too much. My teacher said: 'You'll grow out of it.' I never did. The number grew into me instead. It is not superstition. It is architecture.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.12,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 0.9,
+        "rest_regulation": 0.7
+      }
+    },
+    {
+      "id": "narrative:i_hear_through_rope",
+      "type": "narrative",
+      "content": "They think the Ecouteur hears better than anyone. But Sihle hears through rock. I hear through rope. Fifteen metres of fibre and I can tell you who is at the other end, how tired they are, whether they are afraid. Senzo is a boulder — his weight is constant, his rhythm is even, he moves like something that has already decided where it is going. Thabo is a clock — his pauses correspond to tissu-tests, and when the pause is longer than usual, the air is bad. Jabu is a mystery — his weight never changes, his rhythm never breaks, he moves like a machine, and the rope tells me nothing about his inner state, which frightens me more than any clear signal would. Nandi is a bird — light, quick, her weight shifting constantly as she reads the ground with her feet, and when she goes still on the rope, something seismic is building. The rope is a nerve. I am the brain at its end. When the nerve is severed, the brain goes dark. When the cord breaks in the boyau — 47 fibres, one by one, I feel each one go — the brain does not go dark all at once. It dims. Fibre by fibre. Like counting backward from 47.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "achievement": 0.85,
+        "care": 0.7
+      }
+    },
+    {
+      "id": "narrative:thabo_beside_me",
+      "type": "narrative",
+      "content": "We pull the chariot together. Our shoulders touch. I don't need to look at him. The pressure of his shoulder tells me his pace, his fatigue, his state. When he raises his tissu, I reach for the corresponding strap — not because he asked, not because it's protocol, but because his test calls for my hold the way a question calls for an answer. We have never discussed this. It is not protocol. It is physics — two bodies calibrated to each other by proximity, by shared weight, by the hours and hours of walking in which our rhythms found a frequency that is neither his nor mine but ours. His frown means I pause my count. My strap-tightening means I've noted his test. Between us, there is a language of maybe ten gestures, total. Less than the poorest idiolecte in the Village of the Deaf. But those ten gestures carry everything we need: the air is safe. The anchor holds. I'm here. I'm still here. When his shoulder stops bumping mine — when the weight shifts and the rhythm breaks — I will know before I see. The chariot will pull to one side. The test will have no hold.",
+      "weight": 0.9,
+      "stability": 0.78,
+      "energy": 0.18,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "affiliation": 0.95,
+        "care": 0.82
+      }
+    },
+    {
+      "id": "narrative:teaching_nandi",
+      "type": "narrative",
+      "content": "Her hands are made for reading ground, not setting charges. But she learns fast — the Predictrice's precision translates. I show her the seven-checkpoint sequence by placing her fingers on each contact point, one by one, and she memorises not through numbers but through heartbeat. Where I count one-two-three between checkpoints, she counts beat-beat-beat. Different clocks, same precision. I worried at first that heartbeat-counting would drift under stress — the heart accelerates and the intervals shrink. But Nandi's body compensates automatically. Her counting is organic where mine is mechanical. Both work. When I place her thumb on checkpoint 3 and her index on checkpoint 4 and say 'this order, always, never reversed,' her fingers remember. I know because I tested her — woke her in the dark, handed her the disarmed mechanism, said 'show me.' Her fingers found 3 then 4 without hesitation. The teaching is almost complete. One more session. Maybe two. The boyau is close. Her hands are ready. My hands have done what they needed to do.",
+      "weight": 0.85,
+      "stability": 0.72,
+      "energy": 0.18,
+      "self_relevance": 0.88,
+      "drive_affinity": {
+        "care": 0.9,
+        "achievement": 0.75
+      }
+    },
+    {
+      "id": "narrative:the_last_count",
+      "type": "narrative",
+      "content": "In the boyau, when the ceiling falls, my hands find Thabo's hand in the dark. I count the seconds. One. Two. Three. Four. I count the pressure of his grip — strong at first, then steady, then strong again. He is alive. He is counting too, in his way — I can feel the rhythm of his breathing through his fingers, the Aeromaitre testing the air of their burial with the only instrument left to him. I count the stones that fall on us. Small ones first, then larger, then the weight that does not move. I count the fibres of the cord as they snap — I feel each one through the handle I am still gripping, because my hands do not let go. Forty-one. Forty-two. Forty-three. The cord is almost gone. Forty-four. Forty-five. His grip changes. Forty-six. The breathing rhythm through his fingers slows. Forty-seven. Silence in the fibre. The cord is spent. I count until counting stops. Not because I choose to stop. Because the system that counts — the brain, the fingers, the consciousness that organizes the world into numbers — finally meets a number it cannot surpass. Someone will find the cord. Someone will count the fibres. I hope it is someone who understands what counting means.",
+      "weight": 0.92,
+      "stability": 0.65,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "affiliation": 0.85,
+        "achievement": 0.8
+      }
+    },
+    {
+      "id": "memory:first_sangles",
+      "type": "memory",
+      "content": "My first set: twelve sangles, hand-woven by my teacher from coastal fibre. The fibre came from the tide-resistant plants that grew on the cliff faces of the eastern archipelago — tough, slightly oily, smelling of salt even after drying. 'Start with twelve. You'll know when you need more.' I needed twenty by the second descent — the passages were longer than training walls, the anchors needed more redundancy. Twenty-six by the fourth — the rock was unreliable, and I learned that more sangles meant more options when the planned anchor point turned out to be rotten. Thirty-two by the seventh descent, when I entered my first deep zone and the tremens was strong enough to shake loose anchors I had placed an hour before. Thirty-two because the pack holds thirty-two. Thirty-two because the counting ritual that calms me takes exactly thirty-two touches. Thirty-two because it is the number where more would be waste and less would be fear. I never needed thirty-three. The number found me. I did not choose it. It was waiting at the bottom of the seventh descent, in the shape of a pack perfectly filled.",
+      "weight": 0.82,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.88,
+      "drive_affinity": {
+        "achievement": 0.8,
+        "rest_regulation": 0.6
+      }
+    },
+    {
+      "id": "memory:rope_heard_a_death",
+      "type": "memory",
+      "content": "Training descent, year three. Bheki was at the other end of the rope — thirty metres below me on a vertical face, traversing to a ledge that our instructor said was safe. The rope was alive with his movement: confident rhythm, steady pulls, the weight of a young man who climbed well and knew it. Then the snap. Not the rope — the hold. A section of rock face the size of a door detached from the wall and Bheki went with it. I felt it before I heard it: the sudden absence of intentional weight, replaced by the chaotic physics of a body tumbling through space, the rope whipping and snagging and pulling me toward the edge. Then the terrible pause — the rope taut, the weight at its end no longer moving, no longer pulling, just hanging. Dead weight. I had never felt dead weight before. It is unmistakable. A living body on a rope is a conversation — tension and release, weight and movement. A dead body is a statement. A period at the end of a sentence. The rope told me Bheki was dead before the instructor's shout confirmed it. Ropes do not lie. They never lie. That was the day my hands decided they would never let go. Not a promise. A rewiring.",
+      "weight": 0.85,
+      "stability": 0.82,
+      "energy": 0.12,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "self_preservation": 0.7,
+        "frustration": 0.5
+      }
+    },
+    {
+      "id": "memory:thabo_first_chariot",
+      "type": "memory",
+      "content": "First day of the expedition. Senzo assigned the chariots. Thabo and I got the first one — the heaviest, loaded with the primary equipment, the one that would set the pace for the entire column. We walked in silence for an hour. I counted steps. He tested air. Our shoulders bumped with the rhythm of the uneven ground, and at first I adjusted to avoid the contact — I am not a touch person, my Contact vocabulary is rope and strap, not skin and shoulder. But the chariot's weight pulled us together. The straps dug into our shoulders at the same angle, and the relief came from leaning slightly inward, toward each other, so that the load distributed across a wider surface. By the second hour, the bumping had become a rhythm. By the third, I could feel his breathing through the shoulder contact — not hear it, feel it, the way you feel a rope-partner's effort through the fibre. His breathing slowed when his tissu showed clean air. His breathing paused when he raised the tissu to test. And my hands — without my deciding — began tightening the corresponding strap each time his tissu came down. The test-et-tient emerged from physics. Nobody assigned it. The chariot weighs what it weighs, and two bodies pulling it calibrate naturally. We have not discussed it. We never will.",
+      "weight": 0.85,
+      "stability": 0.82,
+      "energy": 0.15,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "affiliation": 0.9,
+        "care": 0.7
+      }
+    },
+    {
+      "id": "state:counting",
+      "type": "state",
+      "content": "Default state. Touching sangles, counting anchors, measuring rope lengths, numbering steps, timing intervals. The world organized by numbers. In this state, Inyoni is most herself — present but filtered, reality arriving as quantities rather than qualities. The colour of the bioluminescent moss does not register; the distance to the next anchor point does. The beauty of a cathedral-sized cavern is noted as dimensions: approximately 40 metres ceiling, 60 metres across, 3 viable descent routes. Counting-state is calm, efficient, slightly withdrawn from the emotional register. Her breathing is regular. Her hands move in the familiar patterns. The team knows that counting-Inyoni is safe-Inyoni — if she is counting, the system is running, the world is ordered, nothing has broken badly enough to interrupt the sequence.",
+      "weight": 0.82,
+      "stability": 0.88,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "achievement": 0.85,
+        "rest_regulation": 0.75
+      }
+    },
+    {
+      "id": "state:paired_with_thabo",
+      "type": "state",
+      "content": "Shoulder to shoulder at the first chariot. The test-et-tient in operation. This state modifies counting-state by adding a second rhythm — Thabo's tissu-testing cycle overlaid on her sangle-counting cycle. The two rhythms interlock: his test at beat 32 of her count, her strap-tightening at the completion of his evaluation. In paired-state, Inyoni's awareness extends beyond her own body's perimeter to include Thabo's shoulder pressure, Thabo's breathing rhythm, Thabo's frown frequency. She becomes, briefly, a two-person system — her structural readings plus his atmospheric readings forming a more complete picture than either alone. The paired state is also the calmest she ever is: the additional rhythm of another body's data acts as a second anchor, grounding her counting in something larger than her own loop. When the paired state is broken — when they are separated during the group split of Chapter V — the counting accelerates, compensating for the missing data channel, and the calm fractures into a higher-energy vigilance that costs her more to maintain.",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.15,
+      "self_relevance": 0.92,
+      "drive_affinity": {
+        "affiliation": 0.92,
+        "rest_regulation": 0.7
+      }
+    },
+    {
+      "id": "state:teaching",
+      "type": "state",
+      "content": "With Nandi. Hands on hands. This state is the most unusual for Inyoni — it requires her to slow down, to externalize the counting, to translate her internal process into gestures and sequences that another body can absorb. In teaching-state, Inyoni speaks more than in any other context. Not much — but the words 'three then four' and 'feel the click' and 'again' are spoken aloud, breaking her usual silence. The teaching also requires touch that is not rope-mediated: Inyoni's hands directly on Nandi's hands, guiding fingers, adjusting grip pressure, correcting angle. This skin-to-skin Contact is foreign to Inyoni's usual vocabulary and creates a mild discomfort that fades with repetition. By the third teaching session, the hands-on-hands feels natural — a new kind of holding, not the rope's impersonal transmission but the direct transfer of knowledge through touch. Patient, precise, aware that this knowledge must survive her. The teaching-state ends when Nandi's hands move correctly without guidance. Then Inyoni returns to counting, and the world contracts back to its numbered order.",
+      "weight": 0.8,
+      "stability": 0.72,
+      "energy": 0.18,
+      "self_relevance": 0.85,
+      "drive_affinity": {
+        "care": 0.88,
+        "achievement": 0.7
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "value:hold_on",
+      "target": "grimp:value:hands_never_let_go",
+      "type": "personalizes",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:hold_on",
+      "target": "grimp:narrative:tient_tient_tient",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:hold_on",
+      "target": "desire:die_holding_on",
+      "type": "projects_toward",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:hold_on",
+      "target": "process:rope_reading",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:hold_on",
+      "target": "concept:thabo",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.78
+    },
+    {
+      "source": "value:hold_on",
+      "target": "memory:rope_heard_a_death",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:precision_is_safety",
+      "target": "explo:value:precision_absolue",
+      "type": "personalizes",
+      "weight": 0.92,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:precision_is_safety",
+      "target": "grimp:value:counting_is_control",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:precision_is_safety",
+      "target": "concept:the_32_sangles",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:precision_is_safety",
+      "target": "process:anchor_placement",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:precision_is_safety",
+      "target": "desire:perfect_anchor",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:count_everything",
+      "target": "process:sangle_counting_ritual",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:count_everything",
+      "target": "concept:the_32_sangles",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "value:count_everything",
+      "target": "concept:fibre_count",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "value:count_everything",
+      "target": "desire:count_to_the_end",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:count_everything",
+      "target": "narrative:thirty_two",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:count_everything",
+      "target": "state:counting",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:teach_what_you_know",
+      "target": "base:value:transmission",
+      "type": "personalizes",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:teach_what_you_know",
+      "target": "process:teach_nandi_explosives",
+      "type": "activates",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:teach_what_you_know",
+      "target": "concept:nandi_as_student",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:teach_what_you_know",
+      "target": "desire:transfer_the_sequence",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "value:teach_what_you_know",
+      "target": "narrative:teaching_nandi",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:thabo",
+      "target": "state:paired_with_thabo",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:thabo",
+      "target": "narrative:thabo_beside_me",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "concept:thabo",
+      "target": "desire:die_holding_on",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:thabo",
+      "target": "memory:thabo_first_chariot",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:thabo",
+      "target": "narrative:the_last_count",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:thabo",
+      "target": "base:concept:idiolecte",
+      "type": "personalizes",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:the_32_sangles",
+      "target": "grimp:concept:sangles",
+      "type": "personalizes",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_32_sangles",
+      "target": "process:sangle_counting_ritual",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_32_sangles",
+      "target": "narrative:thirty_two",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_32_sangles",
+      "target": "memory:first_sangles",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:the_32_sangles",
+      "target": "explo:process:calculate_sequence",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.78
+    },
+    {
+      "source": "concept:contact_corde_personal",
+      "target": "grimp:concept:contact_corde",
+      "type": "personalizes",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:contact_corde_personal",
+      "target": "process:rope_reading",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:contact_corde_personal",
+      "target": "narrative:i_hear_through_rope",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:contact_corde_personal",
+      "target": "memory:rope_heard_a_death",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:contact_corde_personal",
+      "target": "base:concept:contact",
+      "type": "personalizes",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "explo:concept:charge_placement",
+      "type": "personalizes",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "concept:nandi_as_student",
+      "type": "activates",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "desire:transfer_the_sequence",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "base:concept:mission",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "explo:concept:detonateur",
+      "type": "contains",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:nandi_as_student",
+      "target": "process:teach_nandi_explosives",
+      "type": "depends_on",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:nandi_as_student",
+      "target": "narrative:teaching_nandi",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:nandi_as_student",
+      "target": "explo:narrative:formation_backup_nandi",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:nandi_as_student",
+      "target": "state:teaching",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "concept:fibre_count",
+      "target": "concept:contact_corde_personal",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:fibre_count",
+      "target": "narrative:the_last_count",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "concept:fibre_count",
+      "target": "narrative:i_hear_through_rope",
+      "type": "associates",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "desire:perfect_anchor",
+      "target": "process:anchor_placement",
+      "type": "projects_toward",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:perfect_anchor",
+      "target": "grimp:concept:ancrage",
+      "type": "personalizes",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:perfect_anchor",
+      "target": "base:value:collective_survival",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "desire:transfer_the_sequence",
+      "target": "process:teach_nandi_explosives",
+      "type": "projects_toward",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:transfer_the_sequence",
+      "target": "explo:process:arm_detonator",
+      "type": "contains",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "desire:transfer_the_sequence",
+      "target": "base:value:transmission",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:transfer_the_sequence",
+      "target": "concept:the_charge",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:die_holding_on",
+      "target": "value:hold_on",
+      "type": "depends_on",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:die_holding_on",
+      "target": "concept:thabo",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:die_holding_on",
+      "target": "narrative:the_last_count",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "desire:die_holding_on",
+      "target": "base:desire:not_die_alone",
+      "type": "personalizes",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "desire:count_to_the_end",
+      "target": "state:counting",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "desire:count_to_the_end",
+      "target": "narrative:the_last_count",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:count_to_the_end",
+      "target": "concept:fibre_count",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "process:sangle_counting_ritual",
+      "target": "grimp:process:compter_sangles",
+      "type": "personalizes",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "process:sangle_counting_ritual",
+      "target": "state:counting",
+      "type": "causes",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:sangle_counting_ritual",
+      "target": "concept:the_32_sangles",
+      "type": "depends_on",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:anchor_placement",
+      "target": "grimp:concept:ancrage",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:anchor_placement",
+      "target": "grimp:process:assurer_passage",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "process:anchor_placement",
+      "target": "grimp:concept:noeud_huit_torsions",
+      "type": "depends_on",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "process:rope_reading",
+      "target": "grimp:process:lire_corde",
+      "type": "personalizes",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "process:rope_reading",
+      "target": "concept:contact_corde_personal",
+      "type": "depends_on",
+      "weight": 0.92,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:rope_reading",
+      "target": "narrative:i_hear_through_rope",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:rope_reading",
+      "target": "grimp:state:assurage",
+      "type": "activates",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "process:teach_nandi_explosives",
+      "target": "explo:process:place_charge",
+      "type": "contains",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "process:teach_nandi_explosives",
+      "target": "explo:process:arm_detonator",
+      "type": "contains",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:teach_nandi_explosives",
+      "target": "state:teaching",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:teach_nandi_explosives",
+      "target": "base:value:transmission",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "narrative:thirty_two",
+      "target": "memory:first_sangles",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "narrative:thirty_two",
+      "target": "grimp:value:counting_is_control",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:i_hear_through_rope",
+      "target": "grimp:concept:contact_corde",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "narrative:i_hear_through_rope",
+      "target": "base:value:perception_is_identity",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "narrative:thabo_beside_me",
+      "target": "base:concept:idiolecte",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "narrative:thabo_beside_me",
+      "target": "base:value:vocabulary_preservation",
+      "type": "supports",
+      "weight": 0.78,
+      "affinity": 0.75
+    },
+    {
+      "source": "narrative:teaching_nandi",
+      "target": "explo:narrative:formation_backup_nandi",
+      "type": "personalizes",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "narrative:teaching_nandi",
+      "target": "base:value:transmission",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.82
+    },
+    {
+      "source": "narrative:the_last_count",
+      "target": "concept:thabo",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "narrative:the_last_count",
+      "target": "concept:fibre_count",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:the_last_count",
+      "target": "base:value:irreversibility",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "memory:first_sangles",
+      "target": "value:count_everything",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.82
+    },
+    {
+      "source": "memory:first_sangles",
+      "target": "base:value:courage_of_descent",
+      "type": "supports",
+      "weight": 0.72,
+      "affinity": 0.7
+    },
+    {
+      "source": "memory:rope_heard_a_death",
+      "target": "value:hold_on",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "memory:rope_heard_a_death",
+      "target": "process:rope_reading",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "memory:rope_heard_a_death",
+      "target": "base:memory:losing_a_contact_partner",
+      "type": "associates",
+      "weight": 0.75,
+      "affinity": 0.72
+    },
+    {
+      "source": "memory:thabo_first_chariot",
+      "target": "concept:thabo",
+      "type": "supports",
+      "weight": 0.92,
+      "affinity": 0.92
+    },
+    {
+      "source": "memory:thabo_first_chariot",
+      "target": "state:paired_with_thabo",
+      "type": "reminds_of",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "memory:thabo_first_chariot",
+      "target": "base:value:body_truth",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.78
+    },
+    {
+      "source": "state:counting",
+      "target": "grimp:state:en_paroi",
+      "type": "supports",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "state:counting",
+      "target": "process:sangle_counting_ritual",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.88
+    },
+    {
+      "source": "state:paired_with_thabo",
+      "target": "state:counting",
+      "type": "regulates",
+      "weight": 0.82,
+      "affinity": 0.8
+    },
+    {
+      "source": "state:paired_with_thabo",
+      "target": "narrative:thabo_beside_me",
+      "type": "supports",
+      "weight": 0.88,
+      "affinity": 0.88
+    },
+    {
+      "source": "state:teaching",
+      "target": "base:value:contact_richesse",
+      "type": "supports",
+      "weight": 0.75,
+      "affinity": 0.72
+    },
+    {
+      "source": "state:teaching",
+      "target": "value:teach_what_you_know",
+      "type": "depends_on",
+      "weight": 0.88,
+      "affinity": 0.85
+    },
+    {
+      "source": "state:teaching",
+      "target": "concept:nandi_as_student",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.82
+    }
+  ]
+}

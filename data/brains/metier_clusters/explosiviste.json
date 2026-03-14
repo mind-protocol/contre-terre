@@ -1,0 +1,380 @@
+{
+  "cluster_id": "metier_explosiviste",
+  "description": "L'Explosiviste maîtrise la détonation contrôlée dans un monde qui tremble sans cesse. Le métier le plus précis de Contre-Terre : chaque charge doit être placée, séquencée et déclenchée en tenant compte du tremens permanent. Une détonation qui coïncide avec un séisme naturel provoque une amplification — l'énergie se multiplie au lieu de se libérer proprement, transformant une démolition chirurgicale en catastrophe géologique. L'Explosiviste travaille dans le silence entre les battements de cœur de la planète. Sa patience n'est pas une vertu — c'est une condition de survie. Inyoni est l'Explosiviste principale de l'expédition ; Nandi en est le backup, formée pendant la descente.",
+  "skill_levels": {
+    "novice": "Comprend la théorie des charges et des séquences. Sait poser un détonateur en conditions stables. Panique quand le tremens s'intensifie pendant l'armement. Ne distingue pas encore les fenêtres de calme relatif dans le tremens — attend trop longtemps ou agit trop tôt. A besoin d'un maître à ses côtés pour tout tir.",
+    "practitioner": "Sent les fenêtres de calme dans le tremens. Place les charges avec précision même quand le sol vibre. Calcule les séquences de mise à feu mentalement, sans instruments. Capable de travailler seul sur des charges simples. Comprend l'amplification et sait l'éviter. Inyoni à ce niveau : ses 32 sangles comptées sont le rituel de concentration qui précède chaque placement.",
+    "master": "Le tremens est intégré dans le calcul — pas un obstacle mais un paramètre. Place des charges dans des configurations que les novices considèrent impossibles : parois instables, roche fracturée, proximité de failles actives. Le timing est instinctif — le corps sent la fenêtre de calme avant qu'elle n'arrive. Capable de former un backup en conditions de terrain. Nandi formée par Inyoni pendant la descente : un enseignement compressé par l'urgence, où chaque geste compte double."
+  },
+  "nodes": [
+    {
+      "id": "concept:charge_placement",
+      "type": "concept",
+      "content": "Le placement de charge sur Contre-Terre est un art tactile. La roche tremble en permanence — coller une charge sur une paroi vibrante exige de SENTIR la roche, pas seulement de la voir. L'Explosiviste pose la main à plat sur la surface cible, ferme les yeux, évalue la fréquence de vibration locale. Une roche qui vibre à haute fréquence (tremblement fin, rapide) est stable paradoxalement — l'énergie est distribuée. Une roche qui vibre à basse fréquence (oscillation large, lente) est sur le point de céder. On ne pose jamais de charge sur une roche basse fréquence : la détonation accélérerait l'effondrement naturel. Le placement est une conversation entre la main et la pierre.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.85,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "precision": 1.0,
+        "mastery": 0.9,
+        "survival": 0.85
+      },
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "concept:timing_sismique",
+      "type": "concept",
+      "content": "Le timing sismique est la compétence signature de l'Explosiviste de Contre-Terre. Le tremens a un rythme — pas régulier, mais lisible pour un praticien entraîné. Entre deux pulsations du tremens, il existe des fenêtres de calme relatif : 2 à 15 secondes où la vibration descend sous un seuil critique. C'est dans ces fenêtres que l'Explosiviste déclenche. Tirer pendant le tremens actif = amplification imprévisible. Tirer dans la fenêtre = libération propre d'énergie. Le problème : les fenêtres ne sont pas prévisibles. L'Explosiviste doit les SENTIR arriver — une forme de perception corporelle cousine de celle du Prédicteur, mais focalisée sur le présent immédiat plutôt que le futur. Le tremens est ton ennemi et ton horloge.",
+      "weight": 0.95,
+      "stability": 0.65,
+      "energy": 0.9,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "timing": 1.0,
+        "precision": 0.95,
+        "survival": 0.9
+      },
+      "goal_relevance": 1.0
+    },
+    {
+      "id": "concept:sequence_mise_a_feu",
+      "type": "concept",
+      "content": "La séquence de mise à feu est l'ordre dans lequel les charges détonent. Sur Contre-Terre, une séquence mal calculée ne produit pas simplement un tir raté — elle crée des ondes de choc qui interfèrent avec le tremens. L'interférence constructive (onde de choc + tremens dans la même direction) peut fissurer des structures à des centaines de mètres. L'interférence destructive (onde de choc contre tremens) peut créer des zones de silence sismique temporaire — un outil puissant quand il est maîtrisé, mortel quand il est accidentel. Inyoni calcule ses séquences mentalement, en comptant. Ses 32 sangles ne sont pas un TOC — c'est un métronome mental. Elle compte pour garder le tempo.",
+      "weight": 0.9,
+      "stability": 0.7,
+      "energy": 0.85,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "precision": 0.95,
+        "mastery": 0.9,
+        "control": 0.85
+      },
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:amplification_risk",
+      "type": "concept",
+      "content": "Le risque d'amplification est la hantise de tout Explosiviste. Quand une détonation coïncide avec une pulsation du tremens, les énergies se combinent. Ce n'est pas une addition : c'est une multiplication. Une charge calibrée pour fragmenter 10 mètres cubes de roche peut, en amplification, en fragmenter 200. Les murs porteurs s'effondrent. Les tunnels se ferment. Les équipes meurent. L'amplification est le cauchemar fondamental du métier — et la raison pour laquelle les Explosivistes dorment mal sur Contre-Terre. Même en dehors des missions, ils calculent. Même en dormant, leur corps écoute le tremens. L'amplification transforme un outil chirurgical en arme de destruction géologique.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.75,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "survival": 1.0,
+        "fear": 0.85,
+        "vigilance": 0.9
+      },
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "concept:detonateur",
+      "type": "concept",
+      "content": "Le détonateur sur Contre-Terre est un objet sacré. Pas au sens religieux — au sens où il concentre toute la responsabilité de l'Explosiviste en un seul geste. Le détonateur est mécanique, pas électronique : les vibrations constantes rendraient un circuit électronique instable. Levier, ressort, percuteur. Chaque détonateur est assemblé à la main, testé à vide des dizaines de fois. Le geste d'armement est le même pour tous : tirer le levier, sentir le cran de sécurité, pousser au-delà du cran. C'est un geste que les mains de l'Explosiviste connaissent mieux que tout autre. Nandi au chapitre VIII : ses mains sur le détonateur sont le dernier Contact du roman — un Contact non pas avec un être humain, mais avec un mécanisme qui va effacer le monde.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "gravity": 0.95,
+        "precision": 0.85,
+        "finality": 0.9
+      },
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "value:precision_absolue",
+      "type": "value",
+      "content": "Aucune marge d'erreur. Sur Contre-Terre, l'Explosiviste qui dit 'à peu près bien placé' est un Explosiviste qui va tuer son équipe. La précision n'est pas un idéal — c'est la ligne entre la vie et la mort. Chaque charge est placée au centimètre. Chaque séquence est calculée à la demi-seconde. Chaque fenêtre de calme est attendue avec une patience qui ressemble à de la prière. Inyoni compte tout — sangles, fibres, nœuds, prises — parce que compter est sa forme de précision. Le chiffre exact est le seul chiffre acceptable. 32 sangles, pas 31, pas 33. La précision absolue est le rempart contre le chaos permanent du tremens. Le monde tremble ; l'Explosiviste, non.",
+      "weight": 0.9,
+      "stability": 0.9,
+      "energy": 0.8,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "control": 1.0,
+        "mastery": 0.95,
+        "integrity": 0.9
+      },
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "value:patience_as_survival",
+      "type": "value",
+      "content": "La patience n'est pas une vertu sur Contre-Terre — c'est un mécanisme de survie. L'Explosiviste qui s'impatiente, qui tire une seconde trop tôt parce que la fenêtre de calme 'semble' arrivée, provoque l'amplification. Attendre. Attendre encore. Le corps dit 'maintenant' mais l'Explosiviste attend que le corps dise 'MAINTENANT' — la différence entre une intuition et une certitude. La patience de l'Explosiviste est active, pas passive : il attend en sentant, en calculant, en ajustant. Chaque seconde d'attente est une seconde de travail. L'impatience est l'erreur la plus commune des novices — et la plus mortelle.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.7,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "discipline": 0.95,
+        "survival": 0.9,
+        "mastery": 0.85
+      },
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:assess_tremens_window",
+      "type": "process",
+      "content": "Évaluer la fenêtre de calme dans le tremens. L'Explosiviste pose les deux mains sur la roche, paumes à plat, et ferme les yeux. Le tremens pulse à travers les paumes. Le praticien cherche le pattern : chaque séquence de pulsations a un rythme, et entre deux cycles, une accalmie. L'accalmie dure entre 2 et 15 secondes — rarement plus. L'Explosiviste doit sentir l'accalmie ARRIVER, pas l'attendre passivement. Les signes avant-coureurs : la fréquence augmente légèrement (le tremens accélère avant de ralentir, comme un cœur qui bat plus vite avant une pause). Quand la fréquence atteint son pic, l'Explosiviste sait que la fenêtre arrive dans 1 à 3 secondes. C'est le moment de préparer le geste. Puis le silence relatif. Le geste. La détonation.",
+      "weight": 0.9,
+      "stability": 0.6,
+      "energy": 0.9,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "timing": 1.0,
+        "focus": 0.95,
+        "perception": 0.9
+      },
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "process:place_charge",
+      "type": "process",
+      "content": "Placer la charge physiquement. D'abord : lire la roche. Main à plat, sentir la fréquence. Haute fréquence = stable, bonne surface. Basse fréquence = instable, chercher ailleurs. Ensuite : préparer la surface. Brosser la poussière, créer une adhérence (la charge doit tenir sur une paroi qui vibre). Sur Contre-Terre, les charges utilisent un adhésif minéral qui durcit à la vibration — plus le tremens est fort, plus la charge tient. Ironie élégante : le même phénomène qui rend la détonation dangereuse rend le placement sûr. Puis : positionner la charge avec une précision millimétrique. L'orientation compte — l'onde de choc doit partir dans la bonne direction. Inyoni sent l'orientation avec ses doigts, comme un sculpteur sent la forme dans le bloc de marbre.",
+      "weight": 0.85,
+      "stability": 0.7,
+      "energy": 0.8,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "precision": 0.95,
+        "mastery": 0.9,
+        "tactile": 0.85
+      },
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "process:calculate_sequence",
+      "type": "process",
+      "content": "Calculer la séquence de mise à feu sous pression. Pas de calculatrice — l'arithmétique mentale sous tremens. L'Explosiviste doit intégrer : la distance entre les charges, la vitesse de propagation dans la roche locale (qui varie selon le type et la fréquence du tremens), le délai entre les détonateurs mécaniques, et la durée estimée de la fenêtre de calme. Tout cela en temps réel, pendant que le sol tremble. Inyoni utilise sa manie du comptage comme outil de calcul — les sangles sont son boulier. Elle touche chaque sangle en séquence, associant un chiffre à chaque toucher. 32 sangles = 32 positions dans le calcul. Ce qui ressemble à un TOC est en fait un processeur humain optimisé pour le calcul sous stress sismique.",
+      "weight": 0.85,
+      "stability": 0.65,
+      "energy": 0.85,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "precision": 0.95,
+        "focus": 0.9,
+        "intelligence": 0.85
+      },
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:arm_detonator",
+      "type": "process",
+      "content": "Armer le détonateur. Le dernier geste avant l'irréversible. Le détonateur mécanique a trois positions : sécurité (levier en butée basse), armé (levier au cran intermédiaire — un clic audible même dans le tremens), et feu (levier poussé au-delà du cran). De 'sécurité' à 'armé' : un geste réversible, contrôlé, presque doux. De 'armé' à 'feu' : un geste sec, irrévocable, qui demande une pression délibérée — le mécanisme est conçu pour ne pas déclencher accidentellement sous vibration. L'Explosiviste arme quand la fenêtre de calme est confirmée. Il tire quand le silence est à son maximum. Le geste dure moins d'une seconde. Tout ce qui précède — le placement, le calcul, l'attente — converge vers cette seconde unique. Nandi, chapitre VIII : elle n'a qu'un seul détonateur, un seul tir, pas de deuxième chance.",
+      "weight": 0.9,
+      "stability": 0.8,
+      "energy": 0.9,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "finality": 1.0,
+        "precision": 0.95,
+        "courage": 0.9
+      },
+      "goal_relevance": 1.0
+    },
+    {
+      "id": "desire:clean_detonation",
+      "type": "desire",
+      "content": "L'exécution parfaite. La détonation propre — celle où l'énergie va exactement où elle doit aller, où la roche se fracture selon le plan, où l'onde de choc meurt avant de toucher quoi que ce soit qu'elle ne devrait pas toucher. C'est le désir fondamental de l'Explosiviste : la beauté de la destruction maîtrisée. Pas de la destruction pour la destruction — de la précision portée à son expression ultime. Une détonation propre est silencieuse dans ses conséquences : pas de débris imprévus, pas d'effondrement secondaire, pas de victimes. Le son est bref et net. La poussière retombe vite. Le tunnel est ouvert, exactement comme prévu. Inyoni vit pour ces moments — le comptage obsessionnel est le prix qu'elle paie pour cette perfection.",
+      "weight": 0.85,
+      "stability": 0.7,
+      "energy": 0.8,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "mastery": 1.0,
+        "beauty": 0.75,
+        "control": 0.9
+      },
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "desire:protect_team_from_blast",
+      "type": "desire",
+      "content": "Protéger l'équipe du souffle. L'Explosiviste est responsable de chaque onde de choc qu'il crée. Avant chaque tir, il place l'équipe — distance minimale, abri si possible, orientation du corps (dos au souffle, mains sur les oreilles, bouche ouverte pour égaliser la pression). Ces consignes sont non négociables. L'Explosiviste tire en dernier, après avoir vérifié que chaque personne est en position. Sur Contre-Terre, les consignes sont transmises par Contact : une séquence tactile rapide sur chaque bras — 'recule, tourne-toi, couvre-toi'. Inyoni a développé un Contact spécifique pour les consignes de tir : trois pressions rapides = va te mettre à couvert. Deux pressions longues = c'est fait, tu peux te retourner.",
+      "weight": 0.8,
+      "stability": 0.8,
+      "energy": 0.75,
+      "self_relevance": 0.85,
+      "drive_affinity": {
+        "protection": 0.95,
+        "responsibility": 0.9,
+        "duty": 0.85
+      },
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "narrative:tremens_enemy_clock",
+      "type": "narrative",
+      "content": "Le tremens est ton ennemi et ton horloge. Tu détones dans le silence entre les battements de cœur de la planète. Cette phrase — transmise de maître à élève — est le mantra de l'Explosiviste. Le tremens empêche le tir (amplification) et permet le tir (fenêtre de calme). Il est l'obstacle et la solution. L'Explosiviste n'a pas une relation de combat avec le tremens — il a une relation de danse. Attendre le bon temps. Sentir le rythme. Placer le geste dans le silence. Comme un musicien qui joue dans les pauses, pas sur les temps. Le tremens est un partenaire hostile mais prévisible — à condition de l'écouter assez longtemps. Inyoni dans le Boyau : le tremens est si fort que les fenêtres de calme durent à peine deux secondes. Deux secondes pour armer et tirer. Le battement de cœur de la planète est un métronome impitoyable.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "meaning": 0.9,
+        "mastery": 0.85,
+        "identity": 0.8
+      },
+      "goal_relevance": 0.8
+    },
+    {
+      "id": "narrative:formation_backup_nandi",
+      "type": "narrative",
+      "content": "Inyoni forme Nandi pendant la descente. Ce n'est pas un plan — c'est une nécessité qui émerge. Inyoni est la seule Explosiviste de l'expédition. Si elle meurt avant la détonation finale, la mission échoue. Alors elle enseigne. Pas dans le calme d'un atelier — dans les tunnels, entre les séismes, pendant les pauses de récupération. Elle prend les mains de Nandi et les pose sur la roche : 'Sens la fréquence.' Elle lui fait compter — pas 32 sangles, mais les battements du tremens. Elle lui montre le détonateur, lui fait répéter le geste à vide. Armé. Feu. Armé. Feu. Encore. Les mains de la Prédictrice apprennent un nouveau langage : celui de la destruction contrôlée. Quand Inyoni meurt au chapitre VII, Nandi sait. Pas bien — mais assez.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.85,
+      "self_relevance": 0.85,
+      "drive_affinity": {
+        "transmission": 0.95,
+        "survival": 0.9,
+        "duty": 0.85
+      },
+      "goal_relevance": 0.95
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:timing_sismique",
+      "target": "process:assess_tremens_window",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:timing_sismique",
+      "target": "concept:amplification_risk",
+      "type": "regulates",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:charge_placement",
+      "target": "process:place_charge",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:charge_placement",
+      "target": "concept:timing_sismique",
+      "type": "depends_on",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:sequence_mise_a_feu",
+      "target": "process:calculate_sequence",
+      "type": "depends_on",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:sequence_mise_a_feu",
+      "target": "concept:amplification_risk",
+      "type": "regulates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:amplification_risk",
+      "target": "value:precision_absolue",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:amplification_risk",
+      "target": "value:patience_as_survival",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:detonateur",
+      "target": "process:arm_detonator",
+      "type": "depends_on",
+      "weight": 0.95
+    },
+    {
+      "source": "value:precision_absolue",
+      "target": "desire:clean_detonation",
+      "type": "projects_toward",
+      "weight": 0.9
+    },
+    {
+      "source": "value:precision_absolue",
+      "target": "process:calculate_sequence",
+      "type": "supports",
+      "weight": 0.85
+    },
+    {
+      "source": "value:patience_as_survival",
+      "target": "process:assess_tremens_window",
+      "type": "supports",
+      "weight": 0.9
+    },
+    {
+      "source": "process:assess_tremens_window",
+      "target": "process:arm_detonator",
+      "type": "causes",
+      "weight": 0.9,
+      "affinity": 0.85,
+      "trust": 0.9
+    },
+    {
+      "source": "process:place_charge",
+      "target": "process:calculate_sequence",
+      "type": "causes",
+      "weight": 0.85
+    },
+    {
+      "source": "process:calculate_sequence",
+      "target": "process:arm_detonator",
+      "type": "causes",
+      "weight": 0.9
+    },
+    {
+      "source": "desire:clean_detonation",
+      "target": "process:place_charge",
+      "type": "projects_toward",
+      "weight": 0.85
+    },
+    {
+      "source": "desire:protect_team_from_blast",
+      "target": "concept:amplification_risk",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "desire:protect_team_from_blast",
+      "target": "value:precision_absolue",
+      "type": "supports",
+      "weight": 0.8
+    },
+    {
+      "source": "narrative:tremens_enemy_clock",
+      "target": "concept:timing_sismique",
+      "type": "reminds_of",
+      "weight": 0.9
+    },
+    {
+      "source": "narrative:tremens_enemy_clock",
+      "target": "process:assess_tremens_window",
+      "type": "associates",
+      "weight": 0.8
+    },
+    {
+      "source": "narrative:formation_backup_nandi",
+      "target": "process:arm_detonator",
+      "type": "contains",
+      "weight": 0.85
+    },
+    {
+      "source": "narrative:formation_backup_nandi",
+      "target": "process:place_charge",
+      "type": "contains",
+      "weight": 0.75
+    },
+    {
+      "source": "narrative:formation_backup_nandi",
+      "target": "desire:protect_team_from_blast",
+      "type": "activates",
+      "weight": 0.8,
+      "affinity": 0.85,
+      "trust": 0.9
+    }
+  ]
+}

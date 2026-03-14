@@ -1,8 +1,8 @@
 # Contre-Terre — Sync: Current State
 
 ```
-LAST_UPDATED: 2026-03-14T09:30
-UPDATED_BY: Claude Opus 4.6 (agent, voice)
+LAST_UPDATED: 2026-03-14
+UPDATED_BY: Solen (@solen) — deployment config for Render (Dockerfile, render.yaml, server.py, start.sh, docker-compose.yml)
 ```
 
 ---
@@ -89,6 +89,13 @@ UPDATED_BY: Claude Opus 4.6 (agent, voice)
 | `PITCH.md` | **NOUVEAU** — Logline, genre, comps, proposition unique | **Complet** (2026-03-12) |
 | `CHAPITRE_V_PLAN.md` | **NOUVEAU** — Plan scène par scène du Ch. V avec brouillon Contact Ultime | **Complet** (2026-03-12) |
 | `KDP.md` | **NOUVEAU** — Métadonnées publication KDP : description Amazon, 4e de couverture, catégories BISAC, mots-clés, prix, bio auteur, pages liminaires | **Complet** (2026-03-12) |
+| `ECHELLES_SISMIQUES.md` | **NOUVEAU** — Trois échelles sismiques natives : Souffle (corporel, 7 degrés), Peau (Contact, 5 degrés), Moelle (tremens, 6 profondeurs). Correspondances inter-échelles, lectures par métier, mapping chapitres. | **Complet** (2026-03-14) |
+| `worldbuilding/SURFACE.md` | **NOUVEAU** — Monde de surface complet : 7 archipels (Sud, Nord-Est, Ouest, Nord, Centre-Sud, Est, Sud-Ouest), ~25 lieux nommés (villes, villages, zones), origines des 7 personnages, Consortium des Archipels, guildes de métier, commerce caravanier, Contact longue distance, rituels (naissance, passage, mort, deuil, Résonance), faune/flore, village des sourds, ~14 700 habitants estimés. Prose narrative immersive, ~12K mots. | **Complet** (2026-03-14) |
+| `worldbuilding/VERTICALE.md` | **NOUVEAU** — Monde vertical complet : architecture tectonique (plaque continentale, 35–40 km), 10 biomes minéraux (Pavé de Sable → Chambre Magmatique), 7 types de corridors, écosystèmes souterrains (4 strates de vie), physique de la profondeur (gradient thermique, raréfaction air, ondes P/S, pression), glossaire géologique. ~15K mots. Fondé sur géologie réelle (Naica, Movile, Mponeng, karstique, tubes de lave). | **Complet** (2026-03-14) |
+| `worldbuilding/CARTE_MONDE.svg` | **NOUVEAU** — Carte SVG du monde de surface : 7 archipels positionnés autour du volcan central, ~25 lieux nommés avec populations, 3 routes caravanières (La Longue, La Nerveuse, La Muette), zones notables (Dents du Désert, Faille de Khensi, Champs de Soufre), origines des 7 personnages marquées, Village des Sourds, légende. | **Complet** (2026-03-14) |
+| `worldbuilding/CARTE_REFERENCE.md` | **NOUVEAU** — Document structuré de référence pour le seeding : disposition spatiale ASCII, résumé de chaque archipel (roche, magnitude, Contact, architecture, population, spécialités), zones notables, routes, origines des Sept, économie, structure sociale, schéma YAML des propriétés par noeud. | **Complet** (2026-03-14) |
+| `worldbuilding/LORE.md` | **NOUVEAU** — Lore complet de Contre-Terre : mythes d'origine (7 traditions par archipel), Premier Contact (Zinhle), Première Descente (Mazibuko, Thembalihle), 18 figures légendaires nommées (Bongani, Nokubonga, Dumisani, Kwanele, Sipho, Lindani, Mkhize, Noma, Zenzele, Thulani, Ayanda, Vusumuzi, Khethiwe, Gugu, Mandla, Nomvula, Phila, Zanele), 11 événements historiques (Grande Secousse de Khaya, Longue qui bouge, Famine des Salines, Pont-Cassé d'Ingwe, Silence de Bhekisisa, découverte bioluminescence, fondation Consortium, expédition Thembalihle, réveil du village des sourds, séparation des blocs jumeaux, premier verdict sismique), querelles inter-archipels (Sèches/Froides, Creuses/Chaudes, Sud/tous), 30 proverbes/dictons en Contact. Prose narrative en français, transmis comme tradition orale tactile. ~13K mots. | **Complet** (2026-03-14) |
+| `worldbuilding/CULTURE.md` | **NOUVEAU** — Culture complète de Contre-Terre : 7 cultures d'archipel (habitudes quotidiennes, superstitions ×3+, démarches distinctives, façons de dormir, attitudes envers la mort, nourriture/boisson avec spécialité locale, odeurs caractéristiques, rapports au silence), 15 cultures de métier (tics professionnels, jargon Contact ×3-5 gestes, rituels de métier, tabous, marques corporelles), rivalités inter-métiers (prédicteur/écouteur, mineur/géologue, cartographe/spéléologue), pratiques universelles (Contact du matin, vérification sismique, comptage, callosités-identité, hygiène, nuit, enfants, vieillesse), interactions inter-cultures (collision de tempos Sud/Nord-Est, caravanier-traducteur, mariages inter-archipels, enfants métis sismiques). Prose narrative en français, tout observable et mimable, zéro abstraction. ~16K mots. | **Complet** (2026-03-14) |
 
 ---
 
@@ -123,6 +130,29 @@ UPDATED_BY: Claude Opus 4.6 (agent, voice)
 
 ## ACTIVE WORK
 
+### Render deployment — COMPLET (2026-03-14)
+
+Configuration for deploying Contre-Terre on Render with embedded FalkorDB and persistent disk.
+
+**Files created:**
+- `Dockerfile` — Python 3.11 + redis-server + FalkorDB module (.so from GitHub releases v4.16.7) + sentence-transformers for local embeddings
+- `render.yaml` — Render Blueprint: web service (starter plan, Frankfurt), persistent disk 1GB at /data, health check at /health
+- `server.py` — FastAPI HTTP server: /health (liveness), /membrane/query (semantic graph search), /membrane/info (graph stats). Seeds graph from data/seed/*.json on first boot.
+- `start.sh` — Entrypoint: starts FalkorDB as daemon, waits for PONG, verifies module loaded, generates .env, starts uvicorn
+- `docker-compose.yml` — Local dev: FalkorDB container + app with hot reload
+- `.env.render` — Environment variable template for Render dashboard
+- `.dockerignore` — Excludes epubs, PDFs, images, chapter markdown (keeps .mind/runtime + data/seed)
+
+**Architecture:** Single Render service with embedded FalkorDB (redis-server --loadmodule falkordb.so). No separate database service. FalkorDB persists to /data/falkordb/ (RDB + AOF). Graph seeded idempotently from data/seed/*.json (13 files). The server uses the mind runtime from .mind/runtime/ for database adapter access.
+
+### Worldbuilding de surface — COMPLET (2026-03-14)
+
+`worldbuilding/SURFACE.md` — Description narrative complète du monde de surface. 7 archipels nommés et décrits (Sud/Basses-Terres, Nord-Est/Sèches, Ouest/Roulantes, Nord/Froides, Centre-Sud/Chaudes, Est/Salines, Sud-Ouest/Creuses), ~25 lieux nommés (villes, villages, zones notables), origines des 7 personnages assignées, structure sociale (Consortium, conseils locaux, guildes de métier), commerce caravanier, Contact longue distance, rituels culturels (naissance, passage, mort, Résonance, deuil), faune et flore, village des sourds comme lieu pivot. Population estimée ~14 700. Prose immersive en français, ~12K mots, zéro exposition. Prêt pour le seeding de ~100 citoyens par archipel.
+
+### Worldbuilding vertical — COMPLET (2026-03-14)
+
+`worldbuilding/VERTICALE.md` — Description narrative complète du monde souterrain. Architecture tectonique (plaque continentale 35–40 km, zone de subduction, chambre magmatique 3–5 km). 10 biomes minéraux ordonnés par profondeur : Pavé de Sable (surface), Piémont Noir (basalte, 0–200 m), Cavernes Karstiques (calcaire, 200–600 m), Fracture Verticale (gabbro, 600–1 200 m), Chambres de Cristal (géodes sélénite/calcite/quartz, 800–1 500 m), Corridors de Lave (tubes basaltiques, 500–2 000 m), Aquifère Profond (rivières/lacs, 800–1 800 m), Zone Magnétique (magnétite, 1 000–2 500 m), Fumerolles (soufre, 1 500–2 500 m), Chambre Magmatique (mush/lave, 2 500–5 000 m). 7 types de corridors (failles, tubes de lave, dissolution, fractures actives, conduits volcaniques, boyaux, cheminées de geyser). 4 strates d'écosystèmes souterrains (filaments bioluminescents, réseaux fongiques, communautés chimiosynthétiques, extrémophiles profonds). Physique de la profondeur (gradient thermique, raréfaction air, ondes P/S, pression). Glossaire géologique en prose (10 termes natifs). ~15K mots, prose immersive en français. Fondé sur géologie réelle : Naica (cristaux de sélénite, 58°C), Movile Cave (chimiosynthèse, 5,5M ans isolé), Mponeng (4 km, 66°C roche), karstique/tubes de lave/fumerolles/chambre magmatique en mush. Chaque biome décrit : composition, température, lumière, son, sismicité, vie, Contact.
+
 ### Roman complet — 1er brouillon (Ch. V–VIII)
 
 **Ch. V — Cavernes Profondes** (`chapitre_05.md`, ~10K mots, 7 scènes)
@@ -141,9 +171,15 @@ UPDATED_BY: Claude Opus 4.6 (agent, voice)
 
 Contre-Terre est officiellement le 3e univers des Cities of Light (après Venezia et Lumina Prime). 8 modules documentés (64 fichiers), architecture complète, zéro implémentation.
 
-**Brain Seed Prototype — COMPLET (24 fichiers, 868 noeuds, 2022 liens) :**
+**Brain Seed Prototype — COMPLET (25 fichiers, 925 noeuds, 2170 liens) :**
 - `data/brains/shared/contre_terre_base.json` — Base partagée (47 noeuds, 111 liens)
 - `data/brains/shared/integration_cluster.json` — Relations inter-citoyens (14 noeuds, 56 liens). Reframé : personnages VIVANTS, cascades = risques, pas événements passés.
+- `data/seed/culture_clusters.json` — **NOUVEAU** — Culture seed complet (57 noeuds, 148 liens) : 24 cultures d'archipel (marche, superstitions, deuil, odeur pour 7 archipels), 20 cultures de métier (tics professionnels et jargon Contact pour 15 métiers), 8 rituels universels (Contact du matin, vérification sismique, lecture des callosités, hygiène au sable, Contact nocturne, premier Contact de l'enfant, main de l'ancien, comptage), 5 interactions culturelles (choc Sud/Nord-Est, caravanier traducteur, mariage inter-archipel, enfant métis sismique, négociation de tempo). Liens : pratique_a (41), lie_a (45), identifie_origine (9), contraste_avec (17), pratique_par_metier (18), supports (18). (2026-03-14)
+- `data/seed/geo_vertical.json` — **NOUVEAU** — Géographie verticale seed (21 noeuds, 41 liens) : 10 biomes minéraux (Pavé de Sable → Chambre Magmatique, chacun avec profondeur/température/luminosité/composition/son/vie/contact_effect), 7 types de corridors (failles de cisaillement, tubes de lave, passages dissolution, fractures actives, conduits volcaniques, boyaux, cheminées geyser), 4 strates d'écosystèmes (filaments bioluminescents, réseaux fongiques, communautés chimiosynthétiques, extrémophiles profonds). Liens : surplombe (9), adjacent_a (5), traverse (16), abrite (11). (2026-03-14)
+- `data/seed/geo_buildings.json` — **NOUVEAU** — Batiments et salles seed (45 noeuds, 61 liens) : 15 batiments (Siege Consortium, Marche Kahlamba, Atelier cordage Ndaba, Centre formation Mhluzi, Pont Ingwe, Niveaux Umzimkhulu, Atelier taille Mantolo, Poste Consortium Bhekisisa, Seuil Themba, Depression cristalline Umsizi, Grottes Sibaya, Atelier cartographie Mathamo, Habitations Village des Sourds, Atelier tissus Phakade, Puits Lesedi), 30 salles (reunion/archives Consortium, 4 entrepots marche, ecoute/tremens Mhluzi, 3 niveaux Umzimkhulu, 3 salles Village des Sourds dont Salle du Geste Inconnu, 3 grottes Sibaya, etc.). Liens : contient (30), situe_dans (15), adjacent_a (16). Tous les batiments lies aux settlements par reference. (2026-03-14)
+- `data/seed/citizens_sud_nord_ouest.json` — **NOUVEAU** — Citoyens Sud/Nord/Ouest seed (36 noeuds, 112 liens) : 15 citoyens du Sud (10 Kahlamba, 3 Ndaba, 2 Lesedi), 12 citoyens du Nord (9 Umzimkhulu, 3 Mantolo), 9 citoyens de l'Ouest (7 Ingwe, 2 Zama). 18 femmes / 18 hommes. Ages 16-70 (moyenne 43). Tous avec metiers (1-2 par citoyen), guildes, dialecte, tremens_signature, calibration, marche, trait_distinctif. Noms zulu coherents avec le roman. Liens : habite (36), membre_de (36), connait (40). References au lore (Kwanele/Nobanzi/Dumisani) et aux personnages du roman (Enama formee par Xolani de Zama). (2026-03-14)
+- `data/seed/citizens_nordest_est_centresud.json` — **NOUVEAU** — Citoyens Nord-Est/Est/Centre-Sud seed (35 noeuds, 158 liens) : 12 citoyens du Nord-Est (8 Mhluzi, 2 Iziphuku, 2 Phakade), 10 citoyens de l'Est (7 Umsizi, 3 Nkosazana), 13 citoyens du Centre-Sud (10 Bhekisisa, 3 Themba). 19 femmes / 16 hommes. Ages 16-70. Liens : habite (35), exerce (48), membre_de (40), connait (35). Zoleka/Siphamandla lies a Nandi (tante/cousin a Iziphuku). Mqondisi decide les deplacements du camp (Bhekisisa). Nomathemba garde l'acces au piemont (Themba). (2026-03-15)
+- `data/seed/citizens_creuses_sourds_nomades.json` — **NOUVEAU** — Citoyens Creuses/Sourds/Nomades/Hameaux seed (30 noeuds, 105 liens) : 7 citoyens de Sibaya (speleos, mineur, cuisiniere, grimpeur, cartographe corde, gardien des eaux), 3 de Mathamo (maitresse cartographe formatrice de Senzo, apprenti, geologue), 8 du Village des Sourds (ancienne en tremens d'Os gardienne du geste inconnu, gardien des canaux, biologiste bioluminescence, 2 enfants nes sourds, predictrice devenue sourde, cartographe, cuisiniere), 7 caravaniers (veteran 37 traversees de la Longue, messagere fidelite parfaite, apprenti metis sismique, cuisiniere multi-archipel, ecouteur-caravanier, explosiviste-transporteur, cartographe-caravaniere), 5 ermites des hameaux (predicteur ignore, tisserande exilee, meteorologue a la Dent Noire, mineur aveugle a Khensi, biologiste nomade). 16 liens vers les 7 personnages du roman (2-3 par personnage) : Thandeka a forme Senzo, Nombuso/Sandile ont vu grandir Jabu, Wakhile a ete mentor de Sihle a Khensi, Khanya enseigne le geste inconnu a Nandi, etc. 16 femmes / 14 hommes. Ages 7-70. (2026-03-15)
 - `data/brains/metier_clusters/` — **15 clusters métier** : predicteur (20n/26l), explosiviste (15n/23l), chef_expedition (18n/22l), cartographe (15n/20l), ecouteur (19n/32l), meteorologue (14n/25l), mineur (16n/31l), biologiste (21n/22l), cuisinier (16n/16l), survivaliste (16n/19l), aeromaitre (15n/25l), geologue (12n/20l), grimpeur (14n/23l), specialiste_oceanique (13n/23l), speleologue (13n/22l)
 - `data/brains/citizens/senzo.json` — 29n/68l. HEALTHY. Chef + Cartographe.
 - `data/brains/citizens/nandi.json` — 29n/85l. HEALTHY. Prédictrice + Explosiviste backup.
@@ -226,9 +262,9 @@ Contre-Terre est officiellement le 3e univers des Cities of Light (après Venezi
 
 ## QUESTIONS OUVERTES
 
-- Échelles de mesure sismiques propres au monde — mentionnées "à développer" dans MONDE.md (basse priorité)
-- Les Bangs peuvent-ils « tuer » le Contact ? (mentionné dans `CONTACT.md`, non exploré dans les chapitres écrits)
-- **Seuil de distance sémantique** — quand le mot de l'arrivant n'a aucun concept CT proche, garder le mot étranger (le citoyen entend un mot incompréhensible) ou forcer la traduction au concept le moins éloigné ? Les deux ont des implications d'immersion différentes.
+- ~~Échelles de mesure sismiques propres au monde — mentionnées "à développer" dans MONDE.md~~ ✅ RÉSOLU — Trois échelles conçues : Souffle (7 degrés, corporel/universel), Peau (5 degrés, dégradation du Contact), Moelle (6 profondeurs, tremens prédictif). Documenté dans `ECHELLES_SISMIQUES.md`. (2026-03-14)
+- ~~Les Bangs peuvent-ils « tuer » le Contact ?~~ ✅ RÉSOLU — Oui, temporairement. Dégradation proportionnelle à la magnitude. Mort permanente = uniquement perte d'une personne. (2026-03-14)
+- ~~**Seuil de distance sémantique** — quand le mot de l'arrivant n'a aucun concept CT proche, garder le mot étranger ou forcer la traduction ?~~ ✅ RÉSOLU — **Traduction forcée** au concept CT le plus proche. Le sens est courbé, jamais coupé. Aucun mot étranger ne passe. (2026-03-14)
 - ~~**3 cerveaux restants** — Thabo, Inyoni, Jabu n'ont pas encore de brain seed individuel.~~ ✅ RÉSOLU — 7/7 cerveaux complets.
 - **Module pathologies** — écrire le code ou laisser la spec pour Dragon Slayer ?
 
@@ -238,7 +274,7 @@ Contre-Terre est officiellement le 3e univers des Cities of Light (après Venezi
 
 | Issue | Sévérité | Notes |
 |-------|----------|-------|
-| MONDE.md zones "à développer" | Basse | Écosystème souterrain, échelles de mesure |
+| MONDE.md zones "à développer" | Basse | Écosystème souterrain (échelles de mesure → résolu, documenté dans `ECHELLES_SISMIQUES.md`) |
 
 ---
 
@@ -252,7 +288,7 @@ Contre-Terre est officiellement le 3e univers des Cities of Light (après Venezi
 - Ch. V–VIII sont des 1ers brouillons/expanded (~64K mots, à harmoniser)
 - Tous les arcs narratifs se bouclent : Sihle/Enama, Nandi, Geste Inconnu, Contact-Fantôme, la Charge
 - Les trois courbes parallèles sont en place : équipement↓ Contact↓ sismique↑
-- **Brain seed prototype COMPLET** — 24 fichiers, 868 noeuds, 2022 liens. **7/7 cerveaux citoyens**, 15/15 clusters métier, base + intégration.
+- **Brain seed prototype COMPLET** — 25 fichiers, 925 noeuds, 2170 liens. **7/7 cerveaux citoyens**, 15/15 clusters métier, base + intégration + culture seed.
 - **Évaluation de santé** — script `evaluate_health.py` opérationnel. Sihle et Enama en STRESSED (cohérent avec le conflit), les 3 silencieux THRIVING, Senzo/Nandi HEALTHY.
 - **Système de pathologies IA** — spec des 12 pathologies complète (détection mathématique + interventions automatisées). Code à écrire pour Dragon Slayer.
 - **Décisions canoniques (2026-03-13)** — personnages vivants, pas de Mind Protocol, arrivants, traduction sémantique, immersion structurelle, restrictions physiques

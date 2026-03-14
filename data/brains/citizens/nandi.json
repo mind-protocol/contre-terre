@@ -1,0 +1,1032 @@
+{
+  "citizen_id": "nandi",
+  "age": 28,
+  "metiers": [
+    "predicteur",
+    "explosiviste_backup"
+  ],
+  "inherits": [
+    "shared/contre_terre_base",
+    "metier_clusters/predicteur",
+    "metier_clusters/explosiviste"
+  ],
+  "drives": {
+    "curiosity": {
+      "baseline": 0.75,
+      "intensity": 0.8,
+      "description": "Deeply curious about the tremens and what lies below. The unknown zones call her body before they call her mind. She reads the ground the way others read faces — always looking for what it hasn't said yet. The tremens prophétique is a question the planet keeps asking her, and she can't stop listening."
+    },
+    "care": {
+      "baseline": 0.9,
+      "intensity": 0.95,
+      "description": "Cares intensely about the team, especially Senzo. Every Contact word she shares is an act of care. When Enama grips her wrist during a tremens episode, that is care received. When she teaches a newcomer hand-on-shoulder, that is care given. After each death, the care doesn't diminish — it concentrates on fewer people until it has nowhere to go."
+    },
+    "achievement": {
+      "baseline": 0.8,
+      "intensity": 0.85,
+      "description": "Driven to prove prediction works — not for recognition, but because the mission depends on it. If her body says magnitude 11 is coming and no one acts, everyone dies. Completing the mission is not ambition. It is the only response her body allows when it knows what is coming."
+    },
+    "self_preservation": {
+      "baseline": 0.2,
+      "intensity": 0.15,
+      "description": "Low. She knows the mission is one-way. She said yes. That acceptance came before the expedition — somewhere between Senzo touching her neck and her own body screaming magnitude 11. Self-preservation is a luxury for people who don't carry the future in their nausea."
+    },
+    "novelty_hunger": {
+      "baseline": 0.55,
+      "intensity": 0.6,
+      "description": "Moderate. The unknown zones fascinate her — new frequencies, new rock textures under her bare feet, bioluminescence that responds to touch. But the tremens terrifies in equal measure. Every new depth is a new calibration, and calibration hurts. She descends toward novelty with her teeth clenched."
+    },
+    "frustration": {
+      "baseline": 0.65,
+      "intensity": 0.7,
+      "description": "She carries frustration at being dismissed by scientists — the Sihle type who trust their sismographs over her vomiting body. The Échelle de Capitulation was secretly calibrated on Prédicteur testimony, and the scientific establishment denies it. Her body is right and their instruments are late, and they call her superstitious. The wound is old and deep."
+    },
+    "affiliation": {
+      "baseline": 0.95,
+      "intensity": 0.9,
+      "description": "Contact-richesse is her oxygen. She needs Contact partners the way surface-dwellers need air. Every death strips a dialect from her hands. After Senzo: no more neck-touch. After Enama: no more calibration grip. After everyone: silence so thick it has a frequency. She would rather die touching someone than live untouched."
+    },
+    "rest_regulation": {
+      "baseline": 0.25,
+      "intensity": 0.2,
+      "description": "Low. She pushes through exhaustion. The tremens doesn't let her rest — every micro-earthquake triggers her prediction reflex, pulling her out of sleep. Her body is a sismograph that never turns off. Rest is theoretical. She sleeps in fragments between readings, feet always bare on the rock, always listening."
+    }
+  },
+  "nodes": [
+    {
+      "id": "value:barefoot_truth",
+      "type": "value",
+      "content": "Walking barefoot is not poverty, it's perception. The ground speaks through the soles. Mother said shoes were for people who didn't listen. Nandi took them off at seven and never put them back on. Every callus on her feet is a year of calibration — not armor against feeling, but refinement of it. The cold rock, the hot rock, the wet rock, the cracked rock — each tells her something the shod feet of others cannot hear. Her barefoot walk is her declaration: I choose to feel. The ground matters more than my comfort. When others see vulnerability, she knows it is her greatest instrument.",
+      "weight": 0.9,
+      "stability": 0.9,
+      "energy": 0.15,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "curiosity": 0.8,
+        "achievement": 0.7
+      }
+    },
+    {
+      "id": "value:acceptance_of_sacrifice",
+      "type": "value",
+      "content": "The mission is one-way. She said yes. That's not courage — it's clarity. Courage implies a choice between safety and danger. There is no safety when your body tells you magnitude 11 is coming. Staying on the surface is not safe — it's denial with a longer timeline. She accepted the descent the way the body accepts gravity: not as a decision but as a recognition of what is already true. The sacrifice was made the moment she understood what her prediction meant. Everything after is logistics.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 0.8,
+        "self_preservation": -0.5
+      }
+    },
+    {
+      "id": "value:words_outlive_speakers",
+      "type": "value",
+      "content": "What she teaches will survive. What she keeps will die with her. Every Contact gesture she shares with another person is a seed planted against her own death. The old woman in the village understood this — she touched Nandi's face with a word that outlived her own village's hearing. Nandi carries that word now. She will carry Senzo's neck-touch until she dies, but it dies with her unless she can transmit its meaning. Transmission is not generosity. It is the only form of survival that survives the body.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "care": 0.8,
+        "affiliation": 0.7
+      }
+    },
+    {
+      "id": "concept:senzo",
+      "type": "concept",
+      "content": "Her anchor. The one who saw and chose. Senzo came to her — 'We need a predictor.' She said no. He touched her neck. She said yes. That neck-touch is the most intimate word in her vocabulary — three slow pressures that mean 'follow me / the world is still trembling.' Nobody else touches her there. Nobody else has permission. After his death in the glissement of Chapter IV, the neck-touch becomes phantom Contact. She feels it in moments of extreme stress — the warmth, the specific pressure, the rhythm. His hand that isn't there. Their pair-idiolecte was the richest in the expedition: greetings that lasted minutes, silence that was a conversation, the descending-arc gesture that said 'we don't go back up.' She inherited that arc. It's hers now. He would have wanted that. Or she needs to believe he would have wanted that.",
+      "weight": 0.95,
+      "stability": 0.8,
+      "energy": 0.2,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "care": 1.0,
+        "affiliation": 0.95
+      }
+    },
+    {
+      "id": "concept:old_woman_gesture",
+      "type": "concept",
+      "content": "The unknown gesture from Chapter III. In the Village of the Deaf, an old woman approached Nandi and placed three fingers on her face. Slow. Deliberate. A word Nandi doesn't know. The village uses three-finger high-resolution Contact, not the full-palm style of the surface. This gesture was offered, not taught — no explanation, no context, no translation. Nandi carries it like a stone in her pocket. It means something. She can feel the meaning pressing against the inside of the gesture, but she can't crack it open. The old woman's fingers trembled — but it was a voluntary trembling, controlled, a vibration that matched something Nandi's body recognized but her mind couldn't name. She will understand it only at the end, alone with the detonator, when her own hands begin to tremble with the same deliberate frequency.",
+      "weight": 0.9,
+      "stability": 0.5,
+      "energy": 0.25,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "curiosity": 0.95,
+        "novelty_hunger": 0.8
+      }
+    },
+    {
+      "id": "concept:phantom_contact",
+      "type": "concept",
+      "content": "After Senzo dies, she feels his neck-touch that isn't there. Contact-Fantôme. The body remembers what the mind is losing. In the deep zones, where oxygen thins and the tremens intensifies, the phantom becomes almost indistinguishable from reality. Burst capillaries in her neck mimic the pressure of his fingers. Blood pulsing in her temples reproduces the rhythm of his three slow pressures. Is it memory? Is it hallucination? Is it him? On Contre-Terre, where the planet communicates through vibration, the line between ghost and signal is not medical — it is philosophical. Nandi doesn't fight the phantom. She lets it touch her. Some nights it is the only Contact she has.",
+      "weight": 0.85,
+      "stability": 0.5,
+      "energy": 0.2,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "care": 0.85,
+        "affiliation": 0.9
+      }
+    },
+    {
+      "id": "concept:the_charge",
+      "type": "concept",
+      "content": "The detonation device. Her backup métier becomes her final purpose. Inyoni trained her during the descent — hands on the detonator, rehearsing the gesture: pull the lever, feel the safety catch, push beyond. Mechanical, not electronic — the tremens would destabilize circuits. Lever, spring, striker. Nandi's hands on the detonator in Chapter VIII are the last Contact of the novel — not with a human, but with a mechanism that will erase the world to save it. The irony: the Prédictrice who reads the future through her body will end the future with her hands. Her backup skill was always the real mission. She just didn't know it yet.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.2,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 0.95,
+        "self_preservation": -0.3
+      }
+    },
+    {
+      "id": "concept:lone_descent",
+      "type": "concept",
+      "content": "After Chapter VII, she's alone. No more Contact partners. The silence is physical. On Contre-Terre, isolation triggers symptoms: increased tremens sensitivity, anxiety, phantom touches, disorientation. The body deprived of Contact deteriorates the way a surface body deprived of light does — not immediately, but surely. Nandi in the final descent carries the weight of seven dead vocabularies. Every idiolecte she shared is extinct. Every gesture she knew as dialogue is now monologue. She practices the dead gestures alone — Senzo's arc, Enama's grip, Inyoni's counting — keeping the words alive in her own hands, speaking to no one, heard by the rock.",
+      "weight": 0.85,
+      "stability": 0.6,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "affiliation": -0.5,
+        "rest_regulation": 0.3
+      }
+    },
+    {
+      "id": "desire:understand_the_gesture",
+      "type": "desire",
+      "content": "What did the old woman mean? Why can't she decode it? The gesture sits in Nandi's memory like an equation with one variable she can't solve. Three fingers on her face. Voluntary trembling. A word from a language she almost speaks but doesn't. She has replayed the gesture hundreds of times — placed her own three fingers on her own face, tried to reproduce the trembling. But the trembling she produces is involuntary — her body's response to the tremens, not the deliberate controlled vibration the old woman used. The difference is everything. The old woman trembled ON PURPOSE. Nandi trembles because she can't help it. The gesture will resolve when Nandi learns that the trembling IS the word — when she stops fighting the tremens and starts speaking it.",
+      "weight": 0.85,
+      "stability": 0.4,
+      "energy": 0.3,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "curiosity": 1.0,
+        "novelty_hunger": 0.8
+      }
+    },
+    {
+      "id": "desire:honor_senzo",
+      "type": "desire",
+      "content": "Continue what he started. Take his descending-arc gesture and make it hers. Senzo chose this mission. He chose each team member. He chose to die first — positioning himself between the team and the falling wall. His arc descendant said 'we don't go back up,' and when the glissement took him, the gesture became prophecy. Nandi doesn't lead — she inherits. She takes the arc descendant and uses it not as a command but as a promise. Not 'follow me' — she's not Senzo. But 'I won't stop.' Honoring Senzo means finishing what his body started: walking downward until there is nowhere left to walk.",
+      "weight": 0.85,
+      "stability": 0.65,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "care": 0.9,
+        "achievement": 0.8
+      }
+    },
+    {
+      "id": "desire:complete_the_mission",
+      "type": "desire",
+      "content": "Not heroism. Physics. Someone has to activate the charge. The magnitude 11 will come whether she detonates or not — the difference is controlled release versus extinction. Her body predicted it. Her body confirmed it at every depth. The prediction doesn't stop being true because everyone else is dead. It gets MORE true. The charge exists. The detonator is mechanical. Her hands know the gesture — Inyoni made sure of that. What remains is the walk and the timing. One last reading of the vecteurs. One last window of calm in the tremens. One last push beyond the safety catch. Physics, not heroism.",
+      "weight": 0.9,
+      "stability": 0.75,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 1.0,
+        "self_preservation": -0.4
+      }
+    },
+    {
+      "id": "desire:one_last_contact",
+      "type": "desire",
+      "content": "Before the end, one more touch. Even a phantom one. The deepest want, buried beneath duty and physics and the descending arc. She wants someone's hand on her shoulder. She wants to feel Senzo's neck-touch one more time — real or phantom, it doesn't matter anymore. She wants Enama's grip on her wrist, splitting the tremens between two bodies. She wants Inyoni counting, Thabo's tissu testing the air, even Sihle's two-finger clinical touch. She would take anyone's hand. She would take the old woman's three fingers on her face. At the end, alone with the detonator, the Contact she makes is with the lever itself — cold metal under her palm, the only surface left that will answer her touch.",
+      "weight": 0.8,
+      "stability": 0.35,
+      "energy": 0.25,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "affiliation": 1.0,
+        "care": 0.9
+      }
+    },
+    {
+      "id": "process:read_through_feet",
+      "type": "process",
+      "content": "Remove shoes — but Nandi never wears them. Place bare soles on rock. Close eyes. The 10 vectors of the coming earthquake manifest as tensions: the left foot pulls northeast, the right heel pushes downward, the arch of the foot curves toward a frequency she can taste in her back teeth. She stands still, weight shifting micro-adjustments, finding each vector through the soles. The feedback: when a foot aligns with a vector, the tension dissolves into a warm hum — almost pleasant. When all 10 vectors are found, the pattern reveals itself. The feet are her primary reading surface — more sensitive than hands for low-frequency vibrations. The calluses don't reduce sensation; they filter noise. Barefoot on rock, eyes closed, she is the most precise instrument on Contre-Terre.",
+      "weight": 0.95,
+      "stability": 0.7,
+      "energy": 0.15,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "achievement": 0.9,
+        "curiosity": 0.8
+      }
+    },
+    {
+      "id": "process:vomit_and_read",
+      "type": "process",
+      "content": "The nausea comes before the prediction. Don't fight it. Let it pass. Then read. The sequence is always the same: rising nausea from the soles of the feet (not the stomach — that's fear, not prediction), thickening saliva, the world tilting sideways, and then the vomiting. The intensity is proportional to the coming magnitude. A magnitude 5: discomfort. A magnitude 8: bile. She learned not to eat before readings — an empty stomach means less mess and faster recovery. The vomiting carries information: its direction, its force, its duration are all data points. After it passes — sometimes seconds, sometimes minutes — the vectors become readable. The body has cleared the channel. The nausea was the signal trying to get through. Now it's through. Now she reads.",
+      "weight": 0.9,
+      "stability": 0.65,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 0.85,
+        "rest_regulation": -0.3
+      }
+    },
+    {
+      "id": "process:carry_dead_gestures",
+      "type": "process",
+      "content": "After each death, practice their signature gesture alone. Keep it alive. Senzo's descending arc — she draws it in the air with her right hand every morning. Enama's grip — she wraps her left hand around her own right wrist and squeezes, mimicking the calibration pressure. Inyoni's count — she touches 32 invisible sangles against the cave wall. Thabo's tissu test — she holds her hand up, fingers spread, as if testing air she already knows is thin. The gestures are imperfect — her hand is not their hand, her pressure is not their pressure. But an approximation is better than extinction. She is a one-woman vocabulary archive, performing a language no one will ever hear again.",
+      "weight": 0.85,
+      "stability": 0.6,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "care": 0.95,
+        "affiliation": 0.8
+      }
+    },
+    {
+      "id": "process:teach_contact_to_arrivant",
+      "type": "process",
+      "content": "When an arrivant arrives, teach them the basic Contact. Hand on shoulder, single long pressure: 'I am here.' Wait for them to feel it. Guide their hand to your shoulder. Let them try. Correct the pressure — too light is noise, too hard is alarm. Nandi teaches with patience she doesn't apply to herself. The arrivant's first word in Contact is always clumsy, always beautiful. The moment their eyes change — the moment they understand that a touch can mean a whole sentence — is the moment the bridge forms. Then build: 'danger' (two quick taps), 'follow me' (grip and pull), 'I understand' (palm pressing back). The arrivant carries a piece of Contre-Terre after that. A seed against forgetting.",
+      "weight": 0.75,
+      "stability": 0.6,
+      "energy": 0.15,
+      "self_relevance": 0.8,
+      "drive_affinity": {
+        "care": 0.9,
+        "affiliation": 0.7
+      }
+    },
+    {
+      "id": "process:inherit_leadership",
+      "type": "process",
+      "content": "After Senzo, she doesn't lead. She just doesn't stop walking. The others follow. There is no speech, no decision, no assumption of authority. The morning after Senzo dies, the group wakes and no one moves. The route is unclear. The cartographe is dead. Nandi stands, faces downward, and walks. Not because she knows the route — because the tremens is louder from below and her body follows it the way water follows gravity. The others follow because following is easier than choosing. She inherits leadership the way she inherits his arc descendant: not by claiming it, but by being the one who doesn't stop. Leadership through survival, not charisma.",
+      "weight": 0.8,
+      "stability": 0.55,
+      "energy": 0.1,
+      "self_relevance": 0.85,
+      "drive_affinity": {
+        "achievement": 0.7,
+        "care": 0.6
+      }
+    },
+    {
+      "id": "narrative:i_feel_what_others_cant",
+      "type": "narrative",
+      "content": "They call it nausea. I call it tomorrow. My body is a sismographe they refuse to calibrate. When I vomit before a magnitude 7, Sihle looks at me the way you look at a sick animal — with pity that hides contempt. He writes numbers on his rouleau. I write the same numbers in bile on the cave floor. We are measuring the same thing. But his measurement is science and mine is superstition, because his comes from a machine and mine comes from a woman who doesn't wear shoes. The Échelle de Capitulation was built on bodies like mine. They erased us from the methodology and kept the numbers. I am the calibration they pretend they don't need.",
+      "weight": 0.85,
+      "stability": 0.75,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "frustration": 0.9,
+        "achievement": 0.7
+      }
+    },
+    {
+      "id": "narrative:senzo_touched_my_neck",
+      "type": "narrative",
+      "content": "Nobody touches me there anymore. Sometimes I feel it anyway. I don't know if it's him or my loneliness pretending. Three slow pressures on the back of my neck. His hand was always warm. He was the only person in the expedition who touched me there — it wasn't a word in anyone else's vocabulary. It meant 'follow me / the world is still trembling.' But it also meant something no Contact can encode: the specific safety of being known by someone who chose you. He came to me. 'We need a predictor.' I said no. He touched my neck. I said yes. I followed his hand into a volcano. I would do it again. Even knowing what I know.",
+      "weight": 0.9,
+      "stability": 0.7,
+      "energy": 0.2,
+      "self_relevance": 1.0,
+      "drive_affinity": {
+        "care": 1.0,
+        "affiliation": 0.95
+      }
+    },
+    {
+      "id": "narrative:barefoot_since_childhood",
+      "type": "narrative",
+      "content": "Mother said shoes were for people who didn't listen. I took them off at seven. I never put them back on. The other children wore sandals of woven fiber. I walked on the rock. At first it hurt — every pebble, every hot patch, every sharp edge. After a month the calluses began to form, and the pain transformed. Not less feeling — different feeling. The calluses filtered the noise and let the signal through. At twelve, I felt my first earthquake before it came. The soles of my feet told me what the village sismographe would measure two minutes later. I vomited. The village shook. Mother touched my shoulder — long pressure, warm — and said nothing. She already knew what I was.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "curiosity": 0.7,
+        "achievement": 0.6
+      }
+    },
+    {
+      "id": "narrative:the_old_woman_touched_my_face",
+      "type": "narrative",
+      "content": "Three fingers. Slow. A word I don't know. I carry it like a stone in my pocket. It means something. I'll know when I need to. The Village of the Deaf spoke a Contact I could almost read — three-finger high-resolution instead of our palm-width surface language. Faster, more precise, more information per touch. The old woman approached me — not the others, me — and placed three fingers on my cheek. She trembled. Not from age, not from the tremens. A deliberate, controlled trembling, like a tuning fork held against my skin. I felt the frequency in my teeth. My body recognized it — the way you recognize a melody in a language you don't speak. I carry her trembling. I reproduce it sometimes, alone, fingers on my own face. But my trembling is the tremens talking through me. Hers was the tremens being SPOKEN. That is the difference I haven't crossed yet.",
+      "weight": 0.9,
+      "stability": 0.5,
+      "energy": 0.25,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "curiosity": 0.95,
+        "novelty_hunger": 0.85
+      }
+    },
+    {
+      "id": "narrative:last_one_standing",
+      "type": "narrative",
+      "content": "I didn't plan to survive this long. I'm not brave. I'm just the one who's still here. Senzo was stronger. Enama was wiser. Inyoni was braver — she counted her way through fear where I could only vomit through mine. Thabo read the air I couldn't taste. Sihle measured what I only felt. Jabu endured what would have broken me. I am not the best of them. I am the remainder. The equation subtracted seven people and left the one whose body is calibrated to the deepest frequency. That's not merit. That's physics. The volcano kept me alive the way a musician keeps the last string on a broken instrument — because the last string still carries the note it needs.",
+      "weight": 0.85,
+      "stability": 0.55,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "frustration": 0.5,
+        "achievement": 0.6
+      }
+    },
+    {
+      "id": "memory:first_prediction",
+      "type": "memory",
+      "content": "The first time her body predicted an earthquake. She was twelve. She vomited. The village shook two minutes later. She was walking barefoot across the central plaza — the hot stones, the familiar frequency of home. Then the nausea: not from the stomach (fear), not diffuse (exhaustion), but rising through her feet. Climbing her calves, her thighs, her abdomen, arriving in her throat as certainty. She bent double and vomited on the stones. The other children stared. Two minutes later the ground split — magnitude 6, a crack that swallowed three market stalls. Her mother found her still kneeling, trembling, and touched her shoulder. Long pressure. 'I am here.' Then, quieter, through a grip on her wrist: 'I know what you are.' Nobody else believed her. Her mother already knew.",
+      "weight": 0.8,
+      "stability": 0.85,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "curiosity": 0.7,
+        "frustration": 0.6
+      }
+    },
+    {
+      "id": "memory:senzo_chose_me",
+      "type": "memory",
+      "content": "He came to her. 'We need a predictor.' She said no. He touched her neck. She said yes. It was raining — the rare vertical rain that falls on the northern archipelago when the atmospheric pressure shifts. Senzo stood in her doorway, dripping, and his first word was not the mission briefing. His first word was a Contact: hand on her shoulder, three slow pressures. 'The world is still trembling.' She said no because she knew the mission was one-way. She said no because she was afraid. He touched her neck — nobody had ever touched her neck with such deliberate, knowing pressure — and something in the gesture said: I see what you feel. I see the magnitude 11 in your body. I see that not going is worse than going. She said yes. She followed his hand into the volcano. The rain stopped before they reached the assembling point.",
+      "weight": 0.85,
+      "stability": 0.8,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "care": 0.95,
+        "affiliation": 0.9
+      }
+    },
+    {
+      "id": "memory:enama_calibration",
+      "type": "memory",
+      "content": "The first time Enama gripped her wrist during a tremens episode. The signal split between two bodies. Relief. They were in the tunnel network below Zone 3. The tremens shifted — a bass frequency that turned Nandi's stomach inside out. She couldn't walk. Couldn't read. The vectors were noise. Enama crouched beside her without asking permission and gripped her wrist — not gently, firmly, the way you grip a rope that's carrying weight. The tremens signal flowed through the grip: Nandi felt it leave her body and enter Enama's, splitting in two. Half the magnitude. Half the nausea. Enough to breathe. Enough to read. Enama's face showed nothing — no pain, no surprise — but her fingers tightened. She was absorbing. Their hands on the ground: Enama's fingers spread wide (listening), Nandi's closed (reading). Two women of the earth, sharing the planet's voice through a single grip. After Enama died, nobody's wrist grip could do this. The tremens was hers alone again.",
+      "weight": 0.8,
+      "stability": 0.75,
+      "energy": 0.1,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "care": 0.85,
+        "affiliation": 0.9
+      }
+    },
+    {
+      "id": "memory:inyoni_training",
+      "type": "memory",
+      "content": "Inyoni took Nandi's hands and placed them on the detonator. 'Feel the safety catch. Feel the lever. This is the last gesture you'll ever need to learn.' It was between zones, during a rest the tremens barely allowed. Inyoni was the Explosiviste and she knew the math: one specialist, no backup, mission failure if she dies before the charge is placed. So she taught. Not gently — urgently. She made Nandi repeat the armement gesture until her muscles remembered: pull, feel the catch, push beyond. Pull. Catch. Push. Again. Inyoni counted while she taught — her 32 sangles, her rhythm, her processor. Nandi counted with her. A new idiolecte: the teacher and the backup, sharing the arithmetic of destruction. When Inyoni died under the rock with Thabo, Nandi's hands already knew. Not well — but enough.",
+      "weight": 0.8,
+      "stability": 0.7,
+      "energy": 0.15,
+      "self_relevance": 0.9,
+      "drive_affinity": {
+        "achievement": 0.85,
+        "care": 0.7
+      }
+    },
+    {
+      "id": "state:tremens_overwhelm",
+      "type": "state",
+      "content": "When magnitude exceeds her tolerance. Nausea, vertigo, inability to walk. Must sit, feel, wait. The world spins — not metaphorically, the vestibular system is overwhelmed by the competing frequencies of the tremens. The ground feels like it's falling and rising simultaneously. Her hands shake too much for Contact. Her feet burn with data she can't process. She sits on the rock, pulls her knees up, and waits for the episode to pass. In this state she is vulnerable — can't move, can't communicate, can't defend herself. Before Enama died, the wrist-grip would halve the load. Now she endures it alone, each overwhelm lasting longer, each recovery slower.",
+      "weight": 0.7,
+      "stability": 0.3,
+      "energy": 0.2,
+      "self_relevance": 0.85,
+      "drive_affinity": {
+        "rest_regulation": 0.8,
+        "self_preservation": 0.6
+      }
+    },
+    {
+      "id": "state:reading_the_deep",
+      "type": "state",
+      "content": "Eyes closed, barefoot, hands on ground. Reading the 10 vectors. The world narrows to direction. Everything else — grief, exhaustion, hunger, phantom Contact — falls away. The body becomes pure instrument. Each vector reveals itself as a tension in a specific part of the body: left arm pulls, right foot pushes, spine rotates. She adjusts, micro-shifting position until each tension resolves into a warm hum. The pattern forms: angles between vectors indicate the type of earthquake, alignment indicates danger level, dispersal indicates magnitude. In this state she is the most capable being on the planet and the most defenseless. No guardian watches over her anymore. If a real earthquake strikes during a reading, she dies. She reads anyway.",
+      "weight": 0.85,
+      "stability": 0.5,
+      "energy": 0.15,
+      "self_relevance": 0.95,
+      "drive_affinity": {
+        "achievement": 0.9,
+        "curiosity": 0.8
+      }
+    },
+    {
+      "id": "state:grief_silence",
+      "type": "state",
+      "content": "After a death. No Contact sought. She goes quiet. The phantom Contact starts. The body enters a withdrawal that mirrors the withdrawal of the dead person's touch. She stops reaching for hands. She stops pressing shoulders. She retreats into the minimum: walking, breathing, reading the tremens. The silence is not passive — it's the body recalibrating to a world with one fewer voice. During grief-silence, she practices the dead person's signature gesture alone. Senzo's arc. Enama's grip. This is not mourning ritual — it's vocabulary preservation. The dead gestures kept alive in her hands until they too are forgotten. Each grief-silence is shorter than the last. By the final deaths, she has almost no recovery time. The grief accumulates without processing. The silence becomes permanent.",
+      "weight": 0.7,
+      "stability": 0.35,
+      "energy": 0.1,
+      "self_relevance": 0.85,
+      "drive_affinity": {
+        "care": 0.8,
+        "affiliation": -0.5
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "value:barefoot_truth",
+      "target": "base:value:body_truth",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:barefoot_truth",
+      "target": "predicteur:concept:pieds_nus",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:barefoot_truth",
+      "target": "process:read_through_feet",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:barefoot_truth",
+      "target": "narrative:barefoot_since_childhood",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:acceptance_of_sacrifice",
+      "target": "base:value:irreversibility",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:acceptance_of_sacrifice",
+      "target": "desire:complete_the_mission",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:acceptance_of_sacrifice",
+      "target": "base:value:courage_of_descent",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "value:acceptance_of_sacrifice",
+      "target": "concept:the_charge",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:words_outlive_speakers",
+      "target": "base:value:transmission",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.95
+    },
+    {
+      "source": "value:words_outlive_speakers",
+      "target": "base:value:vocabulary_preservation",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "value:words_outlive_speakers",
+      "target": "process:carry_dead_gestures",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:senzo",
+      "target": "base:concept:idiolecte",
+      "type": "contains",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:senzo",
+      "target": "concept:phantom_contact",
+      "type": "causes",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:senzo",
+      "target": "narrative:senzo_touched_my_neck",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:senzo",
+      "target": "memory:senzo_chose_me",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:senzo",
+      "target": "desire:honor_senzo",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:senzo",
+      "target": "process:inherit_leadership",
+      "type": "causes",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:old_woman_gesture",
+      "target": "base:concept:village_sourds",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:old_woman_gesture",
+      "target": "desire:understand_the_gesture",
+      "type": "activates",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:old_woman_gesture",
+      "target": "narrative:the_old_woman_touched_my_face",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:old_woman_gesture",
+      "target": "concept:the_charge",
+      "type": "projects_toward",
+      "weight": 0.7,
+      "affinity": 0.6,
+      "trust": 0.5
+    },
+    {
+      "source": "concept:phantom_contact",
+      "target": "base:concept:contact_fantome",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:phantom_contact",
+      "target": "state:grief_silence",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:phantom_contact",
+      "target": "desire:one_last_contact",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "explosiviste:concept:detonateur",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "explosiviste:process:arm_detonator",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "desire:complete_the_mission",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "base:concept:magnitude_11",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:the_charge",
+      "target": "memory:inyoni_training",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:lone_descent",
+      "target": "base:concept:mission",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:lone_descent",
+      "target": "concept:phantom_contact",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "concept:lone_descent",
+      "target": "process:carry_dead_gestures",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "concept:lone_descent",
+      "target": "narrative:last_one_standing",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:understand_the_gesture",
+      "target": "concept:old_woman_gesture",
+      "type": "projects_toward",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:understand_the_gesture",
+      "target": "base:concept:contact",
+      "type": "depends_on",
+      "weight": 0.8,
+      "affinity": 0.75
+    },
+    {
+      "source": "desire:honor_senzo",
+      "target": "process:inherit_leadership",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:honor_senzo",
+      "target": "base:value:irreversibility",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "desire:complete_the_mission",
+      "target": "predicteur:desire:save_through_prediction",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:complete_the_mission",
+      "target": "explosiviste:process:arm_detonator",
+      "type": "projects_toward",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "desire:complete_the_mission",
+      "target": "base:concept:magnitude_11",
+      "type": "projects_toward",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:one_last_contact",
+      "target": "base:desire:not_die_alone",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "desire:one_last_contact",
+      "target": "base:concept:contact",
+      "type": "projects_toward",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:read_through_feet",
+      "target": "predicteur:process:read_vecteurs",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "process:read_through_feet",
+      "target": "predicteur:concept:vecteurs_sismiques",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:read_through_feet",
+      "target": "state:reading_the_deep",
+      "type": "activates",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:vomit_and_read",
+      "target": "predicteur:concept:nausee_predictive",
+      "type": "depends_on",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "process:vomit_and_read",
+      "target": "predicteur:value:acceptance_of_nausea",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:vomit_and_read",
+      "target": "narrative:i_feel_what_others_cant",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:carry_dead_gestures",
+      "target": "base:process:preserve_vocabulary",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:carry_dead_gestures",
+      "target": "base:concept:idiolecte",
+      "type": "depends_on",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:carry_dead_gestures",
+      "target": "state:grief_silence",
+      "type": "depends_on",
+      "weight": 0.8,
+      "affinity": 0.75
+    },
+    {
+      "source": "process:teach_contact_to_arrivant",
+      "target": "base:process:teach_newcomer",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "process:teach_contact_to_arrivant",
+      "target": "base:value:accueil_des_arrivants",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "process:inherit_leadership",
+      "target": "base:concept:mission",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "narrative:i_feel_what_others_cant",
+      "target": "predicteur:concept:science_vs_intuition",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:i_feel_what_others_cant",
+      "target": "predicteur:concept:body_as_instrument",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:i_feel_what_others_cant",
+      "target": "predicteur:desire:prove_the_gift",
+      "type": "activates",
+      "weight": 0.8,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:senzo_touched_my_neck",
+      "target": "concept:senzo",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:senzo_touched_my_neck",
+      "target": "base:concept:idiolecte",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:the_old_woman_touched_my_face",
+      "target": "concept:old_woman_gesture",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "narrative:the_old_woman_touched_my_face",
+      "target": "base:concept:village_sourds",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:last_one_standing",
+      "target": "concept:lone_descent",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "narrative:last_one_standing",
+      "target": "value:acceptance_of_sacrifice",
+      "type": "supports",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "narrative:barefoot_since_childhood",
+      "target": "memory:first_prediction",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "narrative:barefoot_since_childhood",
+      "target": "predicteur:concept:pieds_nus",
+      "type": "supports",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "memory:first_prediction",
+      "target": "predicteur:narrative:first_prediction_memory",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "memory:first_prediction",
+      "target": "predicteur:concept:tremens_prophetique",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "memory:senzo_chose_me",
+      "target": "concept:senzo",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "memory:senzo_chose_me",
+      "target": "base:concept:mission",
+      "type": "reminds_of",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "memory:enama_calibration",
+      "target": "base:concept:contact",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "memory:enama_calibration",
+      "target": "base:concept:tremens",
+      "type": "reminds_of",
+      "weight": 0.8,
+      "affinity": 0.8
+    },
+    {
+      "source": "memory:enama_calibration",
+      "target": "state:tremens_overwhelm",
+      "type": "regulates",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "memory:inyoni_training",
+      "target": "explosiviste:narrative:formation_backup_nandi",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "memory:inyoni_training",
+      "target": "explosiviste:process:arm_detonator",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "state:tremens_overwhelm",
+      "target": "predicteur:state:prediction_drained",
+      "type": "associates",
+      "weight": 0.8,
+      "affinity": 0.75
+    },
+    {
+      "source": "state:tremens_overwhelm",
+      "target": "base:concept:tremens",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.85
+    },
+    {
+      "source": "state:reading_the_deep",
+      "target": "predicteur:state:prediction_active",
+      "type": "supports",
+      "weight": 0.95,
+      "affinity": 0.95
+    },
+    {
+      "source": "state:reading_the_deep",
+      "target": "predicteur:concept:vecteurs_sismiques",
+      "type": "depends_on",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "state:grief_silence",
+      "target": "base:memory:losing_a_contact_partner",
+      "type": "reminds_of",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "state:grief_silence",
+      "target": "concept:phantom_contact",
+      "type": "activates",
+      "weight": 0.85,
+      "affinity": 0.85
+    },
+    {
+      "source": "explosiviste:concept:timing_sismique",
+      "target": "process:read_through_feet",
+      "type": "associates",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "predicteur:concept:tremens_prophetique",
+      "target": "process:vomit_and_read",
+      "type": "causes",
+      "weight": 0.9,
+      "affinity": 0.9
+    },
+    {
+      "source": "base:value:contact_richesse",
+      "target": "desire:one_last_contact",
+      "type": "supports",
+      "weight": 0.85,
+      "affinity": 0.9
+    },
+    {
+      "source": "base:value:collective_survival",
+      "target": "process:inherit_leadership",
+      "type": "activates",
+      "weight": 0.75,
+      "affinity": 0.7
+    },
+    {
+      "source": "base:process:respond_to_distress",
+      "target": "memory:enama_calibration",
+      "type": "reminds_of",
+      "weight": 0.7,
+      "affinity": 0.7
+    }
+  ]
+}

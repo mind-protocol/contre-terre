@@ -1,0 +1,322 @@
+{
+  "cluster_id": "metier_meteorologue",
+  "description": "Météorologue — the skin that reads the air. On Contre-Terre, weather is seismic weather: atmospheric pressure shifts with tectonic movement, underground air carries toxic gases, temperature gradients betray approaching lava. The Météorologue reads air pressure, temperature, gas composition, and air currents — not with instruments but with their skin, their lungs, their sinuses. Underground, where the sky does not exist, the air IS the sky. The Météorologue is the one who says 'we can breathe here' or 'we cannot.' Everyone breathes because of them.",
+  "skill_levels": {
+    "novice": "Can detect obvious temperature changes and strong sulfur smells. Knows the basic danger signs: rotten-egg smell means sulfur, headache means CO2, rising heat means lava proximity. Relies on conscious analysis — 'the air feels warmer, therefore...'",
+    "practitioner": "Skin sensitivity developed to detect sub-degree temperature changes. Can feel drafts through stone walls and infer passage topology. Detects CO2 build-up through subtle dizziness before concentration reaches dangerous levels. Begins to read the air pre-consciously — the body reacts before the mind formulates the thought.",
+    "master": "The skin is a barometer. The master Météorologue feels pressure changes that precede seismic events by minutes — the air compresses before the rock moves, always. They can map unseen passages by feeling air currents through solid walls. Their skin reads the volcano's breathing: inhalation (pressure drop, air pulled inward) means the volcano is expanding; exhalation (pressure rise, air pushed out) means compression, danger. Sihle carries this skill as a secondary métier — his skin knows things his sismographe cannot hear."
+  },
+  "nodes": [
+    {
+      "id": "concept:atmospheric_pressure",
+      "type": "concept",
+      "content": "Atmospheric pressure underground is not weather — it is geology in gaseous form. When tectonic plates shift, they compress or expand the cavities between them. Compressed cavities push air out; expanding cavities pull air in. The Météorologue reads these pressure changes the way the Écouteur reads seismic frequencies: as data about what the rock is doing. A pressure drop means the rock is opening somewhere — a new cavity, a widening fissure, a collapsing wall that creates negative space. A pressure rise means compression — the rock is closing, squeezing air ahead of it like a piston. Sustained pressure rise is the most dangerous signal: it means the space you're in is shrinking.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.75,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "concept:gas_detection",
+      "type": "concept",
+      "content": "The invisible killers. CO2 is odorless, colorless, heavier than air — it pools in depressions, in the bottoms of cavities, in any low point. A person walking into a CO2 pocket feels drowsy, then euphoric, then unconscious, then dead. The Météorologue detects CO2 by its secondary effects: the slight headache at 2% concentration, the tingling skin at 3%, the racing heart at 4%. Sulfur is easier — the rotten-egg smell of hydrogen sulfide is unmistakable, but by the time you smell it strongly, your olfactory nerve is already being damaged. Volcanic gases also include SO2 (burns the lungs), radon (undetectable without instruments), and methane (explosive). The Météorologue carries no gas detector. Their body IS the detector.",
+      "weight": 0.9,
+      "stability": 0.82,
+      "energy": 0.85,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.92
+    },
+    {
+      "id": "concept:temperature_gradient",
+      "type": "concept",
+      "content": "Heat means lava is close. The temperature gradient underground follows a simple rule: the deeper you go, the hotter it gets — roughly 25 degrees per kilometer in normal geology, but in an active volcano, the gradient is chaotic. Lava tubes can bring 1200-degree heat to within meters of a passable corridor. The Météorologue reads the gradient through their skin: the face feels the radiant heat from walls, the feet feel floor temperature through boot soles (or bare feet, for the most sensitive), the hands feel the air temperature by holding them still and noting the differential between palm and back-of-hand. A sudden spike in gradient — warm becoming hot over a few meters — means magma is near. The team turns around, or finds another way.",
+      "weight": 0.88,
+      "stability": 0.8,
+      "energy": 0.78,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.8,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "concept:air_current_reading",
+      "type": "concept",
+      "content": "Drafts reveal topology. Underground, air moves through passages the way water moves through pipes — it follows the path of least resistance, accelerates through narrow points, stalls in dead ends. The Météorologue feels these currents on their skin and reads them like a map: a draft from the left means a passage connects to a larger space in that direction. A warm draft means the passage leads deeper (toward heat). A cold draft means the passage leads toward the surface or a large open cavity. No draft at all means a dead end — or worse, a sealed space where the air is stale and may be toxic. The most skilled Météorologues can feel air currents through solid walls — micro-fissures in rock that let air seep, invisible to the eye but legible to the skin.",
+      "weight": 0.85,
+      "stability": 0.78,
+      "energy": 0.72,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.78,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "value:air_is_warning",
+      "type": "value",
+      "content": "The first signal is always in the air. Before the rock moves, the air moves. Before the lava arrives, the heat arrives. Before the ceiling collapses, the pressure changes. The air is the volcano's exhaled breath — read it and you read the volcano's intentions. This is the Météorologue's deepest conviction: the air does not lie, and it always speaks first. The rock is the volcano's body; the air is its voice. The Écouteur listens to the body. The Météorologue listens to the voice.",
+      "weight": 0.9,
+      "stability": 0.88,
+      "energy": 0.7,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "value:preventive_detection",
+      "type": "value",
+      "content": "Catch it before it kills. The Météorologue's ethic is prevention, not reaction. By the time the CO2 knocks someone unconscious, the Météorologue has failed. By the time the sulfur burns someone's lungs, the Météorologue has failed. The entire value of the role is in the early warning — the moment between 'the air is changing' and 'the air is killing.' This window is sometimes minutes, sometimes seconds, sometimes nonexistent. The Météorologue lives in that window and tries to keep everyone else out of it.",
+      "weight": 0.88,
+      "stability": 0.85,
+      "energy": 0.8,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "process:feel_air",
+      "type": "process",
+      "content": "Skin reads temperature and humidity changes. The physical act: the Météorologue stops, stands still, raises one arm with the hand open. The exposed skin of the forearm and palm becomes a sensor array. Temperature differentials between the hand's front and back indicate radiant heat direction. Humidity changes register as a faint tackiness on the skin — humid air means water nearby, which can mean either safety (drinkable water) or danger (flooding, unstable walls). The Météorologue moves slowly, hand raised, turning in a circle — a human weather vane mapping the thermal and humid landscape of the space. Thabo does this with his blackened cloth held at arm's length, but the principle is the same: expose surface area to the air and read what it tells you.",
+      "weight": 0.88,
+      "stability": 0.82,
+      "energy": 0.72,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.85
+    },
+    {
+      "id": "process:detect_gas",
+      "type": "process",
+      "content": "Smell and skin sensitivity for sulfur and CO2. The Météorologue enters a new space nose-first — literally. A careful sniff at the threshold: sulfur registers as a sharp prickle in the nostrils before the smell fully forms. CO2 registers as a faint fizzy sensation on wet skin (it forms carbonic acid on moisture). The tongue detects CO2 as a sour taste. The Météorologue's hands are often damp — they lick their palms not from nervousness but to create moisture sensors for CO2 detection. For deep pockets where gas has settled, the protocol is to lower something — a damp cloth, an open palm — to the floor level and check. If the cloth comes back with a sulfur stain, or if the skin tingles at floor level but not at head height, the gas is pooling. The team walks through quickly, or not at all.",
+      "weight": 0.9,
+      "stability": 0.8,
+      "energy": 0.82,
+      "self_relevance": 0.88,
+      "drive_affinity": 0.85,
+      "goal_relevance": 0.9
+    },
+    {
+      "id": "process:predict_pressure_change",
+      "type": "process",
+      "content": "Barometric perception — reading the pressure through the body. No barometer underground. The Météorologue reads pressure through their sinuses, their inner ears, their joints. A pressure drop: sinuses clear slightly, ears feel a faint 'opening,' breathing becomes microscopically easier. A pressure rise: sinuses tighten, ears feel stuffed, a sense of compression in the chest. These are sub-threshold sensations — most people would not notice them. The trained Météorologue notices nothing else. They track pressure trends over hours: steady, rising, falling, oscillating. Oscillating pressure — rapid alternation between rise and fall — is the most dangerous pattern: it means the rock around them is breathing, expanding and contracting in seismic rhythm, and the space they occupy is a lung.",
+      "weight": 0.86,
+      "stability": 0.75,
+      "energy": 0.8,
+      "self_relevance": 0.82,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "process:warn_team",
+      "type": "process",
+      "content": "Contact for 'bad air' — specific gesture: flat hand, push away. The Météorologue's warning Contact is the most urgent in the team's vocabulary. Flat hand, palm forward, pushed toward the person: STOP. Do not enter this space. The air is wrong. Variations: flat hand pushed down = gas is pooling at floor level, stay high. Flat hand pushed up = gas is rising, get low. Flat hand circled = ventilation needed, fan the air. Two flat hands crossed = sealed space, no air exchange, limited time. These gestures bypass the two-finger data-Contact of the Écouteur — the Météorologue communicates in commands, not data. When the air is bad, there is no time for numbers.",
+      "weight": 0.85,
+      "stability": 0.85,
+      "energy": 0.78,
+      "self_relevance": 0.8,
+      "drive_affinity": 0.82,
+      "goal_relevance": 0.88
+    },
+    {
+      "id": "desire:keep_the_air_safe",
+      "type": "desire",
+      "content": "Everyone breathes because of you. The Météorologue's deepest motivation is not glory or vindication — it is the quiet, constant imperative of keeping six other people alive in an atmosphere that wants to kill them. Every breath the team takes underground is a breath the Météorologue has implicitly approved: the air here is safe, for now, continue. This responsibility is invisible — no one thanks the Météorologue for breathable air the way no one thanks gravity for holding them down. But the Météorologue knows. They know that every room they enter, they enter first. Every passage they smell, they smell for seven. The weight of seven lungs rests on one nose, one skin, one set of sinuses.",
+      "weight": 0.92,
+      "stability": 0.85,
+      "energy": 0.88,
+      "self_relevance": 0.95,
+      "drive_affinity": 0.92,
+      "goal_relevance": 0.95
+    },
+    {
+      "id": "narrative:air_reads_tomorrow",
+      "type": "narrative",
+      "content": "The air changes before the ground does. Always. If you learn to read the air, you're reading tomorrow's earthquake today. The ground is slow — rock resists, bends, stores stress for hours or days before releasing it. But the air is fast. The air compresses instantly. The air heats instantly. A pressure spike hits your sinuses three, four, five minutes before the seismic wave hits your feet. I've felt it. A tightening behind the eyes, a fullness in the chest, and I know — not think, not suspect, KNOW — that in a few minutes, the ground will move. The Écouteur will hear it when it arrives. I felt it when it decided to come. The air is the future tense of the rock.",
+      "weight": 0.9,
+      "stability": 0.78,
+      "energy": 0.88,
+      "self_relevance": 0.92,
+      "drive_affinity": 0.88,
+      "goal_relevance": 0.82
+    },
+    {
+      "id": "state:reading",
+      "type": "state",
+      "content": "Active atmospheric sensing. The Météorologue is in full sensory deployment: arm raised, cloth extended (if Thabo), skin exposed, nostrils flared, breathing shallow and controlled. In this state, the Météorologue is processing multiple channels simultaneously — temperature, humidity, pressure, gas presence, air movement. They are silent, still, and completely absorbed. Interrupting a Météorologue in reading state is like interrupting a prayer — the concentration breaks, the channels scatter, and the atmospheric picture must be rebuilt from scratch. The team knows to wait.",
+      "weight": 0.8,
+      "stability": 0.82,
+      "energy": 0.7,
+      "self_relevance": 0.78,
+      "drive_affinity": 0.75,
+      "goal_relevance": 0.78
+    },
+    {
+      "id": "state:alarm",
+      "type": "state",
+      "content": "Dangerous atmosphere detected. The Météorologue's body has found something wrong: gas, heat spike, pressure collapse. In alarm state, all subtlety vanishes — the Contact becomes immediate, physical, commanding. The flat-hand push. The voice, if necessary (and underground, voice means extreme danger). The Météorologue in alarm overrides all other authority — even Senzo defers to the Météorologue when the air is bad. This state is rare and absolute: when the Météorologue says stop, the team stops. No discussion. No data review. The air does not negotiate.",
+      "weight": 0.85,
+      "stability": 0.7,
+      "energy": 0.95,
+      "self_relevance": 0.85,
+      "drive_affinity": 0.9,
+      "goal_relevance": 0.92
+    }
+  ],
+  "links": [
+    {
+      "source": "concept:atmospheric_pressure",
+      "target": "process:predict_pressure_change",
+      "type": "activates",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:atmospheric_pressure",
+      "target": "value:air_is_warning",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:gas_detection",
+      "target": "process:detect_gas",
+      "type": "activates",
+      "weight": 0.95
+    },
+    {
+      "source": "concept:gas_detection",
+      "target": "desire:keep_the_air_safe",
+      "type": "projects_toward",
+      "weight": 0.88
+    },
+    {
+      "source": "concept:temperature_gradient",
+      "target": "process:feel_air",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "concept:temperature_gradient",
+      "target": "concept:atmospheric_pressure",
+      "type": "associates",
+      "weight": 0.78,
+      "affinity": 0.8
+    },
+    {
+      "source": "concept:air_current_reading",
+      "target": "process:feel_air",
+      "type": "activates",
+      "weight": 0.9
+    },
+    {
+      "source": "concept:air_current_reading",
+      "target": "concept:gas_detection",
+      "type": "supports",
+      "weight": 0.72,
+      "affinity": 0.75
+    },
+    {
+      "source": "value:air_is_warning",
+      "target": "narrative:air_reads_tomorrow",
+      "type": "supports",
+      "weight": 0.92
+    },
+    {
+      "source": "value:air_is_warning",
+      "target": "value:preventive_detection",
+      "type": "supports",
+      "weight": 0.88
+    },
+    {
+      "source": "value:preventive_detection",
+      "target": "desire:keep_the_air_safe",
+      "type": "projects_toward",
+      "weight": 0.9
+    },
+    {
+      "source": "value:preventive_detection",
+      "target": "process:warn_team",
+      "type": "activates",
+      "weight": 0.85
+    },
+    {
+      "source": "process:feel_air",
+      "target": "process:predict_pressure_change",
+      "type": "supports",
+      "weight": 0.82
+    },
+    {
+      "source": "process:detect_gas",
+      "target": "process:warn_team",
+      "type": "causes",
+      "weight": 0.9
+    },
+    {
+      "source": "process:predict_pressure_change",
+      "target": "narrative:air_reads_tomorrow",
+      "type": "reminds_of",
+      "weight": 0.85,
+      "affinity": 0.88
+    },
+    {
+      "source": "process:warn_team",
+      "target": "state:alarm",
+      "type": "activates",
+      "weight": 0.88
+    },
+    {
+      "source": "desire:keep_the_air_safe",
+      "target": "process:feel_air",
+      "type": "projects_toward",
+      "weight": 0.85
+    },
+    {
+      "source": "desire:keep_the_air_safe",
+      "target": "process:detect_gas",
+      "type": "projects_toward",
+      "weight": 0.88
+    },
+    {
+      "source": "narrative:air_reads_tomorrow",
+      "target": "concept:atmospheric_pressure",
+      "type": "reminds_of",
+      "weight": 0.82,
+      "affinity": 0.85
+    },
+    {
+      "source": "state:reading",
+      "target": "process:feel_air",
+      "type": "contains",
+      "weight": 0.9
+    },
+    {
+      "source": "state:reading",
+      "target": "process:detect_gas",
+      "type": "contains",
+      "weight": 0.85
+    },
+    {
+      "source": "state:reading",
+      "target": "state:alarm",
+      "type": "causes",
+      "weight": 0.6
+    },
+    {
+      "source": "state:alarm",
+      "target": "process:warn_team",
+      "type": "activates",
+      "weight": 0.95
+    },
+    {
+      "source": "state:alarm",
+      "target": "desire:keep_the_air_safe",
+      "type": "activates",
+      "weight": 0.92
+    },
+    {
+      "source": "concept:gas_detection",
+      "target": "concept:temperature_gradient",
+      "type": "associates",
+      "weight": 0.7,
+      "affinity": 0.72
+    }
+  ]
+}
