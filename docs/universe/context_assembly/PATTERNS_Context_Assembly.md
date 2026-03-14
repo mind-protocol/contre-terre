@@ -102,4 +102,29 @@ Le mood n'est pas un label Ekman -- c'est un etat corporel que le LLM traduit en
 
 ---
 
-*Decisions tracables dans : `poc_mind_context_assembly.py` (Venezia), `OBJECTIVES_Context_Assembly.md`, `CONTACT.md`, `METIERS.md`*
+## P7 : Prompt Maitre Multi-Force avec Never-Stop
+
+**Decision :** Les sessions Codex paralleles suivent un prompt maitre unique (template), avec une variable `Force [N]` injectee par l'orchestrateur.
+
+**Pourquoi :** Le travail distribue en 5 Forces doit garder un protocole identique pour eviter la derive entre onglets. Un template canonique garantit que chaque instance suit le meme ordre de chargement de contexte, la meme logique de planification, et les memes regles d'execution. On remplace uniquement le numero de Force, pas la procedure.
+
+**Structure imposee du prompt maitre :**
+- **Phase 1 -- Context Cascade** : lecture sequentielle des manifestos, documents fondamentaux (`FRAMEWORK`, `SYSTEM`, `STYLE`, `PRINCIPLES`), doc chain module, puis `SYNC_Project_State.md`.
+- **Phase 2 -- Planification** : extraction explicite des taches assignees a la Force depuis la section MASTER TODO, avec sortie en terminal sous marqueur `@mind:TODO`.
+- **Phase 3 -- Execution** : boucle tache par tache (skill/agent approprie, execution, verification, commit), puis iteration jusqu'a zero tache.
+
+**Règle critique : Never-Stop Protocol**
+- En cas d'ambiguite ou de blocage, l'agent n'attend pas.
+- Il emet `@mind:escalation`, puis immediatement `@mind:proposition`.
+- Il applique sa proposition sans pause pour maintenir le flux de livraison.
+
+**Consequence :** L'orchestration devient observable et cadencee : chaque Force avance en continu, declare ses hypotheses explicitement, et laisse une trace granulaire via commits intermediaires.
+
+**Canon operationnel associe :**
+- Template canonique stocke dans `.mind/docs/PROMPT_MAITRE_5_FORCE_SPRINT.md`
+- Checklist d'execution stockee dans `.mind/docs/FORCE_EXECUTION_CHECKLIST.md`
+- Les taches d'orchestration vivent dans `MASTER TODO` de `.mind/state/SYNC_Project_State.md`
+
+---
+
+*Decisions tracables dans : `poc_mind_context_assembly.py` (Venezia), `OBJECTIVES_Context_Assembly.md`, `CONTACT.md`, `METIERS.md`, `.mind/docs/PROMPT_MAITRE_5_FORCE_SPRINT.md`*

@@ -32,6 +32,42 @@ L'ordre est volontaire : la traduction semantique d'abord (l'arrivant parle dans
 
 ---
 
+
+## A-1 : orchestrate_force_sprint(force_id)
+
+**Objectif :** Transformer le prompt maitre en execution operationnelle sans divergence entre Forces.
+
+```python
+def orchestrate_force_sprint(force_id):
+    # 1) Context Cascade
+    read_manifestos()
+    read_core_docs(["FRAMEWORK.md", "SYSTEM.md", "STYLE.md", "PRINCIPLES.md"])
+    read_module_doc_chain("context_assembly")
+
+    # 2) Extraction TODO force
+    sync = read_sync_project_state()
+    force_todos = extract_force_todos(sync, force_id=force_id)
+    emit_marker("@mind:TODO", force_todos)
+
+    # 3) Boucle d'execution
+    for task in force_todos:
+        load_relevant_skill_and_actor(task)
+        run_task(task)
+        verify_task(task)
+        git_commit(task.commit_message)
+
+    return {"status": "done", "force": force_id, "completed": len(force_todos)}
+```
+
+**Gestion du blocage (Never-Stop) :**
+- Si une decision manque: `@mind:escalation`
+- Puis proposition executable: `@mind:proposition`
+- Puis execution immediate de la proposition
+
+**Sortie attendue :** Une liste de commits atomiques et une todo force vide.
+
+---
+
 ## A0 : translate_arrivant_speech(visitor_input, citizen_brain_graph)
 
 **Entree :**

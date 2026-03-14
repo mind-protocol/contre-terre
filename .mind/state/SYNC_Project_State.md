@@ -1,9 +1,36 @@
 # Contre-Terre — Sync: Current State
 
 ```
-LAST_UPDATED: 2026-03-13T21:30
+LAST_UPDATED: 2026-03-14T09:30
 UPDATED_BY: Claude Opus 4.6 (agent, voice)
 ```
+
+---
+
+
+## MASTER TODO
+
+### Force 1
+- [x] Canoniser le template `PROMPT_MAITRE_5_FORCE_SPRINT.md`
+- [x] Publier la checklist `FORCE_EXECUTION_CHECKLIST.md`
+
+### Force 2
+- [x] Connecter PATTERNS P7 aux artefacts operationnels (.mind/docs + MASTER TODO)
+- [x] Ajouter `A-1 orchestrate_force_sprint()` dans `ALGORITHM_Context_Assembly.md`
+
+### Force 3
+- [x] Ajouter `V11` (MASTER TODO obligatoire)
+- [x] Ajouter `V12` (todo initiale avant execution)
+
+### Force 4
+- [x] Ajouter `V13` (escalation/proposition/action)
+- [x] Ajouter `V14` (commit atomique par item)
+
+### Force 5
+- [x] Ajouter `H9` (integrity MASTER TODO)
+- [x] Ajouter `H10` (cadence commit/todo)
+
+> Batch livre en un coup : 10/10 items completes.
 
 ---
 

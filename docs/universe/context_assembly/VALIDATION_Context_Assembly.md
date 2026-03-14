@@ -89,3 +89,29 @@
 ---
 
 *Invariants derives de : `OBJECTIVES_Context_Assembly.md`, `PATTERNS_Context_Assembly.md`, `ALGORITHM_Context_Assembly.md`, `CONTACT.md`, `METIERS.md`*
+
+---
+
+### V11 : MASTER TODO doit exister et etre assignable par Force
+
+**Regle :** Le fichier `.mind/state/SYNC_Project_State.md` contient une section `MASTER TODO` avec des items explicitement assignes (`Force 1` a `Force 5`). Sans cette section, la phase de planification du prompt maitre est invalide.
+
+**Test :** Verifier la presence du header `## MASTER TODO` et d'au moins un item par Force.
+
+### V12 : Todo initiale publiee avant execution
+
+**Regle :** Une session Force ne commence aucune modification tant que la `@mind:TODO` initiale n'a pas ete emise depuis `MASTER TODO`.
+
+**Test :** Verifier l'ordre des traces: `@mind:TODO` precede la premiere modification de fichiers.
+
+### V13 : Escalade active en cas de blocage
+
+**Regle :** En cas d'ambiguite bloquante, la session doit emettre la paire `@mind:escalation` + `@mind:proposition` puis continuer. L'absence de ces marqueurs en situation de blocage viole le protocole.
+
+**Test :** Simuler une ambiguite de spec et verifier la sequence des deux marqueurs suivie d'une action.
+
+### V14 : Commit atomique par item TODO
+
+**Regle :** Chaque item execute de la todo Force produit un commit autonome. Pas de lot opaque regroupant des taches heterogenes.
+
+**Test :** Comparer nombre d'items coches vs nombre de commits lies au sprint Force. Les deltas doivent etre explicables.
