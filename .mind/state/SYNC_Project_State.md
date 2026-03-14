@@ -464,3 +464,15 @@ Contre-Terre est officiellement le 3e univers des Cities of Light (après Venezi
 **Steps completed:** ecosystem, capabilities, runtime, ai_configs, skills, database_config, database_setup, file_ingest, capabilities_graph, env_example, mcp_config, gitignore, overview, embeddings, health_checks
 
 ---
+
+## Init: 2026-03-14 19:47
+
+| Setting | Value |
+|---------|-------|
+| Version | v0.0.0 |
+| Database | falkordb |
+| Graph | contre_terre |
+
+**Steps completed:** ecosystem, capabilities, runtime, ai_configs, skills, database_config, database_setup, file_ingest, capabilities_graph, env_example, mcp_config, gitignore, overview, embeddings, health_checks
+
+---

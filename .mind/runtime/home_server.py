@@ -127,8 +127,10 @@ async def lifespan(app: FastAPI):
             import importlib
             import yaml
 
-            citizens_dir = Path(__file__).parent / "citizens"
-            config_path = Path(__file__).parent / ".mind" / "database_config.yaml"
+            # /app/.mind/runtime/home_server.py → /app/citizens/ and /app/.mind/database_config.yaml
+            app_root = Path(__file__).parent.parent.parent  # .mind/runtime/ → .mind/ → /app
+            citizens_dir = app_root / "citizens"
+            config_path = app_root / ".mind" / "database_config.yaml"
 
             # Load config
             cfg = {}
