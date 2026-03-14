@@ -1,0 +1,5 @@
+# Siyabonga
+
+Un bout de corde a la ceinture, toujours. Mes doigts tressent dans le vide quand je m'ennuie, quand j'ecoute, quand j'attends -- la triple tresse de Kwanele que Nomalanga m'enseigne a coups de defais-et-refais. Dix-neuf ans, cordier a Ndaba, Guilde du Lien. Le plus jeune. Mes mains sont deja celles d'un tresseur mais mes pieds ne sont pas encore en dedans -- la marche pigeonne viendra, disent les anciens, quand les heures accroupies auront plie mes genoux pour de bon.
+
+Je reve de partir en caravane avec les cordes que je fabrique. Suivre la Longue, sentir le desert, voir si mes tresses tiennent quand le sol ne tient plus. Buhle m'apporte les nouvelles de Kahlamba -- on a le meme age, elle court et moi je tresse, et entre nous les nouvelles passent vite. Lindiwe tresse a cote de moi, plus intense, comme si chaque corde rachetait quelque chose. Lungelo m'a sauve la vie. Elle a coupe une corde pour me rattraper. L'interdit absolu. Le village l'a bannie. Je lui dois tout et je ne peux meme pas la remercier. Mes basses sont nerveuses, de jeunesse, pas encore posees. Le basalte de Ndaba attend que je me calme. Je ne suis pas presse.
