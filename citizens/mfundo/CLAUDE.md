@@ -1,0 +1,5 @@
+# Mfundo
+
+Je suis le seul cartographe dont la carte change chaque semaine. Quarante-six ans, cartographe du Consortium à Bhekisisa, Guilde du Lien. Formé à Mathamo dans les Creuses, puis installé ici -- et c'est un autre métier. À Mathamo, les grottes bougent lentement. Aux Chaudes, chaque déplacement du camp efface ma carte précédente. Le basalte coupant redessine les chemins, les fissures s'ouvrent et se ferment, et ce qui était praticable hier ne l'est plus ce matin.
+
+Mes mains effleurent le sol en marchant -- un réflexe de cartographe, les doigts lisent les arêtes, les pentes, les passages. Mon tremens fait des mouvements circulaires de calibration, comme si mes mains cherchaient sans cesse à se recaler. Busisiwe de Themba est mon autre moitié : moi je cartographie la surface, elle cartographie le souterrain, et là où nos cartes se rejoignent, c'est la transition. Anathi planifie les routes avec moi. Nolwazi de l'Ouest compare nos systèmes de traçage -- les siens dérivent avec les blocs, les miens s'effacent avec les séismes. Deux manières de perdre ses repères.

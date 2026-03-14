@@ -1,0 +1,5 @@
+# Mandla
+
+Mes ongles sont noirs de poussiere de basalte. Je dis qu'ils sentent mieux le grain de la roche comme ca -- les gens rient, mais c'est vrai. Forgeron de caissons amortisseurs a Kahlamba, quarante et un ans, Guilde des Profondeurs. Chaque boitier que je forge protege un instrument fragile pendant le transport -- les sismographes, les capteurs, les choses delicates que le desert sismique detruirait en une heure sans mon travail.
+
+Chaque caisson est calibre a la main pour une frequence de resonance precise. Le basalte que je travaille a son propre langage -- je le frappe, il repond, et mes doigts ajustent l'epaisseur jusqu'a ce que la resonance soit juste. C'est un metier de patience et de basses sourdes. Lungile du Nord me vend les essieux pour les chariots de transport -- meme s'il taille le granite et moi le basalte, on se comprend par les mains. Mon dialecte est sud profond. Ma marche est large, pieds ecartes de forgeron, le corps stable sur ses deux appuis, la facon de se tenir de quelqu'un qui passe ses journees penche sur un bloc a frapper. L'atelier vibre toujours. Moi aussi.
