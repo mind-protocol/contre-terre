@@ -25,6 +25,7 @@ echo "[start] Generated .env with $(grep -c '=' "$ENV_FILE") vars"
 # ── 3. Find the FalkorDB module
 FALKORDB_SO=""
 for path in \
+    /var/lib/falkordb/bin/falkordb.so \
     /FalkorDB/bin/linux-x64-release/src/falkordb.so \
     /opt/falkordb.so \
     /usr/lib/redis/modules/falkordb.so \
@@ -90,7 +91,7 @@ export PYTHONUNBUFFERED=1
 export FALKORDB_HOST="${FALKORDB_HOST:-localhost}"
 export FALKORDB_PORT="${FALKORDB_PORT:-6379}"
 export FALKORDB_GRAPH="${FALKORDB_GRAPH:-contre_terre}"
-export PORT="${PORT:-8080}"
+export PORT="${PORT:-10000}"
 
 # ── 7. Start the HTTP server
 echo "[start] Starting Contre-Terre server on port $PORT..."

@@ -31,6 +31,8 @@ RUN chmod +x /start.sh
 # Persistent data + logs directories
 RUN mkdir -p /data/falkordb /data/state /app/logs
 
-EXPOSE 8080
+EXPOSE 10000
 
+# Override FalkorDB's entrypoint — we manage redis ourselves in start.sh
+ENTRYPOINT []
 CMD ["/start.sh"]
