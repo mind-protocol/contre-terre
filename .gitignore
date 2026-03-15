@@ -2,6 +2,12 @@
 .mind/runtime/
 .env
 
+# Keys (private keys, wallets)
+.keys/
+
+# Python cache
+__pycache__/
+
 # Export data (but keep seed and brain data)
 data/
 !data/seed/
