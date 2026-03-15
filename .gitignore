@@ -12,3 +12,8 @@ __pycache__/
 data/
 !data/seed/
 !data/brains/
+
+# mind agent working directories
+.mind/work/
+.mind/traces/
+.mcp.json
