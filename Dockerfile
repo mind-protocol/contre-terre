@@ -15,7 +15,6 @@ COPY data/citizens.json /app/data/citizens.json
 COPY world-manifest.json /app/world-manifest.json
 COPY server.py /app/server.py
 COPY seed_contre_terre_graph.py /app/seed_contre_terre_graph.py
-COPY citizens/ /app/citizens/
 COPY .mind/ /app/.mind/
 
 EXPOSE 10000
